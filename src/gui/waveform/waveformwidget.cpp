@@ -84,6 +84,7 @@ WaveformWidget::WaveformWidget(QWidget *parent)
 	m_widgetLayout->setSpacing(0);
 
 	m_waveformGraphics->installEventFilter(this);
+	connect(m_waveformGraphics, &QObject::destroyed, this, [this](){ m_waveformGraphics = nullptr; });
 	m_widgetLayout->addWidget(m_waveformGraphics);
 
 	connect(m_wfBuffer->zoomBuffer(), &ZoomBuffer::zoomedBufferReady, m_waveformGraphics, QOverload<>::of(&QWidget::update));
