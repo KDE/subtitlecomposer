@@ -94,7 +94,7 @@ VideoWidget::setVideoResolution(int width, int height, double dar)
 	m_videoHeight = height;
 	m_videoDAR = dar > 0.0 ? dar : (double)width / height;
 
-	updateVideoLayerGeometry();
+	QMetaObject::invokeMethod(this, &VideoWidget::updateVideoLayerGeometry, Qt::QueuedConnection);
 }
 
 void
@@ -107,7 +107,7 @@ VideoWidget::setMouseTracking(bool enable)
 void
 VideoWidget::resizeEvent(QResizeEvent *)
 {
-	updateVideoLayerGeometry();
+	QMetaObject::invokeMethod(this, &VideoWidget::updateVideoLayerGeometry, Qt::QueuedConnection);
 }
 
 void
@@ -160,7 +160,7 @@ VideoWidget::desktopAspectRatio()
 void
 VideoWidget::updateVideoLayerGeometry()
 {
-	QSize frameSize = size();
+	const QSize frameSize = size();
 
 	int videoLayerX = 0;
 	int videoLayerY = 0;

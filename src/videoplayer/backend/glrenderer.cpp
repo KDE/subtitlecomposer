@@ -20,13 +20,13 @@
 #include "glrenderer.h"
 
 #include <QOpenGLShader>
-#include <QMutexLocker>
 #include <QStringBuilder>
 
 #include "videoplayer/backend/ffplayer.h"
 #include "videoplayer/videoplayer.h"
 #include "videoplayer/subtitletextoverlay.h"
 #include "videoplayer/backend/glcolorspace.h"
+#include "videoplayer/backend/renderthread.h"
 
 extern "C" {
 #include "libavutil/pixdesc.h"
@@ -55,6 +55,7 @@ GLRenderer::GLRenderer(QWidget *parent)
 	: QOpenGLWidget(parent),
 	  m_overlay(nullptr),
 	  m_mmOvr(nullptr),
+	  m_renderThread(nullptr),
 	  m_bufYUV(nullptr),
 	  m_mmYUV(nullptr),
 	  m_bufSize(0),
@@ -356,10 +357,15 @@ GLRenderer::initShader()
 }
 
 void
+GLRenderer::setRenderThread(RenderThread *thread)
+{
+	m_renderThread = thread;
+	update();
+}
+
+void
 GLRenderer::initializeGL()
 {
-	QMutexLocker l(&m_texMutex);
-
 	initializeOpenGLFunctions();
 	qDebug() << "OpenGL version: " << reinterpret_cast<const char *>(glGetString(GL_VERSION));
 	qDebug() << "GLSL version: " << reinterpret_cast<const char *>(glGetString(GL_SHADING_LANGUAGE_VERSION));
@@ -423,7 +429,6 @@ GLRenderer::initializeGL()
 void
 GLRenderer::resizeGL(int width, int height)
 {
-	QMutexLocker l(&m_texMutex);
 	asGL(glViewport(0, 0, width, height));
 	m_vpWidth = width;
 	m_vpHeight = height;
@@ -431,23 +436,101 @@ GLRenderer::resizeGL(int width, int height)
 	update();
 }
 
+bool
+GLRenderer::validTextureFormat(const AVPixFmtDescriptor *fd)
+{
+	const uint64_t &f = fd->flags;
+	if((f & AV_PIX_FMT_FLAG_BITSTREAM)) {
+		qCritical("uploadTexture() failed: unsupported frame format [%s] - bitstream", fd->name);
+		return false;
+	}
+	if((f & AV_PIX_FMT_FLAG_PAL)) {
+		qCritical("uploadTexture() failed: unsupported frame format [%s] - palette", fd->name);
+		return false;
+	}
+	if((f & AV_PIX_FMT_FLAG_BE)) {
+		qCritical("uploadTexture() failed: unsupported frame format [%s] - bigendian", fd->name);
+		return false;
+	}
+
+	m_isYUV = !(f & AV_PIX_FMT_FLAG_RGB);
+	m_isPlanar = f & AV_PIX_FMT_FLAG_PLANAR;
+	if(m_isPlanar && m_isYUV) {
+		const quint8 b = fd->comp[0].depth > 8 ? 2 : 1;
+		if(fd->comp[0].step != b || fd->comp[1].step != b || fd->comp[2].step != b) {
+			qCritical("validTextureFormat() failed: unsupported plane step [%d, %d, %d] %s",
+				   fd->comp[0].step, fd->comp[1].step, fd->comp[2].step, fd->name);
+			return false;
+		}
+		if(fd->comp[0].offset || fd->comp[1].offset || fd->comp[2].offset) {
+			qCritical("validTextureFormat() failed: unsupported plane offset [%d, %d, %d] %s",
+				   fd->comp[0].offset, fd->comp[1].offset, fd->comp[2].offset, fd->name);
+			return false;
+		}
+		if(fd->comp[0].shift || fd->comp[1].shift || fd->comp[2].shift) {
+			qCritical("validTextureFormat() failed: unsupported plane shift [%d, %d, %d] %s",
+				   fd->comp[0].shift, fd->comp[1].shift, fd->comp[2].shift, fd->name);
+			return false;
+		}
+		if(fd->comp[0].depth != fd->comp[1].depth || fd->comp[0].depth != fd->comp[2].depth) {
+			qCritical("validTextureFormat() failed: unsupported plane depths [%d, %d, %d] %s",
+				   fd->comp[0].depth, fd->comp[1].depth, fd->comp[2].depth, fd->name);
+			return false;
+		}
+		if(fd->nb_components < 3) {
+			qCritical("validTextureFormat() failed: unsupported plane count [%d] %s",
+					  fd->nb_components, fd->name);
+			return false;
+		}
+	} else {
+		qCritical("validTextureFormat() failed: unsupported frame format [%s]", fd->name);
+		return false;
+	}
+	return true;
+}
+
 void
 GLRenderer::paintGL()
 {
-	QMutexLocker l(&m_texMutex);
-
 	glClear(GL_COLOR_BUFFER_BIT);
+
+	if(!m_renderThread)
+		return;
+
+	Frame *f = m_renderThread->videoFrame();
+	if(!f)
+		return;
+	const AVPixFmtDescriptor *fd = av_pix_fmt_desc_get(AVPixelFormat(f->format));
+	if(m_csNeedInit && !validTextureFormat(fd))
+		return;
+
+	AVFrame *frame = f->frame;
+	if(m_isPlanar && m_isYUV) {
+		if(!frame->linesize[0] || !frame->linesize[1] || !frame->linesize[2]) {
+			qCritical("uploadTexture() failed: invalid linesize [%d, %d, %d]",
+				   frame->linesize[0], frame->linesize[1], frame->linesize[2]);
+			return;
+		}
+
+		setFrameFormat(frame->width, frame->height,
+			fd->comp[0].depth, fd->log2_chroma_w, fd->log2_chroma_h);
+
+		setColorspace(frame);
+
+		if(m_texNeedInit)
+			asGL(glPixelStorei(GL_UNPACK_ALIGNMENT, m_bufWidth % 4 == 0 ? 4 : 1));
+	}
 
 	if(!m_bufYUV)
 		return;
 
-	if(m_texNeedInit) {
-		asGL(glPixelStorei(GL_UNPACK_ALIGNMENT, m_bufWidth % 4 == 0 ? 4 : 1));
-	}
 	if(m_csNeedInit)
 		initShader();
 
-	uploadYUV();
+	if(m_texNeedInit || !f->uploaded) {
+		uploadYUV(frame);
+		f->uploaded = true;
+	}
 	uploadSubtitle();
 
 	asGL(glDrawArrays(GL_TRIANGLE_STRIP, 0, 4));
@@ -517,8 +600,24 @@ GLRenderer::uploadMM(int texWidth, int texHeight, T *texBuf, const T *texSrc)
 }
 
 void
-GLRenderer::uploadYUV()
+GLRenderer::uploadYUV(AVFrame *frame)
 {
+	// FIXME: remove m_pixels and upload frame buffer directly
+	if(frame->linesize[0] > 0)
+		setFrameY(frame->data[0], frame->linesize[0]);
+	else
+		setFrameY(frame->data[0] + frame->linesize[0] * (frame->height - 1), -frame->linesize[0]);
+
+	if(frame->linesize[1] > 0)
+		setFrameU(frame->data[1], frame->linesize[1]);
+	else
+		setFrameU(frame->data[1] + frame->linesize[1] * (AV_CEIL_RSHIFT(frame->height, 1) - 1), -frame->linesize[1]);
+
+	if(frame->linesize[2] > 0)
+		setFrameV(frame->data[2], frame->linesize[2]);
+	else
+		setFrameV(frame->data[2] + frame->linesize[2] * (AV_CEIL_RSHIFT(frame->height, 1) - 1), -frame->linesize[2]);
+
 	// load Y data
 	asGL(glActiveTexture(GL_TEXTURE0 + ID_Y));
 	asGL(glBindTexture(GL_TEXTURE_2D, m_idTex[ID_Y]));

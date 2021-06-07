@@ -25,7 +25,6 @@
 #include <QOpenGLFunctions>
 #include <QOpenGLVertexArrayObject>
 #include <QMatrix4x4>
-#include <QMutex>
 
 extern "C" {
 #include <libavutil/frame.h>
@@ -34,16 +33,18 @@ extern "C" {
 QT_FORWARD_DECLARE_CLASS(QOpenGLShader)
 QT_FORWARD_DECLARE_CLASS(QOpenGLShaderProgram)
 
+struct AVPixFmtDescriptor;
+
 namespace SubtitleComposer {
 class SubtitleTextOverlay;
+class RenderThread;
 
 class GLRenderer : public QOpenGLWidget, private QOpenGLFunctions
 {
 	Q_OBJECT
 
 	friend class FFPlayer;
-
-	explicit GLRenderer(QWidget *parent = nullptr);
+	friend class RenderThread;
 
 public:
 	~GLRenderer();
@@ -58,21 +59,24 @@ public:
 	void setFrameV(quint8 *buf, quint32 pitch);
 	void setOverlay(SubtitleTextOverlay *overlay);
 
-	inline QMutex * mutex() { return &m_texMutex; }
-
 signals:
 	void resolutionChanged();
 
-protected:
+private:
+	explicit GLRenderer(QWidget *parent = nullptr);
+
     void initializeGL() override;
 	void initShader();
     void resizeGL(int width, int height) override;
     void paintGL() override;
 
-private:
 	template<class T, int D> void uploadMM(int texWidth, int texHeight, T *texBuf, const T *texSrc);
-	void uploadYUV();
+	void uploadYUV(AVFrame *frame);
 	void uploadSubtitle();
+
+	void setRenderThread(RenderThread *thread);
+
+	bool validTextureFormat(const AVPixFmtDescriptor *fd);
 
 private:
 	SubtitleTextOverlay *m_overlay;
@@ -81,13 +85,14 @@ private:
 
 	QOpenGLVertexArrayObject m_vao;
 
+	RenderThread *m_renderThread;
+
 	quint8 *m_bufYUV, *m_mmYUV;
 	quint32 m_bufSize;
 	GLsizei m_bufWidth, m_bufHeight;
 	GLsizei m_crWidth, m_crHeight;
 	quint8 *m_pixels[3];
 	quint32 m_pitch[3];
-	QMutex m_texMutex;
 
 	bool m_csNeedInit;
 	QString m_ctfOut, m_ctfIn;
@@ -104,6 +109,9 @@ private:
 	GLuint *m_vaBuf;
 
 	GLenum m_glType, m_glFormat;
+
+	bool m_isYUV;
+	bool m_isPlanar;
 };
 }
 
