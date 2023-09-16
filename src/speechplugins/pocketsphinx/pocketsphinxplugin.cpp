@@ -31,25 +31,26 @@ PocketSphinxPlugin::name()
 /*virtual*/ bool
 PocketSphinxPlugin::init()
 {
-	m_psConfig = cmd_ln_init(nullptr, ps_args(), true,
-				 "-hmm", QUrl(PocketSphinxConfig::acousticModelPath()).toLocalFile().toUtf8().constData(),
-				 "-lm", QUrl(PocketSphinxConfig::trigramModelFile()).toLocalFile().toUtf8().constData(),
-				 "-dict", QUrl(PocketSphinxConfig::lexiconFile()).toLocalFile().toUtf8().constData(),
-//				 "-frate", "100",
-				 // Num of silence frames to keep after speech to silence transition. (pocketsphinx default: 50)
-				 "-vad_postspeech", QByteArray::number(PocketSphinxConfig::vadPostSpeech()).constData(),
-				 // Num of speech frames to keep before silence to speech transition. (pocketsphinx default: 20)
-				 "-vad_prespeech", QByteArray::number(PocketSphinxConfig::vadPreSpeech()).constData(),
-				 // Num of speech frames to trigger VAD from silence to speech. (pocketsphinx default: 10)
-				 "-vad_startspeech", QByteArray::number(PocketSphinxConfig::vadStartSpeech()).constData(),
-				 // Threshold for decision between noise and silence frames.
-				 // Log-ratio between signal level and noise level. (pocketsphinx default: 2.0)
-				 "-vad_threshold", QByteArray::number(PocketSphinxConfig::vadTreshold()).constData(),
-				 nullptr);
+	m_psConfig = ps_config_init(nullptr);
 	if(m_psConfig == nullptr) {
 		qWarning() << "Failed to create PocketSphinx config object";
 		return false;
 	}
+
+	ps_config_set_str(m_psConfig, "hmm", QUrl(PocketSphinxConfig::acousticModelPath()).toLocalFile().toUtf8().constData());
+	ps_config_set_str(m_psConfig, "lm", QUrl(PocketSphinxConfig::trigramModelFile()).toLocalFile().toUtf8().constData());
+	ps_config_set_str(m_psConfig, "dict", QUrl(PocketSphinxConfig::lexiconFile()).toLocalFile().toUtf8().constData());
+//	ps_config_set_int(m_psConfig, "frate", 100);
+
+	// Num of silence frames to keep after speech to silence transition. (pocketsphinx default: 50)
+	ps_config_set_int(m_psConfig, "vad_postspeech", PocketSphinxConfig::vadPostSpeech());
+	// Num of speech frames to keep before silence to speech transition. (pocketsphinx default: 20)
+	ps_config_set_int(m_psConfig, "vad_prespeech", PocketSphinxConfig::vadPreSpeech());
+	// Num of speech frames to trigger VAD from silence to speech. (pocketsphinx default: 10)
+	ps_config_set_int(m_psConfig, "vad_startspeech", PocketSphinxConfig::vadStartSpeech());
+	// Threshold for decision between noise and silence frames.
+	// Log-ratio between signal level and noise level. (pocketsphinx default: 2.0)
+	ps_config_set_float(m_psConfig, "vad_threshold", PocketSphinxConfig::vadTreshold());
 
 	m_psDecoder = ps_init(m_psConfig);
 	if(m_psDecoder == nullptr) {
@@ -57,7 +58,7 @@ PocketSphinxPlugin::init()
 		return false;
 	}
 
-	m_psFrameRate = cmd_ln_int32_r(m_psConfig, "-frate");
+	m_psFrameRate = ps_config_int(m_psConfig, "frate");
 
 	m_lineText.clear();
 	m_lineIn = m_lineOut = 0;
@@ -76,7 +77,7 @@ PocketSphinxPlugin::cleanup()
 		m_psDecoder = nullptr;
 	}
 	if(m_psConfig != nullptr) {
-		cmd_ln_free_r(m_psConfig);
+		ps_config_free(m_psConfig);
 		m_psConfig = nullptr;
 	}
 }

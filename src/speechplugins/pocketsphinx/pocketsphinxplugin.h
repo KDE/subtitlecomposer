@@ -9,9 +9,8 @@
 
 #include "speechprocessor/speechplugin.h"
 
-typedef struct ps_decoder_s ps_decoder_t;
-typedef struct cmd_ln_s cmd_ln_t;
-typedef struct SpeexPreprocessState_ SpeexPreprocessState;
+struct cmd_ln_s;
+struct ps_decoder_s;
 
 namespace SubtitleComposer {
 class PocketSphinxPlugin : public SpeechPlugin
@@ -39,8 +38,8 @@ private:
 	void processUtterance();
 
 private:
-	cmd_ln_t *m_psConfig;
-	ps_decoder_t *m_psDecoder;
+	cmd_ln_s *m_psConfig;
+	ps_decoder_s *m_psDecoder;
 	qint32 m_psFrameRate;
 
 	QString m_lineText;
