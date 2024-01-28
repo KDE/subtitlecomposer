@@ -10,7 +10,7 @@
     ],
     "id": "org.kde.subtitlecomposer",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-21.08",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "tags": ["nightly"],
     "desktop-file-name-suffix": " (Nightly)",
@@ -24,9 +24,9 @@
     ],
     "rename-icon": "subtitlecomposer",
     "modules": [
-        "deps/ffmpeg/ffmpeg.json",
-        "deps/sphinxbase/sphinxbase.json",
-        "deps/pocketsphinx/pocketsphinx.json",
+        "pkg/flatpak/deps/ffmpeg/ffmpeg.json",
+        "pkg/flatpak/deps/sphinxbase/sphinxbase.json",
+        "pkg/flatpak/deps/pocketsphinx/pocketsphinx.json",
         {
             "name": "kross",
             "buildsystem": "cmake-ninja",
@@ -55,8 +55,8 @@
             ],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://invent.kde.org/multimedia/subtitlecomposer.git"
+                    "type": "dir",
+                    "path": "."
                 }
             ]
         }
