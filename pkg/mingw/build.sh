@@ -13,7 +13,7 @@ sudo pacman -Su --noconfirm
 sudo pacman -S --noconfirm --needed \
 	mingw-w64-toolchain mingw-w64-cmake mingw-w64-configure mingw-w64-pkg-config \
 	mingw-w64-ffmpeg mingw-w64-qt5 mingw-w64-kf5 nsis \
-	mingw-w64-kinit mingw-w64-pango mingw-w64-libvisual \
+	mingw-w64-kinit mingw-w64-pango mingw-w64-kio \
 	mingw-w64-aspell mingw-w64-hunspell mingw-w64-icu \
 	mingw-w64-libidn2 mingw-w64-openal \
 	kconfig5 kcoreaddons5 breeze-icons icu

@@ -26,7 +26,7 @@ deps=(
 	"/usr/$_arch/lib/qt/plugins/imageformats/qico.dll"
 	"/usr/$_arch/lib/qt/plugins/imageformats/qjpeg.dll"
 	"/usr/$_arch/lib/qt/plugins/imageformats/qsvg.dll"
-	"/usr/$_arch/lib/qt/plugins/kcm_kio.dll"
+#	"/usr/$_arch/lib/qt/plugins/kcm_kio.dll"
 	"/usr/$_arch/lib/qt/plugins/kf5/kio/"*.dll
 	"/usr/$_arch/lib/qt/plugins/kf5/kiod/"*.dll
 	"/usr/$_arch/lib/qt/plugins/kf5/sonnet/"*.dll
