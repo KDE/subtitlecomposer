@@ -302,7 +302,9 @@ public:
 
 	void removeAll()
 	{
-		beginRemoveRows(QModelIndex(), 0, m_categories.size());
+		if(m_categories.size() == 0)
+			return;
+		beginRemoveRows(QModelIndex(), 0, m_categories.size() - 1);
 		m_categories.clear();
 		m_scripts.clear();
 		endRemoveRows();
@@ -334,14 +336,14 @@ public:
 
 		int catIndex = m_categories.indexOf(catTitle);
 		if(catIndex < 0 && !catTitle.isEmpty()) {
-			catIndex = m_categories.size();
-			beginInsertRows(QModelIndex(), catIndex, catIndex + 1);
-			insertSorted(&m_categories, QString(catTitle));
+			const QString *cat = insertSorted(&m_categories, QString(catTitle));
+			catIndex = cat - m_categories.constData();
+			beginInsertRows(QModelIndex(), catIndex, catIndex);
 			endInsertRows();
 		}
 
-		const int n = m_scripts.size();
-		beginInsertRows(catTitle.isEmpty() ? QModelIndex() : createIndex(catIndex, 0, quintptr(0ULL)), n - 1, n + 1);
+		const int n = m_scripts.size() - 1; // FIXME: index is wrong
+		beginInsertRows(catTitle.isEmpty() ? QModelIndex() : createIndex(catIndex, 0, quintptr(0ULL)), n, n);
 		endInsertRows();
 		return script;
 	}
