@@ -401,6 +401,7 @@ ScriptsManager::ScriptsManager(QObject *parent)
 	connect(scriptsView->selectionModel(), &QItemSelectionModel::currentRowChanged, this, [&](){
 		const SCScript *s = currentScript();
 		const bool isScriptSelected = s && s->isScript();
+		const bool isFileSelected = s && QFileInfo(s->path()).isFile();
 		const bool isFileWritable = s && QFileInfo(s->path()).isWritable();
 		btnRemove->setEnabled(isFileWritable);
 		if(isFileWritable) {
@@ -410,7 +411,7 @@ ScriptsManager::ScriptsManager(QObject *parent)
 			btnEdit->setText(i18n("View"));
 			btnEdit->setIcon(QIcon::fromTheme($("document-open")));
 		}
-		btnEdit->setEnabled(isScriptSelected);
+		btnEdit->setEnabled(isFileSelected);
 		btnRun->setEnabled(isScriptSelected);
 	});
 
