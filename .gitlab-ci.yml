@@ -14,6 +14,8 @@ include:
       - /gitlab-templates/freebsd-qt6.yml
       - /gitlab-templates/craft-appimage-qt6.yml
       - /gitlab-templates/craft-appimage.yml
+      - /gitlab-templates/craft-windows-mingw64.yml
+      - /gitlab-templates/craft-windows-mingw64-qt6.yml
 
 # Gitlab jobs
 mingw-win32-build:
