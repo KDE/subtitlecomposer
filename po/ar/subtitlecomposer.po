@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 01:58+0000\n"
-"PO-Revision-Date: 2025-06-28 17:16+0400\n"
+"PO-Revision-Date: 2025-08-04 14:42+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -34,7 +34,7 @@ msgstr "الحاليّة: %1"
 #, kde-format
 msgctxt "Encodings menu"
 msgid "Autodetect"
-msgstr "اكتشفه آليًا"
+msgstr "اكتشفه آليًّا"
 
 #: src/application.cpp:496
 #, kde-format
@@ -3016,7 +3016,7 @@ msgstr "ألصق"
 #, kde-format
 msgctxt "@action:inmenu Clear all text"
 msgid "Clear"
-msgstr "امسح"
+msgstr "امحُ"
 
 #: src/gui/treeview/richlineedit.cpp:119 src/widgets/simplerichtextedit.cpp:461
 #, kde-format
@@ -3114,7 +3114,7 @@ msgstr ""
 #: src/main.cpp:161
 #, kde-format
 msgid "Maintainer"
-msgstr "المصين"
+msgstr "الصائن"
 
 #: src/main.cpp:162
 #, kde-format
