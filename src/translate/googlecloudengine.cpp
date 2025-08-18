@@ -1,5 +1,5 @@
 /*
-    SPDX-FileCopyrightText: 2023 Mladen Milinkovic <max@smoothware.net>
+    SPDX-FileCopyrightText: 2023-2025 Mladen Milinkovic <max@smoothware.net>
 
     SPDX-License-Identifier: GPL-2.0-or-later
 */

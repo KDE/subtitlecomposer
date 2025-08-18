@@ -154,7 +154,7 @@ main(int argc, char **argv)
 		SUBTITLECOMPOSER_VERSION_STRING,
 		i18n("A KDE subtitle editor."),
 		KAboutLicense::GPL_V2,
-		QStringLiteral("&copy; 2007-2021 The Subtitle Composer Authors"),
+		QStringLiteral("&copy; 2007-2025 The Subtitle Composer Authors"),
 		QString(), // Additional text
 		QStringLiteral("https://subtitlecomposer.kde.org/"));
 
