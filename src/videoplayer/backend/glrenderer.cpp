@@ -574,7 +574,7 @@ GLRenderer::initializeGL()
 	}
 	asGL(glGenTextures(ID_SIZE, m_idTex));
 
-	asGL(glClearColor(.0f, .0f, .0f, .0f)); // background color
+	asGL(glClearColor(.0f, .0f, .0f, 1.f)); // background color
 
 	asGL(glDisable(GL_DEPTH_TEST));
 
@@ -605,7 +605,7 @@ GLRenderer::paintGL()
 {
 	QMutexLocker l(&m_texMutex);
 
-	glClear(GL_COLOR_BUFFER_BIT);
+	asGL(glClear(GL_COLOR_BUFFER_BIT));
 
 	if(!m_bufYUV)
 		return;
