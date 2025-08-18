@@ -1,4 +1,14 @@
-﻿Version 0.8.1
+﻿Version 0.8.2
+- Fixed issues and crashes with newer Qt6 versions
+- Fixed Waveform and VideoPlayer paint issues
+- Fixed PGS subtitle mime type
+- Improved Wayland compatibility
+- Improved GoogleCloudEngine translations
+- Added configurable whitespace detection to VobSub import
+- Replaced deprecated FFmpeg channel code
+- Require FFmpeg >= 5.1.5
+
+Version 0.8.1
 - Fixed (rare) memory issues and crashes
 - Fixed crashes on waveform widget
 - Fixed video player rendering in Qt 6.7

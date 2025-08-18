@@ -549,6 +549,20 @@
   <project_group>KDE</project_group>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="0.8.2" date="2025-08-18">
+      <description>
+        <ul>
+          <li>Fixed issues and crashes with newer Qt6 versions</li>
+          <li>Fixed Waveform and VideoPlayer paint issues</li>
+          <li>Fixed PGS subtitle mime type</li>
+          <li>Improved Wayland compatibility</li>
+          <li>Improved GoogleCloudEngine translations</li>
+          <li>Added configurable whitespace detection to VobSub import</li>
+          <li>Replaced deprecated FFmpeg channel code</li>
+          <li>Require FFmpeg >= 5.1.5</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.8.1" date="2024-06-07">
       <description>
         <ul>
