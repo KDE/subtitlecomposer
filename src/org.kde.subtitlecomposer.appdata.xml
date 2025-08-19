@@ -559,7 +559,7 @@
           <li>Improved GoogleCloudEngine translations</li>
           <li>Added configurable whitespace detection to VobSub import</li>
           <li>Replaced deprecated FFmpeg channel code</li>
-          <li>Require FFmpeg >= 5.1.5</li>
+          <li>Require FFmpeg &gt;= 5.1.5</li>
         </ul>
       </description>
     </release>
