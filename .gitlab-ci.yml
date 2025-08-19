@@ -10,6 +10,7 @@ include:
       - /gitlab-templates/linux.yml
       - /gitlab-templates/linux-qt6.yml
       - /gitlab-templates/freebsd-qt6.yml
+      - /gitlab-templates/snap-snapcraft-lxd.yml
 
 # Gitlab jobs
 mingw-win32-build:
