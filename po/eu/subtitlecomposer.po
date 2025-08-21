@@ -1,7 +1,7 @@
 # Translation for subtitlecomposer.po to Euskera/Basque (eu):
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the subtitlecomposer package.
-# KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>.
+# SPDX-FileCopyrightText: 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
 # SPDX-FileCopyrightText: 2025 Iñigo Salvador Azurmendi <xalba@ni.eus>
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 01:58+0000\n"
-"PO-Revision-Date: 2025-01-11 13:50+0100\n"
+"PO-Revision-Date: 2025-08-21 01:10+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.0\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #: src/actions/kcodecactionext.cpp:29
 #, kde-format
@@ -56,7 +56,7 @@ msgstr "Iraupena maximizatu"
 #: src/application.cpp:697 src/core/subtitle.cpp:1154
 #, kde-format
 msgid "Unbreak Lines"
-msgstr ""
+msgstr "Lerro hausturak desegin"
 
 #: src/application.cpp:708 src/core/subtitle.cpp:1163
 #, kde-format
@@ -93,15 +93,15 @@ msgstr "Jo"
 #, kde-format
 msgid "Seek backwards 1 second"
 msgid_plural "Seek backwards %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bilatu segundo 1 atzerantz"
+msgstr[1] "Bilatu %1 segundo atzerantz"
 
 #: src/application.cpp:1140
 #, kde-format
 msgid "Seek forwards 1 second"
 msgid_plural "Seek forwards %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bilatu segundo 1 aurrerantz"
+msgstr[1] "Bilatu %1 segundo aurrerantz"
 
 #: src/application.cpp:1143 src/application.cpp:1147
 #, kde-format
@@ -278,7 +278,7 @@ msgstr "Batu azpidatziak..."
 #: src/application_actions.cpp:180
 #, kde-format
 msgid "Append to the opened subtitle another one"
-msgstr ""
+msgstr "Erantsi beste azpidatzi bat irekitakoari"
 
 #: src/application_actions.cpp:187
 #, kde-format
@@ -288,7 +288,7 @@ msgstr "Txertatu aurretik"
 #: src/application_actions.cpp:188
 #, kde-format
 msgid "Insert empty line before current one"
-msgstr ""
+msgstr "Txertatu lerro hutsa unekoaren aurretik"
 
 #: src/application_actions.cpp:196
 #, kde-format
@@ -298,7 +298,7 @@ msgstr "Txertatu ondoren"
 #: src/application_actions.cpp:197
 #, kde-format
 msgid "Insert empty line after current one"
-msgstr ""
+msgstr "Txertatu lerro hutsa unekoaren ondoren"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #: src/application_actions.cpp:205 src/scripting/scriptsmanager.ui:58
@@ -396,22 +396,22 @@ msgstr "Kateen edo adierazpen erregularren agerraldiak ordeztu"
 #: src/application_actions.cpp:280
 #, kde-format
 msgid "Retrocede current line"
-msgstr ""
+msgstr "Atzeratu uneko lerroa"
 
 #: src/application_actions.cpp:281
 #, kde-format
 msgid "Makes the line before the current one active"
-msgstr ""
+msgstr "Uneko lerroren aurrekoa aktibo egiten du"
 
 #: src/application_actions.cpp:289
 #, kde-format
 msgid "Advance current line"
-msgstr ""
+msgstr "Aurreratu uneko lerroa"
 
 #: src/application_actions.cpp:290
 #, kde-format
 msgid "Makes the line after the current one active"
-msgstr ""
+msgstr "Uneko lerroaren atzeko aktibo egiten du"
 
 #: src/application_actions.cpp:298
 #, kde-format
@@ -431,97 +431,97 @@ msgstr "Garbitu Erroreak/Markak"
 #: src/application_actions.cpp:307
 #, kde-format
 msgid "Clear detected errors and marks in the current subtitle"
-msgstr ""
+msgstr "Garbitu uneko azpidatzian hautemandako erroreak eta markak"
 
 #: src/application_actions.cpp:315
 #, kde-format
 msgid "Select Next Error/Mark"
-msgstr ""
+msgstr "Hautatu hurrengo Errorea/Marka"
 
 #: src/application_actions.cpp:316
 #, kde-format
 msgid "Select next line with error or mark"
-msgstr ""
+msgstr "Hautatu errorea edo marka duen hurrengo lerroa"
 
 #: src/application_actions.cpp:324
 #, kde-format
 msgid "Select Previous Error/Mark"
-msgstr ""
+msgstr "Hautatu aurreko Errorea/Marka"
 
 #: src/application_actions.cpp:325
 #, kde-format
 msgid "Select previous line with error or mark"
-msgstr ""
+msgstr "Hautatu errorea edo marka duen aurreko lerroa"
 
 #: src/application_actions.cpp:333
-#, fuzzy, kde-format
+#, kde-format
 msgid "Spelling..."
-msgstr "Ortografia"
+msgstr "Ortografia..."
 
 #: src/application_actions.cpp:334
 #, kde-format
 msgid "Check lines spelling"
-msgstr ""
+msgstr "Egiaztatu lerroen ortografia"
 
 #: src/application_actions.cpp:340
 #, kde-format
 msgid "Toggle Mark"
-msgstr ""
+msgstr "Txandakatu marka"
 
 #: src/application_actions.cpp:341
 #, kde-format
 msgid "Toggle mark on selected lines"
-msgstr ""
+msgstr "Txandakatu marka hautatutako lerroetan"
 
 #: src/application_actions.cpp:349 src/gui/currentlinewidget.cpp:322
 #, kde-format
 msgid "Toggle Bold"
-msgstr ""
+msgstr "Txandakatu lodia"
 
 #: src/application_actions.cpp:350
 #, kde-format
 msgid "Toggle selected lines bold attribute"
-msgstr ""
+msgstr "Txandakatu hautatutako lerroen lodia atributua"
 
 #: src/application_actions.cpp:358 src/gui/currentlinewidget.cpp:326
 #, kde-format
 msgid "Toggle Italic"
-msgstr ""
+msgstr "Txandakatu etzana"
 
 #: src/application_actions.cpp:359
 #, kde-format
 msgid "Toggle selected lines italic attribute"
-msgstr ""
+msgstr "Txandakatu hautatutako lerroen etzana atributua"
 
 #: src/application_actions.cpp:367 src/gui/currentlinewidget.cpp:330
 #, kde-format
 msgid "Toggle Underline"
-msgstr ""
+msgstr "Txandakatu azpimarra"
 
 #: src/application_actions.cpp:368
 #, kde-format
 msgid "Toggle selected lines underline attribute"
-msgstr ""
+msgstr "Txandakatu hautatutako lerroen azpimarra atributua"
 
 #: src/application_actions.cpp:376 src/gui/currentlinewidget.cpp:334
 #, kde-format
 msgid "Toggle Strike Through"
-msgstr ""
+msgstr "Txandakatu marratua"
 
 #: src/application_actions.cpp:377
 #, kde-format
 msgid "Toggle selected lines strike through attribute"
-msgstr ""
+msgstr "Txandakatu hautatutako lerroen marratua atributua"
 
 #: src/application_actions.cpp:385 src/gui/currentlinewidget.cpp:338
-#, fuzzy, kde-format
+#, kde-format
 msgid "Change Text Color"
-msgstr "Testuaren kolorea aldatu"
+msgstr "Aldatu testuaren kolorea"
 
 #: src/application_actions.cpp:386
 #, kde-format
 msgid "Change text color of selected lines"
-msgstr ""
+msgstr "Aldatu hautatutako lerroen testuaren kolorea"
 
 #: src/application_actions.cpp:393
 #, fuzzy, kde-format
@@ -534,9 +534,9 @@ msgid "Shift lines an specified amount of time"
 msgstr ""
 
 #: src/application_actions.cpp:413
-#, fuzzy, kde-format
+#, kde-format
 msgid "Adjust..."
-msgstr "Doitu"
+msgstr "Doitu..."
 
 #: src/application_actions.cpp:414
 #, kde-format
@@ -546,7 +546,7 @@ msgstr ""
 #: src/application_actions.cpp:421
 #, kde-format
 msgid "Change Frame Rate..."
-msgstr ""
+msgstr "Aldatu fotograma-emaria..."
 
 #: src/application_actions.cpp:422
 #, kde-format
@@ -556,47 +556,49 @@ msgstr ""
 #: src/application_actions.cpp:428
 #, kde-format
 msgid "Enforce Duration Limits..."
-msgstr ""
+msgstr "Betearazi iraupen mugak..."
 
 #: src/application_actions.cpp:429
 #, kde-format
 msgid "Enforce lines minimum and/or maximum duration limits"
-msgstr ""
+msgstr "Betearazi lerroen iraupen muga minimoa eta/edo maximoa"
 
 #: src/application_actions.cpp:436
 #, kde-format
 msgid "Set Automatic Durations..."
-msgstr ""
+msgstr "Ezarri iraupen automatikoak..."
 
 #: src/application_actions.cpp:437
 #, kde-format
 msgid "Set lines durations based on amount of letters, words and line breaks"
 msgstr ""
+"Ezarri lerroen iraupena letra, hitz eta lerro jauzi kopuruan oinarrituta"
 
 #: src/application_actions.cpp:443
-#, fuzzy, kde-format
+#, kde-format
 msgid "Maximize Durations..."
-msgstr "Iraupena maximizatu"
+msgstr "Iraupenak maximizatu..."
 
 #: src/application_actions.cpp:444
 #, kde-format
 msgid "Extend lines durations up to their next lines show time"
 msgstr ""
+"Luzatu lerroen iraupena beraien hurrengo lerroak erakusteko denbora arte"
 
 #: src/application_actions.cpp:450
 #, kde-format
 msgid "Fix Overlapping Times..."
-msgstr ""
+msgstr "Konpondu gainezartzen diren denborak..."
 
 #: src/application_actions.cpp:451
 #, kde-format
 msgid "Fix lines overlapping times"
-msgstr ""
+msgstr "Konpondu lerroen denbora gainjarriak"
 
 #: src/application_actions.cpp:457
-#, fuzzy, kde-format
+#, kde-format
 msgid "Synchronize with Subtitle..."
-msgstr "Sinkronizatu azpidatziarekin"
+msgstr "Sinkronizatu azpidatziarekin..."
 
 #: src/application_actions.cpp:458
 #, kde-format
@@ -604,39 +606,39 @@ msgid "Copy timing information from another subtitle"
 msgstr ""
 
 #: src/application_actions.cpp:464
-#, fuzzy, kde-format
+#, kde-format
 msgid "Break Lines..."
-msgstr "Lerroak hautsi"
+msgstr "Hautsi leihoak..."
 
 #: src/application_actions.cpp:465
 #, kde-format
 msgid "Automatically set line breaks"
-msgstr ""
+msgstr "Lerro-jauziak automatikoki ezarri"
 
 #: src/application_actions.cpp:471
 #, kde-format
 msgid "Unbreak Lines..."
-msgstr ""
+msgstr "Lerro hausturak desegin..."
 
 #: src/application_actions.cpp:472
 #, kde-format
 msgid "Remove line breaks from lines"
-msgstr ""
+msgstr "Lerroetako lerro-jauziak kendu"
 
 #: src/application_actions.cpp:478
-#, fuzzy, kde-format
+#, kde-format
 msgid "Simplify Spaces..."
-msgstr "Zuriuneak sinplifikatu"
+msgstr "Sinplifikatu zuriuneak..."
 
 #: src/application_actions.cpp:479
 #, kde-format
 msgid "Remove unneeded spaces from lines"
-msgstr ""
+msgstr "Kendu lerroetan beharrezkoak ez diren zuriuneak"
 
 #: src/application_actions.cpp:485
-#, fuzzy, kde-format
+#, kde-format
 msgid "Change Case..."
-msgstr "Aldatu kaxa..."
+msgstr "Aldatu maius/minuxs.."
 
 #: src/application_actions.cpp:486
 #, kde-format
@@ -646,27 +648,27 @@ msgstr ""
 #: src/application_actions.cpp:492
 #, kde-format
 msgid "Fix Punctuation..."
-msgstr ""
+msgstr "Konpondu puntuazioa..."
 
 #: src/application_actions.cpp:493
 #, kde-format
 msgid "Fix punctuation errors in lines"
-msgstr ""
+msgstr "Konpondu lerroetako puntuazio erroreak"
 
 #: src/application_actions.cpp:499
-#, fuzzy, kde-format
+#, kde-format
 msgid "Translate..."
 msgstr "Itzuli..."
 
 #: src/application_actions.cpp:500
 #, kde-format
 msgid "Translate lines texts using Google services"
-msgstr ""
+msgstr "Itzuli lerroetako testuak Google zerbitzuak erabiliz"
 
 #: src/application_actions.cpp:506
-#, kde-format
+#, fuzzy, kde-format
 msgid "Edit Line in Place"
-msgstr ""
+msgstr "Editatu lerroa lekuan bertan"
 
 #: src/application_actions.cpp:507
 #, kde-format
@@ -674,29 +676,29 @@ msgid "Edit current line text in place"
 msgstr ""
 
 #: src/application_actions.cpp:515
-#, fuzzy, kde-format
+#, kde-format
 msgid "Open Video..."
-msgstr "Ireki bideoa"
+msgstr "Ireki bideoa..."
 
 #: src/application_actions.cpp:516 src/application_actions.cpp:523
 #, kde-format
 msgid "Open video file"
-msgstr ""
+msgstr "Ireki bideo fitxategia"
 
 #: src/application_actions.cpp:522
 #, kde-format
 msgid "Open &Recent Video"
-msgstr ""
+msgstr "Ireki a&zken aldiko bideoa"
 
 #: src/application_actions.cpp:529
 #, kde-format
 msgid "Import Subtitle Stream"
-msgstr ""
+msgstr "Inportatu azpidatzi-korrontea"
 
 #: src/application_actions.cpp:530
 #, kde-format
 msgid "Import subtitle stream into subtitle editor"
-msgstr ""
+msgstr "Inportatu azpidatzi korrontea azpidatzi-editorean"
 
 #: src/application_actions.cpp:536
 #, kde-format
@@ -711,62 +713,62 @@ msgstr ""
 #: src/application_actions.cpp:543
 #, kde-format
 msgid "Close Video"
-msgstr ""
+msgstr "Itxi bideoa"
 
 #: src/application_actions.cpp:544
 #, kde-format
 msgid "Close video file"
-msgstr ""
+msgstr "Itxi bideo-fitxategia"
 
 #: src/application_actions.cpp:551
-#, fuzzy, kde-format
+#, kde-format
 msgid "Full Screen Mode"
 msgstr "Pantaila osoko modua"
 
 #: src/application_actions.cpp:552
-#, fuzzy, kde-format
+#, kde-format
 msgid "Toggle full screen mode"
 msgstr "Txandakatu pantaila-osoko modua"
 
 #: src/application_actions.cpp:559
-#, fuzzy, kde-format
+#, kde-format
 msgid "Stop"
 msgstr "Gelditu"
 
 #: src/application_actions.cpp:560
 #, kde-format
 msgid "Stop video playback"
-msgstr ""
+msgstr "Gelditu bideoa atzera-jotzea"
 
 #: src/application_actions.cpp:568
 #, kde-format
 msgid "Toggle video playing/paused"
-msgstr ""
+msgstr "Txandakatu bideoa jotzea/etetea"
 
 #: src/application_actions.cpp:576
-#, fuzzy, kde-format
+#, kde-format
 msgid "Seek Backward"
 msgstr "Bilatu atzerantz"
 
 #: src/application_actions.cpp:584
-#, fuzzy, kde-format
+#, kde-format
 msgid "Seek Forward"
 msgstr "Bilatu aurrerantz"
 
 #: src/application_actions.cpp:591
-#, fuzzy, kde-format
+#, kde-format
 msgid "Frame Step Backward"
 msgstr "Fotograma urratsa atzerantz"
 
 #: src/application_actions.cpp:598
-#, fuzzy, kde-format
+#, kde-format
 msgid "Frame Step Forward"
 msgstr "Fotograma urratsa aurrerantz"
 
 #: src/application_actions.cpp:606
 #, kde-format
 msgid "Seek to Previous Line"
-msgstr ""
+msgstr "Joan aurreko lerrora"
 
 #: src/application_actions.cpp:607
 #, kde-format
@@ -796,7 +798,7 @@ msgstr ""
 #: src/application_actions.cpp:630
 #, kde-format
 msgid "Play Current Line and Pause"
-msgstr ""
+msgstr "Jo uneko lerroa eta etenaldia"
 
 #: src/application_actions.cpp:631
 #, kde-format
@@ -3576,12 +3578,12 @@ msgstr "Izena erabilita dagoeneko"
 #: src/scripting/scriptsmanager.cpp:561
 #, kde-format
 msgid "Rename Script"
-msgstr ""
+msgstr "Berrizendatu gidoia"
 
 #: src/scripting/scriptsmanager.cpp:569
 #, kde-format
 msgid "There was an error opening the file <b>%1</b>."
-msgstr ""
+msgstr "Errore bat gertatu da <b>%1</b> fitxategia irekitzean."
 
 #: src/scripting/scriptsmanager.cpp:577
 #, kde-format
@@ -3691,9 +3693,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRefresh)
 #: src/scripting/scriptsmanager.ui:129
-#, fuzzy, kde-format
+#, kde-format
 msgid "Refresh"
-msgstr "Freskatu"
+msgstr "Berritu"
 
 #. i18n: ectx: label, entry (acousticModelPath), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_acousticModelPath)
@@ -3759,7 +3761,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:28
 #, kde-format
 msgid "Sphinx Dictionaries"
-msgstr ""
+msgstr "Sphinx hiztegiak"
 
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:24
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:29
@@ -3789,7 +3791,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:68
 #, kde-format
 msgid "Acoustic Model"
-msgstr ""
+msgstr "Eredu akustikoa"
 
 #. i18n: ectx: property (text), widget (QLabel, label_modelInfoText)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:78
@@ -4039,9 +4041,9 @@ msgid "Google Cloud Engine Error"
 msgstr "Google Cloud motorraren errorea"
 
 #: src/translate/googlecloudengine.cpp:207
-#, fuzzy, kde-format
+#, kde-format
 msgid "Error opening file '%1'"
-msgstr "Hutsegitea fitxategia irekitzerakoan"
+msgstr "Errorea '%1' fitxategia irekitzean"
 
 #: src/translate/googlecloudengine.cpp:216
 #, kde-format
@@ -4052,7 +4054,7 @@ msgstr ""
 #: src/translate/googlecloudengine.ui:23
 #, kde-format
 msgid "Service Account's Private Key JSON:"
-msgstr ""
+msgstr "Zerbitzu-kontuen JSON gailu pribatua:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnLogin)
 #: src/translate/googlecloudengine.ui:36
@@ -4124,12 +4126,12 @@ msgstr "Itzuli testuak"
 #: src/utils/finder.cpp:44
 #, kde-format
 msgid "Find In"
-msgstr ""
+msgstr "Bilatu hemen"
 
 #: src/utils/finder.cpp:245
 #, kde-format
 msgid "No instances of '%1' found!"
-msgstr ""
+msgstr "Ez da '%1'(e)ren instantziarik aurkitu!"
 
 #: src/utils/finder.cpp:245 src/utils/finder.cpp:259
 #, kde-format
@@ -4173,9 +4175,9 @@ msgstr ""
 "Hasieratik jarraitu?"
 
 #: src/utils/replacer.cpp:43
-#, fuzzy, kde-format
+#, kde-format
 msgid "Find/Replace In"
-msgstr "Aurkitu/Ordeztu "
+msgstr "Aurkitu/Ordeztu hemen"
 
 #: src/utils/replacer.cpp:253
 #, kde-format
