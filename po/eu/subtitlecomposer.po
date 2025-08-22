@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 01:58+0000\n"
-"PO-Revision-Date: 2025-08-21 01:10+0200\n"
+"PO-Revision-Date: 2025-08-21 11:06+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -93,15 +93,15 @@ msgstr "Jo"
 #, kde-format
 msgid "Seek backwards 1 second"
 msgid_plural "Seek backwards %1 seconds"
-msgstr[0] "Bilatu segundo 1 atzerantz"
-msgstr[1] "Bilatu %1 segundo atzerantz"
+msgstr[0] "Joan segundo 1 atzera"
+msgstr[1] "Joan %1 segundo atzera"
 
 #: src/application.cpp:1140
 #, kde-format
 msgid "Seek forwards 1 second"
 msgid_plural "Seek forwards %1 seconds"
-msgstr[0] "Bilatu segundo 1 aurrerantz"
-msgstr[1] "Bilatu %1 segundo aurrerantz"
+msgstr[0] "Joan segundo 1 aurrera"
+msgstr[1] "Joan %1 segundo aurrera"
 
 #: src/application.cpp:1143 src/application.cpp:1147
 #, kde-format
@@ -644,6 +644,8 @@ msgstr "Aldatu maius/minuxs.."
 #, kde-format
 msgid "Change lines text to upper, lower, title or sentence case"
 msgstr ""
+"Aldatu lerroetako testua maiuskula, minuskula, izenburu-formatu edo esaldi-"
+"formatura"
 
 #: src/application_actions.cpp:492
 #, kde-format
@@ -666,14 +668,14 @@ msgid "Translate lines texts using Google services"
 msgstr "Itzuli lerroetako testuak Google zerbitzuak erabiliz"
 
 #: src/application_actions.cpp:506
-#, fuzzy, kde-format
+#, kde-format
 msgid "Edit Line in Place"
 msgstr "Editatu lerroa lekuan bertan"
 
 #: src/application_actions.cpp:507
 #, kde-format
 msgid "Edit current line text in place"
-msgstr ""
+msgstr "Editatu uneko lerroaren testua lekuan bertan"
 
 #: src/application_actions.cpp:515
 #, kde-format
@@ -703,12 +705,12 @@ msgstr "Inportatu azpidatzi korrontea azpidatzi-editorean"
 #: src/application_actions.cpp:536
 #, kde-format
 msgid "Recognize Speech"
-msgstr ""
+msgstr "Ezagutu hizketa"
 
 #: src/application_actions.cpp:537
 #, kde-format
 msgid "Recognize speech in audio stream"
-msgstr ""
+msgstr "Ezagutu audio-korronteko hizketa"
 
 #: src/application_actions.cpp:543
 #, kde-format
@@ -748,12 +750,12 @@ msgstr "Txandakatu bideoa jotzea/etetea"
 #: src/application_actions.cpp:576
 #, kde-format
 msgid "Seek Backward"
-msgstr "Bilatu atzerantz"
+msgstr "Joan atzera"
 
 #: src/application_actions.cpp:584
 #, kde-format
 msgid "Seek Forward"
-msgstr "Bilatu aurrerantz"
+msgstr "Joan aurrera"
 
 #: src/application_actions.cpp:591
 #, kde-format
@@ -773,7 +775,7 @@ msgstr "Joan aurreko lerrora"
 #: src/application_actions.cpp:607
 #, kde-format
 msgid "Seek to previous subtitle line show time"
-msgstr ""
+msgstr "Joan aurreko azpidatzi-lerroa erakusten den unera"
 
 #: src/application_actions.cpp:615
 #, kde-format
@@ -804,36 +806,37 @@ msgstr "Jo uneko lerroa eta etenaldia"
 #, kde-format
 msgid "Seek to selected subtitle line show time, play it and then pause"
 msgstr ""
+"Joan hautatutako azpidatzi-lerroa erakusten den unera, jo eta etenaldia egin"
 
 #: src/application_actions.cpp:638
 #, kde-format
 msgid "Seek to Current Line"
-msgstr ""
+msgstr "Joan uneko lerrora"
 
 #: src/application_actions.cpp:639
 #, kde-format
 msgid "Seek to selected subtitle line show time"
-msgstr ""
+msgstr "Joan hautatutako azpidatzi-lerroa erakusten den unera"
 
 #: src/application_actions.cpp:646
 #, kde-format
 msgid "Seek to Next Line"
-msgstr ""
+msgstr "Joan hurrengo lerrora"
 
 #: src/application_actions.cpp:647
 #, kde-format
 msgid "Seek to next subtitle line show time"
-msgstr ""
+msgstr "Joan hurrengo azpidatzi-lerroa erakusten den unera"
 
 #: src/application_actions.cpp:655
 #, kde-format
 msgid "Set Line Show Time to Video Position"
-msgstr ""
+msgstr "Ezarri lerroa erakusteko unea bideoaren kokapenean"
 
 #: src/application_actions.cpp:656
 #, kde-format
 msgid "Set current line show time to video position"
-msgstr ""
+msgstr "Ezarri uneko lerroa erakusteko unea bideoaren kokapenean"
 
 #: src/application_actions.cpp:664
 #, kde-format
@@ -855,6 +858,8 @@ msgstr ""
 msgid ""
 "Set current line show time to video position by equally shifting all lines"
 msgstr ""
+"Ezarri uneko lerroa erakusteko unea bideoaren kokapenean lerro guztiak "
+"proportzionalki desplazatuz"
 
 #: src/application_actions.cpp:681
 #, kde-format
@@ -867,7 +872,7 @@ msgid "Make current line follow the playing video position"
 msgstr ""
 
 #: src/application_actions.cpp:688
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:inmenu Toggle audio muted"
 msgid "Mute"
 msgstr "Isilarazi"
@@ -875,72 +880,72 @@ msgstr "Isilarazi"
 #: src/application_actions.cpp:689
 #, kde-format
 msgid "Enable/disable playback sound"
-msgstr ""
+msgstr "Gaitu/ezgaitu atzera-jotze soinua"
 
 #: src/application_actions.cpp:696
-#, fuzzy, kde-format
+#, kde-format
 msgid "Increase Volume"
 msgstr "Igo bolumena"
 
 #: src/application_actions.cpp:697
 #, kde-format
 msgid "Increase volume by 5%"
-msgstr ""
+msgstr "Igo bolumena % 5"
 
 #: src/application_actions.cpp:704
-#, fuzzy, kde-format
+#, kde-format
 msgid "Decrease Volume"
 msgstr "Jaitsi bolumena"
 
 #: src/application_actions.cpp:705
 #, kde-format
 msgid "Decrease volume by 5%"
-msgstr ""
+msgstr "Jaitsi bolumena % 5"
 
 #: src/application_actions.cpp:712
-#, fuzzy, kde-format
+#, kde-format
 msgid "Audio Streams"
 msgstr "Audio korronteak"
 
 #: src/application_actions.cpp:713
 #, kde-format
 msgid "Select active audio stream"
-msgstr ""
+msgstr "Hautatu audio-korronte aktiboa"
 
 #: src/application_actions.cpp:724
-#, fuzzy, kde-format
+#, kde-format
 msgid "Increase Font Size"
 msgstr "Handitu letra-tipoaren tamaina"
 
 #: src/application_actions.cpp:725
 #, kde-format
 msgid "Increase subtitles font size by 1 point"
-msgstr ""
+msgstr "Handitu azpidatzien letra-tipoaren tamaina puntu 1"
 
 #: src/application_actions.cpp:732
-#, fuzzy, kde-format
+#, kde-format
 msgid "Decrease Font Size"
 msgstr "Txikitu letra-tipoaren tamaina"
 
 #: src/application_actions.cpp:733
 #, kde-format
 msgid "Decrease subtitles font size by 1 point"
-msgstr ""
+msgstr "Txikitu azpidatzien letra-tipoaren tamaina puntu 1"
 
 #: src/application_actions.cpp:740
 #, kde-format
 msgid "Displayed Subtitle Text"
-msgstr ""
+msgstr "Azaldutako azpidatzi-testua"
 
 #: src/application_actions.cpp:741
 #, kde-format
 msgid "Select visible subtitle text"
-msgstr ""
+msgstr "Hautatu azpidatzi-testu ikusgaia"
 
 #: src/application_actions.cpp:752 src/gui/waveform/waveformwidget.cpp:736
 #, kde-format
 msgid "Toggle Anchor"
-msgstr ""
+msgstr "Txandakatu aingura"
 
 #: src/application_actions.cpp:753
 #, kde-format
@@ -952,7 +957,7 @@ msgstr ""
 #: src/application_actions.cpp:760
 #, kde-format
 msgid "Remove All Anchors"
-msgstr ""
+msgstr "Kendu aingura guztiak"
 
 #: src/application_actions.cpp:761
 #, kde-format
@@ -960,15 +965,15 @@ msgid "Unanchor show time from the timeline on all anchored lines"
 msgstr ""
 
 #: src/application_actions.cpp:769
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:inmenu Manage user scripts"
 msgid "Scripts Manager..."
-msgstr "Gidoi-kudeatzailea"
+msgstr "Gidoi-kudeatzailea..."
 
 #: src/application_actions.cpp:770
 #, kde-format
 msgid "Manage user scripts"
-msgstr ""
+msgstr "Kudeatu erabiltzailearen gidoiak"
 
 #: src/application_actions.cpp:777 src/application_actions.cpp:778
 #, kde-format
@@ -1427,7 +1432,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpQuickActions)
 #: src/configs/generalconfigwidget.ui:167
-#, fuzzy, kde-format
+#, kde-format
 msgid "Quick Actions"
 msgstr "Ekintza Azkarrak"
 
@@ -1461,7 +1466,7 @@ msgstr ""
 #: src/configs/playerconfigwidget.ui:30
 #, kde-format
 msgid "Seconds to &jump on seek:"
-msgstr ""
+msgstr "Bilatzean &jauzi beharreko segundo kopurua:"
 
 #. i18n: ectx: label, entry (VideoAutoPlay), group (VideoPlayer)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_VideoAutoPlay)
@@ -1486,7 +1491,7 @@ msgstr ""
 #: src/configs/playerconfigwidget.ui:74
 #, kde-format
 msgid "Volume amplification:"
-msgstr ""
+msgstr "Bolumenaren anplifikazioa:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitles)
 #: src/configs/playerconfigwidget.ui:122
@@ -1496,9 +1501,9 @@ msgstr "Azpidatziak"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_OutlineColor)
 #: src/configs/playerconfigwidget.ui:138
-#, fuzzy, kde-format
+#, kde-format
 msgid "Outline color:"
-msgstr "Inguruko kolorea:"
+msgstr "Ingeradaren kolorea:"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_FontColor)
 #: src/configs/playerconfigwidget.ui:151
@@ -1514,9 +1519,9 @@ msgstr "Letra-tipo familia:"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_OutlineWidth)
 #: src/configs/playerconfigwidget.ui:177
-#, fuzzy, kde-format
+#, kde-format
 msgid "Outline width:"
-msgstr "Inguruaren zabalera"
+msgstr "Ingeradaren zabalera:"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_FontSize)
 #: src/configs/playerconfigwidget.ui:187
@@ -1528,7 +1533,7 @@ msgstr "Letra-&tamaina:"
 #: src/configs/playerconfigwidget.ui:203
 #, kde-format
 msgid "Subtitles Preview"
-msgstr ""
+msgstr "Azpidatzien aurreikuspegia"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: src/configs/waveformconfigwidget.ui:17
@@ -1544,13 +1549,13 @@ msgstr "Kiribiltze leuna"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: src/configs/waveformconfigwidget.ui:49
-#, fuzzy, kde-format
+#, kde-format
 msgid "Outer color:"
 msgstr "Kanpoko kolorea:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: src/configs/waveformconfigwidget.ui:78
-#, fuzzy, kde-format
+#, kde-format
 msgid "Inner color:"
 msgstr "Barneko kolorea:"
 
@@ -1578,55 +1583,55 @@ msgstr ""
 #: src/configs/waveformconfigwidget.ui:148
 #, kde-format
 msgid "Subtitle border color:"
-msgstr ""
+msgstr "Azpidatzi-ertzaren kolorea:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #: src/configs/waveformconfigwidget.ui:158
-#, fuzzy, kde-format
+#, kde-format
 msgid "Selected background color:"
-msgstr "&Hautatutako atzeko planoaren kolorea..."
+msgstr "Hautatutako atzeko planoaren kolorea:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: src/configs/waveformconfigwidget.ui:168
 #, kde-format
 msgid "Subtitle border width:"
-msgstr ""
+msgstr "Azpidatzi-ertzaren zabalera:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: src/configs/waveformconfigwidget.ui:178
 #, kde-format
 msgid "Subtitle background color:"
-msgstr ""
+msgstr "Azpidatzien atzeko planoaren kolorea:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: src/configs/waveformconfigwidget.ui:207
 #, kde-format
 msgid "Selected border color:"
-msgstr ""
+msgstr "Hautatutako ertzaren kolorea:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/configs/waveformconfigwidget.ui:258
 #, kde-format
 msgid "Text Font and Colors"
-msgstr ""
+msgstr "Testuaren letra-tipoa eta koloreak"
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #: src/configs/waveformconfigwidget.ui:264
 #, kde-format
 msgid "Subtitle font family:"
-msgstr ""
+msgstr "Azpidatzien letra-tipo familia:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #: src/configs/waveformconfigwidget.ui:277
 #, kde-format
 msgid "Subtitle number font size:"
-msgstr ""
+msgstr "Azpidatziko zenbakien letra-tipoaren neurria:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubNumberFontSize)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubTextFontSize)
 #: src/configs/waveformconfigwidget.ui:287
 #: src/configs/waveformconfigwidget.ui:333
-#, fuzzy, kde-format
+#, kde-format
 msgid " pt"
 msgstr " pt"
 
@@ -1634,74 +1639,74 @@ msgstr " pt"
 #: src/configs/waveformconfigwidget.ui:294
 #, kde-format
 msgid "Subtitle Number Color"
-msgstr ""
+msgstr "Azpidatziko zenbakien kolorea"
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: src/configs/waveformconfigwidget.ui:323
 #, kde-format
 msgid "Subtitle text font size:"
-msgstr ""
+msgstr "Azpidatziko testuaren letra-tipoaren neurria:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_25)
 #: src/configs/waveformconfigwidget.ui:340
 #, kde-format
 msgid "Subtitle Text Color:"
-msgstr ""
+msgstr "Azpidatziko testuaren kolorea:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/configs/waveformconfigwidget.ui:372
 #, kde-format
 msgid "Line Indicators"
-msgstr ""
+msgstr "Lerro adierazleak"
 
 #. i18n: ectx: property (text), widget (QLabel, label_31)
 #: src/configs/waveformconfigwidget.ui:378
 #, kde-format
 msgid "Player position color:"
-msgstr ""
+msgstr "Jotzailearen kokalekuaren kolorea:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_32)
 #: src/configs/waveformconfigwidget.ui:388
 #, kde-format
 msgid "Mouse indicator color:"
-msgstr ""
+msgstr "Sagu adierazlearen kolorea:"
 
 #: src/core/subtitle.cpp:61
 #, kde-format
 msgid "Set Primary Data"
-msgstr ""
+msgstr "Ezarri lehen mailako datuak"
 
 #: src/core/subtitle.cpp:119
 #, kde-format
 msgid "Clear Primary Text Data"
-msgstr ""
+msgstr "Garbitu lehen mailako testuaren datuak"
 
 #: src/core/subtitle.cpp:132
 #, kde-format
 msgid "Set Secondary Data"
-msgstr ""
+msgstr "Ezarri bigarren mailako datuak"
 
 #: src/core/subtitle.cpp:169
 #, kde-format
 msgid "Clear Secondary Text Data"
-msgstr ""
+msgstr "Garbitu bigarren mailako testuaren datuak"
 
 #: src/core/subtitle.cpp:237 src/dialogs/changeframeratedialog.cpp:22
 #, kde-format
 msgid "Change Frame Rate"
-msgstr ""
+msgstr "Aldatu fotograma-emaria"
 
 #: src/core/subtitle.cpp:402 src/core/subtitle.cpp:416
 #: src/gui/waveform/waveformwidget.cpp:695
 #, kde-format
 msgid "Insert Line"
-msgstr ""
+msgstr "Txertatu lerroa"
 
 #: src/core/subtitle.cpp:449 src/core/subtitle.cpp:459
 #: src/core/subtitle.cpp:476 src/core/undo/subtitleactions.cpp:121
 #, kde-format
 msgid "Remove Lines"
-msgstr ""
+msgstr "Kendu lerroak"
 
 #: src/core/subtitle.cpp:741
 #, kde-format
@@ -1711,281 +1716,283 @@ msgstr ""
 #: src/core/subtitle.cpp:797
 #, kde-format
 msgid "Adjust Lines"
-msgstr ""
+msgstr "Doitu lerroak"
 
 #: src/core/subtitle.cpp:808
-#, fuzzy, kde-format
+#, kde-format
 msgid "Sort"
 msgstr "Sailkatu"
 
 #: src/core/subtitle.cpp:840 src/dialogs/durationlimitsdialog.cpp:18
 #, kde-format
 msgid "Enforce Duration Limits"
-msgstr ""
+msgstr "Iraupen mugak betearaztea"
 
 #: src/core/subtitle.cpp:902 src/dialogs/autodurationsdialog.cpp:21
 #, kde-format
 msgid "Set Automatic Durations"
-msgstr ""
+msgstr "Ezarri iraupen automatikoak"
 
 #: src/core/subtitle.cpp:935 src/dialogs/fixoverlappingtimesdialog.cpp:18
 #, kde-format
 msgid "Fix Overlapping Times"
-msgstr ""
+msgstr "Konpondu gainjarritako denborak"
 
 #: src/core/subtitle.cpp:966
 #, kde-format
 msgid "Fix Lines Punctuation"
-msgstr ""
+msgstr "Konpondu lerroetako puntuazioa"
 
 #: src/core/subtitle.cpp:1008
-#, fuzzy, kde-format
+#, kde-format
 msgid "Lower Case"
 msgstr "Letra xeheak"
 
 #: src/core/subtitle.cpp:1038
-#, fuzzy, kde-format
+#, kde-format
 msgid "Upper Case"
 msgstr "Letra larriak"
 
 #: src/core/subtitle.cpp:1068
-#, fuzzy, kde-format
+#, kde-format
 msgid "Title Case"
-msgstr "Titulu kaxa"
+msgstr "Titulu-formatua"
 
 #: src/core/subtitle.cpp:1101
-#, fuzzy, kde-format
+#, kde-format
 msgid "Sentence Case"
-msgstr "Perpausaren kaxa"
+msgstr "Esaldi-formatua"
 
 #: src/core/subtitle.cpp:1145 src/dialogs/smarttextsadjustdialog.cpp:18
-#, fuzzy, kde-format
+#, kde-format
 msgid "Break Lines"
-msgstr "Lerroak hautsi"
+msgstr "Hautsi lerroak"
 
 #: src/core/subtitle.cpp:1172
 #, kde-format
 msgid "Synchronize Subtitles"
-msgstr ""
+msgstr "Sinkronizatu azpidatziak"
 
 #: src/core/subtitle.cpp:1197 src/dialogs/joinsubtitlesdialog.cpp:25
-#, fuzzy, kde-format
+#, kde-format
 msgid "Join Subtitles"
-msgstr "Batu azpidatziak..."
+msgstr "Batu azpidatziak"
 
 #: src/core/subtitle.cpp:1242 src/core/subtitle.cpp:1248
 #, kde-format
 msgid "Split Subtitles"
-msgstr ""
+msgstr "Zatitu azpidatziak"
 
 #: src/core/subtitle.cpp:1267
 #, kde-format
 msgid "Toggle Lines Style"
-msgstr ""
+msgstr "Txandakatu lerroen estiloa"
 
 #: src/core/subtitle.cpp:1311
 #, kde-format
 msgid "Change Lines Text Color"
-msgstr ""
+msgstr "Aldatu lerroen testuaren kolorea"
 
 #: src/core/subtitle.cpp:1331
 #, kde-format
 msgid "Set Lines Mark"
-msgstr ""
+msgstr "Ezarri lerroetako markak"
 
 #: src/core/subtitle.cpp:1331
 #, kde-format
 msgid "Clear Lines Mark"
-msgstr ""
+msgstr "Garbitu lerroetako markak"
 
 #: src/core/subtitle.cpp:1346
 #, kde-format
 msgid "Toggle Lines Mark"
-msgstr ""
+msgstr "Txandakatu lerroetako markak"
 
 #: src/core/subtitle.cpp:1356
 #, kde-format
 msgid "Clear Line Errors"
-msgstr ""
+msgstr "Garbitu lerroetako erroreak"
 
 #: src/core/subtitle.cpp:1367 src/core/subtitle.cpp:1378
 #: src/errors/errorfinder.cpp:84
 #, kde-format
 msgid "Check Lines Errors"
-msgstr ""
+msgstr "Egiaztatu lerroetako erroreak"
 
 #: src/core/subtitleline.cpp:59
 #, kde-format
 msgid "Empty text"
-msgstr ""
+msgstr "Testua hutsik"
 
 #: src/core/subtitleline.cpp:61
 #, kde-format
 msgid "Too many characters"
-msgstr ""
+msgstr "Karaktere gehiegi"
 
 #: src/core/subtitleline.cpp:63
 #, kde-format
 msgid "Too many lines"
-msgstr ""
+msgstr "Lerro gehiegi"
 
 #: src/core/subtitleline.cpp:65
 #, kde-format
 msgid "Too many characters per line"
-msgstr ""
+msgstr "Lerroko karaktere gehiegi"
 
 #: src/core/subtitleline.cpp:67
 #, kde-format
 msgid "Unnecessary white space"
-msgstr ""
+msgstr "Beharrezkoak ez diren zuriuneak"
 
 #: src/core/subtitleline.cpp:69
 #, kde-format
 msgid "Unnecessary dash"
-msgstr ""
+msgstr "Beharrezkoa ez den marratxoa"
 
 #: src/core/subtitleline.cpp:71
 #, kde-format
 msgid "Capital letter after continuation ellipsis"
-msgstr ""
+msgstr "Letra larria jarraipen-etenpuntuen ondoren"
 
 #: src/core/subtitleline.cpp:73
 #, kde-format
 msgid "Too long duration per character"
-msgstr ""
+msgstr "Karaktereko iraupen luzeegia"
 
 #: src/core/subtitleline.cpp:75
 #, kde-format
 msgid "Too short duration per character"
-msgstr ""
+msgstr "Karaktereko iraupen laburregia"
 
 #: src/core/subtitleline.cpp:77
 #, kde-format
 msgid "Too long duration"
-msgstr ""
+msgstr "Iraupen luzeegia"
 
 #: src/core/subtitleline.cpp:78
 #, kde-format
 msgid "Too short duration"
-msgstr ""
+msgstr "Iraupen laburregia"
 
 #: src/core/subtitleline.cpp:79
 #, kde-format
 msgid "Overlapping times"
-msgstr ""
+msgstr "Gainjarritako denborak"
 
 #: src/core/subtitleline.cpp:80
 #, kde-format
 msgid "Untranslated text"
-msgstr ""
+msgstr "Itzuli gabeko testua"
 
 #: src/core/subtitleline.cpp:81
 #, kde-format
 msgid "User mark"
-msgstr ""
+msgstr "Erabiltzailearen marka"
 
 #: src/core/subtitleline.cpp:100
 #, kde-format
 msgid "Has no primary text."
-msgstr ""
+msgstr "Ez du testu nagusirik."
 
 #: src/core/subtitleline.cpp:101
 #, kde-format
 msgid "Has no translation text."
-msgstr ""
+msgstr "Ez du itzulpen testurik."
 
 #: src/core/subtitleline.cpp:102
 #, kde-format
 msgid "Has too many characters in primary text (1 char)."
 msgid_plural "Has too many characters in primary text (%1 chars)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Testu nagusian karaktere gehiegi daude (karaktere 1)."
+msgstr[1] "Testu nagusian karaktere gehiegi daude (%1 karaktere)."
 
 #: src/core/subtitleline.cpp:103
 #, kde-format
 msgid "Has too many characters in translation text (1 char)."
 msgid_plural "Has too many characters in translation text (%1 chars)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Itzulpen testuan karaktere gehiegi daude (karaktere 1)."
+msgstr[1] "Itzulpen testuan karaktere gehiegi daude (%1 karaktere)."
 
 #: src/core/subtitleline.cpp:104
 #, kde-format
 msgid "Has too many lines in primary text (1 line)."
 msgid_plural "Has too many lines in primary text (%1 lines)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Testu nagusian lerro gehiegi daude (lerro 1)."
+msgstr[1] "Testu nagusian lerro gehiegi daude (%1 lerro)."
 
 #: src/core/subtitleline.cpp:105
 #, kde-format
 msgid "Has too many lines in translation text (1 line)."
 msgid_plural "Has too many lines in translation text (%1 lines)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Itzulpen testuan lerro gehiegi daude (lerro 1)."
+msgstr[1] "Itzulpen testuan lerro gehiegi daude (%1 lerro)."
 
 #: src/core/subtitleline.cpp:106
 #, kde-format
 msgid "Has too many characters per line in primary text."
-msgstr ""
+msgstr "Testu nagusian lerroko karaktere gehiegi daude."
 
 #: src/core/subtitleline.cpp:107
 #, kde-format
 msgid "Has too many characters per line in translation text."
-msgstr ""
+msgstr "Itzulpen testuan lerroko karaktere gehiegi daude."
 
 #: src/core/subtitleline.cpp:108
 #, kde-format
 msgid "Has unnecessary spaces in primary text."
-msgstr ""
+msgstr "Testu nagusian behar ez diren zuriuneak daude."
 
 #: src/core/subtitleline.cpp:109
 #, kde-format
 msgid "Has unnecessary spaces in translation text."
-msgstr ""
+msgstr "Itzulpen testuan behar ez diren zuriuneak daude."
 
 #: src/core/subtitleline.cpp:110
 #, kde-format
 msgid "Has unnecessary dash in primary text."
-msgstr ""
+msgstr "Testu nagusian behar ez diren marratxoak daude."
 
 #: src/core/subtitleline.cpp:111
 #, kde-format
 msgid "Has unnecessary dash in translation text."
-msgstr ""
+msgstr "Itzulpen testuan behar ez diren marratxoak daude."
 
 #: src/core/subtitleline.cpp:112
 #, kde-format
 msgid "Has capital letter after line continuation ellipsis in primary text."
 msgstr ""
+"Testu nagusian letra-larria du lerro-jarraipeneko etenpuntuaren ondoren."
 
 #: src/core/subtitleline.cpp:113
 #, kde-format
 msgid ""
 "Has capital letter after line continuation ellipsis in translation text."
 msgstr ""
+"Itzulpen testuan letra-larria du lerro-jarraipeneko etenpuntuaren ondoren."
 
 #: src/core/subtitleline.cpp:114
 #, kde-format
 msgid "Has too long duration per character in primary text (1 msec/char)."
 msgid_plural ""
 "Has too long duration per character in primary text (%1 msecs/char)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Testu nagusian karaktereko iraupen luzeegia du (1 ms/karaktere)."
+msgstr[1] "Testu nagusian karaktereko iraupen luzeegia du (%1 ms/karaktere)."
 
 #: src/core/subtitleline.cpp:115
 #, kde-format
 msgid "Has too long duration per character in translation text (1 msec/char)."
 msgid_plural ""
 "Has too long duration per character in translation text (%1 msecs/char)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Itzulpen testuan karaktereko iraupen luzeegia du (1 ms/karaktere)."
+msgstr[1] "Itzulpen testuan karaktereko iraupen luzeegia du (%1 ms/karaktere)."
 
 #: src/core/subtitleline.cpp:116
 #, kde-format
 msgid "Has too short duration per character in primary text (1 msec/char)."
 msgid_plural ""
 "Has too short duration per character in primary text (%1 msecs/char)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Testu nagusian karaktereko iraupen laburregia du (1 ms/karaktere)."
+msgstr[1] "Testu nagusian karaktereko iraupen laburregia du (%1 ms/karaktere)."
 
 #: src/core/subtitleline.cpp:117
 #, kde-format
@@ -1993,41 +2000,43 @@ msgid "Has too short duration per character in translation text (1 msec/char)."
 msgid_plural ""
 "Has too short duration per character in translation text (%1 msecs/char)."
 msgstr[0] ""
+"Itzulpen testuan karaktereko iraupen laburregia du (1 ms/karaktere)."
 msgstr[1] ""
+"Itzulpen testuan karaktereko iraupen laburregia du (%1 ms/karaktere)."
 
 #: src/core/subtitleline.cpp:118
 #, kde-format
 msgid "Has too long duration (1 msec)."
 msgid_plural "Has too long duration (%1 msecs)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Iraupen luzeegia du (1 ms)."
+msgstr[1] "Iraupen luzeegia du (%1 ms)."
 
 #: src/core/subtitleline.cpp:119
 #, kde-format
 msgid "Has too short duration (1 msec)."
 msgid_plural "Has too short duration (%1 msecs)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Iraupen laburregia du (1 ms)."
+msgstr[1] "Iraupen laburregia du (%1 ms)."
 
 #: src/core/subtitleline.cpp:120
 #, kde-format
 msgid "Overlaps with next line."
-msgstr ""
+msgstr "Hurrengo lerroarekin gainjartzen da."
 
 #: src/core/subtitleline.cpp:121
 #, kde-format
 msgid "Has untranslated text."
-msgstr ""
+msgstr "Itzuli gabeko testua du."
 
 #: src/core/subtitleline.cpp:122
 #, kde-format
 msgid "Has user mark."
-msgstr ""
+msgstr "Erabiltzailearen marka du."
 
 #: src/core/subtitleline.cpp:382 src/core/undo/subtitlelineactions.cpp:105
 #, kde-format
 msgid "Set Line Show Time"
-msgstr ""
+msgstr "Ezarri lerroa erakusteko unea"
 
 #: src/core/subtitleline.cpp:406 src/core/undo/subtitlelineactions.cpp:132
 #, kde-format
@@ -2325,9 +2334,9 @@ msgid "Minimum interval between lines:"
 msgstr "Lerroen arteko bitarte minimoa:"
 
 #: src/dialogs/fixpunctuationdialog.cpp:17
-#, kde-format
+#, fuzzy, kde-format
 msgid "Fix Punctuation"
-msgstr ""
+msgstr "Konpondu puntuazioa..."
 
 #: src/dialogs/fixpunctuationdialog.cpp:22
 #, kde-format
@@ -2551,7 +2560,7 @@ msgstr ""
 #: src/errors/finderrorsdialog.cpp:116
 #, fuzzy, kde-format
 msgid "Select None"
-msgstr "Ez hautatu bat ere"
+msgstr "Bat ere ez hautatu"
 
 #: src/formats/textdemux/textdemux.cpp:32
 #, kde-format
@@ -2583,7 +2592,7 @@ msgstr "Korrontea / Hizkuntza"
 #: src/formats/vobsub/vobsubinputinitdialog.ui:30
 #, fuzzy, kde-format
 msgid "Post Processing"
-msgstr "Prozesamenduaren ondorengoa"
+msgstr "Osteko prozesaketa"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ppSpaceNumber)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:36
@@ -3009,7 +3018,7 @@ msgstr "Zatitu lerroa"
 #: src/gui/waveform/waveformwidget.cpp:743
 #, kde-format
 msgid "Set Current Line Show Time"
-msgstr ""
+msgstr "Ezarri uneko lerroaren erakusteko unea"
 
 #: src/gui/waveform/waveformwidget.cpp:748
 #, kde-format
@@ -3122,7 +3131,7 @@ msgstr "Lerro jauzi karakterea"
 #: src/scconfig.kcfg:18
 #, kde-format
 msgid "Seek Offset On Double Click"
-msgstr ""
+msgstr "Klik bikoitzean desplazamendua bilatu"
 
 #. i18n: ectx: label, entry (JumpLineOffset), group (General)
 #: src/scconfig.kcfg:22
@@ -3327,9 +3336,9 @@ msgstr "Letra-tipoaren familia"
 
 #. i18n: ectx: label, entry (wfSubNumberFontSize), group (Waveform Widget)
 #: src/scconfig.kcfg:169
-#, kde-format
+#, fuzzy, kde-format
 msgid "Subtitle Number Font Size"
-msgstr ""
+msgstr "Azpidatziko zenbakien letra-tipoaren neurria:"
 
 #. i18n: ectx: label, entry (wfSubNumberColor), group (Waveform Widget)
 #: src/scconfig.kcfg:173
@@ -3339,9 +3348,9 @@ msgstr ""
 
 #. i18n: ectx: label, entry (wfSubTextFontSize), group (Waveform Widget)
 #: src/scconfig.kcfg:177
-#, kde-format
+#, fuzzy, kde-format
 msgid "Subtitle Text Font Size"
-msgstr ""
+msgstr "Azpidatziko testuaren letra-tipoaren neurria:"
 
 #. i18n: ectx: label, entry (wfSubTextColor), group (Waveform Widget)
 #: src/scconfig.kcfg:181
@@ -3365,7 +3374,7 @@ msgstr ""
 #: src/scconfig.kcfg:200
 #, kde-format
 msgid "Jump length on seek"
-msgstr ""
+msgstr "Bilaketa-jauziaren luzera"
 
 #. i18n: ectx: label, entry (StepJumpLength), group (VideoPlayer)
 #: src/scconfig.kcfg:204
@@ -3383,7 +3392,7 @@ msgstr ""
 #: src/scconfig.kcfg:212
 #, kde-format
 msgid "Volume Amplification"
-msgstr ""
+msgstr "Bolumenaren anplifikazioa"
 
 #. i18n: ectx: label, entry (FontSize), group (VideoPlayer)
 #: src/scconfig.kcfg:221
@@ -3399,15 +3408,15 @@ msgstr "Letra-tipoaren kolorea"
 
 #. i18n: ectx: label, entry (OutlineColor), group (VideoPlayer)
 #: src/scconfig.kcfg:229
-#, fuzzy, kde-format
+#, kde-format
 msgid "Outline Color"
-msgstr "Inguruko kolorea"
+msgstr "Ingeradaren kolorea"
 
 #. i18n: ectx: label, entry (OutlineWidth), group (VideoPlayer)
 #: src/scconfig.kcfg:233
-#, fuzzy, kde-format
+#, kde-format
 msgid "Outline Width"
-msgstr "Inguruaren zabalera"
+msgstr "Ingeradaren zabalera"
 
 #. i18n: ectx: label, entry (translateEngine), group (Translation)
 #: src/scconfig.kcfg:240
@@ -3419,7 +3428,7 @@ msgstr "Azkenekoz erabilitako itzulpen motorra"
 #: src/scconfig.kcfg:247
 #, kde-format
 msgid "Service Account JSON containing private key"
-msgstr ""
+msgstr "Gako pribatua duen zerbitzu-kontuaren JSON"
 
 #. i18n: ectx: label, entry (gctLangSource), group (GoogleCloudTranslate)
 #. i18n: ectx: label, entry (dltLangSource), group (DeepLTranslate)
@@ -3427,7 +3436,7 @@ msgstr ""
 #: src/scconfig.kcfg:250 src/scconfig.kcfg:274 src/scconfig.kcfg:287
 #, kde-format
 msgid "source language - cached"
-msgstr ""
+msgstr "sorburu-hizkuntza - cachean gordeta"
 
 #. i18n: ectx: label, entry (gctLangTrans), group (GoogleCloudTranslate)
 #. i18n: ectx: label, entry (dltLangTrans), group (DeepLTranslate)
@@ -3435,48 +3444,48 @@ msgstr ""
 #: src/scconfig.kcfg:253 src/scconfig.kcfg:277 src/scconfig.kcfg:290
 #, kde-format
 msgid "translation language - cached"
-msgstr ""
+msgstr "itzulpen-hizkuntza - cachean gordeta"
 
 #. i18n: ectx: label, entry (gctAccessToken), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:256
 #, kde-format
 msgid "access token - cached"
-msgstr ""
+msgstr "sarbide-tokena - cachean gordeta"
 
 #. i18n: ectx: label, entry (gctTokenExpires), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:259
 #, kde-format
 msgid "access token expiry - cached"
-msgstr ""
+msgstr "sarbide-tokenaren iraungipena - cachean gordeta"
 
 #. i18n: ectx: label, entry (gctTokenType), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:262
 #, kde-format
 msgid "access token type - cached"
-msgstr ""
+msgstr "sarbide-token mota - cachean gordeta"
 
 #. i18n: ectx: label, entry (dltAuthKey), group (DeepLTranslate)
 #: src/scconfig.kcfg:268
 #, kde-format
 msgid "DeepL API authentication key"
-msgstr ""
+msgstr "DeepL API autentifikazio-gakoa"
 
 #. i18n: ectx: label, entry (dltApiDomain), group (DeepLTranslate)
 #: src/scconfig.kcfg:271
 #, kde-format
 msgid "DeepL API domain name"
-msgstr ""
+msgstr "DeepL API domeinu-izena"
 
 #. i18n: ectx: label, entry (mintURLPrefix), group (MinTTranslate)
 #: src/scconfig.kcfg:283
 #, kde-format
 msgid "MinT API URL prefix"
-msgstr ""
+msgstr "MinT API URL aurrizkia"
 
 #: src/scripting/scriptsmanager.cpp:73
 #, kde-format
 msgid "Non-Script Files"
-msgstr ""
+msgstr "Gidoiak ez diren fitxategiak"
 
 #: src/scripting/scriptsmanager.cpp:155
 #, kde-format
@@ -3556,12 +3565,12 @@ msgstr "Gidoiaren izena:"
 #: src/scripting/scriptsmanager.cpp:504
 #, kde-format
 msgid "There was an error creating the file <b>%1</b>."
-msgstr ""
+msgstr "Errore bat gertatu da <b>%1</b> fitxategia sortzean."
 
 #: src/scripting/scriptsmanager.cpp:539
 #, kde-format
 msgid "Select Existing Script"
-msgstr ""
+msgstr "Hautatu lehendik dagoen gidoia"
 
 #: src/scripting/scriptsmanager.cpp:556
 #, kde-format
@@ -3569,11 +3578,13 @@ msgid ""
 "You must enter an unused name to continue.\n"
 "Would you like to enter another name?"
 msgstr ""
+"Jarraitzeko erabili gabeko izen bat sartu behar duzu.\n"
+"Beste izen bat sartu nahi zenuke?"
 
 #: src/scripting/scriptsmanager.cpp:557
-#, fuzzy, kde-format
+#, kde-format
 msgid "Name Already Used"
-msgstr "Izena erabilita dagoeneko"
+msgstr "Izena dagoeneko erabilita"
 
 #: src/scripting/scriptsmanager.cpp:561
 #, kde-format
@@ -3588,12 +3599,12 @@ msgstr "Errore bat gertatu da <b>%1</b> fitxategia irekitzean."
 #: src/scripting/scriptsmanager.cpp:577
 #, kde-format
 msgid "There was an error copying the file to <b>%1</b>."
-msgstr ""
+msgstr "Errore bat gertatu da fitxategia <b>%1</b>(e)(r)a kopiatzean."
 
 #: src/scripting/scriptsmanager.cpp:592
 #, kde-format
 msgid "Do you really want to send file <b>%1</b> to the trash?"
-msgstr ""
+msgstr "Benetan eraman nahi duzu <b>%1</b> fitxategia zakarrontzira?"
 
 #: src/scripting/scriptsmanager.cpp:592
 #, kde-format
@@ -3603,23 +3614,23 @@ msgstr "Eraman zakarrontzira"
 #: src/scripting/scriptsmanager.cpp:596
 #, kde-format
 msgid "There was an error removing the file <b>%1</b>."
-msgstr ""
+msgstr "Errore bat gertatu da <b>%1</b> fitxategia kentzean."
 
 #: src/scripting/scriptsmanager.cpp:614
 #, kde-format
 msgid "Could not launch external editor.\n"
-msgstr ""
+msgstr "Ezin izan du kanpoko editorea abiarazi.\n"
 
 #: src/scripting/scriptsmanager.cpp:634
 #, kde-format
 msgid "Error opening script %1."
-msgstr ""
+msgstr "Errorea %1 gidoia irekitzean."
 
 #: src/scripting/scriptsmanager.cpp:634 src/scripting/scriptsmanager.cpp:649
 #: src/scripting/scriptsmanager.cpp:651
 #, kde-format
 msgid "Error Running Script"
-msgstr "Errorea gidoia ibiltzean"
+msgstr "Errorea gidoia exekutatzean"
 
 #: src/scripting/scriptsmanager.cpp:647
 #, kde-format
@@ -3653,7 +3664,7 @@ msgstr "Sortu..."
 #: src/scripting/scriptsmanager.ui:42
 #, kde-format
 msgid "Copies an existing script from a specified location."
-msgstr ""
+msgstr "Lehendik dagoen gidoi bat zehaztutako kokapen batetik kopiatzen du."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #: src/scripting/scriptsmanager.ui:45
@@ -3665,19 +3676,19 @@ msgstr "Gehitu..."
 #: src/scripting/scriptsmanager.ui:55
 #, kde-format
 msgid "Sends the selected script to the trash."
-msgstr ""
+msgstr "Hautatutako gidoia zakarrontzira bidaltzen du."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnEdit)
 #: src/scripting/scriptsmanager.ui:68
 #, kde-format
 msgid "Opens the selected script with an external editor."
-msgstr ""
+msgstr "Hautatutako gidoia kanpoko editore batekin irekitzen du."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnRun)
 #: src/scripting/scriptsmanager.ui:97
 #, kde-format
 msgid "Executes the selected script."
-msgstr ""
+msgstr "Hautatutako gidoia exekutatzen du."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRun)
 #: src/scripting/scriptsmanager.ui:100
@@ -3689,7 +3700,7 @@ msgstr "Exekutatu"
 #: src/scripting/scriptsmanager.ui:126
 #, kde-format
 msgid "Reloads the installed scripts list."
-msgstr ""
+msgstr "Instalatutako gidoien zerrenda birzamatzen du."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRefresh)
 #: src/scripting/scriptsmanager.ui:129
@@ -3703,7 +3714,7 @@ msgstr "Berritu"
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:65
 #, kde-format
 msgid "Directory containing acoustic model files"
-msgstr ""
+msgstr "Eredu akustikoen fitxategiak dituen direktorioa"
 
 #. i18n: ectx: label, entry (trigramModelFile), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_trigramModelFile)
@@ -3711,7 +3722,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:39
 #, kde-format
 msgid "Word trigram language model input file"
-msgstr ""
+msgstr "Hitz-trigrama hizkuntza-eredurako sarrerako fitxategia"
 
 #. i18n: ectx: label, entry (lexiconFile), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_lexiconFile)
@@ -3719,7 +3730,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:26
 #, kde-format
 msgid "Main pronunciation dictionary (lexicon) input file"
-msgstr ""
+msgstr "Ahoskera-hiztegi nagusiaren (lexicon) sarrerako fitxategia"
 
 #. i18n: ectx: label, entry (vadPostSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadPostSpeech)
@@ -3728,6 +3739,7 @@ msgstr ""
 #, kde-format
 msgid "Num of silence frames to keep after speech to silence transition"
 msgstr ""
+"Hizketatik isilunera igarotzean mantendu beharreko isilune-fotograma kopurua"
 
 #. i18n: ectx: label, entry (vadPreSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadPreSpeech)
@@ -3736,6 +3748,8 @@ msgstr ""
 #, kde-format
 msgid "Num of speech frames to keep before silence to speech transition"
 msgstr ""
+"Isilunetik hizketara igaro aurretik mantendu beharreko hizketa-fotograma "
+"kopurua"
 
 #. i18n: ectx: label, entry (vadStartSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadStartSpeech)
@@ -3743,7 +3757,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:165
 #, kde-format
 msgid "Num of speech frames to trigger VAD from silence to speech"
-msgstr ""
+msgstr "Isilunetik hizketara VAD eragiteko hizketa-fotograma kopurua"
 
 #. i18n: ectx: label, entry (vadTreshold), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_vadTreshold)
@@ -3756,6 +3770,8 @@ msgid ""
 "Threshold for decision between noise and silence frames. Log-ratio between "
 "signal level and noise level"
 msgstr ""
+"Zarata- eta isilune-fotogramen artean bereizteko atalasea. Seinale-mailaren "
+"eta zarata-mailaren arteko erlazio logaritmikoa"
 
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:20
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:28
@@ -3767,25 +3783,25 @@ msgstr "Sphinx hiztegiak"
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:29
 #, kde-format
 msgid "Trigram Models"
-msgstr ""
+msgstr "Trigrama ereduak"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpModel)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:20
 #, kde-format
 msgid "Speech Recognition Model"
-msgstr ""
+msgstr "Hizketa-ezagutza eredua"
 
 #. i18n: ectx: property (text), widget (QLabel, label_lexiconFile)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:29
 #, kde-format
 msgid "Pronunciation Dictionary (Lexicon)"
-msgstr ""
+msgstr "Ahoskera hiztegia (Lexicon)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_trigramModelFile)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:42
 #, kde-format
 msgid "Trigram Model"
-msgstr ""
+msgstr "Trigrama eredua"
 
 #. i18n: ectx: property (text), widget (QLabel, label_acousticModelPath)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:68
@@ -3802,56 +3818,60 @@ msgid ""
 "style=\" text-decoration: underline; color:#007af4;\">CMU Sphinx</span></a></"
 "p></body></html>"
 msgstr ""
+"<html><head/><body><p align=\"center\">Eredu akustikoak eta hizkuntza "
+"ereduak<a href=\"https://cmusphinx.github.io/wiki/download/\"><span style=\" "
+"text-decoration: underline; color:#007af4;\">CMU Sphinx-etik</span></a> zama-"
+"jaitsi daitezke</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpVAD)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:100
 #, kde-format
 msgid "Voice Activity Detection"
-msgstr ""
+msgstr "Ahots-jarduera antzematea"
 
 #. i18n: ectx: property (text), widget (QLabel, label_vadTreshold)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:129
 #, kde-format
 msgid "Noise Threshold"
-msgstr ""
+msgstr "Zarata-atalasea"
 
 #. i18n: ectx: property (text), widget (QLabel, label_vadPreSpeech)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:142
 #, kde-format
 msgid "Pre Speech Frames"
-msgstr ""
+msgstr "Hizketa aurreko fotogramak"
 
 #. i18n: ectx: property (text), widget (QLabel, label_vadPostSpeech)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:155
 #, kde-format
 msgid "Post Speech Frames"
-msgstr ""
+msgstr "Hizketa ondoko fotogramak"
 
 #. i18n: ectx: property (text), widget (QLabel, label_vadStartSpeech)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:168
 #, kde-format
 msgid "Start Speech Frames"
-msgstr ""
+msgstr "Hizkera-fotogramen hasiera"
 
 #: src/speechprocessor/speechprocessor.cpp:41
 #, kde-format
 msgid "Recognizing speech"
-msgstr ""
+msgstr "Hizkera ezagutzen"
 
 #: src/speechprocessor/speechprocessor.cpp:50
 #, kde-format
 msgid "Abort speech recognition"
-msgstr ""
+msgstr "Hizkera-ezagutza bertan behera utzi"
 
 #: src/speechprocessor/speechprocessor.cpp:99
 #, kde-format
 msgid "No speech recognition plugins available"
-msgstr ""
+msgstr "Ez dago hizkera-ezagutzarako pluginik erabilgarri"
 
 #: src/speechprocessor/speechprocessor.cpp:104
 #, kde-format
 msgid "Initialization of speech recognition plugin failed"
-msgstr ""
+msgstr "Hizketa-ezagutza plugina hasieratzea huts egin du"
 
 #: src/speechprocessor/speechprocessor.cpp:173
 #, kde-format
@@ -3859,6 +3879,8 @@ msgid ""
 "Speech Recognition failed: %2\n"
 "Code %1: %3"
 msgstr ""
+"Hizketa-ezagutzak huts egin du: %2\n"
+"%1 kodea: %3"
 
 #. i18n: ectx: Menu (file)
 #: src/subtitlecomposerui.rc:5
@@ -3928,13 +3950,13 @@ msgstr "Editatu tresna-barra"
 
 #: src/translate/deeplengine.cpp:56 src/translate/googlecloudengine.cpp:136
 #: src/translate/mintengine.cpp:60
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Remote service error %1 %2\n"
 "%3"
 msgstr ""
-"Urruneko zerbitzuaren errorea (%1):\n"
-"%2"
+"Urruneko zerbitzuaren errorea %1 %2\n"
+"%3"
 
 #: src/translate/deeplengine.cpp:65 src/translate/googlecloudengine.cpp:151
 #: src/translate/mintengine.cpp:69
@@ -4009,6 +4031,8 @@ msgid ""
 "You need to <a href=\"https://www.deepl.com/pro-api\">create an account</a> "
 "on DeepL website and paste your API authentication key below."
 msgstr ""
+"DeepL webgunean <a href=\"https://www.deepl.com/pro-api\">kontu bat sortu</"
+"a> eta zure API autentifikaziorako gakoa behean itsatsi behar duzu."
 
 #. i18n: ectx: property (text), widget (QLabel, labSource)
 #: src/translate/deeplengine.ui:110 src/translate/googlecloudengine.ui:97
@@ -4048,7 +4072,7 @@ msgstr "Errorea '%1' fitxategia irekitzean"
 #: src/translate/googlecloudengine.cpp:216
 #, kde-format
 msgid "Error parsing JSON from file '%1'"
-msgstr ""
+msgstr "Errorea '%1' fitxategiko JSON analizatzean"
 
 #. i18n: ectx: property (text), widget (QLabel, labelServiceJSON)
 #: src/translate/googlecloudengine.ui:23
@@ -4107,6 +4131,10 @@ msgid ""
 "machinetranslation\">setup your own service</a> or use some <a href="
 "\"https://translate.wmcloud.org/\">public API</a>."
 msgstr ""
+"MinT itzulpen sistema automatikoaren API baten URL bat eman behar duzu. <a "
+"href=\"https://gerrit.wikimedia.org/g/mediawiki/services/machinetranslation"
+"\">Zure zerbitzu propioa ezarri</a> edo <a href=\"https://translate.wmcloud."
+"org/\">API publiko</a> bat erabili dezakezu."
 
 #: src/translate/translatedialog.cpp:31
 #, kde-format
@@ -4116,7 +4144,7 @@ msgstr "Itzuli"
 #: src/translate/translatedialog.cpp:46
 #, kde-format
 msgid "Translate texts in"
-msgstr ""
+msgstr "Itzuli testuak honetara"
 
 #: src/translate/translatedialog.cpp:92
 #, kde-format
