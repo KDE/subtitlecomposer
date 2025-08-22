@@ -153,6 +153,7 @@
       <li xml:lang="eo">Malfermaj/OCR-Grafikaj Subtitolaj Formatoj - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formatoj subtenataj de ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="es">Abrir y OCR de formatos de subtítulos gráficos: VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formatos permitidos por ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="et">Subtiitrite graafikavormingute - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), ffmpeg toetatud vormingud (DVD/Vob, DVB, XSUB, HDMV-PGS) - avamine ja optiline märgituvastus</li>
+      <li xml:lang="eu">Azpidatzi grafikoen formatuak ireki/OCR - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), ffmpeg-ek onartutako azpidatziak (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="fi">Avaa ja lue graafisia tekstitystiedostomuotoja: VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup) sekä ffmpegin tukemat muodot (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="fr">Ouverture et reconnaissance de caractères de formats de sous-titres graphiques - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formats pris en charge par ffmpeg (DVD / vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="gl">Formatos de subtítulos gráficos abertos ou de OCR: VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup) e formatos permitidos por ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS).</li>
@@ -177,6 +178,7 @@
       <li xml:lang="eo">Demux Graphics/Tekstaj Subtitoloj Fluo de videodosiero - SRT, SSA/ASS, MOV-teksto, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="es">Demultiplexar emisiones de subtítulos gráficos y de texto de archivos de vídeo: SRT, SSA/ASS, texto MOV, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="et">Graafilise või tekstisubtiitri voo demultipleksimine videofailist - SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
+      <li xml:lang="eu">Bideo fitxategiko azpidatzi korronte grafikoak/testu bidezkoak demultiplexatu - SRT, SSA/ASS, MOV testua, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="fi">Graafisten tai tekstimuotoisten tekstitysten demuksaus videotiedostosta: SRT, SSA/ASS, MOV, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="fr">Démultiplexage du flux de sous-titres graphiques / texte depuis un fichier vidéo - SRT, SSA / ASS, MOV texte, Micro-DVD, DVD / vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="gl">Gráficos de desmultiplexación ou fluxo de subtítulos de texto dun ficheiro de vídeo: SRT, SSA/ASS, texto de MOV, MicroDVD, DVD/Vob, DVB, XSUB e HDMV-PGS.</li>
@@ -201,6 +203,7 @@
       <li xml:lang="eo">Parola rekono de son-/video dosiero uzante PocketSphinx</li>
       <li xml:lang="es">Reconocimiento de habla de archivos de sonido y de vídeo mediante el uso de PocketSphinx</li>
       <li xml:lang="et">Kõne tuvastamine heli/videofailist PocketSphinxi abil</li>
+      <li xml:lang="eu">Audio/Bideo fitxategiaren ahots ezagutza PocketSphinx erabiliz</li>
       <li xml:lang="fi">Puheentunnistus ääni- tai videotiedostosta PocketSphinxillä</li>
       <li xml:lang="fr">Reconnaissance vocale des fichiers audio / vidéo grâce à PocketSphinx</li>
       <li xml:lang="gl">Recoñecemento de fala a partir de ficheiros de son ou de vídeo mediante PocketSphinx.</li>
@@ -226,6 +229,7 @@
       <li xml:lang="eo">Saĝa lingvo/teksta kodado** detekto</li>
       <li xml:lang="es">Detección inteligente de codificación** de idioma y de texto</li>
       <li xml:lang="et">Nutikas keele/tekstikodeeringu** tuvastamine</li>
+      <li xml:lang="eu">Hizkuntza/Testu kodeketa antzemate adimentsua</li>
       <li xml:lang="fi">Älykäs kielen ja merkistökoodauksen** tunnistaminen</li>
       <li xml:lang="fr">Détection intelligente de la langue et de l'encodage du texte**</li>
       <li xml:lang="gl">Detección intelixente de idioma e codificación de texto**.</li>
