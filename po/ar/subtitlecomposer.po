@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 01:58+0000\n"
-"PO-Revision-Date: 2025-08-04 14:42+0400\n"
+"PO-Revision-Date: 2025-08-24 21:45+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -64,7 +64,7 @@ msgstr ""
 #: src/application.cpp:769
 #, kde-format
 msgid "Open Video"
-msgstr ""
+msgstr "افتح الفيديو"
 
 #: src/application.cpp:967 src/application.cpp:974
 #: src/application_subtitle.cpp:658
@@ -490,7 +490,7 @@ msgstr ""
 #: src/application_actions.cpp:349 src/gui/currentlinewidget.cpp:322
 #, kde-format
 msgid "Toggle Bold"
-msgstr ""
+msgstr "بدل التثخين"
 
 #: src/application_actions.cpp:350
 #, kde-format
@@ -500,7 +500,7 @@ msgstr ""
 #: src/application_actions.cpp:358 src/gui/currentlinewidget.cpp:326
 #, kde-format
 msgid "Toggle Italic"
-msgstr ""
+msgstr "بدل الميلان"
 
 #: src/application_actions.cpp:359
 #, kde-format
@@ -510,7 +510,7 @@ msgstr ""
 #: src/application_actions.cpp:367 src/gui/currentlinewidget.cpp:330
 #, kde-format
 msgid "Toggle Underline"
-msgstr ""
+msgstr "بدل التسطير"
 
 #: src/application_actions.cpp:368
 #, kde-format
@@ -530,7 +530,7 @@ msgstr ""
 #: src/application_actions.cpp:385 src/gui/currentlinewidget.cpp:338
 #, kde-format
 msgid "Change Text Color"
-msgstr ""
+msgstr "غيّر لون الخط:"
 
 #: src/application_actions.cpp:386
 #, kde-format
@@ -538,9 +538,9 @@ msgid "Change text color of selected lines"
 msgstr ""
 
 #: src/application_actions.cpp:393
-#, fuzzy, kde-format
+#, kde-format
 msgid "Shift..."
-msgstr "Shift"
+msgstr "انقل…"
 
 #: src/application_actions.cpp:394
 #, kde-format
@@ -548,9 +548,9 @@ msgid "Shift lines an specified amount of time"
 msgstr ""
 
 #: src/application_actions.cpp:413
-#, fuzzy, kde-format
+#, kde-format
 msgid "Adjust..."
-msgstr "ضبط"
+msgstr "اضبط..."
 
 #: src/application_actions.cpp:414
 #, kde-format
@@ -690,7 +690,7 @@ msgstr ""
 #: src/application_actions.cpp:515
 #, kde-format
 msgid "Open Video..."
-msgstr ""
+msgstr "افتح الفيديو..."
 
 #: src/application_actions.cpp:516 src/application_actions.cpp:523
 #, kde-format
@@ -725,7 +725,7 @@ msgstr ""
 #: src/application_actions.cpp:543
 #, kde-format
 msgid "Close Video"
-msgstr ""
+msgstr "أغلق الفيديو"
 
 #: src/application_actions.cpp:544
 #, kde-format
@@ -897,7 +897,7 @@ msgstr "زد الصوت"
 #: src/application_actions.cpp:697
 #, kde-format
 msgid "Increase volume by 5%"
-msgstr ""
+msgstr "زِد المستوى بـ5%"
 
 #: src/application_actions.cpp:704
 #, kde-format
@@ -907,12 +907,12 @@ msgstr "اخفض الصوت"
 #: src/application_actions.cpp:705
 #, kde-format
 msgid "Decrease volume by 5%"
-msgstr ""
+msgstr "أنقص المستوى بـ5%"
 
 #: src/application_actions.cpp:712
 #, kde-format
 msgid "Audio Streams"
-msgstr ""
+msgstr "دفق صوتية"
 
 #: src/application_actions.cpp:713
 #, kde-format
@@ -1024,7 +1024,7 @@ msgstr "كلّ الملفّات"
 #: src/application_subtitle.cpp:102
 #, kde-format
 msgid "Media Files"
-msgstr ""
+msgstr "ملفّات الوسائط"
 
 #: src/application_subtitle.cpp:103
 #, kde-format
@@ -1248,7 +1248,7 @@ msgstr ""
 #: src/configs/errorsconfigwidget.ui:17 src/gui/treeview/lineswidget.cpp:400
 #, kde-format
 msgid "Texts"
-msgstr ""
+msgstr "النصوص"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxLines)
 #: src/configs/errorsconfigwidget.ui:23
@@ -1312,14 +1312,14 @@ msgstr " م.ث"
 #: src/configs/errorsconfigwidget.ui:109 src/configs/errorsconfigwidget.ui:191
 #, kde-format
 msgid "Maximum duration:"
-msgstr ""
+msgstr "أقصى مدة:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, lab_MinDurationPerCharacter)
 #: src/configs/errorsconfigwidget.ui:116 src/configs/errorsconfigwidget.ui:171
 #, kde-format
 msgid "Minimum duration:"
-msgstr ""
+msgstr "أقصر مدة:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/configs/errorsconfigwidget.ui:126
@@ -1498,7 +1498,7 @@ msgstr ""
 #: src/configs/playerconfigwidget.ui:74
 #, kde-format
 msgid "Volume amplification:"
-msgstr ""
+msgstr "تضخيم حجم الصوت:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitles)
 #: src/configs/playerconfigwidget.ui:122
@@ -1510,7 +1510,7 @@ msgstr "الترجمة"
 #: src/configs/playerconfigwidget.ui:138
 #, kde-format
 msgid "Outline color:"
-msgstr ""
+msgstr "لون المحيط:"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_FontColor)
 #: src/configs/playerconfigwidget.ui:151
@@ -1528,7 +1528,7 @@ msgstr "عائلة الخطوط:"
 #: src/configs/playerconfigwidget.ui:177
 #, kde-format
 msgid "Outline width:"
-msgstr ""
+msgstr "عرض المحيط:"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_FontSize)
 #: src/configs/playerconfigwidget.ui:187
@@ -1763,7 +1763,7 @@ msgstr "أحرف علوية"
 #: src/core/subtitle.cpp:1068
 #, kde-format
 msgid "Title Case"
-msgstr ""
+msgstr "حالة العنوان"
 
 #: src/core/subtitle.cpp:1101
 #, kde-format
@@ -2192,8 +2192,7 @@ msgid "Translation subtitle"
 msgstr ""
 
 #: src/dialogs/actionwithtargetdialog.h:58
-#, fuzzy, kde-format
-#| msgid "Apply To"
+#, kde-format
 msgid "Apply to"
 msgstr "طبّق على"
 
@@ -2290,7 +2289,7 @@ msgstr "غيّر حالة الأحرف"
 #, kde-format
 msgctxt "@title:group"
 msgid "Change To"
-msgstr ""
+msgstr "تغيير إلى"
 
 #: src/dialogs/changetextscasedialog.cpp:25
 #, kde-format
@@ -2321,7 +2320,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "Minimum Duration"
-msgstr ""
+msgstr "أقصر مدة"
 
 #: src/dialogs/durationlimitsdialog.cpp:26
 #, kde-format
@@ -2332,7 +2331,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "Maximum Duration"
-msgstr ""
+msgstr "أقصى مدة"
 
 #: src/dialogs/durationlimitsdialog.cpp:39
 #, kde-format
@@ -2348,7 +2347,7 @@ msgstr "‏%1 (بثقة %2٪)"
 #: src/dialogs/encodingdetectdialog.cpp:191
 #, kde-format
 msgid "Detected"
-msgstr ""
+msgstr "المُكتشف"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, EncodingDetectDialog)
 #: src/dialogs/encodingdetectdialog.ui:14
@@ -2435,7 +2434,7 @@ msgstr ""
 #, kde-format
 msgctxt "%p is the percent value, % is the percent sign"
 msgid "%p%"
-msgstr ""
+msgstr "%p٪"
 
 #: src/dialogs/removelinesdialog.cpp:13
 #, kde-format
@@ -2465,7 +2464,7 @@ msgstr "الترجمة"
 #: src/dialogs/shifttimesdialog.cpp:19
 #, kde-format
 msgid "Shift"
-msgstr ""
+msgstr "انقل"
 
 #: src/dialogs/shifttimesdialog.cpp:21
 #, kde-format
@@ -2514,14 +2513,12 @@ msgstr ""
 #: src/dialogs/subtitleclassdialog.ui:52
 #, kde-format
 msgid "Class"
-msgstr ""
+msgstr "الفئة"
 
 #: src/dialogs/subtitlecolordialog.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu Change Text Color"
-#| msgid "Text Color"
+#, kde-format
 msgid "Default Color"
-msgstr "لون النّصّ"
+msgstr "اللون المبدئيّ"
 
 #. i18n: ectx: property (text), widget (QLabel, labVoice)
 #: src/dialogs/subtitlevoicedialog.ui:30
@@ -2534,7 +2531,7 @@ msgstr ""
 #: src/dialogs/subtitlevoicedialog.ui:52
 #, kde-format
 msgid "Voice"
-msgstr ""
+msgstr "الصّوت"
 
 #: src/dialogs/syncsubtitlesdialog.cpp:17
 #, kde-format
@@ -2597,7 +2594,7 @@ msgstr ""
 #: src/errors/finderrorsdialog.cpp:42
 #, kde-format
 msgid "Search in"
-msgstr ""
+msgstr "ابحث في"
 
 #: src/errors/finderrorsdialog.cpp:86
 #, kde-format
@@ -2675,9 +2672,7 @@ msgstr ""
 #: src/formats/vobsub/vobsubinputinitdialog.ui:112
 #: src/translate/deeplengine.ui:104 src/translate/googlecloudengine.ui:91
 #: src/translate/mintengine.ui:92
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Settings"
+#, kde-format
 msgid "Settings"
 msgstr "إعدادات"
 
@@ -2841,7 +2836,7 @@ msgstr "<b>إطار/ثا</b>"
 #: src/gui/playerwidget.cpp:89
 #, kde-format
 msgid "<b>Playback Rate</b>"
-msgstr ""
+msgstr "<b>معدل التشغيل</b>"
 
 #: src/gui/playerwidget.cpp:673
 #, kde-format
@@ -2878,43 +2873,42 @@ msgid "&Comments"
 msgstr ""
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "<b>Position</b>"
+#, kde-format
 msgid "&Position"
-msgstr "<b>الموقع</b>"
+msgstr "ال&موضع"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:89
 #, kde-format
 msgid "Intro"
-msgstr ""
+msgstr "المقدمة"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:91
 #, kde-format
 msgid "Header"
-msgstr ""
+msgstr "الترويسة"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:93
 #, kde-format
 msgid "Footer"
-msgstr ""
+msgstr "التذييل"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SubtitlePositionWidget)
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:14
 #, kde-format
 msgid "Form"
-msgstr ""
+msgstr "الاستمارة"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpHAlign)
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:20
 #, kde-format
 msgid "Horizontal Alignment"
-msgstr ""
+msgstr "محاذاة أفقية"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpVAlign)
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:103
 #, kde-format
 msgid "Vertical Alignment"
-msgstr ""
+msgstr "محاذاة العموديّة"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpPosition)
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:164
@@ -3250,13 +3244,13 @@ msgstr ""
 #: src/scconfig.kcfg:68
 #, kde-format
 msgid "Minimum duration"
-msgstr ""
+msgstr "أقصر مدة"
 
 #. i18n: ectx: label, entry (MaxDuration), group (Error Check)
 #: src/scconfig.kcfg:72
 #, kde-format
 msgid "Maximum duration"
-msgstr ""
+msgstr "أقصى مدة"
 
 #. i18n: ectx: label, entry (MinDurationPerCharacter), group (Error Check)
 #: src/scconfig.kcfg:77
@@ -3448,7 +3442,7 @@ msgstr ""
 #: src/scconfig.kcfg:212
 #, kde-format
 msgid "Volume Amplification"
-msgstr ""
+msgstr "تضخيم حجم الصوت"
 
 #. i18n: ectx: label, entry (FontSize), group (VideoPlayer)
 #: src/scconfig.kcfg:221
@@ -3466,13 +3460,13 @@ msgstr "لون الخط"
 #: src/scconfig.kcfg:229
 #, kde-format
 msgid "Outline Color"
-msgstr ""
+msgstr "لون المحيط"
 
 #. i18n: ectx: label, entry (OutlineWidth), group (VideoPlayer)
 #: src/scconfig.kcfg:233
 #, kde-format
 msgid "Outline Width"
-msgstr ""
+msgstr "عرض المحيط"
 
 #. i18n: ectx: label, entry (translateEngine), group (Translation)
 #: src/scconfig.kcfg:240
@@ -3604,7 +3598,7 @@ msgstr ""
 #: src/scripting/scriptsmanager.cpp:489
 #, kde-format
 msgid "Yes"
-msgstr ""
+msgstr "نعم"
 
 #: src/scripting/scriptsmanager.cpp:493
 #, kde-format
@@ -3641,7 +3635,7 @@ msgstr ""
 #: src/scripting/scriptsmanager.cpp:561
 #, kde-format
 msgid "Rename Script"
-msgstr ""
+msgstr "غيّر اسم السكربت"
 
 #: src/scripting/scriptsmanager.cpp:569
 #, kde-format
@@ -4042,7 +4036,7 @@ msgstr "ترجم..."
 #: src/translate/deeplengine.ui:17 src/translate/googlecloudengine.ui:17
 #, kde-format
 msgid "Authentication"
-msgstr ""
+msgstr "الاستيثاق"
 
 #. i18n: ectx: property (text), widget (QLabel, labAuthKey)
 #: src/translate/deeplengine.ui:23
@@ -4054,7 +4048,7 @@ msgstr ""
 #: src/translate/deeplengine.ui:33
 #, kde-format
 msgid "Connect"
-msgstr ""
+msgstr "اتّصل"
 
 #. i18n: ectx: property (text), widget (QLabel, labApiDomain)
 #: src/translate/deeplengine.ui:66
@@ -4075,15 +4069,14 @@ msgstr ""
 #: src/translate/mintengine.ui:98
 #, kde-format
 msgid "Source language:"
-msgstr ""
+msgstr "اللغة المصدر:"
 
 #. i18n: ectx: property (text), widget (QLabel, labTranslation)
 #: src/translate/deeplengine.ui:120 src/translate/googlecloudengine.ui:107
 #: src/translate/mintengine.ui:108
-#, fuzzy, kde-format
-#| msgid "Translate"
+#, kde-format
 msgid "Translate to:"
-msgstr "ترجم"
+msgstr "ترجم إلى:"
 
 #: src/translate/googlecloudengine.cpp:143
 #, kde-format
@@ -4102,7 +4095,7 @@ msgstr ""
 #: src/translate/googlecloudengine.cpp:207
 #, kde-format
 msgid "Error opening file '%1'"
-msgstr ""
+msgstr "خطأ في فتح الملفّ '%1'"
 
 #: src/translate/googlecloudengine.cpp:216
 #, kde-format
@@ -4119,7 +4112,7 @@ msgstr ""
 #: src/translate/googlecloudengine.ui:36
 #, kde-format
 msgid "Login"
-msgstr ""
+msgstr "ولوج"
 
 #. i18n: ectx: property (text), widget (QLabel, labHelp)
 #: src/translate/googlecloudengine.ui:62
@@ -4155,7 +4148,7 @@ msgstr ""
 #: src/translate/mintengine.ui:50
 #, kde-format
 msgid "Update"
-msgstr ""
+msgstr "حدّث"
 
 #. i18n: ectx: property (text), widget (QLabel, labHelp)
 #: src/translate/mintengine.ui:76
@@ -4245,12 +4238,12 @@ msgstr "التدقيق الإملائي"
 #: src/videoplayer/backend/videostate.cpp:110
 #, kde-format
 msgid "Video Stream #%1"
-msgstr ""
+msgstr "دفق الفيديو #%1"
 
 #: src/videoplayer/backend/videostate.cpp:114
 #, kde-format
 msgid "Audio Stream #%1"
-msgstr ""
+msgstr "دفق الصّوت #%1"
 
 #: src/videoplayer/backend/videostate.cpp:120
 #, kde-format
