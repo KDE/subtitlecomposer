@@ -1,6 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Subtitle Composer
+Name[ar]=صانع الترجمة
 Name[ca]=Subtitle Composer
 Name[ca@valencia]=Subtitle Composer
 Name[cs]=Subtitle Composer
@@ -32,6 +33,7 @@ Name[x-test]=xxSubtitle Composerxx
 Name[zh_CN]=Subtitle Composer
 Name[zh_TW]=字幕撰寫工具
 GenericName=Subtitle Editor
+GenericName[ar]=محرر الترجمات
 GenericName[ca]=Editor de subtítols
 GenericName[ca@valencia]=Editor de subtítols
 GenericName[cs]=Editor titulků
@@ -64,6 +66,7 @@ GenericName[x-test]=xxSubtitle Editorxx
 GenericName[zh_CN]=字幕编辑器
 GenericName[zh_TW]=字幕編輯工具
 Comment=KDE subtitle editor
+Comment[ar]=محرر الترجمات من كيدي
 Comment[ca]=Editor de subtítols per al KDE
 Comment[ca@valencia]=Editor de subtítols per a KDE
 Comment[cs]=Editor titulků v prostředí KDE
