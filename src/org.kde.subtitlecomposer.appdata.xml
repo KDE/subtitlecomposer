@@ -7,6 +7,7 @@
     <name translate="no">KDE</name>
   </developer>
   <name>Subtitle Composer</name>
+  <name xml:lang="ar">صانع الترجمة</name>
   <name xml:lang="ca">Subtitle Composer</name>
   <name xml:lang="ca-valencia">Subtitle Composer</name>
   <name xml:lang="cs">Subtitle Composer</name>
@@ -36,6 +37,7 @@
   <name xml:lang="zh-CN">Subtitle Composer</name>
   <name xml:lang="zh-TW">字幕撰寫工具</name>
   <summary>Video subtitle editor that supports basic and advanced editing operations</summary>
+  <summary xml:lang="ar">محرر ترجمات الفيديو الذي يوفر عمليات التحرير الأساسية والمتقدمة</summary>
   <summary xml:lang="ca">Editor de subtítols de vídeo que admet operacions d'edició bàsiques i avançades</summary>
   <summary xml:lang="ca-valencia">Editor de subtítols de vídeo que admet operacions d'edició bàsiques i avançades</summary>
   <summary xml:lang="de">Editor für Video-Untertitel mit einfachen und erweiterten Bearbeitungsfunktionen</summary>
@@ -64,6 +66,7 @@
   <summary xml:lang="zh-TW">支援基本及進階編輯動作的影片字幕編輯器</summary>
   <description>
     <p>Subtitle Composer is an open source text-based subtitle editor that supports basic and advanced editing operations.</p>
+    <p xml:lang="ar">صانع الترجمة هو محرر ترجمات مفتوح المصدر قائم على النص يوفر عمليات التحرير الأساسية والمتقدمة.</p>
     <p xml:lang="ca">El Subtitle Composer és un editor de subtítols de codi obert basat en text que admet operacions d'edició bàsiques i avançades.</p>
     <p xml:lang="ca-valencia">Subtitle Composer és un editor de subtítols de codi obert basat en text que admet operacions d'edició bàsiques i avançades.</p>
     <p xml:lang="de">Subtitle Composer ist ein quelloffener, textbasierter Untertitel-Editor, der grundlegende und erweiterte Bearbeitungsfunktionen unterstützt.</p>
@@ -91,6 +94,7 @@
     <p xml:lang="zh-CN">Subtitle Composer 是一款基于文本的开源字幕编辑器，支持基本和高级编辑操作。</p>
     <p xml:lang="zh-TW">《字幕撰寫工具》是個開放原始碼且基於文字的字幕編輯器，支援基本及進階的編輯動作。</p>
     <p>Features</p>
+    <p xml:lang="ar">الميزات</p>
     <p xml:lang="ca">Característiques</p>
     <p xml:lang="ca-valencia">Característiques</p>
     <p xml:lang="cs">Vlastnosti</p>
@@ -122,6 +126,7 @@
     <p xml:lang="zh-TW">功能</p>
     <ul>
       <li>Open/Save Text Subtitle Formats - SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer and YouTube captions</li>
+      <li xml:lang="ar">فتح/حفظ صيغ ترجمات النص - SubRip/SRT وMicroDVD وSSA/ASS وMPlayer وTMPLayer وتعليقات YouTube</li>
       <li xml:lang="ca">Obre/Desa els formats de subtítols de text: SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer i llegendes de YouTube</li>
       <li xml:lang="ca-valencia">Obri/Guarda els formats de subtítols de text: SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer i llegendes de YouTube</li>
       <li xml:lang="en-GB">Open/Save Text Subtitle Formats - SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer and YouTube captions</li>
@@ -147,6 +152,7 @@
       <li xml:lang="zh-CN">支持开启或保存为以下文本字幕格式 - SubRip/SRT、MicroDVD、 SSA/ASS、MPlayer、TMPlayer 以及 YouTube 字幕</li>
       <li xml:lang="zh-TW">開啟／儲存文字字幕格式 - SubRip/SRT、MicroDVD、SSA/ASS、MPlayer、TMPlayer 及 YouTube 字幕</li>
       <li>Open/OCR Graphics Subtitle Formats - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formats supported by ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
+      <li xml:lang="ar">فتح/التعرف الضوئي على الحروف (OCR) لصيغ ترجمات الرسومات - VobSub (.idx/.sub/.rar) وBluRay/PGS (*.sup) والصيغ المتاحة بواسطة ffmpeg (DVD/Vob وDVB وXSUB وHDMV-PGS)</li>
       <li xml:lang="ca">Obre/Formats de subtítols gràfics OCR: VobSub (.idx/.sub/.rar), Blu-ray/PGS (*.sup), formats admesos per ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="ca-valencia">Obri/Formats de subtítols gràfics OCR: VobSub (.idx/.sub/.rar), Blu-ray/PGS (*.sup), formats admesos per ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="en-GB">Open/OCR Graphics Subtitle Formats - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formats supported by ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
@@ -172,6 +178,7 @@
       <li xml:lang="zh-CN">支持开启或光学识别以下图形字幕格式  - VobSub (.idx/.sub/.rar)、BluRay/PGS (*.sup)、ffmpeg 支持的格式 (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="zh-TW">開啟／OCR 圖形字幕格式 - VobSub (.idx/.sub/.rar)、BluRay/PGS (*.sup)、FFmpeg 支援的格式 (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li>Demux Graphics/Text Subtitle Stream from video file - SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
+      <li xml:lang="ar">فصل (Demux) دفق ترجمات الرسومات/النص من ملف الفيديو - SRT وSSA/ASS وMOV text وMicroDVD وDVD/Vob وDVB وXSUB وHDMV-PGS</li>
       <li xml:lang="ca">Desmultiplexa el flux de subtítols gràfics/de text des d'un fitxer de vídeo: SRT, SSA/ASS, text MOV, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="ca-valencia">Desmultiplexa el flux de subtítols gràfics/de text des d'un fitxer de vídeo: SRT, SSA/ASS, text MOV, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="en-GB">Demux Graphics/Text Subtitle Stream from video file - SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
@@ -196,6 +203,7 @@
       <li xml:lang="x-test">xxDemux Graphics/Text Subtitle Stream from video file - SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGSxx</li>
       <li xml:lang="zh-CN">可从视频中解码复用以下格式的图形/文本字幕流 - SRT、SSA/ASS、MOV 文本、MicroDVD、 DVD/Vob、DVB、XSUB、HDMV-PGS</li>
       <li>Speech recognition from audio/video file using PocketSphinx</li>
+      <li xml:lang="ar">التعرف على الكلام من ملف الصوت/الفيديو باستخدام PocketSphinx</li>
       <li xml:lang="ca">Reconeixement de la veu des de fitxers d'àudio/vídeo emprant PocketSphinx</li>
       <li xml:lang="ca-valencia">Reconeixement de la veu des de fitxers d'àudio/vídeo emprant PocketSphinx</li>
       <li xml:lang="de">Spracherkennung von Audio-/Videodateien mit PocketSphinx</li>
@@ -222,6 +230,7 @@
       <li xml:lang="zh-CN">使用 PocketSphinx 对音频/视频文件进行语音识别</li>
       <li xml:lang="zh-TW">利用 PocketSphinx 進行音訊/影片檔的語音辨識</li>
       <li>Smart language/text encoding** detection</li>
+      <li xml:lang="ar">كشف ذكي للغة/ترميز النص**</li>
       <li xml:lang="ca">Detecció** intel·ligent de la codificació d'idioma/text</li>
       <li xml:lang="ca-valencia">Detecció** intel·ligent de la codificació d'idioma/text</li>
       <li xml:lang="de">Intelligente Erkennung von Sprach- und Textkodierung</li>
@@ -248,6 +257,7 @@
       <li xml:lang="zh-CN">智能语言/文本编码**检测</li>
       <li xml:lang="zh-TW">智慧型語言／文字編碼** 偵測</li>
       <li>Live preview of subtitles in integrated video player w/ audio stream selection</li>
+      <li xml:lang="ar">معاينة حية للترجمات في مشغل الفيديو المدمج مع اختيار دفق الصوت</li>
       <li xml:lang="ca">Vista prèvia en viu dels subtítols en el reproductor de vídeo integrat amb selecció del flux d'àudio</li>
       <li xml:lang="ca-valencia">Vista prèvia en viu dels subtítols en el reproductor de vídeo integrat amb selecció del flux d'àudio</li>
       <li xml:lang="de">Live-Vorschau von Untertiteln im integrierten Videoplayer mit Auswahl des Audio-Streams</li>
@@ -273,6 +283,7 @@
       <li xml:lang="zh-CN">在集成视频播放器中实时预览字幕，并可选择音频流</li>
       <li xml:lang="zh-TW">在可選取音訊軌道內嵌影片播放器內即時預覽字幕</li>
       <li>Preview/editing of subtitles on graphical audio waveform w/ audio stream selection</li>
+      <li xml:lang="ar">معاينة/تحرير الترجمات على الشكل الموجي الصوتي الرسومي مع اختيار دفق الصوت</li>
       <li xml:lang="ca">Vista prèvia/edició dels subtítols en forma d'ona d'àudio gràfica amb selecció del flux d'àudio</li>
       <li xml:lang="ca-valencia">Vista prèvia/edició dels subtítols en forma d'ona d'àudio gràfica amb selecció del flux d'àudio</li>
       <li xml:lang="de">Vorschau/Bearbeitung von Untertiteln auf grafischer Audiowellenform mit Auswahl des Audio-Streams</li>
@@ -297,6 +308,7 @@
       <li xml:lang="x-test">xxPreview/editing of subtitles on graphical audio waveform w/ audio stream selectionxx</li>
       <li xml:lang="zh-CN">在图形化音频波形上预览/编辑字幕，并可选择音频流</li>
       <li>Sync by dragging several anchors/graftpoints and stretching timeline</li>
+      <li xml:lang="ar">مزامنة عن طريق سحب عدة مراسي/نقاط تطعيم وتمديد الخط الزمني</li>
       <li xml:lang="ca">Sincronització arrossegant diversos ancoratges/punts d'empelt i estirant la línia de temps</li>
       <li xml:lang="ca-valencia">Sincronitzeu arrossegant diversos ancoratges/punts d'empelt i estirant la línia de temps</li>
       <li xml:lang="de">Synchronisieren durch Ziehen mehrerer Anker/Anfasspunkte und Dehnen der Zeitleiste</li>
@@ -322,6 +334,7 @@
       <li xml:lang="zh-CN">通过拖动锚点/嫁接点和拉伸时间线进行同步</li>
       <li xml:lang="zh-TW">藉由拖曳控制點來同步及伸展時間軸</li>
       <li>Time shifting and scaling, lines duration re-calculation, framerate conversion, etc.</li>
+      <li xml:lang="ar">إزاحة الوقت وتحجيمه، إعادة حساب مدة الأسطر، تحويل معدل الإطارات، إلخ.</li>
       <li xml:lang="ca">Desplaçament i escalat del temps, recàlcul de la durada de les línies, conversió de la velocitat dels fotogrames, etc.</li>
       <li xml:lang="ca-valencia">Desplaçament i escalat del temps, recàlcul de la duració de les línies, conversió de la velocitat dels fotogrames, etc.</li>
       <li xml:lang="de">Zeitverschiebung und Skalierung, Neuberechnung der Zeilendauer, Bildfrequenzkonvertierung usw.</li>
@@ -347,6 +360,7 @@
       <li xml:lang="zh-CN">时间位移和缩放，字幕行持续时长重新计算，以及帧率转换等功能。</li>
       <li xml:lang="zh-TW">時間平移、縮放、台詞長度重新計算、影格率轉換等等</li>
       <li>Joining and splitting of subtitle files</li>
+      <li xml:lang="ar">دمج ملفات الترجمات وتقسيمها</li>
       <li xml:lang="ca">Unir i dividir fitxers de subtítols</li>
       <li xml:lang="ca-valencia">Unir i dividir fitxers de subtítols</li>
       <li xml:lang="de">Zusammenführen und Teilen von Untertitel-Dateien</li>
@@ -374,6 +388,7 @@
       <li xml:lang="zh-CN">合并与拆分字幕文件</li>
       <li xml:lang="zh-TW">合併或分割字母檔</li>
       <li>Side by side subtitle translations</li>
+      <li xml:lang="ar">ترجمات النصوص جنبًا إلى جنب</li>
       <li xml:lang="ca">Traducció dels subtítols en paral·lel</li>
       <li xml:lang="ca-valencia">Traducció dels subtítols en paral·lel</li>
       <li xml:lang="de">Übersetzungen von Untertiteln in einer nebeneinander angeordneten Ansicht</li>
@@ -400,6 +415,7 @@
       <li xml:lang="zh-CN">并排进行字幕翻译</li>
       <li xml:lang="zh-TW">並排字母翻譯</li>
       <li>Text styles (italic, bold, underline, stroke, color)</li>
+      <li xml:lang="ar">أنماط النص (مائل، عريض، تحته خط، حد، لون)</li>
       <li xml:lang="ca">Estils de text (cursiva, negreta, subratllat, ratllat, color)</li>
       <li xml:lang="ca-valencia">Estils de text (cursiva, negreta, subratllat, ratllat, color)</li>
       <li xml:lang="de">Textstile (kursiv, fett, unterstrichen, durchgestrichen, Farbeb)</li>
@@ -427,6 +443,7 @@
       <li xml:lang="zh-CN">文本风格调整 (斜体、粗体、下划线、删除线、颜色)</li>
       <li xml:lang="zh-TW">文字樣式（斜體、粗體、底線、刪除線、色彩）</li>
       <li>Spell checking</li>
+      <li xml:lang="ar">التدقيق الإملائي</li>
       <li xml:lang="ca">Verificació ortogràfica</li>
       <li xml:lang="ca-valencia">Verificació ortogràfica</li>
       <li xml:lang="cs">Kontrola pravopisu</li>
@@ -456,6 +473,7 @@
       <li xml:lang="zh-CN">拼写检查</li>
       <li xml:lang="zh-TW">拼字檢查</li>
       <li>Detection of timing errors in subtitles</li>
+      <li xml:lang="ar">كشف أخطاء التوقيت في الترجمات</li>
       <li xml:lang="ca">Detecció dels errors de temps en els subtítols</li>
       <li xml:lang="ca-valencia">Detecció dels errors de temps en els subtítols</li>
       <li xml:lang="de">Erkennung von Synchronisationsfehlern in Untertiteln</li>
@@ -483,6 +501,7 @@
       <li xml:lang="zh-CN">检测字幕中的时值错误</li>
       <li xml:lang="zh-TW">偵測字幕中的時間錯誤</li>
       <li>Scripting (JavaScript, Python, Ruby and other languages supported by Kross).</li>
+      <li xml:lang="ar">البرمجة النصية (JavaScript وPython وRuby واللغات الأخرى المدعومة بواسطة Kross).</li>
       <li xml:lang="ca">Creació de scripts (JavaScript, Python, Ruby i altres llenguatges admesos pel Kross).</li>
       <li xml:lang="ca-valencia">Creació de scripts (JavaScript, Python, Ruby i altres llenguatges admesos per Kross).</li>
       <li xml:lang="de"> Skripte in den Programmsprachen JavaScript, Python, Ruby und anderen von Kross unterstützten Sprachen. </li>
@@ -516,6 +535,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Main application window</caption>
+      <caption xml:lang="ar">النافذة الرئيسة للتطبيق</caption>
       <caption xml:lang="ca">Finestra principal de l'aplicació</caption>
       <caption xml:lang="ca-valencia">Finestra principal de l'aplicació</caption>
       <caption xml:lang="cs">Hlavní okno aplikace</caption>
