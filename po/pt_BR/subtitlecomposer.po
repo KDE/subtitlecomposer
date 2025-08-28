@@ -5,20 +5,21 @@
 # Sergio Pistone <sergio_pistone@yahoo,com.ar>, 2009.
 # Thiago Masato Costa Sueto <herzenschein@gmail.com>, 2020, 2021.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2020, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 01:58+0000\n"
-"PO-Revision-Date: 2023-07-04 15:30-0300\n"
-"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"PO-Revision-Date: 2025-08-27 11:23-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 25.08.0\n"
 "X-Crowdin-Project: subtitlecomposer\n"
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: subtitlecomposer.pot\n"
@@ -1299,10 +1300,9 @@ msgstr "Número máximo de caracteres:"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_MaxCharactersPerLine)
 #: src/configs/errorsconfigwidget.ui:63
-#, fuzzy, kde-format
-#| msgid "Maximum number of characters:"
+#, kde-format
 msgid "Maximum number of characters per line:"
-msgstr "Número máximo de caracteres:"
+msgstr "Número máximo de caracteres por linha:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/configs/errorsconfigwidget.ui:70
@@ -1871,10 +1871,9 @@ msgid "Too many lines"
 msgstr "Execesso de linhas"
 
 #: src/core/subtitleline.cpp:65
-#, fuzzy, kde-format
-#| msgid "Too many characters"
+#, kde-format
 msgid "Too many characters per line"
-msgstr "Excesso de caracteres"
+msgstr "Excesso de caracteres por linha"
 
 #: src/core/subtitleline.cpp:67
 #, kde-format
@@ -1965,18 +1964,14 @@ msgstr[0] "Há linhas excessivas no texto traduzido (1 linha)."
 msgstr[1] "Há linhas excessivas no texto traduzido (%1 linhas)."
 
 #: src/core/subtitleline.cpp:106
-#, fuzzy, kde-format
-#| msgid "Has too many characters in primary text (1 char)."
-#| msgid_plural "Has too many characters in primary text (%1 chars)."
+#, kde-format
 msgid "Has too many characters per line in primary text."
-msgstr "Há caracteres excessivos no texto primário (1 caracter)."
+msgstr "Há muitos caracteres por linha no texto primário."
 
 #: src/core/subtitleline.cpp:107
-#, fuzzy, kde-format
-#| msgid "Has too many characters in translation text (1 char)."
-#| msgid_plural "Has too many characters in translation text (%1 chars)."
+#, kde-format
 msgid "Has too many characters per line in translation text."
-msgstr "Há caracteres excessivos no texto traduzido (1 caracter)."
+msgstr "Há muitos caracteres por linha no texto traduzido."
 
 #: src/core/subtitleline.cpp:108
 #, kde-format
@@ -2445,7 +2440,7 @@ msgstr "De acordo com comprimento do vídeo"
 #, kde-format
 msgctxt "%p is the percent value, % is the percent sign"
 msgid "%p%"
-msgstr ""
+msgstr "%p%"
 
 #: src/dialogs/removelinesdialog.cpp:13
 #, kde-format
@@ -2517,7 +2512,7 @@ msgstr "Deslocar a nova parte depois de dividir"
 #: src/dialogs/subtitleclassdialog.ui:30
 #, kde-format
 msgid "Space separated list of CSS classes:"
-msgstr ""
+msgstr "Lista separada por vírgulas das classes CSS:"
 
 #. i18n: CSS
 #. i18n: ectx: property (placeholderText), widget (QComboBox, classList)
@@ -2535,7 +2530,7 @@ msgstr "Cor padrão"
 #: src/dialogs/subtitlevoicedialog.ui:30
 #, kde-format
 msgid "Person name or voice title:"
-msgstr ""
+msgstr "Nome da pessoa ou título da voz:"
 
 #. i18n: CSS
 #. i18n: ectx: property (placeholderText), widget (QComboBox, voiceList)
@@ -2689,9 +2684,7 @@ msgstr "Reparar erros do tipo i <-> l, 0 <-> O"
 #: src/formats/vobsub/vobsubinputinitdialog.ui:112
 #: src/translate/deeplengine.ui:104 src/translate/googlecloudengine.ui:91
 #: src/translate/mintengine.ui:92
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Settings"
+#, kde-format
 msgid "Settings"
 msgstr "Configurações"
 
@@ -2699,7 +2692,7 @@ msgstr "Configurações"
 #: src/formats/vobsub/vobsubinputinitdialog.ui:118
 #, kde-format
 msgid "Whitespace detection threshold (pixels)"
-msgstr ""
+msgstr "Limite de detecção de espaço em branco (pixels)"
 
 #: src/formats/vobsub/vobsubinputprocessdialog.cpp:585
 #, kde-format
@@ -2807,17 +2800,14 @@ msgid "<b>Duration</b>"
 msgstr "<b>Duração</b>"
 
 #: src/gui/currentlinewidget.cpp:314
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Change To"
+#, kde-format
 msgid "Change Voice Tag"
-msgstr "Mudar para"
+msgstr "Mudar etiqueta de voz"
 
 #: src/gui/currentlinewidget.cpp:318
-#, fuzzy, kde-format
-#| msgid "Change Case"
+#, kde-format
 msgid "Change Class Tag"
-msgstr "Mudar maiúsculas/minúsculas"
+msgstr "Mudar etiqueta de classe"
 
 #: src/gui/currentlinewidget.cpp:440 src/gui/currentlinewidget.cpp:443
 #, kde-format
@@ -3258,10 +3248,9 @@ msgstr "Número máximo de linhas"
 
 #. i18n: ectx: label, entry (MaxCharactersPerLine), group (Error Check)
 #: src/scconfig.kcfg:63
-#, fuzzy, kde-format
-#| msgid "Maximum number of characters"
+#, kde-format
 msgid "Maximum number of characters per line"
-msgstr "Número máximo de caracteres"
+msgstr "Número máximo de caracteres por linha"
 
 #. i18n: ectx: label, entry (MinDuration), group (Error Check)
 #: src/scconfig.kcfg:68
@@ -3301,10 +3290,9 @@ msgstr "Idioma padrão"
 
 #. i18n: ectx: label, entry (autodetectLanguage), group (Spelling)
 #: src/scconfig.kcfg:101
-#, fuzzy, kde-format
-#| msgid "Autodetect"
+#, kde-format
 msgid "Auto detect language"
-msgstr "Deteção automática"
+msgstr "Detecção automática de idioma"
 
 #. i18n: ectx: label, entry (DefaultClient), group (Spelling)
 #: src/scconfig.kcfg:105
@@ -3316,20 +3304,19 @@ msgstr "Cliente padrão"
 #: src/scconfig.kcfg:109
 #, kde-format
 msgid "Background checker enabled"
-msgstr ""
+msgstr "Verificador de plano de fundo habilitado"
 
 #. i18n: ectx: label, entry (checkerEnabledByDefault), group (Spelling)
 #: src/scconfig.kcfg:113
 #, kde-format
 msgid "Checker enabled by default"
-msgstr ""
+msgstr "Verificador habilitado por padrão"
 
 #. i18n: ectx: label, entry (skipUppercase), group (Spelling)
 #: src/scconfig.kcfg:117
-#, fuzzy, kde-format
-#| msgid "Check uppercase"
+#, kde-format
 msgid "Skip uppercase"
-msgstr "Verificar maiúsculas"
+msgstr "Pular maiúsculas"
 
 #. i18n: ectx: label, entry (skipRunTogether), group (Spelling)
 #: src/scconfig.kcfg:121
@@ -3494,25 +3481,23 @@ msgstr "Largura do contorno"
 
 #. i18n: ectx: label, entry (translateEngine), group (Translation)
 #: src/scconfig.kcfg:240
-#, fuzzy, kde-format
-#| msgid "Has untranslated text."
+#, kde-format
 msgid "Last used translate engine"
-msgstr "Tem texto não traduzido."
+msgstr "Último motor de tradução usado"
 
 #. i18n: ectx: label, entry (gctServiceJSON), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:247
 #, kde-format
 msgid "Service Account JSON containing private key"
-msgstr ""
+msgstr "Conta de serviço JSON contendo chave privada"
 
 #. i18n: ectx: label, entry (gctLangSource), group (GoogleCloudTranslate)
 #. i18n: ectx: label, entry (dltLangSource), group (DeepLTranslate)
 #. i18n: ectx: label, entry (mintLangSource), group (MinTTranslate)
 #: src/scconfig.kcfg:250 src/scconfig.kcfg:274 src/scconfig.kcfg:287
-#, fuzzy, kde-format
-#| msgid "Input language:"
+#, kde-format
 msgid "source language - cached"
-msgstr "Idioma de entrada:"
+msgstr "idioma de origem - em cache"
 
 #. i18n: ectx: label, entry (gctLangTrans), group (GoogleCloudTranslate)
 #. i18n: ectx: label, entry (dltLangTrans), group (DeepLTranslate)
@@ -3520,43 +3505,43 @@ msgstr "Idioma de entrada:"
 #: src/scconfig.kcfg:253 src/scconfig.kcfg:277 src/scconfig.kcfg:290
 #, kde-format
 msgid "translation language - cached"
-msgstr ""
+msgstr "idioma da tradução - em cache"
 
 #. i18n: ectx: label, entry (gctAccessToken), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:256
 #, kde-format
 msgid "access token - cached"
-msgstr ""
+msgstr "token de acesso - em cache"
 
 #. i18n: ectx: label, entry (gctTokenExpires), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:259
 #, kde-format
 msgid "access token expiry - cached"
-msgstr ""
+msgstr "expiração do token de acesso - em cache"
 
 #. i18n: ectx: label, entry (gctTokenType), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:262
 #, kde-format
 msgid "access token type - cached"
-msgstr ""
+msgstr "tipo de token de acesso - em cache"
 
 #. i18n: ectx: label, entry (dltAuthKey), group (DeepLTranslate)
 #: src/scconfig.kcfg:268
 #, kde-format
 msgid "DeepL API authentication key"
-msgstr ""
+msgstr "Chave de autenticação da API DeepL"
 
 #. i18n: ectx: label, entry (dltApiDomain), group (DeepLTranslate)
 #: src/scconfig.kcfg:271
 #, kde-format
 msgid "DeepL API domain name"
-msgstr ""
+msgstr "Nome de domínio da API DeepL"
 
 #. i18n: ectx: label, entry (mintURLPrefix), group (MinTTranslate)
 #: src/scconfig.kcfg:283
 #, kde-format
 msgid "MinT API URL prefix"
-msgstr ""
+msgstr "Prefixo de URL da API MinT"
 
 #: src/scripting/scriptsmanager.cpp:73
 #, kde-format
@@ -3851,14 +3836,13 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:28
 #, kde-format
 msgid "Sphinx Dictionaries"
-msgstr ""
+msgstr "Dicionários Sphinx"
 
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:24
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:29
-#, fuzzy, kde-format
-#| msgid "Trigram Model"
+#, kde-format
 msgid "Trigram Models"
-msgstr "Modelo de trigrama"
+msgstr "Modelos de trigrama"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpModel)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:20
@@ -4031,6 +4015,8 @@ msgid ""
 "Remote service error %1 %2\n"
 "%3"
 msgstr ""
+"Erro de serviço remoto %1 %2\n"
+"%3"
 
 #: src/translate/deeplengine.cpp:65 src/translate/googlecloudengine.cpp:151
 #: src/translate/mintengine.cpp:69
@@ -4039,6 +4025,8 @@ msgid ""
 "HTTP Error %1 - %2\n"
 "%3"
 msgstr ""
+"Erro HTTP %1 - %2\n"
+"%3"
 
 #: src/translate/deeplengine.cpp:70 src/translate/googlecloudengine.cpp:156
 #: src/translate/mintengine.cpp:74
@@ -4047,55 +4035,54 @@ msgid ""
 "Network Error %1\n"
 "%2"
 msgstr ""
+"Erro de rede %1\n"
+"%2"
 
 #: src/translate/deeplengine.cpp:76
-#, fuzzy, kde-format
-#| msgid "Set Line Errors"
+#, kde-format
 msgid "DeepL Engine Error"
-msgstr "Definir Erros de Linha"
+msgstr "Erro do motor DeepL"
 
 #: src/translate/deeplengine.cpp:102 src/translate/googlecloudengine.cpp:289
 #: src/translate/mintengine.cpp:125
 #, kde-format
 msgid "Updating languages..."
-msgstr ""
+msgstr "Atualizando idiomas..."
 
 #: src/translate/deeplengine.cpp:123 src/translate/googlecloudengine.cpp:304
-#, fuzzy, kde-format
-#| msgid "Autodetect"
+#, kde-format
 msgid "Autodetect Language"
-msgstr "Deteção automática"
+msgstr "Deteção automática de idioma"
 
 #: src/translate/deeplengine.cpp:158 src/translate/googlecloudengine.cpp:337
 #: src/translate/mintengine.cpp:221
-#, fuzzy, kde-format
-#| msgid "Translate..."
+#, kde-format
 msgid "Translating lines..."
-msgstr "Traduzir..."
+msgstr "Traduzindo linhas..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
 #: src/translate/deeplengine.ui:17 src/translate/googlecloudengine.ui:17
 #, kde-format
 msgid "Authentication"
-msgstr ""
+msgstr "Autenticação"
 
 #. i18n: ectx: property (text), widget (QLabel, labAuthKey)
 #: src/translate/deeplengine.ui:23
 #, kde-format
 msgid "Authentication Key:"
-msgstr ""
+msgstr "Chave de autenticação:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnConnect)
 #: src/translate/deeplengine.ui:33
 #, kde-format
 msgid "Connect"
-msgstr ""
+msgstr "Conectar"
 
 #. i18n: ectx: property (text), widget (QLabel, labApiDomain)
 #: src/translate/deeplengine.ui:66
 #, kde-format
 msgid "API Domain:"
-msgstr ""
+msgstr "Domínio da API:"
 
 #. i18n: ectx: property (text), widget (QLabel, labHelp)
 #: src/translate/deeplengine.ui:82
@@ -4104,22 +4091,22 @@ msgid ""
 "You need to <a href=\"https://www.deepl.com/pro-api\">create an account</a> "
 "on DeepL website and paste your API authentication key below."
 msgstr ""
+"Você precisa <a href=\"https://www.deepl.com/pro-api\">criar uma conta</a> "
+"no site do DeepL e colar sua chave de autenticação de API abaixo."
 
 #. i18n: ectx: property (text), widget (QLabel, labSource)
 #: src/translate/deeplengine.ui:110 src/translate/googlecloudengine.ui:97
 #: src/translate/mintengine.ui:98
-#, fuzzy, kde-format
-#| msgid "Input language:"
+#, kde-format
 msgid "Source language:"
-msgstr "Idioma de entrada:"
+msgstr "Idioma de origem:"
 
 #. i18n: ectx: property (text), widget (QLabel, labTranslation)
 #: src/translate/deeplengine.ui:120 src/translate/googlecloudengine.ui:107
 #: src/translate/mintengine.ui:108
-#, fuzzy, kde-format
-#| msgid "Translate"
+#, kde-format
 msgid "Translate to:"
-msgstr "Traduzir"
+msgstr "Traduzir para:"
 
 #: src/translate/googlecloudengine.cpp:143
 #, kde-format
@@ -4127,36 +4114,37 @@ msgid ""
 "Remote service error (%1):\n"
 "%2"
 msgstr ""
+"Erro de serviço remoto (%1):\n"
+"%2"
 
 #: src/translate/googlecloudengine.cpp:162
 #: src/translate/googlecloudengine.cpp:208
 #: src/translate/googlecloudengine.cpp:217
 #, kde-format
 msgid "Google Cloud Engine Error"
-msgstr ""
+msgstr "Erro do motor do Google Cloud"
 
 #: src/translate/googlecloudengine.cpp:207
-#, fuzzy, kde-format
-#| msgid "Error opening script %1."
+#, kde-format
 msgid "Error opening file '%1'"
-msgstr "Erro ao abrir o script %1"
+msgstr "Erro ao abrir o arquivo '%1'"
 
 #: src/translate/googlecloudengine.cpp:216
 #, kde-format
 msgid "Error parsing JSON from file '%1'"
-msgstr ""
+msgstr "Erro ao analisar JSON do arquivo '%1'"
 
 #. i18n: ectx: property (text), widget (QLabel, labelServiceJSON)
 #: src/translate/googlecloudengine.ui:23
 #, kde-format
 msgid "Service Account's Private Key JSON:"
-msgstr ""
+msgstr "JSON da chave privada da conta de serviço:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnLogin)
 #: src/translate/googlecloudengine.ui:36
 #, kde-format
 msgid "Login"
-msgstr ""
+msgstr "Usuário"
 
 #. i18n: ectx: property (text), widget (QLabel, labHelp)
 #: src/translate/googlecloudengine.ui:62
@@ -4170,30 +4158,36 @@ msgid ""
 "or must be granted access to the Google's Cloud Translation APIs in a "
 "different manner.</p>"
 msgstr ""
+"<p>Você precisa <a href=\"https://developers.google.com/identity/protocols/"
+"oauth2/service-account#creatinganaccount\">criar uma Conta de Serviço</a> no "
+"Google Cloud Console e fornecer o arquivo JSON de chave pública/privada "
+"abaixo.</p><p>A Conta de Serviço precisa receber a função de <span style=\" "
+"text-decoration: underline;\">Usuário da API do Cloud Translation</span> na "
+"página do IAM ou deve receber acesso às APIs do Cloud Translation do Google "
+"de uma maneira diferente.</p>"
 
 #: src/translate/mintengine.cpp:80
-#, fuzzy, kde-format
-#| msgid "Set Line Errors"
+#, kde-format
 msgid "MinT Engine Error"
-msgstr "Definir Erros de Linha"
+msgstr "Erro do motor MinT"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
 #: src/translate/mintengine.ui:17
 #, kde-format
 msgid "API Server"
-msgstr ""
+msgstr "Servidor de API"
 
 #. i18n: ectx: property (text), widget (QLabel, labApiURLPrefix)
 #: src/translate/mintengine.ui:40
 #, kde-format
 msgid "Service URL:"
-msgstr ""
+msgstr "URL do serviço:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnUpdate)
 #: src/translate/mintengine.ui:50
 #, kde-format
 msgid "Update"
-msgstr ""
+msgstr "Atualizar"
 
 #. i18n: ectx: property (text), widget (QLabel, labHelp)
 #: src/translate/mintengine.ui:76
@@ -4204,6 +4198,10 @@ msgid ""
 "machinetranslation\">setup your own service</a> or use some <a href="
 "\"https://translate.wmcloud.org/\">public API</a>."
 msgstr ""
+"Você precisa fornecer uma URL para uma API do sistema de tradução automática "
+"do MinT. Você pode <a href=\"https://gerrit.wikimedia.org/g/mediawiki/"
+"services/machinetranslation\">configurar seu próprio serviço</a> ou usar "
+"alguma <a href=\"https://translate.wmcloud.org/\">API pública</a>."
 
 #: src/translate/translatedialog.cpp:31
 #, kde-format
@@ -4211,16 +4209,14 @@ msgid "Translate"
 msgstr "Traduzir"
 
 #: src/translate/translatedialog.cpp:46
-#, fuzzy, kde-format
-#| msgid "Untranslated text"
+#, kde-format
 msgid "Translate texts in"
-msgstr "Texto não traduzido"
+msgstr "Traduzir texto em"
 
 #: src/translate/translatedialog.cpp:92
-#, fuzzy, kde-format
-#| msgid "Untranslated text"
+#, kde-format
 msgid "Translate texts"
-msgstr "Texto não traduzido"
+msgstr "Traduzir textos"
 
 #: src/utils/finder.cpp:44
 #, kde-format
