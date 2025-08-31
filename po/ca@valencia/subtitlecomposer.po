@@ -342,7 +342,7 @@ msgstr "Unix les línies seleccionades"
 #: src/gui/treeview/richlineedit.cpp:112 src/widgets/simplerichtextedit.cpp:455
 #, kde-format
 msgid "Select All"
-msgstr "Selecciona-ho tot"
+msgstr "Tria-ho tot"
 
 #: src/application_actions.cpp:229
 #, kde-format
@@ -442,22 +442,22 @@ msgstr "Neteja els errors i marques detectades en el subtítol actual"
 #: src/application_actions.cpp:315
 #, kde-format
 msgid "Select Next Error/Mark"
-msgstr "Selecciona l'error/marca següent"
+msgstr "Tria l'error/marca següent"
 
 #: src/application_actions.cpp:316
 #, kde-format
 msgid "Select next line with error or mark"
-msgstr "Selecciona la línia següent on s'ha especificat algun error o marca"
+msgstr "Tria la línia següent on s'ha especificat algun error o marca"
 
 #: src/application_actions.cpp:324
 #, kde-format
 msgid "Select Previous Error/Mark"
-msgstr "Selecciona l'error/marca anterior"
+msgstr "Tria l'error/marca anterior"
 
 #: src/application_actions.cpp:325
 #, kde-format
 msgid "Select previous line with error or mark"
-msgstr "Selecciona la línia anterior on s'ha especificat algun error o marca"
+msgstr "Tria la línia anterior on s'ha especificat algun error o marca"
 
 #: src/application_actions.cpp:333
 #, kde-format
@@ -923,7 +923,7 @@ msgstr "Fluxos d'àudio"
 #: src/application_actions.cpp:713
 #, kde-format
 msgid "Select active audio stream"
-msgstr "Selecciona el flux d'àudio actiu"
+msgstr "Tria el flux d'àudio actiu"
 
 #: src/application_actions.cpp:724
 #, kde-format
@@ -2462,7 +2462,7 @@ msgstr "Camí:"
 #: src/dialogs/selectablesubtitledialog.cpp:46
 #, kde-format
 msgid "Select subtitle"
-msgstr "Selecciona el subtítol"
+msgstr "Tria el subtítol"
 
 #: src/dialogs/selectablesubtitledialog.h:30
 #, kde-format
@@ -3059,7 +3059,7 @@ msgstr "S'està generant la forma d'ona"
 #: src/gui/waveform/waveformwidget.cpp:690
 #, kde-format
 msgid "Select Line"
-msgstr "Selecciona una línia"
+msgstr "Tria una línia"
 
 #: src/gui/waveform/waveformwidget.cpp:705
 #, kde-format
@@ -3632,7 +3632,7 @@ msgstr "S'ha produït un error en crear el fitxer <b>%1</b>."
 #: src/scripting/scriptsmanager.cpp:539
 #, kde-format
 msgid "Select Existing Script"
-msgstr "Seleccioneu un script existent"
+msgstr "Trieu un script existent"
 
 #: src/scripting/scriptsmanager.cpp:556
 #, kde-format
