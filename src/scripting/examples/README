@@ -30,7 +30,7 @@ subtitleline:
 
 debug:
 	contains three functions (information, warning and error) that can be used
-	while debuging scripts
+	while debugging scripts
 
 Using these modules you can access objects to do pretty much anything the main
 application can do. Included are some basic examples showcasing some of the

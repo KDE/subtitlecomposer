@@ -11,7 +11,7 @@
 #include <QList>
 #include <QWidget>
 
-/// a class used to show varios widgets simultaneously one in top
+/// a class used to show various widgets simultaneously one on top
 /// of the another (unlike QStackWidget which shows one at a time)
 
 class LayeredWidget : public QWidget

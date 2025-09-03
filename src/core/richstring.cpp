@@ -1606,7 +1606,7 @@ ReplaceHelper::match(RichString &str, const QRegularExpression &regExp, const T 
 			replacementOffset = backRef.end;
 		}
 
-		// remainging replacement
+		// remaining replacement
 		if((len = replacement.length() - replacementOffset)) {
 			matchList.push_back(MatchRef{replacementOffset, len, MatchRef::REPLACEMENT});
 			newLength += len;

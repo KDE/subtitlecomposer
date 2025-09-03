@@ -234,7 +234,7 @@ SubtitleLine::index() const
 
 	if(Q_UNLIKELY(index < 0 || index >= m_subtitle->count())) {
 		// this should be impossible
-		qWarning() << "SubtitleLine::index() WARNING: m_ref doesn't belong to cotainer.";
+		qWarning() << "SubtitleLine::index() WARNING: m_ref doesn't belong to container.";
 		for(int i = 0, n = m_subtitle->count(); i < n; i++) {
 			if(this == m_subtitle->at(i)) {
 				m_ref = &m_subtitle->m_lines[i];

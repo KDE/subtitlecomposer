@@ -509,7 +509,7 @@ ScriptsManager::createScript(const QString &sN)
 	outputStream << "/*\n"
 		"\t@name " << scriptName.chopped(3) << " Title\n"
 		"\t@version 1.0\n"
-		"\t@summary " << scriptName << " summary/short desription.\n"
+		"\t@summary " << scriptName << " summary/short description.\n"
 		"\t@author Author's Name\n"
 		"*/\n";
 
