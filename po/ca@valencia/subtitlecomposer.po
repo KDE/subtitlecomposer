@@ -247,7 +247,7 @@ msgstr "Guarda la traducció oberta dels subtítols"
 #: src/application_actions.cpp:145
 #, kde-format
 msgid "Save Translation As..."
-msgstr "Guarda la traducció com a…"
+msgstr "Anomena i guarda la traducció…"
 
 # skip-rule: barb-uns
 #: src/application_actions.cpp:146
@@ -342,7 +342,7 @@ msgstr "Unix les línies seleccionades"
 #: src/gui/treeview/richlineedit.cpp:112 src/widgets/simplerichtextedit.cpp:455
 #, kde-format
 msgid "Select All"
-msgstr "Tria-ho tot"
+msgstr "Selecciona-ho tot"
 
 #: src/application_actions.cpp:229
 #, kde-format
