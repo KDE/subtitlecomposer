@@ -566,6 +566,23 @@
           <li>Require FFmpeg &gt;= 5.1.5</li>
         </ul>
       </description>
+      <artifacts>
+        <artifact type="binary" platform="x86_64-linux-gnu">
+          <location>https://downloadcontent.opensuse.org/repositories/home:/maxrd2/AppImage/subtitlecomposer-git-latest-x86_64.AppImage</location>
+          <checksum type="sha256">a4dcd62a9fade9e9c9553aae864233fc0d51b9fcef7064593e5a545b615a4a5a</checksum>
+          <size type="download">61847496</size>
+        </artifact>
+        <artifact type="binary" platform="i386-linux-gnu">
+          <location>https://downloadcontent.opensuse.org/repositories/home:/maxrd2/AppImage/subtitlecomposer-git-latest-i686.AppImage</location>
+          <checksum type="sha256">e52f9cdfdfb56885f537e249aa34fa70088e585556b1106f77d17f5330336cb8</checksum>
+          <size type="download">65692080</size>
+        </artifact>
+        <artifact type="source">
+          <location>https://download.kde.org/stable/subtitlecomposer/subtitlecomposer-0.8.2.tar.xz</location>
+          <checksum type="sha256">72e9307f0c7669029f27178cee07395b3dae4cef99accc6720e41fa511b40fe5</checksum>
+          <size type="download">795360</size>
+        </artifact>
+      </artifacts>
     </release>
     <release version="0.8.1" date="2024-06-07">
       <description>
