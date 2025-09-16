@@ -144,7 +144,7 @@ msgstr "Crear un subtítulo vacío"
 #, kde-format
 msgctxt "@action:inmenu Open subtitle file"
 msgid "Open Subtitle..."
-msgstr "Abrir subtítulos..."
+msgstr "Abrir subtítulos…"
 
 #: src/application_actions.cpp:50 src/application_actions.cpp:67
 #, kde-format
@@ -154,7 +154,7 @@ msgstr "Abrir archivo de subtítulo"
 #: src/application_actions.cpp:58
 #, kde-format
 msgid "Reload As..."
-msgstr "Recargar como..."
+msgstr "Recargar como…"
 
 #: src/application_actions.cpp:59
 #, kde-format
@@ -180,7 +180,7 @@ msgstr "Guardar subtítulo abierto"
 #: src/application_actions.cpp:82
 #, kde-format
 msgid "Save As..."
-msgstr "Guardar como..."
+msgstr "Guardar como…"
 
 #: src/application_actions.cpp:83
 #, kde-format
@@ -210,7 +210,7 @@ msgstr "Crear un subtítulo de traducción vacío"
 #: src/application_actions.cpp:109
 #, kde-format
 msgid "Open Translation..."
-msgstr "Abrir traducción..."
+msgstr "Abrir traducción…"
 
 #: src/application_actions.cpp:110 src/application_actions.cpp:127
 #, kde-format
@@ -220,7 +220,7 @@ msgstr "Abrir archivo de traducción de subtítulo"
 #: src/application_actions.cpp:118
 #, kde-format
 msgid "Reload Translation As..."
-msgstr "Recargar traducción como..."
+msgstr "Recargar traducción como…"
 
 #: src/application_actions.cpp:119
 #, kde-format
@@ -246,7 +246,7 @@ msgstr "Guardar traducción abierta de subtítulo"
 #: src/application_actions.cpp:145
 #, kde-format
 msgid "Save Translation As..."
-msgstr "Guardar traducción como..."
+msgstr "Guardar traducción como…"
 
 #: src/application_actions.cpp:146
 #, kde-format
@@ -266,7 +266,7 @@ msgstr "Cerrar traducción de subtítulo"
 #: src/application_actions.cpp:172
 #, kde-format
 msgid "Split Subtitle..."
-msgstr "Dividir subtítulo..."
+msgstr "Dividir subtítulo…"
 
 #: src/application_actions.cpp:173
 #, kde-format
@@ -276,7 +276,7 @@ msgstr "Dividir el subtítulo abierto en dos partes"
 #: src/application_actions.cpp:179
 #, kde-format
 msgid "Join Subtitles..."
-msgstr "Unir subtítulos..."
+msgstr "Unir subtítulos…"
 
 #: src/application_actions.cpp:180
 #, kde-format
@@ -349,7 +349,7 @@ msgstr "Seleccionar todas las líneas"
 #: src/application_actions.cpp:236
 #, kde-format
 msgid "Go to Line..."
-msgstr "Ir a la línea..."
+msgstr "Ir a la línea…"
 
 #: src/application_actions.cpp:237
 #, kde-format
@@ -359,7 +359,7 @@ msgstr "Ir a la línea especificada"
 #: src/application_actions.cpp:245
 #, kde-format
 msgid "Find..."
-msgstr "Buscar..."
+msgstr "Buscar…"
 
 #: src/application_actions.cpp:246
 #, kde-format
@@ -389,7 +389,7 @@ msgstr "Buscar ocurrencia anterior de cadena o expresión regular"
 #: src/application_actions.cpp:271
 #, kde-format
 msgid "Replace..."
-msgstr "Sustituir..."
+msgstr "Sustituir…"
 
 #: src/application_actions.cpp:272
 #, kde-format
@@ -419,7 +419,7 @@ msgstr "Convertir en activa a la línea siguiente a la actual"
 #: src/application_actions.cpp:298
 #, kde-format
 msgid "Detect Errors..."
-msgstr "Detectar errores..."
+msgstr "Detectar errores…"
 
 #: src/application_actions.cpp:299
 #, kde-format
@@ -459,7 +459,7 @@ msgstr "Seleccionar la anterior línea con error o marca"
 #: src/application_actions.cpp:333
 #, kde-format
 msgid "Spelling..."
-msgstr "Ortografía..."
+msgstr "Ortografía…"
 
 #: src/application_actions.cpp:334
 #, kde-format
@@ -529,7 +529,7 @@ msgstr "Cambiar el color de la línea seleccionada"
 #: src/application_actions.cpp:393
 #, kde-format
 msgid "Shift..."
-msgstr "Desplazar..."
+msgstr "Desplazar…"
 
 #: src/application_actions.cpp:394
 #, kde-format
@@ -539,7 +539,7 @@ msgstr "Desplazar líneas una cantidad de tiempo determinada"
 #: src/application_actions.cpp:413
 #, kde-format
 msgid "Adjust..."
-msgstr "Ajustar..."
+msgstr "Ajustar…"
 
 #: src/application_actions.cpp:414
 #, kde-format
@@ -549,7 +549,7 @@ msgstr "Ajustar todas las líneas a un determinado intervalo en forma lineal"
 #: src/application_actions.cpp:421
 #, kde-format
 msgid "Change Frame Rate..."
-msgstr "Cambiar velocidad de fotograma..."
+msgstr "Cambiar velocidad de fotograma…"
 
 #: src/application_actions.cpp:422
 #, kde-format
@@ -561,7 +561,7 @@ msgstr ""
 #: src/application_actions.cpp:428
 #, kde-format
 msgid "Enforce Duration Limits..."
-msgstr "Forzar límites de duración..."
+msgstr "Forzar límites de duración…"
 
 #: src/application_actions.cpp:429
 #, kde-format
@@ -571,7 +571,7 @@ msgstr "Forzar límites máximo y/o mínimo de duración de líneas"
 #: src/application_actions.cpp:436
 #, kde-format
 msgid "Set Automatic Durations..."
-msgstr "Fijar duraciones automáticamente..."
+msgstr "Fijar duraciones automáticamente…"
 
 #: src/application_actions.cpp:437
 #, kde-format
@@ -583,7 +583,7 @@ msgstr ""
 #: src/application_actions.cpp:443
 #, kde-format
 msgid "Maximize Durations..."
-msgstr "Maximizar duraciones..."
+msgstr "Maximizar duraciones…"
 
 #: src/application_actions.cpp:444
 #, kde-format
@@ -594,7 +594,7 @@ msgstr ""
 #: src/application_actions.cpp:450
 #, kde-format
 msgid "Fix Overlapping Times..."
-msgstr "Corregir tiempos solapados..."
+msgstr "Corregir tiempos solapados…"
 
 #: src/application_actions.cpp:451
 #, kde-format
@@ -604,7 +604,7 @@ msgstr "Corregir tiempos de líneas solapadas"
 #: src/application_actions.cpp:457
 #, kde-format
 msgid "Synchronize with Subtitle..."
-msgstr "Sincronizar con subtítulo..."
+msgstr "Sincronizar con subtítulo…"
 
 #: src/application_actions.cpp:458
 #, kde-format
@@ -614,7 +614,7 @@ msgstr "Copiar información de temporizado desde otro subtítulo"
 #: src/application_actions.cpp:464
 #, kde-format
 msgid "Break Lines..."
-msgstr "Añadir saltos de línea..."
+msgstr "Añadir saltos de línea…"
 
 #: src/application_actions.cpp:465
 #, kde-format
@@ -624,17 +624,17 @@ msgstr "Ajustar saltos de línea en forma automática"
 #: src/application_actions.cpp:471
 #, kde-format
 msgid "Unbreak Lines..."
-msgstr "Remover saltos de línea..."
+msgstr "Remover saltos de línea…"
 
 #: src/application_actions.cpp:472
 #, kde-format
 msgid "Remove line breaks from lines"
-msgstr "Remover saltos de línea de los textos..."
+msgstr "Remover saltos de línea de los textos…"
 
 #: src/application_actions.cpp:478
 #, kde-format
 msgid "Simplify Spaces..."
-msgstr "Simplificar espacios..."
+msgstr "Simplificar espacios…"
 
 #: src/application_actions.cpp:479
 #, kde-format
@@ -644,7 +644,7 @@ msgstr "Eliminar espacios innecesarios de las líneas"
 #: src/application_actions.cpp:485
 #, kde-format
 msgid "Change Case..."
-msgstr "Modificar mayúsculas/minúsculas..."
+msgstr "Modificar mayúsculas/minúsculas…"
 
 #: src/application_actions.cpp:486
 #, kde-format
@@ -654,7 +654,7 @@ msgstr "Modificar lineas a mayúsculas, minúsculas, oración o título."
 #: src/application_actions.cpp:492
 #, kde-format
 msgid "Fix Punctuation..."
-msgstr "Corregir puntuación..."
+msgstr "Corregir puntuación…"
 
 #: src/application_actions.cpp:493
 #, kde-format
@@ -664,7 +664,7 @@ msgstr "Corregir errores de puntuación en líneas"
 #: src/application_actions.cpp:499
 #, kde-format
 msgid "Translate..."
-msgstr "Traducir..."
+msgstr "Traducir…"
 
 #: src/application_actions.cpp:500
 #, kde-format
@@ -684,7 +684,7 @@ msgstr "Editar texto de la línea activa in situ"
 #: src/application_actions.cpp:515
 #, kde-format
 msgid "Open Video..."
-msgstr "Abrir vídeo..."
+msgstr "Abrir vídeo…"
 
 #: src/application_actions.cpp:516 src/application_actions.cpp:523
 #, kde-format
@@ -985,7 +985,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu Manage user scripts"
 msgid "Scripts Manager..."
-msgstr "Administrador de scripts..."
+msgstr "Administrador de scripts…"
 
 #: src/application_actions.cpp:770
 #, kde-format
@@ -2346,7 +2346,7 @@ msgstr "Encojer duraciones a:"
 #, kde-format
 msgctxt "Text encoding detected with n% confidence."
 msgid "%1 (%2% confidence)"
-msgstr "%1 (%2% de confianza)"
+msgstr "%1 (%2 % de confianza)"
 
 #: src/dialogs/encodingdetectdialog.cpp:191
 #, kde-format
@@ -3715,7 +3715,7 @@ msgstr "Crea un nuevo script."
 #: src/scripting/scriptsmanager.ui:32
 #, kde-format
 msgid "Create..."
-msgstr "Crear..."
+msgstr "Crear…"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnAdd)
 #: src/scripting/scriptsmanager.ui:42
@@ -3727,7 +3727,7 @@ msgstr "Copia un script existente desde un ubicación dada."
 #: src/scripting/scriptsmanager.ui:45
 #, kde-format
 msgid "Add..."
-msgstr "Añadir..."
+msgstr "Añadir…"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnRemove)
 #: src/scripting/scriptsmanager.ui:55
@@ -4047,7 +4047,7 @@ msgstr "Error del motor DeepL"
 #: src/translate/mintengine.cpp:125
 #, kde-format
 msgid "Updating languages..."
-msgstr "Actualizando idiomas..."
+msgstr "Actualizando idiomas…"
 
 #: src/translate/deeplengine.cpp:123 src/translate/googlecloudengine.cpp:304
 #, kde-format
@@ -4058,7 +4058,7 @@ msgstr "Autodetectar idioma"
 #: src/translate/mintengine.cpp:221
 #, kde-format
 msgid "Translating lines..."
-msgstr "Traduciendo líneas..."
+msgstr "Traduciendo líneas…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
 #: src/translate/deeplengine.ui:17 src/translate/googlecloudengine.ui:17
@@ -4343,316 +4343,3 @@ msgstr "Revisar ortografía automáticamente"
 #, kde-format
 msgid "Allow Tabulations"
 msgstr "Permitir tabulaciones"
-
-#~ msgid "Translating text (%1 to %2)..."
-#~ msgstr "Traduciendo texto (%1 a %2)"
-
-#~ msgid "Translating primary text (%1 to %2)..."
-#~ msgstr "Traduciendo texto primario (%1 a %2)"
-
-#~ msgid "Translating secondary text (%1 to %2)..."
-#~ msgstr "Traduciendo texto secundario (%1 a %2)"
-
-#~ msgid ""
-#~ "Unable to perform texts synchronization (sent and received lines count do "
-#~ "not match)."
-#~ msgstr ""
-#~ "No se pudo realizar la sincronización del texto (el número de líneas "
-#~ "enviadas no coincide con el número de líneas recibidas)."
-
-#~ msgid "Translate Primary Text"
-#~ msgstr "Traducir texto primario"
-
-#~ msgid "Translate Secondary Text"
-#~ msgstr "Traducir texto secundario"
-
-#~ msgid ""
-#~ "There was an error performing the translation:\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr "Ocurrió un error al realizar la traducción: %1"
-
-#~ msgid "Output language:"
-#~ msgstr "Lenguage de salida:"
-
-#~ msgid "Automatic"
-#~ msgstr "Automático"
-
-#~ msgctxt "Official language of the Philippines, aka Filipino"
-#~ msgid "Tagalog"
-#~ msgstr "Tagalo"
-
-#~ msgid "Operation canceled by user"
-#~ msgstr "Operación cancelada por usuario"
-
-#~ msgid "Unexpected contents received from translation service"
-#~ msgstr "Contenido inesperado recibido desde el servicio de traducción"
-
-#~ msgid "Installed Scripts"
-#~ msgstr "Scripts instalados"
-
-#~ msgid "Can not perform sort on selection with multiple ranges."
-#~ msgstr "No se puede ordenar una selección con múltiples rangos."
-
-#~ msgid "Sort..."
-#~ msgstr "Ordenar..."
-
-#~ msgid "Sort lines based on their show time"
-#~ msgstr "Ordenar líneas en base a sus tiempos de mostrado"
-
-#~ msgid "modified"
-#~ msgstr "modificado"
-
-#~ msgid "Mladen Milinković"
-#~ msgstr "Mladen Milinković"
-
-#~ msgid "Sergio Pistone"
-#~ msgstr "Sergio Pistone"
-
-#~ msgid "Original Author"
-#~ msgstr "Autor original"
-
-#~ msgid "Open location as primary subtitle"
-#~ msgstr "Abrir locación como subtítulo primario"
-
-#~ msgid "Open location as translation subtitle"
-#~ msgstr "Abrir locación como traducción"
-
-#~ msgid "ms/ch"
-#~ msgstr "ms/ca"
-
-#~ msgid "Adjust to Video Position (Anchor Last Line)"
-#~ msgstr "Ajustar a posición del vídeo (anclar última línea)"
-
-#~ msgid ""
-#~ "Set current line to video position by fixing the last line and linearly "
-#~ "adjusting the other ones"
-#~ msgstr ""
-#~ "Asignar la línea activa a la posición del video anclando la última línea "
-#~ "y ajustando linealmente las restantes"
-
-#~ msgid "Adjust to Video Position (Anchor First Line)"
-#~ msgstr "Ajustar a posición del vídeo (anclar primera línea)"
-
-#~ msgid ""
-#~ "Set current line to video position by fixing the first line and linearly "
-#~ "adjusting the other ones"
-#~ msgstr ""
-#~ "Asignar la línea activa a la posición del vídeo anclando la primera línea "
-#~ "y ajustando linealmente las restantes"
-
-#~ msgid ""
-#~ "Continuing would result in loss of timing information for some lines.\n"
-#~ "Are you sure you want to continue?"
-#~ msgstr ""
-#~ "Continuar puede resultar en pérdida de información de temporización de "
-#~ "algunas líneas.\n"
-#~ "¿Está seguro de querer continuar?"
-
-#~ msgid "Set Lines Style"
-#~ msgstr "Modificar estilo de líneas"
-
-#~ msgid "Set Line Texts"
-#~ msgstr "Asignar textos de línea"
-
-#~ msgid "Current line:"
-#~ msgstr "Línea activa:"
-
-#~ msgid "1 character"
-#~ msgid_plural "%1 characters"
-#~ msgstr[0] "1 letra"
-#~ msgstr[1] "%1 letras"
-
-#~ msgid "Undo"
-#~ msgstr "Deshacer"
-
-#~ msgid "Redo"
-#~ msgstr "Rehacer"
-
-#~ msgid "Jump length on frame step"
-#~ msgstr "Duración de salto de fotogramas"
-
-#~ msgid "Text Stream #%1"
-#~ msgstr "Flujo de texto #%1"
-
-#~ msgctxt "@title Video player backend settings"
-#~ msgid "%1 backend settings"
-#~ msgstr "Configuración del motor %1"
-
-#~ msgid "&VideoPlayer backend:"
-#~ msgstr "Motor de reproducción de &vídeo:"
-
-#~ msgid "Text Antialiasing"
-#~ msgstr "Antialiasing de texto"
-
-#~ msgid "VideoPlayer Backend"
-#~ msgstr "Motor de reproducción de vídeo"
-
-#~ msgid "Font Antialiasing"
-#~ msgstr "Antialiasing de tipografía"
-
-#~ msgid "Auto Video Sink"
-#~ msgstr "Salida de vídeo automática"
-
-#~ msgid "Video Sink"
-#~ msgstr "Salida de vídeo"
-
-#~ msgid "Auto Audio Sink"
-#~ msgstr "Salida de audio automática"
-
-#~ msgid "Audio Sink"
-#~ msgstr "Salida de audio"
-
-#~ msgid "Options"
-#~ msgstr "Opciones"
-
-#~ msgid "Video sink:"
-#~ msgstr "Salida de vídeo:"
-
-#~ msgid "Audio sink:"
-#~ msgstr "Salida de audio:"
-
-#~ msgid "Cache Enabled"
-#~ msgstr "Caché habilitado"
-
-#~ msgid "Cache Size (KB)"
-#~ msgstr "Tamaño del caché (KB)"
-
-#~ msgid "mplayer executable path"
-#~ msgstr "Ruta ejecutable de mplayer"
-
-#~ msgid "Auto Sync Enabled"
-#~ msgstr "Sincronización automática habilitada"
-
-#~ msgid "Auto Sync Factor"
-#~ msgstr "Factor de sincronización automática"
-
-#~ msgid "Video Output Enabled"
-#~ msgstr "Salida de vídeo habilitada"
-
-#~ msgid "Video Output"
-#~ msgstr "Salida de vídeo"
-
-#~ msgid "Hardware Decode"
-#~ msgstr "Decodificador por hardware"
-
-#~ msgid "Frame Dropping"
-#~ msgstr "Omisión de fotogramas"
-
-#~ msgid "Hard Frame Dropping"
-#~ msgstr "Omisión fuerte de fotogramas"
-
-#~ msgid "Audio Output Enabled"
-#~ msgstr "Salida de audio habilitada"
-
-#~ msgid "Audio Output"
-#~ msgstr "Salida de audio"
-
-#~ msgid "Audio Channels Enabled"
-#~ msgstr "Canales de audio habilitados"
-
-#~ msgid "Audio Channels"
-#~ msgstr "Canales de audio"
-
-#~ msgid "Volume Amplification Enabled"
-#~ msgstr "Amplificación de volumen habilitada"
-
-#~ msgid "Volume Normalization"
-#~ msgstr "Normalización de volumen"
-
-#~ msgid "Executable path:"
-#~ msgstr "Ruta al archivo ejecutable:"
-
-#~ msgid "A/V synchronization factor:"
-#~ msgstr "Factor de sincronizacion A/V:"
-
-#~ msgid "Video"
-#~ msgstr "Vídeo"
-
-#~ msgid "Video output driver:"
-#~ msgstr "Controlador de vídeo:"
-
-#~ msgid "Enable VDPAU for DivX/XviD"
-#~ msgstr "Habilitar VDPAU para DivX/XviD"
-
-#~ msgid "Allow frame dropping"
-#~ msgstr "Permitir pérdida de cuadros"
-
-#~ msgid "Allow hard frame dropping"
-#~ msgstr "Permitir pérdida de cuadros pronunciada"
-
-#~ msgid "Audio"
-#~ msgstr "Audio"
-
-#~ msgid "Audio output driver:"
-#~ msgstr "Controlador de audio:"
-
-#~ msgid "Audio channels:"
-#~ msgstr "Canales de audio:"
-
-#~ msgid "Volume normalization"
-#~ msgstr "Normalización de volumen"
-
-#~ msgid "Hardware Decode Enabled"
-#~ msgstr "Decodificador por hardware habilitado"
-
-#~ msgid "Hardware video decoding:"
-#~ msgstr "Decodificación de vídeo por hardware:"
-
-#~ msgid "Video Enabled"
-#~ msgstr "Vídeo habilitado"
-
-#~ msgid "Audio Enabled"
-#~ msgstr "Audio habilitado"
-
-#~ msgid "Video driver:"
-#~ msgstr "Controlador de vídeo:"
-
-#~ msgid "Audio driver:"
-#~ msgstr "Controlador de audio:"
-
-#~ msgid "Clear Errors..."
-#~ msgstr "Limpiar errores..."
-
-#~ msgid "Clear errors from selected lines"
-#~ msgstr "Limpiar errores de las líneas seleccionadas"
-
-#~ msgid "Show Errors..."
-#~ msgstr "Mostrar errores..."
-
-#~ msgid "Show errors information for the current subtitle"
-#~ msgstr "Mostrar información de errores del subtítulo actual"
-
-#~ msgid "Find Error..."
-#~ msgstr "Buscar error..."
-
-#~ msgid "Find lines with specified errors"
-#~ msgstr "Buscar líneas con errores especificados"
-
-#~ msgid "Find Next Error"
-#~ msgstr "Buscar siguiente error"
-
-#~ msgid "Find next line with specified errors"
-#~ msgstr "Buscar línea siguiente con errores especificados"
-
-#~ msgid "Check Errors"
-#~ msgstr "Comprobar errores"
-
-#~ msgctxt "@title:group"
-#~ msgid "Errors to Check"
-#~ msgstr "Errores a comprobar"
-
-#~ msgctxt "@title:group"
-#~ msgid "Errors to Clear"
-#~ msgstr "Errores a limpiar"
-
-#~ msgid "From current line"
-#~ msgstr "Desde línea activa"
-
-#~ msgid "Find backwards"
-#~ msgstr "Buscar hacia atrás"
-
-#~ msgid "1 replacement done."
-#~ msgid_plural "%1 replacements done."
-#~ msgstr[0] "1 reemplazo efectuado."
-#~ msgstr[1] "%1 reemplazos efectuados."
