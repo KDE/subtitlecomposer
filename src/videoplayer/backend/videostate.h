@@ -23,7 +23,6 @@
 
 extern "C" {
 #include "libavformat/avformat.h"
-#include "libavcodec/avfft.h"
 #include "libswscale/swscale.h"
 }
 
@@ -57,6 +56,12 @@ extern "C" {
 // TODO: support audio and subtitle rendering
 #undef AUDIO_VISUALIZATION
 #undef VIDEO_SUBTITLE
+
+#ifdef AUDIO_VISUALIZATION
+extern "C" {
+#include "libavcodec/avfft.h"
+}
+#endif
 
 namespace SubtitleComposer {
 class RenderThread;
