@@ -554,6 +554,7 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="0.8.2" date="2025-08-18">
+      <url>https://subtitlecomposer.kde.org/2025/09/14/subtitle-composer-0.8.2-released.html</url>
       <description>
         <ul>
           <li>Fixed issues and crashes with newer Qt6 versions</li>
@@ -585,6 +586,7 @@
       </artifacts>
     </release>
     <release version="0.8.1" date="2024-06-07">
+      <url>https://subtitlecomposer.kde.org/2024/06/07/subtitle-composer-0.8.1-released.html</url>
       <description>
         <ul>
           <li>Fixed (rare) memory issues and crashes</li>
