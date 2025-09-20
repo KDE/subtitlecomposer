@@ -4,8 +4,6 @@
 # KDE jobs
 include:
   - project: sysadmin/ci-utilities
-    rules:
-    - if: $CI_SERVER_HOST =~ /kde\.org$/
     file:
       - /gitlab-templates/linux.yml
       - /gitlab-templates/linux-qt6.yml
