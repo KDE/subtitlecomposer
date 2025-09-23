@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 01:58+0000\n"
-"PO-Revision-Date: 2025-08-24 02:03+0200\n"
+"PO-Revision-Date: 2025-09-22 23:23+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #: src/actions/kcodecactionext.cpp:29
 #, kde-format
@@ -1473,7 +1473,7 @@ msgstr "Bilatzean &jauzi beharreko segundo kopurua:"
 #: src/configs/playerconfigwidget.ui:50 src/scconfig.kcfg:196
 #, kde-format
 msgid "Start playing video when loaded"
-msgstr ""
+msgstr "Hasi bideoa jotzen zamatzean"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPositionTimeEdit)
 #: src/configs/playerconfigwidget.ui:57 src/gui/playerwidget.cpp:438
@@ -2061,17 +2061,17 @@ msgstr ""
 #: src/core/undo/subtitleactions.cpp:32
 #, kde-format
 msgid "Set Frame Rate"
-msgstr ""
+msgstr "Ezarri fotograma-emaria"
 
 #: src/core/undo/subtitleactions.cpp:52
 #, kde-format
 msgid "Insert Lines"
-msgstr ""
+msgstr "Sartu lerroak"
 
 #: src/core/undo/subtitleactions.cpp:198
 #, kde-format
 msgid "Move Line"
-msgstr ""
+msgstr "Mugitu lerroa"
 
 #: src/core/undo/subtitleactions.cpp:283
 #, kde-format
@@ -2081,43 +2081,43 @@ msgstr ""
 #: src/core/undo/subtitleactions.cpp:306
 #, kde-format
 msgid "Change stylesheet"
-msgstr ""
+msgstr "Aldatu estilo-orrialdea"
 
 #: src/core/undo/subtitlelineactions.cpp:28
 #, kde-format
 msgid "Set Line Text"
-msgstr ""
+msgstr "Ezarri lerroaren testua"
 
 #: src/core/undo/subtitlelineactions.cpp:66
 #, kde-format
 msgid "Set Line Secondary Text"
-msgstr ""
+msgstr "Ezarri lerroaren bigarren mailako testua"
 
 #: src/core/undo/subtitlelineactions.cpp:196
 #, kde-format
 msgid "Set Line Errors"
-msgstr ""
+msgstr "Ezarri lerro-erroreak"
 
 #: src/dialogs/actionwithtargetdialog.cpp:113
-#, fuzzy, kde-format
+#, kde-format
 msgid "Target >>"
-msgstr "Jomuga"
+msgstr "Jomuga >>"
 
 #: src/dialogs/actionwithtargetdialog.cpp:113
 #: src/dialogs/actionwithtargetdialog.cpp:129
-#, fuzzy, kde-format
+#, kde-format
 msgid "Target <<"
-msgstr "Jomuga"
+msgstr "Jomuga <<"
 
 #: src/dialogs/actionwithtargetdialog.cpp:143
 #, kde-format
 msgid "All lines"
-msgstr ""
+msgstr "Lerro guztiak"
 
 #: src/dialogs/actionwithtargetdialog.cpp:144
 #, kde-format
 msgid "Selected lines"
-msgstr ""
+msgstr "Hautatutako lerroak"
 
 #: src/dialogs/actionwithtargetdialog.cpp:145
 #, kde-format
@@ -2133,7 +2133,7 @@ msgstr ""
 #: src/utils/replacer.cpp:51
 #, kde-format
 msgid "Both subtitles"
-msgstr ""
+msgstr "Bi azpidatziak"
 
 #: src/dialogs/actionwithtargetdialog.cpp:237 src/utils/finder.cpp:54
 #: src/utils/replacer.cpp:53
@@ -2145,10 +2145,10 @@ msgstr "Lehen mailako azpidatzia"
 #: src/utils/replacer.cpp:55
 #, kde-format
 msgid "Translation subtitle"
-msgstr ""
+msgstr "Itzulpen azpidatzia"
 
 #: src/dialogs/actionwithtargetdialog.h:58
-#, fuzzy, kde-format
+#, kde-format
 msgid "Apply to"
 msgstr "Ezarri honi"
 
@@ -2166,12 +2166,12 @@ msgstr ""
 #: src/dialogs/adjusttimesdialog.cpp:27
 #, kde-format
 msgid "First spoken line:"
-msgstr ""
+msgstr "Hitz egindako aurreneko lerroa:"
 
 #: src/dialogs/adjusttimesdialog.cpp:33
 #, kde-format
 msgid "Last spoken line:"
-msgstr ""
+msgstr "Hitz egindako azken lerroa:"
 
 #: src/dialogs/autodurationsdialog.cpp:24
 #: src/dialogs/changeframeratedialog.cpp:24
@@ -2295,10 +2295,10 @@ msgid "Shrink duration to:"
 msgstr "Laburtu iraupena honetara:"
 
 #: src/dialogs/encodingdetectdialog.cpp:81
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Text encoding detected with n% confidence."
 msgid "%1 (%2% confidence)"
-msgstr "Konfiantza (%1)"
+msgstr "%1 (%%2 Konfiantza)"
 
 #: src/dialogs/encodingdetectdialog.cpp:191
 #, fuzzy, kde-format
@@ -2334,14 +2334,14 @@ msgid "Minimum interval between lines:"
 msgstr "Lerroen arteko bitarte minimoa:"
 
 #: src/dialogs/fixpunctuationdialog.cpp:17
-#, fuzzy, kde-format
+#, kde-format
 msgid "Fix Punctuation"
-msgstr "Konpondu puntuazioa..."
+msgstr "Konpondu puntuazioa"
 
 #: src/dialogs/fixpunctuationdialog.cpp:22
 #, kde-format
 msgid "Fix and cleanup spaces"
-msgstr ""
+msgstr "Zuriuneak konpondu eta garbitu"
 
 #: src/dialogs/fixpunctuationdialog.cpp:26
 #, kde-format
@@ -2351,7 +2351,7 @@ msgstr ""
 #: src/dialogs/fixpunctuationdialog.cpp:30
 #, kde-format
 msgid "Fix English 'I' pronoun"
-msgstr ""
+msgstr "Konpondu ingelesezko 'I' izenordaina"
 
 #: src/dialogs/fixpunctuationdialog.cpp:34
 #, kde-format
@@ -2361,12 +2361,12 @@ msgstr ""
 #: src/dialogs/insertlinedialog.cpp:13
 #, kde-format
 msgid "Insert Line Before Current"
-msgstr ""
+msgstr "Sartu lerroa unekoaren aurretik"
 
 #: src/dialogs/insertlinedialog.cpp:13
 #, kde-format
 msgid "Insert Line After Current"
-msgstr ""
+msgstr "Sartu lerroa unekoaren ondoren"
 
 #: src/dialogs/insertlinedialog.cpp:13
 #, kde-format
@@ -2441,12 +2441,12 @@ msgstr "Atzerantz (−)"
 #: src/dialogs/smarttextsadjustdialog.cpp:29
 #, kde-format
 msgid "Minimum length for line break:"
-msgstr ""
+msgstr "Lerro jauzirako gutxieneko:"
 
 #: src/dialogs/splitsubtitledialog.cpp:28
-#, fuzzy, kde-format
+#, kde-format
 msgid "Split Subtitle"
-msgstr "Zatitu azpidatzia..."
+msgstr "Zatitu azpidatzia"
 
 #: src/dialogs/splitsubtitledialog.cpp:41
 #, kde-format
@@ -2503,7 +2503,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "Synchronization Mode"
-msgstr ""
+msgstr "Sinkronizatzeko modua"
 
 #: src/dialogs/syncsubtitlesdialog.cpp:24
 #, kde-format
@@ -2532,7 +2532,7 @@ msgid "Errors to Find"
 msgstr "Aurkitu beharreko erroreak"
 
 #: src/errors/finderrorsdialog.cpp:28
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:group Miscellaneous settings"
 msgid "Miscellaneous"
 msgstr "Beste zenbait"
@@ -2548,24 +2548,24 @@ msgid "Clear user marks"
 msgstr "Garbitu erabiltzailearen markak"
 
 #: src/errors/finderrorsdialog.cpp:42
-#, fuzzy, kde-format
+#, kde-format
 msgid "Search in"
-msgstr "Bilatu hemen:"
+msgstr "Bilatu hemen"
 
 #: src/errors/finderrorsdialog.cpp:86
 #, kde-format
 msgid "Available errors"
-msgstr ""
+msgstr "Errore erabilgarriak"
 
 #: src/errors/finderrorsdialog.cpp:116
-#, fuzzy, kde-format
+#, kde-format
 msgid "Select None"
-msgstr "Bat ere ez hautatu"
+msgstr "Hautatu bat"
 
 #: src/formats/textdemux/textdemux.cpp:32
 #, kde-format
 msgid "Importing Subtitle Stream"
-msgstr ""
+msgstr "Azpidatzi korrontea inportatzea"
 
 #: src/formats/textdemux/textdemux.cpp:91
 #, kde-format
@@ -2590,7 +2590,7 @@ msgstr "Korrontea / Hizkuntza"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpPostProc)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:30
-#, fuzzy, kde-format
+#, kde-format
 msgid "Post Processing"
 msgstr "Osteko prozesaketa"
 
@@ -2598,13 +2598,13 @@ msgstr "Osteko prozesaketa"
 #: src/formats/vobsub/vobsubinputinitdialog.ui:36
 #, kde-format
 msgid "Fix space between numbers"
-msgstr ""
+msgstr "Konpondu zenbakien arteko zuriunea"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ppSpacePunct)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:46
 #, kde-format
 msgid "Fix space around punctuation (.,;:?!)"
-msgstr ""
+msgstr "Konpondu puntuazio inguruko zuriunea (.,;:?!)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ppSpaceParen)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:56
@@ -2885,7 +2885,7 @@ msgstr "%"
 #: src/gui/treeview/linesmodel.cpp:155
 #, kde-format
 msgid "<b>Observations:</b>"
-msgstr ""
+msgstr "<b>Oharrak:</b>"
 
 #: src/gui/treeview/linesmodel.cpp:182
 #, kde-format
@@ -3330,9 +3330,9 @@ msgstr ""
 #. i18n: ectx: label, entry (wfFontFamily), group (Waveform Widget)
 #. i18n: ectx: label, entry (FontFamily), group (VideoPlayer)
 #: src/scconfig.kcfg:165 src/scconfig.kcfg:217
-#, fuzzy, kde-format
+#, kde-format
 msgid "Font Family"
-msgstr "Letra-tipoaren familia"
+msgstr "Letra-tipo familia"
 
 #. i18n: ectx: label, entry (wfSubNumberFontSize), group (Waveform Widget)
 #: src/scconfig.kcfg:169
