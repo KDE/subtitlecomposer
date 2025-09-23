@@ -256,6 +256,7 @@
       <li xml:lang="eo">Viva antaŭprezento de subtekstoj en integra videoludilo kun elekto de aŭda fluo</li>
       <li xml:lang="es">Vista previa instantánea de subtítulos en reproductores de vídeo integrados con selección de la fuente de sonido</li>
       <li xml:lang="et">Subtiitrite reaalajas eelvaatlus lõimitud videomängijas võimalusega valida helivoog</li>
+      <li xml:lang="eu">Bideo-jotzaile integratuan azpitituluen zuzeneko aurreikuspegia audio-korrontearen hautapenarekin</li>
       <li xml:lang="fi">Tekstitysten elävä esikatselu integroidussa videosoittimessa ja äänikanavan valinta</li>
       <li xml:lang="fr">Aperçu en direct des sous-titres dans le lecteur vidéo intégré avec sélection du flux audio</li>
       <li xml:lang="gl">Previsualizar en vivo de subtítulos nun reprodutor de vídeo integrado con selección de fluxo de son.</li>
@@ -281,6 +282,7 @@
       <li xml:lang="eo">Antaŭrigardo/redaktado de subtekstoj sur grafika aŭda ondoformo kun elekto de aŭda fluo</li>
       <li xml:lang="es">Vista previa y edición de subtítulos en formas de ondas gráficas con selección de la fuente de sonido</li>
       <li xml:lang="et">Subtiitrite eelvaatlus/muutmine graafilist helilainet töödeldes võimalusega valida helivoog</li>
+      <li xml:lang="eu">Audioaren uhin grafikoan azpidatziak aurreikustea/editatzea audio-korrontearen hautapenarekin</li>
       <li xml:lang="fi">Tekstitysten esikatselu ja muokkaus graafisena ääniaaltona sekä äänikanavan valinta</li>
       <li xml:lang="fr">Aperçu et édition des sous-titres sur un graphique de forme d'onde avec sélection du flux audio</li>
       <li xml:lang="gl">Vista previa ou edición de subtítulos en forma de onda de son gráfica con selección de fluxo de son.</li>
@@ -305,6 +307,7 @@
       <li xml:lang="eo">Sinkronigi trenante plurajn ankrojn/greftpunktojn kaj streĉante templinion</li>
       <li xml:lang="es">Sincronización mediante el arrastre de diversos anclajes o puntos gráficos y ajuste de la línea de tiempos</li>
       <li xml:lang="et">Sünkroonimine ankruid/kinnispunkte lohistades ja ajatelge venitades</li>
+      <li xml:lang="eu">Sinkronizatu hainbat aingura/lotura-puntu arrastatuz eta denbora-lerroa luzatuz</li>
       <li xml:lang="fi">Synkronointi ankkureita tai tarttumapisteitä vetämällä ja aikajanaa venyttämällä</li>
       <li xml:lang="fr">Synchronisation en faisant glisser des ancres ou des points de greffe et en étirant la chronologie</li>
       <li xml:lang="gl">Sincronizar arrastrando varias áncoras e puntos de grafo e estiramento de cronoloxía.</li>
@@ -330,6 +333,7 @@
       <li xml:lang="eo">Tempoŝanĝo kaj skalo, linioj daŭrore-kalkulo, framfrekvenco konvertiĝo, ktp.</li>
       <li xml:lang="es">Desplazamiento de tiempos y escalado, cálculo automático de la duración de las líneas, conversión de tasa de fotogramas, etc.</li>
       <li xml:lang="et">Aja nihutamine ja skaleerimine, ridade kestuse ümberarvutamine, kaadrisageduse teisendused jms.</li>
+      <li xml:lang="eu">Denbora-desplazamendua eta eskalatzea, lerroen iraupena berriz kalkulatzea, fotograma-emari bihurketa, etab.</li>
       <li xml:lang="fi">Ajansiirto ja -skaalaus, rivien keston laskenta, kuvanopeusmuunnokset ym.</li>
       <li xml:lang="fr">Décalage et mise à l'échelle temporelle, re-calcul de la durée des lignes, conversion du nombre d'images par seconde, etc.</li>
       <li xml:lang="gl">Desprazamento de tempo e escala, actualización do cálculo da duración das liñas, conversión de taxa de fotogramas, etc.</li>
