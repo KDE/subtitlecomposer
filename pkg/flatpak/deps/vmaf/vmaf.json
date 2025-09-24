@@ -6,8 +6,8 @@
     "sources": [
         {
             "type": "archive",
-            "url": "https://github.com/Netflix/vmaf/archive/v2.3.1/vmaf-2.3.1.tar.gz",
-            "sha256": "8d60b1ddab043ada25ff11ced821da6e0c37fd7730dd81c24f1fc12be7293ef2",
+            "url": "https://github.com/Netflix/vmaf/archive/v3.0.0/vmaf-3.0.0.tar.gz",
+            "sha256": "7178c4833639e6b989ecae73131d02f70735fdb3fc2c7d84bc36c9c3461d93b1",
             "x-checker-data": {
                 "type": "anitya",
                 "project-id": 178322,

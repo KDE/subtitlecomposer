@@ -12,15 +12,8 @@
     ],
     "sources": [
         {
-            "type": "archive",
-            "url": "https://code.videolan.org/videolan/x264/-/archive/master/x264-master.tar.gz",
-            "sha256": "830c3679c6d7072b0cbf93d38b5cab5b076d597aa1842765c9ccd830dfe15e9b",
-            "x-checker-data": {
-                "type": "anitya",
-                "project-id": 15280,
-                "stable-only": true,
-                "url-template": "https://code.videolan.org/videolan/x264/-/archive/master/x264-master.tar.gz"
-            }
+            "type": "git",
+            "url": "https://code.videolan.org/videolan/x264.git"
         }
     ]
 }

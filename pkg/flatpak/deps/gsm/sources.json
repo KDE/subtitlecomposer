@@ -3,6 +3,7 @@
         "type": "archive",
         "url": "https://www.quut.com/gsm/gsm-1.0.23.tar.gz",
         "sha256": "8b7591a85ac9adce858f2053005e6b2eb20c23b8b8a868dffb2969645fa323c0",
+        "disable-http-decompression": true,
         "x-checker-data": {
             "type": "anitya",
             "project-id": 12587,
