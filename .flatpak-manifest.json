@@ -1,57 +1,85 @@
 {
-    "command": "subtitlecomposer",
-    "finish-args": [
-        "--share=ipc",
-        "--device=dri",
-        "--socket=fallback-x11",
-        "--socket=wayland",
-        "--socket=pulseaudio",
-        "--filesystem=host"
-    ],
     "id": "org.kde.subtitlecomposer",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "tags": ["nightly"],
     "desktop-file-name-suffix": " (Nightly)",
+    "command": "subtitlecomposer",
+    "finish-args": [
+        "--device=dri",
+        "--filesystem=host",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--socket=wayland"
+    ],
     "cleanup": [
+        "*.la",
+        "*.a",
         "/include",
+        "/lib/cmake",
         "/lib/pkgconfig",
+        "/mkspecs",
         "/share/pkgconfig",
         "/share/aclocal",
+        "/share/info",
         "/man",
         "/share/man"
     ],
     "rename-icon": "subtitlecomposer",
+    "add-extensions": {
+        "org.freedesktop.Platform.ffmpeg-full": {
+            "directory": "lib/ffmpeg",
+            "version": "24.08",
+            "add-ld-path": ".",
+            "no-autodownload": false
+        }
+    },
+    "cleanup-commands": [
+        "mkdir -p /app/lib/ffmpeg"
+    ],
     "modules": [
-        "pkg/flatpak/deps/ffmpeg/ffmpeg.json",
-        "pkg/flatpak/deps/sphinxbase/sphinxbase.json",
-        "pkg/flatpak/deps/pocketsphinx/pocketsphinx.json",
         {
-            "name": "kross",
-            "buildsystem": "cmake-ninja",
+            "name": "SphinxBase",
+            "buildsystem": "autotools",
             "config-opts": [
-                "-DENABLE_TESTING=OFF"
+                "--without-python"
+            ],
+            "cleanup": [
+                "/share/sphinxbase"
             ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.99/portingAids/kross-5.99.0.tar.xz",
-                    "sha256": "7bf7a895f15554e4a88d63aa2216be9af7662bb8c28e56bad5b31953a97788d6",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8762,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/portingAids/kross-$version.tar.xz"
-                    }
+                    "type": "git",
+                    "url": "https://github.com/cmusphinx/sphinxbase.git",
+                    "commit": "9e901850ee4cd1c0b22f2d3b3c15f162564ca283"
                 }
             ]
         },
         {
-            "buildsystem": "cmake-ninja",
-            "name": "subtitlecomposer",
+            "name": "PocketSphinx",
+            "buildsystem": "autotools",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "--without-python"
+            ],
+            "cleanup": [
+                "/share/pocketsphinx"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/cmusphinx/pocketsphinx.git",
+                    "commit": "588ab6371a1e1c94c10d4ad772b0c4732e1905e6"
+                }
+            ]
+        },
+        {
+            "name": "subtitlecomposer",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DQT_MAJOR_VERSION=6"
             ],
             "sources": [
                 {
