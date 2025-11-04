@@ -363,7 +363,7 @@ msgstr "Chercher..."
 #: src/application_actions.cpp:246
 #, kde-format
 msgid "Find occurrences of strings or regular expressions"
-msgstr "Chercher les occurrences de chaînes ou d'expressions rationnelles"
+msgstr "Chercher les occurrences de chaines ou d'expressions rationnelles"
 
 #: src/application_actions.cpp:254
 #, kde-format
@@ -374,7 +374,7 @@ msgstr "Poursuivre la recherche"
 #, kde-format
 msgid "Find next occurrence of string or regular expression"
 msgstr ""
-"Chercher l'occurrence suivante de la chaîne ou de l'expression rationnelle"
+"Chercher l'occurrence suivante de la chaine ou de l'expression rationnelle"
 
 #: src/application_actions.cpp:263
 #, kde-format
@@ -385,7 +385,7 @@ msgstr "Chercher en arrière"
 #, kde-format
 msgid "Find previous occurrence of string or regular expression"
 msgstr ""
-"Chercher l'occurrence précédente de la chaîne ou de l'expression rationnelle"
+"Chercher l'occurrence précédente de la chaine ou de l'expression rationnelle"
 
 #: src/application_actions.cpp:271
 #, kde-format
@@ -395,7 +395,7 @@ msgstr "Remplacer..."
 #: src/application_actions.cpp:272
 #, kde-format
 msgid "Replace occurrences of strings or regular expressions"
-msgstr "Remplacer les occurrences de chaînes ou d'expressions rationnelle"
+msgstr "Remplacer les occurrences de chaines ou d'expressions rationnelle"
 
 #: src/application_actions.cpp:280
 #, kde-format
