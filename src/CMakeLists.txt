@@ -28,6 +28,7 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 add_definitions(-D_DEFAULT_SOURCE)
+add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 if(APPIMAGE)
 	message(STATUS "AppImage build enabled")
 	set(SC_APPIMAGE 1 CACHE INTERNAL EXPORTEDVARIABLE)

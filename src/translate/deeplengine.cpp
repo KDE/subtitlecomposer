@@ -102,11 +102,11 @@ DeepLEngine::languagesUpdate()
 	ProgressLock pl(this, i18n("Updating languages..."));
 	QNetworkRequest req;
 
-	req.setUrl($("https://%1/v2/languages?type=source").arg(SCConfig::dltApiDomain()));
+	req.setUrl(QUrl($("https://%1/v2/languages?type=source").arg(SCConfig::dltApiDomain())));
 	req.setRawHeader("Authorization", QByteArray("DeepL-Auth-Key ") + SCConfig::dltAuthKey().toUtf8());
 	sendRequest(m_netManager, req, QByteArray(), [this](QNetworkReply *r){ languagesUpdated(r); });
 
-	req.setUrl($("https://%1/v2/languages?type=target").arg(SCConfig::dltApiDomain()));
+	req.setUrl(QUrl($("https://%1/v2/languages?type=target").arg(SCConfig::dltApiDomain())));
 	req.setRawHeader("Authorization", QByteArray("DeepL-Auth-Key ") + SCConfig::dltAuthKey().toUtf8());
 	sendRequest(m_netManager, req, QByteArray(), [this](QNetworkReply *r){ languagesUpdated(r); });
 
@@ -157,7 +157,7 @@ DeepLEngine::translate(QVector<QString> &textLines)
 
 	ProgressLock pl(this, i18n("Translating lines..."));
 
-	QNetworkRequest request($("https://%1/v2/translate").arg(SCConfig::dltApiDomain()));
+	QNetworkRequest request(QUrl($("https://%1/v2/translate").arg(SCConfig::dltApiDomain())));
 	request.setRawHeader("Authorization", QByteArray("DeepL-Auth-Key ") + SCConfig::dltAuthKey().toUtf8());
 	request.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded");
 

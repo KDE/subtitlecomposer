@@ -257,7 +257,7 @@ GoogleCloudEngine::authenticate()
 	postData.addQueryItem($("grant_type"), $("urn:ietf:params:oauth:grant-type:jwt-bearer"));
 	postData.addQueryItem($("assertion"), assertionData);
 
-	QNetworkRequest request(m_tokenUrl);
+	QNetworkRequest request{QUrl(m_tokenUrl)};
 	request.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded");
 
 	QNetworkReply *res = m_netManager->post(request, postData.query(QUrl::FullyEncoded).toUtf8());
@@ -288,7 +288,7 @@ GoogleCloudEngine::languagesUpdate()
 {
 	ProgressLock pl(this, i18n("Updating languages..."));
 
-	QNetworkRequest req($("https://translation.googleapis.com/v3/projects/%1/locations/global/supportedLanguages").arg(m_projectId));
+	QNetworkRequest req(QUrl($("https://translation.googleapis.com/v3/projects/%1/locations/global/supportedLanguages").arg(m_projectId)));
 	req.setRawHeader("Authorization", QByteArray("Bearer ") + SCConfig::gctAccessToken().toUtf8());
 
 	sendRequest(m_netManager, req, QByteArray(), [this](QNetworkReply *r){ languagesUpdated(r); });
@@ -336,7 +336,7 @@ GoogleCloudEngine::translate(QVector<QString> &textLines)
 
 	ProgressLock pl(this, i18n("Translating lines..."));
 
-	QNetworkRequest request($("https://translation.googleapis.com/v3/projects/%1:translateText").arg(m_projectId));
+	QNetworkRequest request(QUrl($("https://translation.googleapis.com/v3/projects/%1:translateText").arg(m_projectId)));
 	request.setRawHeader("Authorization", QByteArray("Bearer ") + SCConfig::gctAccessToken().toUtf8());
 	request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json; charset=utf-8");
 

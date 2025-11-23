@@ -125,7 +125,7 @@ MinTEngine::languagesUpdate()
 	ProgressLock pl(this, i18n("Updating languages..."));
 	QNetworkRequest req;
 
-	req.setUrl($("https://en.wikipedia.org/w/api.php?action=query&liprop=autonym|name&meta=languageinfo&uselang=en&format=json&origin=*"));
+	req.setUrl(QUrl($("https://en.wikipedia.org/w/api.php?action=query&liprop=autonym|name&meta=languageinfo&uselang=en&format=json&origin=*")));
 	sendRequest(m_netManager, req, QByteArray(), [this](QNetworkReply *res){
 		if(res->error() == QNetworkReply::NoError) {
 			m_langName.clear();
@@ -140,7 +140,7 @@ MinTEngine::languagesUpdate()
 		}
 	});
 
-	req.setUrl(SCConfig::mintURLPrefix() + $("api/languages"));
+	req.setUrl(QUrl(SCConfig::mintURLPrefix() + $("api/languages")));
 	sendRequest(m_netManager, req, QByteArray(), [this](QNetworkReply *res){
 		if(res->error() == QNetworkReply::NoError) {
 			const QJsonDocument doc = QJsonDocument::fromJson(res->readAll());
@@ -220,7 +220,7 @@ MinTEngine::translate(QVector<QString> &textLines)
 
 	ProgressLock pl(this, i18n("Translating lines..."));
 
-	QNetworkRequest request(SCConfig::mintURLPrefix() + $("api/translate"));
+	QNetworkRequest request(QUrl(SCConfig::mintURLPrefix() + $("api/translate")));
 	request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
 	QJsonObject reqData;
