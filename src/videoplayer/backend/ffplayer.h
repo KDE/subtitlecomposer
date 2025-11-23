@@ -31,7 +31,6 @@ QT_FORWARD_DECLARE_CLASS(QThread)
 QT_FORWARD_DECLARE_CLASS(QWaitCondition)
 
 namespace SubtitleComposer {
-class VideoPlayer;
 class GLRenderer;
 
 class FFPlayer : public QObject {

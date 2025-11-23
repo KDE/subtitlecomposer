@@ -16,7 +16,6 @@
 namespace SubtitleComposer {
 class Subtitle;
 class LinesWidget;
-class CurrentLineWidget;
 
 class UserAction : public QObject
 {

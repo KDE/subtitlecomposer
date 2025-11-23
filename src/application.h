@@ -31,8 +31,6 @@ QT_FORWARD_DECLARE_CLASS(QUndoStack)
 QT_FORWARD_DECLARE_CLASS(QLabel)
 QT_FORWARD_DECLARE_CLASS(QTextCodec)
 
-class KComboBox;
-class KToggleAction;
 class KRecentFilesAction;
 class KRecentFilesActionExt;
 class KCodecActionExt;
@@ -41,10 +39,7 @@ namespace SubtitleComposer {
 class TextDemux;
 class SpeechProcessor;
 
-class PlayerWidget;
-class CurrentLineWidget;
 
-class ConfigDialog;
 
 class Finder;
 class Replacer;

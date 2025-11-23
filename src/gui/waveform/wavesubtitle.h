@@ -15,7 +15,6 @@
 QT_FORWARD_DECLARE_CLASS(QTextLayout)
 
 namespace SubtitleComposer {
-class RichDocument;
 class SubtitleLine;
 class WaveRenderer;
 

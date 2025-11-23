@@ -30,7 +30,6 @@ QT_FORWARD_DECLARE_CLASS(QUndoCommand)
 QT_FORWARD_DECLARE_CLASS(QTextEdit)
 
 namespace SubtitleComposer {
-class RichDocument;
 class SubtitleLine;
 class UndoAction;
 class RichCSS;

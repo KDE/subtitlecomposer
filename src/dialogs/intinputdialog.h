@@ -13,7 +13,6 @@
 
 QT_FORWARD_DECLARE_CLASS(QLineEdit)
 QT_FORWARD_DECLARE_CLASS(QDialogButtonBox)
-class KIntNumInput;
 
 namespace SubtitleComposer {
 class IntInputDialog : public QDialog, private Ui::IntInputDialog

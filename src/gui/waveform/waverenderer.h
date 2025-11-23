@@ -15,7 +15,6 @@
 #include <QFont>
 
 namespace SubtitleComposer {
-class RichDocument;
 class WaveformWidget;
 
 class WaveRenderer : public QWidget

@@ -17,11 +17,9 @@
 #include <QObject>
 #include <QString>
 
-class QUndoCommand;
 
 namespace SubtitleComposer {
 class Subtitle;
-class RichString;
 class RichDocument;
 class UndoAction;
 

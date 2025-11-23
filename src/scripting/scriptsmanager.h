@@ -18,7 +18,6 @@ QT_FORWARD_DECLARE_CLASS(QAction)
 QT_FORWARD_DECLARE_CLASS(QDialog)
 QT_FORWARD_DECLARE_CLASS(QMenu)
 QT_FORWARD_DECLARE_CLASS(QPushButton)
-class TreeView;
 
 namespace SubtitleComposer {
 class SCScript;

@@ -27,7 +27,6 @@ class AttachableWidget;
 class TimeEdit;
 
 namespace SubtitleComposer {
-class TextOverlayWidget;
 class VideoPlayer;
 
 class PlayerWidget : public QWidget

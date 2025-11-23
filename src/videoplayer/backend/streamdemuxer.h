@@ -12,7 +12,6 @@
 
 namespace SubtitleComposer {
 class VideoState;
-class FFPlayer;
 
 class StreamDemuxer : public QThread
 {
