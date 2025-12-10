@@ -211,8 +211,8 @@ void
 WaveformWidget::handleTimeUpdate(quint32 msSpan)
 {
 	// make sure start time is good
-	const quint32 msDuration = m_wfBuffer->waveformDuration() * 1000;
-	const quint32 maxTime = msDuration < msSpan ? 0 : msDuration - msSpan;
+	const quint64 msDuration = m_wfBuffer->waveformDuration();
+	const quint64 maxTime = msDuration < msSpan ? 0 : msDuration - msSpan;
 	if(m_timeStart.toMillis() > maxTime) {
 		m_timeStart.setMillisTime(maxTime);
 		m_timeEnd.setMillisTime(maxTime + msSpan);
@@ -341,7 +341,6 @@ WaveformWidget::setNullAudioStream(quint64 msecVideoLength)
 {
 	clearAudioStream();
 
-	m_timeStart.setMillisTime(0.);
 	m_timeStart.setMillisTime(msecVideoLength);
 	// will do onTimeUpdated() during event from m_wfBuffer->setNullAudioStream()
 	m_wfBuffer->setNullAudioStream(msecVideoLength);

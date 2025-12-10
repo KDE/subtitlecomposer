@@ -51,8 +51,8 @@ WaveBuffer::WaveBuffer(WaveformWidget *parent)
 	  m_wfWidget(parent),
 	  m_stream(new StreamProcessor(this)),
 	  m_waveformDuration(0),
-	  m_waveformChannels(0),
 	  m_waveformChannelSize(0),
+	  m_waveformChannels(0),
 	  m_waveform(nullptr),
 	  m_samplesSec(0),
 	  m_wfFrame(nullptr),
@@ -91,7 +91,7 @@ WaveBuffer::setNullAudioStream(quint64 msecVideoLength)
 {
 	clearAudioStream();
 
-	m_waveformDuration = msecVideoLength / 1000;
+	m_waveformDuration = msecVideoLength;
 
 	emit waveformUpdated();
 }
@@ -117,10 +117,10 @@ void
 WaveBuffer::onStreamProgress(quint64 msecPos, quint64 msecLength)
 {
 	if(!m_waveformDuration) {
-		m_waveformDuration = msecLength / 1000;
-		m_wfWidget->m_progressBar->setRange(0, m_waveformDuration);
+		m_waveformDuration = msecLength;
+		m_wfWidget->m_progressBar->setRange(0, m_waveformDuration / 1000);
 		m_wfWidget->m_progressWidget->show();
-		m_wfWidget->m_scrollBar->setRange(0, m_waveformDuration * 1000 - m_wfWidget->windowSizeInner());
+		m_wfWidget->m_scrollBar->setRange(0, m_waveformDuration - m_wfWidget->windowSizeInner());
 	}
 	m_wfWidget->m_progressBar->setValue(msecPos / 1000);
 }
@@ -161,7 +161,7 @@ WaveBuffer::onStreamData(const void *buffer, qint32 size, const WaveFormat *wave
 			sampleShift++;
 		}
 		m_waveformChannels = waveFormat->channels();
-		m_waveformChannelSize = m_samplesSec * (m_waveformDuration + 60); // added 60sec as duration might be wrong
+		m_waveformChannelSize = m_samplesSec * ((m_waveformDuration / 1000) + 60); // added 60sec as duration might be wrong
 		m_waveform = new SAMPLE_TYPE *[m_waveformChannels];
 		for(quint32 i = 0; i < m_waveformChannels; i++)
 			m_waveform[i] = new SAMPLE_TYPE[m_waveformChannelSize];

@@ -40,9 +40,9 @@ public:
 
 	/**
 	 * @brief waveformDuration
-	 * @return seconds FIXME: make it milliseconds
+	 * @return milliseconds
 	 */
-	inline quint32 waveformDuration() const { return m_waveformDuration; }
+	inline quint64 waveformDuration() const { return m_waveformDuration; }
 
 	inline quint32 lengthMillis() const { return m_waveformChannelSize * 1000 / m_samplesSec; }
 	inline quint32 lengthSamples() const { return m_waveformChannelSize; }
@@ -86,9 +86,9 @@ private:
 
 	StreamProcessor *m_stream;
 
-	quint32 m_waveformDuration; // FIXME: change to msec
-	quint16 m_waveformChannels;
+	quint64 m_waveformDuration;
 	quint32 m_waveformChannelSize;
+	quint16 m_waveformChannels;
 	SAMPLE_TYPE **m_waveform;
 
 	quint32 m_samplesSec;
