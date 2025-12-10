@@ -36,7 +36,7 @@ TranslateDialog::TranslateDialog(QWidget *parent)
 
 	QComboBox *engineCombo = new QComboBox(m_mainWidget);
 	engineCombo->setEditable(false);
-	for(const TranslateEngine *e: qAsConst(m_engines))
+	for(const TranslateEngine *e: std::as_const(m_engines))
 		engineCombo->addItem(e->name());
 	m_mainLayout->addWidget(engineCombo);
 	engineCombo->setCurrentText(SCConfig::translateEngine());

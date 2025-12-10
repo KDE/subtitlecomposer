@@ -93,11 +93,19 @@ RichDocumentLayout::applyCSS(const QTextCharFormat &format) const
 			fmt.setFontStrikeOut(it.value() == $("line-through"));
 		} else if(it.key() == "color") {
 			QColor color;
+#if QT_VERSION < QT_VERSION_CHECK(6, 4, 0)
 			color.setNamedColor(it.value());
+#else
+			color.fromString(it.value());
+#endif
 			fmt.setForeground(QBrush(color));
 		} else if(it.key() == "background-color") {
 			QColor color;
+#if QT_VERSION < QT_VERSION_CHECK(6, 4, 0)
 			color.setNamedColor(it.value());
+#else
+			color.fromString(it.value());
+#endif
 			fmt.setBackground(QBrush(color));
 		}
 		// TODO: check what else WebVTT requires

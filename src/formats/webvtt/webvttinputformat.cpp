@@ -273,7 +273,11 @@ WebVTTInputFormat::parseSubtitles(Subtitle &subtitle, const QString &data) const
 			cueTime = QStringView(data).mid(off, end - off).trimmed();
 			off = end;
 		}
+#if QT_VERSION < QT_VERSION_CHECK(6, 5, 0)
 		QRegularExpressionMatch m = reTime.match(cueTime);
+#else
+		QRegularExpressionMatch m = reTime.matchView(cueTime);
+#endif
 		if(!m.isValid()) {
 			qWarning() << "Invalid WEBVTT subtitle";
 			return false;

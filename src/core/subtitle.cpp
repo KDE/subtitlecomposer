@@ -269,7 +269,7 @@ Subtitle::line(int index) const
 bool
 Subtitle::hasAnchors() const
 {
-	for(const SubtitleLine *line: qAsConst(m_anchoredLines)) {
+	for(const SubtitleLine *line: std::as_const(m_anchoredLines)) {
 		if(line && line->index() != -1)
 			return true;
 	}
@@ -322,7 +322,7 @@ Subtitle::toggleLineAnchor(const SubtitleLine *line)
 void
 Subtitle::removeAllAnchors()
 {
-	for(const SubtitleLine *line: qAsConst(m_anchoredLines)) {
+	for(const SubtitleLine *line: std::as_const(m_anchoredLines)) {
 		if(line)
 			emit lineAnchorChanged(line, false);
 	}

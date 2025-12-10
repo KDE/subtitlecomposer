@@ -388,7 +388,7 @@ QMap<QByteArray, QString>
 RichCSS::match(QSet<QString> selectors) const
 {
 	QMap<QByteArray, QString> styles;
-	for(const Block &b: qAsConst(m_stylesheet)) {
+	for(const Block &b: std::as_const(m_stylesheet)) {
 		const QChar *s = b.selector.constData();
 		const QChar *ss = s;
 		const QChar *e = s + b.selector.size();
@@ -419,7 +419,7 @@ RichCSS::match(QSet<QString> selectors) const
 		if(!matched)
 			continue;
 		// merge styles
-		for(const Rule &r: qAsConst(b.rules))
+		for(const Rule &r: std::as_const(b.rules))
 			styles[r.name] = r.value;
 	}
 	return styles;
@@ -429,7 +429,7 @@ QSet<QString>
 RichCSS::classes() const
 {
 	QSet<QString> all;
-	for(const Block &b: qAsConst(m_stylesheet)) {
+	for(const Block &b: std::as_const(m_stylesheet)) {
 		const QChar *s = b.selector.constData();
 		const QChar *ss;
 		while(!s->isNull()) {

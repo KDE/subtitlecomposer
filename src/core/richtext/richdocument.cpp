@@ -803,7 +803,7 @@ RichDocument::replace(const QRegularExpression &search, const QString &replaceme
 		int len;
 		int repFrag = 0;
 		// add the replacement string, with backreferences replaced
-		for(const REStringCapture &backRef: qAsConst(backRefs)) {
+		for(const REStringCapture &backRef: std::as_const(backRefs)) {
 			// part of the replacement string before the backreference
 			if(!repFrags.at(repFrag)->isEmpty())
 				cl.push_back(EditChange(ReplaceFragment, matchStart, 0, repFrags.at(repFrag)));

@@ -700,7 +700,11 @@ RichString::setRichString(const QStringView_ &string)
 			"[^>]*?>|&([^;]+);|\\n)", REu | REi);
 	staticRE$(colorRegExp, "style=\"[^\">]*\\bcolor:([\\w#]+)", REu | REi);
 
+#if QT_VERSION < QT_VERSION_CHECK(6, 5, 0)
 	QRegularExpressionMatchIterator it = tagRegExp.globalMatch(string);
+#else
+	QRegularExpressionMatchIterator it = tagRegExp.globalMatchView(string);
+#endif
 
 	clear();
 
@@ -743,7 +747,11 @@ RichString::setRichString(const QStringView_ &string)
 					const QString &color = m.captured(5);
 					if(!color.isEmpty()) {
 						newStyle |= RichString::Color;
+#if QT_VERSION < QT_VERSION_CHECK(6, 4, 0)
 						newColor.setNamedColor(color.toLower());
+#else
+						newColor.fromString(color.toLower());
+#endif
 						colorTags.push_back(currentColor.name());
 						colorTags.push_back(mTag);
 					}
@@ -781,10 +789,18 @@ RichString::setRichString(const QStringView_ &string)
 
 				if(!mTag.isEmpty()) {
 					if(mTag.front() != QLatin1Char('/')) {
+#if QT_VERSION < QT_VERSION_CHECK(6, 5, 0)
 						QRegularExpressionMatch mc = colorRegExp.match(m.capturedView(4));
+#else
+						QRegularExpressionMatch mc = colorRegExp.matchView(m.capturedView(4));
+#endif
 						if(mc.hasMatch()) {
 							newStyle |= RichString::Color;
+#if QT_VERSION < QT_VERSION_CHECK(6, 4, 0)
 							newColor.setNamedColor(mc.captured(1).toLower());
+#else
+							newColor.fromString(mc.captured(1).toLower());
+#endif
 							colorTags.push_back(currentColor.name());
 							colorTags.push_back(mTag);
 						}
@@ -792,10 +808,16 @@ RichString::setRichString(const QStringView_ &string)
 						colorTags.pop_back();
 						if(colorTags.size() == 1) {
 							newStyle &= ~RichString::Color;
+#if QT_VERSION < QT_VERSION_CHECK(6, 4, 0)
 							newColor.setNamedColor("-invalid-");
+#endif
 						} else {
 							newStyle |= RichString::Color;
+#if QT_VERSION < QT_VERSION_CHECK(6, 4, 0)
 							newColor.setNamedColor(colorTags.back());
+#else
+							newColor.fromString(colorTags.back());
+#endif
 						}
 						colorTags.pop_back();
 					}
@@ -1198,7 +1220,11 @@ RichString::split(const QRegularExpression &sep, Qt::SplitBehaviorFlags behavior
 	RichStringList ret;
 
 	int off = 0;
+#if QT_VERSION < QT_VERSION_CHECK(6, 5, 0)
 	QRegularExpressionMatchIterator iterator = sep.globalMatch(*this);
+#else
+	QRegularExpressionMatchIterator iterator = sep.globalMatchView(*this);
+#endif
 	while(iterator.hasNext()) {
 		QRegularExpressionMatch match = iterator.next();
 		const int matchedIndex = match.capturedStart();
@@ -1578,7 +1604,11 @@ ReplaceHelper::match(RichString &str, const QRegularExpression &regExp, const T 
 	int matchOffset = 0;
 	int newLength = 0;
 	int len;
+#if QT_VERSION < QT_VERSION_CHECK(6, 5, 0)
 	QRegularExpressionMatchIterator iterator = regExp.globalMatch(str);
+#else
+	QRegularExpressionMatchIterator iterator = regExp.globalMatchView(str);
+#endif
 	const bool matched = iterator.hasNext();
 	while(iterator.hasNext()) {
 		QRegularExpressionMatch match = iterator.next();
@@ -1590,7 +1620,7 @@ ReplaceHelper::match(RichString &str, const QRegularExpression &regExp, const T 
 		}
 
 		int replacementOffset = 0;
-		for(const BackRef &backRef: qAsConst(backRefs)) {
+		for(const BackRef &backRef: std::as_const(backRefs)) {
 			// replacement before backref
 			if((len = backRef.start - replacementOffset)) {
 				matchList.push_back(MatchRef{replacementOffset, len, MatchRef::REPLACEMENT});

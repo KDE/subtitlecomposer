@@ -479,7 +479,7 @@ SubtitleLine *
 WaveformWidget::subtitleLineAtMousePosition() const
 {
 	const Time mouseTime = m_RMBDown ? m_timeRMBRelease : m_pointerTime;
-	for(const WaveSubtitle *sub: qAsConst(m_visibleLines)) {
+	for(const WaveSubtitle *sub: std::as_const(m_visibleLines)) {
 		if(sub->line()->containsTime(mouseTime))
 			return sub->line();
 	}
