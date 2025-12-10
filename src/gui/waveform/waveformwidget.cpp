@@ -341,7 +341,8 @@ WaveformWidget::setNullAudioStream(quint64 msecVideoLength)
 {
 	clearAudioStream();
 
-	m_timeStart.setMillisTime(msecVideoLength);
+	m_timeStart.setMillisTime(0.);
+	m_timeEnd.setMillisTime(msecVideoLength);
 	// will do onTimeUpdated() during event from m_wfBuffer->setNullAudioStream()
 	m_wfBuffer->setNullAudioStream(msecVideoLength);
 }
