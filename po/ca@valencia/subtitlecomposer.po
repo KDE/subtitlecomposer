@@ -1094,7 +1094,7 @@ msgstr "Codificació: %1"
 #: src/application_subtitle.cpp:324
 #, kde-format
 msgid "There was an error saving the subtitle."
-msgstr "S'ha produït un error en guardar el subtítol."
+msgstr "S'ha produït un error mentre es guardava el subtítol."
 
 #: src/application_subtitle.cpp:332
 #, kde-format
@@ -1149,7 +1149,7 @@ msgstr "Traducció"
 #: src/application_subtitle.cpp:570
 #, kde-format
 msgid "There was an error saving the translation subtitle."
-msgstr "S'ha produït un error en guardar la traducció del subtítol."
+msgstr "S'ha produït un error mentre es guardava la traducció del subtítol."
 
 #: src/application_subtitle.cpp:578
 #, kde-format
@@ -2852,7 +2852,7 @@ msgstr "<b>Velocitat de reproducció</b>"
 #: src/gui/playerwidget.cpp:673
 #, kde-format
 msgid "<qt>There was an error opening media file %1.</qt>"
-msgstr "<qt>S'ha produït un error en obrir el fitxer multimèdia %1.</qt>"
+msgstr "<qt>S'ha produït un error mentre s'obria el fitxer multimèdia %1.</qt>"
 
 #: src/gui/playerwidget.cpp:689 src/gui/playerwidget.cpp:690
 #: src/gui/playerwidget.cpp:691 src/gui/playerwidget.cpp:692
@@ -2870,7 +2870,7 @@ msgstr "S'ha produït un error inesperat en reproduir el fitxer."
 #: src/gui/playerwidget.cpp:705 src/gui/playerwidget.cpp:707
 #, kde-format
 msgid "Error Playing File"
-msgstr "S'ha produït un error en reproduir el fitxer"
+msgstr "S'ha produït un error mentre es reproduia el fitxer"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:46
 #, kde-format
@@ -3627,7 +3627,7 @@ msgstr "Nom de l'script:"
 #: src/scripting/scriptsmanager.cpp:504
 #, kde-format
 msgid "There was an error creating the file <b>%1</b>."
-msgstr "S'ha produït un error en crear el fitxer <b>%1</b>."
+msgstr "S'ha produït un error mentre es creava el fitxer <b>%1</b>."
 
 #: src/scripting/scriptsmanager.cpp:539
 #, kde-format
@@ -3656,12 +3656,12 @@ msgstr "Canvia el nom de l'script"
 #: src/scripting/scriptsmanager.cpp:569
 #, kde-format
 msgid "There was an error opening the file <b>%1</b>."
-msgstr "S'ha produït un error en obrir el fitxer <b>%1</b>."
+msgstr "S'ha produït un error mentre s'obria el fitxer <b>%1</b>."
 
 #: src/scripting/scriptsmanager.cpp:577
 #, kde-format
 msgid "There was an error copying the file to <b>%1</b>."
-msgstr "S'ha produït un error en copiar el fitxer a <b>%1</b>."
+msgstr "S'ha produït un error mentre es copiava el fitxer a <b>%1</b>."
 
 #: src/scripting/scriptsmanager.cpp:592
 #, kde-format
@@ -3676,7 +3676,7 @@ msgstr "Mou cap a dins de la paperera"
 #: src/scripting/scriptsmanager.cpp:596
 #, kde-format
 msgid "There was an error removing the file <b>%1</b>."
-msgstr "S'ha produït un error en eliminar el fitxer <b>%1</b>."
+msgstr "S'ha produït un error mentre s'eliminava el fitxer <b>%1</b>."
 
 #: src/scripting/scriptsmanager.cpp:614
 #, kde-format
@@ -3686,13 +3686,13 @@ msgstr "No s'ha pogut iniciar l'editor extern.\n"
 #: src/scripting/scriptsmanager.cpp:634
 #, kde-format
 msgid "Error opening script %1."
-msgstr "S'ha produït un error en obrir l'script %1."
+msgstr "S'ha produït un error mentre s'obria l'script %1."
 
 #: src/scripting/scriptsmanager.cpp:634 src/scripting/scriptsmanager.cpp:649
 #: src/scripting/scriptsmanager.cpp:651
 #, kde-format
 msgid "Error Running Script"
-msgstr "S'ha produït un error en executar un script"
+msgstr "S'ha produït un error mentre s'executava un script"
 
 #: src/scripting/scriptsmanager.cpp:647
 #, kde-format
@@ -4131,7 +4131,7 @@ msgstr "S'ha produït un error del motor Google Cloud"
 #: src/translate/googlecloudengine.cpp:207
 #, kde-format
 msgid "Error opening file '%1'"
-msgstr "S'ha produït un error en obrir el fitxer «%1»"
+msgstr "S'ha produït un error mentre s'obria el fitxer «%1»"
 
 #: src/translate/googlecloudengine.cpp:216
 #, kde-format
