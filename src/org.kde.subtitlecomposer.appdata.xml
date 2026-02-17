@@ -562,20 +562,28 @@
       <description>
         <ul>
           <li>Fixed issues and crashes with newer Qt6 versions</li>
+          <li xml:lang="ar">أُصلحت مشكلات وانهيارات مع إصدارات Qt6 الأحدث</li>
           <li xml:lang="pt-BR">Problemas e travamentos corrigidos em versões mais recentes do Qt6.</li>
           <li>Fixed Waveform and VideoPlayer paint issues</li>
+          <li xml:lang="ar">أُصلحت مشكلات رسم الشكل الموجي ومشغل الفيديو</li>
           <li xml:lang="pt-BR">Corrigidos problemas de renderização do Waveform e do VideoPlayer</li>
           <li>Fixed PGS subtitle mime type</li>
+          <li xml:lang="ar">أُصلح نوع MIME لترجمة PGS</li>
           <li xml:lang="pt-BR">Tipo MIME de legenda PGS corrigido</li>
           <li>Improved Wayland compatibility</li>
+          <li xml:lang="ar">حُسّن التوافق مع Wayland</li>
           <li xml:lang="pt-BR">Compatibilidade aprimorada com Wayland</li>
           <li>Improved GoogleCloudEngine translations</li>
+          <li xml:lang="ar">حُسّنت ترجمات GoogleCloudEngine</li>
           <li xml:lang="pt-BR">Traduções do Google Cloud Engine aprimoradas</li>
           <li>Added configurable whitespace detection to VobSub import</li>
+          <li xml:lang="ar">أُضيفت ميزة الكشف عن المساحات البيضاء القابلة للضبط عند استيراد VobSub</li>
           <li xml:lang="pt-BR">Adicionada detecção configurável de espaços em branco à importação de VobSub</li>
           <li>Replaced deprecated FFmpeg channel code</li>
+          <li xml:lang="ar">استُبدلت كود قناة FFmpeg المهجور</li>
           <li xml:lang="pt-BR">Substituído o código de canal FFmpeg obsoleto</li>
           <li>Require FFmpeg &gt;= 5.1.5</li>
+          <li xml:lang="ar">يتطلب FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="pt-BR">Requer FFmpeg &gt;= 5.1.5</li>
         </ul>
       </description>
@@ -602,32 +610,46 @@
       <description>
         <ul>
           <li>Fixed (rare) memory issues and crashes</li>
+          <li xml:lang="ar">أُصلحت مشكلات الذاكرة والانهيارات (النادرة)</li>
           <li xml:lang="pt-BR">Problemas de memória e travamentos (raros) corrigidos</li>
           <li>Fixed crashes on waveform widget</li>
+          <li xml:lang="ar">أُصلحت الانهيارات في ودجة الشكل الموجي</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento no widget de forma de onda</li>
           <li>Fixed video player rendering in Qt 6.7</li>
+          <li xml:lang="ar">أُصلح صيرورة مشغل الفيديو في إصدار Qt 6.7</li>
           <li xml:lang="pt-BR">Correção na renderização do reprodutor de vídeo no Qt 6.7</li>
           <li>Fixed scripts manager assert failures</li>
+          <li xml:lang="ar">أُصلحت إخفاقات التحقق (assert) في مدير البرمجيات النصية</li>
           <li xml:lang="pt-BR">Correção de falhas de asserção do gerenciador de scripts</li>
           <li>Fixed inability to view non-script files in scripts manager</li>
+          <li xml:lang="ar">أُصلح عدم القدرة على عرض الملفات غير البرمجية في مدير البرمجيات النصية</li>
           <li xml:lang="pt-BR">Corrigido o problema que impedia a visualização de arquivos que não fossem scripts no gerenciador de scripts</li>
           <li>Fixed seeking in some media formats</li>
+          <li xml:lang="ar">أُصلح التقديم والتأخير في بعض صيغ الوسائط</li>
           <li xml:lang="pt-BR">Corrigida busca em alguns formatos de mídia</li>
           <li>Fixed video player subtitle rendering</li>
+          <li xml:lang="ar">أُصلحت صيرورة عرض الترجمة في مشغل الفيديو</li>
           <li xml:lang="pt-BR">Correção na renderização de legendas do reprodutor de vídeo</li>
           <li>Fixed broken rendering on hi-res videos</li>
+          <li xml:lang="ar">أُصلحت الصيرورة المعطوبة في فيديوهات الدقة العالية</li>
           <li xml:lang="pt-BR">Corrigido problema de renderização em vídeos de alta resolução</li>
           <li>Fixed HDR video rendering (SMPTE-ST-2084 gamma transfer)</li>
+          <li xml:lang="ar">أُصلحت صيرورة فيديو HDR (نقل غاما SMPTE-ST-2084)</li>
           <li xml:lang="pt-BR">Renderização de vídeo HDR corrigida (transferência gama SMPTE-ST-2084)</li>
           <li>Added check for maximum number of characters per line</li>
+          <li xml:lang="ar">أُضيف فحص للحد الأقصى لعدد المحارف في السطر الواحد</li>
           <li xml:lang="pt-BR">Adicionada verificação para o número máximo de caracteres por linha</li>
           <li>Added MinT translate engine</li>
+          <li xml:lang="ar">أُضيف محرك الترجمة MinT</li>
           <li xml:lang="pt-BR">Adicionado o mecanismo de tradução MinT</li>
           <li>Improved translation support and UI</li>
+          <li xml:lang="ar">حُسّن دعم الترجمة وواجهة المستخدم</li>
           <li xml:lang="pt-BR">Melhorias no suporte à tradução e na interface do usuário</li>
           <li>Improved video player scaling</li>
+          <li xml:lang="ar">حُسّن تحجيم مشغل الفيديو</li>
           <li xml:lang="pt-BR">Melhoria na escala do reprodutor de vídeo</li>
           <li>Dropped KIO file operations</li>
+          <li xml:lang="ar">أُسقطت عمليات ملفات KIO</li>
           <li xml:lang="pt-BR">Operações de arquivo KIO descartadas</li>
         </ul>
       </description>
@@ -654,74 +676,109 @@
       <description>
         <ul>
           <li>Fixed video player on GLES only hardware</li>
+          <li xml:lang="ar">أُصلح مشغل الفيديو على العتاد الذي يدعم GLES فقط</li>
           <li xml:lang="pt-BR">Reprodutor de vídeo corrigido em hardware exclusivo GLES</li>
           <li>Fixed skewed video on video player</li>
+          <li xml:lang="ar">أُصلح الفيديو المائل في مشغل الفيديو</li>
           <li xml:lang="pt-BR">Vídeo distorcido corrigido no reprodutor de vídeo</li>
           <li>Fixed closing fullscreen video player</li>
+          <li xml:lang="ar">أُصلح إغلاق مشغل الفيديو في وضع ملء الشاشة</li>
           <li xml:lang="pt-BR">Correção no fechamento do reprodutor de vídeo em tela cheia</li>
           <li>Fixed subtitles under fullscreen video toolbar</li>
+          <li xml:lang="ar">أُصلحت الترجمات التي تظهر تحت شريط أدوات الفيديو في وضع ملء الشاشة</li>
           <li xml:lang="pt-BR">Correção das legendas na barra de ferramentas de vídeo em tela cheia</li>
           <li>Fixed video player media state notifications</li>
+          <li xml:lang="ar">أُصلحت إخطارات حالة الوسائط في مشغل الفيديو</li>
           <li xml:lang="pt-BR">Correção nas notificações de estado da mídia do reprodutor de vídeo</li>
           <li>Fixed subtitle video overlay font size accuracy</li>
+          <li xml:lang="ar">أُصلحت دقة حجم خط تراكب الترجمة على الفيديو</li>
           <li xml:lang="pt-BR">Correção na precisão do tamanho da fonte da sobreposição de legendas em vídeos</li>
           <li>Fixed deadlock/crash while changing audio stream on paused/stopped media</li>
+          <li xml:lang="ar">أُصلح الانغلاق التام/الانهيار عند تغيير دفق الصوت في الوسائط المتوقفة أو الموقفة مؤقتًا</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento/falha que ocorria ao trocar o fluxo de áudio em mídias pausadas/interrompidas</li>
           <li>Improved Waveform widget performance</li>
+          <li xml:lang="ar">حُسّن أداء ودجة الشكل الموجي</li>
           <li xml:lang="pt-BR">Desempenho aprimorado do widget de forma de onda</li>
           <li>Fixed waveform misalignment due to rounding error</li>
+          <li xml:lang="ar">أُصلح عدم محاذاة الشكل الموجي الناتج عن خطأ في التقريب</li>
           <li xml:lang="pt-BR">Corrigido desalinhamento da forma de onda devido a erro de arredondamento</li>
           <li>Fixed waveform widget drawing on null image and painting of removed lines</li>
+          <li xml:lang="ar">أُصلح رسم ودجة الشكل الموجي على صورة فارغة ورسم الأسطر المحذوفة</li>
           <li xml:lang="pt-BR">Corrigido o desenho do widget de forma de onda em uma imagem nula e a pintura das linhas removidas</li>
           <li>Fixed waveform default zoom scale</li>
+          <li xml:lang="ar">أُصلح مقياس التقريب المبدئي للشكل الموجي</li>
           <li xml:lang="pt-BR">Corrigida a escala de zoom padrão da forma de onda</li>
           <li>Fixed subtitle text line separator draw on LinesWidget</li>
+          <li xml:lang="ar">أُصلح رسم فاصل أسطر نص الترجمة في LinesWidget</li>
           <li xml:lang="pt-BR">Corrigido o separador de linhas do texto da legenda no LinesWidget</li>
           <li>Fixed unbreak lines (newline searches in QTextDocument)</li>
+          <li xml:lang="ar">أُصلح إلغاء كسر الأسطر (البحث عن سطر جديد في QTextDocument)</li>
           <li xml:lang="pt-BR">Correção de quebras de linha (busca por nova linha em QTextDocument)</li>
           <li>Fixed crash in split lines</li>
+          <li xml:lang="ar">أُصلح الانهيار عند تقسيم الأسطر</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava travamento nas linhas de divisão</li>
           <li>Fixed VobSub import ignoring Text styles</li>
+          <li xml:lang="ar">أُصلح تجاهل أنماط النص عند استيراد VobSub</li>
           <li xml:lang="pt-BR">Corrigido o problema de importação de VobSub ignorando os estilos de texto</li>
           <li>Fixed VobSub crash when moving to previous image</li>
+          <li xml:lang="ar">أُصلح انهيار VobSub عند الانتقال إلى الصورة السابقة</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento do VobSub ao passar para a imagem anterior</li>
           <li>Fixed YouTubeCaptions format parsing/saving</li>
+          <li xml:lang="ar">أُصلح تحليل/حفظ صيغة تعليقات YouTube</li>
           <li xml:lang="pt-BR">Correção na análise/salvamento do formato de legendas do YouTube</li>
           <li>Fixed undo/redo actions creation order, incorrect state</li>
+          <li xml:lang="ar">أُصلح ترتيب إنشاء إجراءات التراجع/الإعادة والحالة غير الصحيحة</li>
           <li xml:lang="pt-BR">Corrigida a ordem de criação das ações de desfazer/refazer, estado incorreto</li>
           <li>Fixed some memory and saving issues</li>
+          <li xml:lang="ar">أُصلحت بعض مشكلات الذاكرة والحفظ</li>
           <li xml:lang="pt-BR">Corrigidos alguns problemas de memória e salvamento</li>
           <li>Fixed embedded ASS decoding</li>
+          <li xml:lang="ar">أُصلح فك ترميز ASS المضمن</li>
           <li xml:lang="pt-BR">Corrigida a decodificação ASS embutida</li>
           <li>Fixed example remove hearing impaired script</li>
+          <li xml:lang="ar">أُصلح نص البرمجية النصية التجريبي لإزالة نصوص لضعاف السمع</li>
           <li xml:lang="pt-BR">Corrigida remoção de exemplo de script para deficientes auditivos</li>
           <li>Fixed broken about dialog</li>
+          <li xml:lang="ar">أُصلح مربع حوار "عن" المعطوب</li>
           <li xml:lang="pt-BR">Corrigido o diálogo "Sobre"</li>
           <li>Added Qt6 support</li>
+          <li xml:lang="ar">أُضيف دعم Qt6</li>
           <li xml:lang="pt-BR">Adicionado suporte ao Qt6</li>
           <li>Added WebVTT format support</li>
+          <li xml:lang="ar">أُضيف دعم صيغة WebVTT</li>
           <li xml:lang="pt-BR">Adicionado suporte ao formato WebVTT</li>
           <li>Added subtitle positioning UI and support</li>
+          <li xml:lang="ar">أُضيفت واجهة مستخدم ودعم لموضعة الترجمة</li>
           <li xml:lang="pt-BR">Adicionada interface de usuário e suporte para posicionamento de legendas</li>
           <li>Added subtitle class/comments/voice UI and support</li>
+          <li xml:lang="ar">أُضيفت واجهة مستخدم ودعم لفئات/تعليقات/أصوات الترجمة</li>
           <li xml:lang="pt-BR">Adicionada interface de usuário e suporte para legendas, comentários e voz</li>
           <li>Improved rich text editing/preview</li>
+          <li xml:lang="ar">حُسّن تحرير ومعاينة النص الغني</li>
           <li xml:lang="pt-BR">Aprimoramento da edição/visualização de texto formatado</li>
           <li>Rich text rendering on waveform/video/editors</li>
+          <li xml:lang="ar">صيرورة النص الغني على الشكل الموجي والفيديو والمحررات</li>
           <li xml:lang="pt-BR">Renderização de texto formatado em formas de onda/vídeos/editores</li>
           <li>Added DeepL translate engine</li>
+          <li xml:lang="ar">أُضيف محرك ترجمة DeepL</li>
           <li xml:lang="pt-BR">Adicionado o mecanismo de tradução DeepL</li>
           <li>Added Google Cloud translate engine</li>
+          <li xml:lang="ar">أُضيف محرك ترجمة Google Cloud</li>
           <li xml:lang="pt-BR">Adicionado o mecanismo de tradução do Google Cloud</li>
           <li>Recreated translation interface</li>
+          <li xml:lang="ar">أُعيد إنشاء واجهة الترجمة</li>
           <li xml:lang="pt-BR">Interface de tradução recriada</li>
           <li>Added/improved ffmpeg 5 support</li>
+          <li xml:lang="ar">أُضيف/حُسّن دعم ffmpeg 5</li>
           <li xml:lang="pt-BR">Adicionado/aprimorado suporte ao ffmpeg 5</li>
           <li>Subtitle lines are always time sorted; remove sort lines menu action</li>
+          <li xml:lang="ar">أسطر الترجمة مرتبة زمنياً دائماً؛ أُزيل إجراء قائمة ترتيب الأسطر</li>
           <li xml:lang="pt-BR">As legendas são sempre ordenadas por tempo; remover a ação de ordenação de linhas no menu</li>
           <li>Replaced Kross with QJSEngine, removed ruby and python support</li>
+          <li xml:lang="ar">استُبدل Kross بمحرك QJSEngine، وأُزيل دعم Ruby و Python</li>
           <li xml:lang="pt-BR">Substituição do Kross pelo QJSEngine e remoção do suporte a Ruby e Python</li>
           <li>Improved script manager and tools menu</li>
+          <li xml:lang="ar">حُسّن مدير البرمجيات النصية وقائمة الأدوات</li>
           <li xml:lang="pt-BR">Melhorias no gerenciador de scripts e menu de ferramentas</li>
         </ul>
       </description>
@@ -753,44 +810,64 @@
       <description>
         <ul>
           <li>Fixed script edititing on AppImage</li>
+          <li xml:lang="ar">أُصلح تحرير البرمجيات النصية في AppImage</li>
           <li xml:lang="pt-BR">Correção na edição de scripts no AppImage</li>
           <li>Fixed AppImage/Windows builds, themes and look</li>
+          <li xml:lang="ar">أُصلحت بناءات AppImage و Windows والسمات والمظهر</li>
           <li xml:lang="pt-BR">Correção nas compilações AppImage/Windows, temas e aparência</li>
           <li>Fixed theme/icons/look outside KDE environment</li>
+          <li xml:lang="ar">أُصلحت السمات والأيقونات والمظهر خارج بيئة KDE</li>
           <li xml:lang="pt-BR">Correção de tema/ícones/aparência fora do ambiente KDE</li>
           <li>Fixed opening files on windows</li>
+          <li xml:lang="ar">أُصلح فتح الملفات في Windows</li>
           <li xml:lang="pt-BR">Correção na abertura de arquivos no Windows</li>
           <li>Fixed various bugs and rare crashes</li>
+          <li xml:lang="ar">أُصلحت علل متنوعة وانهيارات نادرة</li>
           <li xml:lang="pt-BR">Correção de diversos erros e travamentos raros</li>
           <li>Fixed Undo stack and improved text editing undo</li>
+          <li xml:lang="ar">أُصلح مكدس التراجع وحُسّن التراجع عن تحرير النص</li>
           <li xml:lang="pt-BR">Correção da pilha de desfazer e melhoria na função de desfazer na edição de texto</li>
           <li>Improved/replaced Video player(s) (performance, Wayland support, OpenGL/FFmpeg)</li>
+          <li xml:lang="ar">حُسّنت/استُبدلت مشغلات الفيديو (الأداء، دعم Wayland، و OpenGL/FFmpeg)</li>
           <li xml:lang="pt-BR">Reprodutor(es) de vídeo aprimorado(s)/substituído(s) (desempenho, suporte a Wayland, OpenGL/FFmpeg)</li>
           <li>Improved Waveform performance</li>
+          <li xml:lang="ar">حُسّن أداء الشكل الموجي</li>
           <li xml:lang="pt-BR">Desempenho de forma de onda aprimorado</li>
           <li>Improved LinesWidget/Model performance</li>
+          <li xml:lang="ar">حُسّن أداء LinesWidget/Model</li>
           <li xml:lang="pt-BR">Desempenho aprimorado do LinesWidget/Model</li>
           <li>Improved Wayland support</li>
+          <li xml:lang="ar">حُسّن دعم Wayland</li>
           <li xml:lang="pt-BR">Suporte ao Wayland aprimorado</li>
           <li>Improved open/save file dialogs to use native dialogs</li>
+          <li xml:lang="ar">حُسّنت مربعات حوار فتح/حفظ الملفات لاستخدام مربعات الحوار الأصيلة</li>
           <li xml:lang="pt-BR">Diálogos de abrir/salvar arquivos aprimorados para usar diálogos nativos</li>
           <li>Improved text charsets/encodings/end-of-line selection, detection and handling</li>
+          <li xml:lang="ar">حُسّن كشف ومعالجة واختيار مجموعات محارف النصوص والترميزات ونهاية الأسطر</li>
           <li xml:lang="pt-BR">Melhoria na seleção, detecção e tratamento de conjuntos de caracteres/codificações de texto/fim de linha</li>
           <li>Improved VobSub support</li>
+          <li xml:lang="ar">حُسّن دعم VobSub</li>
           <li xml:lang="pt-BR">Suporte ao VobSub aprimorado</li>
           <li>Improved inline editor to support text styles</li>
+          <li xml:lang="ar">حُسّن المحرر المضمن لدعم أنماط النص</li>
           <li xml:lang="pt-BR">Editor embutido aprimorado para oferecer suporte a estilos de texto</li>
           <li>Improved subtitle style rendering</li>
+          <li xml:lang="ar">حُسّنت صيرورة نمط الترجمة</li>
           <li xml:lang="pt-BR">Renderização de estilo de legenda aprimorada</li>
           <li>Improved character/sec support and added coloring</li>
+          <li xml:lang="ar">حُسّن دعم عدد المحارف في الثانية وأُضيف التلوين</li>
           <li xml:lang="pt-BR">Melhoria no suporte a caracteres por segundo e adição de cores</li>
           <li>Improvide command line - ability to open all subtitle/media files</li>
+          <li xml:lang="ar">حُسّن سطر الأوامر - القدرة على فتح جميع ملفات الترجمة والوسائط</li>
           <li xml:lang="pt-BR">Melhoria da linha de comando - capacidade de abrir todos os arquivos de legenda/mídia</li>
           <li>Added Pause/Duration columns to list view</li>
+          <li xml:lang="ar">أُضيفت أعمدة المهلة/المدة إلى عرض القائمة</li>
           <li xml:lang="pt-BR">Adicionadas colunas de Pausa/Duração à visualização em lista</li>
           <li>Removed invalid subpicture/x-pgs mime</li>
+          <li xml:lang="ar">أُزيل نوع MIME غير الصالح subpicture/x-pgs</li>
           <li xml:lang="pt-BR">Legenda inválida removida/mime x-pgs</li>
           <li>Updated/added many translations - thanks to KDE community</li>
+          <li xml:lang="ar">حُدّثت/أُضيفت ترجمات عديدة - شكراً لمجتمع كدي</li>
           <li xml:lang="pt-BR">Muitas traduções foram atualizadas e adicionadas - graças à comunidade KDE</li>
         </ul>
       </description>
@@ -821,46 +898,67 @@
       <description>
         <ul>
           <li>Fixed parsing of absolute paths containing '#' character</li>
+          <li xml:lang="ar">أُصلح تحليل المسارات المطلقة التي تحتوي على محرف '#'</li>
           <li xml:lang="pt-BR">Correção na análise de caminhos absolutos que continham o caractere '#'</li>
           <li>Fixed open dialogs not showing all supported files</li>
+          <li xml:lang="ar">أُصلحت مربعات حوار الفتح التي لا تظهر جميع الملفات المدعومة</li>
           <li xml:lang="pt-BR">Corrigido o problema em que as caixas de diálogo de abertura não exibiam todos os arquivos compatíveis</li>
           <li>Fixed subtitle text not respecting system font configuration</li>
+          <li xml:lang="ar">أُصلح نص الترجمة الذي لا يحترم ضبط خطوط النظام</li>
           <li xml:lang="pt-BR">Texto de legenda corrigido, sem respeitar a configuração de fonte do sistema</li>
           <li>Fixed waveform not rendering correctly/completely on some formats</li>
+          <li xml:lang="ar">أُصلح الشكل الموجي الذي لا يظهر بصيرورة صحيحة أو كاملة في بعض الصيغ</li>
           <li xml:lang="pt-BR">A forma de onda fixa não está sendo renderizada corretamente/completamente em alguns formatos</li>
           <li>Fixed waveform displaying subtitles at wrong times</li>
+          <li xml:lang="ar">أُصلح عرض الترجمات في أوقات خاطئة على الشكل الموجي</li>
           <li xml:lang="pt-BR">Corrigida a exibição de legenda na forma de onda no tempo errado</li>
           <li>Fixed waveform not working with some</li>
+          <li xml:lang="ar">أُصلح الشكل الموجي الذي لا يعمل مع بعض الوسائط</li>
           <li xml:lang="pt-BR">Corrigida forma de onda não funcionando em alguns casos</li>
           <li>Fixes to MPV, GStreamer and Xine video player backends</li>
+          <li xml:lang="ar">إصلاحات لمحركات مشغل الفيديو MPV و GStreamer و Xine</li>
           <li xml:lang="pt-BR">Correções nos backends dos reprodutores de vídeo MPV, GStreamer e Xine</li>
           <li>Waveform scrolling is configurable</li>
+          <li xml:lang="ar">تمرير الشكل الموجي قابل للضبط</li>
           <li xml:lang="pt-BR">A rolagem da forma de onda é configurável</li>
           <li>PocketSphinx language models and VAD are configurable</li>
+          <li xml:lang="ar">نماذج لغة PocketSphinx و VAD قابلة للضبط</li>
           <li xml:lang="pt-BR">Os modelos de linguagem e o VAD do PocketSphinx são configuráveis</li>
           <li>Added show status bar action to main window popup menu</li>
+          <li xml:lang="ar">أُضيف إجراء إظهار شريط الحالة إلى القائمة المنبثقة للنافذة الرئيسة</li>
           <li xml:lang="pt-BR">Adicionada ação para exibir a barra de status ao menu pop-up da janela principal</li>
           <li>Improved (scripting) performance</li>
+          <li xml:lang="ar">حُسّن أداء (البرمجة النصية)</li>
           <li xml:lang="pt-BR">Melhoria de performance (scripting)</li>
           <li>Spell checker will use translation text when it is selected</li>
+          <li xml:lang="ar">سيستخدم مدقق الإملاء نص الترجمة عند اختياره</li>
           <li xml:lang="pt-BR">O corretor ortográfico usará o texto traduzido quando esta opção for selecionada</li>
           <li>Waveform and video docks can be hidden</li>
+          <li xml:lang="ar">يمكن إخفاء أرصفة الشكل الموجي والفيديو</li>
           <li xml:lang="pt-BR">Os painéis de forma de onda e vídeo podem ser ocultados</li>
           <li>Split lines won't split text on spaces while there are multiple lines</li>
+          <li xml:lang="ar">تقسيم الأسطر لن يقسم النص عند المسافات عندما تتوفر أسطر متعددة</li>
           <li xml:lang="pt-BR">A opção "Dividir linhas" não dividirá o texto em espaços quando houver várias linhas</li>
           <li>Subtitle lines will always stay sorted by their time</li>
+          <li xml:lang="ar">ستظل أسطر الترجمة مرتبة حسب وقتها دائماً</li>
           <li xml:lang="pt-BR">As legendas permanecerão sempre organizadas por ordem cronológica</li>
           <li>Improved fullscreen video player</li>
+          <li xml:lang="ar">حُسّن مشغل الفيديو في وضع ملء الشاشة</li>
           <li xml:lang="pt-BR">Reprodutor de vídeo em tela cheia aprimorado</li>
           <li>Added ability to step by frame</li>
+          <li xml:lang="ar">أُضيفت القدرة على التنقل بالإطار</li>
           <li xml:lang="pt-BR">Adicionada a capacidade de navegar quadro a quadro</li>
           <li>Added play rate controls to video menu</li>
+          <li xml:lang="ar">أُضيفت عناصر التحكم في معدل التشغيل إلى قائمة الفيديو</li>
           <li xml:lang="pt-BR">Adicionados controles de velocidade de reprodução ao menu de vídeo</li>
           <li>Updated Croatian translation - thanks @muzena</li>
+          <li xml:lang="ar">حُدّثت الترجمة الكرواتية - شكراً @muzena</li>
           <li xml:lang="pt-BR">Tradução para o croata atualizada - obrigado @muzena</li>
           <li>Updated Italian translation - thanks Luigi Toscano @tosky</li>
+          <li xml:lang="ar">حُدّثت الترجمة الإيطالية - شكراً Luigi Toscano @tosky</li>
           <li xml:lang="pt-BR">Tradução para o italiano atualizada - obrigado Luigi Toscano @tosky</li>
           <li>Updated Russian translation - thanks Nick Shaforostoff @shaforostoff</li>
+          <li xml:lang="ar">حُدّثت الترجمة الروسية - شكراً Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="pt-BR">Tradução para o russo atualizada - obrigado Nick Shaforostoff @shaforostoff</li>
         </ul>
       </description>
@@ -869,41 +967,61 @@
       <description>
         <ul>
           <li>Fixed open video dialog filters</li>
+          <li xml:lang="ar">أُصلحت مرشحات مربع حوار فتح الفيديو</li>
           <li xml:lang="pt-BR">Correção dos filtros de diálogo de vídeo aberto</li>
           <li>Fixed "Insert Line" on waveform adding at the wrong index - thanks @qsniyg</li>
+          <li xml:lang="ar">أُصلح "إدراج سطر" في الشكل الموجي الذي يضيف في فهرس خاطئ - شكراً @qsniyg</li>
           <li xml:lang="pt-BR">Corrigido o problema com a opção "Inserir linha" na forma de onda, que estava sendo adicionada no índice errado - obrigado @qsniyg</li>
           <li>Added MMB seeking on waveform - thanks @qsniyg</li>
+          <li xml:lang="ar">أُضيفت ميزة التقديم والتأخير عبر الزر الأوسط للفأرة على الشكل الموجي - شكراً @qsniyg</li>
           <li xml:lang="pt-BR">Adicionada busca por MMB na forma de onda - obrigado @qsniyg</li>
           <li>Fixed some compilation issues</li>
+          <li xml:lang="ar">أُصلحت بعض مشكلات التجميع</li>
           <li xml:lang="pt-BR">Corrigidos alguns problemas de compilação</li>
           <li>Updated translations - thanks @gogogogi, @muzena</li>
+          <li xml:lang="ar">حُدّثت الترجمات - شكراً @gogogogi, @muzena</li>
           <li xml:lang="pt-BR">Traduções atualizadas - obrigado @gogogogi, @muzena</li>
           <li>Fixed vobsub when opening from video file and symbol cache filename</li>
+          <li xml:lang="ar">أُصلح vobsub عند الفتح من ملف فيديو واسم ملف خبيئة الرموز</li>
           <li xml:lang="pt-BR">Correção do problema com o VOBSub ao abrir arquivos de vídeo e nomes de arquivos de cache de símbolos</li>
           <li>Fixed subtitle loading times of huge files</li>
+          <li xml:lang="ar">أُصلحت أوقات تحميل الترجمة للملفات الضخمة</li>
           <li xml:lang="pt-BR">Tempos de carregamento de legendas corrigidos para arquivos grandes</li>
           <li>Improved vobsub text detection</li>
+          <li xml:lang="ar">حُسّن كشف نص vobsub</li>
           <li xml:lang="pt-BR">Detecção de texto vobsub aprimorada</li>
           <li>Fixed ASS rich text parsing on import subtitle stream action</li>
+          <li xml:lang="ar">أُصلح تحليل نص ASS الغني عند إجراء استيراد دفق الترجمة</li>
           <li xml:lang="pt-BR">Correção na análise de texto formatado ASS na ação de importação de fluxo de legendas</li>
           <li>Replaced buggy mplayer vobsub import code with ffmpeg</li>
+          <li xml:lang="ar">استُبدل كود استيراد mplayer vobsub المليء بالعلل بـ ffmpeg</li>
           <li xml:lang="pt-BR">Substituído o código de importação vobsub com bugs do mplayer pelo do ffmpeg</li>
           <li>Fixed memory leaks/usage of WaveformWidget's scroll animation</li>
+          <li xml:lang="ar">أُصلحت تسريبات/استهلاك الذاكرة في حركة تمرير WaveformWidget</li>
           <li xml:lang="pt-BR">Corrigidos vazamentos de memória/uso da animação de rolagem do WaveformWidget</li>
           <li>Optimized import subtitle stream from video action</li>
+          <li xml:lang="ar">حُسّن إجراء استيراد دفق الترجمة من الفيديو</li>
           <li xml:lang="pt-BR">Importação otimizada do fluxo de legendas a partir da ação de vídeo</li>
           <li>Replaced gstreamer with ffmpeg libraries in application core usage</li>
+          <li xml:lang="ar">استُبدل gstreamer بمكتبات ffmpeg في استخدام نواة التطبيق</li>
           <li xml:lang="pt-BR">Substituídas as bibliotecas gstreamer pelas bibliotecas ffmpeg no uso principal do aplicativo</li>
           <li>Added abort button to speech recognition</li>
+          <li xml:lang="ar">أُضيف زر إجهاض للتعرف على الكلام</li>
+          <li xml:lang="nl">Afbreekknop toegevoegd aan spraakherkenning</li>
           <li xml:lang="pt-BR">Adicionado botão de cancelar o reconhecimento de voz</li>
           <li>Waveform smooth scrolling</li>
+          <li xml:lang="ar">تمرير ناعم للشكل الموجي</li>
+          <li xml:lang="nl">Vloeiend schuiven van golfvorm</li>
           <li xml:lang="pt-BR">Rolagem suave na forma de onda</li>
           <li xml:lang="uk">Плавне гортання форми сигналу</li>
           <li>Added join/split lines actions to waveform context menu</li>
+          <li xml:lang="ar">أُضيفت إجراءات دمج/تقسيم الأسطر إلى قائمة سياق الشكل الموجي</li>
           <li xml:lang="pt-BR">Adicionadas ações de unir/dividir linhas ao menu de contexto da forma de onda</li>
           <li>Fixed some crashes, memory leaks and overall code cleanups</li>
+          <li xml:lang="ar">أُصلحت بعض الانهيارات وتسريبات الذاكرة ونُظف الكود بشكل عام</li>
           <li xml:lang="pt-BR">Corrigidas algumas falhas, vazamentos de memória, além de uma limpeza geral do código</li>
           <li>Cleaned up settings widget and texts</li>
+          <li xml:lang="ar">نُظفت ودجة الإعدادات والنصوص</li>
           <li xml:lang="pt-BR">Widget de configurações e textos foram revisados</li>
         </ul>
       </description>
@@ -912,56 +1030,82 @@
       <description>
         <ul>
           <li>ADD: Added support for binary subtitle formats</li>
+          <li xml:lang="ar">إضافة: أُضيف دعم لصيغ الترجمة الثنائية</li>
           <li xml:lang="pt-BR">ADICIONADO: Adicionado suporte para formatos de legenda binários</li>
           <li>ADD: fine control video playback speed</li>
+          <li xml:lang="ar">إضافة: تحكم دقيق في سرعة تشغيل الفيديو</li>
           <li xml:lang="pt-BR">ADICIONADO: controle preciso da velocidade de reprodução de vídeo</li>
           <li>ADD: controls for video playback speed</li>
+          <li xml:lang="ar">إضافة: عناصر تحكم لسرعة تشغيل الفيديو</li>
           <li xml:lang="pt-BR">ADICIONADO: controles para velocidade de reprodução de vídeo</li>
           <li>MOD: GStreamer backend audio improvements.</li>
+          <li xml:lang="ar">تعديل: تحسينات صوتية في محرك GStreamer.</li>
           <li xml:lang="pt-BR">MODIFICADO: Melhorias no backend de áudio do GStreamer</li>
           <li>MOD: Moved open video actions under File menu</li>
+          <li xml:lang="ar">تعديل: نُقلت إجراءات فتح الفيديو إلى قائمة ملف</li>
           <li xml:lang="pt-BR">MODIFICADO: As ações de abrir vídeo foram movidas para o menu Arquivo</li>
           <li>MOD: More tolerant parsing of SubRip subtitles</li>
+          <li xml:lang="ar">تعديل: تحليل أكثر تسامحاً لترجمات SubRip</li>
           <li xml:lang="pt-BR">MODIFICADO: Análise mais tolerante de legendas SubRip</li>
           <li>MOD: Improved split lines command</li>
+          <li xml:lang="ar">تعديل: حُسّن أمر تقسيم الأسطر</li>
           <li xml:lang="pt-BR">MODIFICADO: Comando de linhas divididas aprimorado</li>
           <li>MOD: Updated Czech translation - thanks @goliashcz</li>
+          <li xml:lang="ar">تعديل: حُدّثت الترجمة التشيكية - شكراً @goliashcz</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para tcheco atualizada - obrigado @goliashcz</li>
           <li>MOD: Updated Croatian translations - thanks @muzena</li>
+          <li xml:lang="ar">تعديل: حُدّثت الترجمات الكرواتية - شكراً @muzena</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para croata atualizada - obrigado @muzena</li>
           <li>FIX: Waveform widget dragging and speed improvements, fixed buffer overflow</li>
+          <li xml:lang="ar">إصلاح: تحسينات في سحب وسرعة ودجة الشكل الموجي، وأُصلح طفح المخزن المؤقت</li>
           <li xml:lang="pt-BR">CORREÇÃO: Melhorias no arrastar e a velocidade do widget de forma de onda, correção de estouro de buffer</li>
           <li>FIX: WaveformWidget: zoom out wasn't working on movies without audio</li>
+          <li xml:lang="ar">إصلاح: WaveformWidget: التصغير لم يكن يعمل في الأفلام التي لا تحتوي على صوت</li>
           <li xml:lang="pt-BR">CORREÇÃO: WaveformWidget: o zoom out não estava funcionando em vídeos sem áudio</li>
           <li>FIX: Fixed cases where subtitle hide time would end up before show time</li>
+          <li xml:lang="ar">إصلاح: أُصلحت الحالات التي ينتهي فيها وقت إخفاء الترجمة قبل وقت إظهارها</li>
           <li xml:lang="pt-BR">CORREÇÃO: Corrigidos os casos em que o tempo de ocultação das legendas terminava antes do início da exibição</li>
           <li>FIX: Improved context menus</li>
+          <li xml:lang="ar">إصلاح: حُسّنت قوائم السياق</li>
           <li xml:lang="pt-BR">CORREÇÃO: Menus de contexto aprimorados</li>
           <li>FIX: Fixed moving of anchored lines</li>
+          <li xml:lang="ar">إصلاح: أُصلح تحريك الأسطر المرفقة بمراسي</li>
           <li xml:lang="pt-BR">CORREÇÃO: Correção do deslocamento das linhas ancoradas</li>
           <li>FIX: Open subtitle wouldn't autoload video in some cases</li>
+          <li xml:lang="ar">إصلاح: فتح الترجمة لم يكن يحمل الفيديو آلياً في بعض الحالات</li>
           <li xml:lang="pt-BR">CORREÇÃO: A opção "Abrir legenda" não carregava o vídeo automaticamente em alguns casos</li>
           <li>FIX: Open video now includes .divx and .webm extensions</li>
+          <li xml:lang="ar">إصلاح: فتح الفيديو يشمل الآن امتدادات .divx و .webm</li>
           <li xml:lang="pt-BR">CORREÇÃO: A função Abrir vídeo agora inclui as extensões .divx e .webm</li>
           <li>FIX: Tools menu scripts are filtered based on installed kross interpreters</li>
+          <li xml:lang="ar">إصلاح: تُرشح برمجيات قائمة الأدوات بناءً على مفسرات kross المثبتة</li>
           <li xml:lang="pt-BR">CORREÇÃO: Os scripts do menu Ferramentas são filtrados com base nos interpretadores kross instalados</li>
           <li>FIX: Moved custom icons to more standard location, using QIcon::fromTheme()</li>
+          <li xml:lang="ar">إصلاح: نُقلت الأيقونات المخصصة إلى موقع أكثر قياسية، باستخدام QIcon::fromTheme()</li>
           <li xml:lang="pt-BR">CORREÇÃO: Ícones personalizados foram movidos para um local mais padrão, usando QIcon::fromTheme()</li>
           <li>FIX: Error Check &gt; Absolute Duration config fields were changing incorrect values</li>
+          <li xml:lang="ar">إصلاح: حقول ضبط فحص الأخطاء &gt; المدة المطلقة كانت تغير قيماً غير صحيحة</li>
           <li xml:lang="pt-BR">CORREÇÃO: Verificação de erro &gt; os campos de configuração de duração absoluta estavam sendo alterados para valores incorretos</li>
           <li>FIX: MPV Backend: fixed deprecated options, updated vo devices - thanks @luzfcb</li>
+          <li xml:lang="ar">إصلاح: محرك MPV: أُصلحت الخيارات المهجورة وحُدّثت أجهزة vo - شكراً @luzfcb</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: opções obsoletas corrigidas, dispositivos VO atualizados - obrigado @luzfcb</li>
           <li>FIX: better rendering on high DPI screens</li>
+          <li xml:lang="ar">إصلاح: صيرورة أفضل على الشاشات ذات الكثافة النقطية العالية</li>
           <li xml:lang="pt-BR">CORREÇÃO: melhor renderização em telas de alta DPI</li>
           <li>FIX: MPV Backend: framerate/video length wasn't reported to subtitle composer anymore</li>
+          <li xml:lang="ar">إصلاح: محرك MPV: معدل الإطارات/طول الفيديو لم يعد يُبلغ لصانع الترجمة</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: a taxa de quadros/duração do vídeo não estava mais sendo informada ao compositor de legendas</li>
           <li>FIX: detection/handling of current playing line</li>
+          <li xml:lang="ar">إصلاح: كشف/معالجة سطر التشغيل الحالي</li>
           <li xml:lang="pt-BR">CORREÇÃO: detecção/gerenciamento da linha de reprodução atual</li>
           <li>FIX: Parsing text containing &lt;font&gt; without color attribute</li>
+          <li xml:lang="ar">إصلاح: تحليل النص الذي يحتوي على &lt;font&gt; بدون سمة اللون</li>
           <li xml:lang="pt-BR">CORREÇÃO: Análise de texto contendo &lt;fonte&gt; sem atributo de cor</li>
           <li>FIX: compilation without xine - thanks @pinotree</li>
+          <li xml:lang="ar">إصلاح: التجميع بدون xine - شكراً @pinotree</li>
           <li xml:lang="pt-BR">CORREÇÃO: compilação sem xine - obrigado @pinotree</li>
           <li>FIX: ASS parsing - thanks @Martchus</li>
+          <li xml:lang="ar">إصلاح: تحليل ASS - شكراً @Martchus</li>
           <li xml:lang="pt-BR">CORREÇÃO: análise de ASS - obrigado @Martchus</li>
         </ul>
       </description>
