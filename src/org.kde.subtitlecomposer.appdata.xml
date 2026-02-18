@@ -564,27 +564,35 @@
           <li>Fixed issues and crashes with newer Qt6 versions</li>
           <li xml:lang="ar">أُصلحت مشكلات وانهيارات مع إصدارات Qt6 الأحدث</li>
           <li xml:lang="pt-BR">Problemas e travamentos corrigidos em versões mais recentes do Qt6.</li>
+          <li xml:lang="uk">Виправлено проблеми і усунено аварійні завершення роботи із новішими версіями Qt6</li>
           <li>Fixed Waveform and VideoPlayer paint issues</li>
           <li xml:lang="ar">أُصلحت مشكلات رسم الشكل الموجي ومشغل الفيديو</li>
           <li xml:lang="pt-BR">Corrigidos problemas de renderização do Waveform e do VideoPlayer</li>
+          <li xml:lang="uk">Виправлено проблеми із малюванням форми хвилі і відеопрогравача</li>
           <li>Fixed PGS subtitle mime type</li>
           <li xml:lang="ar">أُصلح نوع MIME لترجمة PGS</li>
           <li xml:lang="pt-BR">Tipo MIME de legenda PGS corrigido</li>
+          <li xml:lang="uk">Виправлено тип MIME субтитрів PGS</li>
           <li>Improved Wayland compatibility</li>
           <li xml:lang="ar">حُسّن التوافق مع Wayland</li>
           <li xml:lang="pt-BR">Compatibilidade aprimorada com Wayland</li>
+          <li xml:lang="uk">Удосконалено сумісність із Wayland</li>
           <li>Improved GoogleCloudEngine translations</li>
           <li xml:lang="ar">حُسّنت ترجمات GoogleCloudEngine</li>
           <li xml:lang="pt-BR">Traduções do Google Cloud Engine aprimoradas</li>
+          <li xml:lang="uk">Удосконалено переклади GoogleCloudEngine</li>
           <li>Added configurable whitespace detection to VobSub import</li>
           <li xml:lang="ar">أُضيفت ميزة الكشف عن المساحات البيضاء القابلة للضبط عند استيراد VobSub</li>
           <li xml:lang="pt-BR">Adicionada detecção configurável de espaços em branco à importação de VobSub</li>
+          <li xml:lang="uk">Додано налаштовувану можливість виявлення пробілів при імпортуванні VobSub</li>
           <li>Replaced deprecated FFmpeg channel code</li>
           <li xml:lang="ar">استُبدلت كود قناة FFmpeg المهجور</li>
           <li xml:lang="pt-BR">Substituído o código de canal FFmpeg obsoleto</li>
+          <li xml:lang="uk">Замінено застарілий код каналів FFmpeg</li>
           <li>Require FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="ar">يتطلب FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="pt-BR">Requer FFmpeg &gt;= 5.1.5</li>
+          <li xml:lang="uk">Збільшено вимоги щодо FFmpeg &gt;= 5.1.5</li>
         </ul>
       </description>
       <artifacts>
@@ -612,12 +620,15 @@
           <li>Fixed (rare) memory issues and crashes</li>
           <li xml:lang="ar">أُصلحت مشكلات الذاكرة والانهيارات (النادرة)</li>
           <li xml:lang="pt-BR">Problemas de memória e travamentos (raros) corrigidos</li>
+          <li xml:lang="uk">Виправлено (рідкісні) проблеми з пам'яттю та аварійні завершення роботи</li>
           <li>Fixed crashes on waveform widget</li>
           <li xml:lang="ar">أُصلحت الانهيارات في ودجة الشكل الموجي</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento no widget de forma de onda</li>
+          <li xml:lang="uk">Усунено аварійні завершення роботи у віджеті форми хвилі</li>
           <li>Fixed video player rendering in Qt 6.7</li>
           <li xml:lang="ar">أُصلح صيرورة مشغل الفيديو في إصدار Qt 6.7</li>
           <li xml:lang="pt-BR">Correção na renderização do reprodutor de vídeo no Qt 6.7</li>
+          <li xml:lang="uk">Виправлено обробку відеопрогравача у Qt 6.7</li>
           <li>Fixed scripts manager assert failures</li>
           <li xml:lang="ar">أُصلحت إخفاقات التحقق (assert) في مدير البرمجيات النصية</li>
           <li xml:lang="pt-BR">Correção de falhas de asserção do gerenciador de scripts</li>
