@@ -893,6 +893,7 @@
           <li xml:lang="ar">أسطر الترجمة مرتبة زمنياً دائماً؛ أُزيل إجراء قائمة ترتيب الأسطر</li>
           <li xml:lang="pt-BR">As legendas são sempre ordenadas por tempo; remover a ação de ordenação de linhas no menu</li>
           <li xml:lang="sl">Vrstice podnapisov so vedno časovno razvrščene; odstrani dejanje menija vrstic za razvrščanje</li>
+          <li xml:lang="uk">Рядки субтитрів завжди упорядковано за часом; вилучено пункт меню для упорядковування рядків</li>
           <li>Replaced Kross with QJSEngine, removed ruby and python support</li>
           <li xml:lang="ar">استُبدل Kross بمحرك QJSEngine، وأُزيل دعم Ruby و Python</li>
           <li xml:lang="pt-BR">Substituição do Kross pelo QJSEngine e remoção do suporte a Ruby e Python</li>
@@ -946,6 +947,7 @@
           <li xml:lang="ar">أُصلحت السمات والأيقونات والمظهر خارج بيئة KDE</li>
           <li xml:lang="pt-BR">Correção de tema/ícones/aparência fora do ambiente KDE</li>
           <li xml:lang="sl">Popravljena tema/ikone/videz zunaj okolja KDE</li>
+          <li xml:lang="uk">Виправлено  теми/піктограми/вигляд поза середовищем KDE</li>
           <li>Fixed opening files on windows</li>
           <li xml:lang="ar">أُصلح فتح الملفات في Windows</li>
           <li xml:lang="pt-BR">Correção na abertura de arquivos no Windows</li>
@@ -960,38 +962,47 @@
           <li xml:lang="ar">أُصلح مكدس التراجع وحُسّن التراجع عن تحرير النص</li>
           <li xml:lang="pt-BR">Correção da pilha de desfazer e melhoria na função de desfazer na edição de texto</li>
           <li xml:lang="sl">Popravljen sklad razveljavitve in izboljšano razveljavljanje urejanja besedila</li>
+          <li xml:lang="uk">Виправлено стос скасування дій та удосконалено режим редагування тексту</li>
           <li>Improved/replaced Video player(s) (performance, Wayland support, OpenGL/FFmpeg)</li>
           <li xml:lang="ar">حُسّنت/استُبدلت مشغلات الفيديو (الأداء، دعم Wayland، و OpenGL/FFmpeg)</li>
           <li xml:lang="pt-BR">Reprodutor(es) de vídeo aprimorado(s)/substituído(s) (desempenho, suporte a Wayland, OpenGL/FFmpeg)</li>
           <li xml:lang="sl">Izboljšan/zamenjan predvajalnik(-i) videoposnetkov (zmogljivost, podpora za Wayland, OpenGL/FFmpeg)</li>
+          <li xml:lang="uk">Удосконалено/замінено відеопрогравачі (швидкодія, підтримка Wayland, OpenGL/FFmpeg)</li>
           <li>Improved Waveform performance</li>
           <li xml:lang="ar">حُسّن أداء الشكل الموجي</li>
           <li xml:lang="pt-BR">Desempenho de forma de onda aprimorado</li>
           <li xml:lang="sl">Izboljšana zmogljivost valovne oblike</li>
+          <li xml:lang="uk">Удосконалено швидкодію форми хвилі</li>
           <li>Improved LinesWidget/Model performance</li>
           <li xml:lang="ar">حُسّن أداء LinesWidget/Model</li>
           <li xml:lang="pt-BR">Desempenho aprimorado do LinesWidget/Model</li>
           <li xml:lang="sl">Izboljšana zmogljivost gradnikov/modelov vrstic</li>
+          <li xml:lang="uk">Удосконалено швидкодію LinesWidget/Model</li>
           <li>Improved Wayland support</li>
           <li xml:lang="ar">حُسّن دعم Wayland</li>
           <li xml:lang="pt-BR">Suporte ao Wayland aprimorado</li>
           <li xml:lang="sl">Izboljšana podpora za Wayland</li>
+          <li xml:lang="uk">Удосконалено підтримку Wayland</li>
           <li>Improved open/save file dialogs to use native dialogs</li>
           <li xml:lang="ar">حُسّنت مربعات حوار فتح/حفظ الملفات لاستخدام مربعات الحوار الأصيلة</li>
           <li xml:lang="pt-BR">Diálogos de abrir/salvar arquivos aprimorados para usar diálogos nativos</li>
           <li xml:lang="sl">Izboljšana pogovorna okna za odpiranje/shranjevanje datotek za uporabo izvornih pogovornih oken</li>
+          <li xml:lang="uk">Удосконалено вікна відкриття-збереження файлів так, щоб програма використовувала природні для системи вікна</li>
           <li>Improved text charsets/encodings/end-of-line selection, detection and handling</li>
           <li xml:lang="ar">حُسّن كشف ومعالجة واختيار مجموعات محارف النصوص والترميزات ونهاية الأسطر</li>
           <li xml:lang="pt-BR">Melhoria na seleção, detecção e tratamento de conjuntos de caracteres/codificações de texto/fim de linha</li>
           <li xml:lang="sl">Izboljšani nabori znakov/kodiranja/izbira, zaznavanje in obravnavanje konca vrstice</li>
+          <li xml:lang="uk">Удосконалено вибір кодування та кінців рядків, їхнє виявлення та їхню обробку</li>
           <li>Improved VobSub support</li>
           <li xml:lang="ar">حُسّن دعم VobSub</li>
           <li xml:lang="pt-BR">Suporte ao VobSub aprimorado</li>
           <li xml:lang="sl">Izboljšana podpora za VobSub</li>
+          <li xml:lang="uk">Удосконалено підтримку VobSub</li>
           <li>Improved inline editor to support text styles</li>
           <li xml:lang="ar">حُسّن المحرر المضمن لدعم أنماط النص</li>
           <li xml:lang="pt-BR">Editor embutido aprimorado para oferecer suporte a estilos de texto</li>
           <li xml:lang="sl">Izboljšan urejevalnik v vrstici za podporo slogov besedila</li>
+          <li xml:lang="uk">Удосконалено вбудований редактор так, щоб у ньому було передбачено стилі тексту</li>
           <li>Improved subtitle style rendering</li>
           <li xml:lang="ar">حُسّنت صيرورة نمط الترجمة</li>
           <li xml:lang="pt-BR">Renderização de estilo de legenda aprimorada</li>
@@ -1281,42 +1292,52 @@
           <li xml:lang="sl">POPRAVEK: Odprti video zdaj vključuje razširitve .divx in .webm</li>
           <li>FIX: Tools menu scripts are filtered based on installed kross interpreters</li>
           <li xml:lang="ar">إصلاح: تُرشح برمجيات قائمة الأدوات بناءً على مفسرات kross المثبتة</li>
+          <li xml:lang="nl">REPARATIE: scripts voor hulpmiddelenmenu gefilterd gebaseerd op geïnstalleerde kross interpretators</li>
           <li xml:lang="pt-BR">CORREÇÃO: Os scripts do menu Ferramentas são filtrados com base nos interpretadores kross instalados</li>
           <li xml:lang="sl">POPRAVEK: Skripti menija Orodja so filtrirani glede na nameščene interpreterje Kross</li>
           <li>FIX: Moved custom icons to more standard location, using QIcon::fromTheme()</li>
           <li xml:lang="ar">إصلاح: نُقلت الأيقونات المخصصة إلى موقع أكثر قياسية، باستخدام QIcon::fromTheme()</li>
+          <li xml:lang="nl">REPARATIE: aangepaste pictogrammen verplaats naar meer standaard locatie, met gebruik van QIcon::fromTheme()</li>
           <li xml:lang="pt-BR">CORREÇÃO: Ícones personalizados foram movidos para um local mais padrão, usando QIcon::fromTheme()</li>
           <li xml:lang="sl">POPRAVEK: Ikone po meri premaknjene na bolj standardno lokacijo z uporabo QIcon::fromTheme()</li>
           <li>FIX: Error Check &gt; Absolute Duration config fields were changing incorrect values</li>
           <li xml:lang="ar">إصلاح: حقول ضبط فحص الأخطاء &gt; المدة المطلقة كانت تغير قيماً غير صحيحة</li>
+          <li xml:lang="nl">REPARATIE: foutcontrole &gt; absolute tijdsduur in configuratievelden zijn gewijzigd  in onjuiste waarden</li>
           <li xml:lang="pt-BR">CORREÇÃO: Verificação de erro &gt; os campos de configuração de duração absoluta estavam sendo alterados para valores incorretos</li>
           <li xml:lang="sl">POPRAVEK: Preverjanje napak &gt; Konfiguracijska polja Absolutno trajanje so spreminjala napačne vrednosti</li>
           <li>FIX: MPV Backend: fixed deprecated options, updated vo devices - thanks @luzfcb</li>
           <li xml:lang="ar">إصلاح: محرك MPV: أُصلحت الخيارات المهجورة وحُدّثت أجهزة vo - شكراً @luzfcb</li>
+          <li xml:lang="nl">REPARATIE: MPV-backend: gerepareerd afgekeurde opties, bijgewerkt op apparaten - dank aan @luzfcb</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: opções obsoletas corrigidas, dispositivos VO atualizados - obrigado @luzfcb</li>
           <li xml:lang="sl">POPRAVEK: MPV Backend: popravljene zastarele možnosti, posodobljene naprave za predvajanje zvoka - hvala @luzfcb</li>
           <li>FIX: better rendering on high DPI screens</li>
           <li xml:lang="ar">إصلاح: صيرورة أفضل على الشاشات ذات الكثافة النقطية العالية</li>
+          <li xml:lang="nl">REPARATIE: betere rendering op hoge DPI-schermen</li>
           <li xml:lang="pt-BR">CORREÇÃO: melhor renderização em telas de alta DPI</li>
           <li xml:lang="sl">POPRAVEK: boljše upodabljanje na zaslonih z visoko ločljivostjo</li>
           <li>FIX: MPV Backend: framerate/video length wasn't reported to subtitle composer anymore</li>
           <li xml:lang="ar">إصلاح: محرك MPV: معدل الإطارات/طول الفيديو لم يعد يُبلغ لصانع الترجمة</li>
+          <li xml:lang="nl">REPARATIE: MPV-backend: framesnelheid/videolengte was niet meer gerapporteerd aan samensteller van ondertitel</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: a taxa de quadros/duração do vídeo não estava mais sendo informada ao compositor de legendas</li>
           <li xml:lang="sl">POPRAVEK: MPV Backend: hitrost sličic/dolžina videa ni bila več sporočena ustvarjalcu podnapisov</li>
           <li>FIX: detection/handling of current playing line</li>
           <li xml:lang="ar">إصلاح: كشف/معالجة سطر التشغيل الحالي</li>
+          <li xml:lang="nl">REPARATIE: detectie/behandeling van nu spelende regel</li>
           <li xml:lang="pt-BR">CORREÇÃO: detecção/gerenciamento da linha de reprodução atual</li>
           <li xml:lang="sl">POPRAVEK: zaznavanje/obdelava trenutne predvajane vrstice</li>
           <li>FIX: Parsing text containing &lt;font&gt; without color attribute</li>
           <li xml:lang="ar">إصلاح: تحليل النص الذي يحتوي على &lt;font&gt; بدون سمة اللون</li>
+          <li xml:lang="nl">REPARATIE: ontleden van tekst die &lt;lettertype&gt; zonder kleur attribuut bevat</li>
           <li xml:lang="pt-BR">CORREÇÃO: Análise de texto contendo &lt;fonte&gt; sem atributo de cor</li>
           <li xml:lang="sl">POPRAVEK: Razčlenjevanje besedila, ki vsebuje &lt;font&gt; brez atributa barve</li>
           <li>FIX: compilation without xine - thanks @pinotree</li>
           <li xml:lang="ar">إصلاح: التجميع بدون xine - شكراً @pinotree</li>
+          <li xml:lang="nl">REPARATIE: compilatie zonder xine - dank aan @pinotree</li>
           <li xml:lang="pt-BR">CORREÇÃO: compilação sem xine - obrigado @pinotree</li>
           <li xml:lang="sl">POPRAVEK: prevajanje brez xine - hvala @pinotree</li>
           <li>FIX: ASS parsing - thanks @Martchus</li>
           <li xml:lang="ar">إصلاح: تحليل ASS - شكراً @Martchus</li>
+          <li xml:lang="nl">REPARATIE: ASS ontleding - dank aan @Martchus</li>
           <li xml:lang="pt-BR">CORREÇÃO: análise de ASS - obrigado @Martchus</li>
           <li xml:lang="sl">POPRAVEK: Razčlenjevanje ASS - hvala @Martchus</li>
         </ul>
