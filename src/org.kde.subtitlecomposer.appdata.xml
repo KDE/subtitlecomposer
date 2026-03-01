@@ -585,6 +585,7 @@
           <li xml:lang="ar">أُصلح نوع MIME لترجمة PGS</li>
           <li xml:lang="ca">S'ha corregit el tipus de MIME dels subtítols PGS</li>
           <li xml:lang="ca-valencia">S'ha corregit el tipus de MIME dels subtítols PGS</li>
+          <li xml:lang="fr">Correction du type « MIME » des sous-titres « PGS »</li>
           <li xml:lang="it">Correzione del tipo MIME dei sottotitoli PGS</li>
           <li xml:lang="nl">PGS-ondertitel-mime-type gerepareerd</li>
           <li xml:lang="pt-BR">Tipo MIME de legenda PGS corrigido</li>
@@ -595,6 +596,7 @@
           <li xml:lang="ar">حُسّن التوافق مع Wayland</li>
           <li xml:lang="ca">Millora de la compatibilitat amb el Wayland</li>
           <li xml:lang="ca-valencia">Millora de la compatibilitat amb Wayland</li>
+          <li xml:lang="fr">Amélioration de la compatibilité de Wayland</li>
           <li xml:lang="it">Migliorata la compatibilità con Wayland</li>
           <li xml:lang="nl">Compatibiliteit met Wayland verbetert</li>
           <li xml:lang="pt-BR">Compatibilidade aprimorada com Wayland</li>
@@ -635,6 +637,7 @@
           <li xml:lang="ar">يتطلب FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="ca">Requereix FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="ca-valencia">Requerix FFmpeg &gt;= 5.1.5</li>
+          <li xml:lang="fr">Nécessite FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="it">Richiede FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="nl">Vereis FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="pt-BR">Requer FFmpeg &gt;= 5.1.5</li>
@@ -769,6 +772,7 @@
           <li xml:lang="ar">أُضيف محرك الترجمة MinT</li>
           <li xml:lang="ca">S'ha afegit el motor de traducció MinT</li>
           <li xml:lang="ca-valencia">S'ha afegit el motor de traducció MinT</li>
+          <li xml:lang="fr">Ajout du moteur de traduction MinT</li>
           <li xml:lang="it">Aggiunta del motore di traduzione MinT</li>
           <li xml:lang="nl">MinT-vertaalengine toegevoegd</li>
           <li xml:lang="pt-BR">Adicionado o mecanismo de tradução MinT</li>
@@ -789,6 +793,7 @@
           <li xml:lang="ar">حُسّن تحجيم مشغل الفيديو</li>
           <li xml:lang="ca">S'ha millorat el canvi d'escala del reproductor de vídeo</li>
           <li xml:lang="ca-valencia">S'ha millorat el canvi d'escala del reproductor de vídeo</li>
+          <li xml:lang="fr">Amélioration de la mise à l'échelle du lecteur vidéo</li>
           <li xml:lang="nl">Verbeterde schaling van videospeler</li>
           <li xml:lang="pt-BR">Melhoria na escala do reprodutor de vídeo</li>
           <li xml:lang="sl">Izboljšano skaliranje video predvajalnika</li>
@@ -798,6 +803,7 @@
           <li xml:lang="ar">أُسقطت عمليات ملفات KIO</li>
           <li xml:lang="ca">S'han descartat les operacions KIO de fitxer</li>
           <li xml:lang="ca-valencia">S'han descartat les operacions KIO de fitxer</li>
+          <li xml:lang="fr">Abandon des opérations de fichiers avec KIO</li>
           <li xml:lang="it">Rimozione delle operazioni su file via KIO</li>
           <li xml:lang="nl">KIO-bestandbewerkingen zijn afgevallen</li>
           <li xml:lang="pt-BR">Operações de arquivo KIO descartadas</li>
@@ -955,6 +961,7 @@
           <li xml:lang="ar">أُصلح الانهيار عند تقسيم الأسطر</li>
           <li xml:lang="ca">S'ha corregit una fallada en les línies dividides</li>
           <li xml:lang="ca-valencia">S'ha corregit una fallada en les línies dividides</li>
+          <li xml:lang="fr">Correction du plantage lors de la division des lignes</li>
           <li xml:lang="nl">Crash bij het splitsen van regels opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava travamento nas linhas de divisão</li>
           <li xml:lang="sl">Popravljeno sesutje v razdeljenih vrsticah</li>
@@ -1009,6 +1016,7 @@
           <li xml:lang="ar">أُصلح فك ترميز ASS المضمن</li>
           <li xml:lang="ca">S'ha corregit la descodificació ASS incrustada</li>
           <li xml:lang="ca-valencia">S'ha corregit la descodificació ASS incrustada</li>
+          <li xml:lang="fr">Correction du décodage « ASS » intégré</li>
           <li xml:lang="nl">Ingebouwde ASS-decodering opgelost</li>
           <li xml:lang="pt-BR">Corrigida a decodificação ASS embutida</li>
           <li xml:lang="sl">Popravljeno vdelano dekodiranje ASS</li>
@@ -1027,6 +1035,7 @@
           <li xml:lang="ar">أُصلح مربع حوار "عن" المعطوب</li>
           <li xml:lang="ca">S'ha corregit el diàleg trencat quant al</li>
           <li xml:lang="ca-valencia">S'ha corregit el diàleg trencat quant al</li>
+          <li xml:lang="fr">Correction de la boîte de dialogue « À propos »</li>
           <li xml:lang="nl">Gebroken Info-over-dialoog opgelost</li>
           <li xml:lang="pt-BR">Corrigido o diálogo "Sobre"</li>
           <li xml:lang="sl">Popravljeno nedelujoče pogovorno okno »O programu«</li>
@@ -1046,6 +1055,7 @@
           <li xml:lang="ar">أُضيف دعم صيغة WebVTT</li>
           <li xml:lang="ca">S'ha afegit la implementació del format WebVTT</li>
           <li xml:lang="ca-valencia">S'ha afegit la implementació del format WebVTT</li>
+          <li xml:lang="fr">Ajout de la prise en charge du format « WebVTT »</li>
           <li xml:lang="it">Aggiunto il supporto al formato WebVTT</li>
           <li xml:lang="nl">Ondersteuning voor WebVTT-formaat toegevoegd</li>
           <li xml:lang="pt-BR">Adicionado suporte ao formato WebVTT</li>
@@ -1092,6 +1102,7 @@
           <li xml:lang="ar">أُضيف محرك ترجمة DeepL</li>
           <li xml:lang="ca">S'ha afegit el motor de traducció DeepL</li>
           <li xml:lang="ca-valencia">S'ha afegit el motor de traducció DeepL</li>
+          <li xml:lang="fr">Ajout du moteur de traduction DeepL</li>
           <li xml:lang="it">Aggiunta del motore di traduzione DeepL</li>
           <li xml:lang="nl">DeepL-vertaalengine toegevoegd</li>
           <li xml:lang="pt-BR">Adicionado o mecanismo de tradução DeepL</li>
@@ -1112,6 +1123,7 @@
           <li xml:lang="ar">أُعيد إنشاء واجهة الترجمة</li>
           <li xml:lang="ca">S'ha tornat a crear la interfície de traducció</li>
           <li xml:lang="ca-valencia">S'ha tornat a crear la interfície de traducció</li>
+          <li xml:lang="fr">Re-création de l'interface de traduction</li>
           <li xml:lang="it">Ricreazione dell'interfaccia di traduzione</li>
           <li xml:lang="nl">Opnieuw ontworpen vertaalinterface</li>
           <li xml:lang="pt-BR">Interface de tradução recriada</li>
@@ -1122,6 +1134,7 @@
           <li xml:lang="ar">أُضيف/حُسّن دعم ffmpeg 5</li>
           <li xml:lang="ca">S'ha afegit/millorat la implementació del ffmpeg 5</li>
           <li xml:lang="ca-valencia">S'ha afegit/millorat la implementació de ffmpeg 5</li>
+          <li xml:lang="fr">Ajout / amélioration de la prise en charge de la version 5 de « ffmpeg »</li>
           <li xml:lang="it">Aggiunta/miglioramento del supporto a ffmpeg 5</li>
           <li xml:lang="nl">Ondersteuning voor ffmpeg 5 toegevoegd/verbeterd</li>
           <li xml:lang="pt-BR">Adicionado/aprimorado suporte ao ffmpeg 5</li>
@@ -1219,6 +1232,7 @@
           <li xml:lang="ar">أُصلح فتح الملفات في Windows</li>
           <li xml:lang="ca">S'ha corregit l'obertura de fitxers al Windows</li>
           <li xml:lang="ca-valencia">S'ha corregit l'obertura de fitxers a Windows</li>
+          <li xml:lang="fr">Correction de l'ouverture des fichiers sous Windows</li>
           <li xml:lang="it">Correzione dell'apertura dei file su Windows</li>
           <li xml:lang="nl">Openen van bestanden in Windows opgelost</li>
           <li xml:lang="pt-BR">Correção na abertura de arquivos no Windows</li>
@@ -1257,6 +1271,7 @@
           <li xml:lang="ar">حُسّن أداء الشكل الموجي</li>
           <li xml:lang="ca">Millora del rendiment de la forma d'ona</li>
           <li xml:lang="ca-valencia">Millora del rendiment de la forma d'ona</li>
+          <li xml:lang="fr">Amélioration de la performance de forme d'onde</li>
           <li xml:lang="it">Miglioramento delle prestazioni di Waveform</li>
           <li xml:lang="nl">Verbeterde prestaties golfvorm</li>
           <li xml:lang="pt-BR">Desempenho de forma de onda aprimorado</li>
@@ -1276,6 +1291,7 @@
           <li xml:lang="ar">حُسّن دعم Wayland</li>
           <li xml:lang="ca">Millora de la implementació del Wayland</li>
           <li xml:lang="ca-valencia">Millora de la implementació de Wayland</li>
+          <li xml:lang="fr">Prise en charge améliorée de Wayland</li>
           <li xml:lang="it">Miglioramento del supporto a Wayland</li>
           <li xml:lang="nl">Verbeterde ondersteuning van Wayland</li>
           <li xml:lang="pt-BR">Suporte ao Wayland aprimorado</li>
@@ -1537,6 +1553,7 @@
           <li xml:lang="ar">أُضيفت القدرة على التنقل بالإطار</li>
           <li xml:lang="ca">S'ha afegit la capacitat d'anar pas a pas per fotograma</li>
           <li xml:lang="ca-valencia">S'ha afegit la capacitat d'anar pas a pas per fotograma</li>
+          <li xml:lang="fr">Ajout de la possibilité d'avancer trame par trame</li>
           <li xml:lang="pt-BR">Adicionada a capacidade de navegar quadro a quadro</li>
           <li xml:lang="sl">Dodana možnost koraka po sličicah</li>
           <li xml:lang="tr">Added ability to step by frame</li>
@@ -1583,6 +1600,7 @@
           <li xml:lang="ar">أُصلحت مرشحات مربع حوار فتح الفيديو</li>
           <li xml:lang="ca">S'han corregit els filtres del diàleg d'obertura de vídeo</li>
           <li xml:lang="ca-valencia">S'han corregit els filtres del diàleg d'obertura de vídeo</li>
+          <li xml:lang="fr">Correction des filtres ouverts de la boîte de dialogue vidéo</li>
           <li xml:lang="pt-BR">Correção dos filtros de diálogo de vídeo aberto</li>
           <li xml:lang="sl">Popravljeni filtri za odpiranje video pogovornih oken</li>
           <li xml:lang="tr">Fixed open video dialog filters</li>
@@ -1607,6 +1625,7 @@
           <li xml:lang="ar">أُصلحت بعض مشكلات التجميع</li>
           <li xml:lang="ca">S'han corregit alguns problemes de compilació</li>
           <li xml:lang="ca-valencia">S'han corregit alguns problemes de compilació</li>
+          <li xml:lang="fr">Correction de certains problèmes de compilation</li>
           <li xml:lang="pt-BR">Corrigidos alguns problemas de compilação</li>
           <li xml:lang="sl">Popravljene nekatere težave s prevajanjem</li>
           <li xml:lang="tr">Fixed some compilation issues</li>
@@ -1639,6 +1658,7 @@
           <li xml:lang="ar">حُسّن كشف نص vobsub</li>
           <li xml:lang="ca">S'ha millorat la detecció de text del vobsub</li>
           <li xml:lang="ca-valencia">S'ha millorat la detecció de text del vobsub</li>
+          <li xml:lang="fr">Amélioration de la détection de texte « vobsub »</li>
           <li xml:lang="pt-BR">Detecção de texto vobsub aprimorada</li>
           <li xml:lang="sl">Izboljšano zaznavanje besedila vobsub</li>
           <li xml:lang="tr">Improved vobsub text detection</li>
@@ -1696,6 +1716,7 @@
           <li xml:lang="ar">تمرير ناعم للشكل الموجي</li>
           <li xml:lang="ca">Desplaçament suau de la forma d'ona</li>
           <li xml:lang="ca-valencia">Desplaçament suau de la forma d'ona</li>
+          <li xml:lang="fr">Défilement fluide de la forme d'onde</li>
           <li xml:lang="nl">Vloeiend schuiven van golfvorm</li>
           <li xml:lang="pt-BR">Rolagem suave na forma de onda</li>
           <li xml:lang="sl">Gladko drsenje po valovnih oblikah</li>
@@ -1831,6 +1852,7 @@
           <li xml:lang="ar">إصلاح: حُسّنت قوائم السياق</li>
           <li xml:lang="ca">Correcció: menús contextuals millorats</li>
           <li xml:lang="ca-valencia">Correcció: menús contextuals millorats</li>
+          <li xml:lang="fr">CORRECTION : amélioration des menus contextuels</li>
           <li xml:lang="pt-BR">CORREÇÃO: Menus de contexto aprimorados</li>
           <li xml:lang="sl">POPRAVEK: Izboljšani kontekstni meniji</li>
           <li xml:lang="tr">FIX: Improved context menus</li>
