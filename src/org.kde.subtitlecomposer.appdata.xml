@@ -810,6 +810,7 @@
           <li xml:lang="ca">S'ha millorat el canvi d'escala del reproductor de vídeo</li>
           <li xml:lang="ca-valencia">S'ha millorat el canvi d'escala del reproductor de vídeo</li>
           <li xml:lang="fr">Amélioration de la mise à l'échelle du lecteur vidéo</li>
+          <li xml:lang="it">Miglioramento della riscalatura del riproduttore video</li>
           <li xml:lang="nl">Verbeterde schaling van videospeler</li>
           <li xml:lang="pt-BR">Melhoria na escala do reprodutor de vídeo</li>
           <li xml:lang="sl">Izboljšano skaliranje video predvajalnika</li>
@@ -899,7 +900,7 @@
           <li xml:lang="ca">S'han corregit les notificacions d'estat del reproductor de vídeo</li>
           <li xml:lang="ca-valencia">S'han corregit les notificacions d'estat del reproductor de vídeo</li>
           <li xml:lang="fr">Correction des notifications d'état de média pour le lecteur vidéo</li>
-          <li xml:lang="it">s</li>
+          <li xml:lang="it">Correzione delle notifiche di stato multimediale del riproduttore video</li>
           <li xml:lang="nl">Meldingen over de mediastatus van de videospeler opgelost</li>
           <li xml:lang="pt-BR">Correção nas notificações de estado da mídia do reprodutor de vídeo</li>
           <li xml:lang="sl">Popravljena obvestila o stanju medijev v video predvajalniku</li>
@@ -910,6 +911,7 @@
           <li xml:lang="ca">S'ha corregit la precisió de la mida de la lletra de superposició de vídeo dels subtítols</li>
           <li xml:lang="ca-valencia">S'ha corregit la precisió de la mida de la lletra de superposició de vídeo dels subtítols</li>
           <li xml:lang="fr">Correction de la précision de la taille de la police pour la superposition des sous-titres vidéo</li>
+          <li xml:lang="it">Correzione dell'accuratezza della dimensione del carattere sovrapposto nel video dei sottotitoli</li>
           <li xml:lang="nl">De nauwkeurigheid van de lettergrootte van de ondertiteloverlay in de video is opgelost</li>
           <li xml:lang="pt-BR">Correção na precisão do tamanho da fonte da sobreposição de legendas em vídeos</li>
           <li xml:lang="sl">Popravljena natančnost velikosti pisave prekrivanja podnapisov videa</li>
@@ -1041,6 +1043,7 @@
           <li xml:lang="ca">S'han corregit alguns problemes de memòria i de desament</li>
           <li xml:lang="ca-valencia">S'han corregit alguns problemes de memòria i de guardada</li>
           <li xml:lang="fr">Correction de certains problèmes de mémoire et d'enregistrement</li>
+          <li xml:lang="it">Correzione di alcune problematiche di memoria e salvataggio</li>
           <li xml:lang="nl">Diverse problemen met geheugen en opslaan opgelost</li>
           <li xml:lang="pt-BR">Corrigidos alguns problemas de memória e salvamento</li>
           <li xml:lang="sl">Popravljene nekatere težave s pomnilnikom in shranjevanjem</li>
@@ -1071,6 +1074,7 @@
           <li xml:lang="ca">S'ha corregit el diàleg trencat quant al</li>
           <li xml:lang="ca-valencia">S'ha corregit el diàleg trencat quant al</li>
           <li xml:lang="fr">Correction de la boîte de dialogue « À propos »</li>
+          <li xml:lang="it">Correzione della finestra di informazioni non funzionante</li>
           <li xml:lang="nl">Gebroken Info-over-dialoog opgelost</li>
           <li xml:lang="pt-BR">Corrigido o diálogo "Sobre"</li>
           <li xml:lang="sl">Popravljeno nedelujoče pogovorno okno »O programu«</li>
@@ -1709,6 +1713,7 @@
           <li xml:lang="ca">S'han corregit alguns problemes de compilació</li>
           <li xml:lang="ca-valencia">S'han corregit alguns problemes de compilació</li>
           <li xml:lang="fr">Correction de certains problèmes de compilation</li>
+          <li xml:lang="it">Correzione di alcuni errori di compilazione</li>
           <li xml:lang="pt-BR">Corrigidos alguns problemas de compilação</li>
           <li xml:lang="sl">Popravljene nekatere težave s prevajanjem</li>
           <li xml:lang="tr">Fixed some compilation issues</li>
@@ -1718,6 +1723,7 @@
           <li xml:lang="ca">Traduccions actualitzades, gràcies @gogogogi, @muzena</li>
           <li xml:lang="ca-valencia">Traduccions actualitzades, gràcies @gogogogi, @muzena</li>
           <li xml:lang="fr">Mise à jour de traductions - Merci @gogogogi, @muzena</li>
+          <li xml:lang="it">Aggiornamento delle traduzioni - grazie a @gogogogi, @muzena</li>
           <li xml:lang="pt-BR">Traduções atualizadas - obrigado @gogogogi, @muzena</li>
           <li xml:lang="sl">Posodobljeni prevodi - hvala @gogogogi, @muzena</li>
           <li xml:lang="tr">Updated translations - thanks @gogogogi, @muzena</li>
@@ -1736,6 +1742,7 @@
           <li xml:lang="ca">S'han corregit el temps de càrrega dels subtítols de fitxers enormes</li>
           <li xml:lang="ca-valencia">S'han corregit el temps de càrrega dels subtítols de fitxers enormes</li>
           <li xml:lang="fr">Correction du temps de chargement des sous-titres pour les gros fichiers</li>
+          <li xml:lang="it">Correzione dei tempi di caricamento dei sottotitoli di file grandi</li>
           <li xml:lang="pt-BR">Tempos de carregamento de legendas corrigidos para arquivos grandes</li>
           <li xml:lang="sl">Popravljeni časi nalaganja velikih datotek podnapisov</li>
           <li xml:lang="tr">Fixed subtitle loading times of huge files</li>
@@ -2075,6 +2082,7 @@
           <li xml:lang="ca">Correcció: compilació sense xine, gràcies @pinotree</li>
           <li xml:lang="ca-valencia">Correcció: compilació sense xine, gràcies @pinotree</li>
           <li xml:lang="fr">CORRECTION : compilation sans xine - Merci à @pinotree</li>
+          <li xml:lang="it">Correzione: compilazione senze xine - grazie a @pinotree</li>
           <li xml:lang="nl">REPARATIE: compilatie zonder xine - dank aan @pinotree</li>
           <li xml:lang="pt-BR">CORREÇÃO: compilação sem xine - obrigado @pinotree</li>
           <li xml:lang="sl">POPRAVEK: prevajanje brez xine - hvala @pinotree</li>
@@ -2085,6 +2093,7 @@
           <li xml:lang="ca">Correcció: anàlisi ASS, gràcies @Martchus</li>
           <li xml:lang="ca-valencia">Correcció: anàlisi ASS, gràcies @Martchus</li>
           <li xml:lang="fr">CORRECTION : analyse du format « ASS » - Merci à @Martchus</li>
+          <li xml:lang="it">Correzione: parsing di file ASS - grazie a @Martchus</li>
           <li xml:lang="nl">REPARATIE: ASS ontleding - dank aan @Martchus</li>
           <li xml:lang="pt-BR">CORREÇÃO: análise de ASS - obrigado @Martchus</li>
           <li xml:lang="sl">POPRAVEK: Razčlenjevanje ASS - hvala @Martchus</li>
