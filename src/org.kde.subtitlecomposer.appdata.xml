@@ -565,6 +565,7 @@
           <li xml:lang="ar">أُصلحت مشكلات وانهيارات مع إصدارات Qt6 الأحدث</li>
           <li xml:lang="ca">S'han corregit els problemes i les fallades amb les versions més noves de les Qt6</li>
           <li xml:lang="ca-valencia">S'han corregit els problemes i les fallades amb les versions més noves de les Qt6</li>
+          <li xml:lang="es">Se han solucionado problemas y fallos con las versiones más recientes de Qt6.</li>
           <li xml:lang="fr">Correction de problèmes et plantages corrigés avec les nouvelles versions de Qt6</li>
           <li xml:lang="it">Correzione di problemi e arresti inattesi con le versioni di Qt6 più recenti</li>
           <li xml:lang="nl">Problemen en crashes met nieuwere Qt6 versies gerepareerd</li>
@@ -587,6 +588,7 @@
           <li xml:lang="ar">أُصلح نوع MIME لترجمة PGS</li>
           <li xml:lang="ca">S'ha corregit el tipus de MIME dels subtítols PGS</li>
           <li xml:lang="ca-valencia">S'ha corregit el tipus de MIME dels subtítols PGS</li>
+          <li xml:lang="es">Se ha corregido el tipo MIME de subtítulos PGS.</li>
           <li xml:lang="fr">Correction du type « MIME » des sous-titres « PGS »</li>
           <li xml:lang="it">Correzione del tipo MIME dei sottotitoli PGS</li>
           <li xml:lang="nl">PGS-ondertitel-mime-type gerepareerd</li>
@@ -598,6 +600,7 @@
           <li xml:lang="ar">حُسّن التوافق مع Wayland</li>
           <li xml:lang="ca">Millora de la compatibilitat amb el Wayland</li>
           <li xml:lang="ca-valencia">Millora de la compatibilitat amb Wayland</li>
+          <li xml:lang="es">Se ha mejorado la compatibilidad con Wayland.</li>
           <li xml:lang="fr">Amélioration de la compatibilité de Wayland</li>
           <li xml:lang="it">Migliorata la compatibilità con Wayland</li>
           <li xml:lang="nl">Compatibiliteit met Wayland verbetert</li>
@@ -609,6 +612,7 @@
           <li xml:lang="ar">حُسّنت ترجمات GoogleCloudEngine</li>
           <li xml:lang="ca">Traduccions millorades de GoogleCloudEngine</li>
           <li xml:lang="ca-valencia">Traduccions millorades de GoogleCloudEngine</li>
+          <li xml:lang="es">Se han mejorado las traducciones de GoogleCloudEngine.</li>
           <li xml:lang="fr">Amélioration des traductions avec le moteur « Google Cloud »</li>
           <li xml:lang="it">Migliorate le traduzioni con GoogleCloudEngine</li>
           <li xml:lang="nl">GoogleCloudEngine vertalingen verbeterd</li>
@@ -620,6 +624,7 @@
           <li xml:lang="ar">أُضيفت ميزة الكشف عن المساحات البيضاء القابلة للضبط عند استيراد VobSub</li>
           <li xml:lang="ca">S'ha afegit la detecció configurable d'espais en blanc a la importació de VobSub</li>
           <li xml:lang="ca-valencia">S'ha afegit la detecció configurable d'espais en blanc a la importació de VobSub</li>
+          <li xml:lang="es">Se ha añadido la detección de espacios configurable en la importación de VobSub.</li>
           <li xml:lang="fr">Ajout de la détection configurable des espaces blancs lors de l'importation de VobSub</li>
           <li xml:lang="it">Aggiunta riconoscimento degli spazi configurabile nell'importazione di VobSub</li>
           <li xml:lang="nl">Configureerbare witruimtedetectie toegevoegd aan VobSub-import</li>
@@ -642,6 +647,7 @@
           <li xml:lang="ar">يتطلب FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="ca">Requereix FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="ca-valencia">Requerix FFmpeg &gt;= 5.1.5</li>
+          <li xml:lang="es">Se requiere FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="fr">Nécessite FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="it">Richiede FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="nl">Vereis FFmpeg &gt;= 5.1.5</li>
@@ -677,6 +683,7 @@
           <li xml:lang="ar">أُصلحت مشكلات الذاكرة والانهيارات (النادرة)</li>
           <li xml:lang="ca">S'han corregit problemes de memòria (rars) i fallades</li>
           <li xml:lang="ca-valencia">S'han corregit problemes de memòria (rars) i fallades</li>
+          <li xml:lang="es">Se han corregido (raros) problemas de memoria y fallos.</li>
           <li xml:lang="fr">Correction de  (Rares) problèmes de mémoire et de plantage</li>
           <li xml:lang="it">Correzione di (rari) problemi di memoria e blocchi</li>
           <li xml:lang="nl">Gerepareerd (zeldzame) geheugenproblemen en crashes</li>
@@ -699,6 +706,7 @@
           <li xml:lang="ar">أُصلح صيرورة مشغل الفيديو في إصدار Qt 6.7</li>
           <li xml:lang="ca">S'ha corregit la renderització del reproductor de vídeo a les Qt 6.7</li>
           <li xml:lang="ca-valencia">S'ha corregit la renderització del reproductor de vídeo a les Qt 6.7</li>
+          <li xml:lang="es">Se ha corregido la visualización de vídeo en Qt 6.7</li>
           <li xml:lang="fr">Correction du rendu du lecteur vidéo dans Qt 6.7</li>
           <li xml:lang="it">Correzione della resa del riproduttore video con Qt 6.7</li>
           <li xml:lang="nl">Gerepareerd rendering met videospeler in Qt 6.7</li>
@@ -798,6 +806,7 @@
           <li xml:lang="ar">حُسّن دعم الترجمة وواجهة المستخدم</li>
           <li xml:lang="ca">Millora de la implementació de la traducció i de la IU</li>
           <li xml:lang="ca-valencia">Millora de la implementació de la traducció i de la IU</li>
+          <li xml:lang="es">Se ha mejorado la implementación de traducciones y la interfaz de usuario.</li>
           <li xml:lang="fr">Amélioration de la prise en charge de la traduction et de l'interface utilisateur</li>
           <li xml:lang="it">Miglioramento del supporto e interfaccia alle traduzioni</li>
           <li xml:lang="nl">Verbeterde vertaalondersteuning en gebruikersinterface</li>
@@ -809,6 +818,7 @@
           <li xml:lang="ar">حُسّن تحجيم مشغل الفيديو</li>
           <li xml:lang="ca">S'ha millorat el canvi d'escala del reproductor de vídeo</li>
           <li xml:lang="ca-valencia">S'ha millorat el canvi d'escala del reproductor de vídeo</li>
+          <li xml:lang="es">Se ha mejorado el escalado del reproductor de vídeo.</li>
           <li xml:lang="fr">Amélioration de la mise à l'échelle du lecteur vidéo</li>
           <li xml:lang="it">Miglioramento della riscalatura del riproduttore video</li>
           <li xml:lang="nl">Verbeterde schaling van videospeler</li>
@@ -931,6 +941,7 @@
           <li xml:lang="ar">حُسّن أداء ودجة الشكل الموجي</li>
           <li xml:lang="ca">Millora del rendiment del giny en forma d'ona</li>
           <li xml:lang="ca-valencia">Millora del rendiment del giny en forma d'ona</li>
+          <li xml:lang="es">Se ha mejorado el rendimiento del widget de la forma de onda.</li>
           <li xml:lang="fr">Amélioration de la performance du composant graphique de forme d'onde</li>
           <li xml:lang="it">Miglioramento delle prestazioni dell'oggetto Waveform</li>
           <li xml:lang="nl">Verbeterde prestaties van het golfvorm-widget</li>
@@ -1084,6 +1095,7 @@
           <li xml:lang="ar">أُضيف دعم Qt6</li>
           <li xml:lang="ca">S'ha afegit la implementació de les Qt6</li>
           <li xml:lang="ca-valencia">S'ha afegit la implementació de les Qt6</li>
+          <li xml:lang="es">Se ha añadido compatibilidad con Qt6.</li>
           <li xml:lang="fr">Ajout de la prise en charge de Qt6</li>
           <li xml:lang="it">Aggiunto il supporto a Qt6</li>
           <li xml:lang="nl">Qt6-ondersteuning toegevoegd</li>
@@ -1095,6 +1107,7 @@
           <li xml:lang="ar">أُضيف دعم صيغة WebVTT</li>
           <li xml:lang="ca">S'ha afegit la implementació del format WebVTT</li>
           <li xml:lang="ca-valencia">S'ha afegit la implementació del format WebVTT</li>
+          <li xml:lang="es">Se ha añadido compatibilidad con el formato WebVTT.</li>
           <li xml:lang="fr">Ajout de la prise en charge du format « WebVTT »</li>
           <li xml:lang="it">Aggiunto il supporto al formato WebVTT</li>
           <li xml:lang="nl">Ondersteuning voor WebVTT-formaat toegevoegd</li>
@@ -1126,6 +1139,7 @@
           <li xml:lang="ar">حُسّن تحرير ومعاينة النص الغني</li>
           <li xml:lang="ca">Edició/previsualització millorada de text enriquit</li>
           <li xml:lang="ca-valencia">Edició/previsualització millorada de text enriquit</li>
+          <li xml:lang="es">Se ha mejorado la edición y la vista previa de texto enriquecido.</li>
           <li xml:lang="fr">Amélioration de l'édition / aperçu du texte enrichi</li>
           <li xml:lang="nl">Verbeterd opgemaakte tekstbewerking/-voorbeeldweergave</li>
           <li xml:lang="pt-BR">Aprimoramento da edição/visualização de texto formatado</li>
@@ -1146,6 +1160,7 @@
           <li xml:lang="ar">أُضيف محرك ترجمة DeepL</li>
           <li xml:lang="ca">S'ha afegit el motor de traducció DeepL</li>
           <li xml:lang="ca-valencia">S'ha afegit el motor de traducció DeepL</li>
+          <li xml:lang="es">Se ha añadido el motor de traducción DeepL.</li>
           <li xml:lang="fr">Ajout du moteur de traduction DeepL</li>
           <li xml:lang="it">Aggiunta del motore di traduzione DeepL</li>
           <li xml:lang="nl">DeepL-vertaalengine toegevoegd</li>
@@ -1157,6 +1172,7 @@
           <li xml:lang="ar">أُضيف محرك ترجمة Google Cloud</li>
           <li xml:lang="ca">S'ha afegit el motor de traducció de Google Cloud</li>
           <li xml:lang="ca-valencia">S'ha afegit el motor de traducció de Google Cloud</li>
+          <li xml:lang="es">Se ha añadido el motor de traducción Google Cloud.</li>
           <li xml:lang="fr">Ajout du moteur de traduction « Google Cloud »</li>
           <li xml:lang="it">Aggiunta del motore di traduzione Google Cloud</li>
           <li xml:lang="nl">Google Cloud vertaalengine toegevoegd</li>
@@ -1168,6 +1184,7 @@
           <li xml:lang="ar">أُعيد إنشاء واجهة الترجمة</li>
           <li xml:lang="ca">S'ha tornat a crear la interfície de traducció</li>
           <li xml:lang="ca-valencia">S'ha tornat a crear la interfície de traducció</li>
+          <li xml:lang="es">Se ha recreado la interfaz de traducción.</li>
           <li xml:lang="fr">Re-création de l'interface de traduction</li>
           <li xml:lang="it">Ricreazione dell'interfaccia di traduzione</li>
           <li xml:lang="nl">Opnieuw ontworpen vertaalinterface</li>
@@ -1179,6 +1196,7 @@
           <li xml:lang="ar">أُضيف/حُسّن دعم ffmpeg 5</li>
           <li xml:lang="ca">S'ha afegit/millorat la implementació del ffmpeg 5</li>
           <li xml:lang="ca-valencia">S'ha afegit/millorat la implementació de ffmpeg 5</li>
+          <li xml:lang="es">Se ha añadido y mejorado la compatibilidad con ffmpeg 5.</li>
           <li xml:lang="fr">Ajout / amélioration de la prise en charge de la version 5 de « ffmpeg »</li>
           <li xml:lang="it">Aggiunta/miglioramento del supporto a ffmpeg 5</li>
           <li xml:lang="nl">Ondersteuning voor ffmpeg 5 toegevoegd/verbeterd</li>
@@ -1211,6 +1229,7 @@
           <li xml:lang="ar">حُسّن مدير البرمجيات النصية وقائمة الأدوات</li>
           <li xml:lang="ca">Millora del gestor de scripts i del menú d'eines</li>
           <li xml:lang="ca-valencia">Millora del gestor de scripts i del menú d'eines</li>
+          <li xml:lang="es">Se han mejorado el gestor de guiones y el menú de herramientas.</li>
           <li xml:lang="fr">Amélioration du gestionnaire de scripts et du menu d'outils</li>
           <li xml:lang="it">Miglioramento del gestore degli script e del menu degli strumenti</li>
           <li xml:lang="nl">Verbeterd scriptbeheer en menu met hulpmiddelen</li>
@@ -1251,6 +1270,7 @@
           <li xml:lang="ar">أُصلح تحرير البرمجيات النصية في AppImage</li>
           <li xml:lang="ca">S'ha corregit l'edició de scripts a l'AppImage</li>
           <li xml:lang="ca-valencia">S'ha corregit l'edició de scripts a AppImage</li>
+          <li xml:lang="es">Se ha mejorado la edición de guiones en AppImage.</li>
           <li xml:lang="fr">Correction de l'édition de scripts sur AppImage</li>
           <li xml:lang="nl">Het bewerken van scripts in AppImage is opgelost</li>
           <li xml:lang="pt-BR">Correção na edição de scripts no AppImage</li>
@@ -1283,6 +1303,7 @@
           <li xml:lang="ar">أُصلح فتح الملفات في Windows</li>
           <li xml:lang="ca">S'ha corregit l'obertura de fitxers al Windows</li>
           <li xml:lang="ca-valencia">S'ha corregit l'obertura de fitxers a Windows</li>
+          <li xml:lang="es">Se ha corregido la apertura de archivos en Windows.</li>
           <li xml:lang="fr">Correction de l'ouverture des fichiers sous Windows</li>
           <li xml:lang="it">Correzione dell'apertura dei file su Windows</li>
           <li xml:lang="nl">Openen van bestanden in Windows opgelost</li>
@@ -1294,6 +1315,7 @@
           <li xml:lang="ar">أُصلحت علل متنوعة وانهيارات نادرة</li>
           <li xml:lang="ca">S'han corregit diversos errors i fallades rares</li>
           <li xml:lang="ca-valencia">S'han corregit diversos errors i fallades rares</li>
+          <li xml:lang="es">Se han corregido varios errores y fallos raros.</li>
           <li xml:lang="fr">Correction de divers bogues et de rares plantages</li>
           <li xml:lang="it">Correzione di vari errori e blocchi rari</li>
           <li xml:lang="nl">Diverse bugs en zeldzame crashes opgelost</li>
@@ -1325,6 +1347,7 @@
           <li xml:lang="ar">حُسّن أداء الشكل الموجي</li>
           <li xml:lang="ca">Millora del rendiment de la forma d'ona</li>
           <li xml:lang="ca-valencia">Millora del rendiment de la forma d'ona</li>
+          <li xml:lang="es">Se ha mejorado el rendimiento de la forma de onda.</li>
           <li xml:lang="fr">Amélioration de la performance de forme d'onde</li>
           <li xml:lang="it">Miglioramento delle prestazioni di Waveform</li>
           <li xml:lang="nl">Verbeterde prestaties golfvorm</li>
@@ -1346,6 +1369,7 @@
           <li xml:lang="ar">حُسّن دعم Wayland</li>
           <li xml:lang="ca">Millora de la implementació del Wayland</li>
           <li xml:lang="ca-valencia">Millora de la implementació de Wayland</li>
+          <li xml:lang="es">Se ha mejorado la compatibilidad con Wayland.</li>
           <li xml:lang="fr">Prise en charge améliorée de Wayland</li>
           <li xml:lang="it">Miglioramento del supporto a Wayland</li>
           <li xml:lang="nl">Verbeterde ondersteuning van Wayland</li>
@@ -1357,6 +1381,7 @@
           <li xml:lang="ar">حُسّنت مربعات حوار فتح/حفظ الملفات لاستخدام مربعات الحوار الأصيلة</li>
           <li xml:lang="ca">S'han millorat els diàlegs d'obrir/desar fitxers utilitzant diàlegs nadius</li>
           <li xml:lang="ca-valencia">S'han millorat els diàlegs d'obrir/guardar fitxers utilitzant diàlegs nadius</li>
+          <li xml:lang="es">Se han mejorado los diálogos de abrir/guardar archivo para usar diálogos nativos.</li>
           <li xml:lang="fr">Amélioration de la boîtes de dialogue d’ouverture / enregistrement de fichiers pour utiliser les boîtes de dialogue natives</li>
           <li xml:lang="it">Miglioramento delle finestre di apertura/salvataggio dei file per usare le versioni native</li>
           <li xml:lang="nl">Dialogen voor het openen/opslaan van bestanden zijn verbeterd en gebruiken de inheemse dialogen</li>
@@ -1378,6 +1403,7 @@
           <li xml:lang="ar">حُسّن دعم VobSub</li>
           <li xml:lang="ca">Implementació millorada de VobSub</li>
           <li xml:lang="ca-valencia">Implementació millorada de VobSub</li>
+          <li xml:lang="es">Se ha mejorado la compatibilidad con VobSub.</li>
           <li xml:lang="fr">Amélioration de la prise en charge de VobSub</li>
           <li xml:lang="it">Miglioramenti al supporto VobSub</li>
           <li xml:lang="nl">Verbeterde VobSub-ondersteuning</li>
@@ -1399,6 +1425,7 @@
           <li xml:lang="ar">حُسّنت صيرورة نمط الترجمة</li>
           <li xml:lang="ca">Renderització millorada de l'estil dels subtítols</li>
           <li xml:lang="ca-valencia">Renderització millorada de l'estil dels subtítols</li>
+          <li xml:lang="es">Se ha mejorado el rendimiento del estilo de subtítulos.</li>
           <li xml:lang="fr">Amélioration du rendu pour le style des sous-titres</li>
           <li xml:lang="nl">Verbeterde weergave van ondertitelstijlen</li>
           <li xml:lang="pt-BR">Renderização de estilo de legenda aprimorada</li>
@@ -1449,6 +1476,7 @@
           <li xml:lang="ar">حُدّثت/أُضيفت ترجمات عديدة - شكراً لمجتمع كِيدِي</li>
           <li xml:lang="ca">S'han actualitzat/afegit moltes traduccions, gràcies a la comunitat KDE</li>
           <li xml:lang="ca-valencia">S'han actualitzat/afegit moltes traduccions, gràcies a la comunitat KDE</li>
+          <li xml:lang="es">Se han actualizado/añadido muchas traducciones (gracias a la comunidad KDE)</li>
           <li xml:lang="fr">Ajout et mise à jour de nombreuses traductions - Merci à la communauté de KDE</li>
           <li xml:lang="nl">Veel vertalingen bijgewerkt/toegevoegd - met dank aan de KDE-gemeenschap</li>
           <li xml:lang="pt-BR">Muitas traduções foram atualizadas e adicionadas - graças à comunidade KDE</li>
@@ -1580,6 +1608,7 @@
           <li xml:lang="ar">حُسّن أداء (البرمجة النصية)</li>
           <li xml:lang="ca">Millora del rendiment (creació de scripts)</li>
           <li xml:lang="ca-valencia">Millora del rendiment (creació de scripts)</li>
+          <li xml:lang="es">Se ha mejorado el rendimiento de los guiones.</li>
           <li xml:lang="fr">Amélioration  de performance (Pour les scripts)</li>
           <li xml:lang="pt-BR">Melhoria de performance (scripting)</li>
           <li xml:lang="sl">Izboljšana (skriptna) zmogljivost</li>
@@ -1625,6 +1654,7 @@
           <li xml:lang="ar">حُسّن مشغل الفيديو في وضع ملء الشاشة</li>
           <li xml:lang="ca">Reproductor de vídeo millorat a pantalla completa</li>
           <li xml:lang="ca-valencia">Reproductor de vídeo millorat a pantalla completa</li>
+          <li xml:lang="es">Se ha mejorado la reproducción de vídeo a pantalla completa.</li>
           <li xml:lang="fr">Amélioration du lecteur vidéo en mode « Plein écran »</li>
           <li xml:lang="pt-BR">Reprodutor de vídeo em tela cheia aprimorado</li>
           <li xml:lang="sl">Izboljšan celozaslonski video predvajalnik</li>
@@ -1652,6 +1682,7 @@
           <li xml:lang="ar">حُدّثت الترجمة الكرواتية - شكراً @muzena</li>
           <li xml:lang="ca">S'ha actualitzat la traducció al croat, gràcies @muzena</li>
           <li xml:lang="ca-valencia">S'ha actualitzat la traducció al croat, gràcies @muzena</li>
+          <li xml:lang="es">Se ha actualizado la traducción al croata (gracias a @muzena)</li>
           <li xml:lang="fr">Mise à jour de la traduction en Croate - Merci à @muzena</li>
           <li xml:lang="pt-BR">Tradução para o croata atualizada - obrigado @muzena</li>
           <li xml:lang="sl">Posodobljen hrvaški prevod - hvala @muzena</li>
@@ -1661,6 +1692,7 @@
           <li xml:lang="ar">حُدّثت الترجمة الإيطالية - شكراً Luigi Toscano @tosky</li>
           <li xml:lang="ca">S'ha actualitzat la traducció a l'italià, gràcies Luigi Toscano @tosky</li>
           <li xml:lang="ca-valencia">S'ha actualitzat la traducció a l'italià, gràcies Luigi Toscano @tosky</li>
+          <li xml:lang="es">Se ha actualizado la traducción al italiano (gracias a Luigi Toscano @tosky)</li>
           <li xml:lang="fr">Mise à jour de la traduction pour l'Italienne - Merci à Luigi Toscano @tosky</li>
           <li xml:lang="pt-BR">Tradução para o italiano atualizada - obrigado Luigi Toscano @tosky</li>
           <li xml:lang="sl">Posodobljen italijanski prevod - hvala Luigi Toscano @tosky</li>
@@ -1670,6 +1702,7 @@
           <li xml:lang="ar">حُدّثت الترجمة الروسية - شكراً Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="ca">S'ha actualitzat la traducció al rus, gràcies Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="ca-valencia">S'ha actualitzat la traducció al rus, gràcies Nick Shaforostoff @shaforostoff</li>
+          <li xml:lang="es">Se ha actualizado la traducción al ruso (gracias a Nick Shaforostoff @shaforostoff)</li>
           <li xml:lang="fr">Mise à jour de la traduction pour le Russe - Merci à Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="pt-BR">Tradução para o russo atualizada - obrigado Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="sl">Posodobljeno Ruski prevod - hvala Nick Shaforostoff @shaforostoff</li>
@@ -1722,6 +1755,7 @@
           <li xml:lang="ar">حُدّثت الترجمات - شكراً @gogogogi, @muzena</li>
           <li xml:lang="ca">Traduccions actualitzades, gràcies @gogogogi, @muzena</li>
           <li xml:lang="ca-valencia">Traduccions actualitzades, gràcies @gogogogi, @muzena</li>
+          <li xml:lang="es">Se han actualizado las traducciones (gracias a @gogogogi y @muzena)</li>
           <li xml:lang="fr">Mise à jour de traductions - Merci @gogogogi, @muzena</li>
           <li xml:lang="it">Aggiornamento delle traduzioni - grazie a @gogogogi, @muzena</li>
           <li xml:lang="pt-BR">Traduções atualizadas - obrigado @gogogogi, @muzena</li>
@@ -1751,6 +1785,7 @@
           <li xml:lang="ar">حُسّن كشف نص vobsub</li>
           <li xml:lang="ca">S'ha millorat la detecció de text del vobsub</li>
           <li xml:lang="ca-valencia">S'ha millorat la detecció de text del vobsub</li>
+          <li xml:lang="es">Se ha mejorado la detección de texto vobsub.</li>
           <li xml:lang="fr">Amélioration de la détection de texte « vobsub »</li>
           <li xml:lang="pt-BR">Detecção de texto vobsub aprimorada</li>
           <li xml:lang="sl">Izboljšano zaznavanje besedila vobsub</li>
@@ -1858,6 +1893,7 @@
           <li xml:lang="ar">إضافة: أُضيف دعم لصيغ الترجمة الثنائية</li>
           <li xml:lang="ca">Afegeix: s'ha afegit la implementació per als formats binaris de subtítols</li>
           <li xml:lang="ca-valencia">Afig: s'ha afegit la implementació per als formats binaris de subtítols</li>
+          <li xml:lang="es">Se ha añadido compatibilidad con los formatos de subtítulos binarios.</li>
           <li xml:lang="fr">AJOUT : ajout de la prise en charge pour les formats de sous-titres binaires</li>
           <li xml:lang="pt-BR">ADICIONADO: Adicionado suporte para formatos de legenda binários</li>
           <li xml:lang="sl">DODATI: Dodana podpora za binarne oblike podnapisov</li>
@@ -1867,6 +1903,7 @@
           <li xml:lang="ar">إضافة: تحكم دقيق في سرعة تشغيل الفيديو</li>
           <li xml:lang="ca">Afegeix: velocitat de reproducció de vídeo amb control fi</li>
           <li xml:lang="ca-valencia">Afig: velocitat de reproducció de vídeo amb control fi</li>
+          <li xml:lang="es">Control preciso de la velocidad de reproducción de vídeo.</li>
           <li xml:lang="fr">AJOUT : contrôle précis de la vitesse de lecture vidéo</li>
           <li xml:lang="pt-BR">ADICIONADO: controle preciso da velocidade de reprodução de vídeo</li>
           <li xml:lang="sl">DODATI: natančen nadzor hitrosti predvajanja videa</li>
@@ -1876,6 +1913,7 @@
           <li xml:lang="ar">إضافة: عناصر تحكم لسرعة تشغيل الفيديو</li>
           <li xml:lang="ca">Afegeix: controls de la velocitat de reproducció de vídeo</li>
           <li xml:lang="ca-valencia">Afig: controls de la velocitat de reproducció de vídeo</li>
+          <li xml:lang="es">Controles para la velocidad de reproducción de vídeo.</li>
           <li xml:lang="fr">AJOUT : contrôles pour la vitesse de lecture vidéo</li>
           <li xml:lang="pt-BR">ADICIONADO: controles para velocidade de reprodução de vídeo</li>
           <li xml:lang="sl">DODATI: nadzor hitrosti predvajanja videa</li>
@@ -1885,6 +1923,7 @@
           <li xml:lang="ar">تعديل: تحسينات صوتية في محرك GStreamer.</li>
           <li xml:lang="ca">Modificació: millores d'àudio del dorsal GStreamer.</li>
           <li xml:lang="ca-valencia">Modificació: millores d'àudio del dorsal GStreamer.</li>
+          <li xml:lang="es">Mejoras de sonido del motor GStreamer.</li>
           <li xml:lang="fr">MODIFICATION : améliorations de l'audio avec le moteur GStreamer.</li>
           <li xml:lang="pt-BR">MODIFICADO: Melhorias no backend de áudio do GStreamer</li>
           <li xml:lang="sl">SPREMENITI: Izboljšave zvoka v ozadju GStreamerja.</li>
@@ -1894,6 +1933,7 @@
           <li xml:lang="ar">تعديل: نُقلت إجراءات فتح الفيديو إلى قائمة ملف</li>
           <li xml:lang="ca">Modificació: mou les accions de vídeo obertes al menú de fitxer</li>
           <li xml:lang="ca-valencia">Modificació: mou les accions de vídeo obertes al menú de fitxer</li>
+          <li xml:lang="es">Las acciones de apertura de vídeo se han movido al menú Archivo.</li>
           <li xml:lang="fr">MODIFICATION : déplacement des actions de lecture vidéo dans le menu « Fichier »</li>
           <li xml:lang="pt-BR">MODIFICADO: As ações de abrir vídeo foram movidas para o menu Arquivo</li>
           <li xml:lang="sl">SPREMENITI: Dejanja odpiranja videoposnetkov premaknjena v meni Datoteka</li>
@@ -1903,6 +1943,7 @@
           <li xml:lang="ar">تعديل: تحليل أكثر تسامحاً لترجمات SubRip</li>
           <li xml:lang="ca">Modificació: anàlisi més tolerant dels subtítols SubRip</li>
           <li xml:lang="ca-valencia">Modificació: anàlisi més tolerant dels subtítols SubRip</li>
+          <li xml:lang="es">Análisis más tolerante de subtítulos SubRip.</li>
           <li xml:lang="fr">MODIFICATION : analyse plus tolérante des sous-titres de SubRip</li>
           <li xml:lang="pt-BR">MODIFICADO: Análise mais tolerante de legendas SubRip</li>
           <li xml:lang="sl">SPREMENITI: Bolj strpno razčlenjevanje podnapisov SubRip</li>
@@ -1912,6 +1953,7 @@
           <li xml:lang="ar">تعديل: حُسّن أمر تقسيم الأسطر</li>
           <li xml:lang="ca">Modificació: ordre millorada de línies dividides</li>
           <li xml:lang="ca-valencia">Modificació: ordre millorada de línies dividides</li>
+          <li xml:lang="es">Se ha mejorado la orden de división de líneas.</li>
           <li xml:lang="fr">MOD : amélioration de la commande de division de lignes</li>
           <li xml:lang="pt-BR">MODIFICADO: Comando de linhas divididas aprimorado</li>
           <li xml:lang="sl">SPREMENITI: Izboljšan ukaz za razdelitev vrstic</li>
@@ -1921,6 +1963,7 @@
           <li xml:lang="ar">تعديل: حُدّثت الترجمة التشيكية - شكراً @goliashcz</li>
           <li xml:lang="ca">Modificació: traducció actualitzada al txec, gràcies @goliashcz</li>
           <li xml:lang="ca-valencia">Modificació: traducció actualitzada al txec, gràcies @goliashcz</li>
+          <li xml:lang="es">Se ha actualizado la traducción al checo (gracias a @goliashcz)</li>
           <li xml:lang="fr">MODIFICATION : mise à jour de la traduction en Tchèque - Merci à @goliashcz</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para tcheco atualizada - obrigado @goliashcz</li>
           <li xml:lang="sl">SPREMENITI: Posodobljen češki prevod - hvala @goliashcz</li>
@@ -1930,6 +1973,7 @@
           <li xml:lang="ar">تعديل: حُدّثت الترجمات الكرواتية - شكراً @muzena</li>
           <li xml:lang="ca">Modificació: traduccions actualitzades al croat, gràcies @muzena</li>
           <li xml:lang="ca-valencia">Modificació: traduccions actualitzades al croat, gràcies @muzena</li>
+          <li xml:lang="es">Se ha actualizado la traducción al croata (gracias a @muzena)</li>
           <li xml:lang="fr">MODIFICATION : mise à jour de la traduction en Croates - Merci à @muzena</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para croata atualizada - obrigado @muzena</li>
           <li xml:lang="sl">SPREMENITI: Posodobljeni hrvaški prevodi - hvala @muzena</li>
@@ -1966,6 +2010,7 @@
           <li xml:lang="ar">إصلاح: حُسّنت قوائم السياق</li>
           <li xml:lang="ca">Correcció: menús contextuals millorats</li>
           <li xml:lang="ca-valencia">Correcció: menús contextuals millorats</li>
+          <li xml:lang="es">Se han mejorado los menús de contexto.</li>
           <li xml:lang="fr">CORRECTION : amélioration des menus contextuels</li>
           <li xml:lang="pt-BR">CORREÇÃO: Menus de contexto aprimorados</li>
           <li xml:lang="sl">POPRAVEK: Izboljšani kontekstni meniji</li>
