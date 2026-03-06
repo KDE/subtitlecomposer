@@ -2117,6 +2117,7 @@
           <li xml:lang="ar">إصلاح: تحليل النص الذي يحتوي على &lt;font&gt; بدون سمة اللون</li>
           <li xml:lang="ca">Correcció: anàlisi del text que conté &lt;font&gt; sense atribut de color</li>
           <li xml:lang="ca-valencia">Correcció: anàlisi del text que conté &lt;font&gt; sense atribut de color</li>
+          <li xml:lang="fr">CORRECTION : analyse du texte contenant des étiquettes &lt;font&gt; sans attribut de couleur</li>
           <li xml:lang="nl">REPARATIE: ontleden van tekst die &lt;lettertype&gt; zonder kleur attribuut bevat</li>
           <li xml:lang="pt-BR">CORREÇÃO: Análise de texto contendo &lt;fonte&gt; sem atributo de cor</li>
           <li xml:lang="sl">POPRAVEK: Razčlenjevanje besedila, ki vsebuje &lt;font&gt; brez atributa barve</li>
