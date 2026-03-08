@@ -509,12 +509,12 @@ msgstr "切换选定行的删除线属性"
 #: src/application_actions.cpp:385 src/gui/currentlinewidget.cpp:338
 #, kde-format
 msgid "Change Text Color"
-msgstr "更改文字颜色"
+msgstr "更改文本颜色"
 
 #: src/application_actions.cpp:386
 #, kde-format
 msgid "Change text color of selected lines"
-msgstr "改变选定行的文字颜色"
+msgstr "改变选定行的文本颜色"
 
 #: src/application_actions.cpp:393
 #, kde-format
