@@ -1546,6 +1546,7 @@
           <li xml:lang="ca">S'ha corregit que la forma d'ona no es renderitzi correctament/completament en alguns formats</li>
           <li xml:lang="ca-valencia">S'ha corregit que la forma d'ona no es renderitze correctament/completament en alguns formats</li>
           <li xml:lang="fr">Correction de la forme d'onde ne s'affichant pas correctement / complètement sur certains formats</li>
+          <li xml:lang="nl">De golfvorm wordt bij sommige formaten niet correct/volledig weergegeven.</li>
           <li xml:lang="pt-BR">A forma de onda fixa não está sendo renderizada corretamente/completamente em alguns formatos</li>
           <li xml:lang="sl">Popravljena valovna oblika, ki se ni pravilno/popolnoma upodobila v nekaterih formatih</li>
           <li xml:lang="tr">Fixed waveform not rendering correctly/completely on some formats</li>
@@ -1555,6 +1556,7 @@
           <li xml:lang="ca">S'ha corregit la forma d'ona que mostra els subtítols en moments incorrectes</li>
           <li xml:lang="ca-valencia">S'ha corregit la forma d'ona que mostra els subtítols en moments incorrectes</li>
           <li xml:lang="fr">Correction de la forme d'onde affichant les sous-titres aux mauvais moments</li>
+          <li xml:lang="nl">Het probleem met de golfvormweergave, waarbij ondertitels op de verkeerde tijdstippen werden weergegeven, is opgelost.</li>
           <li xml:lang="pt-BR">Corrigida a exibição de legenda na forma de onda no tempo errado</li>
           <li xml:lang="sl">Popravljena valovna oblika, ki je prikazovala podnapise ob napačnih časih</li>
           <li xml:lang="tr">Fixed waveform displaying subtitles at wrong times</li>
@@ -1564,6 +1566,7 @@
           <li xml:lang="ca">S'ha corregit la forma d'ona que no funcionava a vegades</li>
           <li xml:lang="ca-valencia">S'ha corregit la forma d'ona que no funcionava a vegades</li>
           <li xml:lang="fr">Correction de la forme d'onde ne fonctionnant pas avec certains éléments</li>
+          <li xml:lang="nl">Golfvorm die niet werkt bij sommige opgelost</li>
           <li xml:lang="pt-BR">Corrigida forma de onda não funcionando em alguns casos</li>
           <li xml:lang="sl">Popravljena valovna obliko, ki ni delovala z nekaterimi</li>
           <li xml:lang="tr">Fixed waveform not working with some</li>
@@ -1573,6 +1576,7 @@
           <li xml:lang="ca">Corregeix els dorsals dels reproductors de vídeo MPV, GStreamer i Xine</li>
           <li xml:lang="ca-valencia">Corregix els dorsals dels reproductors de vídeo MPV, GStreamer i Xine</li>
           <li xml:lang="fr">Correctifs pour les moteurs de lecture vidéo MPV, GStreamer et Xine</li>
+          <li xml:lang="nl">Oplossingen voor de backends van MPV, GStreamer en Xine videospelers</li>
           <li xml:lang="pt-BR">Correções nos backends dos reprodutores de vídeo MPV, GStreamer e Xine</li>
           <li xml:lang="sl">Popravki zalednih sistemov video predvajalnikov MPV, GStreamer in Xine</li>
           <li xml:lang="tr">Fixes to MPV, GStreamer and Xine video player backends</li>
@@ -1582,6 +1586,7 @@
           <li xml:lang="ca">El desplaçament de la forma d'ona és configurable</li>
           <li xml:lang="ca-valencia">El desplaçament de la forma d'ona és configurable</li>
           <li xml:lang="fr">Le défilement de la forme d'onde est maintenant configurable.</li>
+          <li xml:lang="nl">Schuiven van golfvorm is te configureren</li>
           <li xml:lang="pt-BR">A rolagem da forma de onda é configurável</li>
           <li xml:lang="sl">Pomikanje po valovni obliki je nastavljivo</li>
           <li xml:lang="tr">Waveform scrolling is configurable</li>
@@ -1591,6 +1596,7 @@
           <li xml:lang="ca">Els models de llenguatge PocketSphinx i VAD són configurables</li>
           <li xml:lang="ca-valencia">Els models de llenguatge PocketSphinx i VAD són configurables</li>
           <li xml:lang="fr">Les modèles de langue PocketSphinx et VAD deviennent configurables.</li>
+          <li xml:lang="nl">De taalmodellen en VAD van PocketSphinx zijn te configureren.</li>
           <li xml:lang="pt-BR">Os modelos de linguagem e o VAD do PocketSphinx são configuráveis</li>
           <li xml:lang="sl">Jezikovni modeli PocketSphinx in VAD so nastavljivi</li>
           <li xml:lang="tr">PocketSphinx language models and VAD are configurable</li>
@@ -1600,6 +1606,7 @@
           <li xml:lang="ca">S'ha afegit l'acció de mostrar la barra d'estat al menú emergent de la finestra principal</li>
           <li xml:lang="ca-valencia">S'ha afegit l'acció de mostrar la barra d'estat al menú emergent de la finestra principal</li>
           <li xml:lang="fr">Ajout de l'action « Afficher la barre d'état » au menu contextuel de la fenêtre principale</li>
+          <li xml:lang="nl">De actie 'Statusbalk weergeven' is toegevoegd aan het pop-up-menu van het hoofdvenster</li>
           <li xml:lang="pt-BR">Adicionada ação para exibir a barra de status ao menu pop-up da janela principal</li>
           <li xml:lang="sl">Dodano dejanje prikaza vrstice stanja v pojavnem meniju glavnega okna</li>
           <li xml:lang="tr">Added show status bar action to main window popup menu</li>
@@ -1610,6 +1617,7 @@
           <li xml:lang="ca-valencia">Millora del rendiment (creació de scripts)</li>
           <li xml:lang="es">Se ha mejorado el rendimiento de los guiones.</li>
           <li xml:lang="fr">Amélioration  de performance (Pour les scripts)</li>
+          <li xml:lang="nl">Verbeterde (scripting) prestaties</li>
           <li xml:lang="pt-BR">Melhoria de performance (scripting)</li>
           <li xml:lang="sl">Izboljšana (skriptna) zmogljivost</li>
           <li xml:lang="tr">Improved (scripting) performance</li>
@@ -1619,6 +1627,7 @@
           <li xml:lang="ca">El corrector ortogràfic utilitzarà el text de traducció quan estigui seleccionat</li>
           <li xml:lang="ca-valencia">El corrector ortogràfic utilitzarà el text de traducció quan estiga seleccionat</li>
           <li xml:lang="fr">Le correcteur orthographique utilisera le texte traduit lorsqu'il est sélectionné</li>
+          <li xml:lang="nl">De spellingscontrole gebruikt de vertaaltekst wanneer deze is geselecteerd</li>
           <li xml:lang="pt-BR">O corretor ortográfico usará o texto traduzido quando esta opção for selecionada</li>
           <li xml:lang="sl">Preverjevalnik črkovanja bo uporabil prevedeno besedilo, ko je izbrano</li>
           <li xml:lang="tr">Spell checker will use translation text when it is selected</li>
@@ -1628,6 +1637,7 @@
           <li xml:lang="ca">Els acobladors de forma d'ona i de vídeo es poden ocultar</li>
           <li xml:lang="ca-valencia">Els acobladors de forma d'ona i de vídeo es poden ocultar</li>
           <li xml:lang="fr">Les formes d'onde et les panneaux vidéo peuvent désormais être masqués.</li>
+          <li xml:lang="nl">Golfvorm- en videovastzetters kunnen worden verborgen</li>
           <li xml:lang="pt-BR">Os painéis de forma de onda e vídeo podem ser ocultados</li>
           <li xml:lang="sl">Valovne oblike in video doke je mogoče skriti</li>
           <li xml:lang="tr">Waveform and video docks can be hidden</li>
