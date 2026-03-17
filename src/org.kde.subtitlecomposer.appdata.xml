@@ -1647,6 +1647,7 @@
           <li xml:lang="ca">Les línies dividides no dividiran el text en espais mentre hi hagi línies múltiples</li>
           <li xml:lang="ca-valencia">Les línies dividides no dividiran el text en espais mentre hi haja línies múltiples</li>
           <li xml:lang="fr">La fonction de séparation de lignes ne divise pas le texte sur les espaces lorsqu'il y a plusieurs lignes</li>
+          <li xml:lang="nl">Bij het splitsen van regels wordt tekst niet op spaties gesplitst als er meerdere regels zijn.</li>
           <li xml:lang="pt-BR">A opção "Dividir linhas" não dividirá o texto em espaços quando houver várias linhas</li>
           <li xml:lang="sl">Razdelitvene vrstice ne bodo razdelile besedila na presledke, če je več vrstic</li>
           <li xml:lang="tr">Split lines won't split text on spaces while there are multiple lines</li>
@@ -1656,6 +1657,7 @@
           <li xml:lang="ca">Les línies de subtítols sempre estaran ordenades pel seu temps</li>
           <li xml:lang="ca-valencia">Les línies de subtítols sempre estaran ordenades pel seu temps</li>
           <li xml:lang="fr">Les lignes de sous-titres resteront toujours triées par leur datation</li>
+          <li xml:lang="nl">Ondertitelregels blijven altijd gesorteerd op tijdstempel</li>
           <li xml:lang="pt-BR">As legendas permanecerão sempre organizadas por ordem cronológica</li>
           <li xml:lang="sl">Vrstice podnapisov bodo vedno ostale razvrščene po času</li>
           <li xml:lang="tr">Subtitle lines will always stay sorted by their time</li>
@@ -1666,6 +1668,7 @@
           <li xml:lang="ca-valencia">Reproductor de vídeo millorat a pantalla completa</li>
           <li xml:lang="es">Se ha mejorado la reproducción de vídeo a pantalla completa.</li>
           <li xml:lang="fr">Amélioration du lecteur vidéo en mode « Plein écran »</li>
+          <li xml:lang="nl">Verbeterde videospeler voor volledig scherm</li>
           <li xml:lang="pt-BR">Reprodutor de vídeo em tela cheia aprimorado</li>
           <li xml:lang="sl">Izboljšan celozaslonski video predvajalnik</li>
           <li xml:lang="tr">Improved fullscreen video player</li>
@@ -1675,6 +1678,7 @@
           <li xml:lang="ca">S'ha afegit la capacitat d'anar pas a pas per fotograma</li>
           <li xml:lang="ca-valencia">S'ha afegit la capacitat d'anar pas a pas per fotograma</li>
           <li xml:lang="fr">Ajout de la possibilité d'avancer trame par trame</li>
+          <li xml:lang="nl">Mogelijkheid toegevoegd om stap voor stap door het frame te navigeren</li>
           <li xml:lang="pt-BR">Adicionada a capacidade de navegar quadro a quadro</li>
           <li xml:lang="sl">Dodana možnost koraka po sličicah</li>
           <li xml:lang="tr">Added ability to step by frame</li>
@@ -1684,6 +1688,7 @@
           <li xml:lang="ca">S'han afegit controls de velocitat de reproducció al menú de vídeo</li>
           <li xml:lang="ca-valencia">S'han afegit controls de velocitat de reproducció al menú de vídeo</li>
           <li xml:lang="fr">Ajout de contrôles de vitesse de lecture au menu vidéo</li>
+          <li xml:lang="nl">Er zijn afspeelsnelheidsregelaars toegevoegd aan het videomenu</li>
           <li xml:lang="pt-BR">Adicionados controles de velocidade de reprodução ao menu de vídeo</li>
           <li xml:lang="sl">Dodani kontrolniki hitrosti predvajanja v video meniju</li>
           <li xml:lang="tr">Added play rate controls to video menu</li>
@@ -1694,6 +1699,7 @@
           <li xml:lang="ca-valencia">S'ha actualitzat la traducció al croat, gràcies @muzena</li>
           <li xml:lang="es">Se ha actualizado la traducción al croata (gracias a @muzena)</li>
           <li xml:lang="fr">Mise à jour de la traduction en Croate - Merci à @muzena</li>
+          <li xml:lang="nl">Bijgewerkte Kroatische vertaling - met dank aan @muzena</li>
           <li xml:lang="pt-BR">Tradução para o croata atualizada - obrigado @muzena</li>
           <li xml:lang="sl">Posodobljen hrvaški prevod - hvala @muzena</li>
           <li xml:lang="tr">Updated Croatian translation - thanks @muzena</li>
@@ -1704,6 +1710,7 @@
           <li xml:lang="ca-valencia">S'ha actualitzat la traducció a l'italià, gràcies Luigi Toscano @tosky</li>
           <li xml:lang="es">Se ha actualizado la traducción al italiano (gracias a Luigi Toscano @tosky)</li>
           <li xml:lang="fr">Mise à jour de la traduction pour l'Italienne - Merci à Luigi Toscano @tosky</li>
+          <li xml:lang="nl">Bijgewerkte Italiaanse vertaling - met dank aan Luigi Toscano @tosky</li>
           <li xml:lang="pt-BR">Tradução para o italiano atualizada - obrigado Luigi Toscano @tosky</li>
           <li xml:lang="sl">Posodobljen italijanski prevod - hvala Luigi Toscano @tosky</li>
           <li xml:lang="tr">Updated Italian translation - thanks Luigi Toscano @tosky</li>
@@ -1714,6 +1721,7 @@
           <li xml:lang="ca-valencia">S'ha actualitzat la traducció al rus, gràcies Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="es">Se ha actualizado la traducción al ruso (gracias a Nick Shaforostoff @shaforostoff)</li>
           <li xml:lang="fr">Mise à jour de la traduction pour le Russe - Merci à Nick Shaforostoff @shaforostoff</li>
+          <li xml:lang="nl">Bijgewerkte Russische vertaling - met dank aan Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="pt-BR">Tradução para o russo atualizada - obrigado Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="sl">Posodobljeno Ruski prevod - hvala Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="tr">Updated Russian translation - thanks Nick Shaforostoff @shaforostoff</li>
@@ -1729,6 +1737,7 @@
           <li xml:lang="ca">S'han corregit els filtres del diàleg d'obertura de vídeo</li>
           <li xml:lang="ca-valencia">S'han corregit els filtres del diàleg d'obertura de vídeo</li>
           <li xml:lang="fr">Correction des filtres ouverts de la boîte de dialogue vidéo</li>
+          <li xml:lang="nl">Gerepareerd filters voor het openen van videodialoogvensters</li>
           <li xml:lang="pt-BR">Correção dos filtros de diálogo de vídeo aberto</li>
           <li xml:lang="sl">Popravljeni filtri za odpiranje video pogovornih oken</li>
           <li xml:lang="tr">Fixed open video dialog filters</li>
@@ -1738,6 +1747,7 @@
           <li xml:lang="ca">S'ha corregit «Insereix la línia» en afegir una forma d'ona a un índex incorrecte, gràcies @qsniyg</li>
           <li xml:lang="ca-valencia">S'ha corregit «Inserix la línia» en afegir una forma d'ona a un índex incorrecte, gràcies @qsniyg</li>
           <li xml:lang="fr">Correction de « Insertion de ligne » sur la forme d’onde qui s'ajoutait à l’indice incorrect - Merci à @qsniyg</li>
+          <li xml:lang="nl">Het probleem met "Regel invoegen" op de golfvorm, dat op de verkeerde index werd toegevoegd, is opgelost - dank aan @qsniyg</li>
           <li xml:lang="pt-BR">Corrigido o problema com a opção "Inserir linha" na forma de onda, que estava sendo adicionada no índice errado - obrigado @qsniyg</li>
           <li xml:lang="sl">Popravljena napaka »Vstavi vrstico« pri dodajanju valovne oblike na napačen indeks - hvala @qsniyg</li>
           <li xml:lang="tr">Fixed "Insert Line" on waveform adding at the wrong index - thanks @qsniyg</li>
@@ -1747,6 +1757,7 @@
           <li xml:lang="ca">S'ha afegit la cerca del MMB en forma d'ona, gràcies @qsniyg</li>
           <li xml:lang="ca-valencia">S'ha afegit la busca del MMB en forma d'ona, gràcies @qsniyg</li>
           <li xml:lang="fr">Ajout de la recherche « MMB » sur la forme d'onde - Merci à @qsniyg</li>
+          <li xml:lang="nl">MMB-zoekfunctie toegevoegd aan de golfvorm - bedankt @qsniyg</li>
           <li xml:lang="pt-BR">Adicionada busca por MMB na forma de onda - obrigado @qsniyg</li>
           <li xml:lang="sl">Dodano iskanje MMB na valovni obliki - hvala @qsniyg</li>
           <li xml:lang="tr">Added MMB seeking on waveform - thanks @qsniyg</li>
@@ -1757,6 +1768,7 @@
           <li xml:lang="ca-valencia">S'han corregit alguns problemes de compilació</li>
           <li xml:lang="fr">Correction de certains problèmes de compilation</li>
           <li xml:lang="it">Correzione di alcuni errori di compilazione</li>
+          <li xml:lang="nl">Enkele compilatieproblemen opgelost</li>
           <li xml:lang="pt-BR">Corrigidos alguns problemas de compilação</li>
           <li xml:lang="sl">Popravljene nekatere težave s prevajanjem</li>
           <li xml:lang="tr">Fixed some compilation issues</li>
@@ -1768,6 +1780,7 @@
           <li xml:lang="es">Se han actualizado las traducciones (gracias a @gogogogi y @muzena)</li>
           <li xml:lang="fr">Mise à jour de traductions - Merci @gogogogi, @muzena</li>
           <li xml:lang="it">Aggiornamento delle traduzioni - grazie a @gogogogi, @muzena</li>
+          <li xml:lang="nl">Bijgewerkte vertalingen - dank aan @gogogogi en @muzena</li>
           <li xml:lang="pt-BR">Traduções atualizadas - obrigado @gogogogi, @muzena</li>
           <li xml:lang="sl">Posodobljeni prevodi - hvala @gogogogi, @muzena</li>
           <li xml:lang="tr">Updated translations - thanks @gogogogi, @muzena</li>
@@ -1777,6 +1790,7 @@
           <li xml:lang="ca">S'ha corregit el vobsub en obrir des del fitxer de vídeo i el nom de fitxer de la memòria cau de símbols</li>
           <li xml:lang="ca-valencia">S'ha corregit el vobsub en obrir des del fitxer de vídeo i el nom de fitxer de la memòria cau de símbols</li>
           <li xml:lang="fr">Correction de Vobsub lors de l'ouverture à partir d'un fichier vidéo et d'un nom de fichier du cache de symboles</li>
+          <li xml:lang="nl">Vobsub is gecorrigeerd bij het openen vanuit een videobestand en de bestandsnaam van de symboolcache</li>
           <li xml:lang="pt-BR">Correção do problema com o VOBSub ao abrir arquivos de vídeo e nomes de arquivos de cache de símbolos</li>
           <li xml:lang="sl">Odpravljen vobsub pri odpiranju iz video datoteke in imena datoteke predpomnilnika simbolov</li>
           <li xml:lang="tr">Fixed vobsub when opening from video file and symbol cache filename</li>
@@ -1787,6 +1801,7 @@
           <li xml:lang="ca-valencia">S'han corregit el temps de càrrega dels subtítols de fitxers enormes</li>
           <li xml:lang="fr">Correction du temps de chargement des sous-titres pour les gros fichiers</li>
           <li xml:lang="it">Correzione dei tempi di caricamento dei sottotitoli di file grandi</li>
+          <li xml:lang="nl">De laadtijden van ondertitels bij grote bestanden zijn verbeterd</li>
           <li xml:lang="pt-BR">Tempos de carregamento de legendas corrigidos para arquivos grandes</li>
           <li xml:lang="sl">Popravljeni časi nalaganja velikih datotek podnapisov</li>
           <li xml:lang="tr">Fixed subtitle loading times of huge files</li>
