@@ -1812,6 +1812,7 @@
           <li xml:lang="ca-valencia">S'ha millorat la detecció de text del vobsub</li>
           <li xml:lang="es">Se ha mejorado la detección de texto vobsub.</li>
           <li xml:lang="fr">Amélioration de la détection de texte « vobsub »</li>
+          <li xml:lang="nl">Verbeterde vobsub-tekstdetectie</li>
           <li xml:lang="pt-BR">Detecção de texto vobsub aprimorada</li>
           <li xml:lang="sl">Izboljšano zaznavanje besedila vobsub</li>
           <li xml:lang="tr">Improved vobsub text detection</li>
@@ -1821,6 +1822,7 @@
           <li xml:lang="ca">S'ha corregit l'anàlisi de text enriquit ASS en l'acció d'importació de flux de subtítols</li>
           <li xml:lang="ca-valencia">S'ha corregit l'anàlisi de text enriquit ASS en l'acció d'importació de flux de subtítols</li>
           <li xml:lang="fr">Correction de l'analyse du texte enrichi « ASS » lors de l'importation d'un flux de sous-titres</li>
+          <li xml:lang="nl">Correctie van de ASS ontleding van tekst bij het importeren van ondertitelstreams.</li>
           <li xml:lang="pt-BR">Correção na análise de texto formatado ASS na ação de importação de fluxo de legendas</li>
           <li xml:lang="sl">Popravljeno razčlenjevanje obogatenega besedila ASS pri dejanju uvoza toka podnapisov</li>
           <li xml:lang="tr">Fixed ASS rich text parsing on import subtitle stream action</li>
@@ -1830,6 +1832,7 @@
           <li xml:lang="ca">S'ha reemplaçat el codi d'importació del vobsub mplayer erroni amb ffmpeg</li>
           <li xml:lang="ca-valencia">S'ha reemplaçat el codi d'importació del vobsub mplayer erroni amb ffmpeg</li>
           <li xml:lang="fr">Remplacement du code d'importation pour Vobsub défectueux de mplayer par celui de FFmpeg</li>
+          <li xml:lang="nl">De foutieve mplayer vobsub-importcode is vervangen door ffmpeg</li>
           <li xml:lang="pt-BR">Substituído o código de importação vobsub com bugs do mplayer pelo do ffmpeg</li>
           <li xml:lang="sl">Zamenjana napaka pri uvozu kode mplayer vobsub z ffmpeg</li>
           <li xml:lang="tr">Replaced buggy mplayer vobsub import code with ffmpeg</li>
@@ -1839,6 +1842,7 @@
           <li xml:lang="ca">S'han corregit les fuites de memòria/ús de l'animació de desplaçament del WaveformWidget</li>
           <li xml:lang="ca-valencia">S'han corregit les fuites de memòria/ús de l'animació de desplaçament del WaveformWidget</li>
           <li xml:lang="fr">Correction des fuites de mémoire/ utilisation de l'animation de défilement du composant graphique de forme d'onde</li>
+          <li xml:lang="nl">Geheugenlekken/gebruik van de schuifanimatie van WaveformWidget zijn verholpen</li>
           <li xml:lang="pt-BR">Corrigidos vazamentos de memória/uso da animação de rolagem do WaveformWidget</li>
           <li xml:lang="sl">Popravljeno puščanje pomnilnika/uporaba animacije pomikanja WaveformWidget</li>
           <li xml:lang="tr">Fixed memory leaks/usage of WaveformWidget's scroll animation</li>
@@ -1848,6 +1852,7 @@
           <li xml:lang="ca">S'ha optimitzat la importació d'un flux de subtítols des de l'acció de vídeo</li>
           <li xml:lang="ca-valencia">S'ha optimitzat la importació d'un flux de subtítols des de l'acció de vídeo</li>
           <li xml:lang="fr">Flux optimisé d'importation de sous-titres importé depuis l'action vidéo</li>
+          <li xml:lang="nl">Geoptimaliseerde import van ondertitelstream vanuit videoactie</li>
           <li xml:lang="pt-BR">Importação otimizada do fluxo de legendas a partir da ação de vídeo</li>
           <li xml:lang="sl">Optimizirano dejanje uvoza toka podnapisov iz videa</li>
           <li xml:lang="tr">Optimized import subtitle stream from video action</li>
@@ -1857,6 +1862,7 @@
           <li xml:lang="ca">S'ha reemplaçat el gstreamer per les biblioteques ffmpeg en l'ús del nucli de l'aplicació</li>
           <li xml:lang="ca-valencia">S'ha reemplaçat el gstreamer per les biblioteques ffmpeg en l'ús del nucli de l'aplicació</li>
           <li xml:lang="fr">Remplacement de GStreamer par les bibliothèques FFmpeg dans l'utilisation du cœur de l'application</li>
+          <li xml:lang="nl">De gstreamer-bibliotheek is in de kern van de toepassing vervangen door de ffmpeg-bibliotheek</li>
           <li xml:lang="pt-BR">Substituídas as bibliotecas gstreamer pelas bibliotecas ffmpeg no uso principal do aplicativo</li>
           <li xml:lang="sl">Zamenjan gstreamer s knjižnicami ffmpeg v uporabi jedra aplikacije</li>
           <li xml:lang="tr">Replaced gstreamer with ffmpeg libraries in application core usage</li>
@@ -1886,6 +1892,7 @@
           <li xml:lang="ca">S'han afegit les accions uneix/divideix les línies al menú contextual de la forma d'ona</li>
           <li xml:lang="ca-valencia">S'han afegit les accions unix/dividix les línies al menú contextual de la forma d'ona</li>
           <li xml:lang="fr">Ajout des actions de fusion / division de lignes au menu contextuel de forme d'onde</li>
+          <li xml:lang="nl">Acties voor het samenvoegen/splitsen van regels toegevoegd aan het contextmenu van de golfvorm</li>
           <li xml:lang="pt-BR">Adicionadas ações de unir/dividir linhas ao menu de contexto da forma de onda</li>
           <li xml:lang="sl">Dodana dejanja združevanja/razdeljevanja črt v kontekstni meni valovnih oblik</li>
           <li xml:lang="tr">Added join/split lines actions to waveform context menu</li>
@@ -1895,6 +1902,7 @@
           <li xml:lang="ca">S'han corregit algunes fallades, fuites de memòria i neteges generals de codi</li>
           <li xml:lang="ca-valencia">S'han corregit algunes fallades, fuites de memòria i neteges generals de codi</li>
           <li xml:lang="fr">Correction de quelques plantages, fuites de mémoire et nettoyage général du code</li>
+          <li xml:lang="nl">Diverse crashes, geheugenlekken en algemene opschoning van code zijn gedaan</li>
           <li xml:lang="pt-BR">Corrigidas algumas falhas, vazamentos de memória, além de uma limpeza geral do código</li>
           <li xml:lang="sl">Popravljena nekatera sesutja, puščanja pomnilnika in splošno čiščenje kode</li>
           <li xml:lang="tr">Fixed some crashes, memory leaks and overall code cleanups</li>
@@ -1904,6 +1912,7 @@
           <li xml:lang="ca">S'han netejat els ginys i els textos de configuració</li>
           <li xml:lang="ca-valencia">S'han netejat els ginys i els textos de configuració</li>
           <li xml:lang="fr">Nettoyage du composant graphique de configuration et de texte</li>
+          <li xml:lang="nl">Het instellingenwidget en teksten zijn opgeschoond</li>
           <li xml:lang="pt-BR">Widget de configurações e textos foram revisados</li>
           <li xml:lang="sl">Očiščen gradnik z nastavitvami in besedila</li>
           <li xml:lang="tr">Cleaned up settings widget and texts</li>
@@ -1920,6 +1929,7 @@
           <li xml:lang="ca-valencia">Afig: s'ha afegit la implementació per als formats binaris de subtítols</li>
           <li xml:lang="es">Se ha añadido compatibilidad con los formatos de subtítulos binarios.</li>
           <li xml:lang="fr">AJOUT : ajout de la prise en charge pour les formats de sous-titres binaires</li>
+          <li xml:lang="nl">TOEGEVOEGD: Ondersteuning voor binaire ondertitelformaten toegevoegd</li>
           <li xml:lang="pt-BR">ADICIONADO: Adicionado suporte para formatos de legenda binários</li>
           <li xml:lang="sl">DODATI: Dodana podpora za binarne oblike podnapisov</li>
           <li xml:lang="tr">ADD: Added support for binary subtitle formats</li>
@@ -1930,6 +1940,7 @@
           <li xml:lang="ca-valencia">Afig: velocitat de reproducció de vídeo amb control fi</li>
           <li xml:lang="es">Control preciso de la velocidad de reproducción de vídeo.</li>
           <li xml:lang="fr">AJOUT : contrôle précis de la vitesse de lecture vidéo</li>
+          <li xml:lang="nl">TOEVOEGEN: nauwkeurige regeling van de afspeelsnelheid van video's</li>
           <li xml:lang="pt-BR">ADICIONADO: controle preciso da velocidade de reprodução de vídeo</li>
           <li xml:lang="sl">DODATI: natančen nadzor hitrosti predvajanja videa</li>
           <li xml:lang="tr">ADD: fine control video playback speed</li>
@@ -1940,6 +1951,7 @@
           <li xml:lang="ca-valencia">Afig: controls de la velocitat de reproducció de vídeo</li>
           <li xml:lang="es">Controles para la velocidad de reproducción de vídeo.</li>
           <li xml:lang="fr">AJOUT : contrôles pour la vitesse de lecture vidéo</li>
+          <li xml:lang="nl">TOEVOEGEN: bedieningselementen voor de afspeelsnelheid van video's</li>
           <li xml:lang="pt-BR">ADICIONADO: controles para velocidade de reprodução de vídeo</li>
           <li xml:lang="sl">DODATI: nadzor hitrosti predvajanja videa</li>
           <li xml:lang="tr">ADD: controls for video playback speed</li>
@@ -1950,6 +1962,7 @@
           <li xml:lang="ca-valencia">Modificació: millores d'àudio del dorsal GStreamer.</li>
           <li xml:lang="es">Mejoras de sonido del motor GStreamer.</li>
           <li xml:lang="fr">MODIFICATION : améliorations de l'audio avec le moteur GStreamer.</li>
+          <li xml:lang="nl">GEWIJZIGD: audioverbeteringen aan de gstreamer-backend.</li>
           <li xml:lang="pt-BR">MODIFICADO: Melhorias no backend de áudio do GStreamer</li>
           <li xml:lang="sl">SPREMENITI: Izboljšave zvoka v ozadju GStreamerja.</li>
           <li xml:lang="tr">MOD: GStreamer backend audio improvements.</li>
@@ -1960,6 +1973,7 @@
           <li xml:lang="ca-valencia">Modificació: mou les accions de vídeo obertes al menú de fitxer</li>
           <li xml:lang="es">Las acciones de apertura de vídeo se han movido al menú Archivo.</li>
           <li xml:lang="fr">MODIFICATION : déplacement des actions de lecture vidéo dans le menu « Fichier »</li>
+          <li xml:lang="nl">GEWIJZIGD: acties voor het openen van video's verplaatst naar het menu Bestand</li>
           <li xml:lang="pt-BR">MODIFICADO: As ações de abrir vídeo foram movidas para o menu Arquivo</li>
           <li xml:lang="sl">SPREMENITI: Dejanja odpiranja videoposnetkov premaknjena v meni Datoteka</li>
           <li xml:lang="tr">MOD: Moved open video actions under File menu</li>
@@ -1970,6 +1984,7 @@
           <li xml:lang="ca-valencia">Modificació: anàlisi més tolerant dels subtítols SubRip</li>
           <li xml:lang="es">Análisis más tolerante de subtítulos SubRip.</li>
           <li xml:lang="fr">MODIFICATION : analyse plus tolérante des sous-titres de SubRip</li>
+          <li xml:lang="nl">GEWIJZIGD: tolerantere verwerking van SubRip-ondertitels</li>
           <li xml:lang="pt-BR">MODIFICADO: Análise mais tolerante de legendas SubRip</li>
           <li xml:lang="sl">SPREMENITI: Bolj strpno razčlenjevanje podnapisov SubRip</li>
           <li xml:lang="tr">MOD: More tolerant parsing of SubRip subtitles</li>
@@ -1980,6 +1995,7 @@
           <li xml:lang="ca-valencia">Modificació: ordre millorada de línies dividides</li>
           <li xml:lang="es">Se ha mejorado la orden de división de líneas.</li>
           <li xml:lang="fr">MOD : amélioration de la commande de division de lignes</li>
+          <li xml:lang="nl">GEWIJZIGD: verbeterde opdracht voor het splitsen van regels</li>
           <li xml:lang="pt-BR">MODIFICADO: Comando de linhas divididas aprimorado</li>
           <li xml:lang="sl">SPREMENITI: Izboljšan ukaz za razdelitev vrstic</li>
           <li xml:lang="tr">MOD: Improved split lines command</li>
@@ -1990,6 +2006,7 @@
           <li xml:lang="ca-valencia">Modificació: traducció actualitzada al txec, gràcies @goliashcz</li>
           <li xml:lang="es">Se ha actualizado la traducción al checo (gracias a @goliashcz)</li>
           <li xml:lang="fr">MODIFICATION : mise à jour de la traduction en Tchèque - Merci à @goliashcz</li>
+          <li xml:lang="nl">GEWIJZIGD: Tsjechische vertaling bijgewerkt - dank aan @goliashcz</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para tcheco atualizada - obrigado @goliashcz</li>
           <li xml:lang="sl">SPREMENITI: Posodobljen češki prevod - hvala @goliashcz</li>
           <li xml:lang="tr">MOD: Updated Czech translation - thanks @goliashcz</li>
@@ -2000,6 +2017,7 @@
           <li xml:lang="ca-valencia">Modificació: traduccions actualitzades al croat, gràcies @muzena</li>
           <li xml:lang="es">Se ha actualizado la traducción al croata (gracias a @muzena)</li>
           <li xml:lang="fr">MODIFICATION : mise à jour de la traduction en Croates - Merci à @muzena</li>
+          <li xml:lang="nl">GEWIJZIGD: Kroatische vertalingen bijgewerkt - dank aan @muzena</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para croata atualizada - obrigado @muzena</li>
           <li xml:lang="sl">SPREMENITI: Posodobljeni hrvaški prevodi - hvala @muzena</li>
           <li xml:lang="tr">MOD: Updated Croatian translations - thanks @muzena</li>
@@ -2009,6 +2027,7 @@
           <li xml:lang="ca">Correcció: arrossegament i millora de la velocitat del giny de forma d'ona, corregit un desbordament de memòria intermèdia</li>
           <li xml:lang="ca-valencia">Correcció: arrossegament i millora de la velocitat del giny de forma d'ona, corregit un desbordament de memòria intermèdia</li>
           <li xml:lang="fr">CORRECTIF : améliorations du glisser et de la vitesse du composant graphique de forme d’onde, correction du débordement de tampon mémoire</li>
+          <li xml:lang="nl">OPGELOST: verbeteringen in het slepen en de snelheid van het Waveform-widget, bufferoverloop verholpen</li>
           <li xml:lang="pt-BR">CORREÇÃO: Melhorias no arrastar e a velocidade do widget de forma de onda, correção de estouro de buffer</li>
           <li xml:lang="sl">POPRAVEK: Izboljšave vlečenja in hitrosti gradnika Waveform, odpravljeno prelivanje medpomnilnika</li>
           <li xml:lang="tr">FIX: Waveform widget dragging and speed improvements, fixed buffer overflow</li>
@@ -2018,6 +2037,7 @@
           <li xml:lang="ca">Correcció: WaveformWidget: el zoom no funcionava en pel·lícules sense àudio</li>
           <li xml:lang="ca-valencia">Correcció: WaveformWidget: el zoom no funcionava en pel·lícules sense àudio</li>
           <li xml:lang="fr">CORRECTION : composant graphique de forme d'onde : le zoom arrière ne fonctionnait pas sur les vidéos sans audio</li>
+          <li xml:lang="nl">OPGELOST: WaveformWidget: uitzoomen werkte niet bij films zonder geluid</li>
           <li xml:lang="pt-BR">CORREÇÃO: WaveformWidget: o zoom out não estava funcionando em vídeos sem áudio</li>
           <li xml:lang="sl">POPRAVEK: WaveformWidget: pomanjšanje ni delovalo pri filmih brez zvoka</li>
           <li xml:lang="tr">FIX: WaveformWidget: zoom out wasn't working on movies without audio</li>
@@ -2027,6 +2047,7 @@
           <li xml:lang="ca">Correcció: s'han corregit els casos en què el temps d'ocultació dels subtítols acabaria abans del temps de visualització</li>
           <li xml:lang="ca-valencia">Correcció: s'han corregit els casos en què el temps d'ocultació dels subtítols acabaria abans del temps de visualització</li>
           <li xml:lang="fr">CORRECTIF : correction des cas où l’heure de disparition des sous-titres se retrouvait avant l’heure d’affichage</li>
+          <li xml:lang="nl">OPGELOST: er is een probleem opgelost waarbij het verbergen van de ondertitels vóór het weergeven ervan plaatsvond</li>
           <li xml:lang="pt-BR">CORREÇÃO: Corrigidos os casos em que o tempo de ocultação das legendas terminava antes do início da exibição</li>
           <li xml:lang="sl">POPRAVEK: Odpravljeni primeri, ko se je čas skrivanja podnapisov končal pred časom prikaza</li>
           <li xml:lang="tr">FIX: Fixed cases where subtitle hide time would end up before show time</li>
@@ -2037,6 +2058,7 @@
           <li xml:lang="ca-valencia">Correcció: menús contextuals millorats</li>
           <li xml:lang="es">Se han mejorado los menús de contexto.</li>
           <li xml:lang="fr">CORRECTION : amélioration des menus contextuels</li>
+          <li xml:lang="nl">OPGELOST: verbeterde contextmenu's</li>
           <li xml:lang="pt-BR">CORREÇÃO: Menus de contexto aprimorados</li>
           <li xml:lang="sl">POPRAVEK: Izboljšani kontekstni meniji</li>
           <li xml:lang="tr">FIX: Improved context menus</li>
@@ -2046,6 +2068,7 @@
           <li xml:lang="ca">Correcció: corregit el moviment de les línies ancorades</li>
           <li xml:lang="ca-valencia">Correcció: corregit el moviment de les línies ancorades</li>
           <li xml:lang="fr">CORRECTIF : correction du déplacement des lignes ancrées</li>
+          <li xml:lang="nl">OPGELOST: het verschuiven van verankerde regels is verholpen</li>
           <li xml:lang="pt-BR">CORREÇÃO: Correção do deslocamento das linhas ancoradas</li>
           <li xml:lang="sl">POPRAVEK: Odpravljeno premikanje zasidranih vrstic</li>
           <li xml:lang="tr">FIX: Fixed moving of anchored lines</li>
@@ -2055,6 +2078,7 @@
           <li xml:lang="ca">Correcció: en alguns casos, obrir el subtítol no carregaria automàticament el vídeo</li>
           <li xml:lang="ca-valencia">Correcció: en alguns casos, obrir el subtítol no carregaria automàticament el vídeo</li>
           <li xml:lang="fr">CORRECTIF : l'ouverture des sous-titres ne se chargeaient pas automatiquement dans certaines vidéos</li>
+          <li xml:lang="nl">OPGELOST: in sommige gevallen werd de video niet automatisch geladen bij het openen van de ondertiteling</li>
           <li xml:lang="pt-BR">CORREÇÃO: A opção "Abrir legenda" não carregava o vídeo automaticamente em alguns casos</li>
           <li xml:lang="sl">POPRAVEK: Odprti podnapisi se v nekaterih primerih niso samodejno naložili videoposnetka</li>
           <li xml:lang="tr">FIX: Open subtitle wouldn't autoload video in some cases</li>
@@ -2064,6 +2088,7 @@
           <li xml:lang="ca">Correcció: ara l'obertura de vídeo inclou les extensions .divx i .webm</li>
           <li xml:lang="ca-valencia">Correcció: ara l'obertura de vídeo inclou les extensions .divx i .webm</li>
           <li xml:lang="fr">CORRECTIF : l'ouverture de vidéos inclut désormais les extensions « .divx » et « .webm »</li>
+          <li xml:lang="nl">OPGELOST: openen van video ondersteunt nu de extensies .divx en .webm</li>
           <li xml:lang="pt-BR">CORREÇÃO: A função Abrir vídeo agora inclui as extensões .divx e .webm</li>
           <li xml:lang="sl">POPRAVEK: Odprti video zdaj vključuje razširitve .divx in .webm</li>
           <li xml:lang="tr">FIX: Open video now includes .divx and .webm extensions</li>
