@@ -3498,7 +3498,7 @@ msgstr "JSON del compte de servei que conté la clau privada"
 #: src/scconfig.kcfg:250 src/scconfig.kcfg:274 src/scconfig.kcfg:287
 #, kde-format
 msgid "source language - cached"
-msgstr "idioma original - en memòria cau"
+msgstr "idioma original – en memòria cau"
 
 #. i18n: ectx: label, entry (gctLangTrans), group (GoogleCloudTranslate)
 #. i18n: ectx: label, entry (dltLangTrans), group (DeepLTranslate)
@@ -3506,25 +3506,25 @@ msgstr "idioma original - en memòria cau"
 #: src/scconfig.kcfg:253 src/scconfig.kcfg:277 src/scconfig.kcfg:290
 #, kde-format
 msgid "translation language - cached"
-msgstr "idioma traduït - en memòria cau"
+msgstr "idioma traduït – en memòria cau"
 
 #. i18n: ectx: label, entry (gctAccessToken), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:256
 #, kde-format
 msgid "access token - cached"
-msgstr "testimoni d'accés - en memòria cau"
+msgstr "testimoni d'accés – en memòria cau"
 
 #. i18n: ectx: label, entry (gctTokenExpires), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:259
 #, kde-format
 msgid "access token expiry - cached"
-msgstr "venciment del testimoni d'accés - en memòria cau"
+msgstr "venciment del testimoni d'accés – en memòria cau"
 
 #. i18n: ectx: label, entry (gctTokenType), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:262
 #, kde-format
 msgid "access token type - cached"
-msgstr "tipus del testimoni d'accés - en memòria cau"
+msgstr "tipus del testimoni d'accés – en memòria cau"
 
 #. i18n: ectx: label, entry (dltAuthKey), group (DeepLTranslate)
 #: src/scconfig.kcfg:268
@@ -4029,7 +4029,7 @@ msgid ""
 "HTTP Error %1 - %2\n"
 "%3"
 msgstr ""
-"S'ha produït un error d'HTTP %1 - %2\n"
+"S'ha produït un error d'HTTP %1 – %2\n"
 "%3"
 
 #: src/translate/deeplengine.cpp:70 src/translate/googlecloudengine.cpp:156

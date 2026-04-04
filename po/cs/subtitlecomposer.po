@@ -6,15 +6,16 @@
 # Sergio Pistone <sergio_pistone@yahoo,com.ar>, 2009.
 # Petr Gadula <pgadula@vendavo.com>, 2016.
 # SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025, 2026 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2026 Libor Filípek <filipek.libor@protonmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 09:00+0000\n"
-"PO-Revision-Date: 2026-03-16 15:30+0100\n"
-"Last-Translator:  Vít Pelčák <vit@pelcak.org>\n"
-"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2026-04-03 17:12+0200\n"
+"Last-Translator: Libor Filípek <filipek.libor@protonmail.com>\n"
+"Language-Team: \n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1952,12 +1953,12 @@ msgstr[2] "Má příliš mnoho řádků v překladu (%1 řádků)."
 #: src/core/subtitleline.cpp:106
 #, kde-format
 msgid "Has too many characters per line in primary text."
-msgstr ""
+msgstr "Má příliš mnoho znaků na řádek v primárním textu."
 
 #: src/core/subtitleline.cpp:107
 #, kde-format
 msgid "Has too many characters per line in translation text."
-msgstr ""
+msgstr "Má příliš mnoho znaků na řádek v přeloženém textu."
 
 #: src/core/subtitleline.cpp:108
 #, kde-format
@@ -2664,7 +2665,7 @@ msgstr "Nastavení"
 #: src/formats/vobsub/vobsubinputinitdialog.ui:118
 #, kde-format
 msgid "Whitespace detection threshold (pixels)"
-msgstr ""
+msgstr "Prahová hodnota pro detekci mezer (v pixelech)"
 
 #: src/formats/vobsub/vobsubinputprocessdialog.cpp:585
 #, kde-format
@@ -3276,13 +3277,13 @@ msgstr "Výchozí klient"
 #: src/scconfig.kcfg:109
 #, kde-format
 msgid "Background checker enabled"
-msgstr ""
+msgstr "Funkce kontroly pozadí zapnuta"
 
 #. i18n: ectx: label, entry (checkerEnabledByDefault), group (Spelling)
 #: src/scconfig.kcfg:113
 #, kde-format
 msgid "Checker enabled by default"
-msgstr ""
+msgstr "Kontrola zapnuta jako výchozí"
 
 #. i18n: ectx: label, entry (skipUppercase), group (Spelling)
 #: src/scconfig.kcfg:117
@@ -3755,7 +3756,7 @@ msgstr "Adresář obsahující soubory akustických modelů"
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:39
 #, kde-format
 msgid "Word trigram language model input file"
-msgstr ""
+msgstr "Vstupní soubor trigramového slovního jazykového modelu"
 
 #. i18n: ectx: label, entry (lexiconFile), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_lexiconFile)
@@ -3763,7 +3764,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:26
 #, kde-format
 msgid "Main pronunciation dictionary (lexicon) input file"
-msgstr ""
+msgstr "Hlavní vstupní soubor slovníku výslovnosti (lexikonu)"
 
 #. i18n: ectx: label, entry (vadPostSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadPostSpeech)
@@ -3771,7 +3772,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:152
 #, kde-format
 msgid "Num of silence frames to keep after speech to silence transition"
-msgstr ""
+msgstr "Počet snímků ticha, které se mají zachovat po přechodu z řeči do ticha"
 
 #. i18n: ectx: label, entry (vadPreSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadPreSpeech)
@@ -3780,6 +3781,7 @@ msgstr ""
 #, kde-format
 msgid "Num of speech frames to keep before silence to speech transition"
 msgstr ""
+"Počet snímků řeči, které se mají zachovat před přechodem z ticha do řeči"
 
 #. i18n: ectx: label, entry (vadStartSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadStartSpeech)
@@ -3788,6 +3790,8 @@ msgstr ""
 #, kde-format
 msgid "Num of speech frames to trigger VAD from silence to speech"
 msgstr ""
+"Počet snímků řeči, po kterých se spustí detekce hlasové aktivity při "
+"přechodu z ticha do řeči"
 
 #. i18n: ectx: label, entry (vadTreshold), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_vadTreshold)
@@ -4168,6 +4172,10 @@ msgid ""
 "machinetranslation\">setup your own service</a> or use some <a href="
 "\"https://translate.wmcloud.org/\">public API</a>."
 msgstr ""
+"Je třeba zadat  URL adresu rozhraní API ze systému strojového překladu MinT. "
+"Můžete si <a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
+"machinetranslation\">nastavit vlastní službu</a> nebo využít některé <a href="
+"\"https://translate.wmcloud.org/\">veřejné API</a>."
 
 #: src/translate/translatedialog.cpp:31
 #, kde-format
