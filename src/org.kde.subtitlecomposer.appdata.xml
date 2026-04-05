@@ -39,6 +39,7 @@
   <summary xml:lang="ar">محرر ترجمات الفيديو الذي يوفر عمليات التحرير الأساسية والمتقدمة</summary>
   <summary xml:lang="ca">Editor de subtítols de vídeo que admet operacions d'edició bàsiques i avançades</summary>
   <summary xml:lang="ca-valencia">Editor de subtítols de vídeo que admet operacions d'edició bàsiques i avançades</summary>
+  <summary xml:lang="cs">Editor titulků k videím, který podporuje základní i pokročilé úpravy</summary>
   <summary xml:lang="de">Editor für Video-Untertitel mit einfachen und erweiterten Bearbeitungsfunktionen</summary>
   <summary xml:lang="en-GB">Video subtitle editor that supports basic and advanced editing operations</summary>
   <summary xml:lang="eo">Redaktilo de subtitoloj de video subtenas bazajn kaj altnivelajn redaktajn operaciojn</summary>
@@ -67,6 +68,7 @@
     <p xml:lang="ar">صانع الترجمة هو محرر ترجمات مفتوح المصدر قائم على النص يوفر عمليات التحرير الأساسية والمتقدمة.</p>
     <p xml:lang="ca">El Subtitle Composer és un editor de subtítols de codi obert basat en text que admet operacions d'edició bàsiques i avançades.</p>
     <p xml:lang="ca-valencia">Subtitle Composer és un editor de subtítols de codi obert basat en text que admet operacions d'edició bàsiques i avançades.</p>
+    <p xml:lang="cs">Subtitle Composer je textový editor titulků s otevřeným zdrojovým kódem, který podporuje základní i pokročilé úpravy.</p>
     <p xml:lang="de">Subtitle Composer ist ein quelloffener, textbasierter Untertitel-Editor, der grundlegende und erweiterte Bearbeitungsfunktionen unterstützt.</p>
     <p xml:lang="en-GB">Subtitle Composer is an open source text-based subtitle editor that supports basic and advanced editing operations.</p>
     <p xml:lang="eo">Subtitle Composer estas malfermfonta tekst-bazita subtitola redaktilo, kiu subtenas bazajn kaj altnivelajn redaktajn operaciojn.</p>
@@ -125,6 +127,7 @@
       <li xml:lang="ar">فتح/حفظ صيغ ترجمات النص - SubRip/SRT وMicroDVD وSSA/ASS وMPlayer وTMPLayer وتعليقات YouTube</li>
       <li xml:lang="ca">Obre/Desa els formats de subtítols de text: SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer i llegendes de YouTube</li>
       <li xml:lang="ca-valencia">Obri/Guarda els formats de subtítols de text: SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer i llegendes de YouTube</li>
+      <li xml:lang="cs">Otevření/uložení textových formátů titulků – SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer a titulky YouTube</li>
       <li xml:lang="en-GB">Open/Save Text Subtitle Formats - SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer and YouTube captions</li>
       <li xml:lang="eo">Malfermu/Konservi Tekstajn Subtitolojn - SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer kaj YouTube-subtitoloj</li>
       <li xml:lang="es">Abrir y guardar formatos de subtítulos de texto: SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer y subtítulos de YouTube</li>
@@ -150,6 +153,7 @@
       <li xml:lang="ar">فتح/التعرف الضوئي على الحروف (OCR) لصيغ ترجمات الرسومات - VobSub (.idx/.sub/.rar) وBluRay/PGS (*.sup) والصيغ المتاحة بواسطة ffmpeg (DVD/Vob وDVB وXSUB وHDMV-PGS)</li>
       <li xml:lang="ca">Obre/Formats de subtítols gràfics OCR: VobSub (.idx/.sub/.rar), Blu-ray/PGS (*.sup), formats admesos per ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="ca-valencia">Obri/Formats de subtítols gràfics OCR: VobSub (.idx/.sub/.rar), Blu-ray/PGS (*.sup), formats admesos per ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
+      <li xml:lang="cs">Otevření OCR grafických titulků – VobSub (.idx/.sub/.rar), Blu-ray/PGS (*.sup) a formátů podporovaných ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="en-GB">Open/OCR Graphics Subtitle Formats - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formats supported by ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="eo">Malfermaj/OCR-Grafikaj Subtitolaj Formatoj - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formatoj subtenataj de ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="es">Abrir y OCR de formatos de subtítulos gráficos: VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formatos permitidos por ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
@@ -175,6 +179,7 @@
       <li xml:lang="ar">فصل (Demux) دفق ترجمات الرسومات/النص من ملف الفيديو - SRT وSSA/ASS وMOV text وMicroDVD وDVD/Vob وDVB وXSUB وHDMV-PGS</li>
       <li xml:lang="ca">Desmultiplexa el flux de subtítols gràfics/de text des d'un fitxer de vídeo: SRT, SSA/ASS, text MOV, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="ca-valencia">Desmultiplexa el flux de subtítols gràfics/de text des d'un fitxer de vídeo: SRT, SSA/ASS, text MOV, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
+      <li xml:lang="cs">Extrakce grafických/textových titulků z video souboru – SRT, SSA/ASS, text v MOV, MicroDVD, DVD/VOB, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="en-GB">Demux Graphics/Text Subtitle Stream from video file - SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="eo">Demux Graphics/Tekstaj Subtitoloj Fluo de videodosiero - SRT, SSA/ASS, MOV-teksto, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="es">Demultiplexar emisiones de subtítulos gráficos y de texto de archivos de vídeo: SRT, SSA/ASS, texto MOV, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
@@ -199,6 +204,7 @@
       <li xml:lang="ar">التعرف على الكلام من ملف الصوت/الفيديو باستخدام PocketSphinx</li>
       <li xml:lang="ca">Reconeixement de la veu des de fitxers d'àudio/vídeo emprant PocketSphinx</li>
       <li xml:lang="ca-valencia">Reconeixement de la veu des de fitxers d'àudio/vídeo emprant PocketSphinx</li>
+      <li xml:lang="cs">Rozpoznávání řeči ze zvukových a video souborů pomocí PocketSphinx</li>
       <li xml:lang="de">Spracherkennung von Audio-/Videodateien mit PocketSphinx</li>
       <li xml:lang="en-GB">Speech recognition from audio/video file using PocketSphinx</li>
       <li xml:lang="eo">Parola rekono de son-/video dosiero uzante PocketSphinx</li>
@@ -225,6 +231,7 @@
       <li xml:lang="ar">كشف ذكي للغة/ترميز النص**</li>
       <li xml:lang="ca">Detecció** intel·ligent de la codificació d'idioma/text</li>
       <li xml:lang="ca-valencia">Detecció** intel·ligent de la codificació d'idioma/text</li>
+      <li xml:lang="cs">Inteligentní detekce kódování jazyka/textu**</li>
       <li xml:lang="de">Intelligente Erkennung von Sprach- und Textkodierung</li>
       <li xml:lang="en-GB">Smart language/text encoding** detection</li>
       <li xml:lang="eo">Saĝa lingvo/teksta kodado** detekto</li>
@@ -251,6 +258,7 @@
       <li xml:lang="ar">معاينة حية للترجمات في مشغل الفيديو المدمج مع اختيار دفق الصوت</li>
       <li xml:lang="ca">Vista prèvia en viu dels subtítols en el reproductor de vídeo integrat amb selecció del flux d'àudio</li>
       <li xml:lang="ca-valencia">Vista prèvia en viu dels subtítols en el reproductor de vídeo integrat amb selecció del flux d'àudio</li>
+      <li xml:lang="cs">Živý náhled titulků v integrovaném přehrávači videa s možností výběru zvukového kanálu</li>
       <li xml:lang="de">Live-Vorschau von Untertiteln im integrierten Videoplayer mit Auswahl des Audio-Streams</li>
       <li xml:lang="en-GB">Live preview of subtitles in integrated video player w/ audio stream selection</li>
       <li xml:lang="eo">Viva antaŭprezento de subtekstoj en integra videoludilo kun elekto de aŭda fluo</li>
@@ -1002,7 +1010,7 @@
           <li>Fixed crash in split lines</li>
           <li xml:lang="ar">أُصلح الانهيار عند تقسيم الأسطر</li>
           <li xml:lang="ca">S'ha corregit una fallada en les línies dividides</li>
-          <li xml:lang="ca-valencia">S'ha corregit una fallada en les línies dividides</li>
+          <li xml:lang="ca-valencia">S'ha esmenat una fallada en les línies dividides</li>
           <li xml:lang="fr">Correction du plantage lors de la division des lignes</li>
           <li xml:lang="nl">Crash bij het splitsen van regels opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava travamento nas linhas de divisão</li>
@@ -1022,7 +1030,7 @@
           <li>Fixed VobSub crash when moving to previous image</li>
           <li xml:lang="ar">أُصلح انهيار VobSub عند الانتقال إلى الصورة السابقة</li>
           <li xml:lang="ca">S'ha corregit una fallada de VobSub en moure's a la imatge anterior</li>
-          <li xml:lang="ca-valencia">S'ha corregit una fallada de VobSub en moure's a la imatge anterior</li>
+          <li xml:lang="ca-valencia">S'ha esmenat una fallada de VobSub en moure's a la imatge anterior</li>
           <li xml:lang="fr">Correction du plantage de VobSub lors du passage à l'image précédente</li>
           <li xml:lang="nl">VobSub-crash bij het terugzetten naar de vorige afbeelding is opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento do VobSub ao passar para a imagem anterior</li>
@@ -2025,7 +2033,7 @@
           <li>FIX: Waveform widget dragging and speed improvements, fixed buffer overflow</li>
           <li xml:lang="ar">إصلاح: تحسينات في سحب وسرعة ودجة الشكل الموجي، وأُصلح طفح المخزن المؤقت</li>
           <li xml:lang="ca">Correcció: arrossegament i millora de la velocitat del giny de forma d'ona, corregit un desbordament de memòria intermèdia</li>
-          <li xml:lang="ca-valencia">Correcció: arrossegament i millora de la velocitat del giny de forma d'ona, corregit un desbordament de memòria intermèdia</li>
+          <li xml:lang="ca-valencia">Esmena: arrossegament i millora de la velocitat del giny de forma d'ona, corregit un desbordament de memòria intermèdia</li>
           <li xml:lang="fr">CORRECTIF : améliorations du glisser et de la vitesse du composant graphique de forme d’onde, correction du débordement de tampon mémoire</li>
           <li xml:lang="nl">OPGELOST: verbeteringen in het slepen en de snelheid van het Waveform-widget, bufferoverloop verholpen</li>
           <li xml:lang="pt-BR">CORREÇÃO: Melhorias no arrastar e a velocidade do widget de forma de onda, correção de estouro de buffer</li>
@@ -2035,7 +2043,7 @@
           <li>FIX: WaveformWidget: zoom out wasn't working on movies without audio</li>
           <li xml:lang="ar">إصلاح: WaveformWidget: التصغير لم يكن يعمل في الأفلام التي لا تحتوي على صوت</li>
           <li xml:lang="ca">Correcció: WaveformWidget: el zoom no funcionava en pel·lícules sense àudio</li>
-          <li xml:lang="ca-valencia">Correcció: WaveformWidget: el zoom no funcionava en pel·lícules sense àudio</li>
+          <li xml:lang="ca-valencia">Esmena: WaveformWidget: el zoom no funcionava en pel·lícules sense àudio</li>
           <li xml:lang="fr">CORRECTION : composant graphique de forme d'onde : le zoom arrière ne fonctionnait pas sur les vidéos sans audio</li>
           <li xml:lang="nl">OPGELOST: WaveformWidget: uitzoomen werkte niet bij films zonder geluid</li>
           <li xml:lang="pt-BR">CORREÇÃO: WaveformWidget: o zoom out não estava funcionando em vídeos sem áudio</li>
@@ -2045,7 +2053,7 @@
           <li>FIX: Fixed cases where subtitle hide time would end up before show time</li>
           <li xml:lang="ar">إصلاح: أُصلحت الحالات التي ينتهي فيها وقت إخفاء الترجمة قبل وقت إظهارها</li>
           <li xml:lang="ca">Correcció: s'han corregit els casos en què el temps d'ocultació dels subtítols acabaria abans del temps de visualització</li>
-          <li xml:lang="ca-valencia">Correcció: s'han corregit els casos en què el temps d'ocultació dels subtítols acabaria abans del temps de visualització</li>
+          <li xml:lang="ca-valencia">Esmena: s'han corregit els casos en què el temps d'ocultació dels subtítols acabaria abans del temps de visualització</li>
           <li xml:lang="fr">CORRECTIF : correction des cas où l’heure de disparition des sous-titres se retrouvait avant l’heure d’affichage</li>
           <li xml:lang="nl">OPGELOST: er is een probleem opgelost waarbij het verbergen van de ondertitels vóór het weergeven ervan plaatsvond</li>
           <li xml:lang="pt-BR">CORREÇÃO: Corrigidos os casos em que o tempo de ocultação das legendas terminava antes do início da exibição</li>
@@ -2055,7 +2063,7 @@
           <li>FIX: Improved context menus</li>
           <li xml:lang="ar">إصلاح: حُسّنت قوائم السياق</li>
           <li xml:lang="ca">Correcció: menús contextuals millorats</li>
-          <li xml:lang="ca-valencia">Correcció: menús contextuals millorats</li>
+          <li xml:lang="ca-valencia">Esmena: menús contextuals millorats</li>
           <li xml:lang="es">Se han mejorado los menús de contexto.</li>
           <li xml:lang="fr">CORRECTION : amélioration des menus contextuels</li>
           <li xml:lang="nl">OPGELOST: verbeterde contextmenu's</li>
@@ -2066,7 +2074,7 @@
           <li>FIX: Fixed moving of anchored lines</li>
           <li xml:lang="ar">إصلاح: أُصلح تحريك الأسطر المرفقة بمراسي</li>
           <li xml:lang="ca">Correcció: corregit el moviment de les línies ancorades</li>
-          <li xml:lang="ca-valencia">Correcció: corregit el moviment de les línies ancorades</li>
+          <li xml:lang="ca-valencia">Esmena: corregit el moviment de les línies ancorades</li>
           <li xml:lang="fr">CORRECTIF : correction du déplacement des lignes ancrées</li>
           <li xml:lang="nl">OPGELOST: het verschuiven van verankerde regels is verholpen</li>
           <li xml:lang="pt-BR">CORREÇÃO: Correção do deslocamento das linhas ancoradas</li>
@@ -2076,7 +2084,7 @@
           <li>FIX: Open subtitle wouldn't autoload video in some cases</li>
           <li xml:lang="ar">إصلاح: فتح الترجمة لم يكن يحمل الفيديو آلياً في بعض الحالات</li>
           <li xml:lang="ca">Correcció: en alguns casos, obrir el subtítol no carregaria automàticament el vídeo</li>
-          <li xml:lang="ca-valencia">Correcció: en alguns casos, obrir el subtítol no carregaria automàticament el vídeo</li>
+          <li xml:lang="ca-valencia">Esmena: en alguns casos, obrir el subtítol no carregaria automàticament el vídeo</li>
           <li xml:lang="fr">CORRECTIF : l'ouverture des sous-titres ne se chargeaient pas automatiquement dans certaines vidéos</li>
           <li xml:lang="nl">OPGELOST: in sommige gevallen werd de video niet automatisch geladen bij het openen van de ondertiteling</li>
           <li xml:lang="pt-BR">CORREÇÃO: A opção "Abrir legenda" não carregava o vídeo automaticamente em alguns casos</li>
@@ -2086,7 +2094,7 @@
           <li>FIX: Open video now includes .divx and .webm extensions</li>
           <li xml:lang="ar">إصلاح: فتح الفيديو يشمل الآن امتدادات .divx و .webm</li>
           <li xml:lang="ca">Correcció: ara l'obertura de vídeo inclou les extensions .divx i .webm</li>
-          <li xml:lang="ca-valencia">Correcció: ara l'obertura de vídeo inclou les extensions .divx i .webm</li>
+          <li xml:lang="ca-valencia">Esmena: ara l'obertura de vídeo inclou les extensions .divx i .webm</li>
           <li xml:lang="fr">CORRECTIF : l'ouverture de vidéos inclut désormais les extensions « .divx » et « .webm »</li>
           <li xml:lang="nl">OPGELOST: openen van video ondersteunt nu de extensies .divx en .webm</li>
           <li xml:lang="pt-BR">CORREÇÃO: A função Abrir vídeo agora inclui as extensões .divx e .webm</li>
@@ -2096,7 +2104,7 @@
           <li>FIX: Tools menu scripts are filtered based on installed kross interpreters</li>
           <li xml:lang="ar">إصلاح: تُرشح برمجيات قائمة الأدوات بناءً على مفسرات kross المثبتة</li>
           <li xml:lang="ca">Correcció: els scripts del menú Eines es filtren en funció dels intèrprets instal·lats del kross</li>
-          <li xml:lang="ca-valencia">Correcció: els scripts del menú Eines es filtren en funció dels intèrprets instal·lats del kross</li>
+          <li xml:lang="ca-valencia">Esmena: els scripts del menú Eines es filtren en funció dels intèrprets instal·lats del kross</li>
           <li xml:lang="fr">CORRECTIF : les scripts du menu Outils sont filtrés en fonction des interprètes installés pour Kross</li>
           <li xml:lang="nl">REPARATIE: scripts voor hulpmiddelenmenu gefilterd gebaseerd op geïnstalleerde kross interpretators</li>
           <li xml:lang="pt-BR">CORREÇÃO: Os scripts do menu Ferramentas são filtrados com base nos interpretadores kross instalados</li>
@@ -2106,7 +2114,7 @@
           <li>FIX: Moved custom icons to more standard location, using QIcon::fromTheme()</li>
           <li xml:lang="ar">إصلاح: نُقلت الأيقونات المخصصة إلى موقع أكثر قياسية، باستخدام QIcon::fromTheme()</li>
           <li xml:lang="ca">Correcció: s'han mogut les icones personalitzades a una ubicació més estàndard, utilitzant QIcon::fromTheme()</li>
-          <li xml:lang="ca-valencia">Correcció: s'han mogut les icones personalitzades a una ubicació més estàndard, utilitzant QIcon::fromTheme()</li>
+          <li xml:lang="ca-valencia">Esmena: s'han mogut les icones personalitzades a una ubicació més estàndard, utilitzant QIcon::fromTheme()</li>
           <li xml:lang="fr">CORRECTION : déplacement des icônes personnalisées vers un emplacement plus standard, en utilisant QIcon::fromTheme()</li>
           <li xml:lang="nl">REPARATIE: aangepaste pictogrammen verplaats naar meer standaard locatie, met gebruik van QIcon::fromTheme()</li>
           <li xml:lang="pt-BR">CORREÇÃO: Ícones personalizados foram movidos para um local mais padrão, usando QIcon::fromTheme()</li>
@@ -2116,7 +2124,7 @@
           <li>FIX: Error Check &gt; Absolute Duration config fields were changing incorrect values</li>
           <li xml:lang="ar">إصلاح: حقول ضبط فحص الأخطاء &gt; المدة المطلقة كانت تغير قيماً غير صحيحة</li>
           <li xml:lang="ca">Correcció: error en comprovar &gt; els camps de configuració de la durada absoluta que estaven canviant valors incorrectes</li>
-          <li xml:lang="ca-valencia">Correcció: error mentre es comprovava &gt; els camps de configuració de la duració absoluta que estaven canviant valors incorrectes</li>
+          <li xml:lang="ca-valencia">Esmena: error mentre es comprovava &gt; els camps de configuració de la duració absoluta que estaven canviant valors incorrectes</li>
           <li xml:lang="fr">CORRECTION : les champs « Vérification d'erreur / Durée absolue » changeaient avec des valeurs incorrectes</li>
           <li xml:lang="nl">REPARATIE: foutcontrole &gt; absolute tijdsduur in configuratievelden zijn gewijzigd  in onjuiste waarden</li>
           <li xml:lang="pt-BR">CORREÇÃO: Verificação de erro &gt; os campos de configuração de duração absoluta estavam sendo alterados para valores incorretos</li>
@@ -2126,7 +2134,7 @@
           <li>FIX: MPV Backend: fixed deprecated options, updated vo devices - thanks @luzfcb</li>
           <li xml:lang="ar">إصلاح: محرك MPV: أُصلحت الخيارات المهجورة وحُدّثت أجهزة vo - شكراً @luzfcb</li>
           <li xml:lang="ca">Correcció: Dorsal MPV: s'han corregit les opcions obsoletes, s'han actualitzat els dispositius vo, gràcies @luzfcb</li>
-          <li xml:lang="ca-valencia">Correcció: Dorsal MPV: s'han corregit les opcions obsoletes, s'han actualitzat els dispositius vo, gràcies @luzfcb</li>
+          <li xml:lang="ca-valencia">Esmena: Dorsal MPV: s'han corregit les opcions obsoletes, s'han actualitzat els dispositius vo, gràcies @luzfcb</li>
           <li xml:lang="fr">CORRECTION : moteur MPV : correction des options obsolètes, mise à jour des périphériques vo - Merci à @luzfcb</li>
           <li xml:lang="nl">REPARATIE: MPV-backend: gerepareerd afgekeurde opties, bijgewerkt op apparaten - dank aan @luzfcb</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: opções obsoletas corrigidas, dispositivos VO atualizados - obrigado @luzfcb</li>
@@ -2136,7 +2144,7 @@
           <li>FIX: better rendering on high DPI screens</li>
           <li xml:lang="ar">إصلاح: صيرورة أفضل على الشاشات ذات الكثافة النقطية العالية</li>
           <li xml:lang="ca">Correcció: renderització millor en pantalles de PPP alts</li>
-          <li xml:lang="ca-valencia">Correcció: renderització millor en pantalles de PPP alts</li>
+          <li xml:lang="ca-valencia">Esmena: renderització millor en pantalles de PPP alts</li>
           <li xml:lang="fr">CORRECTIF : meilleur rendu sur les écrans à haute résolution</li>
           <li xml:lang="nl">REPARATIE: betere rendering op hoge DPI-schermen</li>
           <li xml:lang="pt-BR">CORREÇÃO: melhor renderização em telas de alta DPI</li>
@@ -2146,7 +2154,7 @@
           <li>FIX: MPV Backend: framerate/video length wasn't reported to subtitle composer anymore</li>
           <li xml:lang="ar">إصلاح: محرك MPV: معدل الإطارات/طول الفيديو لم يعد يُبلغ لصانع الترجمة</li>
           <li xml:lang="ca">Correcció: Dorsal MPV: la longitud de la freqüència de fotogrames/vídeo ja no s'informava a l'editor de subtítols</li>
-          <li xml:lang="ca-valencia">Correcció: Dorsal MPV: la llargària de la freqüència de fotogrames/vídeo ja no s'informava a l'editor de subtítols</li>
+          <li xml:lang="ca-valencia">Esmena: Dorsal MPV: la llargària de la freqüència de fotogrames/vídeo ja no s'informava a l'editor de subtítols</li>
           <li xml:lang="fr">CORRECTIF : moteur MPV : la fréquence d'images / la durée de la vidéo n'était plus transmise au compositeur de sous-titres</li>
           <li xml:lang="nl">REPARATIE: MPV-backend: framesnelheid/videolengte was niet meer gerapporteerd aan samensteller van ondertitel</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: a taxa de quadros/duração do vídeo não estava mais sendo informada ao compositor de legendas</li>
@@ -2156,7 +2164,7 @@
           <li>FIX: detection/handling of current playing line</li>
           <li xml:lang="ar">إصلاح: كشف/معالجة سطر التشغيل الحالي</li>
           <li xml:lang="ca">Correcció: detecció/gestió de la línia de reproducció actual</li>
-          <li xml:lang="ca-valencia">Correcció: detecció/gestió de la línia de reproducció actual</li>
+          <li xml:lang="ca-valencia">Esmena: detecció/gestió de la línia de reproducció actual</li>
           <li xml:lang="fr">CORRECTIF : détection / gestion de la ligne en cours de lecture</li>
           <li xml:lang="nl">REPARATIE: detectie/behandeling van nu spelende regel</li>
           <li xml:lang="pt-BR">CORREÇÃO: detecção/gerenciamento da linha de reprodução atual</li>
@@ -2166,7 +2174,7 @@
           <li>FIX: Parsing text containing &lt;font&gt; without color attribute</li>
           <li xml:lang="ar">إصلاح: تحليل النص الذي يحتوي على &lt;font&gt; بدون سمة اللون</li>
           <li xml:lang="ca">Correcció: anàlisi del text que conté &lt;font&gt; sense atribut de color</li>
-          <li xml:lang="ca-valencia">Correcció: anàlisi del text que conté &lt;font&gt; sense atribut de color</li>
+          <li xml:lang="ca-valencia">Esmena: anàlisi del text que conté &lt;font&gt; sense atribut de color</li>
           <li xml:lang="fr">CORRECTION : analyse du texte contenant des étiquettes &lt;font&gt; sans attribut de couleur</li>
           <li xml:lang="nl">REPARATIE: ontleden van tekst die &lt;lettertype&gt; zonder kleur attribuut bevat</li>
           <li xml:lang="pt-BR">CORREÇÃO: Análise de texto contendo &lt;fonte&gt; sem atributo de cor</li>
@@ -2176,7 +2184,7 @@
           <li>FIX: compilation without xine - thanks @pinotree</li>
           <li xml:lang="ar">إصلاح: التجميع بدون xine - شكراً @pinotree</li>
           <li xml:lang="ca">Correcció: compilació sense xine, gràcies @pinotree</li>
-          <li xml:lang="ca-valencia">Correcció: compilació sense xine, gràcies @pinotree</li>
+          <li xml:lang="ca-valencia">Esmena: compilació sense xine, gràcies @pinotree</li>
           <li xml:lang="fr">CORRECTION : compilation sans xine - Merci à @pinotree</li>
           <li xml:lang="it">Correzione: compilazione senze xine - grazie a @pinotree</li>
           <li xml:lang="nl">REPARATIE: compilatie zonder xine - dank aan @pinotree</li>
@@ -2187,7 +2195,7 @@
           <li>FIX: ASS parsing - thanks @Martchus</li>
           <li xml:lang="ar">إصلاح: تحليل ASS - شكراً @Martchus</li>
           <li xml:lang="ca">Correcció: anàlisi ASS, gràcies @Martchus</li>
-          <li xml:lang="ca-valencia">Correcció: anàlisi ASS, gràcies @Martchus</li>
+          <li xml:lang="ca-valencia">Esmena: anàlisi ASS, gràcies @Martchus</li>
           <li xml:lang="fr">CORRECTION : analyse du format « ASS » - Merci à @Martchus</li>
           <li xml:lang="it">Correzione: parsing di file ASS - grazie a @Martchus</li>
           <li xml:lang="nl">REPARATIE: ASS ontleding - dank aan @Martchus</li>
