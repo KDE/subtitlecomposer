@@ -12,8 +12,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.12.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #: src/actions/kcodecactionext.cpp:29
 #, kde-format
@@ -61,7 +61,7 @@ msgstr ""
 #: src/application.cpp:769
 #, kde-format
 msgid "Open Video"
-msgstr ""
+msgstr "Open Video"
 
 #: src/application.cpp:967 src/application.cpp:974
 #: src/application_subtitle.cpp:658
@@ -413,8 +413,7 @@ msgid "Makes the line after the current one active"
 msgstr ""
 
 #: src/application_actions.cpp:298
-#, fuzzy, kde-format
-#| msgid "Show Errors..."
+#, kde-format
 msgid "Detect Errors..."
 msgstr "Zobrazovať chyby..."
 
@@ -804,8 +803,7 @@ msgid "Seek to selected subtitle line show time, play it and then pause"
 msgstr ""
 
 #: src/application_actions.cpp:638
-#, fuzzy, kde-format
-#| msgid "Current line:"
+#, kde-format
 msgid "Seek to Current Line"
 msgstr "Aktuálny riadok:"
 
@@ -815,8 +813,7 @@ msgid "Seek to selected subtitle line show time"
 msgstr ""
 
 #: src/application_actions.cpp:646
-#, fuzzy, kde-format
-#| msgid "Select Line"
+#, kde-format
 msgid "Seek to Next Line"
 msgstr "Vybrať riadok"
 
@@ -1012,7 +1009,7 @@ msgstr "Všetky súbory"
 #: src/application_subtitle.cpp:102
 #, kde-format
 msgid "Media Files"
-msgstr ""
+msgstr "Mediálne súbory"
 
 #: src/application_subtitle.cpp:103
 #, kde-format
@@ -1051,9 +1048,9 @@ msgid ""
 msgstr ""
 
 #: src/application_subtitle.cpp:270 src/application_subtitle.cpp:317
-#, fuzzy, kde-format
+#, kde-format
 msgid "Format: %1"
-msgstr "Formát"
+msgstr ""
 
 #: src/application_subtitle.cpp:271 src/application_subtitle.cpp:318
 #, kde-format
@@ -1240,8 +1237,7 @@ msgstr "Texty"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxLines)
 #: src/configs/errorsconfigwidget.ui:23
-#, fuzzy, kde-format
-#| msgid "Join Lines"
+#, kde-format
 msgid " lines"
 msgstr " riadkov"
 
@@ -1336,8 +1332,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lab_IdealDurationPerCharacter)
 #: src/configs/errorsconfigwidget.ui:198
-#, fuzzy, kde-format
-#| msgid "<b>Duration</b>"
+#, kde-format
 msgid "Ideal duration:"
 msgstr "<b>Trvanie</b>"
 
@@ -1393,8 +1388,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lab_TextLineBreak)
 #: src/configs/generalconfigwidget.ui:65
-#, fuzzy, kde-format
-#| msgid " characters"
+#, kde-format
 msgid "Line break character:"
 msgstr " znaky"
 
@@ -1451,8 +1445,6 @@ msgstr ""
 msgctxt "Text for previewing the subtitles font settings"
 msgid "<p>The Quick Brown Fox<br/>Jumps Over The Lazy Dog</p>"
 msgstr ""
-"Kŕdeľ šťastných ďatľov učí pri kótovanom ústí Váhu mĺkveho koňa obhrýzať "
-"kôru a žrať čerstvé mäso"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UnpauseOnDoubleClick)
 #: src/configs/playerconfigwidget.ui:23
@@ -1818,7 +1810,7 @@ msgid "Check Lines Errors"
 msgstr ""
 
 #: src/core/subtitleline.cpp:59
-#, fuzzy, kde-format
+#, kde-format
 msgid "Empty text"
 msgstr "Prázdny text"
 
@@ -2083,8 +2075,7 @@ msgid "Swap Texts"
 msgstr ""
 
 #: src/core/undo/subtitleactions.cpp:306
-#, fuzzy, kde-format
-#| msgid "Change Case"
+#, kde-format
 msgid "Change stylesheet"
 msgstr "Zmeniť veľkosť písmen"
 
@@ -2153,8 +2144,7 @@ msgid "Translation subtitle"
 msgstr ""
 
 #: src/dialogs/actionwithtargetdialog.h:58
-#, fuzzy, kde-format
-#| msgid "Apply To"
+#, kde-format
 msgid "Apply to"
 msgstr "Použiť pre"
 
@@ -2396,7 +2386,7 @@ msgstr ""
 #, kde-format
 msgctxt "%p is the percent value, % is the percent sign"
 msgid "%p%"
-msgstr ""
+msgstr "%p%"
 
 #: src/dialogs/removelinesdialog.cpp:13
 #, kde-format
@@ -2475,14 +2465,12 @@ msgstr ""
 #: src/dialogs/subtitleclassdialog.ui:52
 #, kde-format
 msgid "Class"
-msgstr ""
+msgstr "Trieda"
 
 #: src/dialogs/subtitlecolordialog.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu Change Text Color"
-#| msgid "Text Color"
+#, kde-format
 msgid "Default Color"
-msgstr "Farba textu"
+msgstr "Štandardná farba"
 
 #. i18n: ectx: property (text), widget (QLabel, labVoice)
 #: src/dialogs/subtitlevoicedialog.ui:30
@@ -2495,7 +2483,7 @@ msgstr ""
 #: src/dialogs/subtitlevoicedialog.ui:52
 #, kde-format
 msgid "Voice"
-msgstr ""
+msgstr "Hlas"
 
 #: src/dialogs/syncsubtitlesdialog.cpp:17
 #, kde-format
@@ -2534,8 +2522,7 @@ msgid "No errors matching given criteria were found!"
 msgstr ""
 
 #: src/errors/finderrorsdialog.cpp:22
-#, fuzzy, kde-format
-#| msgid "Errors"
+#, kde-format
 msgctxt "@title:group"
 msgid "Errors to Find"
 msgstr "Chyby"
@@ -2559,7 +2546,7 @@ msgstr ""
 #: src/errors/finderrorsdialog.cpp:42
 #, kde-format
 msgid "Search in"
-msgstr ""
+msgstr "Hľadať v"
 
 #: src/errors/finderrorsdialog.cpp:86
 #, kde-format
@@ -2637,9 +2624,7 @@ msgstr ""
 #: src/formats/vobsub/vobsubinputinitdialog.ui:112
 #: src/translate/deeplengine.ui:104 src/translate/googlecloudengine.ui:91
 #: src/translate/mintengine.ui:92
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Settings"
+#, kde-format
 msgid "Settings"
 msgstr "Nastavenia"
 
@@ -2760,8 +2745,7 @@ msgid "Change Voice Tag"
 msgstr ""
 
 #: src/gui/currentlinewidget.cpp:318
-#, fuzzy, kde-format
-#| msgid "Change Case"
+#, kde-format
 msgid "Change Class Tag"
 msgstr "Zmeniť veľkosť písmen"
 
@@ -2771,20 +2755,17 @@ msgid "No current line"
 msgstr ""
 
 #: src/gui/currentlinewidget.cpp:526
-#, fuzzy, kde-format
-#| msgid " characters"
+#, kde-format
 msgid "chars"
 msgstr "Znaky"
 
 #: src/gui/currentlinewidget.cpp:534
-#, fuzzy, kde-format
-#| msgid " characters"
+#, kde-format
 msgid "ms/char"
 msgstr " znaky"
 
 #: src/gui/currentlinewidget.cpp:536
-#, fuzzy, kde-format
-#| msgid " characters"
+#, kde-format
 msgid "chars/sec"
 msgstr " znaky"
 
@@ -2832,8 +2813,7 @@ msgid "Error Playing File"
 msgstr ""
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:46
-#, fuzzy, kde-format
-#| msgid "Styles"
+#, kde-format
 msgid "&Stylesheet"
 msgstr "Štýly"
 
@@ -2843,8 +2823,7 @@ msgid "&Comments"
 msgstr ""
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "<b>Position</b>"
+#, kde-format
 msgid "&Position"
 msgstr "<b>Pozícia</b>"
 
@@ -2856,35 +2835,34 @@ msgstr ""
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:91
 #, kde-format
 msgid "Header"
-msgstr ""
+msgstr "Header"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:93
 #, kde-format
 msgid "Footer"
-msgstr ""
+msgstr "Zápätie"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SubtitlePositionWidget)
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:14
 #, kde-format
 msgid "Form"
-msgstr ""
+msgstr "Formulár"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpHAlign)
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:20
 #, kde-format
 msgid "Horizontal Alignment"
-msgstr ""
+msgstr "Vodorovné zarovnanie"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpVAlign)
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:103
 #, kde-format
 msgid "Vertical Alignment"
-msgstr ""
+msgstr "Zvislé zarovnanie"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpPosition)
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:164
-#, fuzzy, kde-format
-#| msgid "<b>Position</b>"
+#, kde-format
 msgid "Position/Size"
 msgstr "<b>Pozícia</b>"
 
@@ -2898,7 +2876,7 @@ msgstr "<b>Pozícia</b>"
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:200
 #, no-c-format, kde-format
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: src/gui/treeview/linesmodel.cpp:155
 #, kde-format
@@ -2912,8 +2890,7 @@ msgid "Line"
 msgstr "Riadok"
 
 #: src/gui/treeview/linesmodel.cpp:183
-#, fuzzy, kde-format
-#| msgid "Pause"
+#, kde-format
 msgctxt "@title:column"
 msgid "Pause"
 msgstr "Pozastaviť"
@@ -2931,8 +2908,7 @@ msgid "Hide Time"
 msgstr ""
 
 #: src/gui/treeview/linesmodel.cpp:186
-#, fuzzy, kde-format
-#| msgid "<b>Duration</b>"
+#, kde-format
 msgctxt "@title:column"
 msgid "Duration"
 msgstr "Trvanie"
@@ -3079,14 +3055,14 @@ msgid "A KDE subtitle editor."
 msgstr ""
 
 #: src/main.cpp:161
-#, fuzzy, kde-format
+#, kde-format
 msgid "Maintainer"
 msgstr "Správca"
 
 #: src/main.cpp:162
-#, fuzzy, kde-format
+#, kde-format
 msgid "Former Maintainer"
-msgstr "Pôvodný správca"
+msgstr "Pôdodný správca"
 
 #: src/main.cpp:163
 #, kde-format
@@ -3251,9 +3227,7 @@ msgstr "Štandardný jazyk"
 
 #. i18n: ectx: label, entry (autodetectLanguage), group (Spelling)
 #: src/scconfig.kcfg:101
-#, fuzzy, kde-format
-#| msgctxt "Encodings menu"
-#| msgid "Autodetect"
+#, kde-format
 msgid "Auto detect language"
 msgstr "Automatická detekcia"
 
@@ -3277,8 +3251,7 @@ msgstr ""
 
 #. i18n: ectx: label, entry (skipUppercase), group (Spelling)
 #: src/scconfig.kcfg:117
-#, fuzzy, kde-format
-#| msgid "Upper case"
+#, kde-format
 msgid "Skip uppercase"
 msgstr "Veľké písmená"
 
@@ -3511,8 +3484,7 @@ msgid "Non-Script Files"
 msgstr ""
 
 #: src/scripting/scriptsmanager.cpp:155
-#, fuzzy, kde-format
-#| msgid "Title Case"
+#, kde-format
 msgid "Title"
 msgstr "Názov"
 
@@ -3522,7 +3494,7 @@ msgid "Version"
 msgstr "Verzia"
 
 #: src/scripting/scriptsmanager.cpp:157
-#, fuzzy, kde-format
+#, kde-format
 msgid "Author"
 msgstr "Autor"
 
@@ -3553,7 +3525,7 @@ msgid "Edit"
 msgstr "Upraviť"
 
 #: src/scripting/scriptsmanager.cpp:417
-#, fuzzy, kde-format
+#, kde-format
 msgid "View"
 msgstr "Zobraziť"
 
@@ -3572,7 +3544,7 @@ msgstr ""
 #: src/scripting/scriptsmanager.cpp:489
 #, kde-format
 msgid "Yes"
-msgstr ""
+msgstr "Áno"
 
 #: src/scripting/scriptsmanager.cpp:493
 #, kde-format
@@ -3642,10 +3614,9 @@ msgid "Could not launch external editor.\n"
 msgstr ""
 
 #: src/scripting/scriptsmanager.cpp:634
-#, fuzzy, kde-format
-#| msgid "Error Running Script"
+#, kde-format
 msgid "Error opening script %1."
-msgstr "Chyba spustenia skriptu"
+msgstr ""
 
 #: src/scripting/scriptsmanager.cpp:634 src/scripting/scriptsmanager.cpp:649
 #: src/scripting/scriptsmanager.cpp:651
@@ -3994,16 +3965,13 @@ msgid "Updating languages..."
 msgstr ""
 
 #: src/translate/deeplengine.cpp:123 src/translate/googlecloudengine.cpp:304
-#, fuzzy, kde-format
-#| msgctxt "Encodings menu"
-#| msgid "Autodetect"
+#, kde-format
 msgid "Autodetect Language"
 msgstr "Automatická detekcia"
 
 #: src/translate/deeplengine.cpp:158 src/translate/googlecloudengine.cpp:337
 #: src/translate/mintengine.cpp:221
-#, fuzzy, kde-format
-#| msgid "Translate..."
+#, kde-format
 msgid "Translating lines..."
 msgstr "Preložiť..."
 
@@ -4011,7 +3979,7 @@ msgstr "Preložiť..."
 #: src/translate/deeplengine.ui:17 src/translate/googlecloudengine.ui:17
 #, kde-format
 msgid "Authentication"
-msgstr ""
+msgstr "Autentifikácia"
 
 #. i18n: ectx: property (text), widget (QLabel, labAuthKey)
 #: src/translate/deeplengine.ui:23
@@ -4023,7 +3991,7 @@ msgstr ""
 #: src/translate/deeplengine.ui:33
 #, kde-format
 msgid "Connect"
-msgstr ""
+msgstr "Pripojiť"
 
 #. i18n: ectx: property (text), widget (QLabel, labApiDomain)
 #: src/translate/deeplengine.ui:66
@@ -4044,13 +4012,12 @@ msgstr ""
 #: src/translate/mintengine.ui:98
 #, kde-format
 msgid "Source language:"
-msgstr ""
+msgstr "Zdrojový jazyk:"
 
 #. i18n: ectx: property (text), widget (QLabel, labTranslation)
 #: src/translate/deeplengine.ui:120 src/translate/googlecloudengine.ui:107
 #: src/translate/mintengine.ui:108
-#, fuzzy, kde-format
-#| msgid "Translate"
+#, kde-format
 msgid "Translate to:"
 msgstr "Preložiť"
 
@@ -4069,10 +4036,9 @@ msgid "Google Cloud Engine Error"
 msgstr ""
 
 #: src/translate/googlecloudengine.cpp:207
-#, fuzzy, kde-format
-#| msgid "Error Running Script"
+#, kde-format
 msgid "Error opening file '%1'"
-msgstr "Chyba spustenia skriptu"
+msgstr ""
 
 #: src/translate/googlecloudengine.cpp:216
 #, kde-format
@@ -4089,7 +4055,7 @@ msgstr ""
 #: src/translate/googlecloudengine.ui:36
 #, kde-format
 msgid "Login"
-msgstr ""
+msgstr "Prihlásenie"
 
 #. i18n: ectx: property (text), widget (QLabel, labHelp)
 #: src/translate/googlecloudengine.ui:62
@@ -4125,7 +4091,7 @@ msgstr ""
 #: src/translate/mintengine.ui:50
 #, kde-format
 msgid "Update"
-msgstr ""
+msgstr "Aktualizovať"
 
 #. i18n: ectx: property (text), widget (QLabel, labHelp)
 #: src/translate/mintengine.ui:76
@@ -4143,14 +4109,12 @@ msgid "Translate"
 msgstr "Preložiť"
 
 #: src/translate/translatedialog.cpp:46
-#, fuzzy, kde-format
-#| msgid "Translation"
+#, kde-format
 msgid "Translate texts in"
 msgstr "Preklad"
 
 #: src/translate/translatedialog.cpp:92
-#, fuzzy, kde-format
-#| msgid "Translate"
+#, kde-format
 msgid "Translate texts"
 msgstr "Preložiť"
 
@@ -4213,10 +4177,9 @@ msgid "Spell Checking"
 msgstr "Kontrola pravopisu"
 
 #: src/videoplayer/backend/videostate.cpp:110
-#, fuzzy, kde-format
-#| msgid "Audio Stream #%1"
+#, kde-format
 msgid "Video Stream #%1"
-msgstr "Video stream"
+msgstr ""
 
 #: src/videoplayer/backend/videostate.cpp:114
 #, kde-format
@@ -4224,8 +4187,7 @@ msgid "Audio Stream #%1"
 msgstr "Audio Stream #%1"
 
 #: src/videoplayer/backend/videostate.cpp:120
-#, fuzzy, kde-format
-#| msgid "Audio Stream #%1"
+#, kde-format
 msgid "Subtitle Stream #%1"
 msgstr "Audio Stream #%1"
 
