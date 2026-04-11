@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 09:00+0000\n"
-"PO-Revision-Date: 2022-04-07 18:21+0200\n"
+"PO-Revision-Date: 2026-04-10 12:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -46,22 +46,22 @@ msgstr "Prejsť na riadok:"
 #: src/application.cpp:669 src/core/subtitle.cpp:879
 #, kde-format
 msgid "Maximize Durations"
-msgstr ""
+msgstr "Maximalizovať trvanie"
 
 #: src/application.cpp:697 src/core/subtitle.cpp:1154
 #, kde-format
 msgid "Unbreak Lines"
-msgstr ""
+msgstr "Zrušiť zalomenie riadkov"
 
 #: src/application.cpp:708 src/core/subtitle.cpp:1163
 #, kde-format
 msgid "Simplify Spaces"
-msgstr ""
+msgstr "Zjednodušiť medzery"
 
 #: src/application.cpp:769
 #, kde-format
 msgid "Open Video"
-msgstr "Open Video"
+msgstr "Otvoriť video"
 
 #: src/application.cpp:967 src/application.cpp:974
 #: src/application_subtitle.cpp:658
@@ -72,7 +72,7 @@ msgstr "Bez názvu"
 #: src/application.cpp:969 src/application_subtitle.cpp:658
 #, kde-format
 msgid "Untitled Translation"
-msgstr ""
+msgstr "Nepomenovaný preklad"
 
 #: src/application.cpp:1070
 #, kde-format
@@ -88,33 +88,33 @@ msgstr "Prehrať"
 #, kde-format
 msgid "Seek backwards 1 second"
 msgid_plural "Seek backwards %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Posunúť dozadu o %1 sekundu"
+msgstr[1] "Posunúť dozadu o %1 sekundy"
+msgstr[2] "Posunúť dozadu o %1 sekúnd"
 
 #: src/application.cpp:1140
 #, kde-format
 msgid "Seek forwards 1 second"
 msgid_plural "Seek forwards %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Posunúť dopredu o %1 sekundu"
+msgstr[1] "Posunúť dopredu o %1 sekundy"
+msgstr[2] "Posunúť dopredu o %1 sekúnd"
 
 #: src/application.cpp:1143 src/application.cpp:1147
 #, kde-format
 msgid "Shift %2%1 millisecond"
 msgid_plural "Shift %2%1 milliseconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Posun %2%1 milisekundu"
+msgstr[1] "Posun %2%1 milisekundy"
+msgstr[2] "Posun %2%1 milisekúnd"
 
 #: src/application.cpp:1144 src/application.cpp:1148
 #, kde-format
 msgid "Shift selected lines %2%1 millisecond"
 msgid_plural "Shift selected lines %2%1 milliseconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Posunúť vybrané riadky %2%1 milisekundu"
+msgstr[1] "Posunúť vybrané riadky %2%1 milisekundy"
+msgstr[2] "Posunúť vybrané riadky %2%1 milisekúnd"
 
 #: src/application_actions.cpp:33
 #, kde-format
@@ -124,7 +124,7 @@ msgstr "Ukončiť aplikáciu"
 #: src/application_actions.cpp:36
 #, kde-format
 msgid "Configure Subtitle Composer"
-msgstr ""
+msgstr "Nastaviť Subtitle Composer"
 
 #: src/application_actions.cpp:40
 #, kde-format
@@ -135,7 +135,7 @@ msgstr "Nové"
 #: src/application_actions.cpp:41
 #, kde-format
 msgid "Create an empty subtitle"
-msgstr ""
+msgstr "Vytvoriť prázdne titulky"
 
 #: src/application_actions.cpp:49
 #, kde-format
@@ -146,23 +146,23 @@ msgstr "Otvoriť titulky..."
 #: src/application_actions.cpp:50 src/application_actions.cpp:67
 #, kde-format
 msgid "Open subtitle file"
-msgstr ""
+msgstr "Otvoriť súbor titulkov"
 
 #: src/application_actions.cpp:58
 #, kde-format
 msgid "Reload As..."
-msgstr ""
+msgstr "Znovu načítať ako..."
 
 #: src/application_actions.cpp:59
 #, kde-format
 msgid "Reload opened file with a different encoding"
-msgstr ""
+msgstr "Znovu načítať otvorený súbor s iným kódovaním"
 
 #: src/application_actions.cpp:66
 #, kde-format
 msgctxt "@action:inmenu Open rencently used subtitle file"
 msgid "Open &Recent Subtitle"
-msgstr ""
+msgstr "Otvoriť &nedávne titulky"
 
 #: src/application_actions.cpp:73
 #, kde-format
@@ -172,7 +172,7 @@ msgstr "Uložiť"
 #: src/application_actions.cpp:74
 #, kde-format
 msgid "Save opened subtitle"
-msgstr ""
+msgstr "Uložiť otvorené titulky"
 
 #: src/application_actions.cpp:82
 #, kde-format
@@ -182,7 +182,7 @@ msgstr "Uložiť ako..."
 #: src/application_actions.cpp:83
 #, kde-format
 msgid "Save opened subtitle with different settings"
-msgstr ""
+msgstr "Uložiť otvorené titulky s inými nastaveniami"
 
 #: src/application_actions.cpp:91
 #, kde-format
@@ -192,92 +192,92 @@ msgstr "Zavrieť"
 #: src/application_actions.cpp:92
 #, kde-format
 msgid "Close opened subtitle"
-msgstr ""
+msgstr "Zavrieť otvorené titulky"
 
 #: src/application_actions.cpp:100
 #, kde-format
 msgid "New Translation"
-msgstr ""
+msgstr "Nový preklad"
 
 #: src/application_actions.cpp:101
 #, kde-format
 msgid "Create an empty translation subtitle"
-msgstr ""
+msgstr "Vytvoriť prázdne titulky prekladu"
 
 #: src/application_actions.cpp:109
 #, kde-format
 msgid "Open Translation..."
-msgstr ""
+msgstr "Otvoriť preklad..."
 
 #: src/application_actions.cpp:110 src/application_actions.cpp:127
 #, kde-format
 msgid "Open translation subtitle file"
-msgstr ""
+msgstr "Otvoriť súbor prekladu titulkov"
 
 #: src/application_actions.cpp:118
 #, kde-format
 msgid "Reload Translation As..."
-msgstr ""
+msgstr "Znovu načítať preklad ako..."
 
 #: src/application_actions.cpp:119
 #, kde-format
 msgid "Reload opened translation file with a different encoding"
-msgstr ""
+msgstr "Znovu načítať otvorený súbor prekladu s iným kódovaním"
 
 #: src/application_actions.cpp:126
 #, kde-format
 msgid "Open &Recent Translation"
-msgstr ""
+msgstr "Otvoriť &nedávny preklad"
 
 #: src/application_actions.cpp:134
 #, kde-format
 msgid "Save Translation"
-msgstr ""
+msgstr "Uložiť preklad"
 
 #: src/application_actions.cpp:135
 #, kde-format
 msgid "Save opened translation subtitle"
-msgstr ""
+msgstr "Uložiť otvorený preklad titulkov"
 
 #: src/application_actions.cpp:145
 #, kde-format
 msgid "Save Translation As..."
-msgstr ""
+msgstr "Uložiť preklad ako..."
 
 #: src/application_actions.cpp:146
 #, kde-format
 msgid "Save opened translation subtitle with different settings"
-msgstr ""
+msgstr "Uložiť otvorený preklad titulkov s inými nastaveniami"
 
 #: src/application_actions.cpp:154
 #, kde-format
 msgid "Close Translation"
-msgstr ""
+msgstr "Zavrieť preklad"
 
 #: src/application_actions.cpp:155
 #, kde-format
 msgid "Close opened translation subtitle"
-msgstr ""
+msgstr "Zavrieť otvorený preklad titulkov"
 
 #: src/application_actions.cpp:172
 #, kde-format
 msgid "Split Subtitle..."
-msgstr ""
+msgstr "Rozdeliť titulky..."
 
 #: src/application_actions.cpp:173
 #, kde-format
 msgid "Split the opened subtitle in two parts"
-msgstr ""
+msgstr "Rozdeliť otvorené titulky na dve časti"
 
 #: src/application_actions.cpp:179
 #, kde-format
 msgid "Join Subtitles..."
-msgstr ""
+msgstr "Spojiť titulky..."
 
 #: src/application_actions.cpp:180
 #, kde-format
 msgid "Append to the opened subtitle another one"
-msgstr ""
+msgstr "Pripojiť k otvoreným titulkom ďalšie"
 
 #: src/application_actions.cpp:187
 #, kde-format
@@ -287,7 +287,7 @@ msgstr "Vložiť pred"
 #: src/application_actions.cpp:188
 #, kde-format
 msgid "Insert empty line before current one"
-msgstr ""
+msgstr "Vložiť prázdny riadok pred aktuálny"
 
 #: src/application_actions.cpp:196
 #, kde-format
@@ -297,7 +297,7 @@ msgstr "Vložiť za"
 #: src/application_actions.cpp:197
 #, kde-format
 msgid "Insert empty line after current one"
-msgstr ""
+msgstr "Vložiť prázdny riadok za aktuálny"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #: src/application_actions.cpp:205 src/scripting/scriptsmanager.ui:58
@@ -308,17 +308,17 @@ msgstr "Odstrániť"
 #: src/application_actions.cpp:206
 #, kde-format
 msgid "Remove selected lines"
-msgstr ""
+msgstr "Odstrániť vybrané riadky"
 
 #: src/application_actions.cpp:213 src/core/subtitle.cpp:561
 #, kde-format
 msgid "Split Lines"
-msgstr ""
+msgstr "Rozdeliť riadky"
 
 #: src/application_actions.cpp:214
 #, kde-format
 msgid "Split selected lines"
-msgstr ""
+msgstr "Rozdeliť vybrané riadky"
 
 #: src/application_actions.cpp:220 src/core/subtitle.cpp:643
 #: src/gui/waveform/waveformwidget.cpp:712
@@ -329,7 +329,7 @@ msgstr "Spojiť riadky"
 #: src/application_actions.cpp:221
 #, kde-format
 msgid "Join selected lines"
-msgstr ""
+msgstr "Spojiť vybrané riadky"
 
 #: src/application_actions.cpp:228 src/errors/finderrorsdialog.cpp:114
 #: src/gui/treeview/richlineedit.cpp:112 src/widgets/simplerichtextedit.cpp:455
@@ -340,7 +340,7 @@ msgstr "Vybrať všetko"
 #: src/application_actions.cpp:229
 #, kde-format
 msgid "Select all lines"
-msgstr ""
+msgstr "Vybrať všetky riadky"
 
 #: src/application_actions.cpp:236
 #, kde-format
@@ -350,7 +350,7 @@ msgstr "Prejsť na riadok..."
 #: src/application_actions.cpp:237
 #, kde-format
 msgid "Go to specified line"
-msgstr ""
+msgstr "Prejsť na zadaný riadok"
 
 #: src/application_actions.cpp:245
 #, kde-format
@@ -360,7 +360,7 @@ msgstr "Nájsť..."
 #: src/application_actions.cpp:246
 #, kde-format
 msgid "Find occurrences of strings or regular expressions"
-msgstr ""
+msgstr "Nájsť výskyty reťazcov alebo regulárnych výrazov"
 
 #: src/application_actions.cpp:254
 #, kde-format
@@ -370,7 +370,7 @@ msgstr "Nájsť nasledujúci"
 #: src/application_actions.cpp:255
 #, kde-format
 msgid "Find next occurrence of string or regular expression"
-msgstr ""
+msgstr "Nájsť nasledujúci výskyt reťazca alebo regulárneho výrazu"
 
 #: src/application_actions.cpp:263
 #, kde-format
@@ -380,7 +380,7 @@ msgstr "Nájsť predchádzajúci"
 #: src/application_actions.cpp:264
 #, kde-format
 msgid "Find previous occurrence of string or regular expression"
-msgstr ""
+msgstr "Nájsť predchádzajúci výskyt reťazca alebo regulárneho výrazu"
 
 #: src/application_actions.cpp:271
 #, kde-format
@@ -390,27 +390,27 @@ msgstr "Nahradiť..."
 #: src/application_actions.cpp:272
 #, kde-format
 msgid "Replace occurrences of strings or regular expressions"
-msgstr ""
+msgstr "Nahradiť výskyty reťazcov alebo regulárnych výrazov"
 
 #: src/application_actions.cpp:280
 #, kde-format
 msgid "Retrocede current line"
-msgstr ""
+msgstr "Vrátiť sa na predchádzajúci riadok"
 
 #: src/application_actions.cpp:281
 #, kde-format
 msgid "Makes the line before the current one active"
-msgstr ""
+msgstr "Aktivuje riadok pred aktuálnym"
 
 #: src/application_actions.cpp:289
 #, kde-format
 msgid "Advance current line"
-msgstr ""
+msgstr "Prejsť na nasledujúci riadok"
 
 #: src/application_actions.cpp:290
 #, kde-format
 msgid "Makes the line after the current one active"
-msgstr ""
+msgstr "Aktivuje riadok za aktuálnym"
 
 #: src/application_actions.cpp:298
 #, kde-format
@@ -420,37 +420,37 @@ msgstr "Zobrazovať chyby..."
 #: src/application_actions.cpp:299
 #, kde-format
 msgid "Detect errors in the current subtitle"
-msgstr ""
+msgstr "Detekovať chyby v aktuálnych titulkoch"
 
 #: src/application_actions.cpp:306
 #, kde-format
 msgid "Clear Errors/Marks"
-msgstr ""
+msgstr "Vymazať chyby/značky"
 
 #: src/application_actions.cpp:307
 #, kde-format
 msgid "Clear detected errors and marks in the current subtitle"
-msgstr ""
+msgstr "Vymazať detekované chyby a značky v aktuálnych titulkoch"
 
 #: src/application_actions.cpp:315
 #, kde-format
 msgid "Select Next Error/Mark"
-msgstr ""
+msgstr "Vybrať nasledujúcu chybu/značku"
 
 #: src/application_actions.cpp:316
 #, kde-format
 msgid "Select next line with error or mark"
-msgstr ""
+msgstr "Vybrať nasledujúci riadok s chybou alebo značkou"
 
 #: src/application_actions.cpp:324
 #, kde-format
 msgid "Select Previous Error/Mark"
-msgstr ""
+msgstr "Vybrať predchádzajúcu chybu/značku"
 
 #: src/application_actions.cpp:325
 #, kde-format
 msgid "Select previous line with error or mark"
-msgstr ""
+msgstr "Vybrať predchádzajúci riadok s chybou alebo značkou"
 
 #: src/application_actions.cpp:333
 #, kde-format
@@ -460,57 +460,57 @@ msgstr "Pravopis..."
 #: src/application_actions.cpp:334
 #, kde-format
 msgid "Check lines spelling"
-msgstr ""
+msgstr "Skontrolovať pravopis riadkov"
 
 #: src/application_actions.cpp:340
 #, kde-format
 msgid "Toggle Mark"
-msgstr ""
+msgstr "Prepnúť značku"
 
 #: src/application_actions.cpp:341
 #, kde-format
 msgid "Toggle mark on selected lines"
-msgstr ""
+msgstr "Prepnúť značku na vybraných riadkoch"
 
 #: src/application_actions.cpp:349 src/gui/currentlinewidget.cpp:322
 #, kde-format
 msgid "Toggle Bold"
-msgstr ""
+msgstr "Prepnúť tučné"
 
 #: src/application_actions.cpp:350
 #, kde-format
 msgid "Toggle selected lines bold attribute"
-msgstr ""
+msgstr "Prepnúť atribút tučného písma vybraných riadkov"
 
 #: src/application_actions.cpp:358 src/gui/currentlinewidget.cpp:326
 #, kde-format
 msgid "Toggle Italic"
-msgstr ""
+msgstr "Prepnúť kurzívu"
 
 #: src/application_actions.cpp:359
 #, kde-format
 msgid "Toggle selected lines italic attribute"
-msgstr ""
+msgstr "Prepnúť atribút kurzívy vybraných riadkov"
 
 #: src/application_actions.cpp:367 src/gui/currentlinewidget.cpp:330
 #, kde-format
 msgid "Toggle Underline"
-msgstr ""
+msgstr "Prepnúť podčiarknutie"
 
 #: src/application_actions.cpp:368
 #, kde-format
 msgid "Toggle selected lines underline attribute"
-msgstr ""
+msgstr "Prepnúť atribút podčiarknutia vybraných riadkov"
 
 #: src/application_actions.cpp:376 src/gui/currentlinewidget.cpp:334
 #, kde-format
 msgid "Toggle Strike Through"
-msgstr ""
+msgstr "Prepnúť prečiarknutie"
 
 #: src/application_actions.cpp:377
 #, kde-format
 msgid "Toggle selected lines strike through attribute"
-msgstr ""
+msgstr "Prepnúť atribút prečiarknutia vybraných riadkov"
 
 #: src/application_actions.cpp:385 src/gui/currentlinewidget.cpp:338
 #, kde-format
@@ -520,17 +520,17 @@ msgstr "Zmeniť farbu textu"
 #: src/application_actions.cpp:386
 #, kde-format
 msgid "Change text color of selected lines"
-msgstr ""
+msgstr "Zmeniť farbu textu vybraných riadkov"
 
 #: src/application_actions.cpp:393
 #, kde-format
 msgid "Shift..."
-msgstr "Shift..."
+msgstr "Posun..."
 
 #: src/application_actions.cpp:394
 #, kde-format
 msgid "Shift lines an specified amount of time"
-msgstr ""
+msgstr "Posunúť riadky o zadané množstvo času"
 
 #: src/application_actions.cpp:413
 #, kde-format
@@ -540,67 +540,67 @@ msgstr "Upraviť..."
 #: src/application_actions.cpp:414
 #, kde-format
 msgid "Linearly adjust all lines to a specified interval"
-msgstr ""
+msgstr "Lineárne upraviť všetky riadky na zadaný interval"
 
 #: src/application_actions.cpp:421
 #, kde-format
 msgid "Change Frame Rate..."
-msgstr ""
+msgstr "Zmeniť snímkovú frekvenciu..."
 
 #: src/application_actions.cpp:422
 #, kde-format
 msgid "Retime subtitle lines by reinterpreting its frame rate"
-msgstr ""
+msgstr "Prepočítať časy riadkov titulkov reinterpretáciou snímkovej frekvencie"
 
 #: src/application_actions.cpp:428
 #, kde-format
 msgid "Enforce Duration Limits..."
-msgstr ""
+msgstr "Vynútiť limity trvania..."
 
 #: src/application_actions.cpp:429
 #, kde-format
 msgid "Enforce lines minimum and/or maximum duration limits"
-msgstr ""
+msgstr "Vynútiť minimálne a/alebo maximálne limity trvania riadkov"
 
 #: src/application_actions.cpp:436
 #, kde-format
 msgid "Set Automatic Durations..."
-msgstr ""
+msgstr "Nastaviť automatické trvanie..."
 
 #: src/application_actions.cpp:437
 #, kde-format
 msgid "Set lines durations based on amount of letters, words and line breaks"
-msgstr ""
+msgstr "Nastaviť trvanie riadkov podľa počtu písmen, slov a zalomení riadkov"
 
 #: src/application_actions.cpp:443
 #, kde-format
 msgid "Maximize Durations..."
-msgstr ""
+msgstr "Maximalizovať trvanie..."
 
 #: src/application_actions.cpp:444
 #, kde-format
 msgid "Extend lines durations up to their next lines show time"
-msgstr ""
+msgstr "Predĺžiť trvanie riadkov až po čas zobrazenia nasledujúcich riadkov"
 
 #: src/application_actions.cpp:450
 #, kde-format
 msgid "Fix Overlapping Times..."
-msgstr ""
+msgstr "Opraviť prekrývajúce sa časy..."
 
 #: src/application_actions.cpp:451
 #, kde-format
 msgid "Fix lines overlapping times"
-msgstr ""
+msgstr "Opraviť prekrývajúce sa časy riadkov"
 
 #: src/application_actions.cpp:457
 #, kde-format
 msgid "Synchronize with Subtitle..."
-msgstr ""
+msgstr "Synchronizovať s titulkami..."
 
 #: src/application_actions.cpp:458
 #, kde-format
 msgid "Copy timing information from another subtitle"
-msgstr ""
+msgstr "Kopírovať informácie o časovaní z iných titulkov"
 
 #: src/application_actions.cpp:464
 #, kde-format
@@ -610,27 +610,27 @@ msgstr "Zalomiť riadky..."
 #: src/application_actions.cpp:465
 #, kde-format
 msgid "Automatically set line breaks"
-msgstr ""
+msgstr "Automaticky nastaviť zalomenia riadkov"
 
 #: src/application_actions.cpp:471
 #, kde-format
 msgid "Unbreak Lines..."
-msgstr ""
+msgstr "Zrušiť zalomenie riadkov..."
 
 #: src/application_actions.cpp:472
 #, kde-format
 msgid "Remove line breaks from lines"
-msgstr ""
+msgstr "Odstrániť zalomenia riadkov z riadkov"
 
 #: src/application_actions.cpp:478
 #, kde-format
 msgid "Simplify Spaces..."
-msgstr ""
+msgstr "Zjednodušiť medzery..."
 
 #: src/application_actions.cpp:479
 #, kde-format
 msgid "Remove unneeded spaces from lines"
-msgstr ""
+msgstr "Odstrániť nepotrebné medzery z riadkov"
 
 #: src/application_actions.cpp:485
 #, kde-format
@@ -641,16 +641,18 @@ msgstr "Zmeniť veľkosť písmen..."
 #, kde-format
 msgid "Change lines text to upper, lower, title or sentence case"
 msgstr ""
+"Zmeniť text riadkov na veľké, malé písmená, veľké prvé alebo veľké na "
+"začiatku vety"
 
 #: src/application_actions.cpp:492
 #, kde-format
 msgid "Fix Punctuation..."
-msgstr ""
+msgstr "Opraviť interpunkciu..."
 
 #: src/application_actions.cpp:493
 #, kde-format
 msgid "Fix punctuation errors in lines"
-msgstr ""
+msgstr "Opraviť chyby interpunkcie v riadkoch"
 
 #: src/application_actions.cpp:499
 #, kde-format
@@ -660,62 +662,62 @@ msgstr "Preložiť..."
 #: src/application_actions.cpp:500
 #, kde-format
 msgid "Translate lines texts using Google services"
-msgstr ""
+msgstr "Preložiť texty riadkov pomocou služieb Google"
 
 #: src/application_actions.cpp:506
 #, kde-format
 msgid "Edit Line in Place"
-msgstr ""
+msgstr "Upraviť riadok na mieste"
 
 #: src/application_actions.cpp:507
 #, kde-format
 msgid "Edit current line text in place"
-msgstr ""
+msgstr "Upraviť text aktuálneho riadku na mieste"
 
 #: src/application_actions.cpp:515
 #, kde-format
 msgid "Open Video..."
-msgstr ""
+msgstr "Otvoriť video..."
 
 #: src/application_actions.cpp:516 src/application_actions.cpp:523
 #, kde-format
 msgid "Open video file"
-msgstr ""
+msgstr "Otvoriť video súbor"
 
 #: src/application_actions.cpp:522
 #, kde-format
 msgid "Open &Recent Video"
-msgstr ""
+msgstr "Otvoriť &nedávne video"
 
 #: src/application_actions.cpp:529
 #, kde-format
 msgid "Import Subtitle Stream"
-msgstr ""
+msgstr "Importovať prúd titulkov"
 
 #: src/application_actions.cpp:530
 #, kde-format
 msgid "Import subtitle stream into subtitle editor"
-msgstr ""
+msgstr "Importovať prúd titulkov do editora titulkov"
 
 #: src/application_actions.cpp:536
 #, kde-format
 msgid "Recognize Speech"
-msgstr ""
+msgstr "Rozpoznávanie reči"
 
 #: src/application_actions.cpp:537
 #, kde-format
 msgid "Recognize speech in audio stream"
-msgstr ""
+msgstr "Rozpoznať reč vo zvukovom prúde"
 
 #: src/application_actions.cpp:543
 #, kde-format
 msgid "Close Video"
-msgstr ""
+msgstr "Zavrieť video"
 
 #: src/application_actions.cpp:544
 #, kde-format
 msgid "Close video file"
-msgstr ""
+msgstr "Zavrieť video súbor"
 
 #: src/application_actions.cpp:551
 #, kde-format
@@ -725,7 +727,7 @@ msgstr "Režim celej obrazovky"
 #: src/application_actions.cpp:552
 #, kde-format
 msgid "Toggle full screen mode"
-msgstr ""
+msgstr "Prepnúť režim celej obrazovky"
 
 #: src/application_actions.cpp:559
 #, kde-format
@@ -735,12 +737,12 @@ msgstr "Zastaviť"
 #: src/application_actions.cpp:560
 #, kde-format
 msgid "Stop video playback"
-msgstr ""
+msgstr "Zastaviť prehrávanie videa"
 
 #: src/application_actions.cpp:568
 #, kde-format
 msgid "Toggle video playing/paused"
-msgstr ""
+msgstr "Prepnúť prehrávanie/pozastavenie videa"
 
 #: src/application_actions.cpp:576
 #, kde-format
@@ -750,118 +752,122 @@ msgstr "Posunúť dozadu"
 #: src/application_actions.cpp:584
 #, kde-format
 msgid "Seek Forward"
-msgstr "Hľadať dopredu"
+msgstr "Posunúť dopredu"
 
 #: src/application_actions.cpp:591
 #, kde-format
 msgid "Frame Step Backward"
-msgstr ""
+msgstr "Krok o snímok dozadu"
 
 #: src/application_actions.cpp:598
 #, kde-format
 msgid "Frame Step Forward"
-msgstr ""
+msgstr "Krok o snímok dopredu"
 
 #: src/application_actions.cpp:606
 #, kde-format
 msgid "Seek to Previous Line"
-msgstr ""
+msgstr "Preskočiť na predchádzajúci riadok"
 
 #: src/application_actions.cpp:607
 #, kde-format
 msgid "Seek to previous subtitle line show time"
-msgstr ""
+msgstr "Preskočiť na čas zobrazenia predchádzajúceho riadku titulkov"
 
 #: src/application_actions.cpp:615
 #, kde-format
 msgid "Increase media play rate"
-msgstr ""
+msgstr "Zvýšiť rýchlosť prehrávania"
 
 #: src/application_actions.cpp:616
 #, kde-format
 msgid "Increase media playback rate"
-msgstr ""
+msgstr "Zvýšiť rýchlosť prehrávania médií"
 
 #: src/application_actions.cpp:623
 #, kde-format
 msgid "Decrease media play rate"
-msgstr ""
+msgstr "Znížiť rýchlosť prehrávania"
 
 #: src/application_actions.cpp:624
 #, kde-format
 msgid "Decrease media playback rate"
-msgstr ""
+msgstr "Znížiť rýchlosť prehrávania médií"
 
 #: src/application_actions.cpp:630
 #, kde-format
 msgid "Play Current Line and Pause"
-msgstr ""
+msgstr "Prehrať aktuálny riadok a pozastaviť"
 
 #: src/application_actions.cpp:631
 #, kde-format
 msgid "Seek to selected subtitle line show time, play it and then pause"
 msgstr ""
+"Preskočiť na čas zobrazenia vybraného riadku titulkov, prehrať ho a potom "
+"pozastaviť"
 
 #: src/application_actions.cpp:638
 #, kde-format
 msgid "Seek to Current Line"
-msgstr "Aktuálny riadok:"
+msgstr "Preskočiť na aktuálny riadok"
 
 #: src/application_actions.cpp:639
 #, kde-format
 msgid "Seek to selected subtitle line show time"
-msgstr ""
+msgstr "Preskočiť na čas zobrazenia vybraného riadku titulkov"
 
 #: src/application_actions.cpp:646
 #, kde-format
 msgid "Seek to Next Line"
-msgstr "Vybrať riadok"
+msgstr "Preskočiť na nasledujúci riadok"
 
 #: src/application_actions.cpp:647
 #, kde-format
 msgid "Seek to next subtitle line show time"
-msgstr ""
+msgstr "Preskočiť na čas zobrazenia nasledujúceho riadku titulkov"
 
 #: src/application_actions.cpp:655
 #, kde-format
 msgid "Set Line Show Time to Video Position"
-msgstr ""
+msgstr "Nastaviť čas zobrazenia riadku na pozíciu videa"
 
 #: src/application_actions.cpp:656
 #, kde-format
 msgid "Set current line show time to video position"
-msgstr ""
+msgstr "Nastaviť čas zobrazenia aktuálneho riadku na pozíciu videa"
 
 #: src/application_actions.cpp:664
 #, kde-format
 msgid "Set Line Hide Time to Video Position"
-msgstr ""
+msgstr "Nastaviť čas skrytia riadku na pozíciu videa"
 
 #: src/application_actions.cpp:665
 #, kde-format
 msgid "Set current line hide time to video position"
-msgstr ""
+msgstr "Nastaviť čas skrytia aktuálneho riadku na pozíciu videa"
 
 #: src/application_actions.cpp:672
 #, kde-format
 msgid "Shift Current Line to Video Position"
-msgstr ""
+msgstr "Posunúť aktuálny riadok na pozíciu videa"
 
 #: src/application_actions.cpp:673
 #, kde-format
 msgid ""
 "Set current line show time to video position by equally shifting all lines"
 msgstr ""
+"Nastaviť čas zobrazenia aktuálneho riadku na pozíciu videa rovnomerným "
+"posunutím všetkých riadkov"
 
 #: src/application_actions.cpp:681
 #, kde-format
 msgid "Current Line Follows Video"
-msgstr ""
+msgstr "Aktuálny riadok nasleduje video"
 
 #: src/application_actions.cpp:682
 #, kde-format
 msgid "Make current line follow the playing video position"
-msgstr ""
+msgstr "Nastaviť aktuálny riadok, aby nasledoval pozíciu prehrávaného videa"
 
 #: src/application_actions.cpp:688
 #, kde-format
@@ -872,7 +878,7 @@ msgstr "Stlmiť"
 #: src/application_actions.cpp:689
 #, kde-format
 msgid "Enable/disable playback sound"
-msgstr ""
+msgstr "Zapnúť/vypnúť zvuk prehrávania"
 
 #: src/application_actions.cpp:696
 #, kde-format
@@ -882,7 +888,7 @@ msgstr "Zvýšiť hlasitosť"
 #: src/application_actions.cpp:697
 #, kde-format
 msgid "Increase volume by 5%"
-msgstr ""
+msgstr "Zvýšiť hlasitosť o 5%"
 
 #: src/application_actions.cpp:704
 #, kde-format
@@ -892,7 +898,7 @@ msgstr "Znížiť hlasitosť"
 #: src/application_actions.cpp:705
 #, kde-format
 msgid "Decrease volume by 5%"
-msgstr ""
+msgstr "Znížiť hlasitosť o 5%"
 
 #: src/application_actions.cpp:712
 #, kde-format
@@ -902,7 +908,7 @@ msgstr "Zvukové prúdy"
 #: src/application_actions.cpp:713
 #, kde-format
 msgid "Select active audio stream"
-msgstr ""
+msgstr "Vybrať aktívny zvukový prúd"
 
 #: src/application_actions.cpp:724
 #, kde-format
@@ -912,7 +918,7 @@ msgstr "Zväčšiť veľkosť písma"
 #: src/application_actions.cpp:725
 #, kde-format
 msgid "Increase subtitles font size by 1 point"
-msgstr ""
+msgstr "Zväčšiť veľkosť písma titulkov o 1 bod"
 
 #: src/application_actions.cpp:732
 #, kde-format
@@ -922,22 +928,22 @@ msgstr "Zmenšiť veľkosť písma"
 #: src/application_actions.cpp:733
 #, kde-format
 msgid "Decrease subtitles font size by 1 point"
-msgstr ""
+msgstr "Zmenšiť veľkosť písma titulkov o 1 bod"
 
 #: src/application_actions.cpp:740
 #, kde-format
 msgid "Displayed Subtitle Text"
-msgstr ""
+msgstr "Zobrazený text titulkov"
 
 #: src/application_actions.cpp:741
 #, kde-format
 msgid "Select visible subtitle text"
-msgstr ""
+msgstr "Vybrať viditeľný text titulkov"
 
 #: src/application_actions.cpp:752 src/gui/waveform/waveformwidget.cpp:736
 #, kde-format
 msgid "Toggle Anchor"
-msgstr ""
+msgstr "Prepnúť kotvu"
 
 #: src/application_actions.cpp:753
 #, kde-format
@@ -945,22 +951,26 @@ msgid ""
 "(Un)Anchor current line's show time to timeline (Editing anchored line's "
 "show time will stretch/compact the timeline between adjacent anchors)"
 msgstr ""
+"Ukotviť/odukotviť čas zobrazenia aktuálneho riadku na časovú os (Úprava času "
+"zobrazenia ukotveného riadku roztiahne/zhustí časovú os medzi susednými "
+"kotvami)"
 
 #: src/application_actions.cpp:760
 #, kde-format
 msgid "Remove All Anchors"
-msgstr ""
+msgstr "Odstrániť všetky kotvy"
 
 #: src/application_actions.cpp:761
 #, kde-format
 msgid "Unanchor show time from the timeline on all anchored lines"
 msgstr ""
+"Odukotviť čas zobrazenia od časovej osi na všetkých ukotvených riadkoch"
 
 #: src/application_actions.cpp:769
 #, kde-format
 msgctxt "@action:inmenu Manage user scripts"
 msgid "Scripts Manager..."
-msgstr ""
+msgstr "Správca skriptov..."
 
 #: src/application_actions.cpp:770
 #, kde-format
@@ -970,32 +980,32 @@ msgstr "Spravovať používateľské skripty"
 #: src/application_actions.cpp:777 src/application_actions.cpp:778
 #, kde-format
 msgid "Waveform Zoom In"
-msgstr ""
+msgstr "Priblížiť vlnový priebeh"
 
 #: src/application_actions.cpp:784 src/application_actions.cpp:785
 #, kde-format
 msgid "Waveform Zoom Out"
-msgstr ""
+msgstr "Oddialiť vlnový priebeh"
 
 #: src/application_actions.cpp:792
 #, kde-format
 msgid "Waveform Auto Scroll"
-msgstr ""
+msgstr "Automatické rolovanie vlnového priebehu"
 
 #: src/application_actions.cpp:793
 #, kde-format
 msgid "Waveform display will automatically scroll to video position"
-msgstr ""
+msgstr "Zobrazenie vlnového priebehu sa automaticky posunie na pozíciu videa"
 
 #: src/application_subtitle.cpp:78
 #, kde-format
 msgid "All Text Subtitles"
-msgstr ""
+msgstr "Všetky textové titulky"
 
 #: src/application_subtitle.cpp:79
 #, kde-format
 msgid "All Image Subtitles"
-msgstr ""
+msgstr "Všetky obrázkové titulky"
 
 #: src/application_subtitle.cpp:81 src/application_subtitle.cpp:105
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:21
@@ -1028,11 +1038,14 @@ msgid ""
 "same file, possibly resulting in loss of information when saving.\n"
 "Are you sure you want to continue?"
 msgstr ""
+"Požadovaná akcia by spôsobila, že titulky a ich preklad budú zdieľať rovnaký "
+"súbor, čo môže viesť k strate informácií pri ukladaní.\n"
+"Naozaj chcete pokračovať?"
 
 #: src/application_subtitle.cpp:130
 #, kde-format
 msgid "Conflicting Subtitle Files"
-msgstr ""
+msgstr "Konfliktné súbory titulkov"
 
 #: src/application_subtitle.cpp:148 src/dialogs/selectablesubtitledialog.cpp:67
 #, kde-format
@@ -1046,11 +1059,13 @@ msgid ""
 "<qt>Could not parse the subtitle file.<br/>This may have been caused by "
 "usage of the wrong encoding.</qt>"
 msgstr ""
+"<qt>Nepodarilo sa spracovať súbor titulkov.<br/>Toto mohlo byť spôsobené "
+"použitím nesprávneho kódovania.</qt>"
 
 #: src/application_subtitle.cpp:270 src/application_subtitle.cpp:317
 #, kde-format
 msgid "Format: %1"
-msgstr ""
+msgstr "Formát: %1"
 
 #: src/application_subtitle.cpp:271 src/application_subtitle.cpp:318
 #, kde-format
@@ -1060,12 +1075,12 @@ msgstr "Kódovanie: %1"
 #: src/application_subtitle.cpp:324
 #, kde-format
 msgid "There was an error saving the subtitle."
-msgstr ""
+msgstr "Pri ukladaní titulkov sa vyskytla chyba."
 
 #: src/application_subtitle.cpp:332
 #, kde-format
 msgid "Save Subtitle"
-msgstr ""
+msgstr "Uložiť titulky"
 
 #: src/application_subtitle.cpp:372 src/application_subtitle.cpp:614
 #, kde-format
@@ -1073,11 +1088,13 @@ msgid ""
 "Currently opened translation subtitle has unsaved changes.\n"
 "Do you want to save them?"
 msgstr ""
+"Aktuálne otvorený preklad titulkov má neuložené zmeny.\n"
+"Chcete ich uložiť?"
 
 #: src/application_subtitle.cpp:373 src/application_subtitle.cpp:615
 #, kde-format
 msgid "Close Translation Subtitle"
-msgstr ""
+msgstr "Zavrieť preklad titulkov"
 
 #: src/application_subtitle.cpp:384
 #, kde-format
@@ -1085,16 +1102,18 @@ msgid ""
 "Currently opened subtitle has unsaved changes.\n"
 "Do you want to save them?"
 msgstr ""
+"Aktuálne otvorené titulky majú neuložené zmeny.\n"
+"Chcete ich uložiť?"
 
 #: src/application_subtitle.cpp:385
 #, kde-format
 msgid "Close Subtitle"
-msgstr ""
+msgstr "Zavrieť titulky"
 
 #: src/application_subtitle.cpp:445
 #, kde-format
 msgid "Open Translation Subtitle"
-msgstr ""
+msgstr "Otvoriť preklad titulkov"
 
 #: src/application_subtitle.cpp:530
 #, kde-format
@@ -1111,12 +1130,12 @@ msgstr "Preklad"
 #: src/application_subtitle.cpp:570
 #, kde-format
 msgid "There was an error saving the translation subtitle."
-msgstr ""
+msgstr "Pri ukladaní prekladu titulkov sa vyskytla chyba."
 
 #: src/application_subtitle.cpp:578
 #, kde-format
 msgid "Save Translation Subtitle"
-msgstr ""
+msgstr "Uložiť preklad titulkov"
 
 #: src/application_subtitle.cpp:665
 #, kde-format
@@ -1127,22 +1146,22 @@ msgstr "rozdeliť"
 #: src/application_subtitle.cpp:682
 #, kde-format
 msgid "Could not write the split subtitle file."
-msgstr ""
+msgstr "Nepodarilo sa zapísať rozdelený súbor titulkov."
 
 #: src/application_subtitle.cpp:682
 #, kde-format
 msgid "Could not write the split subtitle translation file."
-msgstr ""
+msgstr "Nepodarilo sa zapísať rozdelený súbor prekladu titulkov."
 
 #: src/application_subtitle.cpp:707
 #, kde-format
 msgid "Could not read the subtitle file to append."
-msgstr ""
+msgstr "Nepodarilo sa prečítať súbor titulkov na pripojenie."
 
 #: src/application_subtitle.cpp:723
 #, kde-format
 msgid "The specified time does not split the subtitles."
-msgstr ""
+msgstr "Zadaný čas nerozdeľuje titulky."
 
 #: src/application_subtitle.cpp:758
 #, kde-format
@@ -1150,6 +1169,8 @@ msgid ""
 "Could not open a new Subtitle Composer window.\n"
 "The split part was saved as %1."
 msgstr ""
+"Nepodarilo sa otvoriť nové okno Subtitle Composer.\n"
+"Rozdelená časť bola uložená ako %1."
 
 #: src/application_subtitle.cpp:759
 #, kde-format
@@ -1157,16 +1178,20 @@ msgid ""
 "Could not open a new Subtitle Composer window.\n"
 "The split parts were saved as %1 and %2."
 msgstr ""
+"Nepodarilo sa otvoriť nové okno Subtitle Composer.\n"
+"Rozdelené časti boli uložené ako %1 a %2."
 
 #: src/application_subtitle.cpp:777
 #, kde-format
 msgid "The reference subtitle must have more than one line to proceed."
 msgstr ""
+"Referenčné titulky musia mať viac ako jeden riadok, aby bolo možné "
+"pokračovať."
 
 #: src/application_subtitle.cpp:786
 #, kde-format
 msgid "Could not parse the reference subtitle file."
-msgstr ""
+msgstr "Nepodarilo sa spracovať referenčný súbor titulkov."
 
 #: src/configs/configdialog.cpp:35
 #, kde-format
@@ -1183,12 +1208,12 @@ msgstr "Všeobecné nastavenia"
 #, kde-format
 msgctxt "@title Error check settings"
 msgid "Error Check"
-msgstr ""
+msgstr "Kontrola chýb"
 
 #: src/configs/configdialog.cpp:41
 #, kde-format
 msgid "Error Check Settings"
-msgstr ""
+msgstr "Nastavenia kontroly chýb"
 
 #: src/configs/configdialog.cpp:47
 #, kde-format
@@ -1199,7 +1224,7 @@ msgstr "Pravopis"
 #: src/configs/configdialog.cpp:48
 #, kde-format
 msgid "Spelling Settings"
-msgstr ""
+msgstr "Nastavenia pravopisu"
 
 #: src/configs/configdialog.cpp:52
 #, kde-format
@@ -1210,7 +1235,7 @@ msgstr "Vlnový priebeh"
 #: src/configs/configdialog.cpp:53
 #, kde-format
 msgid "Waveform settings"
-msgstr ""
+msgstr "Nastavenia vlnového priebehu"
 
 #: src/configs/configdialog.cpp:57
 #, kde-format
@@ -1221,13 +1246,13 @@ msgstr "Prehrávač videa"
 #: src/configs/configdialog.cpp:58
 #, kde-format
 msgid "Video Player Settings"
-msgstr ""
+msgstr "Nastavenia prehrávača videa"
 
 #: src/configs/configdialog.cpp:67
 #, kde-format
 msgctxt "@title Speech recognition backend settings"
 msgid "%1 backend settings"
-msgstr ""
+msgstr "Nastavenia backendu %1"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
 #: src/configs/errorsconfigwidget.ui:17 src/gui/treeview/lineswidget.cpp:400
@@ -1253,25 +1278,25 @@ msgstr " znaky"
 #: src/configs/errorsconfigwidget.ui:56
 #, kde-format
 msgid "Maximum number of characters:"
-msgstr ""
+msgstr "Maximálny počet znakov:"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_MaxCharactersPerLine)
 #: src/configs/errorsconfigwidget.ui:63
 #, kde-format
 msgid "Maximum number of characters per line:"
-msgstr ""
+msgstr "Maximálny počet znakov na riadok:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/configs/errorsconfigwidget.ui:70
 #, kde-format
 msgid "Maximum number of lines:"
-msgstr ""
+msgstr "Maximálny počet riadkov:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpQuickActions)
 #: src/configs/errorsconfigwidget.ui:80
 #, kde-format
 msgid "Absolute Durations"
-msgstr ""
+msgstr "Absolútne trvanie"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinePause)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LineDuration)
@@ -1297,20 +1322,20 @@ msgstr " msek"
 #: src/configs/errorsconfigwidget.ui:109 src/configs/errorsconfigwidget.ui:191
 #, kde-format
 msgid "Maximum duration:"
-msgstr ""
+msgstr "Maximálne trvanie:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, lab_MinDurationPerCharacter)
 #: src/configs/errorsconfigwidget.ui:116 src/configs/errorsconfigwidget.ui:171
 #, kde-format
 msgid "Minimum duration:"
-msgstr ""
+msgstr "Minimálne trvanie:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/configs/errorsconfigwidget.ui:126
 #, kde-format
 msgid "Relative Durations"
-msgstr ""
+msgstr "Relatívne trvanie"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDurationPerCharacter)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDurationPerCharacter)
@@ -1319,7 +1344,7 @@ msgstr ""
 #: src/configs/errorsconfigwidget.ui:205
 #, kde-format
 msgid " ms/char"
-msgstr ""
+msgstr " ms/znak"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, alt_MinDurationPerCharacter)
 #. i18n: ectx: property (suffix), widget (QSpinBox, alt_MaxDurationPerCharacter)
@@ -1328,13 +1353,13 @@ msgstr ""
 #: src/configs/errorsconfigwidget.ui:218
 #, kde-format
 msgid " ch/sec"
-msgstr ""
+msgstr " zn/sek"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_IdealDurationPerCharacter)
 #: src/configs/errorsconfigwidget.ui:198
 #, kde-format
 msgid "Ideal duration:"
-msgstr "<b>Trvanie</b>"
+msgstr "Ideálne trvanie:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/configs/errorsconfigwidget.ui:234
@@ -1347,7 +1372,7 @@ msgstr "Správanie"
 #: src/configs/errorsconfigwidget.ui:240 src/scconfig.kcfg:90
 #, kde-format
 msgid "Automatically clear fixed errors"
-msgstr ""
+msgstr "Automaticky vymazať opravené chyby"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
 #: src/configs/generalconfigwidget.ui:17 src/configs/playerconfigwidget.ui:17
@@ -1359,68 +1384,68 @@ msgstr "Všeobecné"
 #: src/configs/generalconfigwidget.ui:26
 #, kde-format
 msgid "Automatically load video file when opening a subtitle"
-msgstr ""
+msgstr "Automaticky načítať video súbor pri otváraní titulkov"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_DefaultSubtitlesEncoding)
 #: src/configs/generalconfigwidget.ui:33
 #, kde-format
 msgid "Defau&lt subtitles encoding:"
-msgstr ""
+msgstr "Predvo&lené kódovanie titulkov:"
 
 #. i18n: ectx: property (currentText), widget (QComboBox, kcfg_TextLineBreak)
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
 #: src/configs/generalconfigwidget.ui:43 src/configs/generalconfigwidget.ui:47
 #, kde-format
 msgid "UNIX (LF)"
-msgstr ""
+msgstr "UNIX (LF)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
 #: src/configs/generalconfigwidget.ui:52
 #, kde-format
 msgid "Windows (CRLF)"
-msgstr ""
+msgstr "Windows (CRLF)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
 #: src/configs/generalconfigwidget.ui:57
 #, kde-format
 msgid "Macintosh (CR)"
-msgstr ""
+msgstr "Macintosh (CR)"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_TextLineBreak)
 #: src/configs/generalconfigwidget.ui:65
 #, kde-format
 msgid "Line break character:"
-msgstr " znaky"
+msgstr "Znak zalomenia riadku:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitleLine)
 #: src/configs/generalconfigwidget.ui:78
 #, kde-format
 msgid "Subtitle Line"
-msgstr ""
+msgstr "Riadok titulkov"
 
 #. i18n: ectx: property (text), widget (QLabel, label_LineDuration)
 #: src/configs/generalconfigwidget.ui:84
 #, kde-format
 msgid "Default subtitle line duration:"
-msgstr ""
+msgstr "Predvolené trvanie riadku titulkov:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/configs/generalconfigwidget.ui:94
 #, kde-format
 msgid "On double click, &jump to show time minus:"
-msgstr ""
+msgstr "Pri dvojitom kliknutí, &skočiť na čas zobrazenia mínus:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_LinePause)
 #: src/configs/generalconfigwidget.ui:104
 #, kde-format
 msgid "Default pause between subtitle lines:"
-msgstr ""
+msgstr "Predvolená pauza medzi riadkami titulkov:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/configs/generalconfigwidget.ui:144
 #, kde-format
 msgid "Ju&mp to prev/next line offset:"
-msgstr ""
+msgstr "S&kok na predchádzajúci/nasledujúci riadok posun:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpQuickActions)
 #: src/configs/generalconfigwidget.ui:167
@@ -1432,56 +1457,56 @@ msgstr "Rýchle akcie"
 #: src/configs/generalconfigwidget.ui:193
 #, kde-format
 msgid "Compensation for captured &video times:"
-msgstr ""
+msgstr "Kompenzácia pre zachytené časy &videa:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/configs/generalconfigwidget.ui:203
 #, kde-format
 msgid "Ti&me shift for selected lines:"
-msgstr ""
+msgstr "Čas&ový posun pre vybrané riadky:"
 
 #: src/configs/playerconfigwidget.cpp:28
 #, kde-format
 msgctxt "Text for previewing the subtitles font settings"
 msgid "<p>The Quick Brown Fox<br/>Jumps Over The Lazy Dog</p>"
-msgstr ""
+msgstr "<p>Príšerne žltučký kôň<br/>úpel ďábelské ódy</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UnpauseOnDoubleClick)
 #: src/configs/playerconfigwidget.ui:23
 #, kde-format
 msgid "Resume playback after line double click"
-msgstr ""
+msgstr "Pokračovať v prehrávaní po dvojitom kliknutí na riadok"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_SeekJumpLength)
 #: src/configs/playerconfigwidget.ui:30
 #, kde-format
 msgid "Seconds to &jump on seek:"
-msgstr ""
+msgstr "Sekundy na &skok pri posúvaní:"
 
 #. i18n: ectx: label, entry (VideoAutoPlay), group (VideoPlayer)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_VideoAutoPlay)
 #: src/configs/playerconfigwidget.ui:50 src/scconfig.kcfg:196
 #, kde-format
 msgid "Start playing video when loaded"
-msgstr ""
+msgstr "Spustiť prehrávanie videa po načítaní"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPositionTimeEdit)
 #: src/configs/playerconfigwidget.ui:57 src/gui/playerwidget.cpp:438
 #, kde-format
 msgid "Show editable position control"
-msgstr ""
+msgstr "Zobraziť upraviteľný ovládač pozície"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_StepJumpLength)
 #: src/configs/playerconfigwidget.ui:64
 #, kde-format
 msgid "Fra&me step amount:"
-msgstr ""
+msgstr "Počet krokov sní&mky:"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_VolumeAmplification)
 #: src/configs/playerconfigwidget.ui:74
 #, kde-format
 msgid "Volume amplification:"
-msgstr ""
+msgstr "Zosilnenie hlasitosti:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitles)
 #: src/configs/playerconfigwidget.ui:122
@@ -1523,13 +1548,13 @@ msgstr "&Veľkosť písma:"
 #: src/configs/playerconfigwidget.ui:203
 #, kde-format
 msgid "Subtitles Preview"
-msgstr ""
+msgstr "Náhľad titulkov"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: src/configs/waveformconfigwidget.ui:17
 #, kde-format
 msgid "Waveform Display"
-msgstr ""
+msgstr "Zobrazenie vlnového priebehu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_wfSmoothScroll)
 #: src/configs/waveformconfigwidget.ui:23
@@ -1556,24 +1581,26 @@ msgid ""
 "Autoscroll page when play position reaches ScrollPadding distance "
 "(percentage) from page border"
 msgstr ""
+"Automaticky posúvať stránku, keď pozícia prehrávania dosiahne vzdialenosť "
+"ScrollPadding (percento) od okraja stránky"
 
 #. i18n: ectx: property (text), widget (QLabel, label_wfAutoscrollPadding)
 #: src/configs/waveformconfigwidget.ui:107
 #, kde-format
 msgid "Auto Scroll Padding:"
-msgstr ""
+msgstr "Odsadenie automatického posúvania:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
 #: src/configs/waveformconfigwidget.ui:120
 #, kde-format
 msgid "Subtitle Display"
-msgstr ""
+msgstr "Zobrazenie titulkov"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: src/configs/waveformconfigwidget.ui:148
 #, kde-format
 msgid "Subtitle border color:"
-msgstr ""
+msgstr "Farba okraja titulkov:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #: src/configs/waveformconfigwidget.ui:158
@@ -1585,37 +1612,37 @@ msgstr "Farba pozadia vybraného:"
 #: src/configs/waveformconfigwidget.ui:168
 #, kde-format
 msgid "Subtitle border width:"
-msgstr ""
+msgstr "Šírka okraja titulkov:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: src/configs/waveformconfigwidget.ui:178
 #, kde-format
 msgid "Subtitle background color:"
-msgstr ""
+msgstr "Farba pozadia titulkov:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: src/configs/waveformconfigwidget.ui:207
 #, kde-format
 msgid "Selected border color:"
-msgstr ""
+msgstr "Farba okraja výberu:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/configs/waveformconfigwidget.ui:258
 #, kde-format
 msgid "Text Font and Colors"
-msgstr ""
+msgstr "Písmo a farby textu"
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #: src/configs/waveformconfigwidget.ui:264
 #, kde-format
 msgid "Subtitle font family:"
-msgstr ""
+msgstr "Rodina písma titulkov:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #: src/configs/waveformconfigwidget.ui:277
 #, kde-format
 msgid "Subtitle number font size:"
-msgstr ""
+msgstr "Veľkosť písma čísla titulkov:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubNumberFontSize)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubTextFontSize)
@@ -1629,84 +1656,84 @@ msgstr " bd"
 #: src/configs/waveformconfigwidget.ui:294
 #, kde-format
 msgid "Subtitle Number Color"
-msgstr ""
+msgstr "Farba čísla titulkov"
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: src/configs/waveformconfigwidget.ui:323
 #, kde-format
 msgid "Subtitle text font size:"
-msgstr ""
+msgstr "Veľkosť písma textu titulkov:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_25)
 #: src/configs/waveformconfigwidget.ui:340
 #, kde-format
 msgid "Subtitle Text Color:"
-msgstr ""
+msgstr "Farba textu titulkov:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/configs/waveformconfigwidget.ui:372
 #, kde-format
 msgid "Line Indicators"
-msgstr ""
+msgstr "Indikátory riadkov"
 
 #. i18n: ectx: property (text), widget (QLabel, label_31)
 #: src/configs/waveformconfigwidget.ui:378
 #, kde-format
 msgid "Player position color:"
-msgstr ""
+msgstr "Farba pozície prehrávača:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_32)
 #: src/configs/waveformconfigwidget.ui:388
 #, kde-format
 msgid "Mouse indicator color:"
-msgstr ""
+msgstr "Farba indikátora myši:"
 
 #: src/core/subtitle.cpp:61
 #, kde-format
 msgid "Set Primary Data"
-msgstr ""
+msgstr "Nastaviť primárne dáta"
 
 #: src/core/subtitle.cpp:119
 #, kde-format
 msgid "Clear Primary Text Data"
-msgstr ""
+msgstr "Vymazať primárne textové dáta"
 
 #: src/core/subtitle.cpp:132
 #, kde-format
 msgid "Set Secondary Data"
-msgstr ""
+msgstr "Nastaviť sekundárne dáta"
 
 #: src/core/subtitle.cpp:169
 #, kde-format
 msgid "Clear Secondary Text Data"
-msgstr ""
+msgstr "Vymazať sekundárne textové dáta"
 
 #: src/core/subtitle.cpp:237 src/dialogs/changeframeratedialog.cpp:22
 #, kde-format
 msgid "Change Frame Rate"
-msgstr ""
+msgstr "Zmeniť snímkovú frekvenciu"
 
 #: src/core/subtitle.cpp:402 src/core/subtitle.cpp:416
 #: src/gui/waveform/waveformwidget.cpp:695
 #, kde-format
 msgid "Insert Line"
-msgstr ""
+msgstr "Vložiť riadok"
 
 #: src/core/subtitle.cpp:449 src/core/subtitle.cpp:459
 #: src/core/subtitle.cpp:476 src/core/undo/subtitleactions.cpp:121
 #, kde-format
 msgid "Remove Lines"
-msgstr ""
+msgstr "Odstrániť riadky"
 
 #: src/core/subtitle.cpp:741
 #, kde-format
 msgid "Shift Lines"
-msgstr ""
+msgstr "Posunúť riadky"
 
 #: src/core/subtitle.cpp:797
 #, kde-format
 msgid "Adjust Lines"
-msgstr ""
+msgstr "Upraviť riadky"
 
 #: src/core/subtitle.cpp:808
 #, kde-format
@@ -1716,22 +1743,22 @@ msgstr "Triediť"
 #: src/core/subtitle.cpp:840 src/dialogs/durationlimitsdialog.cpp:18
 #, kde-format
 msgid "Enforce Duration Limits"
-msgstr ""
+msgstr "Vynútiť limity trvania"
 
 #: src/core/subtitle.cpp:902 src/dialogs/autodurationsdialog.cpp:21
 #, kde-format
 msgid "Set Automatic Durations"
-msgstr ""
+msgstr "Nastaviť automatické trvanie"
 
 #: src/core/subtitle.cpp:935 src/dialogs/fixoverlappingtimesdialog.cpp:18
 #, kde-format
 msgid "Fix Overlapping Times"
-msgstr ""
+msgstr "Opraviť prekrývajúce sa časy"
 
 #: src/core/subtitle.cpp:966
 #, kde-format
 msgid "Fix Lines Punctuation"
-msgstr ""
+msgstr "Opraviť interpunkciu riadkov"
 
 #: src/core/subtitle.cpp:1008
 #, kde-format
@@ -1746,7 +1773,7 @@ msgstr "Veľké písmená"
 #: src/core/subtitle.cpp:1068
 #, kde-format
 msgid "Title Case"
-msgstr "Názov indexu"
+msgstr "Veľké začiatočné písmená"
 
 #: src/core/subtitle.cpp:1101
 #, kde-format
@@ -1761,53 +1788,53 @@ msgstr "Zalomiť riadky"
 #: src/core/subtitle.cpp:1172
 #, kde-format
 msgid "Synchronize Subtitles"
-msgstr ""
+msgstr "Synchronizovať titulky"
 
 #: src/core/subtitle.cpp:1197 src/dialogs/joinsubtitlesdialog.cpp:25
 #, kde-format
 msgid "Join Subtitles"
-msgstr ""
+msgstr "Spojiť titulky"
 
 #: src/core/subtitle.cpp:1242 src/core/subtitle.cpp:1248
 #, kde-format
 msgid "Split Subtitles"
-msgstr ""
+msgstr "Rozdeliť titulky"
 
 #: src/core/subtitle.cpp:1267
 #, kde-format
 msgid "Toggle Lines Style"
-msgstr ""
+msgstr "Prepnúť štýl riadkov"
 
 #: src/core/subtitle.cpp:1311
 #, kde-format
 msgid "Change Lines Text Color"
-msgstr ""
+msgstr "Zmeniť farbu textu riadkov"
 
 #: src/core/subtitle.cpp:1331
 #, kde-format
 msgid "Set Lines Mark"
-msgstr ""
+msgstr "Nastaviť značku riadkov"
 
 #: src/core/subtitle.cpp:1331
 #, kde-format
 msgid "Clear Lines Mark"
-msgstr ""
+msgstr "Vymazať značku riadkov"
 
 #: src/core/subtitle.cpp:1346
 #, kde-format
 msgid "Toggle Lines Mark"
-msgstr ""
+msgstr "Prepnúť značku riadkov"
 
 #: src/core/subtitle.cpp:1356
 #, kde-format
 msgid "Clear Line Errors"
-msgstr ""
+msgstr "Vymazať chyby riadku"
 
 #: src/core/subtitle.cpp:1367 src/core/subtitle.cpp:1378
 #: src/errors/errorfinder.cpp:84
 #, kde-format
 msgid "Check Lines Errors"
-msgstr ""
+msgstr "Skontrolovať chyby riadkov"
 
 #: src/core/subtitleline.cpp:59
 #, kde-format
@@ -1817,282 +1844,282 @@ msgstr "Prázdny text"
 #: src/core/subtitleline.cpp:61
 #, kde-format
 msgid "Too many characters"
-msgstr ""
+msgstr "Príliš veľa znakov"
 
 #: src/core/subtitleline.cpp:63
 #, kde-format
 msgid "Too many lines"
-msgstr ""
+msgstr "Príliš veľa riadkov"
 
 #: src/core/subtitleline.cpp:65
 #, kde-format
 msgid "Too many characters per line"
-msgstr ""
+msgstr "Príliš veľa znakov na riadok"
 
 #: src/core/subtitleline.cpp:67
 #, kde-format
 msgid "Unnecessary white space"
-msgstr ""
+msgstr "Zbytočná medzera"
 
 #: src/core/subtitleline.cpp:69
 #, kde-format
 msgid "Unnecessary dash"
-msgstr ""
+msgstr "Zbytočná pomlčka"
 
 #: src/core/subtitleline.cpp:71
 #, kde-format
 msgid "Capital letter after continuation ellipsis"
-msgstr ""
+msgstr "Veľké písmeno po pokračovacej trojbodke"
 
 #: src/core/subtitleline.cpp:73
 #, kde-format
 msgid "Too long duration per character"
-msgstr ""
+msgstr "Príliš dlhé trvanie na znak"
 
 #: src/core/subtitleline.cpp:75
 #, kde-format
 msgid "Too short duration per character"
-msgstr ""
+msgstr "Príliš krátke trvanie na znak"
 
 #: src/core/subtitleline.cpp:77
 #, kde-format
 msgid "Too long duration"
-msgstr ""
+msgstr "Príliš dlhé trvanie"
 
 #: src/core/subtitleline.cpp:78
 #, kde-format
 msgid "Too short duration"
-msgstr ""
+msgstr "Príliš krátke trvanie"
 
 #: src/core/subtitleline.cpp:79
 #, kde-format
 msgid "Overlapping times"
-msgstr ""
+msgstr "Prekrývajúce sa časy"
 
 #: src/core/subtitleline.cpp:80
 #, kde-format
 msgid "Untranslated text"
-msgstr ""
+msgstr "Nepreložený text"
 
 #: src/core/subtitleline.cpp:81
 #, kde-format
 msgid "User mark"
-msgstr ""
+msgstr "Používateľská značka"
 
 #: src/core/subtitleline.cpp:100
 #, kde-format
 msgid "Has no primary text."
-msgstr ""
+msgstr "Nemá primárny text."
 
 #: src/core/subtitleline.cpp:101
 #, kde-format
 msgid "Has no translation text."
-msgstr ""
+msgstr "Nemá text prekladu."
 
 #: src/core/subtitleline.cpp:102
 #, kde-format
 msgid "Has too many characters in primary text (1 char)."
 msgid_plural "Has too many characters in primary text (%1 chars)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš veľa znakov v primárnom texte (%1 znak)."
+msgstr[1] "Má príliš veľa znakov v primárnom texte (%1 znaky)."
+msgstr[2] "Má príliš veľa znakov v primárnom texte (%1 znakov)."
 
 #: src/core/subtitleline.cpp:103
 #, kde-format
 msgid "Has too many characters in translation text (1 char)."
 msgid_plural "Has too many characters in translation text (%1 chars)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš veľa znakov v texte prekladu (%1 znak)."
+msgstr[1] "Má príliš veľa znakov v texte prekladu (%1 znaky)."
+msgstr[2] "Má príliš veľa znakov v texte prekladu (%1 znakov)."
 
 #: src/core/subtitleline.cpp:104
 #, kde-format
 msgid "Has too many lines in primary text (1 line)."
 msgid_plural "Has too many lines in primary text (%1 lines)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš veľa riadkov v primárnom texte (%1 riadok)."
+msgstr[1] "Má príliš veľa riadkov v primárnom texte (%1 riadky)."
+msgstr[2] "Má príliš veľa riadkov v primárnom texte (%1 riadkov)."
 
 #: src/core/subtitleline.cpp:105
 #, kde-format
 msgid "Has too many lines in translation text (1 line)."
 msgid_plural "Has too many lines in translation text (%1 lines)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš veľa riadkov v texte prekladu (%1 riadok)."
+msgstr[1] "Má príliš veľa riadkov v texte prekladu (%1 riadky)."
+msgstr[2] "Má príliš veľa riadkov v texte prekladu (%1 riadkov)."
 
 #: src/core/subtitleline.cpp:106
 #, kde-format
 msgid "Has too many characters per line in primary text."
-msgstr ""
+msgstr "Má príliš veľa znakov na riadok v primárnom texte."
 
 #: src/core/subtitleline.cpp:107
 #, kde-format
 msgid "Has too many characters per line in translation text."
-msgstr ""
+msgstr "Má príliš veľa znakov na riadok v texte prekladu."
 
 #: src/core/subtitleline.cpp:108
 #, kde-format
 msgid "Has unnecessary spaces in primary text."
-msgstr ""
+msgstr "Má zbytočné medzery v primárnom texte."
 
 #: src/core/subtitleline.cpp:109
 #, kde-format
 msgid "Has unnecessary spaces in translation text."
-msgstr ""
+msgstr "Má zbytočné medzery v texte prekladu."
 
 #: src/core/subtitleline.cpp:110
 #, kde-format
 msgid "Has unnecessary dash in primary text."
-msgstr ""
+msgstr "Má zbytočnú pomlčku v primárnom texte."
 
 #: src/core/subtitleline.cpp:111
 #, kde-format
 msgid "Has unnecessary dash in translation text."
-msgstr ""
+msgstr "Má zbytočnú pomlčku v texte prekladu."
 
 #: src/core/subtitleline.cpp:112
 #, kde-format
 msgid "Has capital letter after line continuation ellipsis in primary text."
-msgstr ""
+msgstr "Má veľké písmeno po trojbodke pokračovania riadku v primárnom texte."
 
 #: src/core/subtitleline.cpp:113
 #, kde-format
 msgid ""
 "Has capital letter after line continuation ellipsis in translation text."
-msgstr ""
+msgstr "Má veľké písmeno po trojbodke pokračovania riadku v texte prekladu."
 
 #: src/core/subtitleline.cpp:114
 #, kde-format
 msgid "Has too long duration per character in primary text (1 msec/char)."
 msgid_plural ""
 "Has too long duration per character in primary text (%1 msecs/char)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš dlhé trvanie na znak v primárnom texte (%1 msek/znak)."
+msgstr[1] "Má príliš dlhé trvanie na znak v primárnom texte (%1 msek/znak)."
+msgstr[2] "Má príliš dlhé trvanie na znak v primárnom texte (%1 msek/znak)."
 
 #: src/core/subtitleline.cpp:115
 #, kde-format
 msgid "Has too long duration per character in translation text (1 msec/char)."
 msgid_plural ""
 "Has too long duration per character in translation text (%1 msecs/char)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš dlhé trvanie na znak v texte prekladu (%1 msek/znak)."
+msgstr[1] "Má príliš dlhé trvanie na znak v texte prekladu (%1 msek/znak)."
+msgstr[2] "Má príliš dlhé trvanie na znak v texte prekladu (%1 msek/znak)."
 
 #: src/core/subtitleline.cpp:116
 #, kde-format
 msgid "Has too short duration per character in primary text (1 msec/char)."
 msgid_plural ""
 "Has too short duration per character in primary text (%1 msecs/char)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš krátke trvanie na znak v primárnom texte (%1 msek/znak)."
+msgstr[1] "Má príliš krátke trvanie na znak v primárnom texte (%1 msek/znak)."
+msgstr[2] "Má príliš krátke trvanie na znak v primárnom texte (%1 msek/znak)."
 
 #: src/core/subtitleline.cpp:117
 #, kde-format
 msgid "Has too short duration per character in translation text (1 msec/char)."
 msgid_plural ""
 "Has too short duration per character in translation text (%1 msecs/char)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš krátke trvanie na znak v texte prekladu (%1 msek/znak)."
+msgstr[1] "Má príliš krátke trvanie na znak v texte prekladu (%1 msek/znak)."
+msgstr[2] "Má príliš krátke trvanie na znak v texte prekladu (%1 msek/znak)."
 
 #: src/core/subtitleline.cpp:118
 #, kde-format
 msgid "Has too long duration (1 msec)."
 msgid_plural "Has too long duration (%1 msecs)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš dlhé trvanie (%1 msek)."
+msgstr[1] "Má príliš dlhé trvanie (%1 msek)."
+msgstr[2] "Má príliš dlhé trvanie (%1 msek)."
 
 #: src/core/subtitleline.cpp:119
 #, kde-format
 msgid "Has too short duration (1 msec)."
 msgid_plural "Has too short duration (%1 msecs)."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Má príliš krátke trvanie (%1 msek)."
+msgstr[1] "Má príliš krátke trvanie (%1 msek)."
+msgstr[2] "Má príliš krátke trvanie (%1 msek)."
 
 #: src/core/subtitleline.cpp:120
 #, kde-format
 msgid "Overlaps with next line."
-msgstr ""
+msgstr "Prekrýva sa s nasledujúcim riadkom."
 
 #: src/core/subtitleline.cpp:121
 #, kde-format
 msgid "Has untranslated text."
-msgstr ""
+msgstr "Má nepreložený text."
 
 #: src/core/subtitleline.cpp:122
 #, kde-format
 msgid "Has user mark."
-msgstr ""
+msgstr "Má používateľskú značku."
 
 #: src/core/subtitleline.cpp:382 src/core/undo/subtitlelineactions.cpp:105
 #, kde-format
 msgid "Set Line Show Time"
-msgstr ""
+msgstr "Nastaviť čas zobrazenia riadku"
 
 #: src/core/subtitleline.cpp:406 src/core/undo/subtitlelineactions.cpp:132
 #, kde-format
 msgid "Set Line Hide Time"
-msgstr ""
+msgstr "Nastaviť čas skrytia riadku"
 
 #: src/core/subtitleline.cpp:453
 #, kde-format
 msgid "Set Line Times"
-msgstr ""
+msgstr "Nastaviť časy riadku"
 
 #: src/core/subtitleline.cpp:550
 #, kde-format
 msgid "Shift Line Times"
-msgstr ""
+msgstr "Posunúť časy riadku"
 
 #: src/core/subtitleline.cpp:560
 #, kde-format
 msgid "Adjust Line Times"
-msgstr ""
+msgstr "Upraviť časy riadku"
 
 #: src/core/undo/subtitleactions.cpp:32
 #, kde-format
 msgid "Set Frame Rate"
-msgstr ""
+msgstr "Nastaviť snímkovú frekvenciu"
 
 #: src/core/undo/subtitleactions.cpp:52
 #, kde-format
 msgid "Insert Lines"
-msgstr ""
+msgstr "Vložiť riadky"
 
 #: src/core/undo/subtitleactions.cpp:198
 #, kde-format
 msgid "Move Line"
-msgstr ""
+msgstr "Presunúť riadok"
 
 #: src/core/undo/subtitleactions.cpp:283
 #, kde-format
 msgid "Swap Texts"
-msgstr ""
+msgstr "Zameniť texty"
 
 #: src/core/undo/subtitleactions.cpp:306
 #, kde-format
 msgid "Change stylesheet"
-msgstr "Zmeniť veľkosť písmen"
+msgstr "Zmeniť šablónu štýlov"
 
 #: src/core/undo/subtitlelineactions.cpp:28
 #, kde-format
 msgid "Set Line Text"
-msgstr ""
+msgstr "Nastaviť text riadku"
 
 #: src/core/undo/subtitlelineactions.cpp:66
 #, kde-format
 msgid "Set Line Secondary Text"
-msgstr ""
+msgstr "Nastaviť sekundárny text riadku"
 
 #: src/core/undo/subtitlelineactions.cpp:196
 #, kde-format
 msgid "Set Line Errors"
-msgstr ""
+msgstr "Nastaviť chyby riadku"
 
 #: src/dialogs/actionwithtargetdialog.cpp:113
 #, kde-format
@@ -2108,40 +2135,40 @@ msgstr "Cieľ <<"
 #: src/dialogs/actionwithtargetdialog.cpp:143
 #, kde-format
 msgid "All lines"
-msgstr ""
+msgstr "Všetky riadky"
 
 #: src/dialogs/actionwithtargetdialog.cpp:144
 #, kde-format
 msgid "Selected lines"
-msgstr ""
+msgstr "Vybrané riadky"
 
 #: src/dialogs/actionwithtargetdialog.cpp:145
 #, kde-format
 msgid "All lines from first selected"
-msgstr ""
+msgstr "Všetky riadky od prvého vybraného"
 
 #: src/dialogs/actionwithtargetdialog.cpp:146
 #, kde-format
 msgid "All lines up to last selected"
-msgstr ""
+msgstr "Všetky riadky po posledný vybraný"
 
 #: src/dialogs/actionwithtargetdialog.cpp:234 src/utils/finder.cpp:52
 #: src/utils/replacer.cpp:51
 #, kde-format
 msgid "Both subtitles"
-msgstr ""
+msgstr "Oba titulky"
 
 #: src/dialogs/actionwithtargetdialog.cpp:237 src/utils/finder.cpp:54
 #: src/utils/replacer.cpp:53
 #, kde-format
 msgid "Primary subtitle"
-msgstr ""
+msgstr "Primárne titulky"
 
 #: src/dialogs/actionwithtargetdialog.cpp:240 src/utils/finder.cpp:56
 #: src/utils/replacer.cpp:55
 #, kde-format
 msgid "Translation subtitle"
-msgstr ""
+msgstr "Prekladové titulky"
 
 #: src/dialogs/actionwithtargetdialog.h:58
 #, kde-format
@@ -2157,17 +2184,17 @@ msgstr "Upraviť"
 #, kde-format
 msgctxt "@title:group"
 msgid "New Times"
-msgstr ""
+msgstr "Nové časy"
 
 #: src/dialogs/adjusttimesdialog.cpp:27
 #, kde-format
 msgid "First spoken line:"
-msgstr ""
+msgstr "Prvý hovorený riadok:"
 
 #: src/dialogs/adjusttimesdialog.cpp:33
 #, kde-format
 msgid "Last spoken line:"
-msgstr ""
+msgstr "Posledný hovorený riadok:"
 
 #: src/dialogs/autodurationsdialog.cpp:24
 #: src/dialogs/changeframeratedialog.cpp:24
@@ -2183,54 +2210,54 @@ msgstr "Nastavenia"
 #: src/dialogs/autodurationsdialog.cpp:32
 #, kde-format
 msgid "Milliseconds per line:"
-msgstr ""
+msgstr "Milisekundy na riadok:"
 
 #: src/dialogs/autodurationsdialog.cpp:41
 #, kde-format
 msgid "Milliseconds per word:"
-msgstr ""
+msgstr "Milisekundy na slovo:"
 
 #: src/dialogs/autodurationsdialog.cpp:50
 #, kde-format
 msgid "Milliseconds per character:"
-msgstr ""
+msgstr "Milisekundy na znak:"
 
 #: src/dialogs/autodurationsdialog.cpp:54
 #: src/dialogs/durationlimitsdialog.cpp:30
 #, kde-format
 msgid "Prevent overlapping"
-msgstr ""
+msgstr "Zabrániť prekrývaniu"
 
 #: src/dialogs/autodurationsdialog.cpp:57
 #, kde-format
 msgctxt "@title:group"
 msgid "Duration Calculation"
-msgstr ""
+msgstr "Výpočet trvania"
 
 #: src/dialogs/autodurationsdialog.cpp:63
 #, kde-format
 msgid "Use primary text"
-msgstr ""
+msgstr "Použiť primárny text"
 
 #: src/dialogs/autodurationsdialog.cpp:64
 #, kde-format
 msgid "Use translation text"
-msgstr ""
+msgstr "Použiť text prekladu"
 
 #: src/dialogs/autodurationsdialog.cpp:65
 #, kde-format
 msgid "Calculate both and use maximum"
-msgstr ""
+msgstr "Vypočítať oba a použiť maximum"
 
 #: src/dialogs/changeframeratedialog.cpp:33
 #, kde-format
 msgid "Current frame rate:"
-msgstr ""
+msgstr "Aktuálna snímková frekvencia:"
 
 #: src/dialogs/changeframeratedialog.cpp:42
 #, kde-format
 msgid "New frame rate:"
-msgstr ""
+msgstr "Nová snímková frekvencia:"
 
 #: src/dialogs/changetextscasedialog.cpp:19
 #, kde-format
@@ -2241,7 +2268,7 @@ msgstr "Zmeniť veľkosť písmen"
 #, kde-format
 msgctxt "@title:group"
 msgid "Change To"
-msgstr ""
+msgstr "Zmeniť na"
 
 #: src/dialogs/changetextscasedialog.cpp:25
 #, kde-format
@@ -2256,7 +2283,7 @@ msgstr "Veľké písmená"
 #: src/dialogs/changetextscasedialog.cpp:34
 #, kde-format
 msgid "Title case"
-msgstr "Názov indexu"
+msgstr "Veľké začiatočné písmená"
 
 #: src/dialogs/changetextscasedialog.cpp:38
 #, kde-format
@@ -2266,29 +2293,29 @@ msgstr "Veľkosť písmen vo vete"
 #: src/dialogs/changetextscasedialog.cpp:42
 #, kde-format
 msgid "Convert to lower case first"
-msgstr ""
+msgstr "Najprv previesť na malé písmená"
 
 #: src/dialogs/durationlimitsdialog.cpp:20
 #, kde-format
 msgctxt "@title:group"
 msgid "Minimum Duration"
-msgstr ""
+msgstr "Minimálne trvanie"
 
 #: src/dialogs/durationlimitsdialog.cpp:26
 #, kde-format
 msgid "Expand duration to:"
-msgstr ""
+msgstr "Rozšíriť trvanie na:"
 
 #: src/dialogs/durationlimitsdialog.cpp:33
 #, kde-format
 msgctxt "@title:group"
 msgid "Maximum Duration"
-msgstr ""
+msgstr "Maximálne trvanie"
 
 #: src/dialogs/durationlimitsdialog.cpp:39
 #, kde-format
 msgid "Shrink duration to:"
-msgstr ""
+msgstr "Zmenšiť trvanie na:"
 
 #: src/dialogs/encodingdetectdialog.cpp:81
 #, kde-format
@@ -2305,7 +2332,7 @@ msgstr "Zistené"
 #: src/dialogs/encodingdetectdialog.ui:14
 #, kde-format
 msgid "Confirm detected subtitle encoding"
-msgstr ""
+msgstr "Potvrdiť detekované kódovanie titulkov"
 
 #. i18n: ectx: property (text), widget (QLabel, encodingLabel)
 #: src/dialogs/encodingdetectdialog.ui:30
@@ -2322,63 +2349,63 @@ msgstr "Náhľad"
 #: src/dialogs/fixoverlappingtimesdialog.cpp:23
 #, kde-format
 msgid " msecs"
-msgstr ""
+msgstr " msek"
 
 #: src/dialogs/fixoverlappingtimesdialog.cpp:29
 #, kde-format
 msgid "Minimum interval between lines:"
-msgstr ""
+msgstr "Minimálny interval medzi riadkami:"
 
 #: src/dialogs/fixpunctuationdialog.cpp:17
 #, kde-format
 msgid "Fix Punctuation"
-msgstr ""
+msgstr "Opraviť interpunkciu"
 
 #: src/dialogs/fixpunctuationdialog.cpp:22
 #, kde-format
 msgid "Fix and cleanup spaces"
-msgstr ""
+msgstr "Opraviť a vyčistiť medzery"
 
 #: src/dialogs/fixpunctuationdialog.cpp:26
 #, kde-format
 msgid "Fix quotes and double quotes"
-msgstr ""
+msgstr "Opraviť úvodzovky a dvojité úvodzovky"
 
 #: src/dialogs/fixpunctuationdialog.cpp:30
 #, kde-format
 msgid "Fix English 'I' pronoun"
-msgstr ""
+msgstr "Opraviť anglické zámeno 'I'"
 
 #: src/dialogs/fixpunctuationdialog.cpp:34
 #, kde-format
 msgid "Add ellipsis indicating non finished lines"
-msgstr ""
+msgstr "Pridať trojbodku označujúcu nedokončené riadky"
 
 #: src/dialogs/insertlinedialog.cpp:13
 #, kde-format
 msgid "Insert Line Before Current"
-msgstr ""
+msgstr "Vložiť riadok pred aktuálny"
 
 #: src/dialogs/insertlinedialog.cpp:13
 #, kde-format
 msgid "Insert Line After Current"
-msgstr ""
+msgstr "Vložiť riadok za aktuálny"
 
 #: src/dialogs/insertlinedialog.cpp:13
 #, kde-format
 msgid "Insert Into"
-msgstr ""
+msgstr "Vložiť do"
 
 #: src/dialogs/joinsubtitlesdialog.cpp:30
 #, kde-format
 msgid "Shift subtitle forwards before append"
-msgstr ""
+msgstr "Posunúť titulky dopredu pred pripojením"
 
 #: src/dialogs/joinsubtitlesdialog.cpp:37
 #: src/dialogs/splitsubtitledialog.cpp:36
 #, kde-format
 msgid "Set from video length"
-msgstr ""
+msgstr "Nastaviť z dĺžky videa"
 
 #: src/dialogs/progressdialog.cpp:36 src/formats/textdemux/textdemux.cpp:35
 #: src/gui/waveform/waveformwidget.cpp:119
@@ -2391,7 +2418,7 @@ msgstr "%p%"
 #: src/dialogs/removelinesdialog.cpp:13
 #, kde-format
 msgid "Remove Selected Lines"
-msgstr ""
+msgstr "Odstrániť vybrané riadky"
 
 #: src/dialogs/removelinesdialog.cpp:13
 #, kde-format
@@ -2406,7 +2433,7 @@ msgstr "Cesta:"
 #: src/dialogs/selectablesubtitledialog.cpp:46
 #, kde-format
 msgid "Select subtitle"
-msgstr ""
+msgstr "Vybrať titulky"
 
 #: src/dialogs/selectablesubtitledialog.h:30
 #, kde-format
@@ -2416,13 +2443,13 @@ msgstr "Podtitulok"
 #: src/dialogs/shifttimesdialog.cpp:19
 #, kde-format
 msgid "Shift"
-msgstr "Shift"
+msgstr "Posun"
 
 #: src/dialogs/shifttimesdialog.cpp:21
 #, kde-format
 msgctxt "@title:group"
 msgid "Shifting"
-msgstr ""
+msgstr "Posúvanie"
 
 #: src/dialogs/shifttimesdialog.cpp:25
 #, kde-format
@@ -2437,28 +2464,28 @@ msgstr "Späť (-)"
 #: src/dialogs/smarttextsadjustdialog.cpp:29
 #, kde-format
 msgid "Minimum length for line break:"
-msgstr ""
+msgstr "Minimálna dĺžka pre zalomenie riadku:"
 
 #: src/dialogs/splitsubtitledialog.cpp:28
 #, kde-format
 msgid "Split Subtitle"
-msgstr ""
+msgstr "Rozdeliť titulky"
 
 #: src/dialogs/splitsubtitledialog.cpp:41
 #, kde-format
 msgid "Split time:"
-msgstr ""
+msgstr "Čas rozdelenia:"
 
 #: src/dialogs/splitsubtitledialog.cpp:45
 #, kde-format
 msgid "Shift new part backwards after split"
-msgstr ""
+msgstr "Posunúť novú časť dozadu po rozdelení"
 
 #. i18n: ectx: property (text), widget (QLabel, labClass)
 #: src/dialogs/subtitleclassdialog.ui:30
 #, kde-format
 msgid "Space separated list of CSS classes:"
-msgstr ""
+msgstr "Zoznam CSS tried oddelených medzerou:"
 
 #. i18n: CSS
 #. i18n: ectx: property (placeholderText), widget (QComboBox, classList)
@@ -2476,7 +2503,7 @@ msgstr "Štandardná farba"
 #: src/dialogs/subtitlevoicedialog.ui:30
 #, kde-format
 msgid "Person name or voice title:"
-msgstr ""
+msgstr "Meno osoby alebo názov hlasu:"
 
 #. i18n: CSS
 #. i18n: ectx: property (placeholderText), widget (QComboBox, voiceList)
@@ -2488,12 +2515,12 @@ msgstr "Hlas"
 #: src/dialogs/syncsubtitlesdialog.cpp:17
 #, kde-format
 msgid "Synchronize with Subtitle"
-msgstr ""
+msgstr "Synchronizovať s titulkami"
 
 #: src/dialogs/syncsubtitlesdialog.cpp:19
 #, kde-format
 msgid "Reference Subtitle"
-msgstr ""
+msgstr "Referenčné titulky"
 
 #: src/dialogs/syncsubtitlesdialog.cpp:21
 #, kde-format
@@ -2504,22 +2531,22 @@ msgstr "Režim synchronizácie"
 #: src/dialogs/syncsubtitlesdialog.cpp:24
 #, kde-format
 msgid "Adjust to reference's first and last lines"
-msgstr ""
+msgstr "Prispôsobiť prvému a poslednému riadku referencie"
 
 #: src/dialogs/syncsubtitlesdialog.cpp:28
 #, kde-format
 msgid "Copy timing information from reference line by line"
-msgstr ""
+msgstr "Kopírovať informácie o časovaní z referencie riadok po riadku"
 
 #: src/errors/errorfinder.cpp:173 src/errors/finderrorsdialog.cpp:17
 #, kde-format
 msgid "Find Error"
-msgstr ""
+msgstr "Nájsť chybu"
 
 #: src/errors/errorfinder.cpp:173
 #, kde-format
 msgid "No errors matching given criteria were found!"
-msgstr ""
+msgstr "Nenašli sa žiadne chyby zodpovedajúce zadaným kritériám!"
 
 #: src/errors/finderrorsdialog.cpp:22
 #, kde-format
@@ -2536,12 +2563,12 @@ msgstr "Rôzne"
 #: src/errors/finderrorsdialog.cpp:31
 #, kde-format
 msgid "Clear other errors"
-msgstr ""
+msgstr "Vymazať ostatné chyby"
 
 #: src/errors/finderrorsdialog.cpp:35
 #, kde-format
 msgid "Clear user marks"
-msgstr ""
+msgstr "Vymazať používateľské značky"
 
 #: src/errors/finderrorsdialog.cpp:42
 #, kde-format
@@ -2551,7 +2578,7 @@ msgstr "Hľadať v"
 #: src/errors/finderrorsdialog.cpp:86
 #, kde-format
 msgid "Available errors"
-msgstr ""
+msgstr "Dostupné chyby"
 
 #: src/errors/finderrorsdialog.cpp:116
 #, kde-format
@@ -2561,7 +2588,7 @@ msgstr "Nevybrať nič"
 #: src/formats/textdemux/textdemux.cpp:32
 #, kde-format
 msgid "Importing Subtitle Stream"
-msgstr ""
+msgstr "Importovanie prúdu titulkov"
 
 #: src/formats/textdemux/textdemux.cpp:91
 #, kde-format
@@ -2569,6 +2596,8 @@ msgid ""
 "Subtitle demux failed %1: %2\n"
 "%3"
 msgstr ""
+"Demuxovanie titulkov zlyhalo %1: %2\n"
+"%3"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, VobSubInputInitDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, VobSubInputProcessDialog)
@@ -2576,13 +2605,13 @@ msgstr ""
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:14
 #, kde-format
 msgid "VobSub Import"
-msgstr ""
+msgstr "Import VobSub"
 
 #. i18n: ectx: property (text), widget (QLabel, labelStream)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:20
 #, kde-format
 msgid "Stream / Language"
-msgstr ""
+msgstr "Prúd / Jazyk"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpPostProc)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:30
@@ -2594,31 +2623,31 @@ msgstr "Postprocessing"
 #: src/formats/vobsub/vobsubinputinitdialog.ui:36
 #, kde-format
 msgid "Fix space between numbers"
-msgstr ""
+msgstr "Opraviť medzery medzi číslami"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ppSpacePunct)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:46
 #, kde-format
 msgid "Fix space around punctuation (.,;:?!)"
-msgstr ""
+msgstr "Opraviť medzery okolo interpunkcie (.,;:?!)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ppSpaceParen)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:56
 #, kde-format
 msgid "Fix space around quotes and parentheses (\"()[]{})"
-msgstr ""
+msgstr "Opraviť medzery okolo úvodzoviek a zátvoriek (\"()[]{})"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ppAposQuote)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:66
 #, kde-format
 msgid "Fix double apostrophes/quotes"
-msgstr ""
+msgstr "Opraviť dvojité apostrofy/úvodzovky"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ppCharsOCR)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:76
 #, kde-format
 msgid "Fix i <-> l, 0 <-> O mistakes"
-msgstr ""
+msgstr "Opraviť chyby i <-> l, 0 <-> O"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpSettings)
 #: src/formats/vobsub/vobsubinputinitdialog.ui:112
@@ -2632,18 +2661,18 @@ msgstr "Nastavenia"
 #: src/formats/vobsub/vobsubinputinitdialog.ui:118
 #, kde-format
 msgid "Whitespace detection threshold (pixels)"
-msgstr ""
+msgstr "Prah detekcie medzier (pixelov)"
 
 #: src/formats/vobsub/vobsubinputprocessdialog.cpp:585
 #, kde-format
 msgid "VobSub Error"
-msgstr ""
+msgstr "Chyba VobSub"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpText)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:26
 #, kde-format
 msgid "Enter character(s)"
-msgstr ""
+msgstr "Zadajte znak(y)"
 
 #. i18n: ectx: property (text), widget (QLabel, symbolLabel)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:35
@@ -2655,7 +2684,7 @@ msgstr "Symboly:"
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:45
 #, kde-format
 msgid "Up/Down: change value"
-msgstr ""
+msgstr "Hore/Dole: zmeniť hodnotu"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnOk)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:143
@@ -2667,43 +2696,43 @@ msgstr "OK"
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:198
 #, kde-format
 msgid "Ctrl+Shift+Left"
-msgstr ""
+msgstr "Ctrl+Shift+Left"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnPrevImage)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:201
 #, kde-format
 msgid "Prev Image"
-msgstr ""
+msgstr "Predchádzajúci obrázok"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnPrevSymbol)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:214
 #, kde-format
 msgid "Ctrl+Left"
-msgstr ""
+msgstr "Ctrl+Left"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnPrevSymbol)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:217
 #, kde-format
 msgid "Prev Symbol"
-msgstr ""
+msgstr "Predchádzajúci symbol"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnNextSymbol)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:230
 #, kde-format
 msgid "Ctrl+Right"
-msgstr ""
+msgstr "Ctrl+Right"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnNextSymbol)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:233
 #, kde-format
 msgid "Next Symbol"
-msgstr ""
+msgstr "Nasledujúci symbol"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnNextImage)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:243
 #, kde-format
 msgid "Ctrl+Shift+Right"
-msgstr ""
+msgstr "Ctrl+Shift+Right"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnNextImage)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:246
@@ -2722,7 +2751,7 @@ msgstr "Prerušiť"
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:294
 #, kde-format
 msgid "Subtitle Image"
-msgstr ""
+msgstr "Obrázok titulkov"
 
 #: src/gui/currentlinewidget.cpp:217
 #, kde-format
@@ -2742,32 +2771,32 @@ msgstr "<b>Trvanie</b>"
 #: src/gui/currentlinewidget.cpp:314
 #, kde-format
 msgid "Change Voice Tag"
-msgstr ""
+msgstr "Zmeniť značku hlasu"
 
 #: src/gui/currentlinewidget.cpp:318
 #, kde-format
 msgid "Change Class Tag"
-msgstr "Zmeniť veľkosť písmen"
+msgstr "Zmeniť značku triedy"
 
 #: src/gui/currentlinewidget.cpp:440 src/gui/currentlinewidget.cpp:443
 #, kde-format
 msgid "No current line"
-msgstr ""
+msgstr "Žiadny aktuálny riadok"
 
 #: src/gui/currentlinewidget.cpp:526
 #, kde-format
 msgid "chars"
-msgstr "Znaky"
+msgstr "znaky"
 
 #: src/gui/currentlinewidget.cpp:534
 #, kde-format
 msgid "ms/char"
-msgstr " znaky"
+msgstr "ms/znak"
 
 #: src/gui/currentlinewidget.cpp:536
 #, kde-format
 msgid "chars/sec"
-msgstr " znaky"
+msgstr "zn/sek"
 
 #: src/gui/playerwidget.cpp:70
 #, kde-format
@@ -2787,12 +2816,12 @@ msgstr "<b>FPS</b>"
 #: src/gui/playerwidget.cpp:89
 #, kde-format
 msgid "<b>Playback Rate</b>"
-msgstr ""
+msgstr "<b>Rýchlosť prehrávania</b>"
 
 #: src/gui/playerwidget.cpp:673
 #, kde-format
 msgid "<qt>There was an error opening media file %1.</qt>"
-msgstr ""
+msgstr "<qt>Pri otváraní mediálneho súboru %1 sa vyskytla chyba.</qt>"
 
 #: src/gui/playerwidget.cpp:689 src/gui/playerwidget.cpp:690
 #: src/gui/playerwidget.cpp:691 src/gui/playerwidget.cpp:692
@@ -2805,12 +2834,12 @@ msgstr "<i>Neznáme</i>"
 #: src/gui/playerwidget.cpp:705 src/gui/playerwidget.cpp:707
 #, kde-format
 msgid "Unexpected error when playing file."
-msgstr ""
+msgstr "Neočakávaná chyba pri prehrávaní súboru."
 
 #: src/gui/playerwidget.cpp:705 src/gui/playerwidget.cpp:707
 #, kde-format
 msgid "Error Playing File"
-msgstr ""
+msgstr "Chyba prehrávania súboru"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:46
 #, kde-format
@@ -2820,22 +2849,22 @@ msgstr "Štýly"
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:47
 #, kde-format
 msgid "&Comments"
-msgstr ""
+msgstr "&Komentáre"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:48
 #, kde-format
 msgid "&Position"
-msgstr "<b>Pozícia</b>"
+msgstr "&Pozícia"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:89
 #, kde-format
 msgid "Intro"
-msgstr ""
+msgstr "Úvod"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:91
 #, kde-format
 msgid "Header"
-msgstr "Header"
+msgstr "Hlavička"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:93
 #, kde-format
@@ -2864,7 +2893,7 @@ msgstr "Zvislé zarovnanie"
 #: src/gui/subtitlemeta/subtitlepositionwidget.ui:164
 #, kde-format
 msgid "Position/Size"
-msgstr "<b>Pozícia</b>"
+msgstr "Pozícia/Veľkosť"
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posBottom)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posLeft)
@@ -2881,7 +2910,7 @@ msgstr "%"
 #: src/gui/treeview/linesmodel.cpp:155
 #, kde-format
 msgid "<b>Observations:</b>"
-msgstr ""
+msgstr "<b>Pozorovania:</b>"
 
 #: src/gui/treeview/linesmodel.cpp:182
 #, kde-format
@@ -2905,7 +2934,7 @@ msgstr "Zobraziť čas"
 #, kde-format
 msgctxt "@title:column"
 msgid "Hide Time"
-msgstr ""
+msgstr "Čas skrytia"
 
 #: src/gui/treeview/linesmodel.cpp:186
 #, kde-format
@@ -2994,7 +3023,7 @@ msgstr "Farba textu"
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format
 msgid "Generating waveform"
-msgstr ""
+msgstr "Generovanie vlnového priebehu"
 
 #: src/gui/waveform/waveformwidget.cpp:690
 #, kde-format
@@ -3004,22 +3033,22 @@ msgstr "Vybrať riadok"
 #: src/gui/waveform/waveformwidget.cpp:705
 #, kde-format
 msgid "Remove Line"
-msgstr ""
+msgstr "Odstrániť riadok"
 
 #: src/gui/waveform/waveformwidget.cpp:730
 #, kde-format
 msgid "Split Line"
-msgstr ""
+msgstr "Rozdeliť riadok"
 
 #: src/gui/waveform/waveformwidget.cpp:743
 #, kde-format
 msgid "Set Current Line Show Time"
-msgstr ""
+msgstr "Nastaviť čas zobrazenia aktuálneho riadku"
 
 #: src/gui/waveform/waveformwidget.cpp:748
 #, kde-format
 msgid "Set Current Line Hide Time"
-msgstr ""
+msgstr "Nastaviť čas skrytia aktuálneho riadku"
 
 #: src/helpers/languagecode.cpp:407
 #, kde-format
@@ -3029,12 +3058,12 @@ msgstr "Neznáme"
 #: src/main.cpp:71
 #, kde-format
 msgid "The primary subtitle to be edited."
-msgstr ""
+msgstr "Primárne titulky na úpravu."
 
 #: src/main.cpp:76
 #, kde-format
 msgid "The video to be subtitled."
-msgstr ""
+msgstr "Video na titulkovanie."
 
 #: src/main.cpp:81
 #, kde-format
@@ -3043,6 +3072,9 @@ msgid ""
 "If included, a second pane gets added to the right of the primary subtitle "
 "for side-by-side translation."
 msgstr ""
+"Prekladové titulky na úpravu.\n"
+"Ak sú zahrnuté, pridá sa druhý panel napravo od primárnych titulkov pre "
+"preklad vedľa seba."
 
 #: src/main.cpp:153
 #, kde-format
@@ -3052,7 +3084,7 @@ msgstr "Vytvárač tituliek"
 #: src/main.cpp:155
 #, kde-format
 msgid "A KDE subtitle editor."
-msgstr ""
+msgstr "Editor titulkov pre KDE."
 
 #: src/main.cpp:161
 #, kde-format
@@ -3067,7 +3099,7 @@ msgstr "Pôdodný správca"
 #: src/main.cpp:163
 #, kde-format
 msgid "Patches and Website"
-msgstr ""
+msgstr "Záplaty a webová stránka"
 
 #: src/main.cpp:165
 #, kde-format
@@ -3089,7 +3121,7 @@ msgstr "príspevky do kódu"
 #: src/main.cpp:168
 #, kde-format
 msgid "code contributions, Arch Linux packaging"
-msgstr ""
+msgstr "príspevky do kódu, balíčkovanie Arch Linux"
 
 #: src/main.cpp:170
 #, kde-format
@@ -3109,115 +3141,115 @@ msgstr "Vlnový priebeh"
 #: src/mainwindow.cpp:62
 #, kde-format
 msgid "Styles and Comments"
-msgstr ""
+msgstr "Štýly a komentáre"
 
 #. i18n: ectx: label, entry (DefaultSubtitlesEncoding), group (General)
 #: src/scconfig.kcfg:10
 #, kde-format
 msgid "Default Subtitles Encoding"
-msgstr ""
+msgstr "Predvolené kódovanie titulkov"
 
 #. i18n: ectx: label, entry (TextLineBreak), group (General)
 #: src/scconfig.kcfg:14
 #, kde-format
 msgid "Line Break Character"
-msgstr ""
+msgstr "Znak zalomenia riadku"
 
 #. i18n: ectx: label, entry (SeekOffsetOnDoubleClick), group (General)
 #: src/scconfig.kcfg:18
 #, kde-format
 msgid "Seek Offset On Double Click"
-msgstr ""
+msgstr "Posun pri dvojitom kliknutí"
 
 #. i18n: ectx: label, entry (JumpLineOffset), group (General)
 #: src/scconfig.kcfg:22
 #, kde-format
 msgid "Jump to prev/next line offset"
-msgstr ""
+msgstr "Skok na predchádzajúci/nasledujúci riadok posun"
 
 #. i18n: ectx: label, entry (UnpauseOnDoubleClick), group (General)
 #: src/scconfig.kcfg:26
 #, kde-format
 msgid "Unpause On Double Click"
-msgstr ""
+msgstr "Pokračovanie pri dvojitom kliknutí"
 
 #. i18n: ectx: label, entry (AutomaticVideoLoad), group (General)
 #: src/scconfig.kcfg:30
 #, kde-format
 msgid "Automatic Video Load"
-msgstr ""
+msgstr "Automatické načítanie videa"
 
 #. i18n: ectx: label, entry (LinesQuickShiftAmount), group (General)
 #: src/scconfig.kcfg:35
 #, kde-format
 msgid "Lines Quick Shift Amount"
-msgstr ""
+msgstr "Veľkosť rýchleho posunu riadkov"
 
 #. i18n: ectx: label, entry (GrabbedPositionCompensation), group (General)
 #: src/scconfig.kcfg:39
 #, kde-format
 msgid "Grabbed Position Compensation"
-msgstr ""
+msgstr "Kompenzácia zachytenej pozície"
 
 #. i18n: ectx: label, entry (LineDuration), group (General)
 #: src/scconfig.kcfg:44
 #, kde-format
 msgid "Default subtitle line duration"
-msgstr ""
+msgstr "Predvolené trvanie riadku titulkov"
 
 #. i18n: ectx: label, entry (LinePause), group (General)
 #: src/scconfig.kcfg:48
 #, kde-format
 msgid "Default duration between subtitle lines"
-msgstr ""
+msgstr "Predvolené trvanie medzi riadkami titulkov"
 
 #. i18n: ectx: label, entry (MaxCharacters), group (Error Check)
 #: src/scconfig.kcfg:55
 #, kde-format
 msgid "Maximum number of characters"
-msgstr ""
+msgstr "Maximálny počet znakov"
 
 #. i18n: ectx: label, entry (MaxLines), group (Error Check)
 #: src/scconfig.kcfg:59
 #, kde-format
 msgid "Maximum number of lines"
-msgstr ""
+msgstr "Maximálny počet riadkov"
 
 #. i18n: ectx: label, entry (MaxCharactersPerLine), group (Error Check)
 #: src/scconfig.kcfg:63
 #, kde-format
 msgid "Maximum number of characters per line"
-msgstr ""
+msgstr "Maximálny počet znakov na riadok"
 
 #. i18n: ectx: label, entry (MinDuration), group (Error Check)
 #: src/scconfig.kcfg:68
 #, kde-format
 msgid "Minimum duration"
-msgstr ""
+msgstr "Minimálne trvanie"
 
 #. i18n: ectx: label, entry (MaxDuration), group (Error Check)
 #: src/scconfig.kcfg:72
 #, kde-format
 msgid "Maximum duration"
-msgstr ""
+msgstr "Maximálne trvanie"
 
 #. i18n: ectx: label, entry (MinDurationPerCharacter), group (Error Check)
 #: src/scconfig.kcfg:77
 #, kde-format
 msgid "Minimum duration per character"
-msgstr ""
+msgstr "Minimálne trvanie na znak"
 
 #. i18n: ectx: label, entry (IdealDurationPerCharacter), group (Error Check)
 #: src/scconfig.kcfg:81
 #, kde-format
 msgid "Ideal duration per character"
-msgstr ""
+msgstr "Ideálne trvanie na znak"
 
 #. i18n: ectx: label, entry (MaxDurationPerCharacter), group (Error Check)
 #: src/scconfig.kcfg:85
 #, kde-format
 msgid "Maximum duration per character"
-msgstr ""
+msgstr "Maximálne trvanie na znak"
 
 #. i18n: ectx: label, entry (DefaultLanguage), group (Spelling)
 #: src/scconfig.kcfg:97
@@ -3235,55 +3267,55 @@ msgstr "Automatická detekcia"
 #: src/scconfig.kcfg:105
 #, kde-format
 msgid "Default client"
-msgstr ""
+msgstr "Predvolený klient"
 
 #. i18n: ectx: label, entry (backgroundCheckerEnabled), group (Spelling)
 #: src/scconfig.kcfg:109
 #, kde-format
 msgid "Background checker enabled"
-msgstr ""
+msgstr "Kontrola na pozadí zapnutá"
 
 #. i18n: ectx: label, entry (checkerEnabledByDefault), group (Spelling)
 #: src/scconfig.kcfg:113
 #, kde-format
 msgid "Checker enabled by default"
-msgstr ""
+msgstr "Kontrola štandardne zapnutá"
 
 #. i18n: ectx: label, entry (skipUppercase), group (Spelling)
 #: src/scconfig.kcfg:117
 #, kde-format
 msgid "Skip uppercase"
-msgstr "Veľké písmená"
+msgstr "Preskočiť veľké písmená"
 
 #. i18n: ectx: label, entry (skipRunTogether), group (Spelling)
 #: src/scconfig.kcfg:121
 #, kde-format
 msgid "Skip Run Together"
-msgstr ""
+msgstr "Preskočiť zlúčené slová"
 
 #. i18n: ectx: label, entry (wfInnerColor), group (Waveform Widget)
 #: src/scconfig.kcfg:128
 #, kde-format
 msgid "Waveform Inner Color"
-msgstr ""
+msgstr "Vnútorná farba vlnového priebehu"
 
 #. i18n: ectx: label, entry (wfOuterColor), group (Waveform Widget)
 #: src/scconfig.kcfg:132
 #, kde-format
 msgid "Waveform Outer Color"
-msgstr ""
+msgstr "Vonkajšia farba vlnového priebehu"
 
 #. i18n: ectx: label, entry (wfSmoothScroll), group (Waveform Widget)
 #: src/scconfig.kcfg:136
 #, kde-format
 msgid "Waveform Smooth Scrolling"
-msgstr ""
+msgstr "Plynulé rolovanie vlnového priebehu"
 
 #. i18n: ectx: label, entry (wfAutoscrollPadding), group (Waveform Widget)
 #: src/scconfig.kcfg:140
 #, kde-format
 msgid "Autoscroll Padding"
-msgstr ""
+msgstr "Odsadenie automatického posúvania"
 
 #. i18n: ectx: whatsthis, entry (wfAutoscrollPadding), group (Waveform Widget)
 #: src/scconfig.kcfg:142
@@ -3292,36 +3324,38 @@ msgid ""
 "Autoscroll page when play position reaches ScrollPadding distance "
 "(percentage) from page border."
 msgstr ""
+"Automaticky posúvať stránku, keď pozícia prehrávania dosiahne vzdialenosť "
+"ScrollPadding (percento) od okraja stránky."
 
 #. i18n: ectx: label, entry (wfSubBackground), group (Waveform Widget)
 #: src/scconfig.kcfg:145
 #, kde-format
 msgid "Waveform Subtitle Background Color"
-msgstr ""
+msgstr "Farba pozadia titulkov vlnového priebehu"
 
 #. i18n: ectx: label, entry (wfSubBorder), group (Waveform Widget)
 #: src/scconfig.kcfg:149
 #, kde-format
 msgid "Waveform Subtitle Border Color"
-msgstr ""
+msgstr "Farba okraja titulkov vlnového priebehu"
 
 #. i18n: ectx: label, entry (wfSubBorderWidth), group (Waveform Widget)
 #: src/scconfig.kcfg:153
 #, kde-format
 msgid "Waveform Subtitle Border Width"
-msgstr ""
+msgstr "Šírka okraja titulkov vlnového priebehu"
 
 #. i18n: ectx: label, entry (wfSelBackground), group (Waveform Widget)
 #: src/scconfig.kcfg:157
 #, kde-format
 msgid "Waveform Selected Subtitle Background Color"
-msgstr ""
+msgstr "Farba pozadia vybraných titulkov vlnového priebehu"
 
 #. i18n: ectx: label, entry (wfSelBorder), group (Waveform Widget)
 #: src/scconfig.kcfg:161
 #, kde-format
 msgid "Waveform Selected Subtitle Border Color"
-msgstr ""
+msgstr "Farba okraja vybraných titulkov vlnového priebehu"
 
 #. i18n: ectx: label, entry (wfFontFamily), group (Waveform Widget)
 #. i18n: ectx: label, entry (FontFamily), group (VideoPlayer)
@@ -3334,61 +3368,61 @@ msgstr "Rodina písma"
 #: src/scconfig.kcfg:169
 #, kde-format
 msgid "Subtitle Number Font Size"
-msgstr ""
+msgstr "Veľkosť písma čísla titulkov"
 
 #. i18n: ectx: label, entry (wfSubNumberColor), group (Waveform Widget)
 #: src/scconfig.kcfg:173
 #, kde-format
 msgid "Subtitle Number Font Color"
-msgstr ""
+msgstr "Farba písma čísla titulkov"
 
 #. i18n: ectx: label, entry (wfSubTextFontSize), group (Waveform Widget)
 #: src/scconfig.kcfg:177
 #, kde-format
 msgid "Subtitle Text Font Size"
-msgstr ""
+msgstr "Veľkosť písma textu titulkov"
 
 #. i18n: ectx: label, entry (wfSubTextColor), group (Waveform Widget)
 #: src/scconfig.kcfg:181
 #, kde-format
 msgid "Subtitle Text Font Color"
-msgstr ""
+msgstr "Farba písma textu titulkov"
 
 #. i18n: ectx: label, entry (wfMouseLocation), group (Waveform Widget)
 #: src/scconfig.kcfg:185
 #, kde-format
 msgid "Mouse Location Line Color"
-msgstr ""
+msgstr "Farba čiary umiestnenia myši"
 
 #. i18n: ectx: label, entry (wfPlayLocation), group (Waveform Widget)
 #: src/scconfig.kcfg:189
 #, kde-format
 msgid "Play Location Line Color"
-msgstr ""
+msgstr "Farba čiary umiestnenia prehrávania"
 
 #. i18n: ectx: label, entry (SeekJumpLength), group (VideoPlayer)
 #: src/scconfig.kcfg:200
 #, kde-format
 msgid "Jump length on seek"
-msgstr ""
+msgstr "Dĺžka skoku pri posúvaní"
 
 #. i18n: ectx: label, entry (StepJumpLength), group (VideoPlayer)
 #: src/scconfig.kcfg:204
 #, kde-format
 msgid "Amount of frames to skip when stepping"
-msgstr ""
+msgstr "Počet snímkov na preskočenie pri krokovaní"
 
 #. i18n: ectx: label, entry (ShowPositionTimeEdit), group (VideoPlayer)
 #: src/scconfig.kcfg:208
 #, kde-format
 msgid "Show editable time position"
-msgstr ""
+msgstr "Zobraziť upraviteľnú časovú pozíciu"
 
 #. i18n: ectx: label, entry (VolumeAmplification), group (VideoPlayer)
 #: src/scconfig.kcfg:212
 #, kde-format
 msgid "Volume Amplification"
-msgstr ""
+msgstr "Zosilnenie hlasitosti"
 
 #. i18n: ectx: label, entry (FontSize), group (VideoPlayer)
 #: src/scconfig.kcfg:221
@@ -3418,13 +3452,13 @@ msgstr "Šírka obrysu"
 #: src/scconfig.kcfg:240
 #, kde-format
 msgid "Last used translate engine"
-msgstr ""
+msgstr "Posledný použitý prekladový engine"
 
 #. i18n: ectx: label, entry (gctServiceJSON), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:247
 #, kde-format
 msgid "Service Account JSON containing private key"
-msgstr ""
+msgstr "JSON servisného účtu obsahujúci súkromný kľúč"
 
 #. i18n: ectx: label, entry (gctLangSource), group (GoogleCloudTranslate)
 #. i18n: ectx: label, entry (dltLangSource), group (DeepLTranslate)
@@ -3432,7 +3466,7 @@ msgstr ""
 #: src/scconfig.kcfg:250 src/scconfig.kcfg:274 src/scconfig.kcfg:287
 #, kde-format
 msgid "source language - cached"
-msgstr ""
+msgstr "zdrojový jazyk - uložený vo vyrovnávacej pamäti"
 
 #. i18n: ectx: label, entry (gctLangTrans), group (GoogleCloudTranslate)
 #. i18n: ectx: label, entry (dltLangTrans), group (DeepLTranslate)
@@ -3440,48 +3474,48 @@ msgstr ""
 #: src/scconfig.kcfg:253 src/scconfig.kcfg:277 src/scconfig.kcfg:290
 #, kde-format
 msgid "translation language - cached"
-msgstr ""
+msgstr "cieľový jazyk - uložený vo vyrovnávacej pamäti"
 
 #. i18n: ectx: label, entry (gctAccessToken), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:256
 #, kde-format
 msgid "access token - cached"
-msgstr ""
+msgstr "prístupový token - uložený vo vyrovnávacej pamäti"
 
 #. i18n: ectx: label, entry (gctTokenExpires), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:259
 #, kde-format
 msgid "access token expiry - cached"
-msgstr ""
+msgstr "expirácia prístupového tokenu - uložená vo vyrovnávacej pamäti"
 
 #. i18n: ectx: label, entry (gctTokenType), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:262
 #, kde-format
 msgid "access token type - cached"
-msgstr ""
+msgstr "typ prístupového tokenu - uložený vo vyrovnávacej pamäti"
 
 #. i18n: ectx: label, entry (dltAuthKey), group (DeepLTranslate)
 #: src/scconfig.kcfg:268
 #, kde-format
 msgid "DeepL API authentication key"
-msgstr ""
+msgstr "Autentifikačný kľúč API DeepL"
 
 #. i18n: ectx: label, entry (dltApiDomain), group (DeepLTranslate)
 #: src/scconfig.kcfg:271
 #, kde-format
 msgid "DeepL API domain name"
-msgstr ""
+msgstr "Názov domény API DeepL"
 
 #. i18n: ectx: label, entry (mintURLPrefix), group (MinTTranslate)
 #: src/scconfig.kcfg:283
 #, kde-format
 msgid "MinT API URL prefix"
-msgstr ""
+msgstr "Prefix URL API MinT"
 
 #: src/scripting/scriptsmanager.cpp:73
 #, kde-format
 msgid "Non-Script Files"
-msgstr ""
+msgstr "Neskriptové súbory"
 
 #: src/scripting/scriptsmanager.cpp:155
 #, kde-format
@@ -3535,11 +3569,13 @@ msgid ""
 "A script already exists with this name.\n"
 "Would you like to enter another name?"
 msgstr ""
+"Skript s týmto názvom už existuje.\n"
+"Chcete zadať iný názov?"
 
 #: src/scripting/scriptsmanager.cpp:488
 #, kde-format
 msgid "Duplicate filename"
-msgstr ""
+msgstr "Duplicitný názov súboru"
 
 #: src/scripting/scriptsmanager.cpp:489
 #, kde-format
@@ -3559,12 +3595,12 @@ msgstr "Meno skriptu:"
 #: src/scripting/scriptsmanager.cpp:504
 #, kde-format
 msgid "There was an error creating the file <b>%1</b>."
-msgstr ""
+msgstr "Pri vytváraní súboru <b>%1</b> sa vyskytla chyba."
 
 #: src/scripting/scriptsmanager.cpp:539
 #, kde-format
 msgid "Select Existing Script"
-msgstr ""
+msgstr "Vybrať existujúci skript"
 
 #: src/scripting/scriptsmanager.cpp:556
 #, kde-format
@@ -3572,6 +3608,8 @@ msgid ""
 "You must enter an unused name to continue.\n"
 "Would you like to enter another name?"
 msgstr ""
+"Pre pokračovanie musíte zadať nepoužitý názov.\n"
+"Chcete zadať iný názov?"
 
 #: src/scripting/scriptsmanager.cpp:557
 #, kde-format
@@ -3586,17 +3624,17 @@ msgstr "Premenovať skript"
 #: src/scripting/scriptsmanager.cpp:569
 #, kde-format
 msgid "There was an error opening the file <b>%1</b>."
-msgstr ""
+msgstr "Pri otváraní súboru <b>%1</b> sa vyskytla chyba."
 
 #: src/scripting/scriptsmanager.cpp:577
 #, kde-format
 msgid "There was an error copying the file to <b>%1</b>."
-msgstr ""
+msgstr "Pri kopírovaní súboru do <b>%1</b> sa vyskytla chyba."
 
 #: src/scripting/scriptsmanager.cpp:592
 #, kde-format
 msgid "Do you really want to send file <b>%1</b> to the trash?"
-msgstr ""
+msgstr "Naozaj chcete presunúť súbor <b>%1</b> do koša?"
 
 #: src/scripting/scriptsmanager.cpp:592
 #, kde-format
@@ -3606,17 +3644,17 @@ msgstr "Presunúť do koša"
 #: src/scripting/scriptsmanager.cpp:596
 #, kde-format
 msgid "There was an error removing the file <b>%1</b>."
-msgstr ""
+msgstr "Pri odstraňovaní súboru <b>%1</b> sa vyskytla chyba."
 
 #: src/scripting/scriptsmanager.cpp:614
 #, kde-format
 msgid "Could not launch external editor.\n"
-msgstr ""
+msgstr "Nepodarilo sa spustiť externý editor.\n"
 
 #: src/scripting/scriptsmanager.cpp:634
 #, kde-format
 msgid "Error opening script %1."
-msgstr ""
+msgstr "Chyba pri otváraní skriptu %1."
 
 #: src/scripting/scriptsmanager.cpp:634 src/scripting/scriptsmanager.cpp:649
 #: src/scripting/scriptsmanager.cpp:651
@@ -3638,13 +3676,13 @@ msgstr "Nástroje"
 #: src/scripting/scriptsmanager.ui:14
 #, kde-format
 msgid "Scripts Manager"
-msgstr ""
+msgstr "Správca skriptov"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreate)
 #: src/scripting/scriptsmanager.ui:29
 #, kde-format
 msgid "Creates a new script file."
-msgstr ""
+msgstr "Vytvorí nový súbor skriptu."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnCreate)
 #: src/scripting/scriptsmanager.ui:32
@@ -3656,7 +3694,7 @@ msgstr "Vytvoriť..."
 #: src/scripting/scriptsmanager.ui:42
 #, kde-format
 msgid "Copies an existing script from a specified location."
-msgstr ""
+msgstr "Skopíruje existujúci skript zo zadaného umiestnenia."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #: src/scripting/scriptsmanager.ui:45
@@ -3668,19 +3706,19 @@ msgstr "Pridať..."
 #: src/scripting/scriptsmanager.ui:55
 #, kde-format
 msgid "Sends the selected script to the trash."
-msgstr ""
+msgstr "Presunie vybraný skript do koša."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnEdit)
 #: src/scripting/scriptsmanager.ui:68
 #, kde-format
 msgid "Opens the selected script with an external editor."
-msgstr ""
+msgstr "Otvorí vybraný skript v externom editore."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnRun)
 #: src/scripting/scriptsmanager.ui:97
 #, kde-format
 msgid "Executes the selected script."
-msgstr ""
+msgstr "Spustí vybraný skript."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRun)
 #: src/scripting/scriptsmanager.ui:100
@@ -3692,7 +3730,7 @@ msgstr "Spustiť"
 #: src/scripting/scriptsmanager.ui:126
 #, kde-format
 msgid "Reloads the installed scripts list."
-msgstr ""
+msgstr "Znovu načíta zoznam nainštalovaných skriptov."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRefresh)
 #: src/scripting/scriptsmanager.ui:129
@@ -3706,7 +3744,7 @@ msgstr "Obnoviť"
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:65
 #, kde-format
 msgid "Directory containing acoustic model files"
-msgstr ""
+msgstr "Adresár obsahujúci súbory akustického modelu"
 
 #. i18n: ectx: label, entry (trigramModelFile), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_trigramModelFile)
@@ -3714,7 +3752,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:39
 #, kde-format
 msgid "Word trigram language model input file"
-msgstr ""
+msgstr "Vstupný súbor slovného trigramového jazykového modelu"
 
 #. i18n: ectx: label, entry (lexiconFile), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_lexiconFile)
@@ -3722,7 +3760,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:26
 #, kde-format
 msgid "Main pronunciation dictionary (lexicon) input file"
-msgstr ""
+msgstr "Vstupný súbor hlavného výslovnostného slovníka (lexikónu)"
 
 #. i18n: ectx: label, entry (vadPostSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadPostSpeech)
@@ -3730,7 +3768,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:152
 #, kde-format
 msgid "Num of silence frames to keep after speech to silence transition"
-msgstr ""
+msgstr "Počet snímkov ticha na ponechanie po prechode z reči do ticha"
 
 #. i18n: ectx: label, entry (vadPreSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadPreSpeech)
@@ -3738,7 +3776,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:139
 #, kde-format
 msgid "Num of speech frames to keep before silence to speech transition"
-msgstr ""
+msgstr "Počet snímkov reči na ponechanie pred prechodom z ticha do reči"
 
 #. i18n: ectx: label, entry (vadStartSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadStartSpeech)
@@ -3746,7 +3784,7 @@ msgstr ""
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:165
 #, kde-format
 msgid "Num of speech frames to trigger VAD from silence to speech"
-msgstr ""
+msgstr "Počet snímkov reči na spustenie VAD z ticha do reči"
 
 #. i18n: ectx: label, entry (vadTreshold), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_vadTreshold)
@@ -3759,36 +3797,38 @@ msgid ""
 "Threshold for decision between noise and silence frames. Log-ratio between "
 "signal level and noise level"
 msgstr ""
+"Prah pre rozhodovanie medzi snímkami šumu a ticha. Logaritmický pomer medzi "
+"úrovňou signálu a úrovňou šumu"
 
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:20
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:28
 #, kde-format
 msgid "Sphinx Dictionaries"
-msgstr ""
+msgstr "Slovníky Sphinx"
 
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:24
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:29
 #, kde-format
 msgid "Trigram Models"
-msgstr ""
+msgstr "Trigramové modely"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpModel)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:20
 #, kde-format
 msgid "Speech Recognition Model"
-msgstr ""
+msgstr "Model rozpoznávania reči"
 
 #. i18n: ectx: property (text), widget (QLabel, label_lexiconFile)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:29
 #, kde-format
 msgid "Pronunciation Dictionary (Lexicon)"
-msgstr ""
+msgstr "Výslovnostný slovník (lexikón)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_trigramModelFile)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:42
 #, kde-format
 msgid "Trigram Model"
-msgstr ""
+msgstr "Trigramový model"
 
 #. i18n: ectx: property (text), widget (QLabel, label_acousticModelPath)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:68
@@ -3805,6 +3845,10 @@ msgid ""
 "style=\" text-decoration: underline; color:#007af4;\">CMU Sphinx</span></a></"
 "p></body></html>"
 msgstr ""
+"<html><head/><body><p align=\"center\">Akustické a jazykové modely je možné "
+"stiahnuť z <a href=\"https://cmusphinx.github.io/wiki/download/\"><span "
+"style=\" text-decoration: underline; color:#007af4;\">CMU Sphinx</span></a></"
+"p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpVAD)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:100
@@ -3816,45 +3860,45 @@ msgstr "Detekcia aktivity hlasu"
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:129
 #, kde-format
 msgid "Noise Threshold"
-msgstr ""
+msgstr "Prah šumu"
 
 #. i18n: ectx: property (text), widget (QLabel, label_vadPreSpeech)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:142
 #, kde-format
 msgid "Pre Speech Frames"
-msgstr ""
+msgstr "Snímky pred rečou"
 
 #. i18n: ectx: property (text), widget (QLabel, label_vadPostSpeech)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:155
 #, kde-format
 msgid "Post Speech Frames"
-msgstr ""
+msgstr "Snímky po reči"
 
 #. i18n: ectx: property (text), widget (QLabel, label_vadStartSpeech)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:168
 #, kde-format
 msgid "Start Speech Frames"
-msgstr ""
+msgstr "Snímky začiatku reči"
 
 #: src/speechprocessor/speechprocessor.cpp:41
 #, kde-format
 msgid "Recognizing speech"
-msgstr ""
+msgstr "Rozpoznávanie reči"
 
 #: src/speechprocessor/speechprocessor.cpp:50
 #, kde-format
 msgid "Abort speech recognition"
-msgstr ""
+msgstr "Prerušiť rozpoznávanie reči"
 
 #: src/speechprocessor/speechprocessor.cpp:99
 #, kde-format
 msgid "No speech recognition plugins available"
-msgstr ""
+msgstr "Nie sú dostupné žiadne zásuvné moduly rozpoznávania reči"
 
 #: src/speechprocessor/speechprocessor.cpp:104
 #, kde-format
 msgid "Initialization of speech recognition plugin failed"
-msgstr ""
+msgstr "Inicializácia zásuvného modulu rozpoznávania reči zlyhala"
 
 #: src/speechprocessor/speechprocessor.cpp:173
 #, kde-format
@@ -3862,6 +3906,8 @@ msgid ""
 "Speech Recognition failed: %2\n"
 "Code %1: %3"
 msgstr ""
+"Rozpoznávanie reči zlyhalo: %2\n"
+"Kód %1: %3"
 
 #. i18n: ectx: Menu (file)
 #: src/subtitlecomposerui.rc:5
@@ -3936,6 +3982,8 @@ msgid ""
 "Remote service error %1 %2\n"
 "%3"
 msgstr ""
+"Chyba vzdialenej služby %1 %2\n"
+"%3"
 
 #: src/translate/deeplengine.cpp:65 src/translate/googlecloudengine.cpp:151
 #: src/translate/mintengine.cpp:69
@@ -3944,6 +3992,8 @@ msgid ""
 "HTTP Error %1 - %2\n"
 "%3"
 msgstr ""
+"Chyba HTTP %1 - %2\n"
+"%3"
 
 #: src/translate/deeplengine.cpp:70 src/translate/googlecloudengine.cpp:156
 #: src/translate/mintengine.cpp:74
@@ -3952,17 +4002,19 @@ msgid ""
 "Network Error %1\n"
 "%2"
 msgstr ""
+"Chyba siete %1\n"
+"%2"
 
 #: src/translate/deeplengine.cpp:76
 #, kde-format
 msgid "DeepL Engine Error"
-msgstr ""
+msgstr "Chyba enginu DeepL"
 
 #: src/translate/deeplengine.cpp:102 src/translate/googlecloudengine.cpp:289
 #: src/translate/mintengine.cpp:125
 #, kde-format
 msgid "Updating languages..."
-msgstr ""
+msgstr "Aktualizácia jazykov..."
 
 #: src/translate/deeplengine.cpp:123 src/translate/googlecloudengine.cpp:304
 #, kde-format
@@ -3985,7 +4037,7 @@ msgstr "Autentifikácia"
 #: src/translate/deeplengine.ui:23
 #, kde-format
 msgid "Authentication Key:"
-msgstr ""
+msgstr "Autentifikačný kľúč:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnConnect)
 #: src/translate/deeplengine.ui:33
@@ -3997,7 +4049,7 @@ msgstr "Pripojiť"
 #: src/translate/deeplengine.ui:66
 #, kde-format
 msgid "API Domain:"
-msgstr ""
+msgstr "Doména API:"
 
 #. i18n: ectx: property (text), widget (QLabel, labHelp)
 #: src/translate/deeplengine.ui:82
@@ -4006,6 +4058,8 @@ msgid ""
 "You need to <a href=\"https://www.deepl.com/pro-api\">create an account</a> "
 "on DeepL website and paste your API authentication key below."
 msgstr ""
+"Musíte si <a href=\"https://www.deepl.com/pro-api\">vytvoriť účet</a> na "
+"webovej stránke DeepL a vložiť svoj autentifikačný kľúč API nižšie."
 
 #. i18n: ectx: property (text), widget (QLabel, labSource)
 #: src/translate/deeplengine.ui:110 src/translate/googlecloudengine.ui:97
@@ -4027,29 +4081,31 @@ msgid ""
 "Remote service error (%1):\n"
 "%2"
 msgstr ""
+"Chyba vzdialenej služby (%1):\n"
+"%2"
 
 #: src/translate/googlecloudengine.cpp:162
 #: src/translate/googlecloudengine.cpp:208
 #: src/translate/googlecloudengine.cpp:217
 #, kde-format
 msgid "Google Cloud Engine Error"
-msgstr ""
+msgstr "Chyba enginu Google Cloud"
 
 #: src/translate/googlecloudengine.cpp:207
 #, kde-format
 msgid "Error opening file '%1'"
-msgstr ""
+msgstr "Chyba pri otváraní súboru '%1'"
 
 #: src/translate/googlecloudengine.cpp:216
 #, kde-format
 msgid "Error parsing JSON from file '%1'"
-msgstr ""
+msgstr "Chyba pri spracovaní JSON zo súboru '%1'"
 
 #. i18n: ectx: property (text), widget (QLabel, labelServiceJSON)
 #: src/translate/googlecloudengine.ui:23
 #, kde-format
 msgid "Service Account's Private Key JSON:"
-msgstr ""
+msgstr "JSON súkromného kľúča servisného účtu:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnLogin)
 #: src/translate/googlecloudengine.ui:36
@@ -4069,23 +4125,29 @@ msgid ""
 "or must be granted access to the Google's Cloud Translation APIs in a "
 "different manner.</p>"
 msgstr ""
+"<p>Musíte <a href=\"https://developers.google.com/identity/protocols/oauth2/"
+"service-account#creatinganaccount\">vytvoriť servisný účet</a> v Google "
+"Cloud Console a poskytnúť súbor JSON s verejným/súkromným kľúčom nižšie.</"
+"p><p>Servisnému účtu musí byť priradená rola <span style=\" text-decoration: "
+"underline;\">Cloud Translation API User</span> na stránke IAM alebo mu musí "
+"byť udelený prístup k Google Cloud Translation API iným spôsobom.</p>"
 
 #: src/translate/mintengine.cpp:80
 #, kde-format
 msgid "MinT Engine Error"
-msgstr ""
+msgstr "Chyba enginu MinT"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
 #: src/translate/mintengine.ui:17
 #, kde-format
 msgid "API Server"
-msgstr ""
+msgstr "Server API"
 
 #. i18n: ectx: property (text), widget (QLabel, labApiURLPrefix)
 #: src/translate/mintengine.ui:40
 #, kde-format
 msgid "Service URL:"
-msgstr ""
+msgstr "URL služby:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnUpdate)
 #: src/translate/mintengine.ui:50
@@ -4102,6 +4164,10 @@ msgid ""
 "machinetranslation\">setup your own service</a> or use some <a href="
 "\"https://translate.wmcloud.org/\">public API</a>."
 msgstr ""
+"Musíte poskytnúť URL na API systému strojového prekladu MinT. Môžete si <a "
+"href=\"https://gerrit.wikimedia.org/g/mediawiki/services/machinetranslation"
+"\">nastaviť vlastnú službu</a> alebo použiť nejaké <a href=\"https://"
+"translate.wmcloud.org/\">verejné API</a>."
 
 #: src/translate/translatedialog.cpp:31
 #, kde-format
@@ -4126,7 +4192,7 @@ msgstr "Hľadať v"
 #: src/utils/finder.cpp:245
 #, kde-format
 msgid "No instances of '%1' found!"
-msgstr ""
+msgstr "Žiadne výskyty '%1' neboli nájdené!"
 
 #: src/utils/finder.cpp:245 src/utils/finder.cpp:259
 #, kde-format
@@ -4139,6 +4205,8 @@ msgid ""
 "End of subtitle reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Dosiahnutý koniec titulkov.\n"
+"Pokračovať od začiatku?"
 
 #: src/utils/finder.cpp:259
 #, kde-format
@@ -4146,6 +4214,8 @@ msgid ""
 "Beginning of selection reached.\n"
 "Continue from the end?"
 msgstr ""
+"Dosiahnutý začiatok výberu.\n"
+"Pokračovať od konca?"
 
 #: src/utils/finder.cpp:259
 #, kde-format
@@ -4153,6 +4223,8 @@ msgid ""
 "Beginning of subtitle reached.\n"
 "Continue from the end?"
 msgstr ""
+"Dosiahnutý začiatok titulkov.\n"
+"Pokračovať od konca?"
 
 #: src/utils/finder.cpp:259
 #, kde-format
@@ -4160,11 +4232,13 @@ msgid ""
 "End of selection reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Dosiahnutý koniec výberu.\n"
+"Pokračovať od začiatku?"
 
 #: src/utils/replacer.cpp:43
 #, kde-format
 msgid "Find/Replace In"
-msgstr ""
+msgstr "Nájsť/Nahradiť v"
 
 #: src/utils/replacer.cpp:253
 #, kde-format
@@ -4179,7 +4253,7 @@ msgstr "Kontrola pravopisu"
 #: src/videoplayer/backend/videostate.cpp:110
 #, kde-format
 msgid "Video Stream #%1"
-msgstr ""
+msgstr "Video prúd #%1"
 
 #: src/videoplayer/backend/videostate.cpp:114
 #, kde-format
