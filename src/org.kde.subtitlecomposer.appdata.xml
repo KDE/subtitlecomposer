@@ -57,6 +57,7 @@
   <summary xml:lang="pl">Edytor napisów filmów, który obsługuje podstawowe i rozszerzone działania edycji</summary>
   <summary xml:lang="pt">Editor de legendas de vídeo que suporta as operações básicas e avançadas de edição</summary>
   <summary xml:lang="pt-BR">Um editor de legendas de vídeo com suporte a operações de edição básicas e avançadas</summary>
+  <summary xml:lang="sk">Editor video titulkov, ktorý podporuje základné a pokročilé operácie úprav</summary>
   <summary xml:lang="sl">Urejevalnik podnaslovov za videoposnetke, ki podpira osnovne in napredne postopke urejanja</summary>
   <summary xml:lang="sv">Textningseditor för videor som stöder grundläggande och avancerade redigeringsåtgärder</summary>
   <summary xml:lang="tr">Temel ve gelişmiş düzenleme işlemlerini destekleyen video altyazı düzenleyici</summary>
@@ -86,6 +87,7 @@
     <p xml:lang="pl">Twórca napisów jest otwartoźródłowym edytorem napisów tekstowych, który obsługuje podstawowe i rozszerzone działania edycji</p>
     <p xml:lang="pt">O Compositor de Legendas é um editor de legendas baseadas em texto de código aberto, suportando um conjunto de operações básicas e avançadas de edição.</p>
     <p xml:lang="pt-BR">O Criador de Legendas é um editor de legendas textuais de código aberto com suporte a operações de edição básicas e avançadas.</p>
+    <p xml:lang="sk">Subtitle Composer je textový editor titulkov s otvoreným zdrojovým kódom, ktorý podporuje základné a pokročilé operácie úprav.</p>
     <p xml:lang="sl">Subtitle Composer je odprtokodni urejevalnik podnaslovov, ki podpira besedilo osnovne in napredne operacije urejanja.</p>
     <p xml:lang="sv">Textningsskapare är en textbaserad textningseditor med öppen källkod som stöder grundläggande och avancerade redigeringsåtgärder.</p>
     <p xml:lang="tr">Altyazı Oluşturucusu, temel ve gelişmiş düzenleme işlemlerini destekleyen, açık kaynaklı ve metin tabanlı bir altyazı düzenleyicidir.</p>
@@ -143,6 +145,7 @@
       <li xml:lang="pl">Otwieranie/zapisywanie formatów napisów tekstowych - SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer oraz napisy YouTube</li>
       <li xml:lang="pt">Formatos para Abrir/Gravar as Legendas de Texto - legendas em SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer e YouTube</li>
       <li xml:lang="pt-BR">Abrir/Salvar nos formatos de legenda textuais: SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer e legendas do YouTube</li>
+      <li xml:lang="sk">Otvoriť/uložiť textové formáty titulkov - SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer a titulky YouTube</li>
       <li xml:lang="sl">Odpiranje/shranjevanje različnih besedilnih zapisov podnapisov - SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer in YouTube</li>
       <li xml:lang="sv">Öppna eller spara textningsformat - SubRip/SRT-, MicroDVD-, SSA/ASS-, MPlayer-, TMPlayer- och YouTube-textning</li>
       <li xml:lang="tr">Metin Altyazı Biçimlerini Aç/Kaydet - SubRip/SRT, MicroDVD, SSA/ASS, MPlayer, TMPlayer ve YouTube altyazıları</li>
@@ -169,6 +172,7 @@
       <li xml:lang="pl">Otwieranie formatów napisów graficznych - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formaty obsługiwane przez ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="pt">Formatos de Legengas Gráficas Abertas/OCR - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formatos suportados pelo ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="pt-BR">Formatos de legenda abertos ou em OCR: VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formatos suportados pelo ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
+      <li xml:lang="sk">Otvoriť/OCR grafické formáty titulkov - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), formáty podporované ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="sl">Grafični zapisi podnapisov Open/OCR - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), zapisi, ki jih podpira ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="sv">Öppna och OCR grafiska textningsformat - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), format som stöds av ffmpeg (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
       <li xml:lang="tr">Açık/OCR Grafik Altyazı Biçimleri - VobSub (.idx/.sub/.rar), BluRay/PGS (*.sup), ffmpeg tarafından desteklenen biçimler (DVD/Vob, DVB, XSUB, HDMV-PGS)</li>
@@ -195,6 +199,7 @@
       <li xml:lang="pl">Demultipleks strumieni napisów graficznych/tekstowych z plików filmów - SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="pt">Transmissões de legendas de texto/gráficas desmultiplexadas do ficheiro de vídeo - SRT, SSA/ASS, texto MOV, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="pt-BR">Demultiplexador de gráficos/fluxo de legenda de texto a partir de arquivo de vídeo: SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
+      <li xml:lang="sk">Demuxovanie grafických/textových prúdov titulkov z video súboru - SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="sl">Tokovi podnapisi iz datoteke videa Demux Graphics/Text - SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="sv">Avmultiplex av grafik- eller textningsström från videofil - SRT, SSA/ASS, MOV text, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
       <li xml:lang="tr">Demux Graphics/video dosyasından Metin Altyazı Akışı - SRT, SSA/ASS, MOV metni, MicroDVD, DVD/Vob, DVB, XSUB, HDMV-PGS</li>
@@ -221,6 +226,7 @@
       <li xml:lang="pl">Rozpoznawanie mowy z plików dźwiękowych/obrazu przy użyciu PocketSphinx</li>
       <li xml:lang="pt">Reconhecimento de fala a partir do ficheiro de áudio/vídeo, usando o PocketSphinx</li>
       <li xml:lang="pt-BR">Reconhecimento de voz do arquivo de áudio/vídeo usando o PocketSphinx</li>
+      <li xml:lang="sk">Rozpoznávanie reči z audio/video súboru pomocou PocketSphinx</li>
       <li xml:lang="sl">Prepoznava govora iz zvočne/video datoteke s pomočjo PocketSphinx</li>
       <li xml:lang="sv">Taligenkänning från ljud- eller videofil med användning av PocketSphinx</li>
       <li xml:lang="tr">PocketSphinx kullanarak ses/video dosyasından konuşma tanıma</li>
@@ -248,6 +254,7 @@
       <li xml:lang="pl">Sprytne wykrywanie kodowania** języka/tekstu</li>
       <li xml:lang="pt">Detecção inteligente da codificação da língua/texto**</li>
       <li xml:lang="pt-BR">Detecção inteligente de codificação** de idioma/texto</li>
+      <li xml:lang="sk">Inteligentná detekcia jazyka/kódovania textu</li>
       <li xml:lang="sl">Pametno razpoznavanje jezika/kodiranja besedila**</li>
       <li xml:lang="sv">Smart detektering av språk och textkodning**</li>
       <li xml:lang="tr">Akıllı dil/metin kodlama** algılaması</li>
@@ -275,6 +282,7 @@
       <li xml:lang="pl">Podgląd na żywo napisów we wbudowanym odtwarzaczu filmów wraz z wyborem ścieżki dźwiękowej</li>
       <li xml:lang="pt">Antevisão em directo das legendas no reprodutor de vídeo integrado com a selecção da sequência de áudio</li>
       <li xml:lang="pt-BR">Pré-visualização em tempo real de legendas no reprodutor de vídeo com seleção de fluxo de áudio</li>
+      <li xml:lang="sk">Živý náhľad titulkov v integrovanom prehrávači videa s výberom zvukového prúdu</li>
       <li xml:lang="sl">Predogled podnapisov v živo v integriranem video predvajalniku z izborom zvokovnega toka</li>
       <li xml:lang="sv">Direkt förhandsgranskning av textning i integrerad videospelare med val av ljudspår</li>
       <li xml:lang="tr">Tümleşik video oynatıcısında ses akış seçimi ile altyazıların canlı önizlemesi</li>
@@ -301,6 +309,7 @@
       <li xml:lang="pl">Podgląd/edytowanie napisów na graficznym przebiegu fali dźwiękowej wraz z wyborem strumienia dźwięku</li>
       <li xml:lang="pt">Antevisão/edição das legendas da forma de onda gráfica do áudio com a selecção da sequência de áudio</li>
       <li xml:lang="pt-BR">Pré-visualização/edição de legendas com ondas de áudio e seleção de fluxo de áudio</li>
+      <li xml:lang="sk">Náhľad/úprava titulkov na grafickom vlnovom priebehu zvuku s výberom zvukového prúdu</li>
       <li xml:lang="sl">Predogled/urejanje podnapisov v grafični valovni obliki zvoka z izborom zvočnega toka</li>
       <li xml:lang="sv">Förhandsgranskning och redigering av textning på grafisk ljudvågform med val av ljudspår</li>
       <li xml:lang="tr">Grafik ses dalga biçiminde ses akış seçimi ile altyazıların önizlemesi/düzenlemesi</li>
@@ -326,6 +335,7 @@
       <li xml:lang="pl">Synchronizacja poprzez przeciąganie kilku zakotwiczeń i rozciąganie osi czasu</li>
       <li xml:lang="pt">Sincronização através do arrastamento de várias âncoras/pontos de pega e por esticamento da linha temporal</li>
       <li xml:lang="pt-BR">Sincronização arrastando várias âncoras e esticando a linha do tempo</li>
+      <li xml:lang="sk">Synchronizácia ťahaním viacerých kotiev/bodov a rozťahovaním časovej osi</li>
       <li xml:lang="sl">Sinhronizacija z vlečenjem več sidrišč/točk prijema in raztegovanjem časovnice</li>
       <li xml:lang="sv">Synkronisering genom att dra flera grepp eller ympningsställen och utsträckning av tidslinjen</li>
       <li xml:lang="tr">Birden çok çapa/aşı noktası sürükleyerek ve zaman akışını çekiştirerek eşzamanlama</li>
@@ -352,6 +362,7 @@
       <li xml:lang="pl">Przesuwanie i skalowanie czasu, ponowne przeliczenia czasu trwania wierszy, przekształcenia liczby klatek, itp.</li>
       <li xml:lang="pt">Deslocamento e escala do tempo, actualização da duração das linhas, conversão da taxa de imagens, etc.</li>
       <li xml:lang="pt-BR">Deslocamento de tempo e escala, calibração de duração de linhas, conversão de taxa de quadros, etc.</li>
+      <li xml:lang="sk">Časový posun a škálovanie, prepočet trvania riadkov, konverzia snímkovej frekvencie atď.</li>
       <li xml:lang="sl">Časovno zamikanje in sprememba merila, ponovni izračun trajanja vrstic, pretvorba hitrosti sličic itd.</li>
       <li xml:lang="sv">Tidsskift och skalning, omräkning av tidslängd för rader, bildfrekvenskonvertering, etc.</li>
       <li xml:lang="tr">Zaman kaydırma ve ölçekleme, satır süresi yeniden hesaplama, kare hızı dönüşümü vb.</li>
@@ -379,6 +390,7 @@
       <li xml:lang="pl">Łączenie i dzielenie plików napisów</li>
       <li xml:lang="pt">Junção e separação de ficheiros de legendas</li>
       <li xml:lang="pt-BR">Unir e separar arquivos de legenda</li>
+      <li xml:lang="sk">Spájanie a rozdeľovanie súborov titulkov</li>
       <li xml:lang="sl">Zlivanje in razcepljanje datotek s podnapisi</li>
       <li xml:lang="sv">Sammanfoga och dela textningsfiler</li>
       <li xml:lang="tr">Altyazı dosyalarının birbirine katılması ve bölünmesi</li>
@@ -405,6 +417,7 @@
       <li xml:lang="pl">Tłumaczenie napisów w układzie jeden obok drugiego</li>
       <li xml:lang="pt">Traduções de legendas lado-a-lado</li>
       <li xml:lang="pt-BR">Tradução de legendas lado a lado</li>
+      <li xml:lang="sk">Preklady titulkov vedľa seba</li>
       <li xml:lang="sl">Prevodi podnapisov enega poleg drugega</li>
       <li xml:lang="sv">Översättning av textning sida vid sida</li>
       <li xml:lang="tr">Yan yana altyazı çevirisi</li>
@@ -432,6 +445,7 @@
       <li xml:lang="pl">Formatowanie tekstu (kursywa, wytłuszczenie, podkreślenie, kreska, barwa)</li>
       <li xml:lang="pt">Estilos de texto (itálico, negrito, sublinhado, tradução, colorido)</li>
       <li xml:lang="pt-BR">Estilos de texto (itálico, negrito, sobrescrito, traçado, cor)</li>
+      <li xml:lang="sk">Textové štýly (kurzíva, tučné, podčiarknuté, prečiarknuté, farba)</li>
       <li xml:lang="sl">Slogi besedila (poševno, krepko, podčrtano, poteze, barva)</li>
       <li xml:lang="sv">Textstilar (kursiv, fetstil, understreck, överstreck, färg)</li>
       <li xml:lang="tr">Metin biçemleri (yatık, kalın, altı çizili, üstü çizili, renkli)</li>
@@ -488,6 +502,7 @@
       <li xml:lang="pl">Wykrywanie błędów czasu pojawiania w napisach</li>
       <li xml:lang="pt">Detecção de erros de temporização nas legendas</li>
       <li xml:lang="pt-BR">Detecção de erros de temporização nas legendas</li>
+      <li xml:lang="sk">Detekcia chýb časovania v titulkoch</li>
       <li xml:lang="sl">Zaznavanje časovnih napak v podnapisih</li>
       <li xml:lang="sv">Detektering av tidsfel i textning</li>
       <li xml:lang="tr">Altyazılarda zamanlama hatalarını algılama</li>
@@ -515,6 +530,7 @@
       <li xml:lang="pl">Skrypty (JavaScript, Python, Ruby i inne języki obsługiwane przez Kross).</li>
       <li xml:lang="pt">Programação (JavaScript, Python, Ruby e outras linguagens suportadas pelo Kross).</li>
       <li xml:lang="pt-BR">Criação de scripts JavaScript, Python, Ruby e outras linguagens suportadas pelo Kross).</li>
+      <li xml:lang="sk">Skriptovanie (JavaScript, Python, Ruby a ďalšie jazyky podporované Kross).</li>
       <li xml:lang="sl">Izdelava skriptov (JavaScript, Python, Ruby in drugi jeziki, ki jih podpira Kross).</li>
       <li xml:lang="sv">Skript (JavaScript, Python, Ruby och andra språk som stöds av Kross).</li>
       <li xml:lang="tr">Betik yazımı (JavaScript, Python, Ruby ve Kross tarafından desteklenen diğer diller).</li>
@@ -579,6 +595,7 @@
           <li xml:lang="it">Correzione di problemi e arresti inattesi con le versioni di Qt6 più recenti</li>
           <li xml:lang="nl">Problemen en crashes met nieuwere Qt6 versies gerepareerd</li>
           <li xml:lang="pt-BR">Problemas e travamentos corrigidos em versões mais recentes do Qt6.</li>
+          <li xml:lang="sk">Opravené problémy a pády s novšími verziami Qt6</li>
           <li xml:lang="sl">Odpravljene težave in sesutja z novejšimi različicami Qt6</li>
           <li xml:lang="tr">Fixed issues and crashes with newer Qt6 versions</li>
           <li xml:lang="uk">Виправлено проблеми і усунено аварійні завершення роботи із новішими версіями Qt6</li>
@@ -590,6 +607,7 @@
           <li xml:lang="it">Correzione di problemi di disegno in Waveform e VideoPlayer</li>
           <li xml:lang="nl">Problemen met tekenen van golfvorm en Videospeler gerepareerd</li>
           <li xml:lang="pt-BR">Corrigidos problemas de renderização do Waveform e do VideoPlayer</li>
+          <li xml:lang="sk">Opravené problémy s vykresľovaním vlnového priebehu a prehrávača videa</li>
           <li xml:lang="sl">Odpravljene težave z valovno obliko in slikanjem v VideoPlayerju</li>
           <li xml:lang="tr">Fixed Waveform and VideoPlayer paint issues</li>
           <li xml:lang="uk">Виправлено проблеми із малюванням форми хвилі і відеопрогравача</li>
@@ -602,6 +620,7 @@
           <li xml:lang="it">Correzione del tipo MIME dei sottotitoli PGS</li>
           <li xml:lang="nl">PGS-ondertitel-mime-type gerepareerd</li>
           <li xml:lang="pt-BR">Tipo MIME de legenda PGS corrigido</li>
+          <li xml:lang="sk">Opravený MIME typ titulkov PGS</li>
           <li xml:lang="sl">Popravljen tip MIME podnapisov PGS</li>
           <li xml:lang="tr">Fixed PGS subtitle mime type</li>
           <li xml:lang="uk">Виправлено тип MIME субтитрів PGS</li>
@@ -614,6 +633,7 @@
           <li xml:lang="it">Migliorata la compatibilità con Wayland</li>
           <li xml:lang="nl">Compatibiliteit met Wayland verbetert</li>
           <li xml:lang="pt-BR">Compatibilidade aprimorada com Wayland</li>
+          <li xml:lang="sk">Vylepšená kompatibilita s Wayland</li>
           <li xml:lang="sl">Izboljšana združljivost z Waylandom</li>
           <li xml:lang="tr">Improved Wayland compatibility</li>
           <li xml:lang="uk">Удосконалено сумісність із Wayland</li>
@@ -626,6 +646,7 @@
           <li xml:lang="it">Migliorate le traduzioni con GoogleCloudEngine</li>
           <li xml:lang="nl">GoogleCloudEngine vertalingen verbeterd</li>
           <li xml:lang="pt-BR">Traduções do Google Cloud Engine aprimoradas</li>
+          <li xml:lang="sk">Vylepšené preklady GoogleCloudEngine</li>
           <li xml:lang="sl">Izboljšani prevodi GoogleCloudEngine</li>
           <li xml:lang="tr">Improved GoogleCloudEngine translations</li>
           <li xml:lang="uk">Удосконалено переклади GoogleCloudEngine</li>
@@ -638,6 +659,7 @@
           <li xml:lang="it">Aggiunta riconoscimento degli spazi configurabile nell'importazione di VobSub</li>
           <li xml:lang="nl">Configureerbare witruimtedetectie toegevoegd aan VobSub-import</li>
           <li xml:lang="pt-BR">Adicionada detecção configurável de espaços em branco à importação de VobSub</li>
+          <li xml:lang="sk">Pridaná konfigurovateľná detekcia medzier pri importe VobSub</li>
           <li xml:lang="sl">Dodano nastavljivo zaznavanje presledkov pri uvozu VobSub</li>
           <li xml:lang="tr">Added configurable whitespace detection to VobSub import</li>
           <li xml:lang="uk">Додано налаштовувану можливість виявлення пробілів при імпортуванні VobSub</li>
@@ -649,6 +671,7 @@
           <li xml:lang="it">Sostituzione del codice deprecato dei canali FFmpeg</li>
           <li xml:lang="nl">Afgekeurde FFmpeg kanaalcode vervangen</li>
           <li xml:lang="pt-BR">Substituído o código de canal FFmpeg obsoleto</li>
+          <li xml:lang="sk">Nahradený zastaraný kód kanálov FFmpeg</li>
           <li xml:lang="sl">Zamenjana zastarela koda kanala FFmpeg</li>
           <li xml:lang="tr">Replaced deprecated FFmpeg channel code</li>
           <li xml:lang="uk">Замінено застарілий код каналів FFmpeg</li>
@@ -661,6 +684,7 @@
           <li xml:lang="it">Richiede FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="nl">Vereis FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="pt-BR">Requer FFmpeg &gt;= 5.1.5</li>
+          <li xml:lang="sk">Vyžaduje sa FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="sl">Zahteva FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="tr">Require FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="uk">Збільшено вимоги щодо FFmpeg &gt;= 5.1.5</li>
@@ -697,6 +721,7 @@
           <li xml:lang="it">Correzione di (rari) problemi di memoria e blocchi</li>
           <li xml:lang="nl">Gerepareerd (zeldzame) geheugenproblemen en crashes</li>
           <li xml:lang="pt-BR">Problemas de memória e travamentos (raros) corrigidos</li>
+          <li xml:lang="sk">Opravené (zriedkavé) problémy s pamäťou a pády</li>
           <li xml:lang="sl">Odpravljene (redke) težave s pomnilnikom in sesutja</li>
           <li xml:lang="tr">Fixed (rare) memory issues and crashes</li>
           <li xml:lang="uk">Виправлено (рідкісні) проблеми з пам'яттю та аварійні завершення роботи</li>
@@ -708,6 +733,7 @@
           <li xml:lang="it">Correzione dei blocchi legati all'oggetto della forma d'onda</li>
           <li xml:lang="nl">Gerepareerd crashes op golfvormwidget</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento no widget de forma de onda</li>
+          <li xml:lang="sk">Opravené pády v miniaplikácii vlnového priebehu</li>
           <li xml:lang="sl">Odpravljeno sesutje v gradniku za valovno obliko</li>
           <li xml:lang="tr">Fixed crashes on waveform widget</li>
           <li xml:lang="uk">Усунено аварійні завершення роботи у віджеті форми хвилі</li>
@@ -720,6 +746,7 @@
           <li xml:lang="it">Correzione della resa del riproduttore video con Qt 6.7</li>
           <li xml:lang="nl">Gerepareerd rendering met videospeler in Qt 6.7</li>
           <li xml:lang="pt-BR">Correção na renderização do reprodutor de vídeo no Qt 6.7</li>
+          <li xml:lang="sk">Opravené vykresľovanie prehrávača videa v Qt 6.7</li>
           <li xml:lang="sl">Popravljeno upodabljanje video predvajalnika v Qt 6.7</li>
           <li xml:lang="tr">Fixed video player rendering in Qt 6.7</li>
           <li xml:lang="uk">Виправлено обробку відеопрогравача у Qt 6.7</li>
@@ -731,6 +758,7 @@
           <li xml:lang="it">Correzione dei fallimenti in operazioni assert nel gestore degli script</li>
           <li xml:lang="nl">Foutmeldingen van de scriptmanager opgelost</li>
           <li xml:lang="pt-BR">Correção de falhas de asserção do gerenciador de scripts</li>
+          <li xml:lang="sk">Opravené zlyhania assert v správcovi skriptov</li>
           <li xml:lang="sl">Popravljene napake pri preverjanju v upravitelju skriptov</li>
           <li xml:lang="tr">Fixed scripts manager assert failures</li>
           <li xml:lang="uk">Виправлено неможливість пройти оцінки у засобі керування скриптами</li>
@@ -742,6 +770,7 @@
           <li xml:lang="it">Correzione dell'impossibilità di visualizzare file di tipo non script nel gestore degli script</li>
           <li xml:lang="nl">Het probleem is opgelost dat niet-scriptbestanden niet zichtbaar waren in de scriptbeheerder</li>
           <li xml:lang="pt-BR">Corrigido o problema que impedia a visualização de arquivos que não fossem scripts no gerenciador de scripts</li>
+          <li xml:lang="sk">Opravená nemožnosť zobrazenia neskriptových súborov v správcovi skriptov</li>
           <li xml:lang="sl">Popravljena nezmožnost ogleda datotek, ki niso skripte, v upravitelju skriptov</li>
           <li xml:lang="tr">Fixed inability to view non-script files in scripts manager</li>
           <li xml:lang="uk">Виправлено неможливість переглядати файли, які не є скриптами, у частині для керування скриптами</li>
@@ -753,6 +782,7 @@
           <li xml:lang="it">Correzione della ricerca in alcuni formati di file multimedialis</li>
           <li xml:lang="nl">Zoekfunctie in sommige mediaformaten opgelost</li>
           <li xml:lang="pt-BR">Corrigida busca em alguns formatos de mídia</li>
+          <li xml:lang="sk">Opravené posúvanie v niektorých mediálnych formátoch</li>
           <li xml:lang="sl">Popravljeno iskanje v nekaterih medijskih formatih</li>
           <li xml:lang="tr">Fixed seeking in some media formats</li>
           <li xml:lang="uk">Виправлено позиціювання у деяких форматах мультимедійних даних</li>
@@ -764,6 +794,7 @@
           <li xml:lang="it">Correzione della resa dei sottotitoli nel riproduttore video</li>
           <li xml:lang="nl">Weergave van ondertitels in de videospeler opgelost</li>
           <li xml:lang="pt-BR">Correção na renderização de legendas do reprodutor de vídeo</li>
+          <li xml:lang="sk">Opravené vykresľovanie titulkov v prehrávači videa</li>
           <li xml:lang="sl">Popravljeno upodabljanje podnapisov v video predvajalniku</li>
           <li xml:lang="tr">Fixed video player subtitle rendering</li>
           <li xml:lang="uk">Виправлено обробку субтитрів у відеопрогравачі</li>
@@ -775,6 +806,7 @@
           <li xml:lang="it">Correzione della resa incorretta in video ad alta risoluzione</li>
           <li xml:lang="nl">De weergaveproblemen bij video's met hoge resolutie zijn opgelost</li>
           <li xml:lang="pt-BR">Corrigido problema de renderização em vídeos de alta resolução</li>
+          <li xml:lang="sk">Opravené chybné vykresľovanie pri videách s vysokým rozlíšením</li>
           <li xml:lang="sl">Popravljeno pokvarjeno upodabljanje videoposnetkov visoke ločljivosti</li>
           <li xml:lang="tr">Fixed broken rendering on hi-res videos</li>
           <li xml:lang="uk">Виправлено помилкову обробку відео високої роздільності</li>
@@ -786,6 +818,7 @@
           <li xml:lang="it">Correzione della resa dei video HDR (trasferimento di gamma SMPTE-ST-2084)</li>
           <li xml:lang="nl">HDR-videoweergave (SMPTE-ST-2084 gamma-overdracht) opgelost</li>
           <li xml:lang="pt-BR">Renderização de vídeo HDR corrigida (transferência gama SMPTE-ST-2084)</li>
+          <li xml:lang="sk">Opravené vykresľovanie HDR videa (prenos gama SMPTE-ST-2084)</li>
           <li xml:lang="sl">Popravljeno upodabljanje videoposnetkov HDR (prenos gama SMPTE-ST-2084)</li>
           <li xml:lang="tr">Fixed HDR video rendering (SMPTE-ST-2084 gamma transfer)</li>
           <li xml:lang="uk">Виправлено обробку відео із широким динамічним діапазоном кольорів (перенесення гамми SMPTE-ST-2084)</li>
@@ -797,6 +830,7 @@
           <li xml:lang="it">Aggiunta di una verifica sul numero massimo di caratteri per riga</li>
           <li xml:lang="nl">Controle toegevoegd voor het maximale aantal tekens per regel</li>
           <li xml:lang="pt-BR">Adicionada verificação para o número máximo de caracteres por linha</li>
+          <li xml:lang="sk">Pridaná kontrola maximálneho počtu znakov na riadok</li>
           <li xml:lang="sl">Dodano preverjanje največjega števila znakov na vrstico</li>
           <li xml:lang="tr">Added check for maximum number of characters per line</li>
           <li xml:lang="uk">Додано перевірку щодо максимальної кількості символів у рядку</li>
@@ -808,6 +842,7 @@
           <li xml:lang="it">Aggiunta del motore di traduzione MinT</li>
           <li xml:lang="nl">MinT-vertaalengine toegevoegd</li>
           <li xml:lang="pt-BR">Adicionado o mecanismo de tradução MinT</li>
+          <li xml:lang="sk">Pridaný prekladový engine MinT</li>
           <li xml:lang="sl">Dodan prevajalski mehanizem MinT</li>
           <li xml:lang="tr">Added MinT translate engine</li>
           <li xml:lang="uk">Додано рушій перекладу MinT</li>
@@ -820,6 +855,7 @@
           <li xml:lang="it">Miglioramento del supporto e interfaccia alle traduzioni</li>
           <li xml:lang="nl">Verbeterde vertaalondersteuning en gebruikersinterface</li>
           <li xml:lang="pt-BR">Melhorias no suporte à tradução e na interface do usuário</li>
+          <li xml:lang="sk">Vylepšená podpora prekladov a používateľské rozhranie</li>
           <li xml:lang="sl">Izboljšana podpora za prevajanje in uporabniški vmesnik</li>
           <li xml:lang="tr">Improved translation support and UI</li>
           <li xml:lang="uk">Удосконалено підтримку перекладів та інтерфейс</li>
@@ -832,6 +868,7 @@
           <li xml:lang="it">Miglioramento della riscalatura del riproduttore video</li>
           <li xml:lang="nl">Verbeterde schaling van videospeler</li>
           <li xml:lang="pt-BR">Melhoria na escala do reprodutor de vídeo</li>
+          <li xml:lang="sk">Vylepšené škálovanie prehrávača videa</li>
           <li xml:lang="sl">Izboljšano skaliranje video predvajalnika</li>
           <li xml:lang="tr">Improved video player scaling</li>
           <li xml:lang="uk">Удосконалено масштабування відеопрогравача</li>
@@ -843,6 +880,7 @@
           <li xml:lang="it">Rimozione delle operazioni su file via KIO</li>
           <li xml:lang="nl">KIO-bestandbewerkingen zijn afgevallen</li>
           <li xml:lang="pt-BR">Operações de arquivo KIO descartadas</li>
+          <li xml:lang="sk">Odstránené súborové operácie KIO</li>
           <li xml:lang="sl">Izpuščene operacije datoteke KIO</li>
           <li xml:lang="tr">Dropped KIO file operations</li>
           <li xml:lang="uk">Припинено підтримку дій з файлами KIO</li>
@@ -878,6 +916,7 @@
           <li xml:lang="it">Correzione del riproduttore video su hardware esclusivamente GLES</li>
           <li xml:lang="nl">Videospeler werkt alleen op GLES-hardware opgelost</li>
           <li xml:lang="pt-BR">Reprodutor de vídeo corrigido em hardware exclusivo GLES</li>
+          <li xml:lang="sk">Opravený prehrávač videa na hardvéri len s GLES</li>
           <li xml:lang="sl">Popravljen video predvajalnik samo na strojni opremi GLES</li>
           <li xml:lang="tr">Fixed video player on GLES only hardware</li>
           <li xml:lang="uk">Виправлено роботу відеопрогравача на обладнанні, де є лише GLES</li>
@@ -889,6 +928,7 @@
           <li xml:lang="it">Correzione della distorsione dei video nel riproduttore video</li>
           <li xml:lang="nl">Het scheve beeld in de videospeler is opgelost</li>
           <li xml:lang="pt-BR">Vídeo distorcido corrigido no reprodutor de vídeo</li>
+          <li xml:lang="sk">Opravené skreslené video v prehrávači videa</li>
           <li xml:lang="sl">Popravljen poševni video v video predvajalniku</li>
           <li xml:lang="tr">Fixed skewed video on video player</li>
           <li xml:lang="uk">Виправлено перекіс відео у відеопрогравачі</li>
@@ -900,6 +940,7 @@
           <li xml:lang="it">Correzione della chiusura del riproduttore video a schermo intero</li>
           <li xml:lang="nl">Probleem opgelost met het afsluiten van de videospeler in volledig scherm</li>
           <li xml:lang="pt-BR">Correção no fechamento do reprodutor de vídeo em tela cheia</li>
+          <li xml:lang="sk">Opravené zatváranie prehrávača videa na celú obrazovku</li>
           <li xml:lang="sl">Popravljeno zapiranje celozaslonskega video predvajalnika</li>
           <li xml:lang="tr">Fixed closing fullscreen video player</li>
           <li xml:lang="uk">Виправлено закриття повноекранного відеопрогравача</li>
@@ -911,6 +952,7 @@
           <li xml:lang="it">Correzione dei sottotitoli sotto una barra deggli strumenti video a schermo intero</li>
           <li xml:lang="nl">Ondertitels onder de werkbalk voor video in volledig scherm opgelost</li>
           <li xml:lang="pt-BR">Correção das legendas na barra de ferramentas de vídeo em tela cheia</li>
+          <li xml:lang="sk">Opravené titulky pod panelom nástrojov videa na celú obrazovku</li>
           <li xml:lang="sl">Popravljeni podnapisi v orodni vrstici celozaslonskega videa</li>
           <li xml:lang="tr">Fixed subtitles under fullscreen video toolbar</li>
           <li xml:lang="uk">Виправлено субтитри під панеллю інструментів відео у повноекранному режимі</li>
@@ -922,6 +964,7 @@
           <li xml:lang="it">Correzione delle notifiche di stato multimediale del riproduttore video</li>
           <li xml:lang="nl">Meldingen over de mediastatus van de videospeler opgelost</li>
           <li xml:lang="pt-BR">Correção nas notificações de estado da mídia do reprodutor de vídeo</li>
+          <li xml:lang="sk">Opravené oznámenia o stave médií prehrávača videa</li>
           <li xml:lang="sl">Popravljena obvestila o stanju medijev v video predvajalniku</li>
           <li xml:lang="tr">Fixed video player media state notifications</li>
           <li xml:lang="uk">Виправлено сповіщення щодо стану у відеопрогравачі</li>
@@ -933,6 +976,7 @@
           <li xml:lang="it">Correzione dell'accuratezza della dimensione del carattere sovrapposto nel video dei sottotitoli</li>
           <li xml:lang="nl">De nauwkeurigheid van de lettergrootte van de ondertiteloverlay in de video is opgelost</li>
           <li xml:lang="pt-BR">Correção na precisão do tamanho da fonte da sobreposição de legendas em vídeos</li>
+          <li xml:lang="sk">Opravená presnosť veľkosti písma prekrytia titulkov vo videu</li>
           <li xml:lang="sl">Popravljena natančnost velikosti pisave prekrivanja podnapisov videa</li>
           <li xml:lang="tr">Fixed subtitle video overlay font size accuracy</li>
           <li xml:lang="uk">Виправлено точність розміру шрифту на накладці субтитрів у відео</li>
@@ -943,6 +987,7 @@
           <li xml:lang="fr">Correction du blocage / plantage lors du changement de flux audio sur un média en pause  arrêté</li>
           <li xml:lang="nl">Een vastloper/crash bij het wisselen van audiostream op gepauzeerde/gestopte media is opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento/falha que ocorria ao trocar o fluxo de áudio em mídias pausadas/interrompidas</li>
+          <li xml:lang="sk">Opravené uviaznutie/pád pri zmene zvukového prúdu na pozastavenom/zastavenom médiu</li>
           <li xml:lang="sl">Popravljen zastoj/sesutje med spreminjanjem zvočnega toka na zaustavljenem/ustavljenem mediju</li>
           <li xml:lang="tr">Fixed deadlock/crash while changing audio stream on paused/stopped media</li>
           <li xml:lang="uk">Усунено блокування або аварійне завершення при зміні потоку звукових даних при призупиненні або зупиненні відтворення мультимедійних даних</li>
@@ -955,6 +1000,7 @@
           <li xml:lang="it">Miglioramento delle prestazioni dell'oggetto Waveform</li>
           <li xml:lang="nl">Verbeterde prestaties van het golfvorm-widget</li>
           <li xml:lang="pt-BR">Desempenho aprimorado do widget de forma de onda</li>
+          <li xml:lang="sk">Vylepšený výkon miniaplikácie vlnového priebehu</li>
           <li xml:lang="sl">Izboljšana zmogljivost gradnika valovne oblike</li>
           <li xml:lang="tr">Improved Waveform widget performance</li>
           <li xml:lang="uk">Удосконалено швидкодію віджета форми хвилі</li>
@@ -965,6 +1011,7 @@
           <li xml:lang="fr">Correction du désalignement de la forme d'onde dû à une erreur d'arrondi</li>
           <li xml:lang="nl">Verkeerde uitlijning van de golfvorm als gevolg van een afrondingsfout is opgelost</li>
           <li xml:lang="pt-BR">Corrigido desalinhamento da forma de onda devido a erro de arredondamento</li>
+          <li xml:lang="sk">Opravené nesprávne zarovnanie vlnového priebehu spôsobené chybou zaokrúhľovania</li>
           <li xml:lang="sl">Popravljena neusklajenost valovne oblike zaradi zaokrožitvene napake</li>
           <li xml:lang="tr">Fixed waveform misalignment due to rounding error</li>
           <li xml:lang="uk">Виправлено помилкове вирівнювання форми хвилі через помилку округлення</li>
@@ -975,6 +1022,7 @@
           <li xml:lang="fr">Correction du composant graphique de forme d'onde fixe dessinant sur une image nulle et colorant les lignes supprimées</li>
           <li xml:lang="nl">Tekenen van het golfvormwidget op een lege afbeelding en het tekenen van verwijderde lijnen is opgelost</li>
           <li xml:lang="pt-BR">Corrigido o desenho do widget de forma de onda em uma imagem nula e a pintura das linhas removidas</li>
+          <li xml:lang="sk">Opravené kreslenie miniaplikácie vlnového priebehu na prázdny obrázok a vykresľovanie odstránených riadkov</li>
           <li xml:lang="sl">Popravljeno risanje gradnika valovne oblike na ničelni sliki in risanje odstranjenih črt</li>
           <li xml:lang="tr">Fixed waveform widget drawing on null image and painting of removed lines</li>
           <li xml:lang="uk">Виправлено малювання віджета форми хвилі на порожньому зображенні і малювання вилучених ліній</li>
@@ -985,6 +1033,7 @@
           <li xml:lang="fr">Correction de l'échelle de zoom par défaut de la forme d'onde</li>
           <li xml:lang="nl">Standaard zoomfactor voor de golfvorm is opgelost</li>
           <li xml:lang="pt-BR">Corrigida a escala de zoom padrão da forma de onda</li>
+          <li xml:lang="sk">Opravená predvolená mierka priblíženia vlnového priebehu</li>
           <li xml:lang="sl">Popravljena privzeta lestvica povečave valovne oblike</li>
           <li xml:lang="tr">Fixed waveform default zoom scale</li>
           <li xml:lang="uk">Виправлено типовий масштаб форми хвилі</li>
@@ -995,6 +1044,7 @@
           <li xml:lang="fr">Correction du séparateur de ligne de texte de sous-titre affiché sur le composant graphique de lignes</li>
           <li xml:lang="nl">Scheidingslijn voor ondertiteltekst getekend op lijnenwidget opgelost</li>
           <li xml:lang="pt-BR">Corrigido o separador de linhas do texto da legenda no LinesWidget</li>
+          <li xml:lang="sk">Opravené kreslenie oddeľovača riadkov textu titulkov v LinesWidget</li>
           <li xml:lang="sl">Popravljeno risanje ločila vrstic besedila podnapisov na LinesWidget</li>
           <li xml:lang="tr">Fixed subtitle text line separator draw on LinesWidget</li>
           <li xml:lang="uk">Виправлено малювання роздільника рядків текстових субтитрів у LinesWidget</li>
@@ -1005,6 +1055,7 @@
           <li xml:lang="fr">Correction des lignes non séparables (Recherches de nouvelles lignes dans QTextDocument)</li>
           <li xml:lang="nl">Lijnen niet afbreken (nieuwe regel zoeken in QTextDocument) opgelost</li>
           <li xml:lang="pt-BR">Correção de quebras de linha (busca por nova linha em QTextDocument)</li>
+          <li xml:lang="sk">Opravené zrušenie zalomenia riadkov (hľadanie nových riadkov v QTextDocument)</li>
           <li xml:lang="sl">Popravljena neprekinjena črta (iskanje nove vrstice v QTextDocument)</li>
           <li xml:lang="tr">Fixed unbreak lines (newline searches in QTextDocument)</li>
           <li xml:lang="uk">Виправлено об'єднання рядків (пошук розривів рядків у QTextDocument)</li>
@@ -1015,6 +1066,7 @@
           <li xml:lang="fr">Correction du plantage lors de la division des lignes</li>
           <li xml:lang="nl">Crash bij het splitsen van regels opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava travamento nas linhas de divisão</li>
+          <li xml:lang="sk">Opravený pád pri rozdeľovaní riadkov</li>
           <li xml:lang="sl">Popravljeno sesutje v razdeljenih vrsticah</li>
           <li xml:lang="tr">Fixed crash in split lines</li>
           <li xml:lang="uk">Усунено аварійне завершення роботи при поділі на рядки</li>
@@ -1025,6 +1077,7 @@
           <li xml:lang="fr">Correction de l'importation « VobSub » ignorant les styles de texte</li>
           <li xml:lang="nl">Importeren van VobSub-bestanden, waarbij tekststijlen werden genegeerd, is opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema de importação de VobSub ignorando os estilos de texto</li>
+          <li xml:lang="sk">Opravený import VobSub ignorujúci textové štýly</li>
           <li xml:lang="sl">Popravljen uvoz VobSub, ki ignorira sloge besedila</li>
           <li xml:lang="tr">Fixed VobSub import ignoring Text styles</li>
           <li xml:lang="uk">Виправлено ігнорування стилів тексту при імпортуванні VobSub</li>
@@ -1035,6 +1088,7 @@
           <li xml:lang="fr">Correction du plantage de VobSub lors du passage à l'image précédente</li>
           <li xml:lang="nl">VobSub-crash bij het terugzetten naar de vorige afbeelding is opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento do VobSub ao passar para a imagem anterior</li>
+          <li xml:lang="sk">Opravený pád VobSub pri prechode na predchádzajúci obrázok</li>
           <li xml:lang="sl">Popravljeno sesutje VobSub pri premikanju na prejšnjo sliko</li>
           <li xml:lang="tr">Fixed VobSub crash when moving to previous image</li>
           <li xml:lang="uk">Усунено аварійне завершення роботи VobSub при переході до попереднього зображення</li>
@@ -1045,6 +1099,7 @@
           <li xml:lang="fr">Correction de l'analyse / enregistrement pour les sous-titres dans YouTube</li>
           <li xml:lang="nl">Het ontleden/opslaan van YouTube-opschrift-formaten is opgelost</li>
           <li xml:lang="pt-BR">Correção na análise/salvamento do formato de legendas do YouTube</li>
+          <li xml:lang="sk">Opravené spracovanie/ukladanie formátu YouTubeCaptions</li>
           <li xml:lang="sl">Popravljeno razčlenjevanje/shranjevanje formata YouTubeCaptions</li>
           <li xml:lang="tr">Fixed YouTubeCaptions format parsing/saving</li>
           <li xml:lang="uk">Виправлено обробку і збереження у форматі YouTubeCaptions</li>
@@ -1055,6 +1110,7 @@
           <li xml:lang="fr">Correction de l'ordre de création des actions Annuler / Rétablir, état incorrect</li>
           <li xml:lang="nl">De volgorde van het aanmaken van acties voor ongedaan maken/opnieuw uitvoeren is opgelost; onjuiste status</li>
           <li xml:lang="pt-BR">Corrigida a ordem de criação das ações de desfazer/refazer, estado incorreto</li>
+          <li xml:lang="sk">Opravené poradie vytvárania akcií späť/znovu, nesprávny stav</li>
           <li xml:lang="sl">Popravljen vrstni red ustvarjanja dejanj razveljavitve/ponovitve, napačno stanje</li>
           <li xml:lang="tr">Fixed undo/redo actions creation order, incorrect state</li>
           <li xml:lang="uk">Виправлено порядок створення дій скасування або повторення дій, некоректний стан</li>
@@ -1066,6 +1122,7 @@
           <li xml:lang="it">Correzione di alcune problematiche di memoria e salvataggio</li>
           <li xml:lang="nl">Diverse problemen met geheugen en opslaan opgelost</li>
           <li xml:lang="pt-BR">Corrigidos alguns problemas de memória e salvamento</li>
+          <li xml:lang="sk">Opravené niektoré problémy s pamäťou a ukladaním</li>
           <li xml:lang="sl">Popravljene nekatere težave s pomnilnikom in shranjevanjem</li>
           <li xml:lang="tr">Fixed some memory and saving issues</li>
           <li xml:lang="uk">Виправлено деякі проблеми з пам'яттю і збереженням</li>
@@ -1076,6 +1133,7 @@
           <li xml:lang="fr">Correction du décodage « ASS » intégré</li>
           <li xml:lang="nl">Ingebouwde ASS-decodering opgelost</li>
           <li xml:lang="pt-BR">Corrigida a decodificação ASS embutida</li>
+          <li xml:lang="sk">Opravené dekódovanie vloženého ASS</li>
           <li xml:lang="sl">Popravljeno vdelano dekodiranje ASS</li>
           <li xml:lang="tr">Fixed embedded ASS decoding</li>
           <li xml:lang="uk">Виправлено декодування вбудованих ASS</li>
@@ -1086,6 +1144,7 @@
           <li xml:lang="fr">Correction du script d''exemple pour la suppression de déficience auditive</li>
           <li xml:lang="nl">Voorbeeld van script voor slechthorenden verwijderen opgelost</li>
           <li xml:lang="pt-BR">Corrigida remoção de exemplo de script para deficientes auditivos</li>
+          <li xml:lang="sk">Opravený príklad skriptu na odstránenie titulkov pre nepočujúcich</li>
           <li xml:lang="sl">Popravljen primer odstranitve skripta za slušno prizadete</li>
           <li xml:lang="tr">Fixed example remove hearing impaired script</li>
           <li xml:lang="uk">Виправлено приклад скрипту вилучення</li>
@@ -1097,6 +1156,7 @@
           <li xml:lang="it">Correzione della finestra di informazioni non funzionante</li>
           <li xml:lang="nl">Gebroken Info-over-dialoog opgelost</li>
           <li xml:lang="pt-BR">Corrigido o diálogo "Sobre"</li>
+          <li xml:lang="sk">Opravené nefunkčné dialógové okno O aplikácii</li>
           <li xml:lang="sl">Popravljeno nedelujoče pogovorno okno »O programu«</li>
           <li xml:lang="tr">Fixed broken about dialog</li>
           <li xml:lang="uk">Виправлено помилки у вікні «Про програму»</li>
@@ -1109,6 +1169,7 @@
           <li xml:lang="it">Aggiunto il supporto a Qt6</li>
           <li xml:lang="nl">Qt6-ondersteuning toegevoegd</li>
           <li xml:lang="pt-BR">Adicionado suporte ao Qt6</li>
+          <li xml:lang="sk">Pridaná podpora Qt6</li>
           <li xml:lang="sl">Dodana podpora za Qt6</li>
           <li xml:lang="tr">Added Qt6 support</li>
           <li xml:lang="uk">Додано підтримку Qt6</li>
@@ -1121,6 +1182,7 @@
           <li xml:lang="it">Aggiunto il supporto al formato WebVTT</li>
           <li xml:lang="nl">Ondersteuning voor WebVTT-formaat toegevoegd</li>
           <li xml:lang="pt-BR">Adicionado suporte ao formato WebVTT</li>
+          <li xml:lang="sk">Pridaná podpora formátu WebVTT</li>
           <li xml:lang="sl">Dodana podpora za format WebVTT</li>
           <li xml:lang="tr">Added WebVTT format support</li>
           <li xml:lang="uk">Додано підтримку формату WebVTT</li>
@@ -1131,6 +1193,7 @@
           <li xml:lang="fr">Ajout d'une interface utilisateur pour le positionnement des sous-titres</li>
           <li xml:lang="nl">Gebruikersinterface en ondersteuning voor het positioneren van ondertitels toegevoegd</li>
           <li xml:lang="pt-BR">Adicionada interface de usuário e suporte para posicionamento de legendas</li>
+          <li xml:lang="sk">Pridané používateľské rozhranie a podpora pozíciovania titulkov</li>
           <li xml:lang="sl">Dodan uporabniški vmesnik in podpora za pozicioniranje podnapisov</li>
           <li xml:lang="tr">Added subtitle positioning UI and support</li>
           <li xml:lang="uk">Додано інтерфейс розташовування субтитрів і підтримку</li>
@@ -1141,6 +1204,7 @@
           <li xml:lang="fr">Ajout de l'interface utilisateur pour les sous-titres, les classes /commentaires /voix et de leurs prises en charge</li>
           <li xml:lang="nl">Gebruikersinterface en ondersteuning voor ondertitelingsklasse/-opmerkingen/-spraak zijn toegevoegd</li>
           <li xml:lang="pt-BR">Adicionada interface de usuário e suporte para legendas, comentários e voz</li>
+          <li xml:lang="sk">Pridané používateľské rozhranie a podpora tried/komentárov/hlasu titulkov</li>
           <li xml:lang="sl">Dodan uporabniški vmesnik in podpora za razrede/komentarje/glas podnapisov</li>
           <li xml:lang="tr">Added subtitle class/comments/voice UI and support</li>
           <li xml:lang="uk">Додано інтерфейс класу, коментарів та озвучення субтитрів і підтримку</li>
@@ -1152,6 +1216,7 @@
           <li xml:lang="fr">Amélioration de l'édition / aperçu du texte enrichi</li>
           <li xml:lang="nl">Verbeterd opgemaakte tekstbewerking/-voorbeeldweergave</li>
           <li xml:lang="pt-BR">Aprimoramento da edição/visualização de texto formatado</li>
+          <li xml:lang="sk">Vylepšené úpravy/náhľad formátovaného textu</li>
           <li xml:lang="sl">Izboljšano urejanje/predogled obogatenega besedila</li>
           <li xml:lang="tr">Improved rich text editing/preview</li>
           <li xml:lang="uk">Удосконалено редагування або перегляд форматованого тексту</li>
@@ -1162,6 +1227,7 @@
           <li xml:lang="fr">Rendu de texte enrichi sur les formes d'onde / vidéo / éditeurs</li>
           <li xml:lang="nl">Opgemaakte tekstweergave in golfvormweergave/video/bewerkers</li>
           <li xml:lang="pt-BR">Renderização de texto formatado em formas de onda/vídeos/editores</li>
+          <li xml:lang="sk">Vykresľovanie formátovaného textu na vlnovom priebehu/videu/editoroch</li>
           <li xml:lang="sl">Upodabljanje obogatenega besedila v valovnih oblikah/videoposnetkih/urejevalnikih</li>
           <li xml:lang="tr">Rich text rendering on waveform/video/editors</li>
           <li xml:lang="uk">Обробка форматованого тексту на формі хвилі, відео, редакторах</li>
@@ -1174,6 +1240,7 @@
           <li xml:lang="it">Aggiunta del motore di traduzione DeepL</li>
           <li xml:lang="nl">DeepL-vertaalengine toegevoegd</li>
           <li xml:lang="pt-BR">Adicionado o mecanismo de tradução DeepL</li>
+          <li xml:lang="sk">Pridaný prekladový engine DeepL</li>
           <li xml:lang="sl">Dodan prevajalski mehanizem DeepL</li>
           <li xml:lang="tr">Added DeepL translate engine</li>
           <li xml:lang="uk">Додано рушій перекладу DeepL</li>
@@ -1186,6 +1253,7 @@
           <li xml:lang="it">Aggiunta del motore di traduzione Google Cloud</li>
           <li xml:lang="nl">Google Cloud vertaalengine toegevoegd</li>
           <li xml:lang="pt-BR">Adicionado o mecanismo de tradução do Google Cloud</li>
+          <li xml:lang="sk">Pridaný prekladový engine Google Cloud</li>
           <li xml:lang="sl">Dodan prevajalski mehanizem Google Cloud</li>
           <li xml:lang="tr">Added Google Cloud translate engine</li>
           <li xml:lang="uk">Додано рушій перекладу Google Cloud</li>
@@ -1198,6 +1266,7 @@
           <li xml:lang="it">Ricreazione dell'interfaccia di traduzione</li>
           <li xml:lang="nl">Opnieuw ontworpen vertaalinterface</li>
           <li xml:lang="pt-BR">Interface de tradução recriada</li>
+          <li xml:lang="sk">Prepracované rozhranie prekladu</li>
           <li xml:lang="sl">Ponovno ustvarjen vmesnik za prevajanje</li>
           <li xml:lang="tr">Recreated translation interface</li>
           <li xml:lang="uk">Повторно створено інтерфейс перекладу</li>
@@ -1210,6 +1279,7 @@
           <li xml:lang="it">Aggiunta/miglioramento del supporto a ffmpeg 5</li>
           <li xml:lang="nl">Ondersteuning voor ffmpeg 5 toegevoegd/verbeterd</li>
           <li xml:lang="pt-BR">Adicionado/aprimorado suporte ao ffmpeg 5</li>
+          <li xml:lang="sk">Pridaná/vylepšená podpora ffmpeg 5</li>
           <li xml:lang="sl">Dodana/izboljšana podpora za ffmpeg 5</li>
           <li xml:lang="tr">Added/improved ffmpeg 5 support</li>
           <li xml:lang="uk">Додано або удосконалено підтримку ffmpeg 5</li>
@@ -1220,6 +1290,7 @@
           <li xml:lang="fr">Les lignes de sous-titres sont toujours triées par ordre chronologique. Suppression de l'action du menu « Trier les lignes »</li>
           <li xml:lang="nl">Ondertitelregels worden altijd op tijd gesorteerd; sorteeropties in het menu verwijderen</li>
           <li xml:lang="pt-BR">As legendas são sempre ordenadas por tempo; remover a ação de ordenação de linhas no menu</li>
+          <li xml:lang="sk">Riadky titulkov sú vždy zoradené podľa času; odstránená akcia menu na triedenie riadkov</li>
           <li xml:lang="sl">Vrstice podnapisov so vedno časovno razvrščene; odstrani dejanje menija vrstic za razvrščanje</li>
           <li xml:lang="tr">Subtitle lines are always time sorted; remove sort lines menu action</li>
           <li xml:lang="uk">Рядки субтитрів завжди упорядковано за часом; вилучено пункт меню для упорядковування рядків</li>
@@ -1231,6 +1302,7 @@
           <li xml:lang="it">Sostituzione di Kross con QJSEngine, rimozione del supporto di ruby e python</li>
           <li xml:lang="nl">Kross is vervangen door QJSEngine en de ondersteuning voor Ruby en Python is verwijderd</li>
           <li xml:lang="pt-BR">Substituição do Kross pelo QJSEngine e remoção do suporte a Ruby e Python</li>
+          <li xml:lang="sk">Nahradený Kross za QJSEngine, odstránená podpora Ruby a Python</li>
           <li xml:lang="sl">Kross zamenjan s QJSEngine, odstranjena podpora za Ruby in Python</li>
           <li xml:lang="tr">Replaced Kross with QJSEngine, removed ruby and python support</li>
           <li xml:lang="uk">Kross замінено QJSEngine, вилучено підтримку ruby і python</li>
@@ -1243,6 +1315,7 @@
           <li xml:lang="it">Miglioramento del gestore degli script e del menu degli strumenti</li>
           <li xml:lang="nl">Verbeterd scriptbeheer en menu met hulpmiddelen</li>
           <li xml:lang="pt-BR">Melhorias no gerenciador de scripts e menu de ferramentas</li>
+          <li xml:lang="sk">Vylepšený správca skriptov a menu nástrojov</li>
           <li xml:lang="sl">Izboljšan upravljalnik skriptov in meni orodij</li>
           <li xml:lang="tr">Improved script manager and tools menu</li>
           <li xml:lang="uk">Удосконалено керування скриптами і меню інструментів</li>
@@ -1283,6 +1356,7 @@
           <li xml:lang="fr">Correction de l'édition de scripts sur AppImage</li>
           <li xml:lang="nl">Het bewerken van scripts in AppImage is opgelost</li>
           <li xml:lang="pt-BR">Correção na edição de scripts no AppImage</li>
+          <li xml:lang="sk">Opravené upravovanie skriptov v AppImage</li>
           <li xml:lang="sl">Popravljeno urejanje skriptov v AppImage</li>
           <li xml:lang="tr">Fixed script edititing on AppImage</li>
           <li xml:lang="uk">Виправлено редагування скрипті в AppImage</li>
@@ -1294,6 +1368,7 @@
           <li xml:lang="it">Correzione di rilasci, temi e aspetto per AppImage/Windows</li>
           <li xml:lang="nl">AppImage/Windows-bouwsels, thema's en uiterlijk zijn opgelost</li>
           <li xml:lang="pt-BR">Correção nas compilações AppImage/Windows, temas e aparência</li>
+          <li xml:lang="sk">Opravené zostavenia AppImage/Windows, témy a vzhľad</li>
           <li xml:lang="sl">Popravljene gradnje, teme in videz AppImage/Windows</li>
           <li xml:lang="tr">Fixed AppImage/Windows builds, themes and look</li>
           <li xml:lang="uk">Виправлено збірки AppImage/Windows, теми і вигляд</li>
@@ -1305,6 +1380,7 @@
           <li xml:lang="it">Correzioni di temi/iconi/aspetto fuori dall'ambiente KDE</li>
           <li xml:lang="nl">Thema's/pictogrammen/uiterlijk buiten de KDE-omgeving opgelost</li>
           <li xml:lang="pt-BR">Correção de tema/ícones/aparência fora do ambiente KDE</li>
+          <li xml:lang="sk">Opravený vzhľad tém/ikon mimo prostredia KDE</li>
           <li xml:lang="sl">Popravljena tema/ikone/videz zunaj okolja KDE</li>
           <li xml:lang="tr">Fixed theme/icons/look outside KDE environment</li>
           <li xml:lang="uk">Виправлено  теми/піктограми/вигляд поза середовищем KDE</li>
@@ -1317,6 +1393,7 @@
           <li xml:lang="it">Correzione dell'apertura dei file su Windows</li>
           <li xml:lang="nl">Openen van bestanden in Windows opgelost</li>
           <li xml:lang="pt-BR">Correção na abertura de arquivos no Windows</li>
+          <li xml:lang="sk">Opravené otváranie súborov vo Windows</li>
           <li xml:lang="sl">Popravljeno odpiranje datotek v sistemu Windows</li>
           <li xml:lang="tr">Fixed opening files on windows</li>
           <li xml:lang="uk">Виправлено відкриття файлів у windows</li>
@@ -1329,6 +1406,7 @@
           <li xml:lang="it">Correzione di vari errori e blocchi rari</li>
           <li xml:lang="nl">Diverse bugs en zeldzame crashes opgelost</li>
           <li xml:lang="pt-BR">Correção de diversos erros e travamentos raros</li>
+          <li xml:lang="sk">Opravené rôzne chyby a zriedkavé pády</li>
           <li xml:lang="sl">Odpravljene različne napake in redke zrušitve</li>
           <li xml:lang="tr">Fixed various bugs and rare crashes</li>
           <li xml:lang="uk">Виправлено різні вади і рідкісні аварійні завершення роботи</li>
@@ -1339,6 +1417,7 @@
           <li xml:lang="fr">Correction de la pile d'annulation et amélioration de l'annulation de l'édition de texte</li>
           <li xml:lang="nl">Stapel ongedaan maken is opgelost en ongedaan maken bij tekstbewerking verbeterd</li>
           <li xml:lang="pt-BR">Correção da pilha de desfazer e melhoria na função de desfazer na edição de texto</li>
+          <li xml:lang="sk">Opravený zásobník akcií späť a vylepšené vrátenie úprav textu</li>
           <li xml:lang="sl">Popravljen sklad razveljavitve in izboljšano razveljavljanje urejanja besedila</li>
           <li xml:lang="tr">Fixed Undo stack and improved text editing undo</li>
           <li xml:lang="uk">Виправлено стос скасування дій та удосконалено режим редагування тексту</li>
@@ -1349,6 +1428,7 @@
           <li xml:lang="fr">Améliorations / Remplacement des lecteur(s) vidéo (Performances, support de Wayland, OpenGL / FFmpeg)</li>
           <li xml:lang="nl">Verbeterd/vervangen videospeler(s) (prestaties, Wayland-ondersteuning, OpenGL/FFmpeg)</li>
           <li xml:lang="pt-BR">Reprodutor(es) de vídeo aprimorado(s)/substituído(s) (desempenho, suporte a Wayland, OpenGL/FFmpeg)</li>
+          <li xml:lang="sk">Vylepšené/nahradené prehrávače videa (výkon, podpora Wayland, OpenGL/FFmpeg)</li>
           <li xml:lang="sl">Izboljšan/zamenjan predvajalnik(-i) videoposnetkov (zmogljivost, podpora za Wayland, OpenGL/FFmpeg)</li>
           <li xml:lang="tr">Improved/replaced Video player(s) (performance, Wayland support, OpenGL/FFmpeg)</li>
           <li xml:lang="uk">Удосконалено/замінено відеопрогравачі (швидкодія, підтримка Wayland, OpenGL/FFmpeg)</li>
@@ -1361,6 +1441,7 @@
           <li xml:lang="it">Miglioramento delle prestazioni di Waveform</li>
           <li xml:lang="nl">Verbeterde prestaties golfvorm</li>
           <li xml:lang="pt-BR">Desempenho de forma de onda aprimorado</li>
+          <li xml:lang="sk">Vylepšený výkon vlnového priebehu</li>
           <li xml:lang="sl">Izboljšana zmogljivost valovne oblike</li>
           <li xml:lang="tr">Improved Waveform performance</li>
           <li xml:lang="uk">Удосконалено швидкодію форми хвилі</li>
@@ -1371,6 +1452,7 @@
           <li xml:lang="fr">Amélioration de la performance du composants graphique / modèle de lignes</li>
           <li xml:lang="nl">Verbeterde prestaties van lijnenwidget/model</li>
           <li xml:lang="pt-BR">Desempenho aprimorado do LinesWidget/Model</li>
+          <li xml:lang="sk">Vylepšený výkon LinesWidget/Model</li>
           <li xml:lang="sl">Izboljšana zmogljivost gradnikov/modelov vrstic</li>
           <li xml:lang="tr">Improved LinesWidget/Model performance</li>
           <li xml:lang="uk">Удосконалено швидкодію LinesWidget/Model</li>
@@ -1383,6 +1465,7 @@
           <li xml:lang="it">Miglioramento del supporto a Wayland</li>
           <li xml:lang="nl">Verbeterde ondersteuning van Wayland</li>
           <li xml:lang="pt-BR">Suporte ao Wayland aprimorado</li>
+          <li xml:lang="sk">Vylepšená podpora Wayland</li>
           <li xml:lang="sl">Izboljšana podpora za Wayland</li>
           <li xml:lang="tr">Improved Wayland support</li>
           <li xml:lang="uk">Удосконалено підтримку Wayland</li>
@@ -1395,6 +1478,7 @@
           <li xml:lang="it">Miglioramento delle finestre di apertura/salvataggio dei file per usare le versioni native</li>
           <li xml:lang="nl">Dialogen voor het openen/opslaan van bestanden zijn verbeterd en gebruiken de inheemse dialogen</li>
           <li xml:lang="pt-BR">Diálogos de abrir/salvar arquivos aprimorados para usar diálogos nativos</li>
+          <li xml:lang="sk">Vylepšené dialógové okná na otváranie/ukladanie súborov na používanie natívnych dialógov</li>
           <li xml:lang="sl">Izboljšana pogovorna okna za odpiranje/shranjevanje datotek za uporabo izvornih pogovornih oken</li>
           <li xml:lang="tr">Improved open/save file dialogs to use native dialogs</li>
           <li xml:lang="uk">Удосконалено вікна відкриття-збереження файлів так, щоб програма використовувала природні для системи вікна</li>
@@ -1405,6 +1489,7 @@
           <li xml:lang="fr">Amélioration de la sélection, de la détection et de la gestion des jeux de caractères, des encodages et des fins de ligne</li>
           <li xml:lang="nl">Verbeterde selectie, detectie en verwerking van teksttekensets/coderingen/regeleinden</li>
           <li xml:lang="pt-BR">Melhoria na seleção, detecção e tratamento de conjuntos de caracteres/codificações de texto/fim de linha</li>
+          <li xml:lang="sk">Vylepšený výber, detekcia a spracovanie znakových sád/kódovaní/konca riadku textu</li>
           <li xml:lang="sl">Izboljšani nabori znakov/kodiranja/izbira, zaznavanje in obravnavanje konca vrstice</li>
           <li xml:lang="tr">Improved text charsets/encodings/end-of-line selection, detection and handling</li>
           <li xml:lang="uk">Удосконалено вибір кодування та кінців рядків, їхнє виявлення та їхню обробку</li>
@@ -1417,6 +1502,7 @@
           <li xml:lang="it">Miglioramenti al supporto VobSub</li>
           <li xml:lang="nl">Verbeterde VobSub-ondersteuning</li>
           <li xml:lang="pt-BR">Suporte ao VobSub aprimorado</li>
+          <li xml:lang="sk">Vylepšená podpora VobSub</li>
           <li xml:lang="sl">Izboljšana podpora za VobSub</li>
           <li xml:lang="tr">Improved VobSub support</li>
           <li xml:lang="uk">Удосконалено підтримку VobSub</li>
@@ -1427,6 +1513,7 @@
           <li xml:lang="fr">Amélioration de l'éditeur intégré pour la prise en charge des styles de texte</li>
           <li xml:lang="nl">Verbeterde inline-editor ter ondersteuning van tekststijlen</li>
           <li xml:lang="pt-BR">Editor embutido aprimorado para oferecer suporte a estilos de texto</li>
+          <li xml:lang="sk">Vylepšený inline editor na podporu textových štýlov</li>
           <li xml:lang="sl">Izboljšan urejevalnik v vrstici za podporo slogov besedila</li>
           <li xml:lang="tr">Improved inline editor to support text styles</li>
           <li xml:lang="uk">Удосконалено вбудований редактор так, щоб у ньому було передбачено стилі тексту</li>
@@ -1438,6 +1525,7 @@
           <li xml:lang="fr">Amélioration du rendu pour le style des sous-titres</li>
           <li xml:lang="nl">Verbeterde weergave van ondertitelstijlen</li>
           <li xml:lang="pt-BR">Renderização de estilo de legenda aprimorada</li>
+          <li xml:lang="sk">Vylepšené vykresľovanie štýlov titulkov</li>
           <li xml:lang="sl">Izboljšano upodabljanje slogov podnapisov</li>
           <li xml:lang="tr">Improved subtitle style rendering</li>
           <li xml:lang="uk">Удосконалено обробку стилів субтитрів</li>
@@ -1448,6 +1536,7 @@
           <li xml:lang="fr">Amélioration de la prise en charge des caractères / seconde et ajout de la coloration</li>
           <li xml:lang="nl">Verbeterde ondersteuning voor tekens/sec en toegevoegde kleuring</li>
           <li xml:lang="pt-BR">Melhoria no suporte a caracteres por segundo e adição de cores</li>
+          <li xml:lang="sk">Vylepšená podpora znakov/sek. a pridané farbenie</li>
           <li xml:lang="sl">Izboljšana podpora za znake/sekunde in dodano barvanje</li>
           <li xml:lang="tr">Improved character/sec support and added coloring</li>
           <li xml:lang="uk">Удосконалено підтримку кількості символів за секунду і додано розфарбування</li>
@@ -1458,6 +1547,7 @@
           <li xml:lang="fr">Amélioration de la ligne de commandes - Capacité d'ouvrir tous les fichiers de sous-titres /média</li>
           <li xml:lang="nl">Bied via de commandoregel de mogelijkheid om alle ondertitel-/mediabestanden te openen</li>
           <li xml:lang="pt-BR">Melhoria da linha de comando - capacidade de abrir todos os arquivos de legenda/mídia</li>
+          <li xml:lang="sk">Vylepšený príkazový riadok - možnosť otvoriť všetky súbory titulkov/médií</li>
           <li xml:lang="sl">Izboljšana ukazna vrstica - možnost odpiranja vseh datotek s podnapisi/medijskimi datotekami</li>
           <li xml:lang="tr">Improvide command line - ability to open all subtitle/media files</li>
           <li xml:lang="uk">Впроваджено командний рядок – можливість відкриття усіх файлів субтитрів та мультимедійних даних</li>
@@ -1468,6 +1558,7 @@
           <li xml:lang="fr">Ajout des colonnes Pause / Durée à la vue en liste</li>
           <li xml:lang="nl">Kolommen Pauze/Tijdsduur zijn toegevoegd aan de lijstweergave</li>
           <li xml:lang="pt-BR">Adicionadas colunas de Pausa/Duração à visualização em lista</li>
+          <li xml:lang="sk">Pridané stĺpce Pauza/Trvanie do zobrazenia zoznamu</li>
           <li xml:lang="sl">Dodani stolpci za premor/trajanje v seznam</li>
           <li xml:lang="tr">Added Pause/Duration columns to list view</li>
           <li xml:lang="uk">На панель списку додано стовпчики призупинення та тривалості</li>
@@ -1478,6 +1569,7 @@
           <li xml:lang="fr">Suppression du type « MIME » non valable « subpicture / x-pgs »</li>
           <li xml:lang="nl">Ongeldige subpicture/x-pgs mime verwijderd</li>
           <li xml:lang="pt-BR">Legenda inválida removida/mime x-pgs</li>
+          <li xml:lang="sk">Odstránený neplatný MIME typ subpicture/x-pgs</li>
           <li xml:lang="sl">Odstranjeni neveljavni MIME podslike/x-pgs</li>
           <li xml:lang="tr">Removed invalid subpicture/x-pgs mime</li>
           <li xml:lang="uk">Вилучено некоректний тип MIME subpicture/x-pgs</li>
@@ -1489,6 +1581,7 @@
           <li xml:lang="fr">Ajout et mise à jour de nombreuses traductions - Merci à la communauté de KDE</li>
           <li xml:lang="nl">Veel vertalingen bijgewerkt/toegevoegd - met dank aan de KDE-gemeenschap</li>
           <li xml:lang="pt-BR">Muitas traduções foram atualizadas e adicionadas - graças à comunidade KDE</li>
+          <li xml:lang="sk">Aktualizované/pridané mnohé preklady - vďaka komunite KDE</li>
           <li xml:lang="sl">Posodobljeno/dodano veliko prevodov - zahvala skupnosti KDE</li>
           <li xml:lang="tr">Updated/added many translations - thanks to KDE community</li>
           <li xml:lang="uk">Оновлено і додано багато перекладів – дякуємо спільноті KDE</li>
@@ -1527,6 +1620,7 @@
           <li xml:lang="fr">Correction de l'analyse des emplacement absolus contenant le caractère « # »</li>
           <li xml:lang="nl">De verwerking van absolute paden die het teken '#' bevatten, is opgelost</li>
           <li xml:lang="pt-BR">Correção na análise de caminhos absolutos que continham o caractere '#'</li>
+          <li xml:lang="sk">Opravené spracovanie absolútnych ciest obsahujúcich znak '#'</li>
           <li xml:lang="sl">Popravljeno razčlenjevanje absolutnih poti, ki vsebujejo znak '#'</li>
           <li xml:lang="tr">Fixed parsing of absolute paths containing '#' character</li>
           <li xml:lang="uk">Виправлено обробку абсолютних шляхів, що містять символ «#»</li>
@@ -1537,6 +1631,7 @@
           <li xml:lang="fr">Correction des boîtes de dialogue d'ouverture n'affichant pas tous les fichiers pris en charge</li>
           <li xml:lang="nl">Opgelost probleem waarbij in de dialoogvensters niet alle ondersteunde bestanden werden weergegeven</li>
           <li xml:lang="pt-BR">Corrigido o problema em que as caixas de diálogo de abertura não exibiam todos os arquivos compatíveis</li>
+          <li xml:lang="sk">Opravené dialógové okná otvorenia nezobrazujúce všetky podporované súbory</li>
           <li xml:lang="sl">Popravljena odprta pogovorna okna, ki niso prikazovala vseh podprtih datotek</li>
           <li xml:lang="tr">Fixed open dialogs not showing all supported files</li>
           <li xml:lang="uk">Виправлено помилку, пов'язану із тим, що у вікнах відкриття файлів не було показано усі підтримувані файли</li>
@@ -1547,6 +1642,7 @@
           <li xml:lang="fr">Correction du texte des sous-titres fixes ne respectant pas la configuration de la fonte du système</li>
           <li xml:lang="nl">Ondertiteltekst hield geen rekening met de lettertype-instellingen van het systeem opgelost</li>
           <li xml:lang="pt-BR">Texto de legenda corrigido, sem respeitar a configuração de fonte do sistema</li>
+          <li xml:lang="sk">Opravený text titulkov nerešpektujúci nastavenie systémového písma</li>
           <li xml:lang="sl">Popravljeno besedilo podnapisov, ki ni upoštevalo konfiguracije sistemske pisave</li>
           <li xml:lang="tr">Fixed subtitle text not respecting system font configuration</li>
           <li xml:lang="uk">Виправлено помилку, пов'язану із тим, що у тексті субтитрів не враховувалися налаштування шрифтів у системі</li>
@@ -1557,6 +1653,7 @@
           <li xml:lang="fr">Correction de la forme d'onde ne s'affichant pas correctement / complètement sur certains formats</li>
           <li xml:lang="nl">De golfvorm wordt bij sommige formaten niet correct/volledig weergegeven.</li>
           <li xml:lang="pt-BR">A forma de onda fixa não está sendo renderizada corretamente/completamente em alguns formatos</li>
+          <li xml:lang="sk">Opravený vlnový priebeh nevykresľujúci sa správne/úplne pri niektorých formátoch</li>
           <li xml:lang="sl">Popravljena valovna oblika, ki se ni pravilno/popolnoma upodobila v nekaterih formatih</li>
           <li xml:lang="tr">Fixed waveform not rendering correctly/completely on some formats</li>
           <li xml:lang="uk">Виправлено помилку, пов'язану із тим, що форма хвилі не оброблялася належним чином і повністю у деяких форматах</li>
@@ -1567,6 +1664,7 @@
           <li xml:lang="fr">Correction de la forme d'onde affichant les sous-titres aux mauvais moments</li>
           <li xml:lang="nl">Het probleem met de golfvormweergave, waarbij ondertitels op de verkeerde tijdstippen werden weergegeven, is opgelost.</li>
           <li xml:lang="pt-BR">Corrigida a exibição de legenda na forma de onda no tempo errado</li>
+          <li xml:lang="sk">Opravený vlnový priebeh zobrazujúci titulky v nesprávnom čase</li>
           <li xml:lang="sl">Popravljena valovna oblika, ki je prikazovala podnapise ob napačnih časih</li>
           <li xml:lang="tr">Fixed waveform displaying subtitles at wrong times</li>
           <li xml:lang="uk">Виправлено помилку, пов'язану із тим, що програма показувала субтитри на формі хвилі у помилкових позиціях за часом</li>
@@ -1577,6 +1675,7 @@
           <li xml:lang="fr">Correction de la forme d'onde ne fonctionnant pas avec certains éléments</li>
           <li xml:lang="nl">Golfvorm die niet werkt bij sommige opgelost</li>
           <li xml:lang="pt-BR">Corrigida forma de onda não funcionando em alguns casos</li>
+          <li xml:lang="sk">Opravený vlnový priebeh nefungujúci s niektorými</li>
           <li xml:lang="sl">Popravljena valovna obliko, ki ni delovala z nekaterimi</li>
           <li xml:lang="tr">Fixed waveform not working with some</li>
           <li xml:lang="uk">Виправлено помилку, пов'язану із тим, що форма хвилі не працювала у деяких файлах</li>
@@ -1587,6 +1686,7 @@
           <li xml:lang="fr">Correctifs pour les moteurs de lecture vidéo MPV, GStreamer et Xine</li>
           <li xml:lang="nl">Oplossingen voor de backends van MPV, GStreamer en Xine videospelers</li>
           <li xml:lang="pt-BR">Correções nos backends dos reprodutores de vídeo MPV, GStreamer e Xine</li>
+          <li xml:lang="sk">Opravy backendov prehrávačov videa MPV, GStreamer a Xine</li>
           <li xml:lang="sl">Popravki zalednih sistemov video predvajalnikov MPV, GStreamer in Xine</li>
           <li xml:lang="tr">Fixes to MPV, GStreamer and Xine video player backends</li>
           <li xml:lang="uk">Виправлення у модулях обробки відео MPV, GStreamer і Xine</li>
@@ -1597,6 +1697,7 @@
           <li xml:lang="fr">Le défilement de la forme d'onde est maintenant configurable.</li>
           <li xml:lang="nl">Schuiven van golfvorm is te configureren</li>
           <li xml:lang="pt-BR">A rolagem da forma de onda é configurável</li>
+          <li xml:lang="sk">Rolovanie vlnového priebehu je konfigurovateľné</li>
           <li xml:lang="sl">Pomikanje po valovni obliki je nastavljivo</li>
           <li xml:lang="tr">Waveform scrolling is configurable</li>
           <li xml:lang="uk">Реалізовано можливість налаштовування гортання у формі хвилі</li>
@@ -1607,6 +1708,7 @@
           <li xml:lang="fr">Les modèles de langue PocketSphinx et VAD deviennent configurables.</li>
           <li xml:lang="nl">De taalmodellen en VAD van PocketSphinx zijn te configureren.</li>
           <li xml:lang="pt-BR">Os modelos de linguagem e o VAD do PocketSphinx são configuráveis</li>
+          <li xml:lang="sk">Jazykové modely PocketSphinx a VAD sú konfigurovateľné</li>
           <li xml:lang="sl">Jezikovni modeli PocketSphinx in VAD so nastavljivi</li>
           <li xml:lang="tr">PocketSphinx language models and VAD are configurable</li>
           <li xml:lang="uk">Реалізовано можливість налаштовування мовних моделей PocketSphinx і VAD</li>
@@ -1617,6 +1719,7 @@
           <li xml:lang="fr">Ajout de l'action « Afficher la barre d'état » au menu contextuel de la fenêtre principale</li>
           <li xml:lang="nl">De actie 'Statusbalk weergeven' is toegevoegd aan het pop-up-menu van het hoofdvenster</li>
           <li xml:lang="pt-BR">Adicionada ação para exibir a barra de status ao menu pop-up da janela principal</li>
+          <li xml:lang="sk">Pridaná akcia zobrazenia stavového riadku do kontextového menu hlavného okna</li>
           <li xml:lang="sl">Dodano dejanje prikaza vrstice stanja v pojavnem meniju glavnega okna</li>
           <li xml:lang="tr">Added show status bar action to main window popup menu</li>
           <li xml:lang="uk">У контекстне меню головного вікна програми додано пункт показу смужки стану</li>
@@ -1628,6 +1731,7 @@
           <li xml:lang="fr">Amélioration  de performance (Pour les scripts)</li>
           <li xml:lang="nl">Verbeterde (scripting) prestaties</li>
           <li xml:lang="pt-BR">Melhoria de performance (scripting)</li>
+          <li xml:lang="sk">Vylepšený výkon (skriptovania)</li>
           <li xml:lang="sl">Izboljšana (skriptna) zmogljivost</li>
           <li xml:lang="tr">Improved (scripting) performance</li>
           <li xml:lang="uk">Удосконалено швидкодію (роботи зі скриптами)</li>
@@ -1638,6 +1742,7 @@
           <li xml:lang="fr">Le correcteur orthographique utilisera le texte traduit lorsqu'il est sélectionné</li>
           <li xml:lang="nl">De spellingscontrole gebruikt de vertaaltekst wanneer deze is geselecteerd</li>
           <li xml:lang="pt-BR">O corretor ortográfico usará o texto traduzido quando esta opção for selecionada</li>
+          <li xml:lang="sk">Kontrola pravopisu použije text prekladu, keď je vybraný</li>
           <li xml:lang="sl">Preverjevalnik črkovanja bo uporabil prevedeno besedilo, ko je izbrano</li>
           <li xml:lang="tr">Spell checker will use translation text when it is selected</li>
           <li xml:lang="uk">Реалізовано використання засобу перевірки правопису, якщо позначено текст перекладу</li>
@@ -1648,6 +1753,7 @@
           <li xml:lang="fr">Les formes d'onde et les panneaux vidéo peuvent désormais être masqués.</li>
           <li xml:lang="nl">Golfvorm- en videovastzetters kunnen worden verborgen</li>
           <li xml:lang="pt-BR">Os painéis de forma de onda e vídeo podem ser ocultados</li>
+          <li xml:lang="sk">Panely vlnového priebehu a videa je možné skryť</li>
           <li xml:lang="sl">Valovne oblike in video doke je mogoče skriti</li>
           <li xml:lang="tr">Waveform and video docks can be hidden</li>
           <li xml:lang="uk">Уможливлено приховування бічних панелей форми хвилі і відео</li>
@@ -1658,6 +1764,7 @@
           <li xml:lang="fr">La fonction de séparation de lignes ne divise pas le texte sur les espaces lorsqu'il y a plusieurs lignes</li>
           <li xml:lang="nl">Bij het splitsen van regels wordt tekst niet op spaties gesplitst als er meerdere regels zijn.</li>
           <li xml:lang="pt-BR">A opção "Dividir linhas" não dividirá o texto em espaços quando houver várias linhas</li>
+          <li xml:lang="sk">Rozdelenie riadkov nerozdelí text na medzerách, ak existuje viac riadkov</li>
           <li xml:lang="sl">Razdelitvene vrstice ne bodo razdelile besedila na presledke, če je več vrstic</li>
           <li xml:lang="tr">Split lines won't split text on spaces while there are multiple lines</li>
           <li xml:lang="uk">Уможливлено поділ на рядки на пробілах, якщо передбачено декілька рядків</li>
@@ -1668,6 +1775,7 @@
           <li xml:lang="fr">Les lignes de sous-titres resteront toujours triées par leur datation</li>
           <li xml:lang="nl">Ondertitelregels blijven altijd gesorteerd op tijdstempel</li>
           <li xml:lang="pt-BR">As legendas permanecerão sempre organizadas por ordem cronológica</li>
+          <li xml:lang="sk">Riadky titulkov budú vždy zoradené podľa ich času</li>
           <li xml:lang="sl">Vrstice podnapisov bodo vedno ostale razvrščene po času</li>
           <li xml:lang="tr">Subtitle lines will always stay sorted by their time</li>
           <li xml:lang="uk">Реалізовано безумовне упорядкування рядків субтитрів за часом</li>
@@ -1679,6 +1787,7 @@
           <li xml:lang="fr">Amélioration du lecteur vidéo en mode « Plein écran »</li>
           <li xml:lang="nl">Verbeterde videospeler voor volledig scherm</li>
           <li xml:lang="pt-BR">Reprodutor de vídeo em tela cheia aprimorado</li>
+          <li xml:lang="sk">Vylepšený prehrávač videa na celú obrazovku</li>
           <li xml:lang="sl">Izboljšan celozaslonski video predvajalnik</li>
           <li xml:lang="tr">Improved fullscreen video player</li>
           <li xml:lang="uk">Удосконалено повноекранний відеопрогравач</li>
@@ -1689,6 +1798,7 @@
           <li xml:lang="fr">Ajout de la possibilité d'avancer trame par trame</li>
           <li xml:lang="nl">Mogelijkheid toegevoegd om stap voor stap door het frame te navigeren</li>
           <li xml:lang="pt-BR">Adicionada a capacidade de navegar quadro a quadro</li>
+          <li xml:lang="sk">Pridaná možnosť krokovania po snímkach</li>
           <li xml:lang="sl">Dodana možnost koraka po sličicah</li>
           <li xml:lang="tr">Added ability to step by frame</li>
           <li xml:lang="uk">Додано можливість покрокового переходу кадрами</li>
@@ -1699,6 +1809,7 @@
           <li xml:lang="fr">Ajout de contrôles de vitesse de lecture au menu vidéo</li>
           <li xml:lang="nl">Er zijn afspeelsnelheidsregelaars toegevoegd aan het videomenu</li>
           <li xml:lang="pt-BR">Adicionados controles de velocidade de reprodução ao menu de vídeo</li>
+          <li xml:lang="sk">Pridané ovládanie rýchlosti prehrávania do menu videa</li>
           <li xml:lang="sl">Dodani kontrolniki hitrosti predvajanja v video meniju</li>
           <li xml:lang="tr">Added play rate controls to video menu</li>
           <li xml:lang="uk">У меню відео додано пункти керування швидкістю відтворення</li>
@@ -1710,6 +1821,7 @@
           <li xml:lang="fr">Mise à jour de la traduction en Croate - Merci à @muzena</li>
           <li xml:lang="nl">Bijgewerkte Kroatische vertaling - met dank aan @muzena</li>
           <li xml:lang="pt-BR">Tradução para o croata atualizada - obrigado @muzena</li>
+          <li xml:lang="sk">Aktualizovaný chorvátsky preklad - vďaka @muzena</li>
           <li xml:lang="sl">Posodobljen hrvaški prevod - hvala @muzena</li>
           <li xml:lang="tr">Updated Croatian translation - thanks @muzena</li>
           <li xml:lang="uk">Оновлено переклад хорватською — дякуємо @muzena</li>
@@ -1721,6 +1833,7 @@
           <li xml:lang="fr">Mise à jour de la traduction pour l'Italienne - Merci à Luigi Toscano @tosky</li>
           <li xml:lang="nl">Bijgewerkte Italiaanse vertaling - met dank aan Luigi Toscano @tosky</li>
           <li xml:lang="pt-BR">Tradução para o italiano atualizada - obrigado Luigi Toscano @tosky</li>
+          <li xml:lang="sk">Aktualizovaný taliansky preklad - vďaka Luigi Toscano @tosky</li>
           <li xml:lang="sl">Posodobljen italijanski prevod - hvala Luigi Toscano @tosky</li>
           <li xml:lang="tr">Updated Italian translation - thanks Luigi Toscano @tosky</li>
           <li xml:lang="uk">Оновлено переклад італійською – дякуємо Luigi Toscano @tosky</li>
@@ -1732,6 +1845,7 @@
           <li xml:lang="fr">Mise à jour de la traduction pour le Russe - Merci à Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="nl">Bijgewerkte Russische vertaling - met dank aan Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="pt-BR">Tradução para o russo atualizada - obrigado Nick Shaforostoff @shaforostoff</li>
+          <li xml:lang="sk">Aktualizovaný ruský preklad - vďaka Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="sl">Posodobljeno Ruski prevod - hvala Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="tr">Updated Russian translation - thanks Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="uk">Оновлено переклад російською – дякуємо Nick Shaforostoff @shaforostoff</li>
@@ -1748,6 +1862,7 @@
           <li xml:lang="fr">Correction des filtres ouverts de la boîte de dialogue vidéo</li>
           <li xml:lang="nl">Gerepareerd filters voor het openen van videodialoogvensters</li>
           <li xml:lang="pt-BR">Correção dos filtros de diálogo de vídeo aberto</li>
+          <li xml:lang="sk">Opravené filtre dialógového okna na otvorenie videa</li>
           <li xml:lang="sl">Popravljeni filtri za odpiranje video pogovornih oken</li>
           <li xml:lang="tr">Fixed open video dialog filters</li>
           <li xml:lang="uk">Виправлено фільтри у вікні відкриття відео</li>
@@ -1758,6 +1873,7 @@
           <li xml:lang="fr">Correction de « Insertion de ligne » sur la forme d’onde qui s'ajoutait à l’indice incorrect - Merci à @qsniyg</li>
           <li xml:lang="nl">Het probleem met "Regel invoegen" op de golfvorm, dat op de verkeerde index werd toegevoegd, is opgelost - dank aan @qsniyg</li>
           <li xml:lang="pt-BR">Corrigido o problema com a opção "Inserir linha" na forma de onda, que estava sendo adicionada no índice errado - obrigado @qsniyg</li>
+          <li xml:lang="sk">Opravené "Vložiť riadok" na vlnovom priebehu pridávajúce na nesprávny index - vďaka @qsniyg</li>
           <li xml:lang="sl">Popravljena napaka »Vstavi vrstico« pri dodajanju valovne oblike na napačen indeks - hvala @qsniyg</li>
           <li xml:lang="tr">Fixed "Insert Line" on waveform adding at the wrong index - thanks @qsniyg</li>
           <li xml:lang="uk">Виправлено додавання функцією «Вставити рядок» у неправильному місці на формі хвилі — дякуємо @qsniyg</li>
@@ -1768,6 +1884,7 @@
           <li xml:lang="fr">Ajout de la recherche « MMB » sur la forme d'onde - Merci à @qsniyg</li>
           <li xml:lang="nl">MMB-zoekfunctie toegevoegd aan de golfvorm - bedankt @qsniyg</li>
           <li xml:lang="pt-BR">Adicionada busca por MMB na forma de onda - obrigado @qsniyg</li>
+          <li xml:lang="sk">Pridané posúvanie stredným tlačidlom myši na vlnovom priebehu - vďaka @qsniyg</li>
           <li xml:lang="sl">Dodano iskanje MMB na valovni obliki - hvala @qsniyg</li>
           <li xml:lang="tr">Added MMB seeking on waveform - thanks @qsniyg</li>
           <li xml:lang="uk">Додано позиціювання за допомогою середньої кнопки миші на панелі форми хвилі — дякуємо @qsniyg</li>
@@ -1779,6 +1896,7 @@
           <li xml:lang="it">Correzione di alcuni errori di compilazione</li>
           <li xml:lang="nl">Enkele compilatieproblemen opgelost</li>
           <li xml:lang="pt-BR">Corrigidos alguns problemas de compilação</li>
+          <li xml:lang="sk">Opravené niektoré problémy s kompiláciou</li>
           <li xml:lang="sl">Popravljene nekatere težave s prevajanjem</li>
           <li xml:lang="tr">Fixed some compilation issues</li>
           <li xml:lang="uk">Виправлено певні проблеми зі збиранням</li>
@@ -1791,6 +1909,7 @@
           <li xml:lang="it">Aggiornamento delle traduzioni - grazie a @gogogogi, @muzena</li>
           <li xml:lang="nl">Bijgewerkte vertalingen - dank aan @gogogogi en @muzena</li>
           <li xml:lang="pt-BR">Traduções atualizadas - obrigado @gogogogi, @muzena</li>
+          <li xml:lang="sk">Aktualizované preklady - vďaka @gogogogi, @muzena</li>
           <li xml:lang="sl">Posodobljeni prevodi - hvala @gogogogi, @muzena</li>
           <li xml:lang="tr">Updated translations - thanks @gogogogi, @muzena</li>
           <li xml:lang="uk">Оновлено переклади — дякуємо @gogogogi, @muzena</li>
@@ -1801,6 +1920,7 @@
           <li xml:lang="fr">Correction de Vobsub lors de l'ouverture à partir d'un fichier vidéo et d'un nom de fichier du cache de symboles</li>
           <li xml:lang="nl">Vobsub is gecorrigeerd bij het openen vanuit een videobestand en de bestandsnaam van de symboolcache</li>
           <li xml:lang="pt-BR">Correção do problema com o VOBSub ao abrir arquivos de vídeo e nomes de arquivos de cache de símbolos</li>
+          <li xml:lang="sk">Opravený vobsub pri otváraní z video súboru a názov súboru vyrovnávacej pamäte symbolov</li>
           <li xml:lang="sl">Odpravljen vobsub pri odpiranju iz video datoteke in imena datoteke predpomnilnika simbolov</li>
           <li xml:lang="tr">Fixed vobsub when opening from video file and symbol cache filename</li>
           <li xml:lang="uk">Виправлено vobsub при відкритті з відеофайла і назву файла кешу символів</li>
@@ -1812,6 +1932,7 @@
           <li xml:lang="it">Correzione dei tempi di caricamento dei sottotitoli di file grandi</li>
           <li xml:lang="nl">De laadtijden van ondertitels bij grote bestanden zijn verbeterd</li>
           <li xml:lang="pt-BR">Tempos de carregamento de legendas corrigidos para arquivos grandes</li>
+          <li xml:lang="sk">Opravené časy načítavania titulkov veľkých súborov</li>
           <li xml:lang="sl">Popravljeni časi nalaganja velikih datotek podnapisov</li>
           <li xml:lang="tr">Fixed subtitle loading times of huge files</li>
           <li xml:lang="uk">Виправлено часові позиції завантаження субтитрів для величезних файлів</li>
@@ -1823,6 +1944,7 @@
           <li xml:lang="fr">Amélioration de la détection de texte « vobsub »</li>
           <li xml:lang="nl">Verbeterde vobsub-tekstdetectie</li>
           <li xml:lang="pt-BR">Detecção de texto vobsub aprimorada</li>
+          <li xml:lang="sk">Vylepšená detekcia textu vobsub</li>
           <li xml:lang="sl">Izboljšano zaznavanje besedila vobsub</li>
           <li xml:lang="tr">Improved vobsub text detection</li>
           <li xml:lang="uk">Удосконалено виявлення текстів vobsub</li>
@@ -1833,6 +1955,7 @@
           <li xml:lang="fr">Correction de l'analyse du texte enrichi « ASS » lors de l'importation d'un flux de sous-titres</li>
           <li xml:lang="nl">Correctie van de ASS ontleding van tekst bij het importeren van ondertitelstreams.</li>
           <li xml:lang="pt-BR">Correção na análise de texto formatado ASS na ação de importação de fluxo de legendas</li>
+          <li xml:lang="sk">Opravené spracovanie formátovaného textu ASS pri akcii importu prúdu titulkov</li>
           <li xml:lang="sl">Popravljeno razčlenjevanje obogatenega besedila ASS pri dejanju uvoza toka podnapisov</li>
           <li xml:lang="tr">Fixed ASS rich text parsing on import subtitle stream action</li>
           <li xml:lang="uk">Виправлено обробку форматованого тексту у ASS при імпортуванні потоку субтитрів</li>
@@ -1843,6 +1966,7 @@
           <li xml:lang="fr">Remplacement du code d'importation pour Vobsub défectueux de mplayer par celui de FFmpeg</li>
           <li xml:lang="nl">De foutieve mplayer vobsub-importcode is vervangen door ffmpeg</li>
           <li xml:lang="pt-BR">Substituído o código de importação vobsub com bugs do mplayer pelo do ffmpeg</li>
+          <li xml:lang="sk">Nahradený chybový kód importu mplayer vobsub za ffmpeg</li>
           <li xml:lang="sl">Zamenjana napaka pri uvozu kode mplayer vobsub z ffmpeg</li>
           <li xml:lang="tr">Replaced buggy mplayer vobsub import code with ffmpeg</li>
           <li xml:lang="uk">Помилковий код імпортування vobsub з mplayer замінено на ffmpeg</li>
@@ -1853,6 +1977,7 @@
           <li xml:lang="fr">Correction des fuites de mémoire/ utilisation de l'animation de défilement du composant graphique de forme d'onde</li>
           <li xml:lang="nl">Geheugenlekken/gebruik van de schuifanimatie van WaveformWidget zijn verholpen</li>
           <li xml:lang="pt-BR">Corrigidos vazamentos de memória/uso da animação de rolagem do WaveformWidget</li>
+          <li xml:lang="sk">Opravené úniky pamäte/využitie animácie rolovania WaveformWidget</li>
           <li xml:lang="sl">Popravljeno puščanje pomnilnika/uporaba animacije pomikanja WaveformWidget</li>
           <li xml:lang="tr">Fixed memory leaks/usage of WaveformWidget's scroll animation</li>
           <li xml:lang="uk">Виправлено витоки і використання пам'яті при анімації гортання у WaveformWidget</li>
@@ -1863,6 +1988,7 @@
           <li xml:lang="fr">Flux optimisé d'importation de sous-titres importé depuis l'action vidéo</li>
           <li xml:lang="nl">Geoptimaliseerde import van ondertitelstream vanuit videoactie</li>
           <li xml:lang="pt-BR">Importação otimizada do fluxo de legendas a partir da ação de vídeo</li>
+          <li xml:lang="sk">Optimalizovaná akcia importu prúdu titulkov z videa</li>
           <li xml:lang="sl">Optimizirano dejanje uvoza toka podnapisov iz videa</li>
           <li xml:lang="tr">Optimized import subtitle stream from video action</li>
           <li xml:lang="uk">Оптимізовано імпортування потоку субтитрів з дії з відео</li>
@@ -1873,6 +1999,7 @@
           <li xml:lang="fr">Remplacement de GStreamer par les bibliothèques FFmpeg dans l'utilisation du cœur de l'application</li>
           <li xml:lang="nl">De gstreamer-bibliotheek is in de kern van de toepassing vervangen door de ffmpeg-bibliotheek</li>
           <li xml:lang="pt-BR">Substituídas as bibliotecas gstreamer pelas bibliotecas ffmpeg no uso principal do aplicativo</li>
+          <li xml:lang="sk">Nahradený gstreamer knižnicami ffmpeg v jadre aplikácie</li>
           <li xml:lang="sl">Zamenjan gstreamer s knjižnicami ffmpeg v uporabi jedra aplikacije</li>
           <li xml:lang="tr">Replaced gstreamer with ffmpeg libraries in application core usage</li>
           <li xml:lang="uk">Замінено gstreamer на бібліотеки ffmpeg у використанні ядра програми</li>
@@ -1883,6 +2010,7 @@
           <li xml:lang="fr">Ajout du bouton d'annulation à la reconnaissance vocale</li>
           <li xml:lang="nl">Afbreekknop toegevoegd aan spraakherkenning</li>
           <li xml:lang="pt-BR">Adicionado botão de cancelar o reconhecimento de voz</li>
+          <li xml:lang="sk">Pridané tlačidlo prerušenia do rozpoznávania reči</li>
           <li xml:lang="sl">Dodan gumb za prekinitev prepoznavanja govora</li>
           <li xml:lang="tr">Added abort button to speech recognition</li>
           <li xml:lang="uk">Додано кнопку переривання при розпізнавання мовлення</li>
@@ -1893,6 +2021,7 @@
           <li xml:lang="fr">Défilement fluide de la forme d'onde</li>
           <li xml:lang="nl">Vloeiend schuiven van golfvorm</li>
           <li xml:lang="pt-BR">Rolagem suave na forma de onda</li>
+          <li xml:lang="sk">Plynulé rolovanie vlnového priebehu</li>
           <li xml:lang="sl">Gladko drsenje po valovnih oblikah</li>
           <li xml:lang="tr">Waveform smooth scrolling</li>
           <li xml:lang="uk">Плавне гортання форми сигналу</li>
@@ -1903,6 +2032,7 @@
           <li xml:lang="fr">Ajout des actions de fusion / division de lignes au menu contextuel de forme d'onde</li>
           <li xml:lang="nl">Acties voor het samenvoegen/splitsen van regels toegevoegd aan het contextmenu van de golfvorm</li>
           <li xml:lang="pt-BR">Adicionadas ações de unir/dividir linhas ao menu de contexto da forma de onda</li>
+          <li xml:lang="sk">Pridané akcie spojiť/rozdeliť riadky do kontextového menu vlnového priebehu</li>
           <li xml:lang="sl">Dodana dejanja združevanja/razdeljevanja črt v kontekstni meni valovnih oblik</li>
           <li xml:lang="tr">Added join/split lines actions to waveform context menu</li>
           <li xml:lang="uk">Додано дії з об'єднання та поділу рядків до контекстного меню панелі форми хвилі</li>
@@ -1913,6 +2043,7 @@
           <li xml:lang="fr">Correction de quelques plantages, fuites de mémoire et nettoyage général du code</li>
           <li xml:lang="nl">Diverse crashes, geheugenlekken en algemene opschoning van code zijn gedaan</li>
           <li xml:lang="pt-BR">Corrigidas algumas falhas, vazamentos de memória, além de uma limpeza geral do código</li>
+          <li xml:lang="sk">Opravené niektoré pády, úniky pamäte a celkové vyčistenie kódu</li>
           <li xml:lang="sl">Popravljena nekatera sesutja, puščanja pomnilnika in splošno čiščenje kode</li>
           <li xml:lang="tr">Fixed some crashes, memory leaks and overall code cleanups</li>
           <li xml:lang="uk">Виправлено деякі аварійні завершення роботи, витоки пам'яті та загальне чищення коду</li>
@@ -1923,6 +2054,7 @@
           <li xml:lang="fr">Nettoyage du composant graphique de configuration et de texte</li>
           <li xml:lang="nl">Het instellingenwidget en teksten zijn opgeschoond</li>
           <li xml:lang="pt-BR">Widget de configurações e textos foram revisados</li>
+          <li xml:lang="sk">Vyčistená miniaplikácia nastavení a texty</li>
           <li xml:lang="sl">Očiščen gradnik z nastavitvami in besedila</li>
           <li xml:lang="tr">Cleaned up settings widget and texts</li>
           <li xml:lang="uk">Почищено віджет параметрів та тексти</li>
@@ -1940,6 +2072,7 @@
           <li xml:lang="fr">AJOUT : ajout de la prise en charge pour les formats de sous-titres binaires</li>
           <li xml:lang="nl">TOEGEVOEGD: Ondersteuning voor binaire ondertitelformaten toegevoegd</li>
           <li xml:lang="pt-BR">ADICIONADO: Adicionado suporte para formatos de legenda binários</li>
+          <li xml:lang="sk">PRIDANÉ: Pridaná podpora binárnych formátov titulkov</li>
           <li xml:lang="sl">DODATI: Dodana podpora za binarne oblike podnapisov</li>
           <li xml:lang="tr">ADD: Added support for binary subtitle formats</li>
           <li xml:lang="uk">Додано підтримку двійкових форматів субтитрів</li>
@@ -1951,6 +2084,7 @@
           <li xml:lang="fr">AJOUT : contrôle précis de la vitesse de lecture vidéo</li>
           <li xml:lang="nl">TOEVOEGEN: nauwkeurige regeling van de afspeelsnelheid van video's</li>
           <li xml:lang="pt-BR">ADICIONADO: controle preciso da velocidade de reprodução de vídeo</li>
+          <li xml:lang="sk">PRIDANÉ: jemné ovládanie rýchlosti prehrávania videa</li>
           <li xml:lang="sl">DODATI: natančen nadzor hitrosti predvajanja videa</li>
           <li xml:lang="tr">ADD: fine control video playback speed</li>
           <li xml:lang="uk">Додано точніший механізм коригування швидкості відтворення</li>
@@ -1962,6 +2096,7 @@
           <li xml:lang="fr">AJOUT : contrôles pour la vitesse de lecture vidéo</li>
           <li xml:lang="nl">TOEVOEGEN: bedieningselementen voor de afspeelsnelheid van video's</li>
           <li xml:lang="pt-BR">ADICIONADO: controles para velocidade de reprodução de vídeo</li>
+          <li xml:lang="sk">PRIDANÉ: ovládacie prvky rýchlosti prehrávania videa</li>
           <li xml:lang="sl">DODATI: nadzor hitrosti predvajanja videa</li>
           <li xml:lang="tr">ADD: controls for video playback speed</li>
           <li xml:lang="uk">Додано засоби керування швидкістю відтворення відео</li>
@@ -1973,6 +2108,7 @@
           <li xml:lang="fr">MODIFICATION : améliorations de l'audio avec le moteur GStreamer.</li>
           <li xml:lang="nl">GEWIJZIGD: audioverbeteringen aan de gstreamer-backend.</li>
           <li xml:lang="pt-BR">MODIFICADO: Melhorias no backend de áudio do GStreamer</li>
+          <li xml:lang="sk">ZMENA: Vylepšenia zvuku backendu GStreamer.</li>
           <li xml:lang="sl">SPREMENITI: Izboljšave zvoka v ozadju GStreamerja.</li>
           <li xml:lang="tr">MOD: GStreamer backend audio improvements.</li>
           <li xml:lang="uk">Удосконалено модуль обробки звукових даних GStreamer.</li>
@@ -1984,6 +2120,7 @@
           <li xml:lang="fr">MODIFICATION : déplacement des actions de lecture vidéo dans le menu « Fichier »</li>
           <li xml:lang="nl">GEWIJZIGD: acties voor het openen van video's verplaatst naar het menu Bestand</li>
           <li xml:lang="pt-BR">MODIFICADO: As ações de abrir vídeo foram movidas para o menu Arquivo</li>
+          <li xml:lang="sk">ZMENA: Presunuté akcie otvorenia videa pod menu Súbor</li>
           <li xml:lang="sl">SPREMENITI: Dejanja odpiranja videoposnetkov premaknjena v meni Datoteka</li>
           <li xml:lang="tr">MOD: Moved open video actions under File menu</li>
           <li xml:lang="uk">Дії з відкриття відео пересунуто до меню «Файл»</li>
@@ -1995,6 +2132,7 @@
           <li xml:lang="fr">MODIFICATION : analyse plus tolérante des sous-titres de SubRip</li>
           <li xml:lang="nl">GEWIJZIGD: tolerantere verwerking van SubRip-ondertitels</li>
           <li xml:lang="pt-BR">MODIFICADO: Análise mais tolerante de legendas SubRip</li>
+          <li xml:lang="sk">ZMENA: Tolerantnejšie spracovanie titulkov SubRip</li>
           <li xml:lang="sl">SPREMENITI: Bolj strpno razčlenjevanje podnapisov SubRip</li>
           <li xml:lang="tr">MOD: More tolerant parsing of SubRip subtitles</li>
           <li xml:lang="uk">Точніша обробка субтитрів SubRip</li>
@@ -2006,6 +2144,7 @@
           <li xml:lang="fr">MOD : amélioration de la commande de division de lignes</li>
           <li xml:lang="nl">GEWIJZIGD: verbeterde opdracht voor het splitsen van regels</li>
           <li xml:lang="pt-BR">MODIFICADO: Comando de linhas divididas aprimorado</li>
+          <li xml:lang="sk">ZMENA: Vylepšený príkaz rozdelenia riadkov</li>
           <li xml:lang="sl">SPREMENITI: Izboljšan ukaz za razdelitev vrstic</li>
           <li xml:lang="tr">MOD: Improved split lines command</li>
           <li xml:lang="uk">Удосконалено команду поділу на рядки</li>
@@ -2017,6 +2156,7 @@
           <li xml:lang="fr">MODIFICATION : mise à jour de la traduction en Tchèque - Merci à @goliashcz</li>
           <li xml:lang="nl">GEWIJZIGD: Tsjechische vertaling bijgewerkt - dank aan @goliashcz</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para tcheco atualizada - obrigado @goliashcz</li>
+          <li xml:lang="sk">ZMENA: Aktualizovaný český preklad - vďaka @goliashcz</li>
           <li xml:lang="sl">SPREMENITI: Posodobljen češki prevod - hvala @goliashcz</li>
           <li xml:lang="tr">MOD: Updated Czech translation - thanks @goliashcz</li>
           <li xml:lang="uk">Оновлено переклад чеською – дякуємо @goliashcz</li>
@@ -2028,6 +2168,7 @@
           <li xml:lang="fr">MODIFICATION : mise à jour de la traduction en Croates - Merci à @muzena</li>
           <li xml:lang="nl">GEWIJZIGD: Kroatische vertalingen bijgewerkt - dank aan @muzena</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para croata atualizada - obrigado @muzena</li>
+          <li xml:lang="sk">ZMENA: Aktualizované chorvátske preklady - vďaka @muzena</li>
           <li xml:lang="sl">SPREMENITI: Posodobljeni hrvaški prevodi - hvala @muzena</li>
           <li xml:lang="tr">MOD: Updated Croatian translations - thanks @muzena</li>
           <li xml:lang="uk">Оновлено переклад хорватською – дякуємо @muzena</li>
@@ -2038,6 +2179,7 @@
           <li xml:lang="fr">CORRECTIF : améliorations du glisser et de la vitesse du composant graphique de forme d’onde, correction du débordement de tampon mémoire</li>
           <li xml:lang="nl">OPGELOST: verbeteringen in het slepen en de snelheid van het Waveform-widget, bufferoverloop verholpen</li>
           <li xml:lang="pt-BR">CORREÇÃO: Melhorias no arrastar e a velocidade do widget de forma de onda, correção de estouro de buffer</li>
+          <li xml:lang="sk">OPRAVA: Vylepšenia ťahania a rýchlosti miniaplikácie vlnového priebehu, opravené pretečenie vyrovnávacej pamäte</li>
           <li xml:lang="sl">POPRAVEK: Izboljšave vlečenja in hitrosti gradnika Waveform, odpravljeno prelivanje medpomnilnika</li>
           <li xml:lang="tr">FIX: Waveform widget dragging and speed improvements, fixed buffer overflow</li>
           <li xml:lang="uk">Удосконалення у перетягуванні та швидкості віджета форми хвилі, виправлено переповнення буфера</li>
@@ -2048,6 +2190,7 @@
           <li xml:lang="fr">CORRECTION : composant graphique de forme d'onde : le zoom arrière ne fonctionnait pas sur les vidéos sans audio</li>
           <li xml:lang="nl">OPGELOST: WaveformWidget: uitzoomen werkte niet bij films zonder geluid</li>
           <li xml:lang="pt-BR">CORREÇÃO: WaveformWidget: o zoom out não estava funcionando em vídeos sem áudio</li>
+          <li xml:lang="sk">OPRAVA: WaveformWidget: oddialenie nefungovalo pri filmoch bez zvuku</li>
           <li xml:lang="sl">POPRAVEK: WaveformWidget: pomanjšanje ni delovalo pri filmih brez zvoka</li>
           <li xml:lang="tr">FIX: WaveformWidget: zoom out wasn't working on movies without audio</li>
           <li xml:lang="uk">WaveformWidget: виправлено працездатність зменшення у відео без звукових даних</li>
@@ -2058,6 +2201,7 @@
           <li xml:lang="fr">CORRECTIF : correction des cas où l’heure de disparition des sous-titres se retrouvait avant l’heure d’affichage</li>
           <li xml:lang="nl">OPGELOST: er is een probleem opgelost waarbij het verbergen van de ondertitels vóór het weergeven ervan plaatsvond</li>
           <li xml:lang="pt-BR">CORREÇÃO: Corrigidos os casos em que o tempo de ocultação das legendas terminava antes do início da exibição</li>
+          <li xml:lang="sk">OPRAVA: Opravené prípady, kde čas skrytia titulkov skončil pred časom zobrazenia</li>
           <li xml:lang="sl">POPRAVEK: Odpravljeni primeri, ko se je čas skrivanja podnapisov končal pred časom prikaza</li>
           <li xml:lang="tr">FIX: Fixed cases where subtitle hide time would end up before show time</li>
           <li xml:lang="uk">Виправлено випадки, коли час приховування субтитрів завершувався до часу їхнього показу</li>
@@ -2069,6 +2213,7 @@
           <li xml:lang="fr">CORRECTION : amélioration des menus contextuels</li>
           <li xml:lang="nl">OPGELOST: verbeterde contextmenu's</li>
           <li xml:lang="pt-BR">CORREÇÃO: Menus de contexto aprimorados</li>
+          <li xml:lang="sk">OPRAVA: Vylepšené kontextové menu</li>
           <li xml:lang="sl">POPRAVEK: Izboljšani kontekstni meniji</li>
           <li xml:lang="tr">FIX: Improved context menus</li>
           <li xml:lang="uk">Удосконалено контекстні меню</li>
@@ -2079,6 +2224,7 @@
           <li xml:lang="fr">CORRECTIF : correction du déplacement des lignes ancrées</li>
           <li xml:lang="nl">OPGELOST: het verschuiven van verankerde regels is verholpen</li>
           <li xml:lang="pt-BR">CORREÇÃO: Correção do deslocamento das linhas ancoradas</li>
+          <li xml:lang="sk">OPRAVA: Opravené presúvanie ukotvených riadkov</li>
           <li xml:lang="sl">POPRAVEK: Odpravljeno premikanje zasidranih vrstic</li>
           <li xml:lang="tr">FIX: Fixed moving of anchored lines</li>
           <li xml:lang="uk">Виправлено пересування прив'язаних рядків</li>
@@ -2089,6 +2235,7 @@
           <li xml:lang="fr">CORRECTIF : l'ouverture des sous-titres ne se chargeaient pas automatiquement dans certaines vidéos</li>
           <li xml:lang="nl">OPGELOST: in sommige gevallen werd de video niet automatisch geladen bij het openen van de ondertiteling</li>
           <li xml:lang="pt-BR">CORREÇÃO: A opção "Abrir legenda" não carregava o vídeo automaticamente em alguns casos</li>
+          <li xml:lang="sk">OPRAVA: Otvorenie titulkov v niektorých prípadoch nenačítalo video automaticky</li>
           <li xml:lang="sl">POPRAVEK: Odprti podnapisi se v nekaterih primerih niso samodejno naložili videoposnetka</li>
           <li xml:lang="tr">FIX: Open subtitle wouldn't autoload video in some cases</li>
           <li xml:lang="uk">Виправлено помилку, пов'язану із тим, що відкриття субтитрів не призводило до автоматичного завантаження відео</li>
@@ -2099,6 +2246,7 @@
           <li xml:lang="fr">CORRECTIF : l'ouverture de vidéos inclut désormais les extensions « .divx » et « .webm »</li>
           <li xml:lang="nl">OPGELOST: openen van video ondersteunt nu de extensies .divx en .webm</li>
           <li xml:lang="pt-BR">CORREÇÃO: A função Abrir vídeo agora inclui as extensões .divx e .webm</li>
+          <li xml:lang="sk">OPRAVA: Otvorenie videa teraz zahŕňa prípony .divx a .webm</li>
           <li xml:lang="sl">POPRAVEK: Odprti video zdaj vključuje razširitve .divx in .webm</li>
           <li xml:lang="tr">FIX: Open video now includes .divx and .webm extensions</li>
           <li xml:lang="uk">У новій версії відкриття відео включає розширення .divx і .webm</li>
@@ -2109,6 +2257,7 @@
           <li xml:lang="fr">CORRECTIF : les scripts du menu Outils sont filtrés en fonction des interprètes installés pour Kross</li>
           <li xml:lang="nl">REPARATIE: scripts voor hulpmiddelenmenu gefilterd gebaseerd op geïnstalleerde kross interpretators</li>
           <li xml:lang="pt-BR">CORREÇÃO: Os scripts do menu Ferramentas são filtrados com base nos interpretadores kross instalados</li>
+          <li xml:lang="sk">OPRAVA: Skripty v menu nástrojov sú filtrované na základe nainštalovaných interpretov Kross</li>
           <li xml:lang="sl">POPRAVEK: Skripti menija Orodja so filtrirani glede na nameščene interpreterje Kross</li>
           <li xml:lang="tr">FIX: Tools menu scripts are filtered based on installed kross interpreters</li>
           <li xml:lang="uk">Скрипти у меню інструментів відфільтровано на основі встановлених обробників kross</li>
@@ -2119,6 +2268,7 @@
           <li xml:lang="fr">CORRECTION : déplacement des icônes personnalisées vers un emplacement plus standard, en utilisant QIcon::fromTheme()</li>
           <li xml:lang="nl">REPARATIE: aangepaste pictogrammen verplaats naar meer standaard locatie, met gebruik van QIcon::fromTheme()</li>
           <li xml:lang="pt-BR">CORREÇÃO: Ícones personalizados foram movidos para um local mais padrão, usando QIcon::fromTheme()</li>
+          <li xml:lang="sk">OPRAVA: Presunuté vlastné ikony na štandardnejšie umiestnenie, použitie QIcon::fromTheme()</li>
           <li xml:lang="sl">POPRAVEK: Ikone po meri premaknjene na bolj standardno lokacijo z uporabo QIcon::fromTheme()</li>
           <li xml:lang="tr">FIX: Moved custom icons to more standard location, using QIcon::fromTheme()</li>
           <li xml:lang="uk">Нетипові піктограми пересунуто до більш стандартного місця, за допомогою QIcon::fromTheme()</li>
@@ -2129,6 +2279,7 @@
           <li xml:lang="fr">CORRECTION : les champs « Vérification d'erreur / Durée absolue » changeaient avec des valeurs incorrectes</li>
           <li xml:lang="nl">REPARATIE: foutcontrole &gt; absolute tijdsduur in configuratievelden zijn gewijzigd  in onjuiste waarden</li>
           <li xml:lang="pt-BR">CORREÇÃO: Verificação de erro &gt; os campos de configuração de duração absoluta estavam sendo alterados para valores incorretos</li>
+          <li xml:lang="sk">OPRAVA: Konfiguračné polia Kontrola chýb &gt; Absolútne trvanie menili nesprávne hodnoty</li>
           <li xml:lang="sl">POPRAVEK: Preverjanje napak &gt; Konfiguracijska polja Absolutno trajanje so spreminjala napačne vrednosti</li>
           <li xml:lang="tr">FIX: Error Check &gt; Absolute Duration config fields were changing incorrect values</li>
           <li xml:lang="uk">Виправлено значення у полях перевірки помилок та абсолютної тривалості</li>
@@ -2139,6 +2290,7 @@
           <li xml:lang="fr">CORRECTION : moteur MPV : correction des options obsolètes, mise à jour des périphériques vo - Merci à @luzfcb</li>
           <li xml:lang="nl">REPARATIE: MPV-backend: gerepareerd afgekeurde opties, bijgewerkt op apparaten - dank aan @luzfcb</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: opções obsoletas corrigidas, dispositivos VO atualizados - obrigado @luzfcb</li>
+          <li xml:lang="sk">OPRAVA: Backend MPV: opravené zastaralé možnosti, aktualizované vo zariadenia - vďaka @luzfcb</li>
           <li xml:lang="sl">POPRAVEK: MPV Backend: popravljene zastarele možnosti, posodobljene naprave za predvajanje zvoka - hvala @luzfcb</li>
           <li xml:lang="tr">FIX: MPV Backend: fixed deprecated options, updated vo devices - thanks @luzfcb</li>
           <li xml:lang="uk">Модуль обробки MPV: виправлено застарілі параметри, оновлено пристрої виведення відео – дякуємо @luzfcb</li>
@@ -2149,6 +2301,7 @@
           <li xml:lang="fr">CORRECTIF : meilleur rendu sur les écrans à haute résolution</li>
           <li xml:lang="nl">REPARATIE: betere rendering op hoge DPI-schermen</li>
           <li xml:lang="pt-BR">CORREÇÃO: melhor renderização em telas de alta DPI</li>
+          <li xml:lang="sk">OPRAVA: lepšie vykresľovanie na obrazovkách s vysokým DPI</li>
           <li xml:lang="sl">POPRAVEK: boljše upodabljanje na zaslonih z visoko ločljivostjo</li>
           <li xml:lang="tr">FIX: better rendering on high DPI screens</li>
           <li xml:lang="uk">Краща обробка на екранах із високою роздільністю</li>
@@ -2159,6 +2312,7 @@
           <li xml:lang="fr">CORRECTIF : moteur MPV : la fréquence d'images / la durée de la vidéo n'était plus transmise au compositeur de sous-titres</li>
           <li xml:lang="nl">REPARATIE: MPV-backend: framesnelheid/videolengte was niet meer gerapporteerd aan samensteller van ondertitel</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: a taxa de quadros/duração do vídeo não estava mais sendo informada ao compositor de legendas</li>
+          <li xml:lang="sk">OPRAVA: Backend MPV: snímková frekvencia/dĺžka videa sa už nehlásila do Subtitle Composer</li>
           <li xml:lang="sl">POPRAVEK: MPV Backend: hitrost sličic/dolžina videa ni bila več sporočena ustvarjalcu podnapisov</li>
           <li xml:lang="tr">FIX: MPV Backend: framerate/video length wasn't reported to subtitle composer anymore</li>
           <li xml:lang="uk">Модуль обробки MPV: виправлено надання даних щодо тривалості відео та частоти кадрів у редакторі субтитрів</li>
@@ -2169,6 +2323,7 @@
           <li xml:lang="fr">CORRECTIF : détection / gestion de la ligne en cours de lecture</li>
           <li xml:lang="nl">REPARATIE: detectie/behandeling van nu spelende regel</li>
           <li xml:lang="pt-BR">CORREÇÃO: detecção/gerenciamento da linha de reprodução atual</li>
+          <li xml:lang="sk">OPRAVA: detekcia/spracovanie aktuálne prehrávaného riadku</li>
           <li xml:lang="sl">POPRAVEK: zaznavanje/obdelava trenutne predvajane vrstice</li>
           <li xml:lang="tr">FIX: detection/handling of current playing line</li>
           <li xml:lang="uk">Виправлено виявлення і обробка поточного рядка відтворення</li>
@@ -2179,6 +2334,7 @@
           <li xml:lang="fr">CORRECTION : analyse du texte contenant des étiquettes &lt;font&gt; sans attribut de couleur</li>
           <li xml:lang="nl">REPARATIE: ontleden van tekst die &lt;lettertype&gt; zonder kleur attribuut bevat</li>
           <li xml:lang="pt-BR">CORREÇÃO: Análise de texto contendo &lt;fonte&gt; sem atributo de cor</li>
+          <li xml:lang="sk">OPRAVA: Spracovanie textu obsahujúceho &lt;font&gt; bez atribútu farby</li>
           <li xml:lang="sl">POPRAVEK: Razčlenjevanje besedila, ki vsebuje &lt;font&gt; brez atributa barve</li>
           <li xml:lang="tr">FIX: Parsing text containing &lt;font&gt; without color attribute</li>
           <li xml:lang="uk">Виправлено обробку тексту, що містить &lt;font&gt; без атрибута кольору</li>
@@ -2190,6 +2346,7 @@
           <li xml:lang="it">Correzione: compilazione senze xine - grazie a @pinotree</li>
           <li xml:lang="nl">REPARATIE: compilatie zonder xine - dank aan @pinotree</li>
           <li xml:lang="pt-BR">CORREÇÃO: compilação sem xine - obrigado @pinotree</li>
+          <li xml:lang="sk">OPRAVA: kompilácia bez xine - vďaka @pinotree</li>
           <li xml:lang="sl">POPRAVEK: prevajanje brez xine - hvala @pinotree</li>
           <li xml:lang="tr">FIX: compilation without xine - thanks @pinotree</li>
           <li xml:lang="uk">Виправлено збирання без xine – дякуємо @pinotree</li>
@@ -2201,6 +2358,7 @@
           <li xml:lang="it">Correzione: parsing di file ASS - grazie a @Martchus</li>
           <li xml:lang="nl">REPARATIE: ASS ontleding - dank aan @Martchus</li>
           <li xml:lang="pt-BR">CORREÇÃO: análise de ASS - obrigado @Martchus</li>
+          <li xml:lang="sk">OPRAVA: spracovanie ASS - vďaka @Martchus</li>
           <li xml:lang="sl">POPRAVEK: Razčlenjevanje ASS - hvala @Martchus</li>
           <li xml:lang="tr">FIX: ASS parsing - thanks @Martchus</li>
           <li xml:lang="uk">Виправлено обробку ASS – дякуємо @Martchus</li>
