@@ -951,7 +951,7 @@ msgid ""
 "(Un)Anchor current line's show time to timeline (Editing anchored line's "
 "show time will stretch/compact the timeline between adjacent anchors)"
 msgstr ""
-"Ukotviť/odukotviť čas zobrazenia aktuálneho riadku na časovú os (Úprava času "
+"Ukotviť/odkotviť čas zobrazenia aktuálneho riadku na časovú os (Úprava času "
 "zobrazenia ukotveného riadku roztiahne/zhustí časovú os medzi susednými "
 "kotvami)"
 
@@ -963,8 +963,7 @@ msgstr "Odstrániť všetky kotvy"
 #: src/application_actions.cpp:761
 #, kde-format
 msgid "Unanchor show time from the timeline on all anchored lines"
-msgstr ""
-"Odukotviť čas zobrazenia od časovej osi na všetkých ukotvených riadkoch"
+msgstr "Odkotviť čas zobrazenia od časovej osi na všetkých ukotvených riadkoch"
 
 #: src/application_actions.cpp:769
 #, kde-format
@@ -3094,7 +3093,7 @@ msgstr "Správca"
 #: src/main.cpp:162
 #, kde-format
 msgid "Former Maintainer"
-msgstr "Pôdodný správca"
+msgstr "Pôvodný správca"
 
 #: src/main.cpp:163
 #, kde-format
