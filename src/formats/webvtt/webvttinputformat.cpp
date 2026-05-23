@@ -109,11 +109,22 @@ parseCueSettings(SubtitleLine *line, QStringView_ css)
 
 	// size:<n>%
 	QStringView_ csSize = settings.value("size");
-	if(csSize.back() == QChar('%'))
-		csSize.chop(1);
-	else
-		qWarning() << "size css is missing '%'";
-	const float posSize = csSize.isEmpty() ? 100 : csSize.toFloat();
+	float posSize = 100;
+	if(!csSize.isEmpty()) {
+		if(csSize.back() == QChar('%')) {
+			csSize.chop(1);
+		} else {
+			qWarning() << "size css is missing '%'";
+		}
+		bool isFloat;
+		posSize = csSize.toFloat(&isFloat);
+
+		if(!isFloat) {
+			// If parsing the value failed, consider the size to be 100%
+			posSize = 100;
+			qWarning() << "size css value is not recognized";
+		}
+	}
 
 	// position:<nFloat>%[,line-left|center|line-right]
 	const QStringView_ csPos = settings.value("position");
