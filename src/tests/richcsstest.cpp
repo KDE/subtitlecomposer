@@ -4,10 +4,7 @@
     SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#define private public // TODO: FIXME: compare selectors with final stylesheet
 #include "richcsstest.h"
-#undef private
-
 #include "helpers/common.h"
 
 #include <QDebug>

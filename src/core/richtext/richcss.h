@@ -18,6 +18,9 @@
 #include <list>
 #include <memory>
 
+// Forward declaration, needed for friend declaration
+class RichCssTest;
+
 namespace SubtitleComposer {
 
 class RichCSS : public QObject
@@ -68,6 +71,8 @@ private:
 private:
 	QString m_unformatted;
 	Stylesheet m_stylesheet;
+
+	friend class ::RichCssTest;
 };
 }
 
