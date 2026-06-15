@@ -2519,7 +2519,7 @@ msgstr "要寻找的错误"
 #, kde-format
 msgctxt "@title:group Miscellaneous settings"
 msgid "Miscellaneous"
-msgstr "杂项"
+msgstr "其他"
 
 #: src/errors/finderrorsdialog.cpp:31
 #, kde-format
