@@ -778,7 +778,7 @@ msgstr "Avança un pas de fotogrames"
 #: src/application_actions.cpp:606
 #, kde-format
 msgid "Seek to Previous Line"
-msgstr "Busca a la línia anterior"
+msgstr "Busca en la línia anterior"
 
 #: src/application_actions.cpp:607
 #, kde-format
@@ -820,7 +820,7 @@ msgstr ""
 #: src/application_actions.cpp:638
 #, kde-format
 msgid "Seek to Current Line"
-msgstr "Busca a la línia actual"
+msgstr "Busca en la línia actual"
 
 #: src/application_actions.cpp:639
 #, kde-format
@@ -830,7 +830,7 @@ msgstr "Busca el temps de presentació de la línia de subtítol seleccionat"
 #: src/application_actions.cpp:646
 #, kde-format
 msgid "Seek to Next Line"
-msgstr "Busca a la línia següent"
+msgstr "Busca en la línia següent"
 
 #: src/application_actions.cpp:647
 #, kde-format
@@ -2602,7 +2602,7 @@ msgstr "Neteja les marques d'usuari"
 #: src/errors/finderrorsdialog.cpp:42
 #, kde-format
 msgid "Search in"
-msgstr "Busca a"
+msgstr "Busca en"
 
 #: src/errors/finderrorsdialog.cpp:86
 #, kde-format
@@ -4225,7 +4225,7 @@ msgstr "Traduïx els texts"
 #: src/utils/finder.cpp:44
 #, kde-format
 msgid "Find In"
-msgstr "Busca a"
+msgstr "Busca en"
 
 #: src/utils/finder.cpp:245
 #, kde-format
