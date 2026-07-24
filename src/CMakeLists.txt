@@ -168,6 +168,7 @@ install(FILES subtitlecomposerrc DESTINATION ${KDE_INSTALL_CONFDIR})
 install(FILES org.kde.subtitlecomposer.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.subtitlecomposer.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 install(FILES subtitlecomposer.xml DESTINATION ${KDE_INSTALL_MIMEDIR})
+install(FILES scconfig.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR} RENAME subtitlecomposer.kcfg)
 
 # build plugins
 add_subdirectory(speechplugins/pocketsphinx)
