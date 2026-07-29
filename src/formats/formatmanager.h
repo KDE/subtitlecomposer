@@ -37,7 +37,7 @@ public:
 	const InputFormat * input(const QString &name) const;
 	QStringList inputNames() const;
 
-	Status readSubtitle(Subtitle &subtitle, bool primary, const QUrl &url,
+	Status readSubtitle(Subtitle &subtitle, bool primary, QUrl url,
 						QTextCodec **codec, QString *format = nullptr) const;
 
 	bool hasOutput(const QString &name) const;
@@ -45,7 +45,7 @@ public:
 	const OutputFormat * defaultOutput() const;
 	QStringList outputNames() const;
 
-	bool writeSubtitle(const Subtitle &subtitle, bool primary, const QUrl &url,
+	bool writeSubtitle(const Subtitle &subtitle, bool primary, QUrl url,
 					   QTextCodec *codec, const QString &format, bool overwrite) const;
 
 protected:

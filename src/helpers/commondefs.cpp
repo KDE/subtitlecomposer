@@ -10,12 +10,13 @@
 #include <cstdlib>
 #include <climits>
 
-#include <QStringBuilder>
+#include <QDBusInterface>
+#include <QDBusReply>
+#include <QDebug>
 #include <QDir>
 #include <QFileInfo>
-
-#include <QDebug>
 #include <QStandardPaths>
+#include <QStringBuilder>
 
 #ifndef Q_OS_WIN
 #include <unistd.h>
@@ -242,4 +243,35 @@ System::urlIsInside(const QUrl &url, QStringList &path)
 			return true;
 	}
 	return false;
+}
+
+bool
+System::makeUrlReachable(QUrl *url)
+{
+	if(url->isLocalFile())
+		return true;
+
+	QUrl parentUrl = url->adjusted(QUrl::RemoveFilename | QUrl::StripTrailingSlash);
+	QString filename = url->fileName();
+
+	if(filename.isEmpty()) {
+		qWarning() << "URL does not contain a valid file name:" << url;
+		return false;
+	}
+
+	QDBusInterface kioFuse(
+		QStringLiteral("org.kde.KIOFuse"),
+		QStringLiteral("/org/kde/KIOFuse"),
+		QStringLiteral("org.kde.KIOFuse.VFS"),
+		QDBusConnection::sessionBus()
+	);
+
+	QDBusReply<QString> reply = kioFuse.call(QStringLiteral("mountUrl"), parentUrl.toString());
+	if(!reply.isValid()) {
+		qWarning() << "KIOFuse mount failed:" << reply.error().message();
+		return false;
+	}
+
+	*url = QUrl::fromLocalFile(QDir(reply.value()).filePath(filename));
+	return true;
 }

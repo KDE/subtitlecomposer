@@ -92,7 +92,7 @@ public slots:
 	void openSubtitle();
 	void reopenSubtitleWithCodec(QTextCodec *codec = nullptr);
 	void demuxTextStream(int textStreamIndex);
-	void openSubtitle(const QUrl &url, bool warnClashingUrls = true);
+	void openSubtitle(QUrl url, bool warnClashingUrls = true);
 	bool saveSubtitle(QTextCodec *codec = nullptr);
 	bool saveSubtitleAs(QTextCodec *codec = nullptr);
 	bool closeSubtitle();

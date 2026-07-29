@@ -14,6 +14,7 @@
 #include "application.h"
 #include "dialogs/encodingdetectdialog.h"
 #include "scconfig.h"
+#include "helpers/commondefs.h"
 
 #include "microdvd/microdvdinputformat.h"
 #include "microdvd/microdvdoutputformat.h"
@@ -37,6 +38,7 @@
 #include "youtubecaptions/youtubecaptionsinputformat.h"
 #include "youtubecaptions/youtubecaptionsoutputformat.h"
 
+#include <QDir>
 #include <QFile>
 #include <QFileDevice>
 #include <QFileInfo>
@@ -226,9 +228,12 @@ FormatManager::readText(Subtitle &subtitle, const QUrl &url, bool primary,
 }
 
 FormatManager::Status
-FormatManager::readSubtitle(Subtitle &subtitle, bool primary, const QUrl &url,
+FormatManager::readSubtitle(Subtitle &subtitle, bool primary, QUrl url,
 							QTextCodec **codec, QString *formatName) const
 {
+	if(!url.isLocalFile() && !System::makeUrlReachable(&url))
+		return ERROR;
+
 	Status res = readBinary(subtitle, url, primary, codec, formatName);
 	if(res != ERROR) // when SUCCESS or CANCEL no need to try text formats
 		return res;
@@ -261,7 +266,7 @@ FormatManager::outputNames() const
 }
 
 bool
-FormatManager::writeSubtitle(const Subtitle &subtitle, bool primary, const QUrl &url,
+FormatManager::writeSubtitle(const Subtitle &subtitle, bool primary, QUrl url,
 							 QTextCodec *codec, const QString &formatName, bool overwrite) const
 {
 	const OutputFormat *format = output(formatName);
@@ -276,6 +281,9 @@ FormatManager::writeSubtitle(const Subtitle &subtitle, bool primary, const QUrl 
 	}
 
 	if(format == nullptr)
+		return false;
+
+	if(!url.isLocalFile() && !System::makeUrlReachable(&url))
 		return false;
 
 	if(!overwrite && QFile::exists(url.toLocalFile()))

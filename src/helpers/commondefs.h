@@ -37,6 +37,14 @@ public:
 	static bool isReadable(const QString &path);
 	static bool isWritable(const QString &path);
 
+	/**
+	 * @brief Converts a KIO URL to a local file URL using the KIO-FUSE D-Bus mount.
+	 *        Local file URLs are left unchanged.
+	 * @param url Pointer to the URL to mount. Updated with the local mounted path on success.
+	 * @return true if the URL is already a local file or was successfully mounted; false otherwise.
+	 */
+	static bool makeUrlReachable(QUrl *url);
+
 	static QString homeDir();
 	static QString tempDir();
 

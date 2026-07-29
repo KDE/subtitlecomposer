@@ -155,7 +155,7 @@ Application::openSubtitle()
 }
 
 void
-Application::openSubtitle(const QUrl &url, bool warnClashingUrls)
+Application::openSubtitle(QUrl url, bool warnClashingUrls)
 {
 	m_lastSubtitleUrl = url;
 
@@ -173,8 +173,8 @@ Application::openSubtitle(const QUrl &url, bool warnClashingUrls)
 		m_subtitleUrl = url;
 		processSubtitleOpened(codec, m_subtitleFormat);
 
-		if(m_subtitleUrl.isLocalFile() && SCConfig::automaticVideoLoad()) {
-			QFileInfo subtitleFileInfo(m_subtitleUrl.toLocalFile());
+		if(SCConfig::automaticVideoLoad() && System::makeUrlReachable(&url)) {
+			QFileInfo subtitleFileInfo(url.toLocalFile());
 
 			QString subtitleFileName = m_subtitleFileName.toLower();
 			QString videoFileName = QFileInfo(videoPlayer()->filePath()).completeBaseName().toLower();
