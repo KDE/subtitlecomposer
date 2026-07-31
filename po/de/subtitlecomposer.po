@@ -2244,7 +2244,7 @@ msgstr "Übersetzungstext verwenden"
 #: src/dialogs/autodurationsdialog.cpp:65
 #, kde-format
 msgid "Calculate both and use maximum"
-msgstr "Beide berechnen und das Maximum benutzen"
+msgstr "Beide berechnen und das Maximum verwenden"
 
 #: src/dialogs/changeframeratedialog.cpp:33
 #, kde-format
