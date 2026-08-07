@@ -15,17 +15,17 @@
         "--socket=wayland"
     ],
     "cleanup": [
-        "*.la",
         "*.a",
+        "*.la",
         "/include",
         "/lib/cmake",
         "/lib/pkgconfig",
+        "/man",
         "/mkspecs",
-        "/share/pkgconfig",
         "/share/aclocal",
         "/share/info",
-        "/man",
-        "/share/man"
+        "/share/man",
+        "/share/pkgconfig"
     ],
     "rename-icon": "subtitlecomposer",
     "modules": [
