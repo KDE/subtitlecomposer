@@ -7,7 +7,6 @@ include:
     rules:
     - if: $CI_SERVER_HOST =~ /kde\.org$/
     file:
-      - /gitlab-templates/linux.yml
       - /gitlab-templates/linux-qt6.yml
       - /gitlab-templates/freebsd-qt6.yml
       - /gitlab-templates/flatpak.yml
