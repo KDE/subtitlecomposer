@@ -2329,7 +2329,7 @@ msgstr "حالة الجملة"
 #: src/dialogs/changetextscasedialog.cpp:42
 #, kde-format
 msgid "Convert to lower case first"
-msgstr "حوّل إلى أحرف صغيرة أولاً"
+msgstr "حوّل إلى أحرف صغيرة أولًا"
 
 #: src/dialogs/durationlimitsdialog.cpp:20
 #, kde-format
@@ -3064,7 +3064,7 @@ msgstr "يولّد شكل الموجة"
 #: src/gui/waveform/waveformwidget.cpp:690
 #, kde-format
 msgid "Select Line"
-msgstr "حدد خطاً"
+msgstr "حدد خطًا"
 
 #: src/gui/waveform/waveformwidget.cpp:705
 #, kde-format
