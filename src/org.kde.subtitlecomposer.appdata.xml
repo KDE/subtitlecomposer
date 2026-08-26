@@ -591,6 +591,7 @@
           <li xml:lang="ca">S'han corregit els problemes i les fallades amb les versions més noves de les Qt6</li>
           <li xml:lang="ca-valencia">S'han corregit els problemes i les fallades amb les versions més noves de les Qt6</li>
           <li xml:lang="es">Se han solucionado problemas y fallos con las versiones más recientes de Qt6.</li>
+          <li xml:lang="fi">korjattu ongelmia ja kaatumisia uudemmissa Qt6-versioissa</li>
           <li xml:lang="fr">Correction de problèmes et plantages corrigés avec les nouvelles versions de Qt6</li>
           <li xml:lang="it">Correzione di problemi e arresti inattesi con le versioni di Qt6 più recenti</li>
           <li xml:lang="nl">Problemen en crashes met nieuwere Qt6 versies gerepareerd</li>
@@ -604,6 +605,7 @@
           <li xml:lang="ar">أُصلحت مشكلات رسم الشكل الموجي ومشغل الفيديو</li>
           <li xml:lang="ca">S'han corregit els problemes de pintura de la forma d'ona i del reproductor de vídeo</li>
           <li xml:lang="ca-valencia">S'han corregit els problemes de pintura de la forma d'ona i del reproductor de vídeo</li>
+          <li xml:lang="fi">korjattu aaltomuoto- ja videosoitinpiirron ongelmia</li>
           <li xml:lang="fr">Correction des problèmes d'affichage pour la forme d'onde et le lecteur vidéo</li>
           <li xml:lang="it">Correzione di problemi di disegno in Waveform e VideoPlayer</li>
           <li xml:lang="nl">Problemen met tekenen van golfvorm en Videospeler gerepareerd</li>
@@ -618,6 +620,7 @@
           <li xml:lang="ca">S'ha corregit el tipus de MIME dels subtítols PGS</li>
           <li xml:lang="ca-valencia">S'ha corregit el tipus de MIME dels subtítols PGS</li>
           <li xml:lang="es">Se ha corregido el tipo MIME de subtítulos PGS.</li>
+          <li xml:lang="fi">korjattu PGS-tekstitysten MIME-tyyppi</li>
           <li xml:lang="fr">Correction du type « MIME » des sous-titres « PGS »</li>
           <li xml:lang="it">Correzione del tipo MIME dei sottotitoli PGS</li>
           <li xml:lang="nl">PGS-ondertitel-mime-type gerepareerd</li>
@@ -632,6 +635,7 @@
           <li xml:lang="ca">Millora de la compatibilitat amb el Wayland</li>
           <li xml:lang="ca-valencia">Millora de la compatibilitat amb Wayland</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad con Wayland.</li>
+          <li xml:lang="fi">parannettu Wayland-yhteensopivuutta</li>
           <li xml:lang="fr">Amélioration de la compatibilité de Wayland</li>
           <li xml:lang="it">Migliorata la compatibilità con Wayland</li>
           <li xml:lang="nl">Compatibiliteit met Wayland verbetert</li>
@@ -646,6 +650,7 @@
           <li xml:lang="ca">Traduccions millorades de GoogleCloudEngine</li>
           <li xml:lang="ca-valencia">Traduccions millorades de GoogleCloudEngine</li>
           <li xml:lang="es">Se han mejorado las traducciones de GoogleCloudEngine.</li>
+          <li xml:lang="fi">parannettu GoogleCloudEngine-käännöksiä</li>
           <li xml:lang="fr">Amélioration des traductions avec le moteur « Google Cloud »</li>
           <li xml:lang="it">Migliorate le traduzioni con GoogleCloudEngine</li>
           <li xml:lang="nl">GoogleCloudEngine vertalingen verbeterd</li>
@@ -660,6 +665,7 @@
           <li xml:lang="ca">S'ha afegit la detecció configurable d'espais en blanc a la importació de VobSub</li>
           <li xml:lang="ca-valencia">S'ha afegit la detecció configurable d'espais en blanc a la importació de VobSub</li>
           <li xml:lang="es">Se ha añadido la detección de espacios configurable en la importación de VobSub.</li>
+          <li xml:lang="fi">lisätty VobSub-tuontiin asetettavissa oleva tyhjemerkkitunnistus</li>
           <li xml:lang="fr">Ajout de la détection configurable des espaces blancs lors de l'importation de VobSub</li>
           <li xml:lang="it">Aggiunta riconoscimento degli spazi configurabile nell'importazione di VobSub</li>
           <li xml:lang="nl">Configureerbare witruimtedetectie toegevoegd aan VobSub-import</li>
@@ -673,6 +679,7 @@
           <li xml:lang="ar">استُبدلت كود قناة FFmpeg المهجور</li>
           <li xml:lang="ca">S'ha reemplaçat el codi de canal obsolet del FFmpeg</li>
           <li xml:lang="ca-valencia">S'ha reemplaçat el codi de canal obsolet de FFmpeg</li>
+          <li xml:lang="fi">korvattu vanhentunut FFmpeg-kanavakoodi</li>
           <li xml:lang="fr">Remplacement du code de canal « FFmpeg » obsolète</li>
           <li xml:lang="it">Sostituzione del codice deprecato dei canali FFmpeg</li>
           <li xml:lang="nl">Afgekeurde FFmpeg kanaalcode vervangen</li>
@@ -687,6 +694,7 @@
           <li xml:lang="ca">Requereix FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="ca-valencia">Requerix FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="es">Se requiere FFmpeg &gt;= 5.1.5</li>
+          <li xml:lang="fi">vaaditaan FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="fr">Nécessite FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="it">Richiede FFmpeg &gt;= 5.1.5</li>
           <li xml:lang="nl">Vereis FFmpeg &gt;= 5.1.5</li>
@@ -725,6 +733,7 @@
           <li xml:lang="ca">S'han corregit problemes de memòria (rars) i fallades</li>
           <li xml:lang="ca-valencia">S'han corregit problemes de memòria (rars) i fallades</li>
           <li xml:lang="es">Se han corregido (raros) problemas de memoria y fallos.</li>
+          <li xml:lang="fi">korjattu (harvinaisia) muistiongelmia ja kaatumisia</li>
           <li xml:lang="fr">Correction de  (Rares) problèmes de mémoire et de plantage</li>
           <li xml:lang="it">Correzione di (rari) problemi di memoria e blocchi</li>
           <li xml:lang="nl">Gerepareerd (zeldzame) geheugenproblemen en crashes</li>
@@ -738,6 +747,7 @@
           <li xml:lang="ar">أُصلحت الانهيارات في ودجة الشكل الموجي</li>
           <li xml:lang="ca">S'han corregit les fallades al giny de forma d'ona</li>
           <li xml:lang="ca-valencia">S'han corregit les fallades al giny de forma d'ona</li>
+          <li xml:lang="fi">korjattu aaltomuotoalkion kaatumisia</li>
           <li xml:lang="fr">Correction des plantages sur le composant graphique d'oscillogramme</li>
           <li xml:lang="it">Correzione dei blocchi legati all'oggetto della forma d'onda</li>
           <li xml:lang="nl">Gerepareerd crashes op golfvormwidget</li>
@@ -752,6 +762,7 @@
           <li xml:lang="ca">S'ha corregit la renderització del reproductor de vídeo a les Qt 6.7</li>
           <li xml:lang="ca-valencia">S'ha corregit la renderització del reproductor de vídeo a les Qt 6.7</li>
           <li xml:lang="es">Se ha corregido la visualización de vídeo en Qt 6.7</li>
+          <li xml:lang="fi">korjattu videosoittimen hahmonnus Qt 6.7:ssa</li>
           <li xml:lang="fr">Correction du rendu du lecteur vidéo dans Qt 6.7</li>
           <li xml:lang="it">Correzione della resa del riproduttore video con Qt 6.7</li>
           <li xml:lang="nl">Gerepareerd rendering met videospeler in Qt 6.7</li>
@@ -765,6 +776,7 @@
           <li xml:lang="ar">أُصلحت إخفاقات التحقق (assert) في مدير البرمجيات النصية</li>
           <li xml:lang="ca">S'han corregit fallades en assercions del gestor de scripts</li>
           <li xml:lang="ca-valencia">S'han corregit fallades en assercions del gestor de scripts</li>
+          <li xml:lang="fi">korjattu skriptinhallinnan varmennuksen epäonnistumisia</li>
           <li xml:lang="fr">Correction des échecs d'assertion du gestionnaire de scripts</li>
           <li xml:lang="it">Correzione dei fallimenti in operazioni assert nel gestore degli script</li>
           <li xml:lang="nl">Foutmeldingen van de scriptmanager opgelost</li>
@@ -778,6 +790,7 @@
           <li xml:lang="ar">أُصلح عدم القدرة على عرض الملفات غير البرمجية في مدير البرمجيات النصية</li>
           <li xml:lang="ca">S'ha corregit la incapacitat de veure fitxers que no siguin de script al gestor de scripts</li>
           <li xml:lang="ca-valencia">S'ha corregit la incapacitat de veure fitxers que no siguen de script al gestor de scripts</li>
+          <li xml:lang="fi">korjattu kyvyttömyys katsella skriptinhallinnassa ei-skriptitiedostoja</li>
           <li xml:lang="fr">Correction de l'impossibilité d'afficher les fichiers non-scripts dans le gestionnaire de scripts</li>
           <li xml:lang="it">Correzione dell'impossibilità di visualizzare file di tipo non script nel gestore degli script</li>
           <li xml:lang="nl">Het probleem is opgelost dat niet-scriptbestanden niet zichtbaar waren in de scriptbeheerder</li>
@@ -791,6 +804,7 @@
           <li xml:lang="ar">أُصلح التقديم والتأخير في بعض صيغ الوسائط</li>
           <li xml:lang="ca">S'ha corregit la cerca en alguns formats multimèdia</li>
           <li xml:lang="ca-valencia">S'ha corregit la busca en alguns formats multimèdia</li>
+          <li xml:lang="fi">korjattu kelaus joissakin mediamuodoissa</li>
           <li xml:lang="fr">Correction de la recherche dans certains formats multimédia</li>
           <li xml:lang="it">Correzione della ricerca in alcuni formati di file multimedialis</li>
           <li xml:lang="nl">Zoekfunctie in sommige mediaformaten opgelost</li>
@@ -804,6 +818,7 @@
           <li xml:lang="ar">أُصلحت صيرورة عرض الترجمة في مشغل الفيديو</li>
           <li xml:lang="ca">S'ha corregit la renderització de subtítols del reproductor de vídeo</li>
           <li xml:lang="ca-valencia">S'ha corregit la renderització de subtítols del reproductor de vídeo</li>
+          <li xml:lang="fi">korjattu videosoittimen tekstityksen hahmontaminen</li>
           <li xml:lang="fr">Correction du rendu des sous-titres du lecteur vidéo</li>
           <li xml:lang="it">Correzione della resa dei sottotitoli nel riproduttore video</li>
           <li xml:lang="nl">Weergave van ondertitels in de videospeler opgelost</li>
@@ -817,6 +832,7 @@
           <li xml:lang="ar">أُصلحت الصيرورة المعطوبة في فيديوهات الدقة العالية</li>
           <li xml:lang="ca">S'ha corregit la renderització trencada als vídeos de resolució alta</li>
           <li xml:lang="ca-valencia">S'ha corregit la renderització trencada als vídeos de resolució alta</li>
+          <li xml:lang="fi">korjattu viallinen hahmontaminen suurtarkkuusvideoissa</li>
           <li xml:lang="fr">Correction du rendu défectueux sur les vidéos en haute résolution</li>
           <li xml:lang="it">Correzione della resa incorretta in video ad alta risoluzione</li>
           <li xml:lang="nl">De weergaveproblemen bij video's met hoge resolutie zijn opgelost</li>
@@ -830,6 +846,7 @@
           <li xml:lang="ar">أُصلحت صيرورة فيديو HDR (نقل غاما SMPTE-ST-2084)</li>
           <li xml:lang="ca">S'ha corregit al renderització de vídeo HDR (SMPTE-ST-2084 transferència de gamma)</li>
           <li xml:lang="ca-valencia">S'ha corregit al renderització de vídeo HDR (SMPTE-ST-2084 transferència de gamma)</li>
+          <li xml:lang="fi">korjattu HDR-videohahmonnus (SMPTE-ST-2084-gammasiirto)</li>
           <li xml:lang="fr">Correction du rendu vidéo HDR (Transfert gamma SMPTE-ST-2084)</li>
           <li xml:lang="it">Correzione della resa dei video HDR (trasferimento di gamma SMPTE-ST-2084)</li>
           <li xml:lang="nl">HDR-videoweergave (SMPTE-ST-2084 gamma-overdracht) opgelost</li>
@@ -843,6 +860,7 @@
           <li xml:lang="ar">أُضيف فحص للحد الأقصى لعدد المحارف في السطر الواحد</li>
           <li xml:lang="ca">S'ha afegit una comprovació per al nombre màxim de caràcters per línia</li>
           <li xml:lang="ca-valencia">S'ha afegit una comprovació per al nombre màxim de caràcters per línia</li>
+          <li xml:lang="fi">lisätty rivin enimmäismerkkimäärän tarkistus</li>
           <li xml:lang="fr">Ajout d'une vérification du nombre maximum de caractères par ligne</li>
           <li xml:lang="it">Aggiunta di una verifica sul numero massimo di caratteri per riga</li>
           <li xml:lang="nl">Controle toegevoegd voor het maximale aantal tekens per regel</li>
@@ -856,6 +874,7 @@
           <li xml:lang="ar">أُضيف محرك الترجمة MinT</li>
           <li xml:lang="ca">S'ha afegit el motor de traducció MinT</li>
           <li xml:lang="ca-valencia">S'ha afegit el motor de traducció MinT</li>
+          <li xml:lang="fi">lisätty MinT-käännösmoottori</li>
           <li xml:lang="fr">Ajout du moteur de traduction MinT</li>
           <li xml:lang="it">Aggiunta del motore di traduzione MinT</li>
           <li xml:lang="nl">MinT-vertaalengine toegevoegd</li>
@@ -870,6 +889,7 @@
           <li xml:lang="ca">Millora de la implementació de la traducció i de la IU</li>
           <li xml:lang="ca-valencia">Millora de la implementació de la traducció i de la IU</li>
           <li xml:lang="es">Se ha mejorado la implementación de traducciones y la interfaz de usuario.</li>
+          <li xml:lang="fi">parannettu käännöstukea ja käyttöliittymää</li>
           <li xml:lang="fr">Amélioration de la prise en charge de la traduction et de l'interface utilisateur</li>
           <li xml:lang="it">Miglioramento del supporto e interfaccia alle traduzioni</li>
           <li xml:lang="nl">Verbeterde vertaalondersteuning en gebruikersinterface</li>
@@ -884,6 +904,7 @@
           <li xml:lang="ca">S'ha millorat el canvi d'escala del reproductor de vídeo</li>
           <li xml:lang="ca-valencia">S'ha millorat el canvi d'escala del reproductor de vídeo</li>
           <li xml:lang="es">Se ha mejorado el escalado del reproductor de vídeo.</li>
+          <li xml:lang="fi">parannettu videosoittimen skaalausta</li>
           <li xml:lang="fr">Amélioration de la mise à l'échelle du lecteur vidéo</li>
           <li xml:lang="it">Miglioramento della riscalatura del riproduttore video</li>
           <li xml:lang="nl">Verbeterde schaling van videospeler</li>
@@ -897,6 +918,7 @@
           <li xml:lang="ar">أُسقطت عمليات ملفات KIO</li>
           <li xml:lang="ca">S'han descartat les operacions KIO de fitxer</li>
           <li xml:lang="ca-valencia">S'han descartat les operacions KIO de fitxer</li>
+          <li xml:lang="fi">jätetty pois KIO-tiedostotoimenpiteet</li>
           <li xml:lang="fr">Abandon des opérations de fichiers avec KIO</li>
           <li xml:lang="it">Rimozione delle operazioni su file via KIO</li>
           <li xml:lang="nl">KIO-bestandbewerkingen zijn afgevallen</li>
@@ -934,6 +956,7 @@
           <li xml:lang="ar">أُصلح مشغل الفيديو على العتاد الذي يدعم GLES فقط</li>
           <li xml:lang="ca">S'ha corregit el reproductor de vídeo només en el maquinari GLES</li>
           <li xml:lang="ca-valencia">S'ha corregit el reproductor de vídeo només en el maquinari GLES</li>
+          <li xml:lang="fi">korjattu videosoitin vain GLES -laitteistoissa</li>
           <li xml:lang="fr">Correction du lecteur vidéo sur du matériel uniquement « GLES »</li>
           <li xml:lang="it">Correzione del riproduttore video su hardware esclusivamente GLES</li>
           <li xml:lang="nl">Videospeler werkt alleen op GLES-hardware opgelost</li>
@@ -947,6 +970,7 @@
           <li xml:lang="ar">أُصلح الفيديو المائل في مشغل الفيديو</li>
           <li xml:lang="ca">S'ha corregit la distorsió de vídeo al reproductor de vídeo</li>
           <li xml:lang="ca-valencia">S'ha corregit la distorsió de vídeo al reproductor de vídeo</li>
+          <li xml:lang="fi">korjattu videosoittimen vääristynyt video</li>
           <li xml:lang="fr">Correction de la vidéo déformée sur le lecteur vidéo</li>
           <li xml:lang="it">Correzione della distorsione dei video nel riproduttore video</li>
           <li xml:lang="nl">Het scheve beeld in de videospeler is opgelost</li>
@@ -960,6 +984,7 @@
           <li xml:lang="ar">أُصلح إغلاق مشغل الفيديو في وضع ملء الشاشة</li>
           <li xml:lang="ca">S'ha corregit el tancament del reproductor de vídeo a pantalla completa</li>
           <li xml:lang="ca-valencia">S'ha corregit el tancament del reproductor de vídeo a pantalla completa</li>
+          <li xml:lang="fi">korjattu koko näytön videosoittimen sulkeminen</li>
           <li xml:lang="fr">Correction de la fermeture du lecteur vidéo en mode « Plein écran »</li>
           <li xml:lang="it">Correzione della chiusura del riproduttore video a schermo intero</li>
           <li xml:lang="nl">Probleem opgelost met het afsluiten van de videospeler in volledig scherm</li>
@@ -973,6 +998,7 @@
           <li xml:lang="ar">أُصلحت الترجمات التي تظهر تحت شريط أدوات الفيديو في وضع ملء الشاشة</li>
           <li xml:lang="ca">S'han corregit els subtítols sota la barra d'eines de vídeo a pantalla completa</li>
           <li xml:lang="ca-valencia">S'han corregit els subtítols davall la barra d'eines de vídeo a pantalla completa</li>
+          <li xml:lang="fi">korjattu tekstitys koko näytön videotyökalupalkin alla</li>
           <li xml:lang="fr">Correction des sous-titres fixes la barre d'outils vidéo en mode « Plein écran »</li>
           <li xml:lang="it">Correzione dei sottotitoli sotto una barra deggli strumenti video a schermo intero</li>
           <li xml:lang="nl">Ondertitels onder de werkbalk voor video in volledig scherm opgelost</li>
@@ -986,6 +1012,7 @@
           <li xml:lang="ar">أُصلحت إخطارات حالة الوسائط في مشغل الفيديو</li>
           <li xml:lang="ca">S'han corregit les notificacions d'estat del reproductor de vídeo</li>
           <li xml:lang="ca-valencia">S'han corregit les notificacions d'estat del reproductor de vídeo</li>
+          <li xml:lang="fi">korjattu videosoittimen tilailmoitukset</li>
           <li xml:lang="fr">Correction des notifications d'état de média pour le lecteur vidéo</li>
           <li xml:lang="it">Correzione delle notifiche di stato multimediale del riproduttore video</li>
           <li xml:lang="nl">Meldingen over de mediastatus van de videospeler opgelost</li>
@@ -999,6 +1026,7 @@
           <li xml:lang="ar">أُصلحت دقة حجم خط تراكب الترجمة على الفيديو</li>
           <li xml:lang="ca">S'ha corregit la precisió de la mida de la lletra de superposició de vídeo dels subtítols</li>
           <li xml:lang="ca-valencia">S'ha corregit la precisió de la mida de la lletra de superposició de vídeo dels subtítols</li>
+          <li xml:lang="fi">korjattu tekstityspeittokuvan fonttikoon tarkkuus</li>
           <li xml:lang="fr">Correction de la précision de la taille de la police pour la superposition des sous-titres vidéo</li>
           <li xml:lang="it">Correzione dell'accuratezza della dimensione del carattere sovrapposto nel video dei sottotitoli</li>
           <li xml:lang="nl">De nauwkeurigheid van de lettergrootte van de ondertiteloverlay in de video is opgelost</li>
@@ -1012,6 +1040,7 @@
           <li xml:lang="ar">أُصلح الانغلاق التام/الانهيار عند تغيير دفق الصوت في الوسائط المتوقفة أو الموقفة مؤقتًا</li>
           <li xml:lang="ca">S'ha corregit el bloqueig/fallada en canviar el flux d'àudio en un element multimèdia en pausa/aturat</li>
           <li xml:lang="ca-valencia">S'ha corregit el bloqueig/fallada en canviar el flux d'àudio en un element multimèdia en pausa/parat</li>
+          <li xml:lang="fi">korjattu jumittuminen/kaatuminen vaihdettaessa keskeytetyn/pysäytetyn median äänivirtaa</li>
           <li xml:lang="fr">Correction du blocage / plantage lors du changement de flux audio sur un média en pause  arrêté</li>
           <li xml:lang="nl">Een vastloper/crash bij het wisselen van audiostream op gepauzeerde/gestopte media is opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento/falha que ocorria ao trocar o fluxo de áudio em mídias pausadas/interrompidas</li>
@@ -1025,6 +1054,7 @@
           <li xml:lang="ca">Millora del rendiment del giny en forma d'ona</li>
           <li xml:lang="ca-valencia">Millora del rendiment del giny en forma d'ona</li>
           <li xml:lang="es">Se ha mejorado el rendimiento del widget de la forma de onda.</li>
+          <li xml:lang="fi">parannettu aaltomuotoalkion suorituskykyä</li>
           <li xml:lang="fr">Amélioration de la performance du composant graphique de forme d'onde</li>
           <li xml:lang="it">Miglioramento delle prestazioni dell'oggetto Waveform</li>
           <li xml:lang="nl">Verbeterde prestaties van het golfvorm-widget</li>
@@ -1038,6 +1068,7 @@
           <li xml:lang="ar">أُصلح عدم محاذاة الشكل الموجي الناتج عن خطأ في التقريب</li>
           <li xml:lang="ca">S'ha corregit la desalineació de la forma d'ona a causa d'un error d'arrodoniment</li>
           <li xml:lang="ca-valencia">S'ha corregit la desalineació de la forma d'ona a causa d'un error d'arredoniment</li>
+          <li xml:lang="fi">korjattu aaltomuodon pyöristysvirheestä johtunut väärä tasaus</li>
           <li xml:lang="fr">Correction du désalignement de la forme d'onde dû à une erreur d'arrondi</li>
           <li xml:lang="nl">Verkeerde uitlijning van de golfvorm als gevolg van een afrondingsfout is opgelost</li>
           <li xml:lang="pt-BR">Corrigido desalinhamento da forma de onda devido a erro de arredondamento</li>
@@ -1050,6 +1081,7 @@
           <li xml:lang="ar">أُصلح رسم ودجة الشكل الموجي على صورة فارغة ورسم الأسطر المحذوفة</li>
           <li xml:lang="ca">S'ha corregit el dibuix del giny de forma d'ona en una imatge nul·la i el pintat de línies eliminades</li>
           <li xml:lang="ca-valencia">S'ha corregit el dibuix del giny de forma d'ona en una imatge nul·la i el pintat de línies eliminades</li>
+          <li xml:lang="fi">korjattu se, että aaltomuotoalkio piirsi tyhjän kuvan tai poistettuja rivejä</li>
           <li xml:lang="fr">Correction du composant graphique de forme d'onde fixe dessinant sur une image nulle et colorant les lignes supprimées</li>
           <li xml:lang="nl">Tekenen van het golfvormwidget op een lege afbeelding en het tekenen van verwijderde lijnen is opgelost</li>
           <li xml:lang="pt-BR">Corrigido o desenho do widget de forma de onda em uma imagem nula e a pintura das linhas removidas</li>
@@ -1062,6 +1094,7 @@
           <li xml:lang="ar">أُصلح مقياس التقريب المبدئي للشكل الموجي</li>
           <li xml:lang="ca">S'ha corregit l'escala de zoom predeterminada de la forma d'ona</li>
           <li xml:lang="ca-valencia">S'ha corregit l'escala de zoom predeterminada de la forma d'ona</li>
+          <li xml:lang="fi">korjattu aaltomuodon oletuslähennys</li>
           <li xml:lang="fr">Correction de l'échelle de zoom par défaut de la forme d'onde</li>
           <li xml:lang="nl">Standaard zoomfactor voor de golfvorm is opgelost</li>
           <li xml:lang="pt-BR">Corrigida a escala de zoom padrão da forma de onda</li>
@@ -1074,6 +1107,7 @@
           <li xml:lang="ar">أُصلح رسم فاصل أسطر نص الترجمة في LinesWidget</li>
           <li xml:lang="ca">S'ha corregit el dibuix del separador de la línia de text dels subtítols a LinesWidget</li>
           <li xml:lang="ca-valencia">S'ha corregit el dibuix del separador de la línia de text dels subtítols a LinesWidget</li>
+          <li xml:lang="fi">korjattu tekstityksen viivaerottimen piirto LinesWidgetissä</li>
           <li xml:lang="fr">Correction du séparateur de ligne de texte de sous-titre affiché sur le composant graphique de lignes</li>
           <li xml:lang="nl">Scheidingslijn voor ondertiteltekst getekend op lijnenwidget opgelost</li>
           <li xml:lang="pt-BR">Corrigido o separador de linhas do texto da legenda no LinesWidget</li>
@@ -1086,6 +1120,7 @@
           <li xml:lang="ar">أُصلح إلغاء كسر الأسطر (البحث عن سطر جديد في QTextDocument)</li>
           <li xml:lang="ca">S'han corregit les línies sense trencar (cerques de línia nova a QTextDocument)</li>
           <li xml:lang="ca-valencia">S'han corregit les línies sense trencar (busques de línia nova a QTextDocument)</li>
+          <li xml:lang="fi">korjattu rivittämättömät rivit (rivinvaihdon haku QTextDocumentissa)</li>
           <li xml:lang="fr">Correction des lignes non séparables (Recherches de nouvelles lignes dans QTextDocument)</li>
           <li xml:lang="nl">Lijnen niet afbreken (nieuwe regel zoeken in QTextDocument) opgelost</li>
           <li xml:lang="pt-BR">Correção de quebras de linha (busca por nova linha em QTextDocument)</li>
@@ -1098,6 +1133,7 @@
           <li xml:lang="ar">أُصلح الانهيار عند تقسيم الأسطر</li>
           <li xml:lang="ca">S'ha corregit una fallada en les línies dividides</li>
           <li xml:lang="ca-valencia">S'ha esmenat una fallada en les línies dividides</li>
+          <li xml:lang="fi">korjattu kaatuminen jaetuilla riveillä</li>
           <li xml:lang="fr">Correction du plantage lors de la division des lignes</li>
           <li xml:lang="nl">Crash bij het splitsen van regels opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava travamento nas linhas de divisão</li>
@@ -1110,6 +1146,7 @@
           <li xml:lang="ar">أُصلح تجاهل أنماط النص عند استيراد VobSub</li>
           <li xml:lang="ca">S'ha corregit la importació de VobSub ignorant els estils de text</li>
           <li xml:lang="ca-valencia">S'ha corregit la importació de VobSub ignorant els estils de text</li>
+          <li xml:lang="fi">korjattu se, että VobSub-tuonti sivuutti tekstityylit</li>
           <li xml:lang="fr">Correction de l'importation « VobSub » ignorant les styles de texte</li>
           <li xml:lang="nl">Importeren van VobSub-bestanden, waarbij tekststijlen werden genegeerd, is opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema de importação de VobSub ignorando os estilos de texto</li>
@@ -1122,6 +1159,7 @@
           <li xml:lang="ar">أُصلح انهيار VobSub عند الانتقال إلى الصورة السابقة</li>
           <li xml:lang="ca">S'ha corregit una fallada de VobSub en moure's a la imatge anterior</li>
           <li xml:lang="ca-valencia">S'ha esmenat una fallada de VobSub en moure's a la imatge anterior</li>
+          <li xml:lang="fi">korjattu VobSubin kaatuminen siirryttäessä edelliseen kuvaan</li>
           <li xml:lang="fr">Correction du plantage de VobSub lors du passage à l'image précédente</li>
           <li xml:lang="nl">VobSub-crash bij het terugzetten naar de vorige afbeelding is opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema de travamento do VobSub ao passar para a imagem anterior</li>
@@ -1134,6 +1172,7 @@
           <li xml:lang="ar">أُصلح تحليل/حفظ صيغة تعليقات YouTube</li>
           <li xml:lang="ca">S'ha corregit l'anàlisi/desament del format YouTubeCaptions</li>
           <li xml:lang="ca-valencia">S'ha corregit l'anàlisi/guardada del format YouTubeCaptions</li>
+          <li xml:lang="fi">korjattu YouTubeCaptions-muodon jäsentäminen/tallentaminen</li>
           <li xml:lang="fr">Correction de l'analyse / enregistrement pour les sous-titres dans YouTube</li>
           <li xml:lang="nl">Het ontleden/opslaan van YouTube-opschrift-formaten is opgelost</li>
           <li xml:lang="pt-BR">Correção na análise/salvamento do formato de legendas do YouTube</li>
@@ -1146,6 +1185,7 @@
           <li xml:lang="ar">أُصلح ترتيب إنشاء إجراءات التراجع/الإعادة والحالة غير الصحيحة</li>
           <li xml:lang="ca">S'ha corregit l'ordre de creació d'accions de desfer/refer, estat incorrecte</li>
           <li xml:lang="ca-valencia">S'ha corregit l'ordre de creació d'accions de desfer/refer, estat incorrecte</li>
+          <li xml:lang="fi">korjattu kumoamis/uudelleentekemistoimintojen luontijärjestys, väärä tila</li>
           <li xml:lang="fr">Correction de l'ordre de création des actions Annuler / Rétablir, état incorrect</li>
           <li xml:lang="nl">De volgorde van het aanmaken van acties voor ongedaan maken/opnieuw uitvoeren is opgelost; onjuiste status</li>
           <li xml:lang="pt-BR">Corrigida a ordem de criação das ações de desfazer/refazer, estado incorreto</li>
@@ -1158,6 +1198,7 @@
           <li xml:lang="ar">أُصلحت بعض مشكلات الذاكرة والحفظ</li>
           <li xml:lang="ca">S'han corregit alguns problemes de memòria i de desament</li>
           <li xml:lang="ca-valencia">S'han corregit alguns problemes de memòria i de guardada</li>
+          <li xml:lang="fi">korjattu joitakin muisti- ja tallennusongelmia</li>
           <li xml:lang="fr">Correction de certains problèmes de mémoire et d'enregistrement</li>
           <li xml:lang="it">Correzione di alcune problematiche di memoria e salvataggio</li>
           <li xml:lang="nl">Diverse problemen met geheugen en opslaan opgelost</li>
@@ -1171,6 +1212,7 @@
           <li xml:lang="ar">أُصلح فك ترميز ASS المضمن</li>
           <li xml:lang="ca">S'ha corregit la descodificació ASS incrustada</li>
           <li xml:lang="ca-valencia">S'ha corregit la descodificació ASS incrustada</li>
+          <li xml:lang="fi">korjattu upotettu ASS-koodauksen purku</li>
           <li xml:lang="fr">Correction du décodage « ASS » intégré</li>
           <li xml:lang="nl">Ingebouwde ASS-decodering opgelost</li>
           <li xml:lang="pt-BR">Corrigida a decodificação ASS embutida</li>
@@ -1183,6 +1225,7 @@
           <li xml:lang="ar">أُصلح نص البرمجية النصية التجريبي لإزالة نصوص لضعاف السمع</li>
           <li xml:lang="ca">S'ha corregit l'exemple de script d'eliminació de discapacitats auditives</li>
           <li xml:lang="ca-valencia">S'ha corregit l'exemple de script d'eliminació de discapacitats auditives</li>
+          <li xml:lang="fi">korjattu esimerkin Poista kuulovammaistekstitys -skripti</li>
           <li xml:lang="fr">Correction du script d''exemple pour la suppression de déficience auditive</li>
           <li xml:lang="nl">Voorbeeld van script voor slechthorenden verwijderen opgelost</li>
           <li xml:lang="pt-BR">Corrigida remoção de exemplo de script para deficientes auditivos</li>
@@ -1195,6 +1238,7 @@
           <li xml:lang="ar">أُصلح مربع حوار "عن" المعطوب</li>
           <li xml:lang="ca">S'ha corregit el diàleg trencat quant al</li>
           <li xml:lang="ca-valencia">S'ha corregit el diàleg trencat quant al</li>
+          <li xml:lang="fi">korjattu särkynyt tietoikkuna</li>
           <li xml:lang="fr">Correction de la boîte de dialogue « À propos »</li>
           <li xml:lang="it">Correzione della finestra di informazioni non funzionante</li>
           <li xml:lang="nl">Gebroken Info-over-dialoog opgelost</li>
@@ -1209,6 +1253,7 @@
           <li xml:lang="ca">S'ha afegit la implementació de les Qt6</li>
           <li xml:lang="ca-valencia">S'ha afegit la implementació de les Qt6</li>
           <li xml:lang="es">Se ha añadido compatibilidad con Qt6.</li>
+          <li xml:lang="fi">lisätty Qt6-tuki</li>
           <li xml:lang="fr">Ajout de la prise en charge de Qt6</li>
           <li xml:lang="it">Aggiunto il supporto a Qt6</li>
           <li xml:lang="nl">Qt6-ondersteuning toegevoegd</li>
@@ -1223,6 +1268,7 @@
           <li xml:lang="ca">S'ha afegit la implementació del format WebVTT</li>
           <li xml:lang="ca-valencia">S'ha afegit la implementació del format WebVTT</li>
           <li xml:lang="es">Se ha añadido compatibilidad con el formato WebVTT.</li>
+          <li xml:lang="fi">lisätty WebVTT-muodon tuki</li>
           <li xml:lang="fr">Ajout de la prise en charge du format « WebVTT »</li>
           <li xml:lang="it">Aggiunto il supporto al formato WebVTT</li>
           <li xml:lang="nl">Ondersteuning voor WebVTT-formaat toegevoegd</li>
@@ -1236,6 +1282,7 @@
           <li xml:lang="ar">أُضيفت واجهة مستخدم ودعم لموضعة الترجمة</li>
           <li xml:lang="ca">S'ha afegit la interfície d'usuari de posicionament de subtítols i suport</li>
           <li xml:lang="ca-valencia">S'ha afegit la interfície d'usuari de posicionament de subtítols i suport</li>
+          <li xml:lang="fi">lisätty tekstityksen sijainnin käyttöliittymä ja tuki</li>
           <li xml:lang="fr">Ajout d'une interface utilisateur pour le positionnement des sous-titres</li>
           <li xml:lang="nl">Gebruikersinterface en ondersteuning voor het positioneren van ondertitels toegevoegd</li>
           <li xml:lang="pt-BR">Adicionada interface de usuário e suporte para posicionamento de legendas</li>
@@ -1248,6 +1295,7 @@
           <li xml:lang="ar">أُضيفت واجهة مستخدم ودعم لفئات/تعليقات/أصوات الترجمة</li>
           <li xml:lang="ca">S'ha afegit la IU de la classe/comentaris/veu de subtítols i el suport</li>
           <li xml:lang="ca-valencia">S'ha afegit la IU de la classe/comentaris/veu de subtítols i el suport</li>
+          <li xml:lang="fi">liästty tekstityksen luokan/kommenttien/äänen käyttöliittymä ja tuki</li>
           <li xml:lang="fr">Ajout de l'interface utilisateur pour les sous-titres, les classes /commentaires /voix et de leurs prises en charge</li>
           <li xml:lang="nl">Gebruikersinterface en ondersteuning voor ondertitelingsklasse/-opmerkingen/-spraak zijn toegevoegd</li>
           <li xml:lang="pt-BR">Adicionada interface de usuário e suporte para legendas, comentários e voz</li>
@@ -1261,6 +1309,7 @@
           <li xml:lang="ca">Edició/previsualització millorada de text enriquit</li>
           <li xml:lang="ca-valencia">Edició/previsualització millorada de text enriquit</li>
           <li xml:lang="es">Se ha mejorado la edición y la vista previa de texto enriquecido.</li>
+          <li xml:lang="fi">parannettu muotoiltua tekstinmuokkausta/esikatselua</li>
           <li xml:lang="fr">Amélioration de l'édition / aperçu du texte enrichi</li>
           <li xml:lang="nl">Verbeterd opgemaakte tekstbewerking/-voorbeeldweergave</li>
           <li xml:lang="pt-BR">Aprimoramento da edição/visualização de texto formatado</li>
@@ -1273,6 +1322,7 @@
           <li xml:lang="ar">صيرورة النص الغني على الشكل الموجي والفيديو والمحررات</li>
           <li xml:lang="ca">La renderització de text enriquit en forma d'ona/vídeo/editors</li>
           <li xml:lang="ca-valencia">La renderització de text enriquit en forma d'ona/vídeo/editors</li>
+          <li xml:lang="fi">muotoillun tekstin hahmonnus aaltomuodossa/videossa/muokkaimissa</li>
           <li xml:lang="fr">Rendu de texte enrichi sur les formes d'onde / vidéo / éditeurs</li>
           <li xml:lang="nl">Opgemaakte tekstweergave in golfvormweergave/video/bewerkers</li>
           <li xml:lang="pt-BR">Renderização de texto formatado em formas de onda/vídeos/editores</li>
@@ -1286,6 +1336,7 @@
           <li xml:lang="ca">S'ha afegit el motor de traducció DeepL</li>
           <li xml:lang="ca-valencia">S'ha afegit el motor de traducció DeepL</li>
           <li xml:lang="es">Se ha añadido el motor de traducción DeepL.</li>
+          <li xml:lang="fi">lisätty DeepL-käännösmoottori</li>
           <li xml:lang="fr">Ajout du moteur de traduction DeepL</li>
           <li xml:lang="it">Aggiunta del motore di traduzione DeepL</li>
           <li xml:lang="nl">DeepL-vertaalengine toegevoegd</li>
@@ -1300,6 +1351,7 @@
           <li xml:lang="ca">S'ha afegit el motor de traducció de Google Cloud</li>
           <li xml:lang="ca-valencia">S'ha afegit el motor de traducció de Google Cloud</li>
           <li xml:lang="es">Se ha añadido el motor de traducción Google Cloud.</li>
+          <li xml:lang="fi">lisätty Google Cloud -käännösmoottori</li>
           <li xml:lang="fr">Ajout du moteur de traduction « Google Cloud »</li>
           <li xml:lang="it">Aggiunta del motore di traduzione Google Cloud</li>
           <li xml:lang="nl">Google Cloud vertaalengine toegevoegd</li>
@@ -1314,6 +1366,7 @@
           <li xml:lang="ca">S'ha tornat a crear la interfície de traducció</li>
           <li xml:lang="ca-valencia">S'ha tornat a crear la interfície de traducció</li>
           <li xml:lang="es">Se ha recreado la interfaz de traducción.</li>
+          <li xml:lang="fi">luotu käännöskäyttöliittymä uudelleen</li>
           <li xml:lang="fr">Re-création de l'interface de traduction</li>
           <li xml:lang="it">Ricreazione dell'interfaccia di traduzione</li>
           <li xml:lang="nl">Opnieuw ontworpen vertaalinterface</li>
@@ -1328,6 +1381,7 @@
           <li xml:lang="ca">S'ha afegit/millorat la implementació del ffmpeg 5</li>
           <li xml:lang="ca-valencia">S'ha afegit/millorat la implementació de ffmpeg 5</li>
           <li xml:lang="es">Se ha añadido y mejorado la compatibilidad con ffmpeg 5.</li>
+          <li xml:lang="fi">lisätty/parannettu FFmpeg 5 -tukea</li>
           <li xml:lang="fr">Ajout / amélioration de la prise en charge de la version 5 de « ffmpeg »</li>
           <li xml:lang="it">Aggiunta/miglioramento del supporto a ffmpeg 5</li>
           <li xml:lang="nl">Ondersteuning voor ffmpeg 5 toegevoegd/verbeterd</li>
@@ -1341,6 +1395,7 @@
           <li xml:lang="ar">أسطر الترجمة مرتبة زمنيًا دائمًا؛ أُزيل إجراء قائمة ترتيب الأسطر</li>
           <li xml:lang="ca">Les línies de subtítols sempre estan ordenades en el temps; elimina l'acció de menú d'ordenació de línies</li>
           <li xml:lang="ca-valencia">Les línies de subtítols sempre estan ordenades en el temps; elimina l'acció de menú d'ordenació de línies</li>
+          <li xml:lang="fi">tekstitysrivit lajitellaan aina ajan mukaan; poistettu rivien lajittelun valikkotoiminto</li>
           <li xml:lang="fr">Les lignes de sous-titres sont toujours triées par ordre chronologique. Suppression de l'action du menu « Trier les lignes »</li>
           <li xml:lang="nl">Ondertitelregels worden altijd op tijd gesorteerd; sorteeropties in het menu verwijderen</li>
           <li xml:lang="pt-BR">As legendas são sempre ordenadas por tempo; remover a ação de ordenação de linhas no menu</li>
@@ -1353,6 +1408,7 @@
           <li xml:lang="ar">استُبدل Kross بمحرك QJSEngine، وأُزيل دعم Ruby و Python</li>
           <li xml:lang="ca">S'ha reemplaçat el Kross per QJSEngine, s'ha eliminat la compatibilitat amb el Ruby i el Python</li>
           <li xml:lang="ca-valencia">S'ha reemplaçat Kross per QJSEngine, s'ha eliminat la compatibilitat amb Ruby i Python</li>
+          <li xml:lang="fi">korvattu Kross QJSEnginellä, poistettu Ruby- ja Python-tuki</li>
           <li xml:lang="fr">Remplacement de Kross par QJSEngine. Suppression de la prise en charge de Ruby et de Python</li>
           <li xml:lang="it">Sostituzione di Kross con QJSEngine, rimozione del supporto di ruby e python</li>
           <li xml:lang="nl">Kross is vervangen door QJSEngine en de ondersteuning voor Ruby en Python is verwijderd</li>
@@ -1367,6 +1423,7 @@
           <li xml:lang="ca">Millora del gestor de scripts i del menú d'eines</li>
           <li xml:lang="ca-valencia">Millora del gestor de scripts i del menú d'eines</li>
           <li xml:lang="es">Se han mejorado el gestor de guiones y el menú de herramientas.</li>
+          <li xml:lang="fi">parannettu skriptinhallinta- ja työkaluvalikoita</li>
           <li xml:lang="fr">Amélioration du gestionnaire de scripts et du menu d'outils</li>
           <li xml:lang="it">Miglioramento del gestore degli script e del menu degli strumenti</li>
           <li xml:lang="nl">Verbeterd scriptbeheer en menu met hulpmiddelen</li>
@@ -1410,6 +1467,7 @@
           <li xml:lang="ca">S'ha corregit l'edició de scripts a l'AppImage</li>
           <li xml:lang="ca-valencia">S'ha corregit l'edició de scripts a AppImage</li>
           <li xml:lang="es">Se ha mejorado la edición de guiones en AppImage.</li>
+          <li xml:lang="fi">korjattu skriptinmuokkausta AppImagessa</li>
           <li xml:lang="fr">Correction de l'édition de scripts sur AppImage</li>
           <li xml:lang="nl">Het bewerken van scripts in AppImage is opgelost</li>
           <li xml:lang="pt-BR">Correção na edição de scripts no AppImage</li>
@@ -1422,6 +1480,7 @@
           <li xml:lang="ar">أُصلحت بناءات AppImage و Windows والسمات والمظهر</li>
           <li xml:lang="ca">S'ha corregit la construcció de l'AppImage/Windows, els temes i l'aspecte</li>
           <li xml:lang="ca-valencia">S'ha corregit la construcció d'AppImage/Windows, els temes i l'aspecte</li>
+          <li xml:lang="fi">korjattu AppImage/Windows-koosteita, teemaa ja ulkoasua</li>
           <li xml:lang="fr">Correction des compilations AppImage et Windows, des thèmes et des apparences</li>
           <li xml:lang="it">Correzione di rilasci, temi e aspetto per AppImage/Windows</li>
           <li xml:lang="nl">AppImage/Windows-bouwsels, thema's en uiterlijk zijn opgelost</li>
@@ -1435,6 +1494,7 @@
           <li xml:lang="ar">أُصلحت السمات والأيقونات والمظهر خارج بيئة KDE</li>
           <li xml:lang="ca">S'ha corregit el tema/icones/aspecte fora de l'entorn KDE</li>
           <li xml:lang="ca-valencia">S'ha corregit el tema/icones/aspecte fora de l'entorn KDE</li>
+          <li xml:lang="fi">korjattu teemaa/kuvakkeita/ulkoasua ei-KDE-ympäristössä</li>
           <li xml:lang="fr">Correction des thème / icônes / apparence en dehors de l'environnement de KDE</li>
           <li xml:lang="it">Correzioni di temi/iconi/aspetto fuori dall'ambiente KDE</li>
           <li xml:lang="nl">Thema's/pictogrammen/uiterlijk buiten de KDE-omgeving opgelost</li>
@@ -1449,6 +1509,7 @@
           <li xml:lang="ca">S'ha corregit l'obertura de fitxers al Windows</li>
           <li xml:lang="ca-valencia">S'ha corregit l'obertura de fitxers a Windows</li>
           <li xml:lang="es">Se ha corregido la apertura de archivos en Windows.</li>
+          <li xml:lang="fi">korjattu tiedostojen avaamista Windowsissa</li>
           <li xml:lang="fr">Correction de l'ouverture des fichiers sous Windows</li>
           <li xml:lang="it">Correzione dell'apertura dei file su Windows</li>
           <li xml:lang="nl">Openen van bestanden in Windows opgelost</li>
@@ -1463,6 +1524,7 @@
           <li xml:lang="ca">S'han corregit diversos errors i fallades rares</li>
           <li xml:lang="ca-valencia">S'han corregit diversos errors i fallades rares</li>
           <li xml:lang="es">Se han corregido varios errores y fallos raros.</li>
+          <li xml:lang="fi">korjattu eri vikoja ja harvinaisia kaatumisia</li>
           <li xml:lang="fr">Correction de divers bogues et de rares plantages</li>
           <li xml:lang="it">Correzione di vari errori e blocchi rari</li>
           <li xml:lang="nl">Diverse bugs en zeldzame crashes opgelost</li>
@@ -1476,6 +1538,7 @@
           <li xml:lang="ar">أُصلح مكدس التراجع وحُسّن التراجع عن تحرير النص</li>
           <li xml:lang="ca">S'ha corregit la pila de desfer i s'ha millorat l'acció desfer de l'edició de text</li>
           <li xml:lang="ca-valencia">S'ha corregit la pila de desfer i s'ha millorat l'acció desfer de l'edició de text</li>
+          <li xml:lang="fi">korjattu kumoamispino ja parannettu tekstimuokkausten kumoamista</li>
           <li xml:lang="fr">Correction de la pile d'annulation et amélioration de l'annulation de l'édition de texte</li>
           <li xml:lang="nl">Stapel ongedaan maken is opgelost en ongedaan maken bij tekstbewerking verbeterd</li>
           <li xml:lang="pt-BR">Correção da pilha de desfazer e melhoria na função de desfazer na edição de texto</li>
@@ -1488,6 +1551,7 @@
           <li xml:lang="ar">حُسّنت/استُبدلت مشغلات الفيديو (الأداء، دعم Wayland، و OpenGL/FFmpeg)</li>
           <li xml:lang="ca">Reproductor/s de vídeo millorat/substituït (rendiment, implementació del Wayland, OpenGL/FFmpeg)</li>
           <li xml:lang="ca-valencia">Reproductors de vídeo millorat/substituït (rendiment, implementació de Wayland, OpenGL/FFmpeg)</li>
+          <li xml:lang="fi">parannettu/korvattu videosoitin/soittimet (suorituskyky, Wayland-tuki, OpenGL/FFmpeg)</li>
           <li xml:lang="fr">Améliorations / Remplacement des lecteur(s) vidéo (Performances, support de Wayland, OpenGL / FFmpeg)</li>
           <li xml:lang="nl">Verbeterd/vervangen videospeler(s) (prestaties, Wayland-ondersteuning, OpenGL/FFmpeg)</li>
           <li xml:lang="pt-BR">Reprodutor(es) de vídeo aprimorado(s)/substituído(s) (desempenho, suporte a Wayland, OpenGL/FFmpeg)</li>
@@ -1501,6 +1565,7 @@
           <li xml:lang="ca">Millora del rendiment de la forma d'ona</li>
           <li xml:lang="ca-valencia">Millora del rendiment de la forma d'ona</li>
           <li xml:lang="es">Se ha mejorado el rendimiento de la forma de onda.</li>
+          <li xml:lang="fi">parannettu aaltomuotosuorituskyky</li>
           <li xml:lang="fr">Amélioration de la performance de forme d'onde</li>
           <li xml:lang="it">Miglioramento delle prestazioni di Waveform</li>
           <li xml:lang="nl">Verbeterde prestaties golfvorm</li>
@@ -1514,6 +1579,7 @@
           <li xml:lang="ar">حُسّن أداء LinesWidget/Model</li>
           <li xml:lang="ca">Millora del rendiment de LinesWidget/Model</li>
           <li xml:lang="ca-valencia">Millora del rendiment de LinesWidget/Model</li>
+          <li xml:lang="fi">parannettu LinesWidget/Model-suorituskykyä</li>
           <li xml:lang="fr">Amélioration de la performance du composants graphique / modèle de lignes</li>
           <li xml:lang="nl">Verbeterde prestaties van lijnenwidget/model</li>
           <li xml:lang="pt-BR">Desempenho aprimorado do LinesWidget/Model</li>
@@ -1527,6 +1593,7 @@
           <li xml:lang="ca">Millora de la implementació del Wayland</li>
           <li xml:lang="ca-valencia">Millora de la implementació de Wayland</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad con Wayland.</li>
+          <li xml:lang="fi">parannettu Wayland-tukea</li>
           <li xml:lang="fr">Prise en charge améliorée de Wayland</li>
           <li xml:lang="it">Miglioramento del supporto a Wayland</li>
           <li xml:lang="nl">Verbeterde ondersteuning van Wayland</li>
@@ -1541,6 +1608,7 @@
           <li xml:lang="ca">S'han millorat els diàlegs d'obrir/desar fitxers utilitzant diàlegs nadius</li>
           <li xml:lang="ca-valencia">S'han millorat els diàlegs d'obrir/guardar fitxers utilitzant diàlegs nadius</li>
           <li xml:lang="es">Se han mejorado los diálogos de abrir/guardar archivo para usar diálogos nativos.</li>
+          <li xml:lang="fi">parannettu tiedoston avaus- ja tallennusikkunoiden natiivien tiedostonvalintaikkunoiden käyttöä</li>
           <li xml:lang="fr">Amélioration de la boîtes de dialogue d’ouverture / enregistrement de fichiers pour utiliser les boîtes de dialogue natives</li>
           <li xml:lang="it">Miglioramento delle finestre di apertura/salvataggio dei file per usare le versioni native</li>
           <li xml:lang="nl">Dialogen voor het openen/opslaan van bestanden zijn verbeterd en gebruiken de inheemse dialogen</li>
@@ -1554,6 +1622,7 @@
           <li xml:lang="ar">حُسّن كشف ومعالجة واختيار مجموعات محارف النصوص والترميزات ونهاية الأسطر</li>
           <li xml:lang="ca">S'han millorat els jocs de caràcters/codificacions/selecció, detecció i gestió de final de línia</li>
           <li xml:lang="ca-valencia">S'han millorat els jocs de caràcters/codificacions/selecció, detecció i gestió de final de línia</li>
+          <li xml:lang="fi">parannettu tekstin merkistön/koodauksen/rivinlopun valintaa, havaitsemista ja käsittelyä</li>
           <li xml:lang="fr">Amélioration de la sélection, de la détection et de la gestion des jeux de caractères, des encodages et des fins de ligne</li>
           <li xml:lang="nl">Verbeterde selectie, detectie en verwerking van teksttekensets/coderingen/regeleinden</li>
           <li xml:lang="pt-BR">Melhoria na seleção, detecção e tratamento de conjuntos de caracteres/codificações de texto/fim de linha</li>
@@ -1567,6 +1636,7 @@
           <li xml:lang="ca">Implementació millorada de VobSub</li>
           <li xml:lang="ca-valencia">Implementació millorada de VobSub</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad con VobSub.</li>
+          <li xml:lang="fi">parannettu VobSub-tuki</li>
           <li xml:lang="fr">Amélioration de la prise en charge de VobSub</li>
           <li xml:lang="it">Miglioramenti al supporto VobSub</li>
           <li xml:lang="nl">Verbeterde VobSub-ondersteuning</li>
@@ -1580,6 +1650,7 @@
           <li xml:lang="ar">حُسّن المحرر المضمن لدعم أنماط النص</li>
           <li xml:lang="ca">S'ha millorat l'editor en línia per a admetre estils de text</li>
           <li xml:lang="ca-valencia">S'ha millorat l'editor en línia per a admetre estils de text</li>
+          <li xml:lang="fi">parannettu rivimuokkaimen tekstityylitukea</li>
           <li xml:lang="fr">Amélioration de l'éditeur intégré pour la prise en charge des styles de texte</li>
           <li xml:lang="nl">Verbeterde inline-editor ter ondersteuning van tekststijlen</li>
           <li xml:lang="pt-BR">Editor embutido aprimorado para oferecer suporte a estilos de texto</li>
@@ -1593,6 +1664,7 @@
           <li xml:lang="ca">Renderització millorada de l'estil dels subtítols</li>
           <li xml:lang="ca-valencia">Renderització millorada de l'estil dels subtítols</li>
           <li xml:lang="es">Se ha mejorado el rendimiento del estilo de subtítulos.</li>
+          <li xml:lang="fi">parannettu tekstityksen tyylin hahmonnusta</li>
           <li xml:lang="fr">Amélioration du rendu pour le style des sous-titres</li>
           <li xml:lang="nl">Verbeterde weergave van ondertitelstijlen</li>
           <li xml:lang="pt-BR">Renderização de estilo de legenda aprimorada</li>
@@ -1605,6 +1677,7 @@
           <li xml:lang="ar">حُسّن دعم عدد المحارف في الثانية وأُضيف التلوين</li>
           <li xml:lang="ca">S'ha millorat la implementació de caràcters/seg i s'ha afegit l'acoloriment</li>
           <li xml:lang="ca-valencia">S'ha millorat la implementació de caràcters/seg i s'ha afegit l'acoloriment</li>
+          <li xml:lang="fi">parannettu merkkiä/s-tukea ja lisätty väritys</li>
           <li xml:lang="fr">Amélioration de la prise en charge des caractères / seconde et ajout de la coloration</li>
           <li xml:lang="nl">Verbeterde ondersteuning voor tekens/sec en toegevoegde kleuring</li>
           <li xml:lang="pt-BR">Melhoria no suporte a caracteres por segundo e adição de cores</li>
@@ -1617,6 +1690,7 @@
           <li xml:lang="ar">حُسّن سطر الأوامر - القدرة على فتح جميع ملفات الترجمة والوسائط</li>
           <li xml:lang="ca">Millora la línia d'ordres, capacitat d'obrir tots els fitxers de subtítols/multimèdia</li>
           <li xml:lang="ca-valencia">Millora la línia d'ordres, capacitat d'obrir tots els fitxers de subtítols/multimèdia</li>
+          <li xml:lang="fi">parannettu komentoriviä – mahdollisuus avata kaikki tekstitys/mediatiedostot</li>
           <li xml:lang="fr">Amélioration de la ligne de commandes - Capacité d'ouvrir tous les fichiers de sous-titres /média</li>
           <li xml:lang="nl">Bied via de commandoregel de mogelijkheid om alle ondertitel-/mediabestanden te openen</li>
           <li xml:lang="pt-BR">Melhoria da linha de comando - capacidade de abrir todos os arquivos de legenda/mídia</li>
@@ -1629,6 +1703,7 @@
           <li xml:lang="ar">أُضيفت أعمدة المهلة/المدة إلى عرض القائمة</li>
           <li xml:lang="ca">S'han afegit columnes de pausa/durada a la vista de llista</li>
           <li xml:lang="ca-valencia">S'han afegit columnes de pausa/duració a la vista de llista</li>
+          <li xml:lang="fi">luettelonäkymään lisätty tauko/kesto-sarakkeet</li>
           <li xml:lang="fr">Ajout des colonnes Pause / Durée à la vue en liste</li>
           <li xml:lang="nl">Kolommen Pauze/Tijdsduur zijn toegevoegd aan de lijstweergave</li>
           <li xml:lang="pt-BR">Adicionadas colunas de Pausa/Duração à visualização em lista</li>
@@ -1641,6 +1716,7 @@
           <li xml:lang="ar">أُزيل نوع MIME غير الصالح subpicture/x-pgs</li>
           <li xml:lang="ca">S'ha eliminat un MIME de subpicture/x-pgs no vàlid</li>
           <li xml:lang="ca-valencia">S'ha eliminat un MIME de subpicture/x-pgs no vàlid</li>
+          <li xml:lang="fi">poistettu virheellinen subpicture/x-pgs-MIME-tyyppi</li>
           <li xml:lang="fr">Suppression du type « MIME » non valable « subpicture / x-pgs »</li>
           <li xml:lang="nl">Ongeldige subpicture/x-pgs mime verwijderd</li>
           <li xml:lang="pt-BR">Legenda inválida removida/mime x-pgs</li>
@@ -1654,6 +1730,7 @@
           <li xml:lang="ca">S'han actualitzat/afegit moltes traduccions, gràcies a la comunitat KDE</li>
           <li xml:lang="ca-valencia">S'han actualitzat/afegit moltes traduccions, gràcies a la comunitat KDE</li>
           <li xml:lang="es">Se han actualizado/añadido muchas traducciones (gracias a la comunidad KDE)</li>
+          <li xml:lang="fi">päivitetty/lisätty monia käännöksiä – kiitos KDE-yhteisön</li>
           <li xml:lang="fr">Ajout et mise à jour de nombreuses traductions - Merci à la communauté de KDE</li>
           <li xml:lang="nl">Veel vertalingen bijgewerkt/toegevoegd - met dank aan de KDE-gemeenschap</li>
           <li xml:lang="pt-BR">Muitas traduções foram atualizadas e adicionadas - graças à comunidade KDE</li>
@@ -1694,6 +1771,7 @@
           <li xml:lang="ar">أُصلح تحليل المسارات المطلقة التي تحتوي على محرف '#'</li>
           <li xml:lang="ca">S'ha corregit l'anàlisi de camins absoluts que contenen el caràcter «#»</li>
           <li xml:lang="ca-valencia">S'ha corregit l'anàlisi de camins absoluts que contenen el caràcter «#»</li>
+          <li xml:lang="fi">korjattu ”#”-merkin sisältävien absoluuttisten polkujen jäsentämistä</li>
           <li xml:lang="fr">Correction de l'analyse des emplacement absolus contenant le caractère « # »</li>
           <li xml:lang="nl">De verwerking van absolute paden die het teken '#' bevatten, is opgelost</li>
           <li xml:lang="pt-BR">Correção na análise de caminhos absolutos que continham o caractere '#'</li>
@@ -1706,6 +1784,7 @@
           <li xml:lang="ar">أُصلحت مربعات حوار الفتح التي لا تظهر جميع الملفات المدعومة</li>
           <li xml:lang="ca">S'han corregit els diàlegs d'obertura que no mostren tots els fitxers admesos</li>
           <li xml:lang="ca-valencia">S'han corregit els diàlegs d'obertura que no mostren tots els fitxers admesos</li>
+          <li xml:lang="fi">korjattu se, etteivät avausikkunat näyttäneet kaikkia tuettuja tiedostoja</li>
           <li xml:lang="fr">Correction des boîtes de dialogue d'ouverture n'affichant pas tous les fichiers pris en charge</li>
           <li xml:lang="nl">Opgelost probleem waarbij in de dialoogvensters niet alle ondersteunde bestanden werden weergegeven</li>
           <li xml:lang="pt-BR">Corrigido o problema em que as caixas de diálogo de abertura não exibiam todos os arquivos compatíveis</li>
@@ -1718,6 +1797,7 @@
           <li xml:lang="ar">أُصلح نص الترجمة الذي لا يحترم ضبط خطوط النظام</li>
           <li xml:lang="ca">S'ha corregit el text dels subtítols que no respecta la configuració de la lletra del sistema</li>
           <li xml:lang="ca-valencia">S'ha corregit el text dels subtítols que no respecta la configuració de la lletra del sistema</li>
+          <li xml:lang="fi">korjattu se, ettei tekstitys noudattanut järjestelmän fonttiasetusta</li>
           <li xml:lang="fr">Correction du texte des sous-titres fixes ne respectant pas la configuration de la fonte du système</li>
           <li xml:lang="nl">Ondertiteltekst hield geen rekening met de lettertype-instellingen van het systeem opgelost</li>
           <li xml:lang="pt-BR">Texto de legenda corrigido, sem respeitar a configuração de fonte do sistema</li>
@@ -1730,6 +1810,7 @@
           <li xml:lang="ar">أُصلح الشكل الموجي الذي لا يظهر بصيرورة صحيحة أو كاملة في بعض الصيغ</li>
           <li xml:lang="ca">S'ha corregit que la forma d'ona no es renderitzi correctament/completament en alguns formats</li>
           <li xml:lang="ca-valencia">S'ha corregit que la forma d'ona no es renderitze correctament/completament en alguns formats</li>
+          <li xml:lang="fi">korjattu se, ettei aaltomuoto hahmontunut joissakin muodoissa oikein/kokonaan</li>
           <li xml:lang="fr">Correction de la forme d'onde ne s'affichant pas correctement / complètement sur certains formats</li>
           <li xml:lang="nl">De golfvorm wordt bij sommige formaten niet correct/volledig weergegeven.</li>
           <li xml:lang="pt-BR">A forma de onda fixa não está sendo renderizada corretamente/completamente em alguns formatos</li>
@@ -1742,6 +1823,7 @@
           <li xml:lang="ar">أُصلح عرض الترجمات في أوقات خاطئة على الشكل الموجي</li>
           <li xml:lang="ca">S'ha corregit la forma d'ona que mostra els subtítols en moments incorrectes</li>
           <li xml:lang="ca-valencia">S'ha corregit la forma d'ona que mostra els subtítols en moments incorrectes</li>
+          <li xml:lang="fi">korjattu se, että aaltomuoto näytti tekstitykset väärään aikaan</li>
           <li xml:lang="fr">Correction de la forme d'onde affichant les sous-titres aux mauvais moments</li>
           <li xml:lang="nl">Het probleem met de golfvormweergave, waarbij ondertitels op de verkeerde tijdstippen werden weergegeven, is opgelost.</li>
           <li xml:lang="pt-BR">Corrigida a exibição de legenda na forma de onda no tempo errado</li>
@@ -1754,6 +1836,7 @@
           <li xml:lang="ar">أُصلح الشكل الموجي الذي لا يعمل مع بعض الوسائط</li>
           <li xml:lang="ca">S'ha corregit la forma d'ona que no funcionava a vegades</li>
           <li xml:lang="ca-valencia">S'ha corregit la forma d'ona que no funcionava a vegades</li>
+          <li xml:lang="fi">korjattu joskus toimimaton aaltomuoto</li>
           <li xml:lang="fr">Correction de la forme d'onde ne fonctionnant pas avec certains éléments</li>
           <li xml:lang="nl">Golfvorm die niet werkt bij sommige opgelost</li>
           <li xml:lang="pt-BR">Corrigida forma de onda não funcionando em alguns casos</li>
@@ -1766,6 +1849,7 @@
           <li xml:lang="ar">إصلاحات لمحركات مشغل الفيديو MPV و GStreamer و Xine</li>
           <li xml:lang="ca">Corregeix els dorsals dels reproductors de vídeo MPV, GStreamer i Xine</li>
           <li xml:lang="ca-valencia">Corregix els dorsals dels reproductors de vídeo MPV, GStreamer i Xine</li>
+          <li xml:lang="fi">korjauksia MPV-, GStreamer- ja Xine-videosoitintaustajärjestelmiin</li>
           <li xml:lang="fr">Correctifs pour les moteurs de lecture vidéo MPV, GStreamer et Xine</li>
           <li xml:lang="nl">Oplossingen voor de backends van MPV, GStreamer en Xine videospelers</li>
           <li xml:lang="pt-BR">Correções nos backends dos reprodutores de vídeo MPV, GStreamer e Xine</li>
@@ -1778,6 +1862,7 @@
           <li xml:lang="ar">تمرير الشكل الموجي قابل للضبط</li>
           <li xml:lang="ca">El desplaçament de la forma d'ona és configurable</li>
           <li xml:lang="ca-valencia">El desplaçament de la forma d'ona és configurable</li>
+          <li xml:lang="fi">aaltomuotovieritys on asetettavissa</li>
           <li xml:lang="fr">Le défilement de la forme d'onde est maintenant configurable.</li>
           <li xml:lang="nl">Schuiven van golfvorm is te configureren</li>
           <li xml:lang="pt-BR">A rolagem da forma de onda é configurável</li>
@@ -1790,6 +1875,7 @@
           <li xml:lang="ar">نماذج لغة PocketSphinx و VAD قابلة للضبط</li>
           <li xml:lang="ca">Els models de llenguatge PocketSphinx i VAD són configurables</li>
           <li xml:lang="ca-valencia">Els models de llenguatge PocketSphinx i VAD són configurables</li>
+          <li xml:lang="fi">PocketSphix-kielimallit ja VAD nyt asetettavissa</li>
           <li xml:lang="fr">Les modèles de langue PocketSphinx et VAD deviennent configurables.</li>
           <li xml:lang="nl">De taalmodellen en VAD van PocketSphinx zijn te configureren.</li>
           <li xml:lang="pt-BR">Os modelos de linguagem e o VAD do PocketSphinx são configuráveis</li>
@@ -1802,6 +1888,7 @@
           <li xml:lang="ar">أُضيف إجراء إظهار شريط الحالة إلى القائمة المنبثقة للنافذة الرئيسة</li>
           <li xml:lang="ca">S'ha afegit l'acció de mostrar la barra d'estat al menú emergent de la finestra principal</li>
           <li xml:lang="ca-valencia">S'ha afegit l'acció de mostrar la barra d'estat al menú emergent de la finestra principal</li>
+          <li xml:lang="fi">lisätty pääikkunan ponnahdusvalikkoon ”Näytä tilarivi” -toiminto</li>
           <li xml:lang="fr">Ajout de l'action « Afficher la barre d'état » au menu contextuel de la fenêtre principale</li>
           <li xml:lang="nl">De actie 'Statusbalk weergeven' is toegevoegd aan het pop-up-menu van het hoofdvenster</li>
           <li xml:lang="pt-BR">Adicionada ação para exibir a barra de status ao menu pop-up da janela principal</li>
@@ -1815,6 +1902,7 @@
           <li xml:lang="ca">Millora del rendiment (creació de scripts)</li>
           <li xml:lang="ca-valencia">Millora del rendiment (creació de scripts)</li>
           <li xml:lang="es">Se ha mejorado el rendimiento de los guiones.</li>
+          <li xml:lang="fi">parannettu (skriptaus-) suorituskyky</li>
           <li xml:lang="fr">Amélioration  de performance (Pour les scripts)</li>
           <li xml:lang="nl">Verbeterde (scripting) prestaties</li>
           <li xml:lang="pt-BR">Melhoria de performance (scripting)</li>
@@ -1827,6 +1915,7 @@
           <li xml:lang="ar">سيستخدم مدقق الإملاء نص الترجمة عند اختياره</li>
           <li xml:lang="ca">El corrector ortogràfic utilitzarà el text de traducció quan estigui seleccionat</li>
           <li xml:lang="ca-valencia">El corrector ortogràfic utilitzarà el text de traducció quan estiga seleccionat</li>
+          <li xml:lang="fi">oikeinkirjoituksen tarkistus käyttää käännöstekstiä, kun se on valittu</li>
           <li xml:lang="fr">Le correcteur orthographique utilisera le texte traduit lorsqu'il est sélectionné</li>
           <li xml:lang="nl">De spellingscontrole gebruikt de vertaaltekst wanneer deze is geselecteerd</li>
           <li xml:lang="pt-BR">O corretor ortográfico usará o texto traduzido quando esta opção for selecionada</li>
@@ -1839,6 +1928,7 @@
           <li xml:lang="ar">يمكن إخفاء أرصفة الشكل الموجي والفيديو</li>
           <li xml:lang="ca">Els acobladors de forma d'ona i de vídeo es poden ocultar</li>
           <li xml:lang="ca-valencia">Els acobladors de forma d'ona i de vídeo es poden ocultar</li>
+          <li xml:lang="fi">aaltomuoto- ja videotelakat voi piilottaa</li>
           <li xml:lang="fr">Les formes d'onde et les panneaux vidéo peuvent désormais être masqués.</li>
           <li xml:lang="nl">Golfvorm- en videovastzetters kunnen worden verborgen</li>
           <li xml:lang="pt-BR">Os painéis de forma de onda e vídeo podem ser ocultados</li>
@@ -1851,6 +1941,7 @@
           <li xml:lang="ar">تقسيم الأسطر لن يقسم النص عند المسافات عندما تتوفر أسطر متعددة</li>
           <li xml:lang="ca">Les línies dividides no dividiran el text en espais mentre hi hagi línies múltiples</li>
           <li xml:lang="ca-valencia">Les línies dividides no dividiran el text en espais mentre hi haja línies múltiples</li>
+          <li xml:lang="fi">rivien jako ei jaa tekstiä välilyönneistä, kun on useampia rivejä</li>
           <li xml:lang="fr">La fonction de séparation de lignes ne divise pas le texte sur les espaces lorsqu'il y a plusieurs lignes</li>
           <li xml:lang="nl">Bij het splitsen van regels wordt tekst niet op spaties gesplitst als er meerdere regels zijn.</li>
           <li xml:lang="pt-BR">A opção "Dividir linhas" não dividirá o texto em espaços quando houver várias linhas</li>
@@ -1863,6 +1954,7 @@
           <li xml:lang="ar">ستظل أسطر الترجمة مرتبة حسب وقتها دائمًا</li>
           <li xml:lang="ca">Les línies de subtítols sempre estaran ordenades pel seu temps</li>
           <li xml:lang="ca-valencia">Les línies de subtítols sempre estaran ordenades pel seu temps</li>
+          <li xml:lang="fi">tekstitysrivit pysyvät aina aikansa mukaisessa järjestyksessä</li>
           <li xml:lang="fr">Les lignes de sous-titres resteront toujours triées par leur datation</li>
           <li xml:lang="nl">Ondertitelregels blijven altijd gesorteerd op tijdstempel</li>
           <li xml:lang="pt-BR">As legendas permanecerão sempre organizadas por ordem cronológica</li>
@@ -1876,6 +1968,7 @@
           <li xml:lang="ca">Reproductor de vídeo millorat a pantalla completa</li>
           <li xml:lang="ca-valencia">Reproductor de vídeo millorat a pantalla completa</li>
           <li xml:lang="es">Se ha mejorado la reproducción de vídeo a pantalla completa.</li>
+          <li xml:lang="fi">parannettu koko näytön videosoitinta</li>
           <li xml:lang="fr">Amélioration du lecteur vidéo en mode « Plein écran »</li>
           <li xml:lang="nl">Verbeterde videospeler voor volledig scherm</li>
           <li xml:lang="pt-BR">Reprodutor de vídeo em tela cheia aprimorado</li>
@@ -1888,6 +1981,7 @@
           <li xml:lang="ar">أُضيفت القدرة على التنقل بالإطار</li>
           <li xml:lang="ca">S'ha afegit la capacitat d'anar pas a pas per fotograma</li>
           <li xml:lang="ca-valencia">S'ha afegit la capacitat d'anar pas a pas per fotograma</li>
+          <li xml:lang="fi">lisätty mahdollisuus askeltamiseen kuva kuvalta</li>
           <li xml:lang="fr">Ajout de la possibilité d'avancer trame par trame</li>
           <li xml:lang="nl">Mogelijkheid toegevoegd om stap voor stap door het frame te navigeren</li>
           <li xml:lang="pt-BR">Adicionada a capacidade de navegar quadro a quadro</li>
@@ -1900,6 +1994,7 @@
           <li xml:lang="ar">أُضيفت عناصر التحكم في معدل التشغيل إلى قائمة الفيديو</li>
           <li xml:lang="ca">S'han afegit controls de velocitat de reproducció al menú de vídeo</li>
           <li xml:lang="ca-valencia">S'han afegit controls de velocitat de reproducció al menú de vídeo</li>
+          <li xml:lang="fi">lisätty videovalikkoon toistonopeussäätimet</li>
           <li xml:lang="fr">Ajout de contrôles de vitesse de lecture au menu vidéo</li>
           <li xml:lang="nl">Er zijn afspeelsnelheidsregelaars toegevoegd aan het videomenu</li>
           <li xml:lang="pt-BR">Adicionados controles de velocidade de reprodução ao menu de vídeo</li>
@@ -1913,6 +2008,7 @@
           <li xml:lang="ca">S'ha actualitzat la traducció al croat, gràcies @muzena</li>
           <li xml:lang="ca-valencia">S'ha actualitzat la traducció al croat, gràcies @muzena</li>
           <li xml:lang="es">Se ha actualizado la traducción al croata (gracias a @muzena)</li>
+          <li xml:lang="fi">päivitetty kroatiannos – kiitos @muzenan</li>
           <li xml:lang="fr">Mise à jour de la traduction en Croate - Merci à @muzena</li>
           <li xml:lang="nl">Bijgewerkte Kroatische vertaling - met dank aan @muzena</li>
           <li xml:lang="pt-BR">Tradução para o croata atualizada - obrigado @muzena</li>
@@ -1926,6 +2022,7 @@
           <li xml:lang="ca">S'ha actualitzat la traducció a l'italià, gràcies Luigi Toscano @tosky</li>
           <li xml:lang="ca-valencia">S'ha actualitzat la traducció a l'italià, gràcies Luigi Toscano @tosky</li>
           <li xml:lang="es">Se ha actualizado la traducción al italiano (gracias a Luigi Toscano @tosky)</li>
+          <li xml:lang="fi">päivitetty italiannos – kiitos Luigi Toscanon (@tosky)</li>
           <li xml:lang="fr">Mise à jour de la traduction pour l'Italienne - Merci à Luigi Toscano @tosky</li>
           <li xml:lang="nl">Bijgewerkte Italiaanse vertaling - met dank aan Luigi Toscano @tosky</li>
           <li xml:lang="pt-BR">Tradução para o italiano atualizada - obrigado Luigi Toscano @tosky</li>
@@ -1939,6 +2036,7 @@
           <li xml:lang="ca">S'ha actualitzat la traducció al rus, gràcies Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="ca-valencia">S'ha actualitzat la traducció al rus, gràcies Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="es">Se ha actualizado la traducción al ruso (gracias a Nick Shaforostoff @shaforostoff)</li>
+          <li xml:lang="fi">päivitetty venäjännös – kiitos Nick Shaforostoffin (@shaforostoff)</li>
           <li xml:lang="fr">Mise à jour de la traduction pour le Russe - Merci à Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="nl">Bijgewerkte Russische vertaling - met dank aan Nick Shaforostoff @shaforostoff</li>
           <li xml:lang="pt-BR">Tradução para o russo atualizada - obrigado Nick Shaforostoff @shaforostoff</li>
@@ -1957,6 +2055,7 @@
           <li xml:lang="ar">أُصلحت مرشحات مربع حوار فتح الفيديو</li>
           <li xml:lang="ca">S'han corregit els filtres del diàleg d'obertura de vídeo</li>
           <li xml:lang="ca-valencia">S'han corregit els filtres del diàleg d'obertura de vídeo</li>
+          <li xml:lang="fi">korjattu videon avausikkunan suodattimet</li>
           <li xml:lang="fr">Correction des filtres ouverts de la boîte de dialogue vidéo</li>
           <li xml:lang="nl">Gerepareerd filters voor het openen van videodialoogvensters</li>
           <li xml:lang="pt-BR">Correção dos filtros de diálogo de vídeo aberto</li>
@@ -1969,6 +2068,7 @@
           <li xml:lang="ar">أُصلح "إدراج سطر" في الشكل الموجي الذي يضيف في فهرس خاطئ - شكرًا @qsniyg</li>
           <li xml:lang="ca">S'ha corregit «Insereix la línia» en afegir una forma d'ona a un índex incorrecte, gràcies @qsniyg</li>
           <li xml:lang="ca-valencia">S'ha corregit «Inserix la línia» en afegir una forma d'ona a un índex incorrecte, gràcies @qsniyg</li>
+          <li xml:lang="fi">korjattu se, että ”Lisää rivi” aaltomuodossa lisäsi väärään kohtaan – kiitos @qsniyg</li>
           <li xml:lang="fr">Correction de « Insertion de ligne » sur la forme d’onde qui s'ajoutait à l’indice incorrect - Merci à @qsniyg</li>
           <li xml:lang="nl">Het probleem met "Regel invoegen" op de golfvorm, dat op de verkeerde index werd toegevoegd, is opgelost - dank aan @qsniyg</li>
           <li xml:lang="pt-BR">Corrigido o problema com a opção "Inserir linha" na forma de onda, que estava sendo adicionada no índice errado - obrigado @qsniyg</li>
@@ -1981,6 +2081,7 @@
           <li xml:lang="ar">أُضيفت ميزة التقديم والتأخير عبر الزر الأوسط للفأرة على الشكل الموجي - شكرًا @qsniyg</li>
           <li xml:lang="ca">S'ha afegit la cerca del MMB en forma d'ona, gràcies @qsniyg</li>
           <li xml:lang="ca-valencia">S'ha afegit la busca del MMB en forma d'ona, gràcies @qsniyg</li>
+          <li xml:lang="fi">lisätty aaltomuotoon MMB-kelaus – kiitos @qsniyg</li>
           <li xml:lang="fr">Ajout de la recherche « MMB » sur la forme d'onde - Merci à @qsniyg</li>
           <li xml:lang="nl">MMB-zoekfunctie toegevoegd aan de golfvorm - bedankt @qsniyg</li>
           <li xml:lang="pt-BR">Adicionada busca por MMB na forma de onda - obrigado @qsniyg</li>
@@ -1993,6 +2094,7 @@
           <li xml:lang="ar">أُصلحت بعض مشكلات التجميع</li>
           <li xml:lang="ca">S'han corregit alguns problemes de compilació</li>
           <li xml:lang="ca-valencia">S'han corregit alguns problemes de compilació</li>
+          <li xml:lang="fi">korjattu joitakin kääntämisongelmia</li>
           <li xml:lang="fr">Correction de certains problèmes de compilation</li>
           <li xml:lang="it">Correzione di alcuni errori di compilazione</li>
           <li xml:lang="nl">Enkele compilatieproblemen opgelost</li>
@@ -2007,6 +2109,7 @@
           <li xml:lang="ca">Traduccions actualitzades, gràcies @gogogogi, @muzena</li>
           <li xml:lang="ca-valencia">Traduccions actualitzades, gràcies @gogogogi, @muzena</li>
           <li xml:lang="es">Se han actualizado las traducciones (gracias a @gogogogi y @muzena)</li>
+          <li xml:lang="fi">päivitetty käännöksiä – kiitos @gogogogin ja @muzenan</li>
           <li xml:lang="fr">Mise à jour de traductions - Merci @gogogogi, @muzena</li>
           <li xml:lang="it">Aggiornamento delle traduzioni - grazie a @gogogogi, @muzena</li>
           <li xml:lang="nl">Bijgewerkte vertalingen - dank aan @gogogogi en @muzena</li>
@@ -2020,6 +2123,7 @@
           <li xml:lang="ar">أُصلح vobsub عند الفتح من ملف فيديو واسم ملف خبيئة الرموز</li>
           <li xml:lang="ca">S'ha corregit el vobsub en obrir des del fitxer de vídeo i el nom de fitxer de la memòria cau de símbols</li>
           <li xml:lang="ca-valencia">S'ha corregit el vobsub en obrir des del fitxer de vídeo i el nom de fitxer de la memòria cau de símbols</li>
+          <li xml:lang="fi">korjattu vobsub avattaessa videotiedostoa ja symbolivälimuistin tiedostonimeä</li>
           <li xml:lang="fr">Correction de Vobsub lors de l'ouverture à partir d'un fichier vidéo et d'un nom de fichier du cache de symboles</li>
           <li xml:lang="nl">Vobsub is gecorrigeerd bij het openen vanuit een videobestand en de bestandsnaam van de symboolcache</li>
           <li xml:lang="pt-BR">Correção do problema com o VOBSub ao abrir arquivos de vídeo e nomes de arquivos de cache de símbolos</li>
@@ -2032,6 +2136,7 @@
           <li xml:lang="ar">أُصلحت أوقات تحميل الترجمة للملفات الضخمة</li>
           <li xml:lang="ca">S'han corregit el temps de càrrega dels subtítols de fitxers enormes</li>
           <li xml:lang="ca-valencia">S'han corregit el temps de càrrega dels subtítols de fitxers enormes</li>
+          <li xml:lang="fi">korjattu valtavien tiedostojen tekstityksen latausaikoja</li>
           <li xml:lang="fr">Correction du temps de chargement des sous-titres pour les gros fichiers</li>
           <li xml:lang="it">Correzione dei tempi di caricamento dei sottotitoli di file grandi</li>
           <li xml:lang="nl">De laadtijden van ondertitels bij grote bestanden zijn verbeterd</li>
@@ -2046,6 +2151,7 @@
           <li xml:lang="ca">S'ha millorat la detecció de text del vobsub</li>
           <li xml:lang="ca-valencia">S'ha millorat la detecció de text del vobsub</li>
           <li xml:lang="es">Se ha mejorado la detección de texto vobsub.</li>
+          <li xml:lang="fi">parannettu vobsub-tekstin havaitsemista</li>
           <li xml:lang="fr">Amélioration de la détection de texte « vobsub »</li>
           <li xml:lang="nl">Verbeterde vobsub-tekstdetectie</li>
           <li xml:lang="pt-BR">Detecção de texto vobsub aprimorada</li>
@@ -2058,6 +2164,7 @@
           <li xml:lang="ar">أُصلح تحليل نص ASS الغني عند إجراء استيراد دفق الترجمة</li>
           <li xml:lang="ca">S'ha corregit l'anàlisi de text enriquit ASS en l'acció d'importació de flux de subtítols</li>
           <li xml:lang="ca-valencia">S'ha corregit l'anàlisi de text enriquit ASS en l'acció d'importació de flux de subtítols</li>
+          <li xml:lang="fi">korjattu muotoillun ASS-tekstin jäsennys tekstitysvirran tuontitoiminnossa</li>
           <li xml:lang="fr">Correction de l'analyse du texte enrichi « ASS » lors de l'importation d'un flux de sous-titres</li>
           <li xml:lang="nl">Correctie van de ASS ontleding van tekst bij het importeren van ondertitelstreams.</li>
           <li xml:lang="pt-BR">Correção na análise de texto formatado ASS na ação de importação de fluxo de legendas</li>
@@ -2070,6 +2177,7 @@
           <li xml:lang="ar">استُبدل كود استيراد mplayer vobsub المليء بالعلل بـ ffmpeg</li>
           <li xml:lang="ca">S'ha reemplaçat el codi d'importació del vobsub mplayer erroni amb ffmpeg</li>
           <li xml:lang="ca-valencia">S'ha reemplaçat el codi d'importació del vobsub mplayer erroni amb ffmpeg</li>
+          <li xml:lang="fi">korvattu viallinen mplayerin vobsub-tuontikoodi FFmpegillä</li>
           <li xml:lang="fr">Remplacement du code d'importation pour Vobsub défectueux de mplayer par celui de FFmpeg</li>
           <li xml:lang="nl">De foutieve mplayer vobsub-importcode is vervangen door ffmpeg</li>
           <li xml:lang="pt-BR">Substituído o código de importação vobsub com bugs do mplayer pelo do ffmpeg</li>
@@ -2082,6 +2190,7 @@
           <li xml:lang="ar">أُصلحت تسريبات/استهلاك الذاكرة في حركة تمرير WaveformWidget</li>
           <li xml:lang="ca">S'han corregit les fuites de memòria/ús de l'animació de desplaçament del WaveformWidget</li>
           <li xml:lang="ca-valencia">S'han corregit les fuites de memòria/ús de l'animació de desplaçament del WaveformWidget</li>
+          <li xml:lang="fi">korjattu WaveformWidgetin vieritysanimaation muistivuodot/muistinkäyttö</li>
           <li xml:lang="fr">Correction des fuites de mémoire/ utilisation de l'animation de défilement du composant graphique de forme d'onde</li>
           <li xml:lang="nl">Geheugenlekken/gebruik van de schuifanimatie van WaveformWidget zijn verholpen</li>
           <li xml:lang="pt-BR">Corrigidos vazamentos de memória/uso da animação de rolagem do WaveformWidget</li>
@@ -2094,6 +2203,7 @@
           <li xml:lang="ar">حُسّن إجراء استيراد دفق الترجمة من الفيديو</li>
           <li xml:lang="ca">S'ha optimitzat la importació d'un flux de subtítols des de l'acció de vídeo</li>
           <li xml:lang="ca-valencia">S'ha optimitzat la importació d'un flux de subtítols des de l'acció de vídeo</li>
+          <li xml:lang="fi">optimoitu tekstitysvirran tuontia videotoiminnossa</li>
           <li xml:lang="fr">Flux optimisé d'importation de sous-titres importé depuis l'action vidéo</li>
           <li xml:lang="nl">Geoptimaliseerde import van ondertitelstream vanuit videoactie</li>
           <li xml:lang="pt-BR">Importação otimizada do fluxo de legendas a partir da ação de vídeo</li>
@@ -2106,6 +2216,7 @@
           <li xml:lang="ar">استُبدل gstreamer بمكتبات ffmpeg في استخدام نواة التطبيق</li>
           <li xml:lang="ca">S'ha reemplaçat el gstreamer per les biblioteques ffmpeg en l'ús del nucli de l'aplicació</li>
           <li xml:lang="ca-valencia">S'ha reemplaçat el gstreamer per les biblioteques ffmpeg en l'ús del nucli de l'aplicació</li>
+          <li xml:lang="fi">korvattu GStreamer FFmpeg-kirjastoilla sovelluksen ydinkäytössä</li>
           <li xml:lang="fr">Remplacement de GStreamer par les bibliothèques FFmpeg dans l'utilisation du cœur de l'application</li>
           <li xml:lang="nl">De gstreamer-bibliotheek is in de kern van de toepassing vervangen door de ffmpeg-bibliotheek</li>
           <li xml:lang="pt-BR">Substituídas as bibliotecas gstreamer pelas bibliotecas ffmpeg no uso principal do aplicativo</li>
@@ -2118,6 +2229,7 @@
           <li xml:lang="ar">أُضيف زر إجهاض للتعرف على الكلام</li>
           <li xml:lang="ca">S'ha afegit el botó d'interrompre al reconeixement de veu</li>
           <li xml:lang="ca-valencia">S'ha afegit el botó d'interrompre al reconeixement de veu</li>
+          <li xml:lang="fi">lisätty puheentunnistukseen pysäytyspainike</li>
           <li xml:lang="fr">Ajout du bouton d'annulation à la reconnaissance vocale</li>
           <li xml:lang="nl">Afbreekknop toegevoegd aan spraakherkenning</li>
           <li xml:lang="pt-BR">Adicionado botão de cancelar o reconhecimento de voz</li>
@@ -2130,6 +2242,7 @@
           <li xml:lang="ar">تمرير ناعم للشكل الموجي</li>
           <li xml:lang="ca">Desplaçament suau de la forma d'ona</li>
           <li xml:lang="ca-valencia">Desplaçament suau de la forma d'ona</li>
+          <li xml:lang="fi">aaltomuodon pehmeä vieritys</li>
           <li xml:lang="fr">Défilement fluide de la forme d'onde</li>
           <li xml:lang="nl">Vloeiend schuiven van golfvorm</li>
           <li xml:lang="pt-BR">Rolagem suave na forma de onda</li>
@@ -2142,6 +2255,7 @@
           <li xml:lang="ar">أُضيفت إجراءات دمج/تقسيم الأسطر إلى قائمة سياق الشكل الموجي</li>
           <li xml:lang="ca">S'han afegit les accions uneix/divideix les línies al menú contextual de la forma d'ona</li>
           <li xml:lang="ca-valencia">S'han afegit les accions unix/dividix les línies al menú contextual de la forma d'ona</li>
+          <li xml:lang="fi">lisätty aaltomuodon kontekstivalikkoon rivien yhdistämis/jakotoimenpiteet</li>
           <li xml:lang="fr">Ajout des actions de fusion / division de lignes au menu contextuel de forme d'onde</li>
           <li xml:lang="nl">Acties voor het samenvoegen/splitsen van regels toegevoegd aan het contextmenu van de golfvorm</li>
           <li xml:lang="pt-BR">Adicionadas ações de unir/dividir linhas ao menu de contexto da forma de onda</li>
@@ -2154,6 +2268,7 @@
           <li xml:lang="ar">أُصلحت بعض الانهيارات وتسريبات الذاكرة ونُظف الكود بشكل عام</li>
           <li xml:lang="ca">S'han corregit algunes fallades, fuites de memòria i neteges generals de codi</li>
           <li xml:lang="ca-valencia">S'han corregit algunes fallades, fuites de memòria i neteges generals de codi</li>
+          <li xml:lang="fi">korjattu joitakin kaatumisia, muistivuotoja ja tehty yleistä koodin siivousta</li>
           <li xml:lang="fr">Correction de quelques plantages, fuites de mémoire et nettoyage général du code</li>
           <li xml:lang="nl">Diverse crashes, geheugenlekken en algemene opschoning van code zijn gedaan</li>
           <li xml:lang="pt-BR">Corrigidas algumas falhas, vazamentos de memória, além de uma limpeza geral do código</li>
@@ -2166,6 +2281,7 @@
           <li xml:lang="ar">نُظفت ودجة الإعدادات والنصوص</li>
           <li xml:lang="ca">S'han netejat els ginys i els textos de configuració</li>
           <li xml:lang="ca-valencia">S'han netejat els ginys i els textos de configuració</li>
+          <li xml:lang="fi">siistitty asetusalkiota ja -tekstejä</li>
           <li xml:lang="fr">Nettoyage du composant graphique de configuration et de texte</li>
           <li xml:lang="nl">Het instellingenwidget en teksten zijn opgeschoond</li>
           <li xml:lang="pt-BR">Widget de configurações e textos foram revisados</li>
@@ -2185,6 +2301,7 @@
           <li xml:lang="ca">Afegeix: s'ha afegit la implementació per als formats binaris de subtítols</li>
           <li xml:lang="ca-valencia">Afig: s'ha afegit la implementació per als formats binaris de subtítols</li>
           <li xml:lang="es">Se ha añadido compatibilidad con los formatos de subtítulos binarios.</li>
+          <li xml:lang="fi">LISÄTTY: lisätty binaaritekstitysmuotojen tuki</li>
           <li xml:lang="fr">AJOUT : ajout de la prise en charge pour les formats de sous-titres binaires</li>
           <li xml:lang="nl">TOEGEVOEGD: Ondersteuning voor binaire ondertitelformaten toegevoegd</li>
           <li xml:lang="pt-BR">ADICIONADO: Adicionado suporte para formatos de legenda binários</li>
@@ -2198,6 +2315,7 @@
           <li xml:lang="ca">Afegeix: velocitat de reproducció de vídeo amb control fi</li>
           <li xml:lang="ca-valencia">Afig: velocitat de reproducció de vídeo amb control fi</li>
           <li xml:lang="es">Control preciso de la velocidad de reproducción de vídeo.</li>
+          <li xml:lang="fi">LISÄTTY: tarkempi videotoistonopeuden kontrolli</li>
           <li xml:lang="fr">AJOUT : contrôle précis de la vitesse de lecture vidéo</li>
           <li xml:lang="nl">TOEVOEGEN: nauwkeurige regeling van de afspeelsnelheid van video's</li>
           <li xml:lang="pt-BR">ADICIONADO: controle preciso da velocidade de reprodução de vídeo</li>
@@ -2211,6 +2329,7 @@
           <li xml:lang="ca">Afegeix: controls de la velocitat de reproducció de vídeo</li>
           <li xml:lang="ca-valencia">Afig: controls de la velocitat de reproducció de vídeo</li>
           <li xml:lang="es">Controles para la velocidad de reproducción de vídeo.</li>
+          <li xml:lang="fi">LISÄTTY: videotoistonopeuden säätimet</li>
           <li xml:lang="fr">AJOUT : contrôles pour la vitesse de lecture vidéo</li>
           <li xml:lang="nl">TOEVOEGEN: bedieningselementen voor de afspeelsnelheid van video's</li>
           <li xml:lang="pt-BR">ADICIONADO: controles para velocidade de reprodução de vídeo</li>
@@ -2224,6 +2343,7 @@
           <li xml:lang="ca">Modificació: millores d'àudio del dorsal GStreamer.</li>
           <li xml:lang="ca-valencia">Modificació: millores d'àudio del dorsal GStreamer.</li>
           <li xml:lang="es">Mejoras de sonido del motor GStreamer.</li>
+          <li xml:lang="fi">MUUTOS: GStreamer-taustajärjestelmän äänen parannuksia</li>
           <li xml:lang="fr">MODIFICATION : améliorations de l'audio avec le moteur GStreamer.</li>
           <li xml:lang="nl">GEWIJZIGD: audioverbeteringen aan de gstreamer-backend.</li>
           <li xml:lang="pt-BR">MODIFICADO: Melhorias no backend de áudio do GStreamer</li>
@@ -2237,6 +2357,7 @@
           <li xml:lang="ca">Modificació: mou les accions de vídeo obertes al menú de fitxer</li>
           <li xml:lang="ca-valencia">Modificació: mou les accions de vídeo obertes al menú de fitxer</li>
           <li xml:lang="es">Las acciones de apertura de vídeo se han movido al menú Archivo.</li>
+          <li xml:lang="fi">MUUTOS: siirretty videonavaustoiminnot Tiedosto-valikkoon</li>
           <li xml:lang="fr">MODIFICATION : déplacement des actions de lecture vidéo dans le menu « Fichier »</li>
           <li xml:lang="nl">GEWIJZIGD: acties voor het openen van video's verplaatst naar het menu Bestand</li>
           <li xml:lang="pt-BR">MODIFICADO: As ações de abrir vídeo foram movidas para o menu Arquivo</li>
@@ -2250,6 +2371,7 @@
           <li xml:lang="ca">Modificació: anàlisi més tolerant dels subtítols SubRip</li>
           <li xml:lang="ca-valencia">Modificació: anàlisi més tolerant dels subtítols SubRip</li>
           <li xml:lang="es">Análisis más tolerante de subtítulos SubRip.</li>
+          <li xml:lang="fi">MUUTOS: sietokykyisempi SubRip-tekstityksen jäsennys</li>
           <li xml:lang="fr">MODIFICATION : analyse plus tolérante des sous-titres de SubRip</li>
           <li xml:lang="nl">GEWIJZIGD: tolerantere verwerking van SubRip-ondertitels</li>
           <li xml:lang="pt-BR">MODIFICADO: Análise mais tolerante de legendas SubRip</li>
@@ -2263,6 +2385,7 @@
           <li xml:lang="ca">Modificació: ordre millorada de línies dividides</li>
           <li xml:lang="ca-valencia">Modificació: ordre millorada de línies dividides</li>
           <li xml:lang="es">Se ha mejorado la orden de división de líneas.</li>
+          <li xml:lang="fi">MUUTOS: parannettu rivien jakokomentoa</li>
           <li xml:lang="fr">MOD : amélioration de la commande de division de lignes</li>
           <li xml:lang="nl">GEWIJZIGD: verbeterde opdracht voor het splitsen van regels</li>
           <li xml:lang="pt-BR">MODIFICADO: Comando de linhas divididas aprimorado</li>
@@ -2276,6 +2399,7 @@
           <li xml:lang="ca">Modificació: traducció actualitzada al txec, gràcies @goliashcz</li>
           <li xml:lang="ca-valencia">Modificació: traducció actualitzada al txec, gràcies @goliashcz</li>
           <li xml:lang="es">Se ha actualizado la traducción al checo (gracias a @goliashcz)</li>
+          <li xml:lang="fi">MUUTOS: päivitetty tšekinnös – kiitos @goliashcz:n</li>
           <li xml:lang="fr">MODIFICATION : mise à jour de la traduction en Tchèque - Merci à @goliashcz</li>
           <li xml:lang="nl">GEWIJZIGD: Tsjechische vertaling bijgewerkt - dank aan @goliashcz</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para tcheco atualizada - obrigado @goliashcz</li>
@@ -2289,6 +2413,7 @@
           <li xml:lang="ca">Modificació: traduccions actualitzades al croat, gràcies @muzena</li>
           <li xml:lang="ca-valencia">Modificació: traduccions actualitzades al croat, gràcies @muzena</li>
           <li xml:lang="es">Se ha actualizado la traducción al croata (gracias a @muzena)</li>
+          <li xml:lang="fi">MUUTOS: päivitetty kroatiannos – kiitos @muzenan</li>
           <li xml:lang="fr">MODIFICATION : mise à jour de la traduction en Croates - Merci à @muzena</li>
           <li xml:lang="nl">GEWIJZIGD: Kroatische vertalingen bijgewerkt - dank aan @muzena</li>
           <li xml:lang="pt-BR">MODIFICADO: Tradução para croata atualizada - obrigado @muzena</li>
@@ -2301,6 +2426,7 @@
           <li xml:lang="ar">إصلاح: تحسينات في سحب وسرعة ودجة الشكل الموجي، وأُصلح طفح المخزن المؤقت</li>
           <li xml:lang="ca">Correcció: arrossegament i millora de la velocitat del giny de forma d'ona, corregit un desbordament de memòria intermèdia</li>
           <li xml:lang="ca-valencia">Esmena: arrossegament i millora de la velocitat del giny de forma d'ona, corregit un desbordament de memòria intermèdia</li>
+          <li xml:lang="fi">KORJATTU: aaltomuotoalkion vetämisen ja nopeuden parannuksia, korjattu puskurin ylivuoto</li>
           <li xml:lang="fr">CORRECTIF : améliorations du glisser et de la vitesse du composant graphique de forme d’onde, correction du débordement de tampon mémoire</li>
           <li xml:lang="nl">OPGELOST: verbeteringen in het slepen en de snelheid van het Waveform-widget, bufferoverloop verholpen</li>
           <li xml:lang="pt-BR">CORREÇÃO: Melhorias no arrastar e a velocidade do widget de forma de onda, correção de estouro de buffer</li>
@@ -2313,6 +2439,7 @@
           <li xml:lang="ar">إصلاح: WaveformWidget: التصغير لم يكن يعمل في الأفلام التي لا تحتوي على صوت</li>
           <li xml:lang="ca">Correcció: WaveformWidget: el zoom no funcionava en pel·lícules sense àudio</li>
           <li xml:lang="ca-valencia">Esmena: WaveformWidget: el zoom no funcionava en pel·lícules sense àudio</li>
+          <li xml:lang="fi">KORJATTU: WaveformWidget: loitonnus ei toiminut äänettömissä videoissa</li>
           <li xml:lang="fr">CORRECTION : composant graphique de forme d'onde : le zoom arrière ne fonctionnait pas sur les vidéos sans audio</li>
           <li xml:lang="nl">OPGELOST: WaveformWidget: uitzoomen werkte niet bij films zonder geluid</li>
           <li xml:lang="pt-BR">CORREÇÃO: WaveformWidget: o zoom out não estava funcionando em vídeos sem áudio</li>
@@ -2325,6 +2452,7 @@
           <li xml:lang="ar">إصلاح: أُصلحت الحالات التي ينتهي فيها وقت إخفاء الترجمة قبل وقت إظهارها</li>
           <li xml:lang="ca">Correcció: s'han corregit els casos en què el temps d'ocultació dels subtítols acabaria abans del temps de visualització</li>
           <li xml:lang="ca-valencia">Esmena: s'han corregit els casos en què el temps d'ocultació dels subtítols acabaria abans del temps de visualització</li>
+          <li xml:lang="fi">KORJATUS: korjattu tapauksia, joissa tekstityksen piilotusaika päätyi osumaan ennen näyttöaikaa</li>
           <li xml:lang="fr">CORRECTIF : correction des cas où l’heure de disparition des sous-titres se retrouvait avant l’heure d’affichage</li>
           <li xml:lang="nl">OPGELOST: er is een probleem opgelost waarbij het verbergen van de ondertitels vóór het weergeven ervan plaatsvond</li>
           <li xml:lang="pt-BR">CORREÇÃO: Corrigidos os casos em que o tempo de ocultação das legendas terminava antes do início da exibição</li>
@@ -2338,6 +2466,7 @@
           <li xml:lang="ca">Correcció: menús contextuals millorats</li>
           <li xml:lang="ca-valencia">Esmena: menús contextuals millorats</li>
           <li xml:lang="es">Se han mejorado los menús de contexto.</li>
+          <li xml:lang="fi">KORJATTU: parannetut kontekstivalikot</li>
           <li xml:lang="fr">CORRECTION : amélioration des menus contextuels</li>
           <li xml:lang="nl">OPGELOST: verbeterde contextmenu's</li>
           <li xml:lang="pt-BR">CORREÇÃO: Menus de contexto aprimorados</li>
@@ -2350,6 +2479,7 @@
           <li xml:lang="ar">إصلاح: أُصلح تحريك الأسطر المرفقة بمراسي</li>
           <li xml:lang="ca">Correcció: corregit el moviment de les línies ancorades</li>
           <li xml:lang="ca-valencia">Esmena: corregit el moviment de les línies ancorades</li>
+          <li xml:lang="fi">KORJATTU: korjattu ankkuroitujen rivien siirtäminen</li>
           <li xml:lang="fr">CORRECTIF : correction du déplacement des lignes ancrées</li>
           <li xml:lang="nl">OPGELOST: het verschuiven van verankerde regels is verholpen</li>
           <li xml:lang="pt-BR">CORREÇÃO: Correção do deslocamento das linhas ancoradas</li>
@@ -2362,6 +2492,7 @@
           <li xml:lang="ar">إصلاح: فتح الترجمة لم يكن يحمل الفيديو آليًا في بعض الحالات</li>
           <li xml:lang="ca">Correcció: en alguns casos, obrir el subtítol no carregaria automàticament el vídeo</li>
           <li xml:lang="ca-valencia">Esmena: en alguns casos, obrir el subtítol no carregaria automàticament el vídeo</li>
+          <li xml:lang="fi">KORJATTU: tekstityksen avaaminen ei joskus ladannut automaattisesti videota</li>
           <li xml:lang="fr">CORRECTIF : l'ouverture des sous-titres ne se chargeaient pas automatiquement dans certaines vidéos</li>
           <li xml:lang="nl">OPGELOST: in sommige gevallen werd de video niet automatisch geladen bij het openen van de ondertiteling</li>
           <li xml:lang="pt-BR">CORREÇÃO: A opção "Abrir legenda" não carregava o vídeo automaticamente em alguns casos</li>
@@ -2374,6 +2505,7 @@
           <li xml:lang="ar">إصلاح: فتح الفيديو يشمل الآن امتدادات .divx و .webm</li>
           <li xml:lang="ca">Correcció: ara l'obertura de vídeo inclou les extensions .divx i .webm</li>
           <li xml:lang="ca-valencia">Esmena: ara l'obertura de vídeo inclou les extensions .divx i .webm</li>
+          <li xml:lang="fi">KORJATTU: videon avaus ottaa nyt mukaan .divx- ja .webm-päätteet</li>
           <li xml:lang="fr">CORRECTIF : l'ouverture de vidéos inclut désormais les extensions « .divx » et « .webm »</li>
           <li xml:lang="nl">OPGELOST: openen van video ondersteunt nu de extensies .divx en .webm</li>
           <li xml:lang="pt-BR">CORREÇÃO: A função Abrir vídeo agora inclui as extensões .divx e .webm</li>
@@ -2386,6 +2518,7 @@
           <li xml:lang="ar">إصلاح: تُرشح برمجيات قائمة الأدوات بناءً على مفسرات kross المثبتة</li>
           <li xml:lang="ca">Correcció: els scripts del menú Eines es filtren en funció dels intèrprets instal·lats del kross</li>
           <li xml:lang="ca-valencia">Esmena: els scripts del menú Eines es filtren en funció dels intèrprets instal·lats del kross</li>
+          <li xml:lang="fi">KORJATTU: työkaluvalikon skriptit suodatetaan asennettujen kross-tulkkien perusteella</li>
           <li xml:lang="fr">CORRECTIF : les scripts du menu Outils sont filtrés en fonction des interprètes installés pour Kross</li>
           <li xml:lang="nl">REPARATIE: scripts voor hulpmiddelenmenu gefilterd gebaseerd op geïnstalleerde kross interpretators</li>
           <li xml:lang="pt-BR">CORREÇÃO: Os scripts do menu Ferramentas são filtrados com base nos interpretadores kross instalados</li>
@@ -2398,6 +2531,7 @@
           <li xml:lang="ar">إصلاح: نُقلت الأيقونات المخصصة إلى موقع أكثر قياسية، باستخدام QIcon::fromTheme()</li>
           <li xml:lang="ca">Correcció: s'han mogut les icones personalitzades a una ubicació més estàndard, utilitzant QIcon::fromTheme()</li>
           <li xml:lang="ca-valencia">Esmena: s'han mogut les icones personalitzades a una ubicació més estàndard, utilitzant QIcon::fromTheme()</li>
+          <li xml:lang="fi">KORJATTU: siirretty mukautetut kuvakkeen standardimpaan sijaintiin QIcon::fromtheme():n avulla</li>
           <li xml:lang="fr">CORRECTION : déplacement des icônes personnalisées vers un emplacement plus standard, en utilisant QIcon::fromTheme()</li>
           <li xml:lang="nl">REPARATIE: aangepaste pictogrammen verplaats naar meer standaard locatie, met gebruik van QIcon::fromTheme()</li>
           <li xml:lang="pt-BR">CORREÇÃO: Ícones personalizados foram movidos para um local mais padrão, usando QIcon::fromTheme()</li>
@@ -2410,6 +2544,7 @@
           <li xml:lang="ar">إصلاح: حقول ضبط فحص الأخطاء &gt; المدة المطلقة كانت تغير قيمًا غير صحيحة</li>
           <li xml:lang="ca">Correcció: error en comprovar &gt; els camps de configuració de la durada absoluta que estaven canviant valors incorrectes</li>
           <li xml:lang="ca-valencia">Esmena: error mentre es comprovava &gt; els camps de configuració de la duració absoluta que estaven canviant valors incorrectes</li>
+          <li xml:lang="fi">KORJATTU: virheentarkistus &gt; absoluuttisen keston asetuskentät muuttivat vääriä arvoja</li>
           <li xml:lang="fr">CORRECTION : les champs « Vérification d'erreur / Durée absolue » changeaient avec des valeurs incorrectes</li>
           <li xml:lang="nl">REPARATIE: foutcontrole &gt; absolute tijdsduur in configuratievelden zijn gewijzigd  in onjuiste waarden</li>
           <li xml:lang="pt-BR">CORREÇÃO: Verificação de erro &gt; os campos de configuração de duração absoluta estavam sendo alterados para valores incorretos</li>
@@ -2422,6 +2557,7 @@
           <li xml:lang="ar">إصلاح: محرك MPV: أُصلحت الخيارات المهجورة وحُدّثت أجهزة vo - شكرًا @luzfcb</li>
           <li xml:lang="ca">Correcció: Dorsal MPV: s'han corregit les opcions obsoletes, s'han actualitzat els dispositius vo, gràcies @luzfcb</li>
           <li xml:lang="ca-valencia">Esmena: Dorsal MPV: s'han corregit les opcions obsoletes, s'han actualitzat els dispositius vo, gràcies @luzfcb</li>
+          <li xml:lang="fi">KORJATTU: MPV-taustajärjestelmä: korjattu vanhentuneet valitsimet, päivitetty vo-laitteet – kiitos @luzfcb:n</li>
           <li xml:lang="fr">CORRECTION : moteur MPV : correction des options obsolètes, mise à jour des périphériques vo - Merci à @luzfcb</li>
           <li xml:lang="nl">REPARATIE: MPV-backend: gerepareerd afgekeurde opties, bijgewerkt op apparaten - dank aan @luzfcb</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: opções obsoletas corrigidas, dispositivos VO atualizados - obrigado @luzfcb</li>
@@ -2434,6 +2570,7 @@
           <li xml:lang="ar">إصلاح: صيرورة أفضل على الشاشات ذات الكثافة النقطية العالية</li>
           <li xml:lang="ca">Correcció: renderització millor en pantalles de PPP alts</li>
           <li xml:lang="ca-valencia">Esmena: renderització millor en pantalles de PPP alts</li>
+          <li xml:lang="fi">KORJATTU: parempi hahmonnus suuren tarkkuuden näytöillä</li>
           <li xml:lang="fr">CORRECTIF : meilleur rendu sur les écrans à haute résolution</li>
           <li xml:lang="nl">REPARATIE: betere rendering op hoge DPI-schermen</li>
           <li xml:lang="pt-BR">CORREÇÃO: melhor renderização em telas de alta DPI</li>
@@ -2446,6 +2583,7 @@
           <li xml:lang="ar">إصلاح: محرك MPV: معدل الإطارات/طول الفيديو لم يعد يُبلغ لصانع الترجمة</li>
           <li xml:lang="ca">Correcció: Dorsal MPV: la longitud de la freqüència de fotogrames/vídeo ja no s'informava a l'editor de subtítols</li>
           <li xml:lang="ca-valencia">Esmena: Dorsal MPV: la llargària de la freqüència de fotogrames/vídeo ja no s'informava a l'editor de subtítols</li>
+          <li xml:lang="fi">KORJATTU: MPV-taustajärjestelmä: kuvanopeutta/videon kestoa ei raportoitu enää tekstitystilalle</li>
           <li xml:lang="fr">CORRECTIF : moteur MPV : la fréquence d'images / la durée de la vidéo n'était plus transmise au compositeur de sous-titres</li>
           <li xml:lang="nl">REPARATIE: MPV-backend: framesnelheid/videolengte was niet meer gerapporteerd aan samensteller van ondertitel</li>
           <li xml:lang="pt-BR">CORREÇÃO: Backend MPV: a taxa de quadros/duração do vídeo não estava mais sendo informada ao compositor de legendas</li>
@@ -2458,6 +2596,7 @@
           <li xml:lang="ar">إصلاح: كشف/معالجة سطر التشغيل الحالي</li>
           <li xml:lang="ca">Correcció: detecció/gestió de la línia de reproducció actual</li>
           <li xml:lang="ca-valencia">Esmena: detecció/gestió de la línia de reproducció actual</li>
+          <li xml:lang="fi">KORJATTU: nykyisen toistokohdan havaitseminen/käsittely</li>
           <li xml:lang="fr">CORRECTIF : détection / gestion de la ligne en cours de lecture</li>
           <li xml:lang="nl">REPARATIE: detectie/behandeling van nu spelende regel</li>
           <li xml:lang="pt-BR">CORREÇÃO: detecção/gerenciamento da linha de reprodução atual</li>
@@ -2470,6 +2609,7 @@
           <li xml:lang="ar">إصلاح: تحليل النص الذي يحتوي على &lt;font&gt; بدون سمة اللون</li>
           <li xml:lang="ca">Correcció: anàlisi del text que conté &lt;font&gt; sense atribut de color</li>
           <li xml:lang="ca-valencia">Esmena: anàlisi del text que conté &lt;font&gt; sense atribut de color</li>
+          <li xml:lang="fi">KORJATTU: värimääritteettömän &lt;font&gt;-tunnisteen sisältävän tekstin jäsentäminen</li>
           <li xml:lang="fr">CORRECTION : analyse du texte contenant des étiquettes &lt;font&gt; sans attribut de couleur</li>
           <li xml:lang="nl">REPARATIE: ontleden van tekst die &lt;lettertype&gt; zonder kleur attribuut bevat</li>
           <li xml:lang="pt-BR">CORREÇÃO: Análise de texto contendo &lt;fonte&gt; sem atributo de cor</li>
@@ -2482,6 +2622,7 @@
           <li xml:lang="ar">إصلاح: التجميع بدون xine - شكرًا @pinotree</li>
           <li xml:lang="ca">Correcció: compilació sense xine, gràcies @pinotree</li>
           <li xml:lang="ca-valencia">Esmena: compilació sense xine, gràcies @pinotree</li>
+          <li xml:lang="fi">KORJATTU: kääntäminen ilman xineä – kiitos @pinotreen</li>
           <li xml:lang="fr">CORRECTION : compilation sans xine - Merci à @pinotree</li>
           <li xml:lang="it">Correzione: compilazione senze xine - grazie a @pinotree</li>
           <li xml:lang="nl">REPARATIE: compilatie zonder xine - dank aan @pinotree</li>
@@ -2495,6 +2636,7 @@
           <li xml:lang="ar">إصلاح: تحليل ASS - شكرًا @Martchus</li>
           <li xml:lang="ca">Correcció: anàlisi ASS, gràcies @Martchus</li>
           <li xml:lang="ca-valencia">Esmena: anàlisi ASS, gràcies @Martchus</li>
+          <li xml:lang="fi">KORJATTU: ASS-jäsentäminen – kiitos @Martchusin</li>
           <li xml:lang="fr">CORRECTION : analyse du format « ASS » - Merci à @Martchus</li>
           <li xml:lang="it">Correzione: parsing di file ASS - grazie a @Martchus</li>
           <li xml:lang="nl">REPARATIE: ASS ontleding - dank aan @Martchus</li>
