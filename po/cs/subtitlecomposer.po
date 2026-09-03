@@ -7,21 +7,22 @@
 # Petr Gadula <pgadula@vendavo.com>, 2016.
 # SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025, 2026 Vit Pelcak <vit@pelcak.org>
 # SPDX-FileCopyrightText: 2026 Libor Filípek <filipek.libor@protonmail.com>
+# SPDX-FileCopyrightText: 2026 Libor Filipek <libor.filipek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 09:00+0000\n"
-"PO-Revision-Date: 2026-06-21 23:48+0200\n"
-"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
+"PO-Revision-Date: 2026-09-02 18:59+0200\n"
+"Last-Translator: Libor Filipek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.08.0\n"
 "X-Crowdin-Project: subtitlecomposer\n"
 "X-Crowdin-Language: cs\n"
 "X-Crowdin-File: subtitlecomposer.pot\n"
@@ -99,17 +100,17 @@ msgstr "Přehrát"
 #, kde-format
 msgid "Seek backwards 1 second"
 msgid_plural "Seek backwards %1 seconds"
-msgstr[0] "Posunout zpět o 1 vteřinu."
-msgstr[1] "Posunout zpět o %1 vteřiny."
-msgstr[2] "Posunout zpět o %1 vteřin."
+msgstr[0] "Posunout zpět o 1 vteřinu"
+msgstr[1] "Posunout zpět o %1 vteřiny"
+msgstr[2] "Posunout zpět o %1 vteřin"
 
 #: src/application.cpp:1140
 #, kde-format
 msgid "Seek forwards 1 second"
 msgid_plural "Seek forwards %1 seconds"
-msgstr[0] "Posunout vpřed o 1 vteřinu."
-msgstr[1] "Posunout vpřed o %1 vteřiny.   "
-msgstr[2] "Posunout vpřed o %1 vteřin."
+msgstr[0] "Posunout vpřed o 1 vteřinu"
+msgstr[1] "Posunout vpřed o %1 vteřiny"
+msgstr[2] "Posunout vpřed o %1 vteřin"
 
 #: src/application.cpp:1143 src/application.cpp:1147
 #, kde-format
@@ -556,7 +557,7 @@ msgstr "Přizpůsobit všechny řádky lineárně podle zadaného intervalu"
 #: src/application_actions.cpp:421
 #, kde-format
 msgid "Change Frame Rate..."
-msgstr "Změnit počet snímku za sekundu"
+msgstr "Změnit počet snímku za sekundu..."
 
 #: src/application_actions.cpp:422
 #, kde-format
@@ -596,7 +597,7 @@ msgstr "Rozšířit dobu až k zobrazení dalšího"
 #: src/application_actions.cpp:450
 #, kde-format
 msgid "Fix Overlapping Times..."
-msgstr "Opravit překrývající se časy"
+msgstr "Opravit překrývající se časy..."
 
 #: src/application_actions.cpp:451
 #, kde-format
@@ -1590,7 +1591,7 @@ msgstr ""
 #: src/configs/waveformconfigwidget.ui:107
 #, kde-format
 msgid "Auto Scroll Padding:"
-msgstr "Zadaná hranice automatického posunu"
+msgstr "Zadaná hranice automatického posunu:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
 #: src/configs/waveformconfigwidget.ui:120
@@ -1614,7 +1615,7 @@ msgstr "Barva pozadí výběru:"
 #: src/configs/waveformconfigwidget.ui:168
 #, kde-format
 msgid "Subtitle border width:"
-msgstr "Šířka hranice titulků"
+msgstr "Šířka hranice titulků:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: src/configs/waveformconfigwidget.ui:178
@@ -1644,7 +1645,7 @@ msgstr "Typ písma titulků:"
 #: src/configs/waveformconfigwidget.ui:277
 #, kde-format
 msgid "Subtitle number font size:"
-msgstr "Velikost písma čísla titulků"
+msgstr "Velikost písma čísla titulků:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubNumberFontSize)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubTextFontSize)
@@ -2330,7 +2331,7 @@ msgstr "%1 (%2% jistota)"
 #: src/dialogs/encodingdetectdialog.cpp:191
 #, kde-format
 msgid "Detected"
-msgstr "Zjištěno:"
+msgstr "Zjištěno"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, EncodingDetectDialog)
 #: src/dialogs/encodingdetectdialog.ui:14
@@ -2353,7 +2354,7 @@ msgstr "Náhled"
 #: src/dialogs/fixoverlappingtimesdialog.cpp:23
 #, kde-format
 msgid " msecs"
-msgstr "ms"
+msgstr " ms"
 
 #: src/dialogs/fixoverlappingtimesdialog.cpp:29
 #, kde-format
@@ -2550,7 +2551,7 @@ msgstr "Najít chybu"
 #: src/errors/errorfinder.cpp:173
 #, kde-format
 msgid "No errors matching given criteria were found!"
-msgstr "Žádné chyby shodující se s kritérii nebyly nalezeny."
+msgstr "Žádné chyby shodující se s kritérii nebyly nalezeny!"
 
 #: src/errors/finderrorsdialog.cpp:22
 #, kde-format
@@ -3109,13 +3110,13 @@ msgstr "Záplaty a Stránka"
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Petr Gadula, Vít Pelčák, Tym"
+msgstr "Petr Gadula,Vít Pelčák,Libor Filípek"
 
 #: src/main.cpp:165
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "goliash@goliash.net"
+msgstr "goliash@goliash.net,vit@pelcak.org,libor.filipek@gmail.com"
 
 #: src/main.cpp:167
 #, kde-format
@@ -3490,13 +3491,13 @@ msgstr "přístupový token - v mezipaměti"
 #: src/scconfig.kcfg:259
 #, kde-format
 msgid "access token expiry - cached"
-msgstr "Vypršení přístupového tokenu - v mezipaměti"
+msgstr "vypršení přístupového tokenu - v mezipaměti"
 
 #. i18n: ectx: label, entry (gctTokenType), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:262
 #, kde-format
 msgid "access token type - cached"
-msgstr "Typ přístupového tokenu - v mezipaměti"
+msgstr "typ přístupového tokenu - v mezipaměti"
 
 #. i18n: ectx: label, entry (dltAuthKey), group (DeepLTranslate)
 #: src/scconfig.kcfg:268
@@ -3599,7 +3600,7 @@ msgstr "Název skriptu:"
 #: src/scripting/scriptsmanager.cpp:504
 #, kde-format
 msgid "There was an error creating the file <b>%1</b>."
-msgstr "<qt>Vyskytla se chyba při vytváření souboru<br/>%1</qt>"
+msgstr "<qt>Vyskytla se chyba při vytváření souboru<br/>%1</qt>."
 
 #: src/scripting/scriptsmanager.cpp:539
 #, kde-format
@@ -3628,12 +3629,12 @@ msgstr "Přejmenovat skript"
 #: src/scripting/scriptsmanager.cpp:569
 #, kde-format
 msgid "There was an error opening the file <b>%1</b>."
-msgstr "<qt>Vyskytla se chyba při otevírání souboru<br/>%1</qt>"
+msgstr "<qt>Vyskytla se chyba při otevírání souboru<br/>%1</qt>."
 
 #: src/scripting/scriptsmanager.cpp:577
 #, kde-format
 msgid "There was an error copying the file to <b>%1</b>."
-msgstr "<qt>Vyskytla se chyba při kopírování souboru<br/>%1</qt>"
+msgstr "<qt>Vyskytla se chyba při kopírování souboru<br/>%1</qt>."
 
 #: src/scripting/scriptsmanager.cpp:592
 #, kde-format
@@ -3648,7 +3649,7 @@ msgstr "Přesunout do koše"
 #: src/scripting/scriptsmanager.cpp:596
 #, kde-format
 msgid "There was an error removing the file <b>%1</b>."
-msgstr "<qt>Vyskytla se chyba při odstranění souboru<br/>%1</qt>"
+msgstr "<qt>Vyskytla se chyba při odstranění souboru<br/>%1</qt>."
 
 #: src/scripting/scriptsmanager.cpp:614
 #, kde-format
