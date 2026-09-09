@@ -1291,7 +1291,7 @@
           <li xml:lang="ca-valencia">S'ha corregit el diàleg trencat quant al</li>
           <li xml:lang="cs">Opravena chyba v dialogovém okně O aplikaci</li>
           <li xml:lang="fi">korjattu särkynyt tietoikkuna</li>
-          <li xml:lang="fr">Correction de la boîte de dialogue « À propos »</li>
+          <li xml:lang="fr">Correction de la boite de dialogue « À propos »</li>
           <li xml:lang="it">Correzione della finestra di informazioni non funzionante</li>
           <li xml:lang="nl">Gebroken Info-over-dialoog opgelost</li>
           <li xml:lang="pt-BR">Corrigido o diálogo "Sobre"</li>
@@ -1685,7 +1685,7 @@
           <li xml:lang="cs">Vylepšené dialogy pro otevírání a ukládání souborů tak, aby využívaly ty nativní</li>
           <li xml:lang="es">Se han mejorado los diálogos de abrir/guardar archivo para usar diálogos nativos.</li>
           <li xml:lang="fi">parannettu tiedoston avaus- ja tallennusikkunoiden natiivien tiedostonvalintaikkunoiden käyttöä</li>
-          <li xml:lang="fr">Amélioration de la boîtes de dialogue d’ouverture / enregistrement de fichiers pour utiliser les boîtes de dialogue natives</li>
+          <li xml:lang="fr">Amélioration de la boites de dialogue d’ouverture / enregistrement de fichiers pour utiliser les boites de dialogue natives</li>
           <li xml:lang="it">Miglioramento delle finestre di apertura/salvataggio dei file per usare le versioni native</li>
           <li xml:lang="nl">Dialogen voor het openen/opslaan van bestanden zijn verbeterd en gebruiken de inheemse dialogen</li>
           <li xml:lang="pt-BR">Diálogos de abrir/salvar arquivos aprimorados para usar diálogos nativos</li>
@@ -1872,7 +1872,7 @@
           <li xml:lang="ca-valencia">S'han corregit els diàlegs d'obertura que no mostren tots els fitxers admesos</li>
           <li xml:lang="cs">Opraveno zobrazení otevřených dialogových oken, ve kterých se nezobrazovaly všechny podporované soubory</li>
           <li xml:lang="fi">korjattu se, etteivät avausikkunat näyttäneet kaikkia tuettuja tiedostoja</li>
-          <li xml:lang="fr">Correction des boîtes de dialogue d'ouverture n'affichant pas tous les fichiers pris en charge</li>
+          <li xml:lang="fr">Correction des boites de dialogue d'ouverture n'affichant pas tous les fichiers pris en charge</li>
           <li xml:lang="nl">Opgelost probleem waarbij in de dialoogvensters niet alle ondersteunde bestanden werden weergegeven</li>
           <li xml:lang="pt-BR">Corrigido o problema em que as caixas de diálogo de abertura não exibiam todos os arquivos compatíveis</li>
           <li xml:lang="sk">Opravené dialógové okná otvorenia nezobrazujúce všetky podporované súbory</li>
@@ -2163,7 +2163,7 @@
           <li xml:lang="ca-valencia">S'han corregit els filtres del diàleg d'obertura de vídeo</li>
           <li xml:lang="cs">Opraveny filtry v dialogovém okně pro otevření videa</li>
           <li xml:lang="fi">korjattu videon avausikkunan suodattimet</li>
-          <li xml:lang="fr">Correction des filtres ouverts de la boîte de dialogue vidéo</li>
+          <li xml:lang="fr">Correction des filtres ouverts de la boite de dialogue vidéo</li>
           <li xml:lang="nl">Gerepareerd filters voor het openen van videodialoogvensters</li>
           <li xml:lang="pt-BR">Correção dos filtros de diálogo de vídeo aberto</li>
           <li xml:lang="sk">Opravené filtre dialógového okna na otvorenie videa</li>
