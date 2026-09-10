@@ -1685,7 +1685,7 @@
           <li xml:lang="cs">Vylepšené dialogy pro otevírání a ukládání souborů tak, aby využívaly ty nativní</li>
           <li xml:lang="es">Se han mejorado los diálogos de abrir/guardar archivo para usar diálogos nativos.</li>
           <li xml:lang="fi">parannettu tiedoston avaus- ja tallennusikkunoiden natiivien tiedostonvalintaikkunoiden käyttöä</li>
-          <li xml:lang="fr">Amélioration de la boites de dialogue d’ouverture / enregistrement de fichiers pour utiliser les boites de dialogue natives</li>
+          <li xml:lang="fr">Amélioration de la boites de dialogue d'ouverture / enregistrement de fichiers pour utiliser les boites de dialogue natives</li>
           <li xml:lang="it">Miglioramento delle finestre di apertura/salvataggio dei file per usare le versioni native</li>
           <li xml:lang="nl">Dialogen voor het openen/opslaan van bestanden zijn verbeterd en gebruiken de inheemse dialogen</li>
           <li xml:lang="pt-BR">Diálogos de abrir/salvar arquivos aprimorados para usar diálogos nativos</li>
@@ -2177,7 +2177,7 @@
           <li xml:lang="ca-valencia">S'ha corregit «Inserix la línia» en afegir una forma d'ona a un índex incorrecte, gràcies @qsniyg</li>
           <li xml:lang="cs">Opravena chyba, kdy se při přidávání pomocí funkce "Vložit čáru" do grafu vlnové křivky čára vkládala na nesprávný index – díky @qsniyg</li>
           <li xml:lang="fi">korjattu se, että ”Lisää rivi” aaltomuodossa lisäsi väärään kohtaan – kiitos @qsniyg</li>
-          <li xml:lang="fr">Correction de « Insertion de ligne » sur la forme d’onde qui s'ajoutait à l’indice incorrect - Merci à @qsniyg</li>
+          <li xml:lang="fr">Correction de « Insertion de ligne » sur la forme d'onde qui s'ajoutait à l'indice incorrect - Merci à @qsniyg</li>
           <li xml:lang="nl">Het probleem met "Regel invoegen" op de golfvorm, dat op de verkeerde index werd toegevoegd, is opgelost - dank aan @qsniyg</li>
           <li xml:lang="pt-BR">Corrigido o problema com a opção "Inserir linha" na forma de onda, que estava sendo adicionada no índice errado - obrigado @qsniyg</li>
           <li xml:lang="sk">Opravené "Vložiť riadok" na vlnovom priebehu pridávajúce na nesprávny index - vďaka @qsniyg</li>
@@ -2561,7 +2561,7 @@
           <li xml:lang="ca-valencia">Esmena: arrossegament i millora de la velocitat del giny de forma d'ona, corregit un desbordament de memòria intermèdia</li>
           <li xml:lang="cs">OPRAVENO: Vylepšení přetahování widgetu vlnové křivky a zvýšení rychlosti, opraveno přetečení vyrovnávací paměti</li>
           <li xml:lang="fi">KORJATTU: aaltomuotoalkion vetämisen ja nopeuden parannuksia, korjattu puskurin ylivuoto</li>
-          <li xml:lang="fr">CORRECTIF : améliorations du glisser et de la vitesse du composant graphique de forme d’onde, correction du débordement de tampon mémoire</li>
+          <li xml:lang="fr">CORRECTIF : améliorations du glisser et de la vitesse du composant graphique de forme d'onde, correction du débordement de tampon mémoire</li>
           <li xml:lang="nl">OPGELOST: verbeteringen in het slepen en de snelheid van het Waveform-widget, bufferoverloop verholpen</li>
           <li xml:lang="pt-BR">CORREÇÃO: Melhorias no arrastar e a velocidade do widget de forma de onda, correção de estouro de buffer</li>
           <li xml:lang="sk">OPRAVA: Vylepšenia ťahania a rýchlosti miniaplikácie vlnového priebehu, opravené pretečenie vyrovnávacej pamäte</li>
@@ -2589,7 +2589,7 @@
           <li xml:lang="ca-valencia">Esmena: s'han corregit els casos en què el temps d'ocultació dels subtítols acabaria abans del temps de visualització</li>
           <li xml:lang="cs">OPRAVENO: Opraveny případy, kdy doba skrytí titulků končila dříve než doba zobrazení</li>
           <li xml:lang="fi">KORJATUS: korjattu tapauksia, joissa tekstityksen piilotusaika päätyi osumaan ennen näyttöaikaa</li>
-          <li xml:lang="fr">CORRECTIF : correction des cas où l’heure de disparition des sous-titres se retrouvait avant l’heure d’affichage</li>
+          <li xml:lang="fr">CORRECTIF : correction des cas où l'heure de disparition des sous-titres se retrouvait avant l'heure d'affichage</li>
           <li xml:lang="nl">OPGELOST: er is een probleem opgelost waarbij het verbergen van de ondertitels vóór het weergeven ervan plaatsvond</li>
           <li xml:lang="pt-BR">CORREÇÃO: Corrigidos os casos em que o tempo de ocultação das legendas terminava antes do início da exibição</li>
           <li xml:lang="sk">OPRAVA: Opravené prípady, kde čas skrytia titulkov skončil pred časom zobrazenia</li>
