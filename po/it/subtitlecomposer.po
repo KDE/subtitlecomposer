@@ -1,8 +1,8 @@
 # translation of subtitlecomposer.po to Italian
 # This file is put in the public domain.
 #
-# SPDX-FileCopyrightText: 2018, 2020, 2021, 2022, 2023, 2024 Luigi Toscano <luigi.toscano@tiscali.it>
 # Alessandro Polverini <dusty@nibbles.it>, 2010.
+# SPDX-FileCopyrightText: 2018, 2020, 2021, 2022, 2023, 2024 Luigi Toscano <luigi.toscano@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
