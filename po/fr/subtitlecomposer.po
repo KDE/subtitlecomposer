@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 09:00+0000\n"
+"POT-Creation-Date: 2026-10-29 02:30+0000\n"
 "PO-Revision-Date: 2024-11-19 09:20+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -2519,7 +2519,7 @@ msgstr "Liste séparée par des espaces pour les classes « CSS » :"
 msgid "Class"
 msgstr "Classe"
 
-#: src/dialogs/subtitlecolordialog.cpp:24
+#: src/dialogs/subtitlecolordialog.cpp:26
 #, kde-format
 msgid "Default Color"
 msgstr "Couleur par défaut"

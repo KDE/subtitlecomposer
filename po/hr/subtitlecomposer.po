@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 09:00+0000\n"
+"POT-Creation-Date: 2026-10-29 02:30+0000\n"
 "PO-Revision-Date: 2019-10-27 09:12\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@hr.org>\n"
@@ -2536,7 +2536,7 @@ msgstr ""
 msgid "Class"
 msgstr ""
 
-#: src/dialogs/subtitlecolordialog.cpp:24
+#: src/dialogs/subtitlecolordialog.cpp:26
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Change Text Color"
 #| msgid "Text Color"

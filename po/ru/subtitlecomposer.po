@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 09:00+0000\n"
+"POT-Creation-Date: 2026-10-29 02:30+0000\n"
 "PO-Revision-Date: 2026-09-27 09:42+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -2525,7 +2525,7 @@ msgstr "Список классов CSS, разделённых пробелам
 msgid "Class"
 msgstr "Класс"
 
-#: src/dialogs/subtitlecolordialog.cpp:24
+#: src/dialogs/subtitlecolordialog.cpp:26
 #, kde-format
 msgid "Default Color"
 msgstr "Цвет по умолчанию"
