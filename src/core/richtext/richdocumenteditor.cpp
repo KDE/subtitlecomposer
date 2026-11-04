@@ -588,28 +588,16 @@ RichDocumentEditor::removeSelectedText()
 }
 
 QTextCharFormat
-RichDocumentEditor::styleAtPosition(int pos) const
+RichDocumentEditor::currentStyle() const
 {
 	if(!m_document)
 		return QTextCharFormat();
 
-	const QTextBlock &blk = m_textCursor->block();
-	if(!blk.isValid())
-		return QTextCharFormat();
+	QTextCursor c(*m_textCursor);
+	if(c.hasSelection())
+		c.movePosition(QTextCursor::NextCharacter);
 
-	int offset = pos - blk.position();
-	for(QTextBlock::iterator it = blk.begin(); !it.atEnd(); ++it) {
-		if(!it.fragment().isValid())
-			continue;
-		const int len = it.fragment().length();
-		if(offset >= len) {
-			offset -= len;
-			continue;
-		}
-		return it.fragment().charFormat();
-	}
-
-	return QTextCharFormat();
+	return c.charFormat();
 }
 
 void
@@ -619,7 +607,8 @@ RichDocumentEditor::toggleBold()
 		return;
 
 	QTextCharFormat fmt;
-	fmt.setFontWeight(styleAtPosition(m_textCursor->position()).fontWeight() == QFont::Bold ? QFont::Normal : QFont::Bold);
+	fmt.setFontWeight(currentStyle().fontWeight() == QFont::Bold ? QFont::Normal : QFont::Bold);
+
 	m_textCursor->mergeCharFormat(fmt);
 	m_textDirty = true;
 	finishChange(true);
@@ -632,7 +621,7 @@ RichDocumentEditor::toggleItalic()
 		return;
 
 	QTextCharFormat fmt;
-	fmt.setFontItalic(!styleAtPosition(m_textCursor->position()).fontItalic());
+	fmt.setFontItalic(!currentStyle().fontItalic());
 	m_textCursor->mergeCharFormat(fmt);
 	m_textDirty = true;
 	finishChange(true);
@@ -645,7 +634,7 @@ RichDocumentEditor::toggleUnderline()
 		return;
 
 	QTextCharFormat fmt;
-	fmt.setFontUnderline(!styleAtPosition(m_textCursor->position()).fontUnderline());
+	fmt.setFontUnderline(!currentStyle().fontUnderline());
 	m_textCursor->mergeCharFormat(fmt);
 	m_textDirty = true;
 	finishChange(true);
@@ -658,7 +647,7 @@ RichDocumentEditor::toggleStrikeOut()
 		return;
 
 	QTextCharFormat fmt;
-	fmt.setFontStrikeOut(!styleAtPosition(m_textCursor->position()).fontStrikeOut());
+	fmt.setFontStrikeOut(!currentStyle().fontStrikeOut());
 	m_textCursor->mergeCharFormat(fmt);
 	m_textDirty = true;
 	finishChange(true);
@@ -671,7 +660,7 @@ RichDocumentEditor::textColor() const
 	if(!m_document)
 		return def;
 
-	QBrush fg = styleAtPosition(m_textCursor->position()).foreground();
+	QBrush fg = currentStyle().foreground();
 	return fg.style() == Qt::NoBrush ? def : fg.color();
 }
 

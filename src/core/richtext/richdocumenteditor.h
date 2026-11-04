@@ -144,7 +144,7 @@ public:
 	void clear();
 	void selectWordAtPos(int);
 
-	QTextCharFormat styleAtPosition(int pos) const;
+	QTextCharFormat currentStyle() const;
 
 	void toggleBold();
 	void toggleItalic();
