@@ -6,6 +6,8 @@
 
 #include "richdocument.h"
 
+#include "appglobal.h"
+#include "core/subtitle.h"
 #include "core/richtext/richdocumentlayout.h"
 #include "core/richtext/richdom.h"
 #include "helpers/common.h"
@@ -427,6 +429,22 @@ RichDocument::styleColorAt(int index) const
 	QTextCursor c(const_cast<RichDocument *>(this));
 	c.movePosition(QTextCursor::Right, QTextCursor::MoveAnchor, index);
 	return c.charFormat().foreground().color().rgba();
+}
+
+QSet<QString>
+RichDocument::classTagsAt(int index) const
+{
+	QTextCursor c(const_cast<RichDocument *>(this));
+	c.movePosition(QTextCursor::Right, QTextCursor::MoveAnchor, index);
+	return c.charFormat().property(RichDocument::Class).value<QSet<QString>>();
+}
+
+QString
+RichDocument::voiceTagAt(int index) const
+{
+	QTextCursor c(const_cast<RichDocument *>(this));
+	c.movePosition(QTextCursor::Right, QTextCursor::MoveAnchor, index);
+	return c.charFormat().property(RichDocument::Voice).value<QString>();
 }
 
 void
@@ -895,4 +913,38 @@ RichDocument::crumbAt(RichDOM::Node *n)
 		crumb = n->cssSel() + $(" > ") + crumb;
 	}
 	return crumb;
+}
+
+const QStringList
+RichDocument::allClasses()
+{
+	QSet<QString> vs = stylesheet()->classes();
+	const Subtitle *s = appSubtitle();
+	for(int i = 0, n = s->count(); i < n; i++) {
+		const RichDocument *d = s->line(i)->primaryDoc();
+		const QVector<QTextFormat> vf = d->allFormats();
+		for(const QTextFormat &f: vf) {
+			if(!f.hasProperty(RichDocument::Class))
+				continue;
+			vs.unite(f.property(RichDocument::Class).value<QSet<QString>>());
+		}
+	}
+	return vs.values();
+}
+
+const QStringList
+RichDocument::allVoices()
+{
+	QSet<QString> vs;
+	const Subtitle *s = appSubtitle();
+	for(int i = 0, n = s->count(); i < n; i++) {
+		const RichDocument *d = s->line(i)->primaryDoc();
+		const QVector<QTextFormat> vf = d->allFormats();
+		for(const QTextFormat &f: vf) {
+			if(!f.hasProperty(RichDocument::Voice))
+				continue;
+			vs.insert(f.property(RichDocument::Voice).toString());
+		}
+	}
+	return vs.values();
 }

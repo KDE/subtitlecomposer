@@ -415,6 +415,8 @@ LinesWidget::contextMenuEvent(QContextMenuEvent *e)
 	addAppAction(&stylesMenu, ACT_TOGGLE_SELECTED_LINES_UNDERLINE, true, styleFlags & RichString::Underline);
 	addAppAction(&stylesMenu, ACT_TOGGLE_SELECTED_LINES_STRIKETHROUGH, true, styleFlags & RichString::StrikeThrough);
 	addAppAction(&stylesMenu, ACT_CHANGE_SELECTED_LINES_TEXT_COLOR);
+	addAppAction(&stylesMenu, ACT_CHANGE_SELECTED_LINES_CLASS_TAG);
+	addAppAction(&stylesMenu, ACT_CHANGE_SELECTED_LINES_VOICE_TAG);
 	menu.addMenu(&stylesMenu);
 
 	QMenu timesMenu(i18n("Times"));

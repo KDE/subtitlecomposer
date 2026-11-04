@@ -312,11 +312,11 @@ CurrentLineWidget::createLineWidgetBox(int index)
 	layout->addWidget(new Breadcrumb(textEdit, this), 2, 0, 1, 7);
 
 	QToolButton *btnVoice = createToolButton(i18n("Change Voice Tag"), "actor", false);
-	connect(btnVoice, &QToolButton::clicked, textEdit, &SimpleRichTextEdit::changeTextVoice);
+	connect(btnVoice, &QToolButton::clicked, textEdit, &SimpleRichTextEdit::changeVoiceTag);
 	layout->addWidget(btnVoice, 0, COL_VOICE, Qt::AlignBottom);
 
 	QToolButton *btnClass = createToolButton(i18n("Change Class Tag"), "format-text-code", false);
-	connect(btnClass, &QToolButton::clicked, textEdit, &SimpleRichTextEdit::changeTextClass);
+	connect(btnClass, &QToolButton::clicked, textEdit, &SimpleRichTextEdit::changeClassTag);
 	layout->addWidget(btnClass, 0, COL_CLASS, Qt::AlignBottom);
 
 	QToolButton *btnBold = createToolButton(i18n("Toggle Bold"), "format-text-bold");

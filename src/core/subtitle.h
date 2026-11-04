@@ -27,9 +27,11 @@
 #include <QStringList>
 
 QT_FORWARD_DECLARE_CLASS(QUndoCommand)
+QT_FORWARD_DECLARE_CLASS(QTextCharFormat)
 QT_FORWARD_DECLARE_CLASS(QTextEdit)
 
 namespace SubtitleComposer {
+class SubtitleIterator;
 class SubtitleLine;
 class UndoAction;
 class RichCSS;
@@ -156,6 +158,8 @@ public:
 
 	void toggleStyleFlag(const RangeList &ranges, RichString::StyleFlag styleFlag);
 	void changeTextColor(const RangeList &ranges, QRgb color);
+	void changeTextClassTag(const RangeList &ranges, const QSet<QString> &classList);
+	void changeTextVoiceTag(const RangeList &ranges, const QString &voice);
 
 	void setMarked(const RangeList &ranges, bool value);
 	void toggleMarked(const RangeList &ranges);
@@ -204,6 +208,8 @@ private:
 	inline int insertIndex(const Time &showTime) const { return insertIndex(showTime, 0, m_lines.empty() ? 0 : m_lines.size() - 1); }
 	int insertIndex(const Time &showTime, int start, int end) const;
 	void insertLine(SubtitleLine *line, int index);
+
+	void mergeRangeTextCharFormat(SubtitleIterator &iter, const QTextCharFormat &format);
 
 	FormatData * formatData() const;
 	void setFormatData(const FormatData *formatData);

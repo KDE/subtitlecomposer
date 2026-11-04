@@ -93,31 +93,14 @@ SimpleRichTextEdit::changeTextColor()
 	}
 }
 
-static const QStringList
-allClasses(RichDocument *doc)
-{
-	QSet<QString> vs = doc->stylesheet()->classes();
-	const Subtitle *s = appSubtitle();
-	for(int i = 0, n = s->count(); i < n; i++) {
-		const RichDocument *d = s->line(i)->primaryDoc();
-		const QVector<QTextFormat> vf = d->allFormats();
-		for(const QTextFormat &f: vf) {
-			if(!f.hasProperty(RichDocument::Class))
-				continue;
-			vs.unite(f.property(RichDocument::Class).value<QSet<QString>>());
-		}
-	}
-	return vs.values();
-}
-
 void
-SimpleRichTextEdit::changeTextClass()
+SimpleRichTextEdit::changeClassTag()
 {
 	RichDocument *doc = static_cast<RichDocument *>(document());
 	QTextCursor cursor(textCursor());
 	QSet<QString> cl = cursor.charFormat().property(RichDocument::Class).value<QSet<QString>>();
 	const QString cc = cl.values().join(QChar::Space);
-	const QString klass = SubtitleClassDialog::getClass(allClasses(doc), cc, this);
+	const QString klass = SubtitleClassDialog::getClass(doc->allClasses(), cc, this);
 	if(!klass.isNull()) {
 		staticRE$(reWords, "\\S+", REu);
 		QRegularExpressionMatchIterator mi = reWords.globalMatch(klass);
@@ -133,29 +116,12 @@ SimpleRichTextEdit::changeTextClass()
 	}
 }
 
-static const QStringList
-allVoices()
-{
-	QSet<QString> vs;
-	const Subtitle *s = appSubtitle();
-	for(int i = 0, n = s->count(); i < n; i++) {
-		const RichDocument *d = s->line(i)->primaryDoc();
-		const QVector<QTextFormat> vf = d->allFormats();
-		for(const QTextFormat &f: vf) {
-			if(!f.hasProperty(RichDocument::Voice))
-				continue;
-			vs.insert(f.property(RichDocument::Voice).toString());
-		}
-	}
-	return vs.values();
-}
-
 void
-SimpleRichTextEdit::changeTextVoice()
+SimpleRichTextEdit::changeVoiceTag()
 {
 	QTextCursor cursor(textCursor());
 	const QString cv = cursor.charFormat().property(RichDocument::Voice).value<QString>();
-	const QString voice = SubtitleVoiceDialog::getVoice(allVoices(), cv, this);
+	const QString voice = SubtitleVoiceDialog::getVoice(RichDocument::allVoices(), cv, this);
 	if(!voice.isNull()) {
 		QTextCharFormat format;
 		format.setProperty(RichDocument::Voice, QVariant::fromValue(voice));
@@ -489,6 +455,18 @@ SimpleRichTextEdit::setupActions()
 	act->setText(i18nc("@action:inmenu Change Text Color", "Text Color"));
 	setupActionCommon(act, ACT_CHANGE_SELECTED_LINES_TEXT_COLOR);
 	connect(act, &QAction::triggered, this, &SimpleRichTextEdit::changeTextColor);
+
+	act = m_actions[ChangeClassTag] = new QAction(this);
+	act->setIcon(QIcon::fromTheme("format-text-code"));
+	act->setText(i18nc("@action:inmenu Change Class Tag", "Class Tag"));
+	setupActionCommon(act, ACT_CHANGE_SELECTED_LINES_CLASS_TAG);
+	connect(act, &QAction::triggered, this, &SimpleRichTextEdit::changeClassTag);
+
+	act = m_actions[ChangeVoiceTag] = new QAction(this);
+	act->setIcon(QIcon::fromTheme("actor"));
+	act->setText(i18nc("@action:inmenu Change Voice Tag", "Voice Tag"));
+	setupActionCommon(act, ACT_CHANGE_SELECTED_LINES_VOICE_TAG);
+	connect(act, &QAction::triggered, this, &SimpleRichTextEdit::changeVoiceTag);
 
 	act = m_actions[CheckSpelling] = new QAction(this);
 	act->setIcon(QIcon::fromTheme("tools-check-spelling"));

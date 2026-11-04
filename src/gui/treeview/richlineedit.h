@@ -55,6 +55,8 @@ protected:
 	bool sendMouseEventToInputContext(QMouseEvent *e);
 	void setupActions();
 	void changeTextColor();
+	void changeClassTag();
+	void changeVoiceTag();
 
 protected:
 	QVector<QAction *> m_actions;

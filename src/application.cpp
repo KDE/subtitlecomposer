@@ -32,7 +32,9 @@
 #include "dialogs/insertlinedialog.h"
 #include "dialogs/removelinesdialog.h"
 #include "dialogs/intinputdialog.h"
+#include "dialogs/subtitleclassdialog.h"
 #include "dialogs/subtitlecolordialog.h"
+#include "dialogs/subtitlevoicedialog.h"
 #include "errors/errorfinder.h"
 #include "errors/errortracker.h"
 #include "formats/formatmanager.h"
@@ -587,6 +589,42 @@ Application::changeSelectedLinesColor()
 	QColor color = SubtitleColorDialog::getColor(QColor(it.current()->primaryDoc()->styleColorAt(0)), m_mainWindow);
 	if(color.isValid())
 		appSubtitle()->changeTextColor(range, color.rgba());
+}
+
+void
+Application::changeSelectedLinesClass()
+{
+	const RangeList range = m_mainWindow->m_linesWidget->selectionRanges();
+	SubtitleIterator it(*appSubtitle(), range);
+	if(!it.current())
+		return;
+
+	RichDocument *doc = it.current()->primaryDoc();
+	QSet<QString> classList;
+	const QString klass = SubtitleClassDialog::getClass(doc->allClasses(), doc->classTagsAt(0).values().join(QChar::Space), m_mainWindow);
+	if(!klass.isNull()) {
+		staticRE$(reWords, "\\S+", REu);
+		QRegularExpressionMatchIterator mi = reWords.globalMatch(klass);
+		while(mi.hasNext()) {
+			const QRegularExpressionMatch m = mi.next();
+			classList.insert(m.captured(0));
+		}
+		appSubtitle()->changeTextClassTag(range, classList);
+	}
+}
+
+void
+Application::changeSelectedLinesVoice()
+{
+	const RangeList range = m_mainWindow->m_linesWidget->selectionRanges();
+	SubtitleIterator it(*appSubtitle(), range);
+	if(!it.current())
+		return;
+
+	RichDocument *doc = it.current()->primaryDoc();
+	const QString voice = SubtitleVoiceDialog::getVoice(RichDocument::allVoices(), doc->voiceTagAt(0), m_mainWindow);
+	if(!voice.isNull())
+		appSubtitle()->changeTextVoiceTag(range, voice);
 }
 
 void

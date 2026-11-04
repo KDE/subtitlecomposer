@@ -33,7 +33,7 @@ public:
 		Cut, Copy, Paste, Delete, Clear, SelectAll,
 		ToggleBold, ToggleItalic, ToggleUnderline, ToggleStrikeOut,
 		CheckSpelling, ToggleAutoSpellChecking,
-		AllowTabulations, ChangeTextColor,
+		AllowTabulations, ChangeTextColor, ChangeClassTag, ChangeVoiceTag,
 		ActionCount
 	} Action;
 
@@ -62,8 +62,8 @@ public slots:
 	inline void toggleFontUnderline() { setFontUnderline(!charFormat().fontUnderline()); }
 	inline void toggleFontStrikeOut() { setFontStrikeOut(!charFormat().fontStrikeOut()); }
 	void changeTextColor();
-	void changeTextClass();
-	void changeTextVoice();
+	void changeClassTag();
+	void changeVoiceTag();
 
 	void deleteText();
 	void undoableClear();

@@ -10,7 +10,10 @@
 #include "application.h"
 #include "actions/useractionnames.h"
 #include "core/richtext/richdocumenteditor.h"
+#include "dialogs/subtitleclassdialog.h"
 #include "dialogs/subtitlecolordialog.h"
+#include "dialogs/subtitlevoicedialog.h"
+#include "helpers/common.h"
 
 #include <QDrag>
 #include <QMimeData>
@@ -152,6 +155,20 @@ RichLineEdit::setupActions()
 	setupActionCommon(act, ACT_CHANGE_SELECTED_LINES_TEXT_COLOR);
 	connect(act, &QAction::triggered, this, &RichLineEdit::changeTextColor);
 	m_actions.push_back(act);
+
+	act = new QAction(this);
+	act->setIcon(QIcon::fromTheme("format-text-code"));
+	act->setText(i18nc("@action:inmenu Change Class Tag", "Class Tag"));
+	setupActionCommon(act, ACT_CHANGE_SELECTED_LINES_CLASS_TAG);
+	connect(act, &QAction::triggered, this, &RichLineEdit::changeClassTag);
+	m_actions.push_back(act);
+
+	act = new QAction(this);
+	act->setIcon(QIcon::fromTheme("actor"));
+	act->setText(i18nc("@action:inmenu Change Voice Tag", "Voice Tag"));
+	setupActionCommon(act, ACT_CHANGE_SELECTED_LINES_VOICE_TAG);
+	connect(act, &QAction::triggered, this, &RichLineEdit::changeVoiceTag);
+	m_actions.push_back(act);
 }
 
 void
@@ -170,6 +187,30 @@ RichLineEdit::changeTextColor()
 	if(!color.isValid())
 		return;
 	m_control->setTextColor(color);
+}
+
+void
+RichLineEdit::changeClassTag()
+{
+	const QString klass = SubtitleClassDialog::getClass(document()->allClasses(), m_control->classTag().values().join(QChar::Space), this);
+	if(!klass.isNull()) {
+		staticRE$(reWords, "\\S+", REu);
+		QRegularExpressionMatchIterator mi = reWords.globalMatch(klass);
+		QSet<QString> cl;
+		while(mi.hasNext()) {
+			const QRegularExpressionMatch m = mi.next();
+			cl.insert(m.captured(0));
+		}
+		m_control->setClassTag(cl);
+	}
+}
+
+void
+RichLineEdit::changeVoiceTag()
+{
+	const QString voice = SubtitleVoiceDialog::getVoice(RichDocument::allVoices(), m_control->voiceTag(), this);
+	if(!voice.isNull())
+		m_control->setVoiceTag(voice);
 }
 
 bool

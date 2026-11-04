@@ -152,6 +152,10 @@ public:
 	void toggleStrikeOut();
 	const QColor textColor() const;
 	void setTextColor(const QColor &color);
+	QSet<QString> classTag() const;
+	void setClassTag(const QSet<QString> &classes);
+	QString voiceTag() const;
+	void setVoiceTag(const QString &voice);
 
 #if QT_CONFIG(completer)
 	QCompleter *completer() const { return m_completer; }

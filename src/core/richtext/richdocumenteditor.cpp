@@ -677,6 +677,50 @@ RichDocumentEditor::setTextColor(const QColor &color)
 	finishChange(true);
 }
 
+QSet<QString>
+RichDocumentEditor::classTag() const
+{
+	if(!m_document)
+		return QSet<QString>();
+
+	return currentStyle().property(RichDocument::Class).value<QSet<QString>>();
+}
+
+void
+RichDocumentEditor::setClassTag(const QSet<QString> &classes)
+{
+	if(!m_document)
+		return;
+
+	QTextCharFormat fmt;
+	fmt.setProperty(RichDocument::Class, QVariant::fromValue(classes));
+	m_textCursor->mergeCharFormat(fmt);
+	m_textDirty = true;
+	finishChange(true);
+}
+
+QString
+RichDocumentEditor::voiceTag() const
+{
+	if(!m_document)
+		return QString();
+
+	return currentStyle().property(RichDocument::Voice).value<QString>();
+}
+
+void
+RichDocumentEditor::setVoiceTag(const QString &voice)
+{
+	if(!m_document)
+		return;
+
+	QTextCharFormat fmt;
+	fmt.setProperty(RichDocument::Voice, QVariant::fromValue(voice));
+	m_textCursor->mergeCharFormat(fmt);
+	m_textDirty = true;
+	finishChange(true);
+}
+
 void
 RichDocumentEditor::emitCursorPositionChanged()
 {

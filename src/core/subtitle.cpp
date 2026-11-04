@@ -1258,6 +1258,19 @@ Subtitle::splitSubtitle(Subtitle &dstSubtitle, const Time &splitTime, bool shift
 }
 
 void
+Subtitle::mergeRangeTextCharFormat(SubtitleIterator &iter, const QTextCharFormat &format)
+{
+	for(; iter.current(); ++iter) {
+		QTextCursor cp(iter.current()->primaryDoc());
+		cp.select(QTextCursor::Document);
+		cp.mergeCharFormat(format);
+		QTextCursor cs(iter.current()->secondaryDoc());
+		cs.select(QTextCursor::Document);
+		cs.mergeCharFormat(format);
+	}
+}
+
+void
 Subtitle::toggleStyleFlag(const RangeList &ranges, RichString::StyleFlag styleFlag)
 {
 	SubtitleIterator it(*this, ranges);
@@ -1266,37 +1279,26 @@ Subtitle::toggleStyleFlag(const RangeList &ranges, RichString::StyleFlag styleFl
 
 	beginCompositeAction(i18n("Toggle Lines Style"));
 
-	QTextCharFormat fmtPri, fmtSec;
+	QTextCharFormat fmt;
 	switch(styleFlag) {
 	case RichString::Bold:
-		fmtPri.setFontWeight(QTextCursor(it.current()->primaryDoc()).charFormat().fontWeight() == QFont::Bold ? QFont::Normal : QFont::Bold);
-		fmtSec.setFontWeight(QTextCursor(it.current()->secondaryDoc()).charFormat().fontWeight() == QFont::Bold ? QFont::Normal : QFont::Bold);
+		fmt.setFontWeight(QTextCursor(it.current()->primaryDoc()).charFormat().fontWeight() == QFont::Bold ? QFont::Normal : QFont::Bold);
 		break;
 	case RichString::Italic:
-		fmtPri.setFontItalic(!QTextCursor(it.current()->primaryDoc()).charFormat().fontItalic());
-		fmtSec.setFontItalic(!QTextCursor(it.current()->secondaryDoc()).charFormat().fontItalic());
+		fmt.setFontItalic(!QTextCursor(it.current()->primaryDoc()).charFormat().fontItalic());
 		break;
 	case RichString::Underline:
-		fmtPri.setFontUnderline(!QTextCursor(it.current()->primaryDoc()).charFormat().fontUnderline());
-		fmtSec.setFontUnderline(!QTextCursor(it.current()->secondaryDoc()).charFormat().fontUnderline());
+		fmt.setFontUnderline(!QTextCursor(it.current()->primaryDoc()).charFormat().fontUnderline());
 		break;
 	case RichString::StrikeThrough:
-		fmtPri.setFontStrikeOut(!QTextCursor(it.current()->primaryDoc()).charFormat().fontStrikeOut());
-		fmtSec.setFontStrikeOut(!QTextCursor(it.current()->secondaryDoc()).charFormat().fontStrikeOut());
+		fmt.setFontStrikeOut(!QTextCursor(it.current()->primaryDoc()).charFormat().fontStrikeOut());
 		break;
 	default:
 		Q_ASSERT_X(false, "Subtitle::toggleStyleFlag", "Unsupported format");
 		break;
 	}
 
-	for(; it.current(); ++it) {
-		QTextCursor cp(it.current()->primaryDoc());
-		cp.select(QTextCursor::Document);
-		cp.mergeCharFormat(fmtPri);
-		QTextCursor cs(it.current()->secondaryDoc());
-		cs.select(QTextCursor::Document);
-		cs.mergeCharFormat(fmtPri);
-	}
+	mergeRangeTextCharFormat(it, fmt);
 
 	endCompositeAction();
 }
@@ -1313,14 +1315,41 @@ Subtitle::changeTextColor(const RangeList &ranges, QRgb color)
 	QTextCharFormat fmt;
 	fmt.setForeground(color ? QBrush(QColor(color)) : QBrush());
 
-	for(; it.current(); ++it) {
-		QTextCursor cp(it.current()->primaryDoc());
-		cp.select(QTextCursor::Document);
-		cp.mergeCharFormat(fmt);
-		QTextCursor cs(it.current()->secondaryDoc());
-		cs.select(QTextCursor::Document);
-		cs.mergeCharFormat(fmt);
-	}
+	mergeRangeTextCharFormat(it, fmt);
+
+	endCompositeAction();
+}
+
+void
+Subtitle::changeTextClassTag(const RangeList &ranges, const QSet<QString> &classList)
+{
+	SubtitleIterator it(*this, ranges);
+	if(!it.current())
+		return;
+
+	beginCompositeAction(i18n("Change Lines Class Tag"));
+
+	QTextCharFormat fmt;
+	fmt.setProperty(RichDocument::Class, QVariant::fromValue(classList));
+
+	mergeRangeTextCharFormat(it, fmt);
+
+	endCompositeAction();
+}
+
+void
+Subtitle::changeTextVoiceTag(const RangeList &ranges, const QString &voice)
+{
+	SubtitleIterator it(*this, ranges);
+	if(!it.current())
+		return;
+
+	beginCompositeAction(i18n("Change Lines Voice Tag"));
+
+	QTextCharFormat fmt;
+	fmt.setProperty(RichDocument::Voice, QVariant::fromValue(voice));
+
+	mergeRangeTextCharFormat(it, fmt);
 
 	endCompositeAction();
 }

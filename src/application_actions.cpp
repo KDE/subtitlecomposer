@@ -389,6 +389,24 @@ Application::setupActions()
 	actionCollection->addAction(ACT_CHANGE_SELECTED_LINES_TEXT_COLOR, changeSelectedLinesColorAction);
 	actionManager->addAction(changeSelectedLinesColorAction, UserAction::HasSelection | UserAction::FullScreenOff);
 
+	QAction *changeSelectedLinesClassAction = new QAction(actionCollection);
+	changeSelectedLinesClassAction->setIcon(QIcon::fromTheme("format-text-code"));
+	changeSelectedLinesClassAction->setText(i18n("Change Class Tag"));
+	changeSelectedLinesClassAction->setStatusTip(i18n("Change CSS class of selected lines"));
+	actionCollection->setDefaultShortcut(changeSelectedLinesClassAction, QKeySequence("Ctrl+Shift+B"));
+	connect(changeSelectedLinesClassAction, &QAction::triggered, this, &Application::changeSelectedLinesClass);
+	actionCollection->addAction(ACT_CHANGE_SELECTED_LINES_CLASS_TAG, changeSelectedLinesClassAction);
+	actionManager->addAction(changeSelectedLinesClassAction, UserAction::HasSelection | UserAction::FullScreenOff);
+
+	QAction *changeSelectedLinesVoiceAction = new QAction(actionCollection);
+	changeSelectedLinesVoiceAction->setIcon(QIcon::fromTheme("actor"));
+	changeSelectedLinesVoiceAction->setText(i18n("Change Voice Tag"));
+	changeSelectedLinesVoiceAction->setStatusTip(i18n("Change voice actor of selected lines"));
+	actionCollection->setDefaultShortcut(changeSelectedLinesVoiceAction, QKeySequence("Ctrl+Shift+V"));
+	connect(changeSelectedLinesVoiceAction, &QAction::triggered, this, &Application::changeSelectedLinesVoice);
+	actionCollection->addAction(ACT_CHANGE_SELECTED_LINES_VOICE_TAG, changeSelectedLinesVoiceAction);
+	actionManager->addAction(changeSelectedLinesVoiceAction, UserAction::HasSelection | UserAction::FullScreenOff);
+
 	QAction *shiftAction = new QAction(actionCollection);
 	shiftAction->setText(i18n("Shift..."));
 	shiftAction->setStatusTip(i18n("Shift lines an specified amount of time"));

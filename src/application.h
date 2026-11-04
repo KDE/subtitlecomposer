@@ -142,6 +142,8 @@ public slots:
 	void toggleSelectedLinesUnderline();
 	void toggleSelectedLinesStrikeThrough();
 	void changeSelectedLinesColor();
+	void changeSelectedLinesClass();
+	void changeSelectedLinesVoice();
 
 	void shiftLines();
 	void shiftSelectedLinesForwards();

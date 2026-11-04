@@ -66,6 +66,8 @@ public:
 	int indexOf(const QRegularExpression &re, int from = 0);
 	int cummulativeStyleFlags() const;
 	QRgb styleColorAt(int index) const;
+	QSet<QString> classTagsAt(int index) const;
+	QString voiceTagAt(int index) const;
 
 	void cleanupSpaces();
 	void fixPunctuation(bool spaces, bool quotes, bool englishI, bool ellipsis, bool *cont, bool testOnly=false);
@@ -83,6 +85,9 @@ public:
 	QString crumbAt(RichDOM::Node *n);
 	RichDOM::Node *nodeAt(quint32 pos, RichDOM::Node *root=nullptr);
 	inline QString crumbAt(quint32 pos) { return crumbAt(nodeAt(pos ? pos - 1 : 0, dom()->m_root)); }
+
+	const QStringList allClasses();
+	static const QStringList allVoices();
 
 signals:
 	void domChanged();

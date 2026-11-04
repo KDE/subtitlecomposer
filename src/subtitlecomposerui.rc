@@ -70,6 +70,8 @@
 			<Action name="toggle_selected_lines_underline" />
 			<Action name="toggle_selected_lines_strikethrough" />
 			<Action name="change_selected_lines_text_color" />
+			<Action name="change_selected_lines_class_tag" />
+			<Action name="change_selected_lines_voice_tag" />
 		</Menu>
 		<Menu name="times">
 			<text>T&amp;imes</text>
