@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-29 02:30+0000\n"
+"POT-Creation-Date: 2026-11-05 02:24+0000\n"
 "PO-Revision-Date: 2024-11-18 09:42+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -39,79 +39,79 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Detecta automàticament"
 
-#: src/application.cpp:496
+#: src/application.cpp:498
 #, kde-format
 msgid "Go to Line"
 msgstr "Ves fins a la línia"
 
-#: src/application.cpp:496
+#: src/application.cpp:498
 #, kde-format
 msgid "&Go to line:"
 msgstr "&Ves fins a la línia:"
 
-#: src/application.cpp:669 src/core/subtitle.cpp:879
+#: src/application.cpp:707 src/core/subtitle.cpp:879
 #, kde-format
 msgid "Maximize Durations"
 msgstr "Maximitza les durades"
 
-#: src/application.cpp:697 src/core/subtitle.cpp:1154
+#: src/application.cpp:735 src/core/subtitle.cpp:1154
 #, kde-format
 msgid "Unbreak Lines"
 msgstr "Elimina els salts de línia"
 
-#: src/application.cpp:708 src/core/subtitle.cpp:1163
+#: src/application.cpp:746 src/core/subtitle.cpp:1163
 #, kde-format
 msgid "Simplify Spaces"
 msgstr "Simplifica els espais"
 
-#: src/application.cpp:769
+#: src/application.cpp:807
 #, kde-format
 msgid "Open Video"
 msgstr "Obri un vídeo"
 
-#: src/application.cpp:967 src/application.cpp:974
+#: src/application.cpp:1005 src/application.cpp:1012
 #: src/application_subtitle.cpp:658
 #, kde-format
 msgid "Untitled"
 msgstr "Sense títol"
 
-#: src/application.cpp:969 src/application_subtitle.cpp:658
+#: src/application.cpp:1007 src/application_subtitle.cpp:658
 #, kde-format
 msgid "Untitled Translation"
 msgstr "Traducció sense títol"
 
-#: src/application.cpp:1070
+#: src/application.cpp:1108
 #, kde-format
 msgid "Pause"
 msgstr "Pausa"
 
-#: src/application.cpp:1078 src/application_actions.cpp:567
+#: src/application.cpp:1116 src/application_actions.cpp:585
 #, kde-format
 msgid "Play"
 msgstr "Reproduïx"
 
-#: src/application.cpp:1139
+#: src/application.cpp:1177
 #, kde-format
 msgid "Seek backwards 1 second"
 msgid_plural "Seek backwards %1 seconds"
 msgstr[0] "Busca cap arrere 1 segon"
 msgstr[1] "Busca cap arrere %1 segons"
 
-#: src/application.cpp:1140
+#: src/application.cpp:1178
 #, kde-format
 msgid "Seek forwards 1 second"
 msgid_plural "Seek forwards %1 seconds"
 msgstr[0] "Busca cap avant 1 segon"
 msgstr[1] "Busca cap avant %1 segons"
 
-#: src/application.cpp:1143 src/application.cpp:1147
+#: src/application.cpp:1181 src/application.cpp:1185
 #, kde-format
 msgid "Shift %2%1 millisecond"
 msgid_plural "Shift %2%1 milliseconds"
 msgstr[0] "Desplaçament d'%2%1 mil·lisegon"
 msgstr[1] "Desplaçament de %2%1 mil·lisegons"
 
-#: src/application.cpp:1144 src/application.cpp:1148
+#: src/application.cpp:1182 src/application.cpp:1186
 #, kde-format
 msgid "Shift selected lines %2%1 millisecond"
 msgid_plural "Shift selected lines %2%1 milliseconds"
@@ -339,7 +339,7 @@ msgid "Join selected lines"
 msgstr "Unix les línies seleccionades"
 
 #: src/application_actions.cpp:228 src/errors/finderrorsdialog.cpp:114
-#: src/gui/treeview/richlineedit.cpp:112 src/widgets/simplerichtextedit.cpp:455
+#: src/gui/treeview/richlineedit.cpp:115 src/widgets/simplerichtextedit.cpp:421
 #, kde-format
 msgid "Select All"
 msgstr "Selecciona-ho tot"
@@ -529,344 +529,366 @@ msgstr "Canvia el color del text"
 msgid "Change text color of selected lines"
 msgstr "Canvia el color del text de les línies seleccionades"
 
-#: src/application_actions.cpp:393
+#: src/application_actions.cpp:394 src/gui/currentlinewidget.cpp:318
+#, kde-format
+msgid "Change Class Tag"
+msgstr "Canvia l'etiqueta de la classe"
+
+#: src/application_actions.cpp:395
+#, fuzzy, kde-format
+#| msgid "Change text color of selected lines"
+msgid "Change CSS class of selected lines"
+msgstr "Canvia el color del text de les línies seleccionades"
+
+#: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
+#, kde-format
+msgid "Change Voice Tag"
+msgstr "Canvia l'etiqueta de la veu"
+
+#: src/application_actions.cpp:404
+#, fuzzy, kde-format
+#| msgid "Change text color of selected lines"
+msgid "Change voice actor of selected lines"
+msgstr "Canvia el color del text de les línies seleccionades"
+
+#: src/application_actions.cpp:411
 #, kde-format
 msgid "Shift..."
 msgstr "Desplaça…"
 
-#: src/application_actions.cpp:394
+#: src/application_actions.cpp:412
 #, kde-format
 msgid "Shift lines an specified amount of time"
 msgstr "Desplaça les línies una quantitat de temps determinat"
 
-#: src/application_actions.cpp:413
+#: src/application_actions.cpp:431
 #, kde-format
 msgid "Adjust..."
 msgstr "Ajusta…"
 
-#: src/application_actions.cpp:414
+#: src/application_actions.cpp:432
 #, kde-format
 msgid "Linearly adjust all lines to a specified interval"
 msgstr "Ajusta linealment totes les línies amb un interval especificat"
 
-#: src/application_actions.cpp:421
+#: src/application_actions.cpp:439
 #, kde-format
 msgid "Change Frame Rate..."
 msgstr "Canvia la velocitat dels fotogrames…"
 
-#: src/application_actions.cpp:422
+#: src/application_actions.cpp:440
 #, kde-format
 msgid "Retime subtitle lines by reinterpreting its frame rate"
 msgstr ""
 "Torna a establir el temps de les línies de subtítol reinterpretant la seua "
 "velocitat dels fotogrames"
 
-#: src/application_actions.cpp:428
+#: src/application_actions.cpp:446
 #, kde-format
 msgid "Enforce Duration Limits..."
 msgstr "Força els límits de duració…"
 
-#: src/application_actions.cpp:429
+#: src/application_actions.cpp:447
 #, kde-format
 msgid "Enforce lines minimum and/or maximum duration limits"
 msgstr "Força el límit màxim i/o mínim de duració de les línies"
 
-#: src/application_actions.cpp:436
+#: src/application_actions.cpp:454
 #, kde-format
 msgid "Set Automatic Durations..."
 msgstr "Establix les durades de manera automàtica…"
 
-#: src/application_actions.cpp:437
+#: src/application_actions.cpp:455
 #, kde-format
 msgid "Set lines durations based on amount of letters, words and line breaks"
 msgstr ""
 "Establix la duració de les línies segons la quantitat de lletres, paraules i "
 "salts de línia"
 
-#: src/application_actions.cpp:443
+#: src/application_actions.cpp:461
 #, kde-format
 msgid "Maximize Durations..."
 msgstr "Maximitza les durades…"
 
-#: src/application_actions.cpp:444
+#: src/application_actions.cpp:462
 #, kde-format
 msgid "Extend lines durations up to their next lines show time"
 msgstr ""
 "Estén la duració de les línies fins al temps de presentació de la línia "
 "següent"
 
-#: src/application_actions.cpp:450
+#: src/application_actions.cpp:468
 #, kde-format
 msgid "Fix Overlapping Times..."
 msgstr "Esmena els temps superposats…"
 
-#: src/application_actions.cpp:451
+#: src/application_actions.cpp:469
 #, kde-format
 msgid "Fix lines overlapping times"
 msgstr "Esmena els temps de les línies que se superposen"
 
-#: src/application_actions.cpp:457
+#: src/application_actions.cpp:475
 #, kde-format
 msgid "Synchronize with Subtitle..."
 msgstr "Sincronitza amb el subtítol…"
 
-#: src/application_actions.cpp:458
+#: src/application_actions.cpp:476
 #, kde-format
 msgid "Copy timing information from another subtitle"
 msgstr "Copia la informació del temps des d'un altre subtítol"
 
-#: src/application_actions.cpp:464
+#: src/application_actions.cpp:482
 #, kde-format
 msgid "Break Lines..."
 msgstr "Afig salts de línia…"
 
-#: src/application_actions.cpp:465
+#: src/application_actions.cpp:483
 #, kde-format
 msgid "Automatically set line breaks"
 msgstr "Establix de manera automàtica els salts de línia"
 
-#: src/application_actions.cpp:471
+#: src/application_actions.cpp:489
 #, kde-format
 msgid "Unbreak Lines..."
 msgstr "Elimina els salts de línia…"
 
-#: src/application_actions.cpp:472
+#: src/application_actions.cpp:490
 #, kde-format
 msgid "Remove line breaks from lines"
 msgstr "Elimina els salts de línia del text"
 
-#: src/application_actions.cpp:478
+#: src/application_actions.cpp:496
 #, kde-format
 msgid "Simplify Spaces..."
 msgstr "Simplifica els espais…"
 
-#: src/application_actions.cpp:479
+#: src/application_actions.cpp:497
 #, kde-format
 msgid "Remove unneeded spaces from lines"
 msgstr "Elimina els espais innecessaris del text"
 
-#: src/application_actions.cpp:485
+#: src/application_actions.cpp:503
 #, kde-format
 msgid "Change Case..."
 msgstr "Canvia les majúscules/minúscules…"
 
-#: src/application_actions.cpp:486
+#: src/application_actions.cpp:504
 #, kde-format
 msgid "Change lines text to upper, lower, title or sentence case"
 msgstr "Canviar el text de les línies, títol o frase a majúscules, minúscules"
 
-#: src/application_actions.cpp:492
+#: src/application_actions.cpp:510
 #, kde-format
 msgid "Fix Punctuation..."
 msgstr "Esmena la puntuació…"
 
-#: src/application_actions.cpp:493
+#: src/application_actions.cpp:511
 #, kde-format
 msgid "Fix punctuation errors in lines"
 msgstr "Esmena els errors de puntuació en el text"
 
-#: src/application_actions.cpp:499
+#: src/application_actions.cpp:517
 #, kde-format
 msgid "Translate..."
 msgstr "Traduïx…"
 
-#: src/application_actions.cpp:500
+#: src/application_actions.cpp:518
 #, kde-format
 msgid "Translate lines texts using Google services"
 msgstr "Traduïx els textos de les línies emprant els serveis de Google"
 
-#: src/application_actions.cpp:506
+#: src/application_actions.cpp:524
 #, kde-format
 msgid "Edit Line in Place"
 msgstr "Edita la línia en el seu lloc"
 
-#: src/application_actions.cpp:507
+#: src/application_actions.cpp:525
 #, kde-format
 msgid "Edit current line text in place"
 msgstr "Edita el text de línia actual en el seu lloc"
 
-#: src/application_actions.cpp:515
+#: src/application_actions.cpp:533
 #, kde-format
 msgid "Open Video..."
 msgstr "Obri un vídeo…"
 
-#: src/application_actions.cpp:516 src/application_actions.cpp:523
+#: src/application_actions.cpp:534 src/application_actions.cpp:541
 #, kde-format
 msgid "Open video file"
 msgstr "Obri un fitxer de vídeo"
 
-#: src/application_actions.cpp:522
+#: src/application_actions.cpp:540
 #, kde-format
 msgid "Open &Recent Video"
 msgstr "Obri un vídeo &recent"
 
-#: src/application_actions.cpp:529
+#: src/application_actions.cpp:547
 #, kde-format
 msgid "Import Subtitle Stream"
 msgstr "Importa un flux de subtítols"
 
-#: src/application_actions.cpp:530
+#: src/application_actions.cpp:548
 #, kde-format
 msgid "Import subtitle stream into subtitle editor"
 msgstr "Importa un flux de subtítols a dins de l'editor de subtítols"
 
-#: src/application_actions.cpp:536
+#: src/application_actions.cpp:554
 #, kde-format
 msgid "Recognize Speech"
 msgstr "Reconeix la veu"
 
-#: src/application_actions.cpp:537
+#: src/application_actions.cpp:555
 #, kde-format
 msgid "Recognize speech in audio stream"
 msgstr "Reconeix la veu al flux d'àudio"
 
-#: src/application_actions.cpp:543
+#: src/application_actions.cpp:561
 #, kde-format
 msgid "Close Video"
 msgstr "Tanca el vídeo"
 
-#: src/application_actions.cpp:544
+#: src/application_actions.cpp:562
 #, kde-format
 msgid "Close video file"
 msgstr "Tanca el fitxer de vídeo"
 
-#: src/application_actions.cpp:551
+#: src/application_actions.cpp:569
 #, kde-format
 msgid "Full Screen Mode"
 msgstr "Mode de pantalla completa"
 
-#: src/application_actions.cpp:552
+#: src/application_actions.cpp:570
 #, kde-format
 msgid "Toggle full screen mode"
 msgstr "Canvia al mode de pantalla completa"
 
-#: src/application_actions.cpp:559
+#: src/application_actions.cpp:577
 #, kde-format
 msgid "Stop"
 msgstr "Para"
 
-#: src/application_actions.cpp:560
+#: src/application_actions.cpp:578
 #, kde-format
 msgid "Stop video playback"
 msgstr "Para la reproducció del vídeo"
 
-#: src/application_actions.cpp:568
+#: src/application_actions.cpp:586
 #, kde-format
 msgid "Toggle video playing/paused"
 msgstr "Alterna entre reproduir i fer pausa del vídeo"
 
-#: src/application_actions.cpp:576
+#: src/application_actions.cpp:594
 #, kde-format
 msgid "Seek Backward"
 msgstr "Busca arrere"
 
-#: src/application_actions.cpp:584
+#: src/application_actions.cpp:602
 #, kde-format
 msgid "Seek Forward"
 msgstr "Busca avant"
 
-#: src/application_actions.cpp:591
+#: src/application_actions.cpp:609
 #, kde-format
 msgid "Frame Step Backward"
 msgstr "Recula un pas de fotogrames"
 
-#: src/application_actions.cpp:598
+#: src/application_actions.cpp:616
 #, kde-format
 msgid "Frame Step Forward"
 msgstr "Avança un pas de fotogrames"
 
-#: src/application_actions.cpp:606
+#: src/application_actions.cpp:624
 #, kde-format
 msgid "Seek to Previous Line"
 msgstr "Busca en la línia anterior"
 
-#: src/application_actions.cpp:607
+#: src/application_actions.cpp:625
 #, kde-format
 msgid "Seek to previous subtitle line show time"
 msgstr "Busca el temps de presentació de l'anterior línia de subtítol"
 
-#: src/application_actions.cpp:615
+#: src/application_actions.cpp:633
 #, kde-format
 msgid "Increase media play rate"
 msgstr "Incrementa la velocitat de reproducció"
 
-#: src/application_actions.cpp:616
+#: src/application_actions.cpp:634
 #, kde-format
 msgid "Increase media playback rate"
 msgstr "Fa pujar la velocitat de reproducció"
 
-#: src/application_actions.cpp:623
+#: src/application_actions.cpp:641
 #, kde-format
 msgid "Decrease media play rate"
 msgstr "Disminuïx la velocitat de reproducció"
 
-#: src/application_actions.cpp:624
+#: src/application_actions.cpp:642
 #, kde-format
 msgid "Decrease media playback rate"
 msgstr "Fa baixar la velocitat de reproducció"
 
-#: src/application_actions.cpp:630
+#: src/application_actions.cpp:648
 #, kde-format
 msgid "Play Current Line and Pause"
 msgstr "Reproduïx la línia actual i fes una pausa"
 
-#: src/application_actions.cpp:631
+#: src/application_actions.cpp:649
 #, kde-format
 msgid "Seek to selected subtitle line show time, play it and then pause"
 msgstr ""
 "Busca el temps de presentació de la línia de subtítol seleccionat, el "
 "reproduïx i després fa una pausa"
 
-#: src/application_actions.cpp:638
+#: src/application_actions.cpp:656
 #, kde-format
 msgid "Seek to Current Line"
 msgstr "Busca en la línia actual"
 
-#: src/application_actions.cpp:639
+#: src/application_actions.cpp:657
 #, kde-format
 msgid "Seek to selected subtitle line show time"
 msgstr "Busca el temps de presentació de la línia de subtítol seleccionat"
 
-#: src/application_actions.cpp:646
+#: src/application_actions.cpp:664
 #, kde-format
 msgid "Seek to Next Line"
 msgstr "Busca en la línia següent"
 
-#: src/application_actions.cpp:647
+#: src/application_actions.cpp:665
 #, kde-format
 msgid "Seek to next subtitle line show time"
 msgstr "Busca el temps de presentació de la següent línia de subtítol"
 
-#: src/application_actions.cpp:655
+#: src/application_actions.cpp:673
 #, kde-format
 msgid "Set Line Show Time to Video Position"
 msgstr "Establix el temps per a aparéixer de la línia a la posició en el vídeo"
 
-#: src/application_actions.cpp:656
+#: src/application_actions.cpp:674
 #, kde-format
 msgid "Set current line show time to video position"
 msgstr ""
 "Establix el temps per a aparéixer de la línia actual a la posició en el vídeo"
 
-#: src/application_actions.cpp:664
+#: src/application_actions.cpp:682
 #, kde-format
 msgid "Set Line Hide Time to Video Position"
 msgstr ""
 "Establix el temps per a desaparéixer de la línia a la posició en el vídeo"
 
-#: src/application_actions.cpp:665
+#: src/application_actions.cpp:683
 #, kde-format
 msgid "Set current line hide time to video position"
 msgstr ""
 "Establix el temps per a desaparéixer de la línia actual a la posició en el "
 "vídeo"
 
-#: src/application_actions.cpp:672
+#: src/application_actions.cpp:690
 #, kde-format
 msgid "Shift Current Line to Video Position"
 msgstr "Desplaça la línia actual a la posició en el vídeo"
 
-#: src/application_actions.cpp:673
+#: src/application_actions.cpp:691
 #, kde-format
 msgid ""
 "Set current line show time to video position by equally shifting all lines"
@@ -874,93 +896,93 @@ msgstr ""
 "Establix el temps per a aparéixer de la línia actual a la posició en el "
 "vídeo desplaçant totes les línies per igual"
 
-#: src/application_actions.cpp:681
+#: src/application_actions.cpp:699
 #, kde-format
 msgid "Current Line Follows Video"
 msgstr "La línia actual seguix el vídeo"
 
-#: src/application_actions.cpp:682
+#: src/application_actions.cpp:700
 #, kde-format
 msgid "Make current line follow the playing video position"
 msgstr "Fa que la línia actual seguisca la posició en la reproducció del vídeo"
 
-#: src/application_actions.cpp:688
+#: src/application_actions.cpp:706
 #, kde-format
 msgctxt "@action:inmenu Toggle audio muted"
 msgid "Mute"
 msgstr "Silencia"
 
-#: src/application_actions.cpp:689
+#: src/application_actions.cpp:707
 #, kde-format
 msgid "Enable/disable playback sound"
 msgstr "Activa o desactiva la reproducció del so"
 
-#: src/application_actions.cpp:696
+#: src/application_actions.cpp:714
 #, kde-format
 msgid "Increase Volume"
 msgstr "Apuja el volum"
 
-#: src/application_actions.cpp:697
+#: src/application_actions.cpp:715
 #, kde-format
 msgid "Increase volume by 5%"
 msgstr "Apuja el volum un 5%"
 
-#: src/application_actions.cpp:704
+#: src/application_actions.cpp:722
 #, kde-format
 msgid "Decrease Volume"
 msgstr "Abaixa el volum"
 
-#: src/application_actions.cpp:705
+#: src/application_actions.cpp:723
 #, kde-format
 msgid "Decrease volume by 5%"
 msgstr "Abaixa el volum un 5%"
 
-#: src/application_actions.cpp:712
+#: src/application_actions.cpp:730
 #, kde-format
 msgid "Audio Streams"
 msgstr "Fluxos d'àudio"
 
-#: src/application_actions.cpp:713
+#: src/application_actions.cpp:731
 #, kde-format
 msgid "Select active audio stream"
 msgstr "Tria el flux d'àudio actiu"
 
-#: src/application_actions.cpp:724
+#: src/application_actions.cpp:742
 #, kde-format
 msgid "Increase Font Size"
 msgstr "Augmenta la mida del tipus de lletra"
 
-#: src/application_actions.cpp:725
+#: src/application_actions.cpp:743
 #, kde-format
 msgid "Increase subtitles font size by 1 point"
 msgstr "Augmenta la mida del tipus de lletra dels subtítols en 1 punt"
 
-#: src/application_actions.cpp:732
+#: src/application_actions.cpp:750
 #, kde-format
 msgid "Decrease Font Size"
 msgstr "Disminuïx la mida del tipus de lletra"
 
-#: src/application_actions.cpp:733
+#: src/application_actions.cpp:751
 #, kde-format
 msgid "Decrease subtitles font size by 1 point"
 msgstr "Disminuïx la mida del tipus de lletra dels subtítols en 1 punt"
 
-#: src/application_actions.cpp:740
+#: src/application_actions.cpp:758
 #, kde-format
 msgid "Displayed Subtitle Text"
 msgstr "Text del subtítol mostrat"
 
-#: src/application_actions.cpp:741
+#: src/application_actions.cpp:759
 #, kde-format
 msgid "Select visible subtitle text"
 msgstr "Selecciona el text del subtítol visible"
 
-#: src/application_actions.cpp:752 src/gui/waveform/waveformwidget.cpp:736
+#: src/application_actions.cpp:770 src/gui/waveform/waveformwidget.cpp:736
 #, kde-format
 msgid "Toggle Anchor"
 msgstr "Canvia l'àncora"
 
-#: src/application_actions.cpp:753
+#: src/application_actions.cpp:771
 #, kde-format
 msgid ""
 "(Un)Anchor current line's show time to timeline (Editing anchored line's "
@@ -970,45 +992,45 @@ msgstr ""
 "(editar el temps de presentació de la línia ancorada estirarà/compactarà la "
 "línia de temps entre les àncores adjacents)"
 
-#: src/application_actions.cpp:760
+#: src/application_actions.cpp:778
 #, kde-format
 msgid "Remove All Anchors"
 msgstr "Elimina totes les àncores"
 
-#: src/application_actions.cpp:761
+#: src/application_actions.cpp:779
 #, kde-format
 msgid "Unanchor show time from the timeline on all anchored lines"
 msgstr ""
 "Desancora el temps de presentació en la línia de temps en totes les línies "
 "ancorades"
 
-#: src/application_actions.cpp:769
+#: src/application_actions.cpp:787
 #, kde-format
 msgctxt "@action:inmenu Manage user scripts"
 msgid "Scripts Manager..."
 msgstr "Gestor de scripts…"
 
-#: src/application_actions.cpp:770
+#: src/application_actions.cpp:788
 #, kde-format
 msgid "Manage user scripts"
 msgstr "Gestiona els scripts d'usuari"
 
-#: src/application_actions.cpp:777 src/application_actions.cpp:778
+#: src/application_actions.cpp:795 src/application_actions.cpp:796
 #, kde-format
 msgid "Waveform Zoom In"
 msgstr "Amplia la forma d'ona"
 
-#: src/application_actions.cpp:784 src/application_actions.cpp:785
+#: src/application_actions.cpp:802 src/application_actions.cpp:803
 #, kde-format
 msgid "Waveform Zoom Out"
 msgstr "Reduïx la forma d'ona"
 
-#: src/application_actions.cpp:792
+#: src/application_actions.cpp:810
 #, kde-format
 msgid "Waveform Auto Scroll"
 msgstr "Desplaçament automàtic en la forma d'ona"
 
-#: src/application_actions.cpp:793
+#: src/application_actions.cpp:811
 #, kde-format
 msgid "Waveform display will automatically scroll to video position"
 msgstr ""
@@ -1823,37 +1845,49 @@ msgstr "Unix els subtítols"
 msgid "Split Subtitles"
 msgstr "Dividix els subtítols"
 
-#: src/core/subtitle.cpp:1267
+#: src/core/subtitle.cpp:1280
 #, kde-format
 msgid "Toggle Lines Style"
 msgstr "Canvia l'estil de les línies"
 
-#: src/core/subtitle.cpp:1311
+#: src/core/subtitle.cpp:1313
 #, kde-format
 msgid "Change Lines Text Color"
 msgstr "Canvia el color del text de les línies"
 
-#: src/core/subtitle.cpp:1331
+#: src/core/subtitle.cpp:1330
+#, fuzzy, kde-format
+#| msgid "Change Class Tag"
+msgid "Change Lines Class Tag"
+msgstr "Canvia l'etiqueta de la classe"
+
+#: src/core/subtitle.cpp:1347
+#, fuzzy, kde-format
+#| msgid "Change Voice Tag"
+msgid "Change Lines Voice Tag"
+msgstr "Canvia l'etiqueta de la veu"
+
+#: src/core/subtitle.cpp:1360
 #, kde-format
 msgid "Set Lines Mark"
 msgstr "Establix les marques de les línies"
 
-#: src/core/subtitle.cpp:1331
+#: src/core/subtitle.cpp:1360
 #, kde-format
 msgid "Clear Lines Mark"
 msgstr "Neteja les marques de les línies"
 
-#: src/core/subtitle.cpp:1346
+#: src/core/subtitle.cpp:1375
 #, kde-format
 msgid "Toggle Lines Mark"
 msgstr "Canvia la marca en les línies"
 
-#: src/core/subtitle.cpp:1356
+#: src/core/subtitle.cpp:1385
 #, kde-format
 msgid "Clear Line Errors"
 msgstr "Neteja els errors en les línies"
 
-#: src/core/subtitle.cpp:1367 src/core/subtitle.cpp:1378
+#: src/core/subtitle.cpp:1396 src/core/subtitle.cpp:1407
 #: src/errors/errorfinder.cpp:84
 #, kde-format
 msgid "Check Lines Errors"
@@ -2798,16 +2832,6 @@ msgstr "<b>Oculta</b>"
 msgid "<b>Duration</b>"
 msgstr "<b>Duració</b>"
 
-#: src/gui/currentlinewidget.cpp:314
-#, kde-format
-msgid "Change Voice Tag"
-msgstr "Canvia l'etiqueta de la veu"
-
-#: src/gui/currentlinewidget.cpp:318
-#, kde-format
-msgid "Change Class Tag"
-msgstr "Canvia l'etiqueta de la classe"
-
 #: src/gui/currentlinewidget.cpp:440 src/gui/currentlinewidget.cpp:443
 #, kde-format
 msgid "No current line"
@@ -2990,66 +3014,80 @@ msgstr "Traducció"
 msgid "Styles"
 msgstr "Estils"
 
-#: src/gui/treeview/lineswidget.cpp:420
+#: src/gui/treeview/lineswidget.cpp:422
 #, kde-format
 msgid "Times"
 msgstr "Temps"
 
-#: src/gui/treeview/lineswidget.cpp:431
+#: src/gui/treeview/lineswidget.cpp:433
 #, kde-format
 msgid "Errors"
 msgstr "Errors"
 
-#: src/gui/treeview/richlineedit.cpp:84 src/widgets/simplerichtextedit.cpp:424
+#: src/gui/treeview/richlineedit.cpp:87 src/widgets/simplerichtextedit.cpp:390
 #, kde-format
 msgid "Cut"
 msgstr "Retalla"
 
-#: src/gui/treeview/richlineedit.cpp:91 src/widgets/simplerichtextedit.cpp:430
+#: src/gui/treeview/richlineedit.cpp:94 src/widgets/simplerichtextedit.cpp:396
 #, kde-format
 msgid "Copy"
 msgstr "Copia"
 
-#: src/gui/treeview/richlineedit.cpp:98 src/widgets/simplerichtextedit.cpp:437
+#: src/gui/treeview/richlineedit.cpp:101 src/widgets/simplerichtextedit.cpp:403
 #, kde-format
 msgid "Paste"
 msgstr "Apega"
 
-#: src/gui/treeview/richlineedit.cpp:106 src/widgets/simplerichtextedit.cpp:450
+#: src/gui/treeview/richlineedit.cpp:109 src/widgets/simplerichtextedit.cpp:416
 #, kde-format
 msgctxt "@action:inmenu Clear all text"
 msgid "Clear"
 msgstr "Neteja"
 
-#: src/gui/treeview/richlineedit.cpp:119 src/widgets/simplerichtextedit.cpp:461
+#: src/gui/treeview/richlineedit.cpp:122 src/widgets/simplerichtextedit.cpp:427
 #, kde-format
 msgctxt "@action:inmenu Toggle bold style"
 msgid "Bold"
 msgstr "Negreta"
 
-#: src/gui/treeview/richlineedit.cpp:127 src/widgets/simplerichtextedit.cpp:468
+#: src/gui/treeview/richlineedit.cpp:130 src/widgets/simplerichtextedit.cpp:434
 #, kde-format
 msgctxt "@action:inmenu Toggle italic style"
 msgid "Italic"
 msgstr "Cursiva"
 
-#: src/gui/treeview/richlineedit.cpp:135 src/widgets/simplerichtextedit.cpp:475
+#: src/gui/treeview/richlineedit.cpp:138 src/widgets/simplerichtextedit.cpp:441
 #, kde-format
 msgctxt "@action:inmenu Toggle underline style"
 msgid "Underline"
 msgstr "Subratllat"
 
-#: src/gui/treeview/richlineedit.cpp:143 src/widgets/simplerichtextedit.cpp:482
+#: src/gui/treeview/richlineedit.cpp:146 src/widgets/simplerichtextedit.cpp:448
 #, kde-format
 msgctxt "@action:inmenu Toggle strike through style"
 msgid "Strike Through"
 msgstr "Barrat"
 
-#: src/gui/treeview/richlineedit.cpp:151 src/widgets/simplerichtextedit.cpp:489
+#: src/gui/treeview/richlineedit.cpp:154 src/widgets/simplerichtextedit.cpp:455
 #, kde-format
 msgctxt "@action:inmenu Change Text Color"
 msgid "Text Color"
 msgstr "Color del text"
+
+#: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
+#, fuzzy, kde-format
+#| msgid "Change Class Tag"
+msgctxt "@action:inmenu Change Class Tag"
+msgid "Class Tag"
+msgstr "Canvia l'etiqueta de la classe"
+
+#: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
+#, fuzzy, kde-format
+#| msgid "Change Voice Tag"
+msgctxt "@action:inmenu Change Voice Tag"
+msgid "Voice Tag"
+msgstr "Canvia l'etiqueta de la veu"
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format
@@ -3977,37 +4015,37 @@ msgid "St&yles"
 msgstr "Est&ils"
 
 #. i18n: ectx: Menu (times)
-#: src/subtitlecomposerui.rc:75
+#: src/subtitlecomposerui.rc:77
 #, kde-format
 msgid "T&imes"
 msgstr "T&emps"
 
 #. i18n: ectx: Menu (errors)
-#: src/subtitlecomposerui.rc:96
+#: src/subtitlecomposerui.rc:98
 #, kde-format
 msgid "E&rrors"
 msgstr "E&rrors"
 
 #. i18n: ectx: Menu (video)
-#: src/subtitlecomposerui.rc:105
+#: src/subtitlecomposerui.rc:107
 #, kde-format
 msgid "&Video"
 msgstr "&Vídeo"
 
 #. i18n: ectx: Menu (tools)
-#: src/subtitlecomposerui.rc:140
+#: src/subtitlecomposerui.rc:142
 #, kde-format
 msgid "T&ools"
 msgstr "E&ines"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/subtitlecomposerui.rc:145
+#: src/subtitlecomposerui.rc:147
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barra d'eines principal"
 
 #. i18n: ectx: ToolBar (editToolBar)
-#: src/subtitlecomposerui.rc:156
+#: src/subtitlecomposerui.rc:158
 #, kde-format
 msgid "Edit Toolbar"
 msgstr "Barra d'eines d'edició"
@@ -4308,42 +4346,42 @@ msgstr "Flux de subtítols núm. %1"
 msgid "File does not exist."
 msgstr "El fitxer no existix."
 
-#: src/widgets/simplerichtextedit.cpp:339
+#: src/widgets/simplerichtextedit.cpp:305
 #, kde-format
 msgid "Suggestions"
 msgstr "Consells"
 
-#: src/widgets/simplerichtextedit.cpp:340
+#: src/widgets/simplerichtextedit.cpp:306
 #, kde-format
 msgid "Ignore"
 msgstr "Ignora"
 
-#: src/widgets/simplerichtextedit.cpp:341
+#: src/widgets/simplerichtextedit.cpp:307
 #, kde-format
 msgid "Add to Dictionary"
 msgstr "Afig al diccionari"
 
-#: src/widgets/simplerichtextedit.cpp:345
+#: src/widgets/simplerichtextedit.cpp:311
 #, kde-format
 msgid "No suggestions"
 msgstr "No hi ha cap suggeriment"
 
-#: src/widgets/simplerichtextedit.cpp:444
+#: src/widgets/simplerichtextedit.cpp:410
 #, kde-format
 msgid "Delete"
 msgstr "Suprimix"
 
-#: src/widgets/simplerichtextedit.cpp:495
+#: src/widgets/simplerichtextedit.cpp:473
 #, kde-format
 msgid "Check Spelling..."
 msgstr "Verifica l'ortografia…"
 
-#: src/widgets/simplerichtextedit.cpp:500
+#: src/widgets/simplerichtextedit.cpp:478
 #, kde-format
 msgid "Auto Spell Check"
 msgstr "Comprova automàticament l'ortografia"
 
-#: src/widgets/simplerichtextedit.cpp:505
+#: src/widgets/simplerichtextedit.cpp:483
 #, kde-format
 msgid "Allow Tabulations"
 msgstr "Permet les tabulacions"
