@@ -592,8 +592,7 @@ msgstr "Aseta automaattiset kestot…"
 msgid "Set lines durations based on amount of letters, words and line breaks"
 msgstr ""
 "Aseta repliikkien kesto merkkien, sanojen tai rivinvaihtojen määrän "
-"perusteellaAseta repliikkien kesto merkkien, sanojen tai rivinvaihtojen "
-"määrän perusteella"
+"perusteella"
 
 #: src/application_actions.cpp:461
 #, kde-format
@@ -664,8 +663,7 @@ msgstr "Vaihda aakkoslajia…"
 #, kde-format
 msgid "Change lines text to upper, lower, title or sentence case"
 msgstr ""
-"Muuta repliikin teksti suuraakkosiin, pienaak tai otsikko- tai virketyylin "
-"aakkosiinMuuta repliikin teksti suuraakkosiin, pienaak tai otsikko- tai "
+"Muuta repliikin teksti suuraakkosiin, pienaakkosiin tai otsikko- tai "
 "virketyylin aakkosiin"
 
 #: src/application_actions.cpp:510
@@ -975,9 +973,7 @@ msgid ""
 msgstr ""
 "Aseta tai poista aikajanan ankkuri nykyisen repliikin ilmestymisajalta "
 "(ankkuroidun repliikin ilmestymisajan muokkaus venyttää tai supistaa "
-"aikajanaa vierekkäisten ankkurien välissä)Aseta tai poista aikajanan ankkuri "
-"nykyisen repliikin ilmestymisajalta (ankkuroidun repliikin ilmestymisajan "
-"muokkaus venyttää tai supistaa aikajanaa vierekkäisten ankkurien välissä)"
+"aikajanaa vierekkäisten ankkurien välissä)"
 
 #: src/application_actions.cpp:778
 #, kde-format
@@ -989,8 +985,7 @@ msgstr "Poista kaikki ankkurit"
 msgid "Unanchor show time from the timeline on all anchored lines"
 msgstr ""
 "Poista aikajanalta kaikista ankkuroiduista repliikeistä ilmestymisajan "
-"ankkuriPoista aikajanalta kaikista ankkuroiduista repliikeistä "
-"ilmestymisajan ankkuri"
+"ankkuri"
 
 #: src/application_actions.cpp:787
 #, kde-format
@@ -1608,8 +1603,7 @@ msgid ""
 "(percentage) from page border"
 msgstr ""
 "Vieritä automaattisesti, kun toistokohta tulee vierityksen reunuksen "
-"kohdalle (prosentteina) reunastaVieritä automaattisesti, kun toistokohta "
-"tulee vierityksen reunuksen kohdalle (prosentteina) reunasta"
+"kohdalle (prosentteina) reunasta"
 
 #. i18n: ectx: property (text), widget (QLabel, label_wfAutoscrollPadding)
 #: src/configs/waveformconfigwidget.ui:107
@@ -2018,14 +2012,12 @@ msgstr "Käännöstekstissä on turha repliikkiviiva."
 msgid "Has capital letter after line continuation ellipsis in primary text."
 msgstr ""
 "Suuraakkonen lähtötekstissä jatkuvuutta osoittavien kolmen pisteen jälkeen."
-"Suuraakkonen lähtötekstissä jatkuvuutta osoittavien kolmen pisteen jälkeen."
 
 #: src/core/subtitleline.cpp:113
 #, kde-format
 msgid ""
 "Has capital letter after line continuation ellipsis in translation text."
 msgstr ""
-"Suuraakkonen käännöksessä jatkuvuutta osoittavien kolmen pisteen jälkeen."
 "Suuraakkonen käännöksessä jatkuvuutta osoittavien kolmen pisteen jälkeen."
 
 #: src/core/subtitleline.cpp:114
@@ -3362,8 +3354,7 @@ msgid ""
 "(percentage) from page border."
 msgstr ""
 "Vieritä automaattisesti, kun toistokohta tulee vierityksen reunuksen "
-"kohdalle (prosentteina) reunasta.Vieritä automaattisesti, kun toistokohta "
-"tulee vierityksen reunuksen kohdalle (prosentteina) reunasta."
+"kohdalle (prosentteina) reunasta."
 
 #. i18n: ectx: label, entry (wfSubBackground), group (Waveform Widget)
 #: src/scconfig.kcfg:145
@@ -3808,8 +3799,7 @@ msgstr "Pää-ääntämissanaston syötetiedosto"
 msgid "Num of silence frames to keep after speech to silence transition"
 msgstr ""
 "Säilytettävien hiljaisten kuvien määrä, kun puheesta on siirrytty "
-"hiljaisuuteenSäilytettävien hiljaisten kuvien määrä, kun puheesta on "
-"siirrytty hiljaisuuteen"
+"hiljaisuuteen"
 
 #. i18n: ectx: label, entry (vadPreSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadPreSpeech)
@@ -3819,8 +3809,7 @@ msgstr ""
 msgid "Num of speech frames to keep before silence to speech transition"
 msgstr ""
 "Säilytettävien puhuttujen kuvien määrä, kun hiljaisuudesta on siirrytty "
-"puheeseenSäilytettävien puhuttujen kuvien määrä, kun hiljaisuudesta on "
-"siirrytty puheeseen"
+"puheeseen"
 
 #. i18n: ectx: label, entry (vadStartSpeech), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadStartSpeech)
@@ -3842,8 +3831,7 @@ msgid ""
 "signal level and noise level"
 msgstr ""
 "Taustahälyn ja hiljaisten kuvien ratkaisukynnys. Logaritminen suhde "
-"signaali- ja kohinatasojen välilläTaustahälyn ja hiljaisten kuvien "
-"ratkaisukynnys. Logaritminen suhde signaali- ja kohinatasojen välillä"
+"signaali- ja kohinatasojen välillä"
 
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:20
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:28

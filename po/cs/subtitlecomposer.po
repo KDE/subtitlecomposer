@@ -14,15 +14,15 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-05 02:24+0000\n"
-"PO-Revision-Date: 2026-09-02 18:59+0200\n"
-"Last-Translator: Libor Filipek <libor.filipek@gmail.com>\n"
+"PO-Revision-Date: 2026-11-05 12:35+0100\n"
+"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.2\n"
 "X-Crowdin-Project: subtitlecomposer\n"
 "X-Crowdin-Language: cs\n"
 "X-Crowdin-File: subtitlecomposer.pot\n"
@@ -540,10 +540,9 @@ msgid "Change Class Tag"
 msgstr "Změnit značku třídy"
 
 #: src/application_actions.cpp:395
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change CSS class of selected lines"
-msgstr "Změnit barvu textu na označených řádcích"
+msgstr "Změnit třídu CSS vybraných řádků"
 
 #: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
 #, kde-format
@@ -551,10 +550,9 @@ msgid "Change Voice Tag"
 msgstr "Změnit značku hlasu"
 
 #: src/application_actions.cpp:404
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change voice actor of selected lines"
-msgstr "Změnit barvu textu na označených řádcích"
+msgstr "Změnit dabéra vybraných řádků"
 
 #: src/application_actions.cpp:411
 #, kde-format
@@ -1836,16 +1834,14 @@ msgid "Change Lines Text Color"
 msgstr "Změnit barvu řádků"
 
 #: src/core/subtitle.cpp:1330
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgid "Change Lines Class Tag"
-msgstr "Změnit značku třídy"
+msgstr "Změnit značku třídy řádků"
 
 #: src/core/subtitle.cpp:1347
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgid "Change Lines Voice Tag"
-msgstr "Změnit značku hlasu"
+msgstr "Změnit značku hlasu řádků"
 
 #: src/core/subtitle.cpp:1360
 #, kde-format
@@ -3050,18 +3046,16 @@ msgid "Text Color"
 msgstr "Barva textu"
 
 #: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Class Tag"
 msgid "Class Tag"
-msgstr "Změnit značku třídy"
+msgstr "Značka třídy"
 
 #: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Voice Tag"
 msgid "Voice Tag"
-msgstr "Změnit značku hlasu"
+msgstr "Značka hlasu"
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format

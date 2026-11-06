@@ -1,21 +1,21 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the subtitlecomposer package.
 #
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2020-2024, 2026 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-05 02:24+0000\n"
-"PO-Revision-Date: 2024-11-18 12:54+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"PO-Revision-Date: 2026-11-05 16:29+0100\n"
+"Last-Translator: freek <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #: src/actions/kcodecactionext.cpp:29
 #, kde-format
@@ -526,10 +526,9 @@ msgid "Change Class Tag"
 msgstr "Klassetag wijzigen"
 
 #: src/application_actions.cpp:395
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change CSS class of selected lines"
-msgstr "Tekstkleur wijzigen van geselecteerde regels"
+msgstr "CSS-klasse wijzigen van geselecteerde regels"
 
 #: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
 #, kde-format
@@ -537,10 +536,9 @@ msgid "Change Voice Tag"
 msgstr "Stemtag wijzigen"
 
 #: src/application_actions.cpp:404
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change voice actor of selected lines"
-msgstr "Tekstkleur wijzigen van geselecteerde regels"
+msgstr "Stemacteur wijzigen van geselecteerde regels"
 
 #: src/application_actions.cpp:411
 #, kde-format
@@ -1835,16 +1833,14 @@ msgid "Change Lines Text Color"
 msgstr "Tekstkleur van regel wijzigen"
 
 #: src/core/subtitle.cpp:1330
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgid "Change Lines Class Tag"
-msgstr "Klassetag wijzigen"
+msgstr "Regelklassetag wijzigen"
 
 #: src/core/subtitle.cpp:1347
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgid "Change Lines Voice Tag"
-msgstr "Stemtag wijzigen"
+msgstr "Regelstemtag wijzigen"
 
 #: src/core/subtitle.cpp:1360
 #, kde-format
@@ -3038,18 +3034,16 @@ msgid "Text Color"
 msgstr "Tekstkleur"
 
 #: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Class Tag"
 msgid "Class Tag"
-msgstr "Klassetag wijzigen"
+msgstr "Klassetag"
 
 #: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Voice Tag"
 msgid "Voice Tag"
-msgstr "Stemtag wijzigen"
+msgstr "Stemtag"
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format

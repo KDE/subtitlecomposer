@@ -5,21 +5,21 @@
 # Sergio Pistone <sergio_pistone@yahoo,com.ar>, 2009.
 # Thiago Masato Costa Sueto <herzenschein@gmail.com>, 2020, 2021.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2020, 2021, 2022, 2023.
-# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
+# SPDX-FileCopyrightText: 2025-2026 Marcus Gama <marcus.gama@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-05 02:24+0000\n"
-"PO-Revision-Date: 2025-08-27 11:23-0300\n"
+"PO-Revision-Date: 2026-11-05 07:09-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 26.08.2\n"
 "X-Crowdin-Project: subtitlecomposer\n"
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: subtitlecomposer.pot\n"
@@ -539,10 +539,9 @@ msgid "Change Class Tag"
 msgstr "Mudar etiqueta de classe"
 
 #: src/application_actions.cpp:395
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change CSS class of selected lines"
-msgstr "Muda a cor do texto nas linhas selecionadas"
+msgstr "Muda a classe CSS nas linhas selecionadas"
 
 #: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
 #, kde-format
@@ -550,10 +549,9 @@ msgid "Change Voice Tag"
 msgstr "Mudar etiqueta de voz"
 
 #: src/application_actions.cpp:404
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change voice actor of selected lines"
-msgstr "Muda a cor do texto nas linhas selecionadas"
+msgstr "Muda a voz do ator nas linhas selecionadas"
 
 #: src/application_actions.cpp:411
 #, kde-format
@@ -1852,16 +1850,14 @@ msgid "Change Lines Text Color"
 msgstr "Alterar a cor de texto das linhas"
 
 #: src/core/subtitle.cpp:1330
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgid "Change Lines Class Tag"
-msgstr "Mudar etiqueta de classe"
+msgstr "Mudar etiqueta de classe nas linhas"
 
 #: src/core/subtitle.cpp:1347
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgid "Change Lines Voice Tag"
-msgstr "Mudar etiqueta de voz"
+msgstr "Mudar etiqueta de voz nas linhas"
 
 #: src/core/subtitle.cpp:1360
 #, kde-format
@@ -3076,18 +3072,16 @@ msgid "Text Color"
 msgstr "Cor do texto"
 
 #: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Class Tag"
 msgid "Class Tag"
-msgstr "Mudar etiqueta de classe"
+msgstr "Etiqueta de classe"
 
 #: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Voice Tag"
 msgid "Voice Tag"
-msgstr "Mudar etiqueta de voz"
+msgstr "Etiqueta de voz"
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format

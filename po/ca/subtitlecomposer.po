@@ -1,23 +1,23 @@
 # Translation of subtitlecomposer.po to Catalan
-# Copyright (C) 2019-2024 This_file_is_part_of_KDE
+# Copyright (C) 2019-2026 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# SPDX-FileCopyrightText: 2020-2024 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2020-2024, 2026 Josep M. Ferrer <txemaq@gmail.com>
 # SPDX-FileCopyrightText: 2019-2020, 2023 Antoni Bella Pérez <antonibella5@yahoo.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-05 02:24+0000\n"
-"PO-Revision-Date: 2024-11-18 09:42+0100\n"
+"PO-Revision-Date: 2026-11-05 16:38+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -534,10 +534,9 @@ msgid "Change Class Tag"
 msgstr "Canvia l'etiqueta de la classe"
 
 #: src/application_actions.cpp:395
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change CSS class of selected lines"
-msgstr "Canvia el color del text de les línies seleccionades"
+msgstr "Canvia la classe CSS de les línies seleccionades"
 
 #: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
 #, kde-format
@@ -545,10 +544,9 @@ msgid "Change Voice Tag"
 msgstr "Canvia l'etiqueta de la veu"
 
 #: src/application_actions.cpp:404
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change voice actor of selected lines"
-msgstr "Canvia el color del text de les línies seleccionades"
+msgstr "Canvia l'actor de veu de les línies seleccionades"
 
 #: src/application_actions.cpp:411
 #, kde-format
@@ -1855,16 +1853,14 @@ msgid "Change Lines Text Color"
 msgstr "Canvia el color del text de les línies"
 
 #: src/core/subtitle.cpp:1330
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgid "Change Lines Class Tag"
-msgstr "Canvia l'etiqueta de la classe"
+msgstr "Canvia l'etiqueta de classe de les línies"
 
 #: src/core/subtitle.cpp:1347
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgid "Change Lines Voice Tag"
-msgstr "Canvia l'etiqueta de la veu"
+msgstr "Canvia l'etiqueta de veu de les línies"
 
 #: src/core/subtitle.cpp:1360
 #, kde-format
@@ -3075,18 +3071,16 @@ msgid "Text Color"
 msgstr "Color del text"
 
 #: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Class Tag"
 msgid "Class Tag"
-msgstr "Canvia l'etiqueta de la classe"
+msgstr "Etiqueta de classe"
 
 #: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Voice Tag"
 msgid "Voice Tag"
-msgstr "Canvia l'etiqueta de la veu"
+msgstr "Etiqueta de veu"
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format

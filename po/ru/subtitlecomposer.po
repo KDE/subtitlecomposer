@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-05 02:24+0000\n"
-"PO-Revision-Date: 2026-09-27 09:42+0300\n"
+"PO-Revision-Date: 2026-11-05 07:47+0200\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -540,10 +540,9 @@ msgid "Change Class Tag"
 msgstr "Изменить тег класса"
 
 #: src/application_actions.cpp:395
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change CSS class of selected lines"
-msgstr "Изменить цвет текста в выделенных субтитрах"
+msgstr "Изменить класс CSS выделенных субтитров"
 
 #: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
 #, kde-format
@@ -551,10 +550,9 @@ msgid "Change Voice Tag"
 msgstr "Изменить тег голоса"
 
 #: src/application_actions.cpp:404
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change voice actor of selected lines"
-msgstr "Изменить цвет текста в выделенных субтитрах"
+msgstr "Изменить актёра озвучивания выделенных субтитров"
 
 #: src/application_actions.cpp:411
 #, kde-format
@@ -1846,16 +1844,14 @@ msgid "Change Lines Text Color"
 msgstr "Установить цвет текста субтитра"
 
 #: src/core/subtitle.cpp:1330
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgid "Change Lines Class Tag"
-msgstr "Изменить тег класса"
+msgstr "Изменить тег класса субтитров"
 
 #: src/core/subtitle.cpp:1347
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgid "Change Lines Voice Tag"
-msgstr "Изменить тег голоса"
+msgstr "Изменить тег голоса субтитров"
 
 #: src/core/subtitle.cpp:1360
 #, kde-format
@@ -3076,18 +3072,16 @@ msgid "Text Color"
 msgstr "Цвет текста"
 
 #: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Class Tag"
 msgid "Class Tag"
-msgstr "Изменить тег класса"
+msgstr "Тег класса"
 
 #: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Voice Tag"
 msgid "Voice Tag"
-msgstr "Изменить тег голоса"
+msgstr "Тег голоса"
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format
