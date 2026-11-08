@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-05 02:24+0000\n"
-"PO-Revision-Date: 2026-10-24 22:24+0300\n"
+"POT-Creation-Date: 2026-11-08 04:37+0000\n"
+"PO-Revision-Date: 2026-11-07 20:15+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #: src/actions/kcodecactionext.cpp:29
 #, kde-format
@@ -523,24 +523,22 @@ msgstr "Seçili satırların metin rengini değiştir"
 #: src/application_actions.cpp:394 src/gui/currentlinewidget.cpp:318
 #, kde-format
 msgid "Change Class Tag"
-msgstr "Sınıf Etiketini Değiştir"
+msgstr "Sınıf Künyesini Değiştir"
 
 #: src/application_actions.cpp:395
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change CSS class of selected lines"
-msgstr "Seçili satırların metin rengini değiştir"
+msgstr "Seçili satırların CSS sınıfını değiştir"
 
 #: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
 #, kde-format
 msgid "Change Voice Tag"
-msgstr "Ses Etiketini Değiştir"
+msgstr "Ses Künyesini Değiştir"
 
 #: src/application_actions.cpp:404
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change voice actor of selected lines"
-msgstr "Seçili satırların metin rengini değiştir"
+msgstr "Seçili satırların seslendirme sanatçısını değiştir"
 
 #: src/application_actions.cpp:411
 #, kde-format
@@ -1829,16 +1827,14 @@ msgid "Change Lines Text Color"
 msgstr "Satır Metin Rengini Değiştir"
 
 #: src/core/subtitle.cpp:1330
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgid "Change Lines Class Tag"
-msgstr "Sınıf Etiketini Değiştir"
+msgstr "Satırların Sınıf Künyesini Değiştir"
 
 #: src/core/subtitle.cpp:1347
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgid "Change Lines Voice Tag"
-msgstr "Ses Etiketini Değiştir"
+msgstr "Satırların Ses Künyesini Değiştir"
 
 #: src/core/subtitle.cpp:1360
 #, kde-format
@@ -3031,18 +3027,16 @@ msgid "Text Color"
 msgstr "Metin Rengi"
 
 #: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Class Tag"
 msgid "Class Tag"
-msgstr "Sınıf Etiketini Değiştir"
+msgstr "Sınıf Künyesi"
 
 #: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Voice Tag"
 msgid "Voice Tag"
-msgstr "Ses Etiketini Değiştir"
+msgstr "Ses Künyesi"
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format
