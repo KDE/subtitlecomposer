@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-08 04:37+0000\n"
-"PO-Revision-Date: 2026-11-07 20:15+0300\n"
+"PO-Revision-Date: 2026-11-10 21:41+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -1819,7 +1819,7 @@ msgstr "Alt Yazıları Böl"
 #: src/core/subtitle.cpp:1280
 #, kde-format
 msgid "Toggle Lines Style"
-msgstr "Satır Biçemlerini Aç/Kapat"
+msgstr "Satır Stillerini Aç/Kapat"
 
 #: src/core/subtitle.cpp:1313
 #, kde-format
@@ -2120,7 +2120,7 @@ msgstr "Metni Takas Et"
 #: src/core/undo/subtitleactions.cpp:306
 #, kde-format
 msgid "Change stylesheet"
-msgstr "Biçem Sayfasını Değiştir"
+msgstr "Stil Sayfasını Değiştir"
 
 #: src/core/undo/subtitlelineactions.cpp:28
 #, kde-format
@@ -2850,7 +2850,7 @@ msgstr "Dosya Oynatma Hatası"
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:46
 #, kde-format
 msgid "&Stylesheet"
-msgstr "&Biçem Sayfası"
+msgstr "&Stil Sayfası"
 
 #: src/gui/subtitlemeta/subtitlemetawidget.cpp:47
 #, kde-format
@@ -2963,7 +2963,7 @@ msgstr "Çeviri"
 #: src/gui/treeview/lineswidget.cpp:411
 #, kde-format
 msgid "Styles"
-msgstr "Biçemler"
+msgstr "Stiller"
 
 #: src/gui/treeview/lineswidget.cpp:422
 #, kde-format
@@ -3159,7 +3159,7 @@ msgstr "Dalga Biçimi"
 #: src/mainwindow.cpp:62
 #, kde-format
 msgid "Styles and Comments"
-msgstr "Biçemler ve Yorumlar"
+msgstr "Stiller ve Yorumlar"
 
 #. i18n: ectx: label, entry (DefaultSubtitlesEncoding), group (General)
 #: src/scconfig.kcfg:10
