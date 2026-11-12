@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-08 04:37+0000\n"
-"PO-Revision-Date: 2026-11-05 07:47+0200\n"
+"PO-Revision-Date: 2026-11-11 22:58+0200\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -923,7 +923,7 @@ msgstr "Увеличить громкость"
 #: src/application_actions.cpp:715
 #, kde-format
 msgid "Increase volume by 5%"
-msgstr "Увеличить громкость на 5%"
+msgstr "Увеличить громкость на 5 %"
 
 #: src/application_actions.cpp:722
 #, kde-format
@@ -933,7 +933,7 @@ msgstr "Уменьшить громкость"
 #: src/application_actions.cpp:723
 #, kde-format
 msgid "Decrease volume by 5%"
-msgstr "Уменьшить громкость на 5%"
+msgstr "Уменьшить громкость на 5 %"
 
 #: src/application_actions.cpp:730
 #, kde-format
@@ -2382,7 +2382,7 @@ msgstr "Сжать длительность до:"
 #, kde-format
 msgctxt "Text encoding detected with n% confidence."
 msgid "%1 (%2% confidence)"
-msgstr "%1 (достоверность %2%)"
+msgstr "%1 (достоверность %2 %)"
 
 #: src/dialogs/encodingdetectdialog.cpp:191
 #, kde-format
