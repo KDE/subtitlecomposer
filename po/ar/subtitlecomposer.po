@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the subtitlecomposer package.
-# SPDX-FileCopyrightText: 2022, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# SPDX-FileCopyrightText: 2022, 2025-2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-08 04:37+0000\n"
-"PO-Revision-Date: 2025-08-25 17:16+0400\n"
+"PO-Revision-Date: 2026-11-12 09:08+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 26.08.1\n"
 
 #: src/actions/kcodecactionext.cpp:29
 #, kde-format
@@ -543,10 +543,9 @@ msgid "Change Class Tag"
 msgstr "غيّر وسم الصف"
 
 #: src/application_actions.cpp:395
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change CSS class of selected lines"
-msgstr "غيّر لون نص الأسطر المحددة"
+msgstr "غيّر صنف CSS للسطور المحددة"
 
 #: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
 #, kde-format
@@ -554,10 +553,9 @@ msgid "Change Voice Tag"
 msgstr "غيّر وسم الصوت"
 
 #: src/application_actions.cpp:404
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change voice actor of selected lines"
-msgstr "غيّر لون نص الأسطر المحددة"
+msgstr "غيّر مؤدي الصوت للسطور المحددة"
 
 #: src/application_actions.cpp:411
 #, kde-format
@@ -1839,16 +1837,14 @@ msgid "Change Lines Text Color"
 msgstr "غيّر لون نص الأسطر"
 
 #: src/core/subtitle.cpp:1330
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgid "Change Lines Class Tag"
-msgstr "غيّر وسم الصف"
+msgstr "غيّر وسم الصنف للسطور"
 
 #: src/core/subtitle.cpp:1347
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgid "Change Lines Voice Tag"
-msgstr "غيّر وسم الصوت"
+msgstr "غيّر وسم الصوت للسطور"
 
 #: src/core/subtitle.cpp:1360
 #, kde-format
@@ -3081,18 +3077,16 @@ msgid "Text Color"
 msgstr "لون النّصّ"
 
 #: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Class Tag"
 msgid "Class Tag"
-msgstr "غيّر وسم الصف"
+msgstr "وسم الصنف"
 
 #: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Voice Tag"
 msgid "Voice Tag"
-msgstr "غيّر وسم الصوت"
+msgstr "وسم الصوت"
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format
