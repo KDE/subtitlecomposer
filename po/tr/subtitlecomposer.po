@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-08 04:37+0000\n"
-"PO-Revision-Date: 2026-11-10 21:41+0300\n"
+"PO-Revision-Date: 2026-11-18 18:19+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -931,22 +931,22 @@ msgstr "Etkin ses akışını seç"
 #: src/application_actions.cpp:742
 #, kde-format
 msgid "Increase Font Size"
-msgstr "Yazıtipi Boyutunu Artır"
+msgstr "Yazı Tipi Puntosunu Artır"
 
 #: src/application_actions.cpp:743
 #, kde-format
 msgid "Increase subtitles font size by 1 point"
-msgstr "Alt yazı yazıtipi puntosunu 1 artır"
+msgstr "Alt yazı yazı tipi puntosunu 1 artır"
 
 #: src/application_actions.cpp:750
 #, kde-format
 msgid "Decrease Font Size"
-msgstr "Yazıtipi Boyutunu Azalt"
+msgstr "Yazı Tipi Puntosunu Azalt"
 
 #: src/application_actions.cpp:751
 #, kde-format
 msgid "Decrease subtitles font size by 1 point"
-msgstr "Alt yazı yazıtipi puntosunu 1 azalt"
+msgstr "Alt yazı yazı tipi puntosunu 1 azalt"
 
 #: src/application_actions.cpp:758
 #, kde-format
@@ -1546,7 +1546,7 @@ msgstr "Met&in rengi:"
 #: src/configs/playerconfigwidget.ui:164
 #, kde-format
 msgid "Font family:"
-msgstr "Yazıtipi ailesi:"
+msgstr "Yazı tipi ailesi:"
 
 #. i18n: ectx: property (text), widget (QLabel, lab_OutlineWidth)
 #: src/configs/playerconfigwidget.ui:177
@@ -1558,13 +1558,13 @@ msgstr "Dış hat genişliği:"
 #: src/configs/playerconfigwidget.ui:187
 #, kde-format
 msgid "Font si&ze:"
-msgstr "Yazıti&pi boyutu:"
+msgstr "&Yazı tipi boyutu:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpPreview)
 #: src/configs/playerconfigwidget.ui:203
 #, kde-format
 msgid "Subtitles Preview"
-msgstr "Alt Yazı Önizlemesi"
+msgstr "Alt Yazı Ön İzlemesi"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: src/configs/waveformconfigwidget.ui:17
@@ -1646,19 +1646,19 @@ msgstr "Seçili kenarlık rengi:"
 #: src/configs/waveformconfigwidget.ui:258
 #, kde-format
 msgid "Text Font and Colors"
-msgstr "Metin Yazıtipi ve Renkleri"
+msgstr "Metin Yazı Tipi ve Renkleri"
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #: src/configs/waveformconfigwidget.ui:264
 #, kde-format
 msgid "Subtitle font family:"
-msgstr "Alt yazı yazıtipi ailesi:"
+msgstr "Alt yazı yazı tipi ailesi:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #: src/configs/waveformconfigwidget.ui:277
 #, kde-format
 msgid "Subtitle number font size:"
-msgstr "Alt yazı sayı yazıtipi boyutu:"
+msgstr "Alt yazı sayı yazı tipi boyutu:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubNumberFontSize)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubTextFontSize)
@@ -1678,7 +1678,7 @@ msgstr "Alt yazı sayı rengi"
 #: src/configs/waveformconfigwidget.ui:323
 #, kde-format
 msgid "Subtitle text font size:"
-msgstr "Alt yazı metin yazıtipi puntosu:"
+msgstr "Alt yazı metin yazı tipi puntosu:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_25)
 #: src/configs/waveformconfigwidget.ui:340
@@ -2360,7 +2360,7 @@ msgstr "Kodlama"
 #: src/dialogs/encodingdetectdialog.ui:57
 #, kde-format
 msgid "Preview"
-msgstr "Önizleme"
+msgstr "Ön izleme"
 
 #: src/dialogs/fixoverlappingtimesdialog.cpp:23
 #, kde-format
@@ -3380,31 +3380,31 @@ msgstr "Dalga biçimi seçili alt yazı kenarlık rengi"
 #: src/scconfig.kcfg:165 src/scconfig.kcfg:217
 #, kde-format
 msgid "Font Family"
-msgstr "Yazıtipi Ailesi"
+msgstr "Yazı tipi ailesi"
 
 #. i18n: ectx: label, entry (wfSubNumberFontSize), group (Waveform Widget)
 #: src/scconfig.kcfg:169
 #, kde-format
 msgid "Subtitle Number Font Size"
-msgstr "Alt yazı sayı yazıtipi puntosu"
+msgstr "Alt yazı sayı yazı tipi puntosu"
 
 #. i18n: ectx: label, entry (wfSubNumberColor), group (Waveform Widget)
 #: src/scconfig.kcfg:173
 #, kde-format
 msgid "Subtitle Number Font Color"
-msgstr "Alt yazı sayı yazıtipi rengi"
+msgstr "Alt yazı sayı yazı tipi rengi"
 
 #. i18n: ectx: label, entry (wfSubTextFontSize), group (Waveform Widget)
 #: src/scconfig.kcfg:177
 #, kde-format
 msgid "Subtitle Text Font Size"
-msgstr "Alt yazı metin yazıtipi puntosu"
+msgstr "Alt yazı metin yazı tipi puntosu"
 
 #. i18n: ectx: label, entry (wfSubTextColor), group (Waveform Widget)
 #: src/scconfig.kcfg:181
 #, kde-format
 msgid "Subtitle Text Font Color"
-msgstr "Alt yazı metin yazıtipi rengi"
+msgstr "Alt yazı metin yazı tipi rengi"
 
 #. i18n: ectx: label, entry (wfMouseLocation), group (Waveform Widget)
 #: src/scconfig.kcfg:185
@@ -3446,13 +3446,13 @@ msgstr "Ses Düzeyi Yükseltmesi"
 #: src/scconfig.kcfg:221
 #, kde-format
 msgid "Font Size"
-msgstr "Yazıtipi Boyutu"
+msgstr "Yazı tipi puntosu"
 
 #. i18n: ectx: label, entry (FontColor), group (VideoPlayer)
 #: src/scconfig.kcfg:225
 #, kde-format
 msgid "Font Color"
-msgstr "Yazıtipi Rengi"
+msgstr "Yazı tipi rengi"
 
 #. i18n: ectx: label, entry (OutlineColor), group (VideoPlayer)
 #: src/scconfig.kcfg:229
@@ -3484,7 +3484,7 @@ msgstr "Özel anahtar içeren Hizmet Hesap JSON’u"
 #: src/scconfig.kcfg:250 src/scconfig.kcfg:274 src/scconfig.kcfg:287
 #, kde-format
 msgid "source language - cached"
-msgstr "kaynak dil — önbelleklendi"
+msgstr "kaynak dil — ön belleğe alındı"
 
 #. i18n: ectx: label, entry (gctLangTrans), group (GoogleCloudTranslate)
 #. i18n: ectx: label, entry (dltLangTrans), group (DeepLTranslate)
@@ -3492,25 +3492,25 @@ msgstr "kaynak dil — önbelleklendi"
 #: src/scconfig.kcfg:253 src/scconfig.kcfg:277 src/scconfig.kcfg:290
 #, kde-format
 msgid "translation language - cached"
-msgstr "çeviri dili — önbelleklendi"
+msgstr "çeviri dili — ön belleğe alındı"
 
 #. i18n: ectx: label, entry (gctAccessToken), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:256
 #, kde-format
 msgid "access token - cached"
-msgstr "erişim jetonu — önbelleklendi"
+msgstr "erişim jetonu — ön belleğe alındı"
 
 #. i18n: ectx: label, entry (gctTokenExpires), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:259
 #, kde-format
 msgid "access token expiry - cached"
-msgstr "erişim jetonu süresi — önbelleklendi"
+msgstr "erişim jetonu süresi — ön belleğe alındı"
 
 #. i18n: ectx: label, entry (gctTokenType), group (GoogleCloudTranslate)
 #: src/scconfig.kcfg:262
 #, kde-format
 msgid "access token type - cached"
-msgstr "erişim jetonu türü — önbelleklendi"
+msgstr "erişim jetonu türü — ön belleğe alındı"
 
 #. i18n: ectx: label, entry (dltAuthKey), group (DeepLTranslate)
 #: src/scconfig.kcfg:268
