@@ -294,7 +294,7 @@
       <li xml:lang="sk">Živý náhľad titulkov v integrovanom prehrávači videa s výberom zvukového prúdu</li>
       <li xml:lang="sl">Predogled podnapisov v živo v integriranem video predvajalniku z izborom zvokovnega toka</li>
       <li xml:lang="sv">Direkt förhandsgranskning av textning i integrerad videospelare med val av ljudspår</li>
-      <li xml:lang="tr">Tümleşik video oynatıcısında ses akış seçimi ile alt yazıların canlı önizlemesi</li>
+      <li xml:lang="tr">Tümleşik video oynatıcısında ses akış seçimi ile alt yazıların canlı ön izlemesi</li>
       <li xml:lang="uk">Інтерактивний перегляд субтитрів у інтегрованому відеопрогравачі із можливістю вибору потоку звукових даних</li>
       <li xml:lang="zh-CN">在集成视频播放器中实时预览字幕，并可选择音频流</li>
       <li xml:lang="zh-TW">在可選取音訊軌道內嵌影片播放器內即時預覽字幕</li>
@@ -323,7 +323,7 @@
       <li xml:lang="sk">Náhľad/úprava titulkov na grafickom vlnovom priebehu zvuku s výberom zvukového prúdu</li>
       <li xml:lang="sl">Predogled/urejanje podnapisov v grafični valovni obliki zvoka z izborom zvočnega toka</li>
       <li xml:lang="sv">Förhandsgranskning och redigering av textning på grafisk ljudvågform med val av ljudspår</li>
-      <li xml:lang="tr">Grafik ses dalga biçiminde ses akış seçimi ile alt yazıların önizlemesi/düzenlemesi</li>
+      <li xml:lang="tr">Grafik ses dalga biçiminde ses akış seçimi ile alt yazıların ön izlemesi/düzenlemesi</li>
       <li xml:lang="uk">Попередній перегляд і редагування субтитрів із показом графічного представлення звукових даних і можливістю вибору потоку звукових даних</li>
       <li xml:lang="zh-CN">在图形化音频波形上预览/编辑字幕，并可选择音频流</li>
       <li>Sync by dragging several anchors/graftpoints and stretching timeline</li>
