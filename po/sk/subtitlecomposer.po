@@ -528,10 +528,9 @@ msgid "Change Class Tag"
 msgstr "Zmeniť značku triedy"
 
 #: src/application_actions.cpp:395
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change CSS class of selected lines"
-msgstr "Zmeniť farbu textu vybraných riadkov"
+msgstr "Zmeniť triedu CSS vybraných riadkov"
 
 #: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
 #, kde-format
@@ -539,10 +538,9 @@ msgid "Change Voice Tag"
 msgstr "Zmeniť značku hlasu"
 
 #: src/application_actions.cpp:404
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change voice actor of selected lines"
-msgstr "Zmeniť farbu textu vybraných riadkov"
+msgstr "Zmeniť hlasového herca vybraných riadkov"
 
 #: src/application_actions.cpp:411
 #, kde-format
@@ -1832,16 +1830,14 @@ msgid "Change Lines Text Color"
 msgstr "Zmeniť farbu textu riadkov"
 
 #: src/core/subtitle.cpp:1330
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgid "Change Lines Class Tag"
-msgstr "Zmeniť značku triedy"
+msgstr "Zmeniť značku triedy riadkov"
 
 #: src/core/subtitle.cpp:1347
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgid "Change Lines Voice Tag"
-msgstr "Zmeniť značku hlasu"
+msgstr "Zmeniť značku hlasu riadkov"
 
 #: src/core/subtitle.cpp:1360
 #, kde-format
@@ -3044,18 +3040,16 @@ msgid "Text Color"
 msgstr "Farba textu"
 
 #: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Class Tag"
 msgid "Class Tag"
-msgstr "Zmeniť značku triedy"
+msgstr "Značka triedy"
 
 #: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Voice Tag"
 msgid "Voice Tag"
-msgstr "Zmeniť značku hlasu"
+msgstr "Značka hlasu"
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format
