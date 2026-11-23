@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-08 04:37+0000\n"
-"PO-Revision-Date: 2026-11-18 18:19+0300\n"
+"PO-Revision-Date: 2026-11-22 19:51+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -21,7 +21,7 @@ msgstr ""
 #, kde-format
 msgctxt "Encodings menu"
 msgid "Default: %1"
-msgstr "Öntanımlı: %1"
+msgstr "Varsayılan: %1"
 
 #: src/actions/kcodecactionext.cpp:35 src/actions/kcodecactionext.cpp:82
 #, kde-format
@@ -1443,7 +1443,7 @@ msgstr "Alt Yazı Satırı"
 #: src/configs/generalconfigwidget.ui:84
 #, kde-format
 msgid "Default subtitle line duration:"
-msgstr "Öntanımlı alt yazı satırı süresi:"
+msgstr "Varsayılan alt yazı satırı süresi:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/configs/generalconfigwidget.ui:94
@@ -1455,7 +1455,7 @@ msgstr "Çift tıklamada gö&sterim zamanı eksi şu zamana atla:"
 #: src/configs/generalconfigwidget.ui:104
 #, kde-format
 msgid "Default pause between subtitle lines:"
-msgstr "Alt yazı satırları arasındaki öntanımlı duraklama:"
+msgstr "Alt yazı satırları arasındaki varsayılan duraklama:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/configs/generalconfigwidget.ui:144
@@ -2513,7 +2513,7 @@ msgstr "Sınıf"
 #: src/dialogs/subtitlecolordialog.cpp:26
 #, kde-format
 msgid "Default Color"
-msgstr "Öntanımlı Renk"
+msgstr "Varsayılan Renk"
 
 #. i18n: ectx: property (text), widget (QLabel, labVoice)
 #: src/dialogs/subtitlevoicedialog.ui:30
@@ -3165,7 +3165,7 @@ msgstr "Stiller ve Yorumlar"
 #: src/scconfig.kcfg:10
 #, kde-format
 msgid "Default Subtitles Encoding"
-msgstr "Öntanımlı alt yazı kodlaması"
+msgstr "Varsayılan alt yazı kodlaması"
 
 #. i18n: ectx: label, entry (TextLineBreak), group (General)
 #: src/scconfig.kcfg:14
@@ -3213,13 +3213,13 @@ msgstr "Yakalanan Konum Tazmini"
 #: src/scconfig.kcfg:44
 #, kde-format
 msgid "Default subtitle line duration"
-msgstr "Öntanımlı alt yazı satır süresi"
+msgstr "Varsayılan alt yazı satır süresi"
 
 #. i18n: ectx: label, entry (LinePause), group (General)
 #: src/scconfig.kcfg:48
 #, kde-format
 msgid "Default duration between subtitle lines"
-msgstr "Alt yazı satırları arasındaki öntanımlı süre"
+msgstr "Alt yazı satırları arasındaki varsayılan süre"
 
 #. i18n: ectx: label, entry (MaxCharacters), group (Error Check)
 #: src/scconfig.kcfg:55
@@ -3273,7 +3273,7 @@ msgstr "Karakter başı en uzun süre"
 #: src/scconfig.kcfg:97
 #, kde-format
 msgid "Default Language"
-msgstr "Öntanımlı Dil"
+msgstr "Varsayılan Dil"
 
 #. i18n: ectx: label, entry (autodetectLanguage), group (Spelling)
 #: src/scconfig.kcfg:101
@@ -3285,7 +3285,7 @@ msgstr "Dili kendiliğinden algıla"
 #: src/scconfig.kcfg:105
 #, kde-format
 msgid "Default client"
-msgstr "Öntanımlı İstemci"
+msgstr "Varsayılan İstemci"
 
 #. i18n: ectx: label, entry (backgroundCheckerEnabled), group (Spelling)
 #: src/scconfig.kcfg:109
@@ -3297,7 +3297,7 @@ msgstr "Arka plan denetleyicisi etkin"
 #: src/scconfig.kcfg:113
 #, kde-format
 msgid "Checker enabled by default"
-msgstr "Denetleyici öntanımlı olarak etkin"
+msgstr "Denetleyici varsayılan olarak etkin"
 
 #. i18n: ectx: label, entry (skipUppercase), group (Spelling)
 #: src/scconfig.kcfg:117

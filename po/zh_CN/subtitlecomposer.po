@@ -522,10 +522,9 @@ msgid "Change Class Tag"
 msgstr "更改类标签"
 
 #: src/application_actions.cpp:395
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change CSS class of selected lines"
-msgstr "改变选定行的文本颜色"
+msgstr ""
 
 #: src/application_actions.cpp:403 src/gui/currentlinewidget.cpp:314
 #, kde-format
@@ -533,10 +532,9 @@ msgid "Change Voice Tag"
 msgstr "更改语音标签"
 
 #: src/application_actions.cpp:404
-#, fuzzy, kde-format
-#| msgid "Change text color of selected lines"
+#, kde-format
 msgid "Change voice actor of selected lines"
-msgstr "改变选定行的文本颜色"
+msgstr ""
 
 #: src/application_actions.cpp:411
 #, kde-format
@@ -1814,16 +1812,14 @@ msgid "Change Lines Text Color"
 msgstr "更改字幕行文本颜色"
 
 #: src/core/subtitle.cpp:1330
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgid "Change Lines Class Tag"
-msgstr "更改类标签"
+msgstr ""
 
 #: src/core/subtitle.cpp:1347
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgid "Change Lines Voice Tag"
-msgstr "更改语音标签"
+msgstr ""
 
 #: src/core/subtitle.cpp:1360
 #, kde-format
@@ -3006,18 +3002,16 @@ msgid "Text Color"
 msgstr "文本颜色"
 
 #: src/gui/treeview/richlineedit.cpp:161 src/widgets/simplerichtextedit.cpp:461
-#, fuzzy, kde-format
-#| msgid "Change Class Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Class Tag"
 msgid "Class Tag"
-msgstr "更改类标签"
+msgstr ""
 
 #: src/gui/treeview/richlineedit.cpp:168 src/widgets/simplerichtextedit.cpp:467
-#, fuzzy, kde-format
-#| msgid "Change Voice Tag"
+#, kde-format
 msgctxt "@action:inmenu Change Voice Tag"
 msgid "Voice Tag"
-msgstr "更改语音标签"
+msgstr ""
 
 #: src/gui/waveform/waveformwidget.cpp:116
 #, kde-format
