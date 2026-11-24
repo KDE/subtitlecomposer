@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-08 04:37+0000\n"
+"POT-Creation-Date: 2026-11-24 03:11+0000\n"
 "PO-Revision-Date: 2024-04-22 16:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -293,8 +293,7 @@ msgstr "在后方插入"
 msgid "Insert empty line after current one"
 msgstr "在当前行之后插入空行"
 
-#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: src/application_actions.cpp:205 src/scripting/scriptsmanager.ui:58
+#: src/application_actions.cpp:205
 #, kde-format
 msgid "Remove"
 msgstr "移除"
@@ -1256,438 +1255,12 @@ msgctxt "@title Speech recognition backend settings"
 msgid "%1 backend settings"
 msgstr "%1 后端设置"
 
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/errorsconfigwidget.ui:17 src/gui/treeview/lineswidget.cpp:400
-#, kde-format
-msgid "Texts"
-msgstr "文本"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxLines)
-#: src/configs/errorsconfigwidget.ui:23
-#, kde-format
-msgid " lines"
-msgstr " 行"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxCharacters)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxCharactersPerLine)
-#: src/configs/errorsconfigwidget.ui:36 src/configs/errorsconfigwidget.ui:46
-#: src/dialogs/smarttextsadjustdialog.cpp:26
-#, kde-format
-msgid " characters"
-msgstr " 字符"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/configs/errorsconfigwidget.ui:56
-#, kde-format
-msgid "Maximum number of characters:"
-msgstr "最大字符数："
-
-#. i18n: ectx: property (text), widget (QLabel, lab_MaxCharactersPerLine)
-#: src/configs/errorsconfigwidget.ui:63
-#, kde-format
-msgid "Maximum number of characters per line:"
-msgstr "每行最大字符数："
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/configs/errorsconfigwidget.ui:70
-#, kde-format
-msgid "Maximum number of lines:"
-msgstr "最大行数："
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpQuickActions)
-#: src/configs/errorsconfigwidget.ui:80
-#, kde-format
-msgid "Absolute Durations"
-msgstr "绝对持续时长"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinePause)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LineDuration)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_SeekOffsetOnDoubleClick)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_JumpLineOffset)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinesQuickShiftAmount)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GrabbedPositionCompensation)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDuration)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDuration)
-#: src/configs/errorsconfigwidget.ui:86 src/configs/errorsconfigwidget.ui:96
-#: src/configs/generalconfigwidget.ui:114
-#: src/configs/generalconfigwidget.ui:124
-#: src/configs/generalconfigwidget.ui:134
-#: src/configs/generalconfigwidget.ui:154
-#: src/configs/generalconfigwidget.ui:173
-#: src/configs/generalconfigwidget.ui:183
-#, kde-format
-msgid " msec"
-msgstr " 毫秒"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#. i18n: ectx: property (text), widget (QLabel, lab_MaxDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:109 src/configs/errorsconfigwidget.ui:191
-#, kde-format
-msgid "Maximum duration:"
-msgstr "最大持续时长："
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#. i18n: ectx: property (text), widget (QLabel, lab_MinDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:116 src/configs/errorsconfigwidget.ui:171
-#, kde-format
-msgid "Minimum duration:"
-msgstr "最小持续时长："
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/configs/errorsconfigwidget.ui:126
-#, kde-format
-msgid "Relative Durations"
-msgstr "相对持续时长："
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_IdealDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:132 src/configs/errorsconfigwidget.ui:158
-#: src/configs/errorsconfigwidget.ui:205
-#, kde-format
-msgid " ms/char"
-msgstr " 毫秒每字符"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, alt_MinDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, alt_MaxDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, alt_IdealDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:145 src/configs/errorsconfigwidget.ui:178
-#: src/configs/errorsconfigwidget.ui:218
-#, kde-format
-msgid " ch/sec"
-msgstr " 字符每秒"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_IdealDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:198
-#, kde-format
-msgid "Ideal duration:"
-msgstr "理想持续时长："
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/configs/errorsconfigwidget.ui:234
-#, kde-format
-msgid "Behavior"
-msgstr "行为"
-
-#. i18n: ectx: label, entry (AutoClearFixed), group (Error Check)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoClearFixed)
-#: src/configs/errorsconfigwidget.ui:240 src/scconfig.kcfg:90
-#, kde-format
-msgid "Automatically clear fixed errors"
-msgstr "自动清除已修复的错误"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/generalconfigwidget.ui:17 src/configs/playerconfigwidget.ui:17
-#, kde-format
-msgid "General"
-msgstr "通用"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomaticVideoLoad)
-#: src/configs/generalconfigwidget.ui:26
-#, kde-format
-msgid "Automatically load video file when opening a subtitle"
-msgstr "打开字幕时自动加载视频文件"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_DefaultSubtitlesEncoding)
-#: src/configs/generalconfigwidget.ui:33
-#, kde-format
-msgid "Defau&lt subtitles encoding:"
-msgstr "默认字幕编码(&I)："
-
-#. i18n: ectx: property (currentText), widget (QComboBox, kcfg_TextLineBreak)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:43 src/configs/generalconfigwidget.ui:47
-#, kde-format
-msgid "UNIX (LF)"
-msgstr "UNIX (LF)"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:52
-#, kde-format
-msgid "Windows (CRLF)"
-msgstr "Windows (CRLF)"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:57
-#, kde-format
-msgid "Macintosh (CR)"
-msgstr "Macintosh (CR)"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:65
-#, kde-format
-msgid "Line break character:"
-msgstr "断行字符："
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitleLine)
-#: src/configs/generalconfigwidget.ui:78
-#, kde-format
-msgid "Subtitle Line"
-msgstr "字幕行"
-
-#. i18n: ectx: property (text), widget (QLabel, label_LineDuration)
-#: src/configs/generalconfigwidget.ui:84
-#, kde-format
-msgid "Default subtitle line duration:"
-msgstr "默认字幕行持续时间："
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/configs/generalconfigwidget.ui:94
-#, kde-format
-msgid "On double click, &jump to show time minus:"
-msgstr "双击时，跳转至当前显示时间减去(&J)："
-
-#. i18n: ectx: property (text), widget (QLabel, label_LinePause)
-#: src/configs/generalconfigwidget.ui:104
-#, kde-format
-msgid "Default pause between subtitle lines:"
-msgstr "字幕行之间的默认停顿时间："
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/configs/generalconfigwidget.ui:144
-#, kde-format
-msgid "Ju&mp to prev/next line offset:"
-msgstr "跳转至前/后一行时的偏移量(&M)："
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpQuickActions)
-#: src/configs/generalconfigwidget.ui:167
-#, kde-format
-msgid "Quick Actions"
-msgstr "快捷操作"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: src/configs/generalconfigwidget.ui:193
-#, kde-format
-msgid "Compensation for captured &video times:"
-msgstr "捕获视频的补偿时长(&V)："
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/configs/generalconfigwidget.ui:203
-#, kde-format
-msgid "Ti&me shift for selected lines:"
-msgstr "选定行的位移时间(&M)："
-
 #: src/configs/playerconfigwidget.cpp:28
 #, kde-format
 msgctxt "Text for previewing the subtitles font settings"
 msgid "<p>The Quick Brown Fox<br/>Jumps Over The Lazy Dog</p>"
 msgstr ""
 "<p>The Quick Brown Fox Jumps Over The Lazy Dog<br/>龙跳天门 虎卧凰阁</p>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UnpauseOnDoubleClick)
-#: src/configs/playerconfigwidget.ui:23
-#, kde-format
-msgid "Resume playback after line double click"
-msgstr "双击字幕行后恢复播放"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_SeekJumpLength)
-#: src/configs/playerconfigwidget.ui:30
-#, kde-format
-msgid "Seconds to &jump on seek:"
-msgstr "时移跳转的步长秒数(&J)："
-
-#. i18n: ectx: label, entry (VideoAutoPlay), group (VideoPlayer)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_VideoAutoPlay)
-#: src/configs/playerconfigwidget.ui:50 src/scconfig.kcfg:196
-#, kde-format
-msgid "Start playing video when loaded"
-msgstr "加载后立即开始播放视频"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPositionTimeEdit)
-#: src/configs/playerconfigwidget.ui:57 src/gui/playerwidget.cpp:438
-#, kde-format
-msgid "Show editable position control"
-msgstr "显示可编辑的位置控件"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_StepJumpLength)
-#: src/configs/playerconfigwidget.ui:64
-#, kde-format
-msgid "Fra&me step amount:"
-msgstr "帧步进量(&M)："
-
-#. i18n: ectx: property (text), widget (QLabel, lab_VolumeAmplification)
-#: src/configs/playerconfigwidget.ui:74
-#, kde-format
-msgid "Volume amplification:"
-msgstr "音量增强："
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitles)
-#: src/configs/playerconfigwidget.ui:122
-#, kde-format
-msgid "Subtitles"
-msgstr "字幕"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_OutlineColor)
-#: src/configs/playerconfigwidget.ui:138
-#, kde-format
-msgid "Outline color:"
-msgstr "轮廓颜色："
-
-#. i18n: ectx: property (text), widget (QLabel, lab_FontColor)
-#: src/configs/playerconfigwidget.ui:151
-#, kde-format
-msgid "Te&xt color:"
-msgstr "文本颜色(&X)："
-
-#. i18n: ectx: property (text), widget (QLabel, lab_FontFamily)
-#: src/configs/playerconfigwidget.ui:164
-#, kde-format
-msgid "Font family:"
-msgstr "字体系列："
-
-#. i18n: ectx: property (text), widget (QLabel, lab_OutlineWidth)
-#: src/configs/playerconfigwidget.ui:177
-#, kde-format
-msgid "Outline width:"
-msgstr "轮廓宽度："
-
-#. i18n: ectx: property (text), widget (QLabel, lab_FontSize)
-#: src/configs/playerconfigwidget.ui:187
-#, kde-format
-msgid "Font si&ze:"
-msgstr "字体大小(&Z)："
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpPreview)
-#: src/configs/playerconfigwidget.ui:203
-#, kde-format
-msgid "Subtitles Preview"
-msgstr "字幕预览"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: src/configs/waveformconfigwidget.ui:17
-#, kde-format
-msgid "Waveform Display"
-msgstr "波形图显示"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_wfSmoothScroll)
-#: src/configs/waveformconfigwidget.ui:23
-#, kde-format
-msgid "Smooth Scrolling"
-msgstr "平滑滚动"
-
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#: src/configs/waveformconfigwidget.ui:49
-#, kde-format
-msgid "Outer color:"
-msgstr "外部颜色："
-
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: src/configs/waveformconfigwidget.ui:78
-#, kde-format
-msgid "Inner color:"
-msgstr "内部颜色："
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label_wfAutoscrollPadding)
-#: src/configs/waveformconfigwidget.ui:104
-#, kde-format
-msgid ""
-"Autoscroll page when play position reaches ScrollPadding distance "
-"(percentage) from page border"
-msgstr "当播放位置到达页面滚动填充边距（即此处设定的百分比）时，自动滚动页面"
-
-#. i18n: ectx: property (text), widget (QLabel, label_wfAutoscrollPadding)
-#: src/configs/waveformconfigwidget.ui:107
-#, kde-format
-msgid "Auto Scroll Padding:"
-msgstr "自动滚动边距："
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/waveformconfigwidget.ui:120
-#, kde-format
-msgid "Subtitle Display"
-msgstr "字幕显示"
-
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: src/configs/waveformconfigwidget.ui:148
-#, kde-format
-msgid "Subtitle border color:"
-msgstr "字幕边框颜色："
-
-#. i18n: ectx: property (text), widget (QLabel, label_16)
-#: src/configs/waveformconfigwidget.ui:158
-#, kde-format
-msgid "Selected background color:"
-msgstr "选定字幕边框颜色："
-
-#. i18n: ectx: property (text), widget (QLabel, label_15)
-#: src/configs/waveformconfigwidget.ui:168
-#, kde-format
-msgid "Subtitle border width:"
-msgstr "字幕边框宽度："
-
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#: src/configs/waveformconfigwidget.ui:178
-#, kde-format
-msgid "Subtitle background color:"
-msgstr "字幕背景颜色："
-
-#. i18n: ectx: property (text), widget (QLabel, label_17)
-#: src/configs/waveformconfigwidget.ui:207
-#, kde-format
-msgid "Selected border color:"
-msgstr "选定的边框颜色："
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/configs/waveformconfigwidget.ui:258
-#, kde-format
-msgid "Text Font and Colors"
-msgstr "文本字体与颜色"
-
-#. i18n: ectx: property (text), widget (QLabel, label_21)
-#: src/configs/waveformconfigwidget.ui:264
-#, kde-format
-msgid "Subtitle font family:"
-msgstr "字幕字体系列："
-
-#. i18n: ectx: property (text), widget (QLabel, label_22)
-#: src/configs/waveformconfigwidget.ui:277
-#, kde-format
-msgid "Subtitle number font size:"
-msgstr "字幕数字字体大小："
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubNumberFontSize)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubTextFontSize)
-#: src/configs/waveformconfigwidget.ui:287
-#: src/configs/waveformconfigwidget.ui:333
-#, kde-format
-msgid " pt"
-msgstr "pt"
-
-#. i18n: ectx: property (text), widget (QLabel, label_23)
-#: src/configs/waveformconfigwidget.ui:294
-#, kde-format
-msgid "Subtitle Number Color"
-msgstr "字幕数字颜色"
-
-#. i18n: ectx: property (text), widget (QLabel, label_24)
-#: src/configs/waveformconfigwidget.ui:323
-#, kde-format
-msgid "Subtitle text font size:"
-msgstr "字幕文本字体大小："
-
-#. i18n: ectx: property (text), widget (QLabel, label_25)
-#: src/configs/waveformconfigwidget.ui:340
-#, kde-format
-msgid "Subtitle Text Color:"
-msgstr "字幕文本颜色："
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/configs/waveformconfigwidget.ui:372
-#, kde-format
-msgid "Line Indicators"
-msgstr "字幕行指示器"
-
-#. i18n: ectx: property (text), widget (QLabel, label_31)
-#: src/configs/waveformconfigwidget.ui:378
-#, kde-format
-msgid "Player position color:"
-msgstr "播放位置颜色："
-
-#. i18n: ectx: property (text), widget (QLabel, label_32)
-#: src/configs/waveformconfigwidget.ui:388
-#, kde-format
-msgid "Mouse indicator color:"
-msgstr "光标指示器颜色："
 
 #: src/core/subtitle.cpp:61
 #, kde-format
@@ -2319,24 +1892,6 @@ msgstr "%1 (%2%置信度)"
 msgid "Detected"
 msgstr "检测到"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, EncodingDetectDialog)
-#: src/dialogs/encodingdetectdialog.ui:14
-#, kde-format
-msgid "Confirm detected subtitle encoding"
-msgstr "确认检测到的字幕编码"
-
-#. i18n: ectx: property (text), widget (QLabel, encodingLabel)
-#: src/dialogs/encodingdetectdialog.ui:30
-#, kde-format
-msgid "Encoding"
-msgstr "编码"
-
-#. i18n: ectx: property (text), widget (QLabel, previewLabel)
-#: src/dialogs/encodingdetectdialog.ui:57
-#, kde-format
-msgid "Preview"
-msgstr "预览"
-
 #: src/dialogs/fixoverlappingtimesdialog.cpp:23
 #, kde-format
 msgid " msecs"
@@ -2452,6 +2007,11 @@ msgstr "前进 (+)"
 msgid "Backwards (−)"
 msgstr "后退 (−)"
 
+#: src/dialogs/smarttextsadjustdialog.cpp:26
+#, kde-format
+msgid " characters"
+msgstr " 字符"
+
 #: src/dialogs/smarttextsadjustdialog.cpp:29
 #, kde-format
 msgid "Minimum length for line break:"
@@ -2472,36 +2032,10 @@ msgstr "分割时间："
 msgid "Shift new part backwards after split"
 msgstr "分割后将新增字幕后移"
 
-#. i18n: ectx: property (text), widget (QLabel, labClass)
-#: src/dialogs/subtitleclassdialog.ui:30
-#, kde-format
-msgid "Space separated list of CSS classes:"
-msgstr "以空格分隔的 CSS 类列表："
-
-#. i18n: CSS
-#. i18n: ectx: property (placeholderText), widget (QComboBox, classList)
-#: src/dialogs/subtitleclassdialog.ui:52
-#, kde-format
-msgid "Class"
-msgstr "类"
-
 #: src/dialogs/subtitlecolordialog.cpp:26
 #, kde-format
 msgid "Default Color"
 msgstr "默认颜色"
-
-#. i18n: ectx: property (text), widget (QLabel, labVoice)
-#: src/dialogs/subtitlevoicedialog.ui:30
-#, kde-format
-msgid "Person name or voice title:"
-msgstr "人物名称或语音标题："
-
-#. i18n: CSS
-#. i18n: ectx: property (placeholderText), widget (QComboBox, voiceList)
-#: src/dialogs/subtitlevoicedialog.ui:52
-#, kde-format
-msgid "Voice"
-msgstr "语音"
 
 #: src/dialogs/syncsubtitlesdialog.cpp:17
 #, kde-format
@@ -2590,159 +2124,10 @@ msgstr ""
 "字幕解码失败 %1：%2\n"
 "%3"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, VobSubInputInitDialog)
-#. i18n: ectx: property (windowTitle), widget (QDialog, VobSubInputProcessDialog)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:14
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:14
-#, kde-format
-msgid "VobSub Import"
-msgstr "VobSub 导入"
-
-#. i18n: ectx: property (text), widget (QLabel, labelStream)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:20
-#, kde-format
-msgid "Stream / Language"
-msgstr "流 / 语言"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPostProc)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:30
-#, kde-format
-msgid "Post Processing"
-msgstr "后期处理"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppSpaceNumber)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:36
-#, kde-format
-msgid "Fix space between numbers"
-msgstr "修复数字之间的空格"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppSpacePunct)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:46
-#, kde-format
-msgid "Fix space around punctuation (.,;:?!)"
-msgstr "修复标点之间的空格 (.,;:?!)"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppSpaceParen)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:56
-#, kde-format
-msgid "Fix space around quotes and parentheses (\"()[]{})"
-msgstr "修复引号和括号之前的空格 (\"()[]{})"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppAposQuote)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:66
-#, kde-format
-msgid "Fix double apostrophes/quotes"
-msgstr "修复双层撇号/引号"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppCharsOCR)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:76
-#, kde-format
-msgid "Fix i <-> l, 0 <-> O mistakes"
-msgstr "修复 i <-> l 与 0 <-> O 错误"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpSettings)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:112
-#: src/translate/deeplengine.ui:104 src/translate/googlecloudengine.ui:91
-#: src/translate/mintengine.ui:92
-#, kde-format
-msgid "Settings"
-msgstr "设置"
-
-#. i18n: ectx: property (text), widget (QLabel, labWhitespace)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:118
-#, kde-format
-msgid "Whitespace detection threshold (pixels)"
-msgstr "空格检测阈值 (像素)"
-
 #: src/formats/vobsub/vobsubinputprocessdialog.cpp:585
 #, kde-format
 msgid "VobSub Error"
 msgstr "VobSub 错误"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpText)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:26
-#, kde-format
-msgid "Enter character(s)"
-msgstr "输入字符"
-
-#. i18n: ectx: property (text), widget (QLabel, symbolLabel)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:35
-#, kde-format
-msgid "S&ymbols:"
-msgstr "符号(&Y)："
-
-#. i18n: ectx: property (toolTip), widget (QSpinBox, symbolCount)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:45
-#, kde-format
-msgid "Up/Down: change value"
-msgstr "上/下键：修改值"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnOk)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:143
-#, kde-format
-msgid "OK"
-msgstr "确定"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnPrevImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:198
-#, kde-format
-msgid "Ctrl+Shift+Left"
-msgstr "Ctrl+Shift+左方向键"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnPrevImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:201
-#, kde-format
-msgid "Prev Image"
-msgstr "上一个图像"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnPrevSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:214
-#, kde-format
-msgid "Ctrl+Left"
-msgstr "Ctrl+左方向键"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnPrevSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:217
-#, kde-format
-msgid "Prev Symbol"
-msgstr "上一个符号"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnNextSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:230
-#, kde-format
-msgid "Ctrl+Right"
-msgstr "Ctrl+右方向键"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnNextSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:233
-#, kde-format
-msgid "Next Symbol"
-msgstr "下一个符号"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnNextImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:243
-#, kde-format
-msgid "Ctrl+Shift+Right"
-msgstr "Ctrl+Shift+右方向键"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnNextImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:246
-#, kde-format
-msgid "Next Image"
-msgstr "下一个图像"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAbort)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:272
-#: src/translate/translateengine.cpp:66
-#, kde-format
-msgid "Abort"
-msgstr "中止"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPreview)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:294
-#, kde-format
-msgid "Subtitle Image"
-msgstr "字幕图像"
 
 #: src/gui/currentlinewidget.cpp:217
 #, kde-format
@@ -2799,6 +2184,11 @@ msgstr "<b>FPS</b>"
 msgid "<b>Playback Rate</b>"
 msgstr "<b>播放速率</b>"
 
+#: src/gui/playerwidget.cpp:438
+#, kde-format
+msgid "Show editable position control"
+msgstr "显示可编辑的位置控件"
+
 #: src/gui/playerwidget.cpp:673
 #, kde-format
 msgid "<qt>There was an error opening media file %1.</qt>"
@@ -2852,42 +2242,6 @@ msgstr "标题"
 msgid "Footer"
 msgstr "页尾"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, SubtitlePositionWidget)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:14
-#, kde-format
-msgid "Form"
-msgstr "窗体"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpHAlign)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:20
-#, kde-format
-msgid "Horizontal Alignment"
-msgstr "水平对齐"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpVAlign)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:103
-#, kde-format
-msgid "Vertical Alignment"
-msgstr "垂直对齐"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPosition)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:164
-#, kde-format
-msgid "Position/Size"
-msgstr "位置/大小"
-
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posBottom)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posLeft)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posTop)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posRight)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:170
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:180
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:190
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:200
-#, no-c-format, kde-format
-msgid "%"
-msgstr "%"
-
 #: src/gui/treeview/linesmodel.cpp:155
 #, kde-format
 msgid "<b>Observations:</b>"
@@ -2934,6 +2288,11 @@ msgstr "文本"
 msgctxt "@title:column Subtitle line translation text"
 msgid "Translation"
 msgstr "译文"
+
+#: src/gui/treeview/lineswidget.cpp:400
+#, kde-format
+msgid "Texts"
+msgstr "文本"
 
 #: src/gui/treeview/lineswidget.cpp:411
 #, kde-format
@@ -3135,373 +2494,6 @@ msgstr "波形图"
 msgid "Styles and Comments"
 msgstr "样式和注释"
 
-#. i18n: ectx: label, entry (DefaultSubtitlesEncoding), group (General)
-#: src/scconfig.kcfg:10
-#, kde-format
-msgid "Default Subtitles Encoding"
-msgstr "默认字幕编码"
-
-#. i18n: ectx: label, entry (TextLineBreak), group (General)
-#: src/scconfig.kcfg:14
-#, kde-format
-msgid "Line Break Character"
-msgstr "断行字符"
-
-#. i18n: ectx: label, entry (SeekOffsetOnDoubleClick), group (General)
-#: src/scconfig.kcfg:18
-#, kde-format
-msgid "Seek Offset On Double Click"
-msgstr "双击时的时移偏移量"
-
-#. i18n: ectx: label, entry (JumpLineOffset), group (General)
-#: src/scconfig.kcfg:22
-#, kde-format
-msgid "Jump to prev/next line offset"
-msgstr "跳转至前/后一行时的偏移量"
-
-#. i18n: ectx: label, entry (UnpauseOnDoubleClick), group (General)
-#: src/scconfig.kcfg:26
-#, kde-format
-msgid "Unpause On Double Click"
-msgstr "双击时取消暂停"
-
-#. i18n: ectx: label, entry (AutomaticVideoLoad), group (General)
-#: src/scconfig.kcfg:30
-#, kde-format
-msgid "Automatic Video Load"
-msgstr "自动视频加载"
-
-#. i18n: ectx: label, entry (LinesQuickShiftAmount), group (General)
-#: src/scconfig.kcfg:35
-#, kde-format
-msgid "Lines Quick Shift Amount"
-msgstr "字幕行快速移位量"
-
-#. i18n: ectx: label, entry (GrabbedPositionCompensation), group (General)
-#: src/scconfig.kcfg:39
-#, kde-format
-msgid "Grabbed Position Compensation"
-msgstr "抓取位置补偿"
-
-#. i18n: ectx: label, entry (LineDuration), group (General)
-#: src/scconfig.kcfg:44
-#, kde-format
-msgid "Default subtitle line duration"
-msgstr "默认字幕行持续时间"
-
-#. i18n: ectx: label, entry (LinePause), group (General)
-#: src/scconfig.kcfg:48
-#, kde-format
-msgid "Default duration between subtitle lines"
-msgstr "字幕各行间的默认持续时间"
-
-#. i18n: ectx: label, entry (MaxCharacters), group (Error Check)
-#: src/scconfig.kcfg:55
-#, kde-format
-msgid "Maximum number of characters"
-msgstr "最大字符数"
-
-#. i18n: ectx: label, entry (MaxLines), group (Error Check)
-#: src/scconfig.kcfg:59
-#, kde-format
-msgid "Maximum number of lines"
-msgstr "最大行数"
-
-#. i18n: ectx: label, entry (MaxCharactersPerLine), group (Error Check)
-#: src/scconfig.kcfg:63
-#, kde-format
-msgid "Maximum number of characters per line"
-msgstr "每行最大字符数"
-
-#. i18n: ectx: label, entry (MinDuration), group (Error Check)
-#: src/scconfig.kcfg:68
-#, kde-format
-msgid "Minimum duration"
-msgstr "最小持续时长"
-
-#. i18n: ectx: label, entry (MaxDuration), group (Error Check)
-#: src/scconfig.kcfg:72
-#, kde-format
-msgid "Maximum duration"
-msgstr "最大持续时长"
-
-#. i18n: ectx: label, entry (MinDurationPerCharacter), group (Error Check)
-#: src/scconfig.kcfg:77
-#, kde-format
-msgid "Minimum duration per character"
-msgstr "每个字符的最小持续时长"
-
-#. i18n: ectx: label, entry (IdealDurationPerCharacter), group (Error Check)
-#: src/scconfig.kcfg:81
-#, kde-format
-msgid "Ideal duration per character"
-msgstr "每个字符的理想持续时长"
-
-#. i18n: ectx: label, entry (MaxDurationPerCharacter), group (Error Check)
-#: src/scconfig.kcfg:85
-#, kde-format
-msgid "Maximum duration per character"
-msgstr "每个字符的最大持续时长"
-
-#. i18n: ectx: label, entry (DefaultLanguage), group (Spelling)
-#: src/scconfig.kcfg:97
-#, kde-format
-msgid "Default Language"
-msgstr "默认语言"
-
-#. i18n: ectx: label, entry (autodetectLanguage), group (Spelling)
-#: src/scconfig.kcfg:101
-#, kde-format
-msgid "Auto detect language"
-msgstr "自动检测语言"
-
-#. i18n: ectx: label, entry (DefaultClient), group (Spelling)
-#: src/scconfig.kcfg:105
-#, kde-format
-msgid "Default client"
-msgstr "默认客户端"
-
-#. i18n: ectx: label, entry (backgroundCheckerEnabled), group (Spelling)
-#: src/scconfig.kcfg:109
-#, kde-format
-msgid "Background checker enabled"
-msgstr "启用后台检查器"
-
-#. i18n: ectx: label, entry (checkerEnabledByDefault), group (Spelling)
-#: src/scconfig.kcfg:113
-#, kde-format
-msgid "Checker enabled by default"
-msgstr "默认启用检查器"
-
-#. i18n: ectx: label, entry (skipUppercase), group (Spelling)
-#: src/scconfig.kcfg:117
-#, kde-format
-msgid "Skip uppercase"
-msgstr "跳过大写"
-
-#. i18n: ectx: label, entry (skipRunTogether), group (Spelling)
-#: src/scconfig.kcfg:121
-#, kde-format
-msgid "Skip Run Together"
-msgstr "跳过连词"
-
-#. i18n: ectx: label, entry (wfInnerColor), group (Waveform Widget)
-#: src/scconfig.kcfg:128
-#, kde-format
-msgid "Waveform Inner Color"
-msgstr "波形图内侧颜色"
-
-#. i18n: ectx: label, entry (wfOuterColor), group (Waveform Widget)
-#: src/scconfig.kcfg:132
-#, kde-format
-msgid "Waveform Outer Color"
-msgstr "波形图外侧颜色"
-
-#. i18n: ectx: label, entry (wfSmoothScroll), group (Waveform Widget)
-#: src/scconfig.kcfg:136
-#, kde-format
-msgid "Waveform Smooth Scrolling"
-msgstr "波形图平滑滚动"
-
-#. i18n: ectx: label, entry (wfAutoscrollPadding), group (Waveform Widget)
-#: src/scconfig.kcfg:140
-#, kde-format
-msgid "Autoscroll Padding"
-msgstr "自动滚动边距"
-
-#. i18n: ectx: whatsthis, entry (wfAutoscrollPadding), group (Waveform Widget)
-#: src/scconfig.kcfg:142
-#, kde-format
-msgid ""
-"Autoscroll page when play position reaches ScrollPadding distance "
-"(percentage) from page border."
-msgstr "当播放位置到达页面滚动填充边距（即此处设定的百分比）时，自动滚动页面。"
-
-#. i18n: ectx: label, entry (wfSubBackground), group (Waveform Widget)
-#: src/scconfig.kcfg:145
-#, kde-format
-msgid "Waveform Subtitle Background Color"
-msgstr "波形图字幕背景色"
-
-#. i18n: ectx: label, entry (wfSubBorder), group (Waveform Widget)
-#: src/scconfig.kcfg:149
-#, kde-format
-msgid "Waveform Subtitle Border Color"
-msgstr "波形图字幕外框色"
-
-#. i18n: ectx: label, entry (wfSubBorderWidth), group (Waveform Widget)
-#: src/scconfig.kcfg:153
-#, kde-format
-msgid "Waveform Subtitle Border Width"
-msgstr "波形图字幕外框宽度"
-
-#. i18n: ectx: label, entry (wfSelBackground), group (Waveform Widget)
-#: src/scconfig.kcfg:157
-#, kde-format
-msgid "Waveform Selected Subtitle Background Color"
-msgstr "波形图已选字幕背景色"
-
-#. i18n: ectx: label, entry (wfSelBorder), group (Waveform Widget)
-#: src/scconfig.kcfg:161
-#, kde-format
-msgid "Waveform Selected Subtitle Border Color"
-msgstr "波形图已选字幕外框色"
-
-#. i18n: ectx: label, entry (wfFontFamily), group (Waveform Widget)
-#. i18n: ectx: label, entry (FontFamily), group (VideoPlayer)
-#: src/scconfig.kcfg:165 src/scconfig.kcfg:217
-#, kde-format
-msgid "Font Family"
-msgstr "字体族"
-
-#. i18n: ectx: label, entry (wfSubNumberFontSize), group (Waveform Widget)
-#: src/scconfig.kcfg:169
-#, kde-format
-msgid "Subtitle Number Font Size"
-msgstr "字幕数字字体大小"
-
-#. i18n: ectx: label, entry (wfSubNumberColor), group (Waveform Widget)
-#: src/scconfig.kcfg:173
-#, kde-format
-msgid "Subtitle Number Font Color"
-msgstr "字幕数字字体颜色"
-
-#. i18n: ectx: label, entry (wfSubTextFontSize), group (Waveform Widget)
-#: src/scconfig.kcfg:177
-#, kde-format
-msgid "Subtitle Text Font Size"
-msgstr "字幕文本字体大小"
-
-#. i18n: ectx: label, entry (wfSubTextColor), group (Waveform Widget)
-#: src/scconfig.kcfg:181
-#, kde-format
-msgid "Subtitle Text Font Color"
-msgstr "字幕文本字体颜色"
-
-#. i18n: ectx: label, entry (wfMouseLocation), group (Waveform Widget)
-#: src/scconfig.kcfg:185
-#, kde-format
-msgid "Mouse Location Line Color"
-msgstr "鼠标位置线颜色"
-
-#. i18n: ectx: label, entry (wfPlayLocation), group (Waveform Widget)
-#: src/scconfig.kcfg:189
-#, kde-format
-msgid "Play Location Line Color"
-msgstr "播放位置线颜色"
-
-#. i18n: ectx: label, entry (SeekJumpLength), group (VideoPlayer)
-#: src/scconfig.kcfg:200
-#, kde-format
-msgid "Jump length on seek"
-msgstr "搜寻时的跳转长度"
-
-#. i18n: ectx: label, entry (StepJumpLength), group (VideoPlayer)
-#: src/scconfig.kcfg:204
-#, kde-format
-msgid "Amount of frames to skip when stepping"
-msgstr "步进时跳过的帧数"
-
-#. i18n: ectx: label, entry (ShowPositionTimeEdit), group (VideoPlayer)
-#: src/scconfig.kcfg:208
-#, kde-format
-msgid "Show editable time position"
-msgstr "显示可编辑的时间位置"
-
-#. i18n: ectx: label, entry (VolumeAmplification), group (VideoPlayer)
-#: src/scconfig.kcfg:212
-#, kde-format
-msgid "Volume Amplification"
-msgstr "音量增强"
-
-#. i18n: ectx: label, entry (FontSize), group (VideoPlayer)
-#: src/scconfig.kcfg:221
-#, kde-format
-msgid "Font Size"
-msgstr "字体大小"
-
-#. i18n: ectx: label, entry (FontColor), group (VideoPlayer)
-#: src/scconfig.kcfg:225
-#, kde-format
-msgid "Font Color"
-msgstr "字体颜色"
-
-#. i18n: ectx: label, entry (OutlineColor), group (VideoPlayer)
-#: src/scconfig.kcfg:229
-#, kde-format
-msgid "Outline Color"
-msgstr "轮廓颜色"
-
-#. i18n: ectx: label, entry (OutlineWidth), group (VideoPlayer)
-#: src/scconfig.kcfg:233
-#, kde-format
-msgid "Outline Width"
-msgstr "轮廓宽度"
-
-#. i18n: ectx: label, entry (translateEngine), group (Translation)
-#: src/scconfig.kcfg:240
-#, kde-format
-msgid "Last used translate engine"
-msgstr "最后使用的翻译引擎"
-
-#. i18n: ectx: label, entry (gctServiceJSON), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:247
-#, kde-format
-msgid "Service Account JSON containing private key"
-msgstr "包含私钥的服务账户 JSON"
-
-#. i18n: ectx: label, entry (gctLangSource), group (GoogleCloudTranslate)
-#. i18n: ectx: label, entry (dltLangSource), group (DeepLTranslate)
-#. i18n: ectx: label, entry (mintLangSource), group (MinTTranslate)
-#: src/scconfig.kcfg:250 src/scconfig.kcfg:274 src/scconfig.kcfg:287
-#, kde-format
-msgid "source language - cached"
-msgstr "源语言 - 已缓存"
-
-#. i18n: ectx: label, entry (gctLangTrans), group (GoogleCloudTranslate)
-#. i18n: ectx: label, entry (dltLangTrans), group (DeepLTranslate)
-#. i18n: ectx: label, entry (mintLangTrans), group (MinTTranslate)
-#: src/scconfig.kcfg:253 src/scconfig.kcfg:277 src/scconfig.kcfg:290
-#, kde-format
-msgid "translation language - cached"
-msgstr "翻译语言 - 已缓存"
-
-#. i18n: ectx: label, entry (gctAccessToken), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:256
-#, kde-format
-msgid "access token - cached"
-msgstr "访问令牌 - 已缓存"
-
-#. i18n: ectx: label, entry (gctTokenExpires), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:259
-#, kde-format
-msgid "access token expiry - cached"
-msgstr "访问令牌过期期限 - 已缓存"
-
-#. i18n: ectx: label, entry (gctTokenType), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:262
-#, kde-format
-msgid "access token type - cached"
-msgstr "访问令牌类型 - 已缓存"
-
-#. i18n: ectx: label, entry (dltAuthKey), group (DeepLTranslate)
-#: src/scconfig.kcfg:268
-#, kde-format
-msgid "DeepL API authentication key"
-msgstr "DeepL API 验证密钥"
-
-#. i18n: ectx: label, entry (dltApiDomain), group (DeepLTranslate)
-#: src/scconfig.kcfg:271
-#, kde-format
-msgid "DeepL API domain name"
-msgstr "DeepL API 域名"
-
-#. i18n: ectx: label, entry (mintURLPrefix), group (MinTTranslate)
-#: src/scconfig.kcfg:283
-#, kde-format
-msgid "MinT API URL prefix"
-msgstr "MinT API URL 前缀"
-
 #: src/scripting/scriptsmanager.cpp:73
 #, kde-format
 msgid "Non-Script Files"
@@ -3542,8 +2534,7 @@ msgstr "警告"
 msgid "Error"
 msgstr "错误"
 
-#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
-#: src/scripting/scriptsmanager.cpp:414 src/scripting/scriptsmanager.ui:71
+#: src/scripting/scriptsmanager.cpp:414
 #, kde-format
 msgid "Edit"
 msgstr "编辑"
@@ -3662,132 +2653,6 @@ msgstr "路径：%1"
 msgid "Tools"
 msgstr "工具"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, ScriptsManager)
-#: src/scripting/scriptsmanager.ui:14
-#, kde-format
-msgid "Scripts Manager"
-msgstr "脚本管理器"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreate)
-#: src/scripting/scriptsmanager.ui:29
-#, kde-format
-msgid "Creates a new script file."
-msgstr "创建新的脚本文件"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnCreate)
-#: src/scripting/scriptsmanager.ui:32
-#, kde-format
-msgid "Create..."
-msgstr "创建…"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnAdd)
-#: src/scripting/scriptsmanager.ui:42
-#, kde-format
-msgid "Copies an existing script from a specified location."
-msgstr "从特定位置复制已存在的脚本。"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: src/scripting/scriptsmanager.ui:45
-#, kde-format
-msgid "Add..."
-msgstr "添加…"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRemove)
-#: src/scripting/scriptsmanager.ui:55
-#, kde-format
-msgid "Sends the selected script to the trash."
-msgstr "将选定脚本移至回收站。"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEdit)
-#: src/scripting/scriptsmanager.ui:68
-#, kde-format
-msgid "Opens the selected script with an external editor."
-msgstr "使用外部编辑器打开选定的脚本。"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRun)
-#: src/scripting/scriptsmanager.ui:97
-#, kde-format
-msgid "Executes the selected script."
-msgstr "执行选定的脚本。"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRun)
-#: src/scripting/scriptsmanager.ui:100
-#, kde-format
-msgid "Run"
-msgstr "运行"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRefresh)
-#: src/scripting/scriptsmanager.ui:126
-#, kde-format
-msgid "Reloads the installed scripts list."
-msgstr "重新加载已安装的脚本列表。"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRefresh)
-#: src/scripting/scriptsmanager.ui:129
-#, kde-format
-msgid "Refresh"
-msgstr "刷新"
-
-#. i18n: ectx: label, entry (acousticModelPath), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_acousticModelPath)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:11
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:65
-#, kde-format
-msgid "Directory containing acoustic model files"
-msgstr "包含语音模型的目录"
-
-#. i18n: ectx: label, entry (trigramModelFile), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_trigramModelFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:15
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:39
-#, kde-format
-msgid "Word trigram language model input file"
-msgstr "三元词语言模型输入文件"
-
-#. i18n: ectx: label, entry (lexiconFile), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_lexiconFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:19
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:26
-#, kde-format
-msgid "Main pronunciation dictionary (lexicon) input file"
-msgstr "主要拼写词典 (lexicon) 输入文件"
-
-#. i18n: ectx: label, entry (vadPostSpeech), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPostSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:24
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:152
-#, kde-format
-msgid "Num of silence frames to keep after speech to silence transition"
-msgstr "语音过渡至静音后，保持静音的帧数"
-
-#. i18n: ectx: label, entry (vadPreSpeech), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPreSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:28
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:139
-#, kde-format
-msgid "Num of speech frames to keep before silence to speech transition"
-msgstr "由静音过渡至语音前，保留的语音帧数"
-
-#. i18n: ectx: label, entry (vadStartSpeech), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadStartSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:32
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:165
-#, kde-format
-msgid "Num of speech frames to trigger VAD from silence to speech"
-msgstr "由静默过渡至语音时，触发音频活动检测的语音帧数"
-
-#. i18n: ectx: label, entry (vadTreshold), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_vadTreshold)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadTreshold)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:36
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:106
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:126
-#, kde-format
-msgid ""
-"Threshold for decision between noise and silence frames. Log-ratio between "
-"signal level and noise level"
-msgstr "判定噪音帧与静音帧的阈值。信号电平与噪音电平之间的对数比例。"
-
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:20
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:28
 #, kde-format
@@ -3799,73 +2664,6 @@ msgstr "Sphinx 词典"
 #, kde-format
 msgid "Trigram Models"
 msgstr "三元语模型"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpModel)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:20
-#, kde-format
-msgid "Speech Recognition Model"
-msgstr "语音识别模型"
-
-#. i18n: ectx: property (text), widget (QLabel, label_lexiconFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:29
-#, kde-format
-msgid "Pronunciation Dictionary (Lexicon)"
-msgstr "拼写词典 (Lexicon)"
-
-#. i18n: ectx: property (text), widget (QLabel, label_trigramModelFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:42
-#, kde-format
-msgid "Trigram Model"
-msgstr "三元语模型"
-
-#. i18n: ectx: property (text), widget (QLabel, label_acousticModelPath)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:68
-#, kde-format
-msgid "Acoustic Model"
-msgstr "人声模型"
-
-#. i18n: ectx: property (text), widget (QLabel, label_modelInfoText)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:78
-#, kde-format
-msgid ""
-"<html><head/><body><p align=\"center\">Acoustic and Language Models can be "
-"downloaded from <a href=\"https://cmusphinx.github.io/wiki/download/\"><span "
-"style=\" text-decoration: underline; color:#007af4;\">CMU Sphinx</span></a></"
-"p></body></html>"
-msgstr ""
-"<html><head/><body><p align=\"center\">人声和语言模型可在 <a href=\"https://"
-"cmusphinx.github.io/wiki/download/\"><span style=\" text-decoration: "
-"underline; color:#007af4;\">CMU Sphinx</span></a> 下载</p></body></html>"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpVAD)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:100
-#, kde-format
-msgid "Voice Activity Detection"
-msgstr "声音活动检测"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadTreshold)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:129
-#, kde-format
-msgid "Noise Threshold"
-msgstr "噪声阈值"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadPreSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:142
-#, kde-format
-msgid "Pre Speech Frames"
-msgstr "语音前帧数"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadPostSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:155
-#, kde-format
-msgid "Post Speech Frames"
-msgstr "语音后帧数"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadStartSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:168
-#, kde-format
-msgid "Start Speech Frames"
-msgstr "语音起始帧数"
 
 #: src/speechprocessor/speechprocessor.cpp:41
 #, kde-format
@@ -3895,72 +2693,6 @@ msgid ""
 msgstr ""
 "语音识别失败：%2\n"
 "代码 %1：%3"
-
-#. i18n: ectx: Menu (file)
-#: src/subtitlecomposerui.rc:5
-#, kde-format
-msgid "&File"
-msgstr "文件(&F)"
-
-#. i18n: ectx: Menu (translation)
-#: src/subtitlecomposerui.rc:20
-#, kde-format
-msgid "Translation"
-msgstr "翻译"
-
-#. i18n: ectx: Menu (edit)
-#: src/subtitlecomposerui.rc:33
-#, kde-format
-msgid "&Edit"
-msgstr "编辑(&E)"
-
-#. i18n: ectx: Menu (texts)
-#: src/subtitlecomposerui.rc:56
-#, kde-format
-msgid "&Texts"
-msgstr "文本(&T)"
-
-#. i18n: ectx: Menu (styles)
-#: src/subtitlecomposerui.rc:67
-#, kde-format
-msgid "St&yles"
-msgstr "样式(&Y)"
-
-#. i18n: ectx: Menu (times)
-#: src/subtitlecomposerui.rc:77
-#, kde-format
-msgid "T&imes"
-msgstr "时间(&I)"
-
-#. i18n: ectx: Menu (errors)
-#: src/subtitlecomposerui.rc:98
-#, kde-format
-msgid "E&rrors"
-msgstr "错误(&R)"
-
-#. i18n: ectx: Menu (video)
-#: src/subtitlecomposerui.rc:107
-#, kde-format
-msgid "&Video"
-msgstr "视频(&V)"
-
-#. i18n: ectx: Menu (tools)
-#: src/subtitlecomposerui.rc:142
-#, kde-format
-msgid "T&ools"
-msgstr "工具(&O)"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: src/subtitlecomposerui.rc:147
-#, kde-format
-msgid "Main Toolbar"
-msgstr "主工具栏"
-
-#. i18n: ectx: ToolBar (editToolBar)
-#: src/subtitlecomposerui.rc:158
-#, kde-format
-msgid "Edit Toolbar"
-msgstr "编辑工具栏"
 
 #: src/translate/deeplengine.cpp:56 src/translate/googlecloudengine.cpp:136
 #: src/translate/mintengine.cpp:60
@@ -4014,54 +2746,6 @@ msgstr "自动检测语言"
 msgid "Translating lines..."
 msgstr "正在翻译字幕行…"
 
-#. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
-#: src/translate/deeplengine.ui:17 src/translate/googlecloudengine.ui:17
-#, kde-format
-msgid "Authentication"
-msgstr "认证"
-
-#. i18n: ectx: property (text), widget (QLabel, labAuthKey)
-#: src/translate/deeplengine.ui:23
-#, kde-format
-msgid "Authentication Key:"
-msgstr "认证密钥："
-
-#. i18n: ectx: property (text), widget (QPushButton, btnConnect)
-#: src/translate/deeplengine.ui:33
-#, kde-format
-msgid "Connect"
-msgstr "连接"
-
-#. i18n: ectx: property (text), widget (QLabel, labApiDomain)
-#: src/translate/deeplengine.ui:66
-#, kde-format
-msgid "API Domain:"
-msgstr "API 域名："
-
-#. i18n: ectx: property (text), widget (QLabel, labHelp)
-#: src/translate/deeplengine.ui:82
-#, kde-format
-msgid ""
-"You need to <a href=\"https://www.deepl.com/pro-api\">create an account</a> "
-"on DeepL website and paste your API authentication key below."
-msgstr ""
-"您需要在 DeepL 网站上<a href=\"https://www.deepl.com/pro-api\">创建一个账户</"
-"a>并在下方粘贴您的 API 认证密钥。"
-
-#. i18n: ectx: property (text), widget (QLabel, labSource)
-#: src/translate/deeplengine.ui:110 src/translate/googlecloudengine.ui:97
-#: src/translate/mintengine.ui:98
-#, kde-format
-msgid "Source language:"
-msgstr "源语言："
-
-#. i18n: ectx: property (text), widget (QLabel, labTranslation)
-#: src/translate/deeplengine.ui:120 src/translate/googlecloudengine.ui:107
-#: src/translate/mintengine.ui:108
-#, kde-format
-msgid "Translate to:"
-msgstr "翻译至："
-
 #: src/translate/googlecloudengine.cpp:143
 #, kde-format
 msgid ""
@@ -4088,71 +2772,10 @@ msgstr "打开文件“%1“出错"
 msgid "Error parsing JSON from file '%1'"
 msgstr "从文件“%1“解析 JSON 时出错"
 
-#. i18n: ectx: property (text), widget (QLabel, labelServiceJSON)
-#: src/translate/googlecloudengine.ui:23
-#, kde-format
-msgid "Service Account's Private Key JSON:"
-msgstr "服务账户私钥 JSON："
-
-#. i18n: ectx: property (text), widget (QPushButton, btnLogin)
-#: src/translate/googlecloudengine.ui:36
-#, kde-format
-msgid "Login"
-msgstr "登录"
-
-#. i18n: ectx: property (text), widget (QLabel, labHelp)
-#: src/translate/googlecloudengine.ui:62
-#, kde-format
-msgid ""
-"<p>You need to <a href=\"https://developers.google.com/identity/protocols/"
-"oauth2/service-account#creatinganaccount\">create a Service Account</a> in "
-"Google Cloud Console and provide public/private key JSON file below.</"
-"p><p>The Service Account needs to be assigned <span style=\" text-"
-"decoration: underline;\">Cloud Translation API User</span> role on IAM page "
-"or must be granted access to the Google's Cloud Translation APIs in a "
-"different manner.</p>"
-msgstr ""
-" <p>您需要在 Google Cloud 控制台<a href=\"https://developers.google.com/"
-"identity/protocols/oauth2/service-account#creatinganaccount\">创建一个服务账"
-"户</a>并在下方提供公钥/私钥 JSON 文件。</p><p>服务账户需在 IAM 页面被授予 "
-"<span style=\" text-decoration: underline;\">Cloud Translation API User</"
-"span> 角色，或以其他方式获得访问 Google 云翻译 API 的权限。</p>"
-
 #: src/translate/mintengine.cpp:80
 #, kde-format
 msgid "MinT Engine Error"
 msgstr "MinT 引擎错误"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
-#: src/translate/mintengine.ui:17
-#, kde-format
-msgid "API Server"
-msgstr "API 服务器"
-
-#. i18n: ectx: property (text), widget (QLabel, labApiURLPrefix)
-#: src/translate/mintengine.ui:40
-#, kde-format
-msgid "Service URL:"
-msgstr "服务 URL："
-
-#. i18n: ectx: property (text), widget (QPushButton, btnUpdate)
-#: src/translate/mintengine.ui:50
-#, kde-format
-msgid "Update"
-msgstr "更新"
-
-#. i18n: ectx: property (text), widget (QLabel, labHelp)
-#: src/translate/mintengine.ui:76
-#, kde-format
-msgid ""
-"You need to provide an URL to a MinT machine translation system API. You can "
-"<a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
-"machinetranslation\">setup your own service</a> or use some <a href="
-"\"https://translate.wmcloud.org/\">public API</a>."
-msgstr ""
-"您需要提供 MinT 机器翻译系统的 API URL。您可以选择<a href=\"https://gerrit."
-"wikimedia.org/g/mediawiki/services/machinetranslation\">自行搭建服务</a>或使"
-"用<a href=\"https://translate.wmcloud.org/\">公共 API</a>。"
 
 #: src/translate/translatedialog.cpp:31
 #, kde-format
@@ -4168,6 +2791,11 @@ msgstr "翻译文本于"
 #, kde-format
 msgid "Translate texts"
 msgstr "翻译文本"
+
+#: src/translate/translateengine.cpp:66
+#, kde-format
+msgid "Abort"
+msgstr "中止"
 
 #: src/utils/finder.cpp:44
 #, kde-format
@@ -4294,3 +2922,675 @@ msgstr "自动拼写检查"
 #, kde-format
 msgid "Allow Tabulations"
 msgstr "允许制表符"
+
+#~ msgid " lines"
+#~ msgstr " 行"
+
+#~ msgid "Maximum number of characters:"
+#~ msgstr "最大字符数："
+
+#~ msgid "Maximum number of characters per line:"
+#~ msgstr "每行最大字符数："
+
+#~ msgid "Maximum number of lines:"
+#~ msgstr "最大行数："
+
+#~ msgid "Absolute Durations"
+#~ msgstr "绝对持续时长"
+
+#~ msgid " msec"
+#~ msgstr " 毫秒"
+
+#~ msgid "Maximum duration:"
+#~ msgstr "最大持续时长："
+
+#~ msgid "Minimum duration:"
+#~ msgstr "最小持续时长："
+
+#~ msgid "Relative Durations"
+#~ msgstr "相对持续时长："
+
+#~ msgid " ms/char"
+#~ msgstr " 毫秒每字符"
+
+#~ msgid " ch/sec"
+#~ msgstr " 字符每秒"
+
+#~ msgid "Ideal duration:"
+#~ msgstr "理想持续时长："
+
+#~ msgid "Behavior"
+#~ msgstr "行为"
+
+#~ msgid "Automatically clear fixed errors"
+#~ msgstr "自动清除已修复的错误"
+
+#~ msgid "General"
+#~ msgstr "通用"
+
+#~ msgid "Automatically load video file when opening a subtitle"
+#~ msgstr "打开字幕时自动加载视频文件"
+
+#~ msgid "Defau&lt subtitles encoding:"
+#~ msgstr "默认字幕编码(&I)："
+
+#~ msgid "UNIX (LF)"
+#~ msgstr "UNIX (LF)"
+
+#~ msgid "Windows (CRLF)"
+#~ msgstr "Windows (CRLF)"
+
+#~ msgid "Macintosh (CR)"
+#~ msgstr "Macintosh (CR)"
+
+#~ msgid "Line break character:"
+#~ msgstr "断行字符："
+
+#~ msgid "Subtitle Line"
+#~ msgstr "字幕行"
+
+#~ msgid "Default subtitle line duration:"
+#~ msgstr "默认字幕行持续时间："
+
+#~ msgid "On double click, &jump to show time minus:"
+#~ msgstr "双击时，跳转至当前显示时间减去(&J)："
+
+#~ msgid "Default pause between subtitle lines:"
+#~ msgstr "字幕行之间的默认停顿时间："
+
+#~ msgid "Ju&mp to prev/next line offset:"
+#~ msgstr "跳转至前/后一行时的偏移量(&M)："
+
+#~ msgid "Quick Actions"
+#~ msgstr "快捷操作"
+
+#~ msgid "Compensation for captured &video times:"
+#~ msgstr "捕获视频的补偿时长(&V)："
+
+#~ msgid "Ti&me shift for selected lines:"
+#~ msgstr "选定行的位移时间(&M)："
+
+#~ msgid "Resume playback after line double click"
+#~ msgstr "双击字幕行后恢复播放"
+
+#~ msgid "Seconds to &jump on seek:"
+#~ msgstr "时移跳转的步长秒数(&J)："
+
+#~ msgid "Start playing video when loaded"
+#~ msgstr "加载后立即开始播放视频"
+
+#~ msgid "Fra&me step amount:"
+#~ msgstr "帧步进量(&M)："
+
+#~ msgid "Volume amplification:"
+#~ msgstr "音量增强："
+
+#~ msgid "Subtitles"
+#~ msgstr "字幕"
+
+#~ msgid "Outline color:"
+#~ msgstr "轮廓颜色："
+
+#~ msgid "Te&xt color:"
+#~ msgstr "文本颜色(&X)："
+
+#~ msgid "Font family:"
+#~ msgstr "字体系列："
+
+#~ msgid "Outline width:"
+#~ msgstr "轮廓宽度："
+
+#~ msgid "Font si&ze:"
+#~ msgstr "字体大小(&Z)："
+
+#~ msgid "Subtitles Preview"
+#~ msgstr "字幕预览"
+
+#~ msgid "Waveform Display"
+#~ msgstr "波形图显示"
+
+#~ msgid "Smooth Scrolling"
+#~ msgstr "平滑滚动"
+
+#~ msgid "Outer color:"
+#~ msgstr "外部颜色："
+
+#~ msgid "Inner color:"
+#~ msgstr "内部颜色："
+
+#~ msgid ""
+#~ "Autoscroll page when play position reaches ScrollPadding distance "
+#~ "(percentage) from page border"
+#~ msgstr ""
+#~ "当播放位置到达页面滚动填充边距（即此处设定的百分比）时，自动滚动页面"
+
+#~ msgid "Auto Scroll Padding:"
+#~ msgstr "自动滚动边距："
+
+#~ msgid "Subtitle Display"
+#~ msgstr "字幕显示"
+
+#~ msgid "Subtitle border color:"
+#~ msgstr "字幕边框颜色："
+
+#~ msgid "Selected background color:"
+#~ msgstr "选定字幕边框颜色："
+
+#~ msgid "Subtitle border width:"
+#~ msgstr "字幕边框宽度："
+
+#~ msgid "Subtitle background color:"
+#~ msgstr "字幕背景颜色："
+
+#~ msgid "Selected border color:"
+#~ msgstr "选定的边框颜色："
+
+#~ msgid "Text Font and Colors"
+#~ msgstr "文本字体与颜色"
+
+#~ msgid "Subtitle font family:"
+#~ msgstr "字幕字体系列："
+
+#~ msgid "Subtitle number font size:"
+#~ msgstr "字幕数字字体大小："
+
+#~ msgid " pt"
+#~ msgstr "pt"
+
+#~ msgid "Subtitle Number Color"
+#~ msgstr "字幕数字颜色"
+
+#~ msgid "Subtitle text font size:"
+#~ msgstr "字幕文本字体大小："
+
+#~ msgid "Subtitle Text Color:"
+#~ msgstr "字幕文本颜色："
+
+#~ msgid "Line Indicators"
+#~ msgstr "字幕行指示器"
+
+#~ msgid "Player position color:"
+#~ msgstr "播放位置颜色："
+
+#~ msgid "Mouse indicator color:"
+#~ msgstr "光标指示器颜色："
+
+#~ msgid "Confirm detected subtitle encoding"
+#~ msgstr "确认检测到的字幕编码"
+
+#~ msgid "Encoding"
+#~ msgstr "编码"
+
+#~ msgid "Preview"
+#~ msgstr "预览"
+
+#~ msgid "Space separated list of CSS classes:"
+#~ msgstr "以空格分隔的 CSS 类列表："
+
+#~ msgid "Class"
+#~ msgstr "类"
+
+#~ msgid "Person name or voice title:"
+#~ msgstr "人物名称或语音标题："
+
+#~ msgid "Voice"
+#~ msgstr "语音"
+
+#~ msgid "VobSub Import"
+#~ msgstr "VobSub 导入"
+
+#~ msgid "Stream / Language"
+#~ msgstr "流 / 语言"
+
+#~ msgid "Post Processing"
+#~ msgstr "后期处理"
+
+#~ msgid "Fix space between numbers"
+#~ msgstr "修复数字之间的空格"
+
+#~ msgid "Fix space around punctuation (.,;:?!)"
+#~ msgstr "修复标点之间的空格 (.,;:?!)"
+
+#~ msgid "Fix space around quotes and parentheses (\"()[]{})"
+#~ msgstr "修复引号和括号之前的空格 (\"()[]{})"
+
+#~ msgid "Fix double apostrophes/quotes"
+#~ msgstr "修复双层撇号/引号"
+
+#~ msgid "Fix i <-> l, 0 <-> O mistakes"
+#~ msgstr "修复 i <-> l 与 0 <-> O 错误"
+
+#~ msgid "Settings"
+#~ msgstr "设置"
+
+#~ msgid "Whitespace detection threshold (pixels)"
+#~ msgstr "空格检测阈值 (像素)"
+
+#~ msgid "Enter character(s)"
+#~ msgstr "输入字符"
+
+#~ msgid "S&ymbols:"
+#~ msgstr "符号(&Y)："
+
+#~ msgid "Up/Down: change value"
+#~ msgstr "上/下键：修改值"
+
+#~ msgid "OK"
+#~ msgstr "确定"
+
+#~ msgid "Ctrl+Shift+Left"
+#~ msgstr "Ctrl+Shift+左方向键"
+
+#~ msgid "Prev Image"
+#~ msgstr "上一个图像"
+
+#~ msgid "Ctrl+Left"
+#~ msgstr "Ctrl+左方向键"
+
+#~ msgid "Prev Symbol"
+#~ msgstr "上一个符号"
+
+#~ msgid "Ctrl+Right"
+#~ msgstr "Ctrl+右方向键"
+
+#~ msgid "Next Symbol"
+#~ msgstr "下一个符号"
+
+#~ msgid "Ctrl+Shift+Right"
+#~ msgstr "Ctrl+Shift+右方向键"
+
+#~ msgid "Next Image"
+#~ msgstr "下一个图像"
+
+#~ msgid "Subtitle Image"
+#~ msgstr "字幕图像"
+
+#~ msgid "Form"
+#~ msgstr "窗体"
+
+#~ msgid "Horizontal Alignment"
+#~ msgstr "水平对齐"
+
+#~ msgid "Vertical Alignment"
+#~ msgstr "垂直对齐"
+
+#~ msgid "Position/Size"
+#~ msgstr "位置/大小"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Default Subtitles Encoding"
+#~ msgstr "默认字幕编码"
+
+#~ msgid "Line Break Character"
+#~ msgstr "断行字符"
+
+#~ msgid "Seek Offset On Double Click"
+#~ msgstr "双击时的时移偏移量"
+
+#~ msgid "Jump to prev/next line offset"
+#~ msgstr "跳转至前/后一行时的偏移量"
+
+#~ msgid "Unpause On Double Click"
+#~ msgstr "双击时取消暂停"
+
+#~ msgid "Automatic Video Load"
+#~ msgstr "自动视频加载"
+
+#~ msgid "Lines Quick Shift Amount"
+#~ msgstr "字幕行快速移位量"
+
+#~ msgid "Grabbed Position Compensation"
+#~ msgstr "抓取位置补偿"
+
+#~ msgid "Default subtitle line duration"
+#~ msgstr "默认字幕行持续时间"
+
+#~ msgid "Default duration between subtitle lines"
+#~ msgstr "字幕各行间的默认持续时间"
+
+#~ msgid "Maximum number of characters"
+#~ msgstr "最大字符数"
+
+#~ msgid "Maximum number of lines"
+#~ msgstr "最大行数"
+
+#~ msgid "Maximum number of characters per line"
+#~ msgstr "每行最大字符数"
+
+#~ msgid "Minimum duration"
+#~ msgstr "最小持续时长"
+
+#~ msgid "Maximum duration"
+#~ msgstr "最大持续时长"
+
+#~ msgid "Minimum duration per character"
+#~ msgstr "每个字符的最小持续时长"
+
+#~ msgid "Ideal duration per character"
+#~ msgstr "每个字符的理想持续时长"
+
+#~ msgid "Maximum duration per character"
+#~ msgstr "每个字符的最大持续时长"
+
+#~ msgid "Default Language"
+#~ msgstr "默认语言"
+
+#~ msgid "Auto detect language"
+#~ msgstr "自动检测语言"
+
+#~ msgid "Default client"
+#~ msgstr "默认客户端"
+
+#~ msgid "Background checker enabled"
+#~ msgstr "启用后台检查器"
+
+#~ msgid "Checker enabled by default"
+#~ msgstr "默认启用检查器"
+
+#~ msgid "Skip uppercase"
+#~ msgstr "跳过大写"
+
+#~ msgid "Skip Run Together"
+#~ msgstr "跳过连词"
+
+#~ msgid "Waveform Inner Color"
+#~ msgstr "波形图内侧颜色"
+
+#~ msgid "Waveform Outer Color"
+#~ msgstr "波形图外侧颜色"
+
+#~ msgid "Waveform Smooth Scrolling"
+#~ msgstr "波形图平滑滚动"
+
+#~ msgid "Autoscroll Padding"
+#~ msgstr "自动滚动边距"
+
+#~ msgid ""
+#~ "Autoscroll page when play position reaches ScrollPadding distance "
+#~ "(percentage) from page border."
+#~ msgstr ""
+#~ "当播放位置到达页面滚动填充边距（即此处设定的百分比）时，自动滚动页面。"
+
+#~ msgid "Waveform Subtitle Background Color"
+#~ msgstr "波形图字幕背景色"
+
+#~ msgid "Waveform Subtitle Border Color"
+#~ msgstr "波形图字幕外框色"
+
+#~ msgid "Waveform Subtitle Border Width"
+#~ msgstr "波形图字幕外框宽度"
+
+#~ msgid "Waveform Selected Subtitle Background Color"
+#~ msgstr "波形图已选字幕背景色"
+
+#~ msgid "Waveform Selected Subtitle Border Color"
+#~ msgstr "波形图已选字幕外框色"
+
+#~ msgid "Font Family"
+#~ msgstr "字体族"
+
+#~ msgid "Subtitle Number Font Size"
+#~ msgstr "字幕数字字体大小"
+
+#~ msgid "Subtitle Number Font Color"
+#~ msgstr "字幕数字字体颜色"
+
+#~ msgid "Subtitle Text Font Size"
+#~ msgstr "字幕文本字体大小"
+
+#~ msgid "Subtitle Text Font Color"
+#~ msgstr "字幕文本字体颜色"
+
+#~ msgid "Mouse Location Line Color"
+#~ msgstr "鼠标位置线颜色"
+
+#~ msgid "Play Location Line Color"
+#~ msgstr "播放位置线颜色"
+
+#~ msgid "Jump length on seek"
+#~ msgstr "搜寻时的跳转长度"
+
+#~ msgid "Amount of frames to skip when stepping"
+#~ msgstr "步进时跳过的帧数"
+
+#~ msgid "Show editable time position"
+#~ msgstr "显示可编辑的时间位置"
+
+#~ msgid "Volume Amplification"
+#~ msgstr "音量增强"
+
+#~ msgid "Font Size"
+#~ msgstr "字体大小"
+
+#~ msgid "Font Color"
+#~ msgstr "字体颜色"
+
+#~ msgid "Outline Color"
+#~ msgstr "轮廓颜色"
+
+#~ msgid "Outline Width"
+#~ msgstr "轮廓宽度"
+
+#~ msgid "Last used translate engine"
+#~ msgstr "最后使用的翻译引擎"
+
+#~ msgid "Service Account JSON containing private key"
+#~ msgstr "包含私钥的服务账户 JSON"
+
+#~ msgid "source language - cached"
+#~ msgstr "源语言 - 已缓存"
+
+#~ msgid "translation language - cached"
+#~ msgstr "翻译语言 - 已缓存"
+
+#~ msgid "access token - cached"
+#~ msgstr "访问令牌 - 已缓存"
+
+#~ msgid "access token expiry - cached"
+#~ msgstr "访问令牌过期期限 - 已缓存"
+
+#~ msgid "access token type - cached"
+#~ msgstr "访问令牌类型 - 已缓存"
+
+#~ msgid "DeepL API authentication key"
+#~ msgstr "DeepL API 验证密钥"
+
+#~ msgid "DeepL API domain name"
+#~ msgstr "DeepL API 域名"
+
+#~ msgid "MinT API URL prefix"
+#~ msgstr "MinT API URL 前缀"
+
+#~ msgid "Scripts Manager"
+#~ msgstr "脚本管理器"
+
+#~ msgid "Creates a new script file."
+#~ msgstr "创建新的脚本文件"
+
+#~ msgid "Create..."
+#~ msgstr "创建…"
+
+#~ msgid "Copies an existing script from a specified location."
+#~ msgstr "从特定位置复制已存在的脚本。"
+
+#~ msgid "Add..."
+#~ msgstr "添加…"
+
+#~ msgid "Sends the selected script to the trash."
+#~ msgstr "将选定脚本移至回收站。"
+
+#~ msgid "Opens the selected script with an external editor."
+#~ msgstr "使用外部编辑器打开选定的脚本。"
+
+#~ msgid "Executes the selected script."
+#~ msgstr "执行选定的脚本。"
+
+#~ msgid "Run"
+#~ msgstr "运行"
+
+#~ msgid "Reloads the installed scripts list."
+#~ msgstr "重新加载已安装的脚本列表。"
+
+#~ msgid "Refresh"
+#~ msgstr "刷新"
+
+#~ msgid "Directory containing acoustic model files"
+#~ msgstr "包含语音模型的目录"
+
+#~ msgid "Word trigram language model input file"
+#~ msgstr "三元词语言模型输入文件"
+
+#~ msgid "Main pronunciation dictionary (lexicon) input file"
+#~ msgstr "主要拼写词典 (lexicon) 输入文件"
+
+#~ msgid "Num of silence frames to keep after speech to silence transition"
+#~ msgstr "语音过渡至静音后，保持静音的帧数"
+
+#~ msgid "Num of speech frames to keep before silence to speech transition"
+#~ msgstr "由静音过渡至语音前，保留的语音帧数"
+
+#~ msgid "Num of speech frames to trigger VAD from silence to speech"
+#~ msgstr "由静默过渡至语音时，触发音频活动检测的语音帧数"
+
+#~ msgid ""
+#~ "Threshold for decision between noise and silence frames. Log-ratio "
+#~ "between signal level and noise level"
+#~ msgstr "判定噪音帧与静音帧的阈值。信号电平与噪音电平之间的对数比例。"
+
+#~ msgid "Speech Recognition Model"
+#~ msgstr "语音识别模型"
+
+#~ msgid "Pronunciation Dictionary (Lexicon)"
+#~ msgstr "拼写词典 (Lexicon)"
+
+#~ msgid "Trigram Model"
+#~ msgstr "三元语模型"
+
+#~ msgid "Acoustic Model"
+#~ msgstr "人声模型"
+
+#~ msgid ""
+#~ "<html><head/><body><p align=\"center\">Acoustic and Language Models can "
+#~ "be downloaded from <a href=\"https://cmusphinx.github.io/wiki/download/"
+#~ "\"><span style=\" text-decoration: underline; color:#007af4;\">CMU "
+#~ "Sphinx</span></a></p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p align=\"center\">人声和语言模型可在 <a href="
+#~ "\"https://cmusphinx.github.io/wiki/download/\"><span style=\" text-"
+#~ "decoration: underline; color:#007af4;\">CMU Sphinx</span></a> 下载</p></"
+#~ "body></html>"
+
+#~ msgid "Voice Activity Detection"
+#~ msgstr "声音活动检测"
+
+#~ msgid "Noise Threshold"
+#~ msgstr "噪声阈值"
+
+#~ msgid "Pre Speech Frames"
+#~ msgstr "语音前帧数"
+
+#~ msgid "Post Speech Frames"
+#~ msgstr "语音后帧数"
+
+#~ msgid "Start Speech Frames"
+#~ msgstr "语音起始帧数"
+
+#~ msgid "&File"
+#~ msgstr "文件(&F)"
+
+#~ msgid "Translation"
+#~ msgstr "翻译"
+
+#~ msgid "&Edit"
+#~ msgstr "编辑(&E)"
+
+#~ msgid "&Texts"
+#~ msgstr "文本(&T)"
+
+#~ msgid "St&yles"
+#~ msgstr "样式(&Y)"
+
+#~ msgid "T&imes"
+#~ msgstr "时间(&I)"
+
+#~ msgid "E&rrors"
+#~ msgstr "错误(&R)"
+
+#~ msgid "&Video"
+#~ msgstr "视频(&V)"
+
+#~ msgid "T&ools"
+#~ msgstr "工具(&O)"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具栏"
+
+#~ msgid "Edit Toolbar"
+#~ msgstr "编辑工具栏"
+
+#~ msgid "Authentication"
+#~ msgstr "认证"
+
+#~ msgid "Authentication Key:"
+#~ msgstr "认证密钥："
+
+#~ msgid "Connect"
+#~ msgstr "连接"
+
+#~ msgid "API Domain:"
+#~ msgstr "API 域名："
+
+#~ msgid ""
+#~ "You need to <a href=\"https://www.deepl.com/pro-api\">create an account</"
+#~ "a> on DeepL website and paste your API authentication key below."
+#~ msgstr ""
+#~ "您需要在 DeepL 网站上<a href=\"https://www.deepl.com/pro-api\">创建一个账"
+#~ "户</a>并在下方粘贴您的 API 认证密钥。"
+
+#~ msgid "Source language:"
+#~ msgstr "源语言："
+
+#~ msgid "Translate to:"
+#~ msgstr "翻译至："
+
+#~ msgid "Service Account's Private Key JSON:"
+#~ msgstr "服务账户私钥 JSON："
+
+#~ msgid "Login"
+#~ msgstr "登录"
+
+#~ msgid ""
+#~ "<p>You need to <a href=\"https://developers.google.com/identity/protocols/"
+#~ "oauth2/service-account#creatinganaccount\">create a Service Account</a> "
+#~ "in Google Cloud Console and provide public/private key JSON file below.</"
+#~ "p><p>The Service Account needs to be assigned <span style=\" text-"
+#~ "decoration: underline;\">Cloud Translation API User</span> role on IAM "
+#~ "page or must be granted access to the Google's Cloud Translation APIs in "
+#~ "a different manner.</p>"
+#~ msgstr ""
+#~ " <p>您需要在 Google Cloud 控制台<a href=\"https://developers.google.com/"
+#~ "identity/protocols/oauth2/service-account#creatinganaccount\">创建一个服务"
+#~ "账户</a>并在下方提供公钥/私钥 JSON 文件。</p><p>服务账户需在 IAM 页面被授"
+#~ "予 <span style=\" text-decoration: underline;\">Cloud Translation API "
+#~ "User</span> 角色，或以其他方式获得访问 Google 云翻译 API 的权限。</p>"
+
+#~ msgid "API Server"
+#~ msgstr "API 服务器"
+
+#~ msgid "Service URL:"
+#~ msgstr "服务 URL："
+
+#~ msgid "Update"
+#~ msgstr "更新"
+
+#~ msgid ""
+#~ "You need to provide an URL to a MinT machine translation system API. You "
+#~ "can <a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
+#~ "machinetranslation\">setup your own service</a> or use some <a href="
+#~ "\"https://translate.wmcloud.org/\">public API</a>."
+#~ msgstr ""
+#~ "您需要提供 MinT 机器翻译系统的 API URL。您可以选择<a href=\"https://"
+#~ "gerrit.wikimedia.org/g/mediawiki/services/machinetranslation\">自行搭建服"
+#~ "务</a>或使用<a href=\"https://translate.wmcloud.org/\">公共 API</a>。"

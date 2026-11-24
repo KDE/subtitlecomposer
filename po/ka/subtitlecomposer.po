@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-08 04:37+0000\n"
+"POT-Creation-Date: 2026-11-24 03:11+0000\n"
 "PO-Revision-Date: 2024-07-07 10:34+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -298,8 +298,7 @@ msgstr "ჩასმა შემდეგ"
 msgid "Insert empty line after current one"
 msgstr "მიმდინარე ხაზის შემდეგ ცარიელი ხაზის ჩასმა"
 
-#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: src/application_actions.cpp:205 src/scripting/scriptsmanager.ui:58
+#: src/application_actions.cpp:205
 #, kde-format
 msgid "Remove"
 msgstr "წაშლა"
@@ -1250,437 +1249,11 @@ msgctxt "@title Speech recognition backend settings"
 msgid "%1 backend settings"
 msgstr "%1 უკანაბოლოს მორგება"
 
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/errorsconfigwidget.ui:17 src/gui/treeview/lineswidget.cpp:400
-#, kde-format
-msgid "Texts"
-msgstr "ტექსტები"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxLines)
-#: src/configs/errorsconfigwidget.ui:23
-#, kde-format
-msgid " lines"
-msgstr " ხაზი"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxCharacters)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxCharactersPerLine)
-#: src/configs/errorsconfigwidget.ui:36 src/configs/errorsconfigwidget.ui:46
-#: src/dialogs/smarttextsadjustdialog.cpp:26
-#, kde-format
-msgid " characters"
-msgstr " სიმბოლო"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/configs/errorsconfigwidget.ui:56
-#, kde-format
-msgid "Maximum number of characters:"
-msgstr "სიმბოლოების მაქსიმალური რაოდენობა:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_MaxCharactersPerLine)
-#: src/configs/errorsconfigwidget.ui:63
-#, kde-format
-msgid "Maximum number of characters per line:"
-msgstr "სიმბოლოების მაქსიმალური რაოდენობა თითოეულ ხაზზე:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/configs/errorsconfigwidget.ui:70
-#, kde-format
-msgid "Maximum number of lines:"
-msgstr "ხაზების მაქსიმალური რაოდენობა:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpQuickActions)
-#: src/configs/errorsconfigwidget.ui:80
-#, kde-format
-msgid "Absolute Durations"
-msgstr "აბსოლუტური ხანგრძლივობები"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinePause)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LineDuration)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_SeekOffsetOnDoubleClick)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_JumpLineOffset)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinesQuickShiftAmount)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GrabbedPositionCompensation)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDuration)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDuration)
-#: src/configs/errorsconfigwidget.ui:86 src/configs/errorsconfigwidget.ui:96
-#: src/configs/generalconfigwidget.ui:114
-#: src/configs/generalconfigwidget.ui:124
-#: src/configs/generalconfigwidget.ui:134
-#: src/configs/generalconfigwidget.ui:154
-#: src/configs/generalconfigwidget.ui:173
-#: src/configs/generalconfigwidget.ui:183
-#, kde-format
-msgid " msec"
-msgstr " მწმ"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#. i18n: ectx: property (text), widget (QLabel, lab_MaxDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:109 src/configs/errorsconfigwidget.ui:191
-#, kde-format
-msgid "Maximum duration:"
-msgstr "მაქსიმალური ხანგრძლივობა:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#. i18n: ectx: property (text), widget (QLabel, lab_MinDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:116 src/configs/errorsconfigwidget.ui:171
-#, kde-format
-msgid "Minimum duration:"
-msgstr "მინიმალური ხანგრძლივობა:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/configs/errorsconfigwidget.ui:126
-#, kde-format
-msgid "Relative Durations"
-msgstr "შედარებით ხანგრძლივობები"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_IdealDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:132 src/configs/errorsconfigwidget.ui:158
-#: src/configs/errorsconfigwidget.ui:205
-#, kde-format
-msgid " ms/char"
-msgstr " მწმ/სიმბ"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, alt_MinDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, alt_MaxDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, alt_IdealDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:145 src/configs/errorsconfigwidget.ui:178
-#: src/configs/errorsconfigwidget.ui:218
-#, kde-format
-msgid " ch/sec"
-msgstr " სიმბ/წმ"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_IdealDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:198
-#, kde-format
-msgid "Ideal duration:"
-msgstr "იდეალური ხანგრძლივობა:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/configs/errorsconfigwidget.ui:234
-#, kde-format
-msgid "Behavior"
-msgstr "ქცევა"
-
-#. i18n: ectx: label, entry (AutoClearFixed), group (Error Check)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoClearFixed)
-#: src/configs/errorsconfigwidget.ui:240 src/scconfig.kcfg:90
-#, kde-format
-msgid "Automatically clear fixed errors"
-msgstr "გასწორებული შეცდომების ავტომატურად გასუფთავება"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/generalconfigwidget.ui:17 src/configs/playerconfigwidget.ui:17
-#, kde-format
-msgid "General"
-msgstr "მთავარი"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomaticVideoLoad)
-#: src/configs/generalconfigwidget.ui:26
-#, kde-format
-msgid "Automatically load video file when opening a subtitle"
-msgstr "სუბტიტრების გახნისას ვიდეოს ავტომატური ჩატვირთვა"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_DefaultSubtitlesEncoding)
-#: src/configs/generalconfigwidget.ui:33
-#, kde-format
-msgid "Defau&lt subtitles encoding:"
-msgstr "სუბტიტრების &ნაგულისხმები კოდირება:"
-
-#. i18n: ectx: property (currentText), widget (QComboBox, kcfg_TextLineBreak)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:43 src/configs/generalconfigwidget.ui:47
-#, kde-format
-msgid "UNIX (LF)"
-msgstr "UNIX (LF)"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:52
-#, kde-format
-msgid "Windows (CRLF)"
-msgstr "Windows (CRLF)"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:57
-#, kde-format
-msgid "Macintosh (CR)"
-msgstr "Macintosh (CR)"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:65
-#, kde-format
-msgid "Line break character:"
-msgstr "ხაზის დასასრულის სიმბოლო:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitleLine)
-#: src/configs/generalconfigwidget.ui:78
-#, kde-format
-msgid "Subtitle Line"
-msgstr "სუბტიტრის ხაზი"
-
-#. i18n: ectx: property (text), widget (QLabel, label_LineDuration)
-#: src/configs/generalconfigwidget.ui:84
-#, kde-format
-msgid "Default subtitle line duration:"
-msgstr "სუბტიტრის ხაზის ნაგულისხმები ხანგრძლივობა:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/configs/generalconfigwidget.ui:94
-#, kde-format
-msgid "On double click, &jump to show time minus:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_LinePause)
-#: src/configs/generalconfigwidget.ui:104
-#, kde-format
-msgid "Default pause between subtitle lines:"
-msgstr "ნაგულისხმები დრო სუბტიტრების ხაზებს შორის:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/configs/generalconfigwidget.ui:144
-#, kde-format
-msgid "Ju&mp to prev/next line offset:"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpQuickActions)
-#: src/configs/generalconfigwidget.ui:167
-#, kde-format
-msgid "Quick Actions"
-msgstr "სწრაფი მოქმედებები"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: src/configs/generalconfigwidget.ui:193
-#, kde-format
-msgid "Compensation for captured &video times:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/configs/generalconfigwidget.ui:203
-#, kde-format
-msgid "Ti&me shift for selected lines:"
-msgstr "&დროის წანაცვლება მონიშნული ხაზებისთვის:"
-
 #: src/configs/playerconfigwidget.cpp:28
 #, kde-format
 msgctxt "Text for previewing the subtitles font settings"
 msgid "<p>The Quick Brown Fox<br/>Jumps Over The Lazy Dog</p>"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UnpauseOnDoubleClick)
-#: src/configs/playerconfigwidget.ui:23
-#, kde-format
-msgid "Resume playback after line double click"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lab_SeekJumpLength)
-#: src/configs/playerconfigwidget.ui:30
-#, kde-format
-msgid "Seconds to &jump on seek:"
-msgstr ""
-
-#. i18n: ectx: label, entry (VideoAutoPlay), group (VideoPlayer)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_VideoAutoPlay)
-#: src/configs/playerconfigwidget.ui:50 src/scconfig.kcfg:196
-#, kde-format
-msgid "Start playing video when loaded"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPositionTimeEdit)
-#: src/configs/playerconfigwidget.ui:57 src/gui/playerwidget.cpp:438
-#, kde-format
-msgid "Show editable position control"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lab_StepJumpLength)
-#: src/configs/playerconfigwidget.ui:64
-#, kde-format
-msgid "Fra&me step amount:"
-msgstr "&კადრების ბიჯების რაოდენობა:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_VolumeAmplification)
-#: src/configs/playerconfigwidget.ui:74
-#, kde-format
-msgid "Volume amplification:"
-msgstr "ხმის გაძლიერება:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitles)
-#: src/configs/playerconfigwidget.ui:122
-#, kde-format
-msgid "Subtitles"
-msgstr "სუბტიტრები"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_OutlineColor)
-#: src/configs/playerconfigwidget.ui:138
-#, kde-format
-msgid "Outline color:"
-msgstr "კიდის ფერი:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_FontColor)
-#: src/configs/playerconfigwidget.ui:151
-#, kde-format
-msgid "Te&xt color:"
-msgstr "&ტექსტის ფერი:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_FontFamily)
-#: src/configs/playerconfigwidget.ui:164
-#, kde-format
-msgid "Font family:"
-msgstr "ფონტის ოჯახი:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_OutlineWidth)
-#: src/configs/playerconfigwidget.ui:177
-#, kde-format
-msgid "Outline width:"
-msgstr "კიდის სიგანე:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_FontSize)
-#: src/configs/playerconfigwidget.ui:187
-#, kde-format
-msgid "Font si&ze:"
-msgstr "ფონტის &ზომა:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpPreview)
-#: src/configs/playerconfigwidget.ui:203
-#, kde-format
-msgid "Subtitles Preview"
-msgstr "სუბტიტრების გადახედვა"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: src/configs/waveformconfigwidget.ui:17
-#, kde-format
-msgid "Waveform Display"
-msgstr "ტალღის ფორმის ჩვენება"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_wfSmoothScroll)
-#: src/configs/waveformconfigwidget.ui:23
-#, kde-format
-msgid "Smooth Scrolling"
-msgstr "გლუვი გადახვევა"
-
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#: src/configs/waveformconfigwidget.ui:49
-#, kde-format
-msgid "Outer color:"
-msgstr "გარე ფერი:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: src/configs/waveformconfigwidget.ui:78
-#, kde-format
-msgid "Inner color:"
-msgstr "შიდა ფერი:"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label_wfAutoscrollPadding)
-#: src/configs/waveformconfigwidget.ui:104
-#, kde-format
-msgid ""
-"Autoscroll page when play position reaches ScrollPadding distance "
-"(percentage) from page border"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_wfAutoscrollPadding)
-#: src/configs/waveformconfigwidget.ui:107
-#, kde-format
-msgid "Auto Scroll Padding:"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/waveformconfigwidget.ui:120
-#, kde-format
-msgid "Subtitle Display"
-msgstr "სუბტიტრების ჩვენება"
-
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: src/configs/waveformconfigwidget.ui:148
-#, kde-format
-msgid "Subtitle border color:"
-msgstr "სუბტიტრების საზღვრის ფერი:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_16)
-#: src/configs/waveformconfigwidget.ui:158
-#, kde-format
-msgid "Selected background color:"
-msgstr "სუბტიტრების ფონის ფერი:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_15)
-#: src/configs/waveformconfigwidget.ui:168
-#, kde-format
-msgid "Subtitle border width:"
-msgstr "სუბტიტრების საზღვრის სიგანე:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#: src/configs/waveformconfigwidget.ui:178
-#, kde-format
-msgid "Subtitle background color:"
-msgstr "სუბტიტრების ფონის ფერი:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_17)
-#: src/configs/waveformconfigwidget.ui:207
-#, kde-format
-msgid "Selected border color:"
-msgstr "არჩეული საზღვრის ფერი:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/configs/waveformconfigwidget.ui:258
-#, kde-format
-msgid "Text Font and Colors"
-msgstr "ტექსტის ფონტი და ფერები"
-
-#. i18n: ectx: property (text), widget (QLabel, label_21)
-#: src/configs/waveformconfigwidget.ui:264
-#, kde-format
-msgid "Subtitle font family:"
-msgstr "სუბტიტრების ფონტის ოჯახი:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_22)
-#: src/configs/waveformconfigwidget.ui:277
-#, kde-format
-msgid "Subtitle number font size:"
-msgstr "სუბტიტრების ფონტის ზომის ნომერი:"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubNumberFontSize)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubTextFontSize)
-#: src/configs/waveformconfigwidget.ui:287
-#: src/configs/waveformconfigwidget.ui:333
-#, kde-format
-msgid " pt"
-msgstr " წრტ"
-
-#. i18n: ectx: property (text), widget (QLabel, label_23)
-#: src/configs/waveformconfigwidget.ui:294
-#, kde-format
-msgid "Subtitle Number Color"
-msgstr "სუბტიტრების ნომრის ფერი"
-
-#. i18n: ectx: property (text), widget (QLabel, label_24)
-#: src/configs/waveformconfigwidget.ui:323
-#, kde-format
-msgid "Subtitle text font size:"
-msgstr "სუბტიტრის ტექსტის შრიფტის ზომა:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_25)
-#: src/configs/waveformconfigwidget.ui:340
-#, kde-format
-msgid "Subtitle Text Color:"
-msgstr "სუბტიტრის ტექსტის ფერი:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/configs/waveformconfigwidget.ui:372
-#, kde-format
-msgid "Line Indicators"
-msgstr "ხაზის მაჩვენებლები"
-
-#. i18n: ectx: property (text), widget (QLabel, label_31)
-#: src/configs/waveformconfigwidget.ui:378
-#, kde-format
-msgid "Player position color:"
-msgstr "დამკვრელის მდებარეობის ფერი:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_32)
-#: src/configs/waveformconfigwidget.ui:388
-#, kde-format
-msgid "Mouse indicator color:"
-msgstr "თაგუნას ინდიკატორის ფერი:"
 
 #: src/core/subtitle.cpp:61
 #, kde-format
@@ -2324,24 +1897,6 @@ msgstr ""
 msgid "Detected"
 msgstr "გამოვლინდა"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, EncodingDetectDialog)
-#: src/dialogs/encodingdetectdialog.ui:14
-#, kde-format
-msgid "Confirm detected subtitle encoding"
-msgstr "დაადასტურეთ სუბტიტრის აღმოჩენილი კოდირება"
-
-#. i18n: ectx: property (text), widget (QLabel, encodingLabel)
-#: src/dialogs/encodingdetectdialog.ui:30
-#, kde-format
-msgid "Encoding"
-msgstr "კოდირება"
-
-#. i18n: ectx: property (text), widget (QLabel, previewLabel)
-#: src/dialogs/encodingdetectdialog.ui:57
-#, kde-format
-msgid "Preview"
-msgstr "ესკიზი"
-
 #: src/dialogs/fixoverlappingtimesdialog.cpp:23
 #, kde-format
 msgid " msecs"
@@ -2457,6 +2012,11 @@ msgstr "წინ (+)"
 msgid "Backwards (−)"
 msgstr "უკან (−)"
 
+#: src/dialogs/smarttextsadjustdialog.cpp:26
+#, kde-format
+msgid " characters"
+msgstr " სიმბოლო"
+
 #: src/dialogs/smarttextsadjustdialog.cpp:29
 #, kde-format
 msgid "Minimum length for line break:"
@@ -2477,36 +2037,10 @@ msgstr "გაყოფის დრო:"
 msgid "Shift new part backwards after split"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labClass)
-#: src/dialogs/subtitleclassdialog.ui:30
-#, kde-format
-msgid "Space separated list of CSS classes:"
-msgstr "მძიმით გამოყოფილი CSS-ის კლასების სია:"
-
-#. i18n: CSS
-#. i18n: ectx: property (placeholderText), widget (QComboBox, classList)
-#: src/dialogs/subtitleclassdialog.ui:52
-#, kde-format
-msgid "Class"
-msgstr "კლასი"
-
 #: src/dialogs/subtitlecolordialog.cpp:26
 #, kde-format
 msgid "Default Color"
 msgstr "ნაგულისხმები ფერი"
-
-#. i18n: ectx: property (text), widget (QLabel, labVoice)
-#: src/dialogs/subtitlevoicedialog.ui:30
-#, kde-format
-msgid "Person name or voice title:"
-msgstr "პიროვნების სახელი ან ხმის სათაური:"
-
-#. i18n: CSS
-#. i18n: ectx: property (placeholderText), widget (QComboBox, voiceList)
-#: src/dialogs/subtitlevoicedialog.ui:52
-#, kde-format
-msgid "Voice"
-msgstr "ხმა"
 
 #: src/dialogs/syncsubtitlesdialog.cpp:17
 #, kde-format
@@ -2593,159 +2127,10 @@ msgid ""
 "%3"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, VobSubInputInitDialog)
-#. i18n: ectx: property (windowTitle), widget (QDialog, VobSubInputProcessDialog)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:14
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:14
-#, kde-format
-msgid "VobSub Import"
-msgstr "VobSub -ის შემოტანა"
-
-#. i18n: ectx: property (text), widget (QLabel, labelStream)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:20
-#, kde-format
-msgid "Stream / Language"
-msgstr "ნაკადი / ენა"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPostProc)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:30
-#, kde-format
-msgid "Post Processing"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppSpaceNumber)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:36
-#, kde-format
-msgid "Fix space between numbers"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppSpacePunct)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:46
-#, kde-format
-msgid "Fix space around punctuation (.,;:?!)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppSpaceParen)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:56
-#, kde-format
-msgid "Fix space around quotes and parentheses (\"()[]{})"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppAposQuote)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:66
-#, kde-format
-msgid "Fix double apostrophes/quotes"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppCharsOCR)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:76
-#, kde-format
-msgid "Fix i <-> l, 0 <-> O mistakes"
-msgstr "'i' <-> l, 0 <-> O შეცდომების გასწორება"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpSettings)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:112
-#: src/translate/deeplengine.ui:104 src/translate/googlecloudengine.ui:91
-#: src/translate/mintengine.ui:92
-#, kde-format
-msgid "Settings"
-msgstr "მორგება"
-
-#. i18n: ectx: property (text), widget (QLabel, labWhitespace)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:118
-#, kde-format
-msgid "Whitespace detection threshold (pixels)"
-msgstr ""
-
 #: src/formats/vobsub/vobsubinputprocessdialog.cpp:585
 #, kde-format
 msgid "VobSub Error"
 msgstr "VobSub -ის შეცდომა"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpText)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:26
-#, kde-format
-msgid "Enter character(s)"
-msgstr "შეიყვანეთ სიმბოლოები"
-
-#. i18n: ectx: property (text), widget (QLabel, symbolLabel)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:35
-#, kde-format
-msgid "S&ymbols:"
-msgstr "&სიმბოლოები:"
-
-#. i18n: ectx: property (toolTip), widget (QSpinBox, symbolCount)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:45
-#, kde-format
-msgid "Up/Down: change value"
-msgstr "მაღლა/დაბლა: მნიშვნელობის შეცვლა"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnOk)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:143
-#, kde-format
-msgid "OK"
-msgstr "დიახ"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnPrevImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:198
-#, kde-format
-msgid "Ctrl+Shift+Left"
-msgstr "Ctrl+Shift+მარცხნივ"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnPrevImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:201
-#, kde-format
-msgid "Prev Image"
-msgstr "წინა სურათი"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnPrevSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:214
-#, kde-format
-msgid "Ctrl+Left"
-msgstr "Ctrl+მარცხნივ"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnPrevSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:217
-#, kde-format
-msgid "Prev Symbol"
-msgstr "წინა სიმბოლო"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnNextSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:230
-#, kde-format
-msgid "Ctrl+Right"
-msgstr "Ctrl+მარჯვნივ"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnNextSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:233
-#, kde-format
-msgid "Next Symbol"
-msgstr "შემდეგი სიმბოლო"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnNextImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:243
-#, kde-format
-msgid "Ctrl+Shift+Right"
-msgstr "Ctrl+Shift+მარჯვნივ"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnNextImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:246
-#, kde-format
-msgid "Next Image"
-msgstr "შემდეგი გამოსახულება"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAbort)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:272
-#: src/translate/translateengine.cpp:66
-#, kde-format
-msgid "Abort"
-msgstr "შეწყვეტა"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPreview)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:294
-#, kde-format
-msgid "Subtitle Image"
-msgstr "სუბტიტრების სურათი"
 
 #: src/gui/currentlinewidget.cpp:217
 #, kde-format
@@ -2802,6 +2187,11 @@ msgstr "<b>კადრი/წმ</b>"
 msgid "<b>Playback Rate</b>"
 msgstr "<b>დაკვრის სიჩქარე</b>"
 
+#: src/gui/playerwidget.cpp:438
+#, kde-format
+msgid "Show editable position control"
+msgstr ""
+
 #: src/gui/playerwidget.cpp:673
 #, kde-format
 msgid "<qt>There was an error opening media file %1.</qt>"
@@ -2855,42 +2245,6 @@ msgstr "სათაური"
 msgid "Footer"
 msgstr "ქვესართი"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, SubtitlePositionWidget)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:14
-#, kde-format
-msgid "Form"
-msgstr "ფორმა"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpHAlign)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:20
-#, kde-format
-msgid "Horizontal Alignment"
-msgstr "ჰორიზონტალური სწორება"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpVAlign)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:103
-#, kde-format
-msgid "Vertical Alignment"
-msgstr "ვერტიკალური სწორება"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPosition)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:164
-#, kde-format
-msgid "Position/Size"
-msgstr "მდებარეობა/ზომა"
-
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posBottom)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posLeft)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posTop)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posRight)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:170
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:180
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:190
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:200
-#, no-c-format, kde-format
-msgid "%"
-msgstr "%"
-
 #: src/gui/treeview/linesmodel.cpp:155
 #, kde-format
 msgid "<b>Observations:</b>"
@@ -2937,6 +2291,11 @@ msgstr "ტექსტი"
 msgctxt "@title:column Subtitle line translation text"
 msgid "Translation"
 msgstr "თარგმანი"
+
+#: src/gui/treeview/lineswidget.cpp:400
+#, kde-format
+msgid "Texts"
+msgstr "ტექსტები"
 
 #: src/gui/treeview/lineswidget.cpp:411
 #, kde-format
@@ -3138,373 +2497,6 @@ msgstr "ტალღოვანი"
 msgid "Styles and Comments"
 msgstr "სტილები და კომენტარები"
 
-#. i18n: ectx: label, entry (DefaultSubtitlesEncoding), group (General)
-#: src/scconfig.kcfg:10
-#, kde-format
-msgid "Default Subtitles Encoding"
-msgstr "სუბტიტრების ნაგულისხმები კოდირება"
-
-#. i18n: ectx: label, entry (TextLineBreak), group (General)
-#: src/scconfig.kcfg:14
-#, kde-format
-msgid "Line Break Character"
-msgstr "ხაზის დასასრულის სიმბოლო"
-
-#. i18n: ectx: label, entry (SeekOffsetOnDoubleClick), group (General)
-#: src/scconfig.kcfg:18
-#, kde-format
-msgid "Seek Offset On Double Click"
-msgstr ""
-
-#. i18n: ectx: label, entry (JumpLineOffset), group (General)
-#: src/scconfig.kcfg:22
-#, kde-format
-msgid "Jump to prev/next line offset"
-msgstr ""
-
-#. i18n: ectx: label, entry (UnpauseOnDoubleClick), group (General)
-#: src/scconfig.kcfg:26
-#, kde-format
-msgid "Unpause On Double Click"
-msgstr ""
-
-#. i18n: ectx: label, entry (AutomaticVideoLoad), group (General)
-#: src/scconfig.kcfg:30
-#, kde-format
-msgid "Automatic Video Load"
-msgstr "ვიდეოს ავტომატური ჩატვირთვა"
-
-#. i18n: ectx: label, entry (LinesQuickShiftAmount), group (General)
-#: src/scconfig.kcfg:35
-#, kde-format
-msgid "Lines Quick Shift Amount"
-msgstr ""
-
-#. i18n: ectx: label, entry (GrabbedPositionCompensation), group (General)
-#: src/scconfig.kcfg:39
-#, kde-format
-msgid "Grabbed Position Compensation"
-msgstr ""
-
-#. i18n: ectx: label, entry (LineDuration), group (General)
-#: src/scconfig.kcfg:44
-#, kde-format
-msgid "Default subtitle line duration"
-msgstr "სუბტიტრების ხაზების ნაგულისხმები ხანგრძლივობა"
-
-#. i18n: ectx: label, entry (LinePause), group (General)
-#: src/scconfig.kcfg:48
-#, kde-format
-msgid "Default duration between subtitle lines"
-msgstr "ნაგულისხმები დრო სუბტიტრების ხაზებს შორის"
-
-#. i18n: ectx: label, entry (MaxCharacters), group (Error Check)
-#: src/scconfig.kcfg:55
-#, kde-format
-msgid "Maximum number of characters"
-msgstr "სიმბოლოების მაქსიმალური რაოდენობა"
-
-#. i18n: ectx: label, entry (MaxLines), group (Error Check)
-#: src/scconfig.kcfg:59
-#, kde-format
-msgid "Maximum number of lines"
-msgstr "ხაზების მაქსიმალური რაოდენობა"
-
-#. i18n: ectx: label, entry (MaxCharactersPerLine), group (Error Check)
-#: src/scconfig.kcfg:63
-#, kde-format
-msgid "Maximum number of characters per line"
-msgstr "სიმბოლოების მაქსიმალური რაოდენობა თითოეულ ხაზზე"
-
-#. i18n: ectx: label, entry (MinDuration), group (Error Check)
-#: src/scconfig.kcfg:68
-#, kde-format
-msgid "Minimum duration"
-msgstr "მინიმალური ხანგრძლივობა"
-
-#. i18n: ectx: label, entry (MaxDuration), group (Error Check)
-#: src/scconfig.kcfg:72
-#, kde-format
-msgid "Maximum duration"
-msgstr "მაქსიმალური ხანგრძლივობა"
-
-#. i18n: ectx: label, entry (MinDurationPerCharacter), group (Error Check)
-#: src/scconfig.kcfg:77
-#, kde-format
-msgid "Minimum duration per character"
-msgstr ""
-
-#. i18n: ectx: label, entry (IdealDurationPerCharacter), group (Error Check)
-#: src/scconfig.kcfg:81
-#, kde-format
-msgid "Ideal duration per character"
-msgstr ""
-
-#. i18n: ectx: label, entry (MaxDurationPerCharacter), group (Error Check)
-#: src/scconfig.kcfg:85
-#, kde-format
-msgid "Maximum duration per character"
-msgstr ""
-
-#. i18n: ectx: label, entry (DefaultLanguage), group (Spelling)
-#: src/scconfig.kcfg:97
-#, kde-format
-msgid "Default Language"
-msgstr "ნაგულისხმები ენა"
-
-#. i18n: ectx: label, entry (autodetectLanguage), group (Spelling)
-#: src/scconfig.kcfg:101
-#, kde-format
-msgid "Auto detect language"
-msgstr "ენის ავტოამოცნობა"
-
-#. i18n: ectx: label, entry (DefaultClient), group (Spelling)
-#: src/scconfig.kcfg:105
-#, kde-format
-msgid "Default client"
-msgstr "ნაგულისხმები კლიენტი"
-
-#. i18n: ectx: label, entry (backgroundCheckerEnabled), group (Spelling)
-#: src/scconfig.kcfg:109
-#, kde-format
-msgid "Background checker enabled"
-msgstr ""
-
-#. i18n: ectx: label, entry (checkerEnabledByDefault), group (Spelling)
-#: src/scconfig.kcfg:113
-#, kde-format
-msgid "Checker enabled by default"
-msgstr ""
-
-#. i18n: ectx: label, entry (skipUppercase), group (Spelling)
-#: src/scconfig.kcfg:117
-#, kde-format
-msgid "Skip uppercase"
-msgstr "დიდი სიმბოლოების გამოტოვება"
-
-#. i18n: ectx: label, entry (skipRunTogether), group (Spelling)
-#: src/scconfig.kcfg:121
-#, kde-format
-msgid "Skip Run Together"
-msgstr ""
-
-#. i18n: ectx: label, entry (wfInnerColor), group (Waveform Widget)
-#: src/scconfig.kcfg:128
-#, kde-format
-msgid "Waveform Inner Color"
-msgstr ""
-
-#. i18n: ectx: label, entry (wfOuterColor), group (Waveform Widget)
-#: src/scconfig.kcfg:132
-#, kde-format
-msgid "Waveform Outer Color"
-msgstr ""
-
-#. i18n: ectx: label, entry (wfSmoothScroll), group (Waveform Widget)
-#: src/scconfig.kcfg:136
-#, kde-format
-msgid "Waveform Smooth Scrolling"
-msgstr ""
-
-#. i18n: ectx: label, entry (wfAutoscrollPadding), group (Waveform Widget)
-#: src/scconfig.kcfg:140
-#, kde-format
-msgid "Autoscroll Padding"
-msgstr ""
-
-#. i18n: ectx: whatsthis, entry (wfAutoscrollPadding), group (Waveform Widget)
-#: src/scconfig.kcfg:142
-#, kde-format
-msgid ""
-"Autoscroll page when play position reaches ScrollPadding distance "
-"(percentage) from page border."
-msgstr ""
-
-#. i18n: ectx: label, entry (wfSubBackground), group (Waveform Widget)
-#: src/scconfig.kcfg:145
-#, kde-format
-msgid "Waveform Subtitle Background Color"
-msgstr ""
-
-#. i18n: ectx: label, entry (wfSubBorder), group (Waveform Widget)
-#: src/scconfig.kcfg:149
-#, kde-format
-msgid "Waveform Subtitle Border Color"
-msgstr ""
-
-#. i18n: ectx: label, entry (wfSubBorderWidth), group (Waveform Widget)
-#: src/scconfig.kcfg:153
-#, kde-format
-msgid "Waveform Subtitle Border Width"
-msgstr ""
-
-#. i18n: ectx: label, entry (wfSelBackground), group (Waveform Widget)
-#: src/scconfig.kcfg:157
-#, kde-format
-msgid "Waveform Selected Subtitle Background Color"
-msgstr ""
-
-#. i18n: ectx: label, entry (wfSelBorder), group (Waveform Widget)
-#: src/scconfig.kcfg:161
-#, kde-format
-msgid "Waveform Selected Subtitle Border Color"
-msgstr ""
-
-#. i18n: ectx: label, entry (wfFontFamily), group (Waveform Widget)
-#. i18n: ectx: label, entry (FontFamily), group (VideoPlayer)
-#: src/scconfig.kcfg:165 src/scconfig.kcfg:217
-#, kde-format
-msgid "Font Family"
-msgstr "ფონტების ოჯახი"
-
-#. i18n: ectx: label, entry (wfSubNumberFontSize), group (Waveform Widget)
-#: src/scconfig.kcfg:169
-#, kde-format
-msgid "Subtitle Number Font Size"
-msgstr "სუბტიტრის ნომრის ფონტის ზომა"
-
-#. i18n: ectx: label, entry (wfSubNumberColor), group (Waveform Widget)
-#: src/scconfig.kcfg:173
-#, kde-format
-msgid "Subtitle Number Font Color"
-msgstr "სუბტიტრის ნომრის ფონტის ფერი"
-
-#. i18n: ectx: label, entry (wfSubTextFontSize), group (Waveform Widget)
-#: src/scconfig.kcfg:177
-#, kde-format
-msgid "Subtitle Text Font Size"
-msgstr "სუბტიტრის ტექსტის ფონტის ზომა"
-
-#. i18n: ectx: label, entry (wfSubTextColor), group (Waveform Widget)
-#: src/scconfig.kcfg:181
-#, kde-format
-msgid "Subtitle Text Font Color"
-msgstr "სუბტიტრის ტექსტის ფონტის ფერი"
-
-#. i18n: ectx: label, entry (wfMouseLocation), group (Waveform Widget)
-#: src/scconfig.kcfg:185
-#, kde-format
-msgid "Mouse Location Line Color"
-msgstr "თაგუნას მდებარეობის ხაზის ფერი"
-
-#. i18n: ectx: label, entry (wfPlayLocation), group (Waveform Widget)
-#: src/scconfig.kcfg:189
-#, kde-format
-msgid "Play Location Line Color"
-msgstr "დაკვრის მდებარეობის ხაზის ფერი"
-
-#. i18n: ectx: label, entry (SeekJumpLength), group (VideoPlayer)
-#: src/scconfig.kcfg:200
-#, kde-format
-msgid "Jump length on seek"
-msgstr ""
-
-#. i18n: ectx: label, entry (StepJumpLength), group (VideoPlayer)
-#: src/scconfig.kcfg:204
-#, kde-format
-msgid "Amount of frames to skip when stepping"
-msgstr ""
-
-#. i18n: ectx: label, entry (ShowPositionTimeEdit), group (VideoPlayer)
-#: src/scconfig.kcfg:208
-#, kde-format
-msgid "Show editable time position"
-msgstr ""
-
-#. i18n: ectx: label, entry (VolumeAmplification), group (VideoPlayer)
-#: src/scconfig.kcfg:212
-#, kde-format
-msgid "Volume Amplification"
-msgstr "ხმის გაძლიერება"
-
-#. i18n: ectx: label, entry (FontSize), group (VideoPlayer)
-#: src/scconfig.kcfg:221
-#, kde-format
-msgid "Font Size"
-msgstr "ფონტის ზომა"
-
-#. i18n: ectx: label, entry (FontColor), group (VideoPlayer)
-#: src/scconfig.kcfg:225
-#, kde-format
-msgid "Font Color"
-msgstr "ფონტის ფერი"
-
-#. i18n: ectx: label, entry (OutlineColor), group (VideoPlayer)
-#: src/scconfig.kcfg:229
-#, kde-format
-msgid "Outline Color"
-msgstr "კიდის ფერი"
-
-#. i18n: ectx: label, entry (OutlineWidth), group (VideoPlayer)
-#: src/scconfig.kcfg:233
-#, kde-format
-msgid "Outline Width"
-msgstr "კიდის სიგანე"
-
-#. i18n: ectx: label, entry (translateEngine), group (Translation)
-#: src/scconfig.kcfg:240
-#, kde-format
-msgid "Last used translate engine"
-msgstr "ბოლოს გამოყენებული თარგმნის ძრავა"
-
-#. i18n: ectx: label, entry (gctServiceJSON), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:247
-#, kde-format
-msgid "Service Account JSON containing private key"
-msgstr ""
-
-#. i18n: ectx: label, entry (gctLangSource), group (GoogleCloudTranslate)
-#. i18n: ectx: label, entry (dltLangSource), group (DeepLTranslate)
-#. i18n: ectx: label, entry (mintLangSource), group (MinTTranslate)
-#: src/scconfig.kcfg:250 src/scconfig.kcfg:274 src/scconfig.kcfg:287
-#, kde-format
-msgid "source language - cached"
-msgstr "საწყისი ენა - დაკეშილია"
-
-#. i18n: ectx: label, entry (gctLangTrans), group (GoogleCloudTranslate)
-#. i18n: ectx: label, entry (dltLangTrans), group (DeepLTranslate)
-#. i18n: ectx: label, entry (mintLangTrans), group (MinTTranslate)
-#: src/scconfig.kcfg:253 src/scconfig.kcfg:277 src/scconfig.kcfg:290
-#, kde-format
-msgid "translation language - cached"
-msgstr ""
-
-#. i18n: ectx: label, entry (gctAccessToken), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:256
-#, kde-format
-msgid "access token - cached"
-msgstr "წვდომის კოდი - დაკეშილი"
-
-#. i18n: ectx: label, entry (gctTokenExpires), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:259
-#, kde-format
-msgid "access token expiry - cached"
-msgstr "წვდომის კოდის ვადა - დაკეშილი"
-
-#. i18n: ectx: label, entry (gctTokenType), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:262
-#, kde-format
-msgid "access token type - cached"
-msgstr "წვდომის კოდის ტიპი - დაკეშილი"
-
-#. i18n: ectx: label, entry (dltAuthKey), group (DeepLTranslate)
-#: src/scconfig.kcfg:268
-#, kde-format
-msgid "DeepL API authentication key"
-msgstr "DeepL API-ის ავთენტიკაციის გასაღბი"
-
-#. i18n: ectx: label, entry (dltApiDomain), group (DeepLTranslate)
-#: src/scconfig.kcfg:271
-#, kde-format
-msgid "DeepL API domain name"
-msgstr "DeepL API-ის დომენის სახელი"
-
-#. i18n: ectx: label, entry (mintURLPrefix), group (MinTTranslate)
-#: src/scconfig.kcfg:283
-#, kde-format
-msgid "MinT API URL prefix"
-msgstr ""
-
 #: src/scripting/scriptsmanager.cpp:73
 #, kde-format
 msgid "Non-Script Files"
@@ -3545,8 +2537,7 @@ msgstr "გაფრთხილება"
 msgid "Error"
 msgstr "შეცდომა"
 
-#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
-#: src/scripting/scriptsmanager.cpp:414 src/scripting/scriptsmanager.ui:71
+#: src/scripting/scriptsmanager.cpp:414
 #, kde-format
 msgid "Edit"
 msgstr "ჩასწორება"
@@ -3661,132 +2652,6 @@ msgstr "ბილიკი: %1"
 msgid "Tools"
 msgstr "ხელსაწყოები"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, ScriptsManager)
-#: src/scripting/scriptsmanager.ui:14
-#, kde-format
-msgid "Scripts Manager"
-msgstr "სკრიპტების მმართველი"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreate)
-#: src/scripting/scriptsmanager.ui:29
-#, kde-format
-msgid "Creates a new script file."
-msgstr "ახალი სკრიპტის ფაილის შექმნა."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnCreate)
-#: src/scripting/scriptsmanager.ui:32
-#, kde-format
-msgid "Create..."
-msgstr "შექმნა..."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnAdd)
-#: src/scripting/scriptsmanager.ui:42
-#, kde-format
-msgid "Copies an existing script from a specified location."
-msgstr "არსებული სკრიპტის კოპირება მითითებული ადგილიდან."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: src/scripting/scriptsmanager.ui:45
-#, kde-format
-msgid "Add..."
-msgstr "დამატება..."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRemove)
-#: src/scripting/scriptsmanager.ui:55
-#, kde-format
-msgid "Sends the selected script to the trash."
-msgstr "მითითებული სკრიპტის სანაგვე ყუთში გაგზავნა."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEdit)
-#: src/scripting/scriptsmanager.ui:68
-#, kde-format
-msgid "Opens the selected script with an external editor."
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRun)
-#: src/scripting/scriptsmanager.ui:97
-#, kde-format
-msgid "Executes the selected script."
-msgstr "მონიშნული სკრიპტის შესრულება."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRun)
-#: src/scripting/scriptsmanager.ui:100
-#, kde-format
-msgid "Run"
-msgstr "გაშვება"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRefresh)
-#: src/scripting/scriptsmanager.ui:126
-#, kde-format
-msgid "Reloads the installed scripts list."
-msgstr "დაყენებული სკრიპტების სიის თავიდან ჩატვირთვა."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRefresh)
-#: src/scripting/scriptsmanager.ui:129
-#, kde-format
-msgid "Refresh"
-msgstr "განახლება"
-
-#. i18n: ectx: label, entry (acousticModelPath), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_acousticModelPath)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:11
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:65
-#, kde-format
-msgid "Directory containing acoustic model files"
-msgstr ""
-
-#. i18n: ectx: label, entry (trigramModelFile), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_trigramModelFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:15
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:39
-#, kde-format
-msgid "Word trigram language model input file"
-msgstr ""
-
-#. i18n: ectx: label, entry (lexiconFile), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_lexiconFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:19
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:26
-#, kde-format
-msgid "Main pronunciation dictionary (lexicon) input file"
-msgstr ""
-
-#. i18n: ectx: label, entry (vadPostSpeech), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPostSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:24
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:152
-#, kde-format
-msgid "Num of silence frames to keep after speech to silence transition"
-msgstr ""
-
-#. i18n: ectx: label, entry (vadPreSpeech), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPreSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:28
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:139
-#, kde-format
-msgid "Num of speech frames to keep before silence to speech transition"
-msgstr ""
-
-#. i18n: ectx: label, entry (vadStartSpeech), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadStartSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:32
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:165
-#, kde-format
-msgid "Num of speech frames to trigger VAD from silence to speech"
-msgstr ""
-
-#. i18n: ectx: label, entry (vadTreshold), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_vadTreshold)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadTreshold)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:36
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:106
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:126
-#, kde-format
-msgid ""
-"Threshold for decision between noise and silence frames. Log-ratio between "
-"signal level and noise level"
-msgstr ""
-
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:20
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:28
 #, kde-format
@@ -3798,70 +2663,6 @@ msgstr ""
 #, kde-format
 msgid "Trigram Models"
 msgstr "ტრიგრამის მოდელები"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpModel)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:20
-#, kde-format
-msgid "Speech Recognition Model"
-msgstr "საუბრის ამოცნობის მოდელი"
-
-#. i18n: ectx: property (text), widget (QLabel, label_lexiconFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:29
-#, kde-format
-msgid "Pronunciation Dictionary (Lexicon)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_trigramModelFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:42
-#, kde-format
-msgid "Trigram Model"
-msgstr "ტრიგრამის მოდელი"
-
-#. i18n: ectx: property (text), widget (QLabel, label_acousticModelPath)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:68
-#, kde-format
-msgid "Acoustic Model"
-msgstr "აკუსტიკური მოდელი"
-
-#. i18n: ectx: property (text), widget (QLabel, label_modelInfoText)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:78
-#, kde-format
-msgid ""
-"<html><head/><body><p align=\"center\">Acoustic and Language Models can be "
-"downloaded from <a href=\"https://cmusphinx.github.io/wiki/download/\"><span "
-"style=\" text-decoration: underline; color:#007af4;\">CMU Sphinx</span></a></"
-"p></body></html>"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpVAD)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:100
-#, kde-format
-msgid "Voice Activity Detection"
-msgstr "ხმის აქტივობის აღმოჩენა"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadTreshold)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:129
-#, kde-format
-msgid "Noise Threshold"
-msgstr "ხმაურის ზღვარი"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadPreSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:142
-#, kde-format
-msgid "Pre Speech Frames"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadPostSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:155
-#, kde-format
-msgid "Post Speech Frames"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadStartSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:168
-#, kde-format
-msgid "Start Speech Frames"
-msgstr ""
 
 #: src/speechprocessor/speechprocessor.cpp:41
 #, kde-format
@@ -3889,72 +2690,6 @@ msgid ""
 "Speech Recognition failed: %2\n"
 "Code %1: %3"
 msgstr ""
-
-#. i18n: ectx: Menu (file)
-#: src/subtitlecomposerui.rc:5
-#, kde-format
-msgid "&File"
-msgstr "&ფაილი"
-
-#. i18n: ectx: Menu (translation)
-#: src/subtitlecomposerui.rc:20
-#, kde-format
-msgid "Translation"
-msgstr "თარგმანი"
-
-#. i18n: ectx: Menu (edit)
-#: src/subtitlecomposerui.rc:33
-#, kde-format
-msgid "&Edit"
-msgstr "&ჩასწორება"
-
-#. i18n: ectx: Menu (texts)
-#: src/subtitlecomposerui.rc:56
-#, kde-format
-msgid "&Texts"
-msgstr "&ტექსტები"
-
-#. i18n: ectx: Menu (styles)
-#: src/subtitlecomposerui.rc:67
-#, kde-format
-msgid "St&yles"
-msgstr "&სტილები"
-
-#. i18n: ectx: Menu (times)
-#: src/subtitlecomposerui.rc:77
-#, kde-format
-msgid "T&imes"
-msgstr "&დრო"
-
-#. i18n: ectx: Menu (errors)
-#: src/subtitlecomposerui.rc:98
-#, kde-format
-msgid "E&rrors"
-msgstr "&შეცდომები"
-
-#. i18n: ectx: Menu (video)
-#: src/subtitlecomposerui.rc:107
-#, kde-format
-msgid "&Video"
-msgstr "&ვიდეო"
-
-#. i18n: ectx: Menu (tools)
-#: src/subtitlecomposerui.rc:142
-#, kde-format
-msgid "T&ools"
-msgstr "ხელსაწყოები"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: src/subtitlecomposerui.rc:147
-#, kde-format
-msgid "Main Toolbar"
-msgstr "ხელსაწყოთა მთავარი ზოლი"
-
-#. i18n: ectx: ToolBar (editToolBar)
-#: src/subtitlecomposerui.rc:158
-#, kde-format
-msgid "Edit Toolbar"
-msgstr "ხელსაწყოთა ზოლის რედაქტირება"
 
 #: src/translate/deeplengine.cpp:56 src/translate/googlecloudengine.cpp:136
 #: src/translate/mintengine.cpp:60
@@ -4004,52 +2739,6 @@ msgstr "ენის ავტოამოცნობა"
 msgid "Translating lines..."
 msgstr "ხაზების თარგმანი..."
 
-#. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
-#: src/translate/deeplengine.ui:17 src/translate/googlecloudengine.ui:17
-#, kde-format
-msgid "Authentication"
-msgstr "ავთენტიკაცია"
-
-#. i18n: ectx: property (text), widget (QLabel, labAuthKey)
-#: src/translate/deeplengine.ui:23
-#, kde-format
-msgid "Authentication Key:"
-msgstr "ავთენტიკაციის გასაღები:"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnConnect)
-#: src/translate/deeplengine.ui:33
-#, kde-format
-msgid "Connect"
-msgstr "დაკავშირება"
-
-#. i18n: ectx: property (text), widget (QLabel, labApiDomain)
-#: src/translate/deeplengine.ui:66
-#, kde-format
-msgid "API Domain:"
-msgstr "API-ის დომენი:"
-
-#. i18n: ectx: property (text), widget (QLabel, labHelp)
-#: src/translate/deeplengine.ui:82
-#, kde-format
-msgid ""
-"You need to <a href=\"https://www.deepl.com/pro-api\">create an account</a> "
-"on DeepL website and paste your API authentication key below."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labSource)
-#: src/translate/deeplengine.ui:110 src/translate/googlecloudengine.ui:97
-#: src/translate/mintengine.ui:98
-#, kde-format
-msgid "Source language:"
-msgstr "საწყისი ენა:"
-
-#. i18n: ectx: property (text), widget (QLabel, labTranslation)
-#: src/translate/deeplengine.ui:120 src/translate/googlecloudengine.ui:107
-#: src/translate/mintengine.ui:108
-#, kde-format
-msgid "Translate to:"
-msgstr "თარგმნა ენაზე:"
-
 #: src/translate/googlecloudengine.cpp:143
 #, kde-format
 msgid ""
@@ -4074,63 +2763,10 @@ msgstr "ფაილის (%1) გახსნის შეცდომა"
 msgid "Error parsing JSON from file '%1'"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelServiceJSON)
-#: src/translate/googlecloudengine.ui:23
-#, kde-format
-msgid "Service Account's Private Key JSON:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btnLogin)
-#: src/translate/googlecloudengine.ui:36
-#, kde-format
-msgid "Login"
-msgstr "შესვლა"
-
-#. i18n: ectx: property (text), widget (QLabel, labHelp)
-#: src/translate/googlecloudengine.ui:62
-#, kde-format
-msgid ""
-"<p>You need to <a href=\"https://developers.google.com/identity/protocols/"
-"oauth2/service-account#creatinganaccount\">create a Service Account</a> in "
-"Google Cloud Console and provide public/private key JSON file below.</"
-"p><p>The Service Account needs to be assigned <span style=\" text-"
-"decoration: underline;\">Cloud Translation API User</span> role on IAM page "
-"or must be granted access to the Google's Cloud Translation APIs in a "
-"different manner.</p>"
-msgstr ""
-
 #: src/translate/mintengine.cpp:80
 #, kde-format
 msgid "MinT Engine Error"
 msgstr "MinT ძრავის შეცდომა"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
-#: src/translate/mintengine.ui:17
-#, kde-format
-msgid "API Server"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labApiURLPrefix)
-#: src/translate/mintengine.ui:40
-#, kde-format
-msgid "Service URL:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btnUpdate)
-#: src/translate/mintengine.ui:50
-#, kde-format
-msgid "Update"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labHelp)
-#: src/translate/mintengine.ui:76
-#, kde-format
-msgid ""
-"You need to provide an URL to a MinT machine translation system API. You can "
-"<a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
-"machinetranslation\">setup your own service</a> or use some <a href="
-"\"https://translate.wmcloud.org/\">public API</a>."
-msgstr ""
 
 #: src/translate/translatedialog.cpp:31
 #, kde-format
@@ -4146,6 +2782,11 @@ msgstr "ტექსტი თარგმნა ენაზე"
 #, kde-format
 msgid "Translate texts"
 msgstr "ტექსტების თარგმნა"
+
+#: src/translate/translateengine.cpp:66
+#, kde-format
+msgid "Abort"
+msgstr "შეწყვეტა"
 
 #: src/utils/finder.cpp:44
 #, kde-format
@@ -4272,6 +2913,456 @@ msgstr "მართლწერის ავტომატური შემ�
 #, kde-format
 msgid "Allow Tabulations"
 msgstr "ტაბულაციების ჩართვა"
+
+#~ msgid " lines"
+#~ msgstr " ხაზი"
+
+#~ msgid "Maximum number of characters:"
+#~ msgstr "სიმბოლოების მაქსიმალური რაოდენობა:"
+
+#~ msgid "Maximum number of characters per line:"
+#~ msgstr "სიმბოლოების მაქსიმალური რაოდენობა თითოეულ ხაზზე:"
+
+#~ msgid "Maximum number of lines:"
+#~ msgstr "ხაზების მაქსიმალური რაოდენობა:"
+
+#~ msgid "Absolute Durations"
+#~ msgstr "აბსოლუტური ხანგრძლივობები"
+
+#~ msgid " msec"
+#~ msgstr " მწმ"
+
+#~ msgid "Maximum duration:"
+#~ msgstr "მაქსიმალური ხანგრძლივობა:"
+
+#~ msgid "Minimum duration:"
+#~ msgstr "მინიმალური ხანგრძლივობა:"
+
+#~ msgid "Relative Durations"
+#~ msgstr "შედარებით ხანგრძლივობები"
+
+#~ msgid " ms/char"
+#~ msgstr " მწმ/სიმბ"
+
+#~ msgid " ch/sec"
+#~ msgstr " სიმბ/წმ"
+
+#~ msgid "Ideal duration:"
+#~ msgstr "იდეალური ხანგრძლივობა:"
+
+#~ msgid "Behavior"
+#~ msgstr "ქცევა"
+
+#~ msgid "Automatically clear fixed errors"
+#~ msgstr "გასწორებული შეცდომების ავტომატურად გასუფთავება"
+
+#~ msgid "General"
+#~ msgstr "მთავარი"
+
+#~ msgid "Automatically load video file when opening a subtitle"
+#~ msgstr "სუბტიტრების გახნისას ვიდეოს ავტომატური ჩატვირთვა"
+
+#~ msgid "Defau&lt subtitles encoding:"
+#~ msgstr "სუბტიტრების &ნაგულისხმები კოდირება:"
+
+#~ msgid "UNIX (LF)"
+#~ msgstr "UNIX (LF)"
+
+#~ msgid "Windows (CRLF)"
+#~ msgstr "Windows (CRLF)"
+
+#~ msgid "Macintosh (CR)"
+#~ msgstr "Macintosh (CR)"
+
+#~ msgid "Line break character:"
+#~ msgstr "ხაზის დასასრულის სიმბოლო:"
+
+#~ msgid "Subtitle Line"
+#~ msgstr "სუბტიტრის ხაზი"
+
+#~ msgid "Default subtitle line duration:"
+#~ msgstr "სუბტიტრის ხაზის ნაგულისხმები ხანგრძლივობა:"
+
+#~ msgid "Default pause between subtitle lines:"
+#~ msgstr "ნაგულისხმები დრო სუბტიტრების ხაზებს შორის:"
+
+#~ msgid "Quick Actions"
+#~ msgstr "სწრაფი მოქმედებები"
+
+#~ msgid "Ti&me shift for selected lines:"
+#~ msgstr "&დროის წანაცვლება მონიშნული ხაზებისთვის:"
+
+#~ msgid "Fra&me step amount:"
+#~ msgstr "&კადრების ბიჯების რაოდენობა:"
+
+#~ msgid "Volume amplification:"
+#~ msgstr "ხმის გაძლიერება:"
+
+#~ msgid "Subtitles"
+#~ msgstr "სუბტიტრები"
+
+#~ msgid "Outline color:"
+#~ msgstr "კიდის ფერი:"
+
+#~ msgid "Te&xt color:"
+#~ msgstr "&ტექსტის ფერი:"
+
+#~ msgid "Font family:"
+#~ msgstr "ფონტის ოჯახი:"
+
+#~ msgid "Outline width:"
+#~ msgstr "კიდის სიგანე:"
+
+#~ msgid "Font si&ze:"
+#~ msgstr "ფონტის &ზომა:"
+
+#~ msgid "Subtitles Preview"
+#~ msgstr "სუბტიტრების გადახედვა"
+
+#~ msgid "Waveform Display"
+#~ msgstr "ტალღის ფორმის ჩვენება"
+
+#~ msgid "Smooth Scrolling"
+#~ msgstr "გლუვი გადახვევა"
+
+#~ msgid "Outer color:"
+#~ msgstr "გარე ფერი:"
+
+#~ msgid "Inner color:"
+#~ msgstr "შიდა ფერი:"
+
+#~ msgid "Subtitle Display"
+#~ msgstr "სუბტიტრების ჩვენება"
+
+#~ msgid "Subtitle border color:"
+#~ msgstr "სუბტიტრების საზღვრის ფერი:"
+
+#~ msgid "Selected background color:"
+#~ msgstr "სუბტიტრების ფონის ფერი:"
+
+#~ msgid "Subtitle border width:"
+#~ msgstr "სუბტიტრების საზღვრის სიგანე:"
+
+#~ msgid "Subtitle background color:"
+#~ msgstr "სუბტიტრების ფონის ფერი:"
+
+#~ msgid "Selected border color:"
+#~ msgstr "არჩეული საზღვრის ფერი:"
+
+#~ msgid "Text Font and Colors"
+#~ msgstr "ტექსტის ფონტი და ფერები"
+
+#~ msgid "Subtitle font family:"
+#~ msgstr "სუბტიტრების ფონტის ოჯახი:"
+
+#~ msgid "Subtitle number font size:"
+#~ msgstr "სუბტიტრების ფონტის ზომის ნომერი:"
+
+#~ msgid " pt"
+#~ msgstr " წრტ"
+
+#~ msgid "Subtitle Number Color"
+#~ msgstr "სუბტიტრების ნომრის ფერი"
+
+#~ msgid "Subtitle text font size:"
+#~ msgstr "სუბტიტრის ტექსტის შრიფტის ზომა:"
+
+#~ msgid "Subtitle Text Color:"
+#~ msgstr "სუბტიტრის ტექსტის ფერი:"
+
+#~ msgid "Line Indicators"
+#~ msgstr "ხაზის მაჩვენებლები"
+
+#~ msgid "Player position color:"
+#~ msgstr "დამკვრელის მდებარეობის ფერი:"
+
+#~ msgid "Mouse indicator color:"
+#~ msgstr "თაგუნას ინდიკატორის ფერი:"
+
+#~ msgid "Confirm detected subtitle encoding"
+#~ msgstr "დაადასტურეთ სუბტიტრის აღმოჩენილი კოდირება"
+
+#~ msgid "Encoding"
+#~ msgstr "კოდირება"
+
+#~ msgid "Preview"
+#~ msgstr "ესკიზი"
+
+#~ msgid "Space separated list of CSS classes:"
+#~ msgstr "მძიმით გამოყოფილი CSS-ის კლასების სია:"
+
+#~ msgid "Class"
+#~ msgstr "კლასი"
+
+#~ msgid "Person name or voice title:"
+#~ msgstr "პიროვნების სახელი ან ხმის სათაური:"
+
+#~ msgid "Voice"
+#~ msgstr "ხმა"
+
+#~ msgid "VobSub Import"
+#~ msgstr "VobSub -ის შემოტანა"
+
+#~ msgid "Stream / Language"
+#~ msgstr "ნაკადი / ენა"
+
+#~ msgid "Fix i <-> l, 0 <-> O mistakes"
+#~ msgstr "'i' <-> l, 0 <-> O შეცდომების გასწორება"
+
+#~ msgid "Settings"
+#~ msgstr "მორგება"
+
+#~ msgid "Enter character(s)"
+#~ msgstr "შეიყვანეთ სიმბოლოები"
+
+#~ msgid "S&ymbols:"
+#~ msgstr "&სიმბოლოები:"
+
+#~ msgid "Up/Down: change value"
+#~ msgstr "მაღლა/დაბლა: მნიშვნელობის შეცვლა"
+
+#~ msgid "OK"
+#~ msgstr "დიახ"
+
+#~ msgid "Ctrl+Shift+Left"
+#~ msgstr "Ctrl+Shift+მარცხნივ"
+
+#~ msgid "Prev Image"
+#~ msgstr "წინა სურათი"
+
+#~ msgid "Ctrl+Left"
+#~ msgstr "Ctrl+მარცხნივ"
+
+#~ msgid "Prev Symbol"
+#~ msgstr "წინა სიმბოლო"
+
+#~ msgid "Ctrl+Right"
+#~ msgstr "Ctrl+მარჯვნივ"
+
+#~ msgid "Next Symbol"
+#~ msgstr "შემდეგი სიმბოლო"
+
+#~ msgid "Ctrl+Shift+Right"
+#~ msgstr "Ctrl+Shift+მარჯვნივ"
+
+#~ msgid "Next Image"
+#~ msgstr "შემდეგი გამოსახულება"
+
+#~ msgid "Subtitle Image"
+#~ msgstr "სუბტიტრების სურათი"
+
+#~ msgid "Form"
+#~ msgstr "ფორმა"
+
+#~ msgid "Horizontal Alignment"
+#~ msgstr "ჰორიზონტალური სწორება"
+
+#~ msgid "Vertical Alignment"
+#~ msgstr "ვერტიკალური სწორება"
+
+#~ msgid "Position/Size"
+#~ msgstr "მდებარეობა/ზომა"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Default Subtitles Encoding"
+#~ msgstr "სუბტიტრების ნაგულისხმები კოდირება"
+
+#~ msgid "Line Break Character"
+#~ msgstr "ხაზის დასასრულის სიმბოლო"
+
+#~ msgid "Automatic Video Load"
+#~ msgstr "ვიდეოს ავტომატური ჩატვირთვა"
+
+#~ msgid "Default subtitle line duration"
+#~ msgstr "სუბტიტრების ხაზების ნაგულისხმები ხანგრძლივობა"
+
+#~ msgid "Default duration between subtitle lines"
+#~ msgstr "ნაგულისხმები დრო სუბტიტრების ხაზებს შორის"
+
+#~ msgid "Maximum number of characters"
+#~ msgstr "სიმბოლოების მაქსიმალური რაოდენობა"
+
+#~ msgid "Maximum number of lines"
+#~ msgstr "ხაზების მაქსიმალური რაოდენობა"
+
+#~ msgid "Maximum number of characters per line"
+#~ msgstr "სიმბოლოების მაქსიმალური რაოდენობა თითოეულ ხაზზე"
+
+#~ msgid "Minimum duration"
+#~ msgstr "მინიმალური ხანგრძლივობა"
+
+#~ msgid "Maximum duration"
+#~ msgstr "მაქსიმალური ხანგრძლივობა"
+
+#~ msgid "Default Language"
+#~ msgstr "ნაგულისხმები ენა"
+
+#~ msgid "Auto detect language"
+#~ msgstr "ენის ავტოამოცნობა"
+
+#~ msgid "Default client"
+#~ msgstr "ნაგულისხმები კლიენტი"
+
+#~ msgid "Skip uppercase"
+#~ msgstr "დიდი სიმბოლოების გამოტოვება"
+
+#~ msgid "Font Family"
+#~ msgstr "ფონტების ოჯახი"
+
+#~ msgid "Subtitle Number Font Size"
+#~ msgstr "სუბტიტრის ნომრის ფონტის ზომა"
+
+#~ msgid "Subtitle Number Font Color"
+#~ msgstr "სუბტიტრის ნომრის ფონტის ფერი"
+
+#~ msgid "Subtitle Text Font Size"
+#~ msgstr "სუბტიტრის ტექსტის ფონტის ზომა"
+
+#~ msgid "Subtitle Text Font Color"
+#~ msgstr "სუბტიტრის ტექსტის ფონტის ფერი"
+
+#~ msgid "Mouse Location Line Color"
+#~ msgstr "თაგუნას მდებარეობის ხაზის ფერი"
+
+#~ msgid "Play Location Line Color"
+#~ msgstr "დაკვრის მდებარეობის ხაზის ფერი"
+
+#~ msgid "Volume Amplification"
+#~ msgstr "ხმის გაძლიერება"
+
+#~ msgid "Font Size"
+#~ msgstr "ფონტის ზომა"
+
+#~ msgid "Font Color"
+#~ msgstr "ფონტის ფერი"
+
+#~ msgid "Outline Color"
+#~ msgstr "კიდის ფერი"
+
+#~ msgid "Outline Width"
+#~ msgstr "კიდის სიგანე"
+
+#~ msgid "Last used translate engine"
+#~ msgstr "ბოლოს გამოყენებული თარგმნის ძრავა"
+
+#~ msgid "source language - cached"
+#~ msgstr "საწყისი ენა - დაკეშილია"
+
+#~ msgid "access token - cached"
+#~ msgstr "წვდომის კოდი - დაკეშილი"
+
+#~ msgid "access token expiry - cached"
+#~ msgstr "წვდომის კოდის ვადა - დაკეშილი"
+
+#~ msgid "access token type - cached"
+#~ msgstr "წვდომის კოდის ტიპი - დაკეშილი"
+
+#~ msgid "DeepL API authentication key"
+#~ msgstr "DeepL API-ის ავთენტიკაციის გასაღბი"
+
+#~ msgid "DeepL API domain name"
+#~ msgstr "DeepL API-ის დომენის სახელი"
+
+#~ msgid "Scripts Manager"
+#~ msgstr "სკრიპტების მმართველი"
+
+#~ msgid "Creates a new script file."
+#~ msgstr "ახალი სკრიპტის ფაილის შექმნა."
+
+#~ msgid "Create..."
+#~ msgstr "შექმნა..."
+
+#~ msgid "Copies an existing script from a specified location."
+#~ msgstr "არსებული სკრიპტის კოპირება მითითებული ადგილიდან."
+
+#~ msgid "Add..."
+#~ msgstr "დამატება..."
+
+#~ msgid "Sends the selected script to the trash."
+#~ msgstr "მითითებული სკრიპტის სანაგვე ყუთში გაგზავნა."
+
+#~ msgid "Executes the selected script."
+#~ msgstr "მონიშნული სკრიპტის შესრულება."
+
+#~ msgid "Run"
+#~ msgstr "გაშვება"
+
+#~ msgid "Reloads the installed scripts list."
+#~ msgstr "დაყენებული სკრიპტების სიის თავიდან ჩატვირთვა."
+
+#~ msgid "Refresh"
+#~ msgstr "განახლება"
+
+#~ msgid "Speech Recognition Model"
+#~ msgstr "საუბრის ამოცნობის მოდელი"
+
+#~ msgid "Trigram Model"
+#~ msgstr "ტრიგრამის მოდელი"
+
+#~ msgid "Acoustic Model"
+#~ msgstr "აკუსტიკური მოდელი"
+
+#~ msgid "Voice Activity Detection"
+#~ msgstr "ხმის აქტივობის აღმოჩენა"
+
+#~ msgid "Noise Threshold"
+#~ msgstr "ხმაურის ზღვარი"
+
+#~ msgid "&File"
+#~ msgstr "&ფაილი"
+
+#~ msgid "Translation"
+#~ msgstr "თარგმანი"
+
+#~ msgid "&Edit"
+#~ msgstr "&ჩასწორება"
+
+#~ msgid "&Texts"
+#~ msgstr "&ტექსტები"
+
+#~ msgid "St&yles"
+#~ msgstr "&სტილები"
+
+#~ msgid "T&imes"
+#~ msgstr "&დრო"
+
+#~ msgid "E&rrors"
+#~ msgstr "&შეცდომები"
+
+#~ msgid "&Video"
+#~ msgstr "&ვიდეო"
+
+#~ msgid "T&ools"
+#~ msgstr "ხელსაწყოები"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "ხელსაწყოთა მთავარი ზოლი"
+
+#~ msgid "Edit Toolbar"
+#~ msgstr "ხელსაწყოთა ზოლის რედაქტირება"
+
+#~ msgid "Authentication"
+#~ msgstr "ავთენტიკაცია"
+
+#~ msgid "Authentication Key:"
+#~ msgstr "ავთენტიკაციის გასაღები:"
+
+#~ msgid "Connect"
+#~ msgstr "დაკავშირება"
+
+#~ msgid "API Domain:"
+#~ msgstr "API-ის დომენი:"
+
+#~ msgid "Source language:"
+#~ msgstr "საწყისი ენა:"
+
+#~ msgid "Translate to:"
+#~ msgstr "თარგმნა ენაზე:"
+
+#~ msgid "Login"
+#~ msgstr "შესვლა"
 
 #~ msgid "Translating text (%1 to %2)..."
 #~ msgstr "ტექსტის თარგმანი (%1-დან %2-ზე)..."

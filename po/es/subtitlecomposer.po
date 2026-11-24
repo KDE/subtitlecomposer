@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-08 04:37+0000\n"
+"POT-Creation-Date: 2026-11-24 03:11+0000\n"
 "PO-Revision-Date: 2024-11-20 19:03+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -303,8 +303,7 @@ msgstr "Insertar después"
 msgid "Insert empty line after current one"
 msgstr "Insertar una línea vacía después de la activa"
 
-#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: src/application_actions.cpp:205 src/scripting/scriptsmanager.ui:58
+#: src/application_actions.cpp:205
 #, kde-format
 msgid "Remove"
 msgstr "Eliminar línea"
@@ -1291,439 +1290,11 @@ msgctxt "@title Speech recognition backend settings"
 msgid "%1 backend settings"
 msgstr "Configuración del motor %1"
 
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/errorsconfigwidget.ui:17 src/gui/treeview/lineswidget.cpp:400
-#, kde-format
-msgid "Texts"
-msgstr "Textos"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxLines)
-#: src/configs/errorsconfigwidget.ui:23
-#, kde-format
-msgid " lines"
-msgstr " líneas"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxCharacters)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxCharactersPerLine)
-#: src/configs/errorsconfigwidget.ui:36 src/configs/errorsconfigwidget.ui:46
-#: src/dialogs/smarttextsadjustdialog.cpp:26
-#, kde-format
-msgid " characters"
-msgstr " caracteres"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/configs/errorsconfigwidget.ui:56
-#, kde-format
-msgid "Maximum number of characters:"
-msgstr "Número máximo de caracteres:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_MaxCharactersPerLine)
-#: src/configs/errorsconfigwidget.ui:63
-#, kde-format
-msgid "Maximum number of characters per line:"
-msgstr "Número máximo de caracteres por línea:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/configs/errorsconfigwidget.ui:70
-#, kde-format
-msgid "Maximum number of lines:"
-msgstr "Número máximo de líneas:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpQuickActions)
-#: src/configs/errorsconfigwidget.ui:80
-#, kde-format
-msgid "Absolute Durations"
-msgstr "Duraciones absolutas"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinePause)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LineDuration)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_SeekOffsetOnDoubleClick)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_JumpLineOffset)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinesQuickShiftAmount)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GrabbedPositionCompensation)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDuration)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDuration)
-#: src/configs/errorsconfigwidget.ui:86 src/configs/errorsconfigwidget.ui:96
-#: src/configs/generalconfigwidget.ui:114
-#: src/configs/generalconfigwidget.ui:124
-#: src/configs/generalconfigwidget.ui:134
-#: src/configs/generalconfigwidget.ui:154
-#: src/configs/generalconfigwidget.ui:173
-#: src/configs/generalconfigwidget.ui:183
-#, kde-format
-msgid " msec"
-msgstr " mseg"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#. i18n: ectx: property (text), widget (QLabel, lab_MaxDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:109 src/configs/errorsconfigwidget.ui:191
-#, kde-format
-msgid "Maximum duration:"
-msgstr "Duración máxima:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#. i18n: ectx: property (text), widget (QLabel, lab_MinDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:116 src/configs/errorsconfigwidget.ui:171
-#, kde-format
-msgid "Minimum duration:"
-msgstr "Duración mínima:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/configs/errorsconfigwidget.ui:126
-#, kde-format
-msgid "Relative Durations"
-msgstr "Duraciones relativas"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_IdealDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:132 src/configs/errorsconfigwidget.ui:158
-#: src/configs/errorsconfigwidget.ui:205
-#, kde-format
-msgid " ms/char"
-msgstr " ms/car"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, alt_MinDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, alt_MaxDurationPerCharacter)
-#. i18n: ectx: property (suffix), widget (QSpinBox, alt_IdealDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:145 src/configs/errorsconfigwidget.ui:178
-#: src/configs/errorsconfigwidget.ui:218
-#, kde-format
-msgid " ch/sec"
-msgstr " ca/seg"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_IdealDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:198
-#, kde-format
-msgid "Ideal duration:"
-msgstr "Duración ideal:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/configs/errorsconfigwidget.ui:234
-#, kde-format
-msgid "Behavior"
-msgstr "Comportamiento"
-
-#. i18n: ectx: label, entry (AutoClearFixed), group (Error Check)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoClearFixed)
-#: src/configs/errorsconfigwidget.ui:240 src/scconfig.kcfg:90
-#, kde-format
-msgid "Automatically clear fixed errors"
-msgstr "Limpiar automáticamente los errores corregidos"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/generalconfigwidget.ui:17 src/configs/playerconfigwidget.ui:17
-#, kde-format
-msgid "General"
-msgstr "General"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomaticVideoLoad)
-#: src/configs/generalconfigwidget.ui:26
-#, kde-format
-msgid "Automatically load video file when opening a subtitle"
-msgstr "Cargar archivo de vídeo automáticamente al abrir subtítulos"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_DefaultSubtitlesEncoding)
-#: src/configs/generalconfigwidget.ui:33
-#, kde-format
-msgid "Defau&lt subtitles encoding:"
-msgstr "Codi&ficación de subtítulos predeterminada:"
-
-#. i18n: ectx: property (currentText), widget (QComboBox, kcfg_TextLineBreak)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:43 src/configs/generalconfigwidget.ui:47
-#, kde-format
-msgid "UNIX (LF)"
-msgstr "UNIX (LF)"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:52
-#, kde-format
-msgid "Windows (CRLF)"
-msgstr "Windows (CRLF)"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:57
-#, kde-format
-msgid "Macintosh (CR)"
-msgstr "Macintosh (CR)"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_TextLineBreak)
-#: src/configs/generalconfigwidget.ui:65
-#, kde-format
-msgid "Line break character:"
-msgstr "Carácter de salto de línea:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitleLine)
-#: src/configs/generalconfigwidget.ui:78
-#, kde-format
-msgid "Subtitle Line"
-msgstr "Línea de subtítulo"
-
-#. i18n: ectx: property (text), widget (QLabel, label_LineDuration)
-#: src/configs/generalconfigwidget.ui:84
-#, kde-format
-msgid "Default subtitle line duration:"
-msgstr "Duración de línea de subtítulo predeterminada:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/configs/generalconfigwidget.ui:94
-#, kde-format
-msgid "On double click, &jump to show time minus:"
-msgstr "Al hacer doble clic, &saltar al tiempo de aparición menos:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_LinePause)
-#: src/configs/generalconfigwidget.ui:104
-#, kde-format
-msgid "Default pause between subtitle lines:"
-msgstr "Pausa predeterminada entre líneas de subtítulo:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/configs/generalconfigwidget.ui:144
-#, kde-format
-msgid "Ju&mp to prev/next line offset:"
-msgstr "Saltar a la co&mpensación de línea anterior/próxima:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpQuickActions)
-#: src/configs/generalconfigwidget.ui:167
-#, kde-format
-msgid "Quick Actions"
-msgstr "Acciones rápidas"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: src/configs/generalconfigwidget.ui:193
-#, kde-format
-msgid "Compensation for captured &video times:"
-msgstr "Compensación para tiempos de &vídeo capturados:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/configs/generalconfigwidget.ui:203
-#, kde-format
-msgid "Ti&me shift for selected lines:"
-msgstr "Desplazamiento de tie&mpo para líneas seleccionadas:"
-
 #: src/configs/playerconfigwidget.cpp:28
 #, kde-format
 msgctxt "Text for previewing the subtitles font settings"
 msgid "<p>The Quick Brown Fox<br/>Jumps Over The Lazy Dog</p>"
 msgstr "<p>Jovencillo emponzoñado de whisky:<br/>¡qué figurota exhibe!</p>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UnpauseOnDoubleClick)
-#: src/configs/playerconfigwidget.ui:23
-#, kde-format
-msgid "Resume playback after line double click"
-msgstr "Reproducir al hacer doble clic en una línea"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_SeekJumpLength)
-#: src/configs/playerconfigwidget.ui:30
-#, kde-format
-msgid "Seconds to &jump on seek:"
-msgstr "Se&gundos a saltar al avanzar/retroceder:"
-
-#. i18n: ectx: label, entry (VideoAutoPlay), group (VideoPlayer)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_VideoAutoPlay)
-#: src/configs/playerconfigwidget.ui:50 src/scconfig.kcfg:196
-#, kde-format
-msgid "Start playing video when loaded"
-msgstr "Reproducir vídeo al cargar"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPositionTimeEdit)
-#: src/configs/playerconfigwidget.ui:57 src/gui/playerwidget.cpp:438
-#, kde-format
-msgid "Show editable position control"
-msgstr "Mostrar control para edición de posición"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_StepJumpLength)
-#: src/configs/playerconfigwidget.ui:64
-#, kde-format
-msgid "Fra&me step amount:"
-msgstr "Cantidad de fotogra&mas a saltar:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_VolumeAmplification)
-#: src/configs/playerconfigwidget.ui:74
-#, kde-format
-msgid "Volume amplification:"
-msgstr "Amplificación de volumen:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitles)
-#: src/configs/playerconfigwidget.ui:122
-#, kde-format
-msgid "Subtitles"
-msgstr "Subtítulos"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_OutlineColor)
-#: src/configs/playerconfigwidget.ui:138
-#, kde-format
-msgid "Outline color:"
-msgstr "Color del contorno:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_FontColor)
-#: src/configs/playerconfigwidget.ui:151
-#, kde-format
-msgid "Te&xt color:"
-msgstr "Color del te&xto:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_FontFamily)
-#: src/configs/playerconfigwidget.ui:164
-#, kde-format
-msgid "Font family:"
-msgstr "Tipografía:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_OutlineWidth)
-#: src/configs/playerconfigwidget.ui:177
-#, kde-format
-msgid "Outline width:"
-msgstr "Anchura del contorno:"
-
-#. i18n: ectx: property (text), widget (QLabel, lab_FontSize)
-#: src/configs/playerconfigwidget.ui:187
-#, kde-format
-msgid "Font si&ze:"
-msgstr "Tamaño de tipogra&fía:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpPreview)
-#: src/configs/playerconfigwidget.ui:203
-#, kde-format
-msgid "Subtitles Preview"
-msgstr "Vista previa de subtítulos"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: src/configs/waveformconfigwidget.ui:17
-#, kde-format
-msgid "Waveform Display"
-msgstr "Visualización de forma de onda"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_wfSmoothScroll)
-#: src/configs/waveformconfigwidget.ui:23
-#, kde-format
-msgid "Smooth Scrolling"
-msgstr "Desplazamiento suave"
-
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#: src/configs/waveformconfigwidget.ui:49
-#, kde-format
-msgid "Outer color:"
-msgstr "Color externo:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: src/configs/waveformconfigwidget.ui:78
-#, kde-format
-msgid "Inner color:"
-msgstr "Color interno:"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label_wfAutoscrollPadding)
-#: src/configs/waveformconfigwidget.ui:104
-#, kde-format
-msgid ""
-"Autoscroll page when play position reaches ScrollPadding distance "
-"(percentage) from page border"
-msgstr ""
-"Desplazarse automáticamente cuando la posición de reproducción llegue a "
-"cierta distancia (porcentaje) del borde de la página"
-
-#. i18n: ectx: property (text), widget (QLabel, label_wfAutoscrollPadding)
-#: src/configs/waveformconfigwidget.ui:107
-#, kde-format
-msgid "Auto Scroll Padding:"
-msgstr "Desplazamiento automático:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/waveformconfigwidget.ui:120
-#, kde-format
-msgid "Subtitle Display"
-msgstr "Visualización de subtítulos"
-
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: src/configs/waveformconfigwidget.ui:148
-#, kde-format
-msgid "Subtitle border color:"
-msgstr "Color del borde de los subtítulos:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_16)
-#: src/configs/waveformconfigwidget.ui:158
-#, kde-format
-msgid "Selected background color:"
-msgstr "Color del fondo seleccionado:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_15)
-#: src/configs/waveformconfigwidget.ui:168
-#, kde-format
-msgid "Subtitle border width:"
-msgstr "Anchura del borde de los subtítulos:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#: src/configs/waveformconfigwidget.ui:178
-#, kde-format
-msgid "Subtitle background color:"
-msgstr "Color de fondo de los subtítulos:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_17)
-#: src/configs/waveformconfigwidget.ui:207
-#, kde-format
-msgid "Selected border color:"
-msgstr "Color del borde seleccionado:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/configs/waveformconfigwidget.ui:258
-#, kde-format
-msgid "Text Font and Colors"
-msgstr "Tipografía y colores"
-
-#. i18n: ectx: property (text), widget (QLabel, label_21)
-#: src/configs/waveformconfigwidget.ui:264
-#, kde-format
-msgid "Subtitle font family:"
-msgstr "Tipografía de subtítulos:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_22)
-#: src/configs/waveformconfigwidget.ui:277
-#, kde-format
-msgid "Subtitle number font size:"
-msgstr "Tamaño de tipografía del número de subtítulo:"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubNumberFontSize)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_wfSubTextFontSize)
-#: src/configs/waveformconfigwidget.ui:287
-#: src/configs/waveformconfigwidget.ui:333
-#, kde-format
-msgid " pt"
-msgstr " pt"
-
-#. i18n: ectx: property (text), widget (QLabel, label_23)
-#: src/configs/waveformconfigwidget.ui:294
-#, kde-format
-msgid "Subtitle Number Color"
-msgstr "Color del número de subtítulo"
-
-#. i18n: ectx: property (text), widget (QLabel, label_24)
-#: src/configs/waveformconfigwidget.ui:323
-#, kde-format
-msgid "Subtitle text font size:"
-msgstr "Tamaño de tipografía de subtítulos:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_25)
-#: src/configs/waveformconfigwidget.ui:340
-#, kde-format
-msgid "Subtitle Text Color:"
-msgstr "Color de subtítulos:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/configs/waveformconfigwidget.ui:372
-#, kde-format
-msgid "Line Indicators"
-msgstr "Indicadores de línea"
-
-#. i18n: ectx: property (text), widget (QLabel, label_31)
-#: src/configs/waveformconfigwidget.ui:378
-#, kde-format
-msgid "Player position color:"
-msgstr "Color de posición del reproductor:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_32)
-#: src/configs/waveformconfigwidget.ui:388
-#, kde-format
-msgid "Mouse indicator color:"
-msgstr "Color del indicador del cursor:"
 
 #: src/core/subtitle.cpp:61
 #, kde-format
@@ -2387,24 +1958,6 @@ msgstr "%1 (%2 % de confianza)"
 msgid "Detected"
 msgstr "Detectada"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, EncodingDetectDialog)
-#: src/dialogs/encodingdetectdialog.ui:14
-#, kde-format
-msgid "Confirm detected subtitle encoding"
-msgstr "Confirmar codificación de subtítulos detectada"
-
-#. i18n: ectx: property (text), widget (QLabel, encodingLabel)
-#: src/dialogs/encodingdetectdialog.ui:30
-#, kde-format
-msgid "Encoding"
-msgstr "Codificación"
-
-#. i18n: ectx: property (text), widget (QLabel, previewLabel)
-#: src/dialogs/encodingdetectdialog.ui:57
-#, kde-format
-msgid "Preview"
-msgstr "Vista previa"
-
 #: src/dialogs/fixoverlappingtimesdialog.cpp:23
 #, kde-format
 msgid " msecs"
@@ -2520,6 +2073,11 @@ msgstr "Hacia adelante (+)"
 msgid "Backwards (−)"
 msgstr "Hacia atrás (−)"
 
+#: src/dialogs/smarttextsadjustdialog.cpp:26
+#, kde-format
+msgid " characters"
+msgstr " caracteres"
+
 #: src/dialogs/smarttextsadjustdialog.cpp:29
 #, kde-format
 msgid "Minimum length for line break:"
@@ -2540,36 +2098,10 @@ msgstr "Tiempo de división:"
 msgid "Shift new part backwards after split"
 msgstr "Desplazar parte separada hacia atrás"
 
-#. i18n: ectx: property (text), widget (QLabel, labClass)
-#: src/dialogs/subtitleclassdialog.ui:30
-#, kde-format
-msgid "Space separated list of CSS classes:"
-msgstr "Lista de clases CSS separadas por espacios:"
-
-#. i18n: CSS
-#. i18n: ectx: property (placeholderText), widget (QComboBox, classList)
-#: src/dialogs/subtitleclassdialog.ui:52
-#, kde-format
-msgid "Class"
-msgstr "Clase"
-
 #: src/dialogs/subtitlecolordialog.cpp:26
 #, kde-format
 msgid "Default Color"
 msgstr "Color predeterminado"
-
-#. i18n: ectx: property (text), widget (QLabel, labVoice)
-#: src/dialogs/subtitlevoicedialog.ui:30
-#, kde-format
-msgid "Person name or voice title:"
-msgstr "Nombre de persona o título de voz:"
-
-#. i18n: CSS
-#. i18n: ectx: property (placeholderText), widget (QComboBox, voiceList)
-#: src/dialogs/subtitlevoicedialog.ui:52
-#, kde-format
-msgid "Voice"
-msgstr "Voz"
 
 #: src/dialogs/syncsubtitlesdialog.cpp:17
 #, kde-format
@@ -2660,159 +2192,10 @@ msgstr ""
 "Error al demultiplexar subtítulos %1: %2\n"
 "%3"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, VobSubInputInitDialog)
-#. i18n: ectx: property (windowTitle), widget (QDialog, VobSubInputProcessDialog)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:14
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:14
-#, kde-format
-msgid "VobSub Import"
-msgstr "Importar VobSub"
-
-#. i18n: ectx: property (text), widget (QLabel, labelStream)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:20
-#, kde-format
-msgid "Stream / Language"
-msgstr "Flujo / idioma"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPostProc)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:30
-#, kde-format
-msgid "Post Processing"
-msgstr "Procesamiento posterior"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppSpaceNumber)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:36
-#, kde-format
-msgid "Fix space between numbers"
-msgstr "Corregir espacio entre números"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppSpacePunct)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:46
-#, kde-format
-msgid "Fix space around punctuation (.,;:?!)"
-msgstr "Corregir espacio en signos de puntuación (.,;:?!)"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppSpaceParen)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:56
-#, kde-format
-msgid "Fix space around quotes and parentheses (\"()[]{})"
-msgstr "Corregir espacio en comillas y paréntesis (\"()[]{})"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppAposQuote)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:66
-#, kde-format
-msgid "Fix double apostrophes/quotes"
-msgstr "Corregir apostrofos/comillas dobles"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ppCharsOCR)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:76
-#, kde-format
-msgid "Fix i <-> l, 0 <-> O mistakes"
-msgstr "Corregir errores de i <-> l, 0 <-> O"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpSettings)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:112
-#: src/translate/deeplengine.ui:104 src/translate/googlecloudengine.ui:91
-#: src/translate/mintengine.ui:92
-#, kde-format
-msgid "Settings"
-msgstr "Preferencias"
-
-#. i18n: ectx: property (text), widget (QLabel, labWhitespace)
-#: src/formats/vobsub/vobsubinputinitdialog.ui:118
-#, kde-format
-msgid "Whitespace detection threshold (pixels)"
-msgstr "Umbral de detección de espacios en blanco (píxeles)"
-
 #: src/formats/vobsub/vobsubinputprocessdialog.cpp:585
 #, kde-format
 msgid "VobSub Error"
 msgstr "Error de VobSub"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpText)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:26
-#, kde-format
-msgid "Enter character(s)"
-msgstr "Introducir carácter(es)"
-
-#. i18n: ectx: property (text), widget (QLabel, symbolLabel)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:35
-#, kde-format
-msgid "S&ymbols:"
-msgstr "S&ímbolos:"
-
-#. i18n: ectx: property (toolTip), widget (QSpinBox, symbolCount)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:45
-#, kde-format
-msgid "Up/Down: change value"
-msgstr "Arriba/abajo: alterar valor"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnOk)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:143
-#, kde-format
-msgid "OK"
-msgstr "Aceptar"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnPrevImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:198
-#, kde-format
-msgid "Ctrl+Shift+Left"
-msgstr "Ctrl+Mayúsculas+Izquierda"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnPrevImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:201
-#, kde-format
-msgid "Prev Image"
-msgstr "Imagen anterior"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnPrevSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:214
-#, kde-format
-msgid "Ctrl+Left"
-msgstr "Ctrl+Izquierda"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnPrevSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:217
-#, kde-format
-msgid "Prev Symbol"
-msgstr "Símbolo anterior"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnNextSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:230
-#, kde-format
-msgid "Ctrl+Right"
-msgstr "Ctrl+Derecha"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnNextSymbol)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:233
-#, kde-format
-msgid "Next Symbol"
-msgstr "Próximo símbolo"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btnNextImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:243
-#, kde-format
-msgid "Ctrl+Shift+Right"
-msgstr "Ctrl+Mayúsculas+Derecha"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnNextImage)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:246
-#, kde-format
-msgid "Next Image"
-msgstr "Próxima imagen"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAbort)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:272
-#: src/translate/translateengine.cpp:66
-#, kde-format
-msgid "Abort"
-msgstr "Anular"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPreview)
-#: src/formats/vobsub/vobsubinputprocessdialog.ui:294
-#, kde-format
-msgid "Subtitle Image"
-msgstr "Imagen de subtítulos"
 
 #: src/gui/currentlinewidget.cpp:217
 #, kde-format
@@ -2869,6 +2252,11 @@ msgstr "<b>FPS</b>"
 msgid "<b>Playback Rate</b>"
 msgstr "<b>Velocidad de reproducción</b>"
 
+#: src/gui/playerwidget.cpp:438
+#, kde-format
+msgid "Show editable position control"
+msgstr "Mostrar control para edición de posición"
+
 #: src/gui/playerwidget.cpp:673
 #, kde-format
 msgid "<qt>There was an error opening media file %1.</qt>"
@@ -2922,42 +2310,6 @@ msgstr "Cabecera"
 msgid "Footer"
 msgstr "Pie de página"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, SubtitlePositionWidget)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:14
-#, kde-format
-msgid "Form"
-msgstr "Forma"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpHAlign)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:20
-#, kde-format
-msgid "Horizontal Alignment"
-msgstr "Alineación horizontal"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpVAlign)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:103
-#, kde-format
-msgid "Vertical Alignment"
-msgstr "Alineación vertical"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPosition)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:164
-#, kde-format
-msgid "Position/Size"
-msgstr "Posición/tamaño"
-
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posBottom)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posLeft)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posTop)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, posRight)
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:170
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:180
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:190
-#: src/gui/subtitlemeta/subtitlepositionwidget.ui:200
-#, no-c-format, kde-format
-msgid "%"
-msgstr " %"
-
 #: src/gui/treeview/linesmodel.cpp:155
 #, kde-format
 msgid "<b>Observations:</b>"
@@ -3004,6 +2356,11 @@ msgstr "Texto"
 msgctxt "@title:column Subtitle line translation text"
 msgid "Translation"
 msgstr "Traducción"
+
+#: src/gui/treeview/lineswidget.cpp:400
+#, kde-format
+msgid "Texts"
+msgstr "Textos"
 
 #: src/gui/treeview/lineswidget.cpp:411
 #, kde-format
@@ -3208,375 +2565,6 @@ msgstr "Forma de onda"
 msgid "Styles and Comments"
 msgstr "Estilos y comentarios"
 
-#. i18n: ectx: label, entry (DefaultSubtitlesEncoding), group (General)
-#: src/scconfig.kcfg:10
-#, kde-format
-msgid "Default Subtitles Encoding"
-msgstr "Codificación de subtítulos predetermidada"
-
-#. i18n: ectx: label, entry (TextLineBreak), group (General)
-#: src/scconfig.kcfg:14
-#, kde-format
-msgid "Line Break Character"
-msgstr "Carácter de salto de línea"
-
-#. i18n: ectx: label, entry (SeekOffsetOnDoubleClick), group (General)
-#: src/scconfig.kcfg:18
-#, kde-format
-msgid "Seek Offset On Double Click"
-msgstr "Buscar compensación al hacer doble clic"
-
-#. i18n: ectx: label, entry (JumpLineOffset), group (General)
-#: src/scconfig.kcfg:22
-#, kde-format
-msgid "Jump to prev/next line offset"
-msgstr "Saltar a la compensación de línea anterior/próxima"
-
-#. i18n: ectx: label, entry (UnpauseOnDoubleClick), group (General)
-#: src/scconfig.kcfg:26
-#, kde-format
-msgid "Unpause On Double Click"
-msgstr "Reanudar al hacer doble clic"
-
-#. i18n: ectx: label, entry (AutomaticVideoLoad), group (General)
-#: src/scconfig.kcfg:30
-#, kde-format
-msgid "Automatic Video Load"
-msgstr "Carga automática de vídeo"
-
-#. i18n: ectx: label, entry (LinesQuickShiftAmount), group (General)
-#: src/scconfig.kcfg:35
-#, kde-format
-msgid "Lines Quick Shift Amount"
-msgstr "Nivel de desplazamiento rápido de líneas"
-
-#. i18n: ectx: label, entry (GrabbedPositionCompensation), group (General)
-#: src/scconfig.kcfg:39
-#, kde-format
-msgid "Grabbed Position Compensation"
-msgstr "Compensación de posición retenida"
-
-#. i18n: ectx: label, entry (LineDuration), group (General)
-#: src/scconfig.kcfg:44
-#, kde-format
-msgid "Default subtitle line duration"
-msgstr "Duración de línea de subtítulo predeterminada"
-
-#. i18n: ectx: label, entry (LinePause), group (General)
-#: src/scconfig.kcfg:48
-#, kde-format
-msgid "Default duration between subtitle lines"
-msgstr "Duración predeterminada entre líneas de subtítulo"
-
-#. i18n: ectx: label, entry (MaxCharacters), group (Error Check)
-#: src/scconfig.kcfg:55
-#, kde-format
-msgid "Maximum number of characters"
-msgstr "Número máximo de caracteres"
-
-#. i18n: ectx: label, entry (MaxLines), group (Error Check)
-#: src/scconfig.kcfg:59
-#, kde-format
-msgid "Maximum number of lines"
-msgstr "Número máximo de líneas"
-
-#. i18n: ectx: label, entry (MaxCharactersPerLine), group (Error Check)
-#: src/scconfig.kcfg:63
-#, kde-format
-msgid "Maximum number of characters per line"
-msgstr "Número máximo de caracteres por línea"
-
-#. i18n: ectx: label, entry (MinDuration), group (Error Check)
-#: src/scconfig.kcfg:68
-#, kde-format
-msgid "Minimum duration"
-msgstr "Duración mínima"
-
-#. i18n: ectx: label, entry (MaxDuration), group (Error Check)
-#: src/scconfig.kcfg:72
-#, kde-format
-msgid "Maximum duration"
-msgstr "Duración máxima"
-
-#. i18n: ectx: label, entry (MinDurationPerCharacter), group (Error Check)
-#: src/scconfig.kcfg:77
-#, kde-format
-msgid "Minimum duration per character"
-msgstr "Duración mínima por carácter"
-
-#. i18n: ectx: label, entry (IdealDurationPerCharacter), group (Error Check)
-#: src/scconfig.kcfg:81
-#, kde-format
-msgid "Ideal duration per character"
-msgstr "Duración ideal por carácter"
-
-#. i18n: ectx: label, entry (MaxDurationPerCharacter), group (Error Check)
-#: src/scconfig.kcfg:85
-#, kde-format
-msgid "Maximum duration per character"
-msgstr "Duración máxima por carácter"
-
-#. i18n: ectx: label, entry (DefaultLanguage), group (Spelling)
-#: src/scconfig.kcfg:97
-#, kde-format
-msgid "Default Language"
-msgstr "Idioma predeterminado"
-
-#. i18n: ectx: label, entry (autodetectLanguage), group (Spelling)
-#: src/scconfig.kcfg:101
-#, kde-format
-msgid "Auto detect language"
-msgstr "Detectar idioma automáticamente"
-
-#. i18n: ectx: label, entry (DefaultClient), group (Spelling)
-#: src/scconfig.kcfg:105
-#, kde-format
-msgid "Default client"
-msgstr "Cliente predeterminado"
-
-#. i18n: ectx: label, entry (backgroundCheckerEnabled), group (Spelling)
-#: src/scconfig.kcfg:109
-#, kde-format
-msgid "Background checker enabled"
-msgstr "Comprobador en segundo plano activado"
-
-#. i18n: ectx: label, entry (checkerEnabledByDefault), group (Spelling)
-#: src/scconfig.kcfg:113
-#, kde-format
-msgid "Checker enabled by default"
-msgstr "Comprobador activado de forma predeterminada"
-
-#. i18n: ectx: label, entry (skipUppercase), group (Spelling)
-#: src/scconfig.kcfg:117
-#, kde-format
-msgid "Skip uppercase"
-msgstr "Omitir mayúsculas"
-
-#. i18n: ectx: label, entry (skipRunTogether), group (Spelling)
-#: src/scconfig.kcfg:121
-#, kde-format
-msgid "Skip Run Together"
-msgstr "Ignorar oraciones seguidas"
-
-#. i18n: ectx: label, entry (wfInnerColor), group (Waveform Widget)
-#: src/scconfig.kcfg:128
-#, kde-format
-msgid "Waveform Inner Color"
-msgstr "Color interno de forma de onda"
-
-#. i18n: ectx: label, entry (wfOuterColor), group (Waveform Widget)
-#: src/scconfig.kcfg:132
-#, kde-format
-msgid "Waveform Outer Color"
-msgstr "Color externo de forma de onda"
-
-#. i18n: ectx: label, entry (wfSmoothScroll), group (Waveform Widget)
-#: src/scconfig.kcfg:136
-#, kde-format
-msgid "Waveform Smooth Scrolling"
-msgstr "Desplazamiento suave de forma de onda"
-
-#. i18n: ectx: label, entry (wfAutoscrollPadding), group (Waveform Widget)
-#: src/scconfig.kcfg:140
-#, kde-format
-msgid "Autoscroll Padding"
-msgstr "Desplazamiento automático"
-
-#. i18n: ectx: whatsthis, entry (wfAutoscrollPadding), group (Waveform Widget)
-#: src/scconfig.kcfg:142
-#, kde-format
-msgid ""
-"Autoscroll page when play position reaches ScrollPadding distance "
-"(percentage) from page border."
-msgstr ""
-"Desplazarse automáticamente cuando la posición de reproducción llegue a "
-"cierta distancia (porcentaje) del borde de la página."
-
-#. i18n: ectx: label, entry (wfSubBackground), group (Waveform Widget)
-#: src/scconfig.kcfg:145
-#, kde-format
-msgid "Waveform Subtitle Background Color"
-msgstr "Color de fondo de los subtítulos en la forma de onda"
-
-#. i18n: ectx: label, entry (wfSubBorder), group (Waveform Widget)
-#: src/scconfig.kcfg:149
-#, kde-format
-msgid "Waveform Subtitle Border Color"
-msgstr "Color del borde de los subtítulos en la forma de onda"
-
-#. i18n: ectx: label, entry (wfSubBorderWidth), group (Waveform Widget)
-#: src/scconfig.kcfg:153
-#, kde-format
-msgid "Waveform Subtitle Border Width"
-msgstr "Anchura del borde de los subtítulos en la forma de onda"
-
-#. i18n: ectx: label, entry (wfSelBackground), group (Waveform Widget)
-#: src/scconfig.kcfg:157
-#, kde-format
-msgid "Waveform Selected Subtitle Background Color"
-msgstr "Color de fondo de los subtítulos en la forma de onda seleccionado"
-
-#. i18n: ectx: label, entry (wfSelBorder), group (Waveform Widget)
-#: src/scconfig.kcfg:161
-#, kde-format
-msgid "Waveform Selected Subtitle Border Color"
-msgstr "Color del borde de los subtítulos en la forma de onda seleccionado"
-
-#. i18n: ectx: label, entry (wfFontFamily), group (Waveform Widget)
-#. i18n: ectx: label, entry (FontFamily), group (VideoPlayer)
-#: src/scconfig.kcfg:165 src/scconfig.kcfg:217
-#, kde-format
-msgid "Font Family"
-msgstr "Tipografía"
-
-#. i18n: ectx: label, entry (wfSubNumberFontSize), group (Waveform Widget)
-#: src/scconfig.kcfg:169
-#, kde-format
-msgid "Subtitle Number Font Size"
-msgstr "Tamaño de tipografía del número de subtítulo"
-
-#. i18n: ectx: label, entry (wfSubNumberColor), group (Waveform Widget)
-#: src/scconfig.kcfg:173
-#, kde-format
-msgid "Subtitle Number Font Color"
-msgstr "Color del número de subtítulo"
-
-#. i18n: ectx: label, entry (wfSubTextFontSize), group (Waveform Widget)
-#: src/scconfig.kcfg:177
-#, kde-format
-msgid "Subtitle Text Font Size"
-msgstr "Tamaño de tipografía de subtítulos"
-
-#. i18n: ectx: label, entry (wfSubTextColor), group (Waveform Widget)
-#: src/scconfig.kcfg:181
-#, kde-format
-msgid "Subtitle Text Font Color"
-msgstr "Color de subtítulos"
-
-#. i18n: ectx: label, entry (wfMouseLocation), group (Waveform Widget)
-#: src/scconfig.kcfg:185
-#, kde-format
-msgid "Mouse Location Line Color"
-msgstr "Color de línea de la posición del cursor"
-
-#. i18n: ectx: label, entry (wfPlayLocation), group (Waveform Widget)
-#: src/scconfig.kcfg:189
-#, kde-format
-msgid "Play Location Line Color"
-msgstr "Color de la línea de la posición de reproducción"
-
-#. i18n: ectx: label, entry (SeekJumpLength), group (VideoPlayer)
-#: src/scconfig.kcfg:200
-#, kde-format
-msgid "Jump length on seek"
-msgstr "Duración de salto al avanzar/retroceder"
-
-#. i18n: ectx: label, entry (StepJumpLength), group (VideoPlayer)
-#: src/scconfig.kcfg:204
-#, kde-format
-msgid "Amount of frames to skip when stepping"
-msgstr "Cantidad de fotogramas a saltar al dar un paso"
-
-#. i18n: ectx: label, entry (ShowPositionTimeEdit), group (VideoPlayer)
-#: src/scconfig.kcfg:208
-#, kde-format
-msgid "Show editable time position"
-msgstr "Mostrar posiciones de tiempo editables"
-
-#. i18n: ectx: label, entry (VolumeAmplification), group (VideoPlayer)
-#: src/scconfig.kcfg:212
-#, kde-format
-msgid "Volume Amplification"
-msgstr "Amplificación de volumen"
-
-#. i18n: ectx: label, entry (FontSize), group (VideoPlayer)
-#: src/scconfig.kcfg:221
-#, kde-format
-msgid "Font Size"
-msgstr "Tamaño de tipografía"
-
-#. i18n: ectx: label, entry (FontColor), group (VideoPlayer)
-#: src/scconfig.kcfg:225
-#, kde-format
-msgid "Font Color"
-msgstr "Color de tipografía"
-
-#. i18n: ectx: label, entry (OutlineColor), group (VideoPlayer)
-#: src/scconfig.kcfg:229
-#, kde-format
-msgid "Outline Color"
-msgstr "Color del contorno"
-
-#. i18n: ectx: label, entry (OutlineWidth), group (VideoPlayer)
-#: src/scconfig.kcfg:233
-#, kde-format
-msgid "Outline Width"
-msgstr "Anchura del contorno"
-
-#. i18n: ectx: label, entry (translateEngine), group (Translation)
-#: src/scconfig.kcfg:240
-#, kde-format
-msgid "Last used translate engine"
-msgstr "Último motor de traducción usado"
-
-#. i18n: ectx: label, entry (gctServiceJSON), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:247
-#, kde-format
-msgid "Service Account JSON containing private key"
-msgstr "JSON de la cuenta de servicio que contiene la clave privada"
-
-#. i18n: ectx: label, entry (gctLangSource), group (GoogleCloudTranslate)
-#. i18n: ectx: label, entry (dltLangSource), group (DeepLTranslate)
-#. i18n: ectx: label, entry (mintLangSource), group (MinTTranslate)
-#: src/scconfig.kcfg:250 src/scconfig.kcfg:274 src/scconfig.kcfg:287
-#, kde-format
-msgid "source language - cached"
-msgstr "idioma de origen - en caché"
-
-#. i18n: ectx: label, entry (gctLangTrans), group (GoogleCloudTranslate)
-#. i18n: ectx: label, entry (dltLangTrans), group (DeepLTranslate)
-#. i18n: ectx: label, entry (mintLangTrans), group (MinTTranslate)
-#: src/scconfig.kcfg:253 src/scconfig.kcfg:277 src/scconfig.kcfg:290
-#, kde-format
-msgid "translation language - cached"
-msgstr "idioma de traducción - en caché"
-
-#. i18n: ectx: label, entry (gctAccessToken), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:256
-#, kde-format
-msgid "access token - cached"
-msgstr "token de acceso - en caché"
-
-#. i18n: ectx: label, entry (gctTokenExpires), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:259
-#, kde-format
-msgid "access token expiry - cached"
-msgstr "caducidad del token de acceso - en caché"
-
-#. i18n: ectx: label, entry (gctTokenType), group (GoogleCloudTranslate)
-#: src/scconfig.kcfg:262
-#, kde-format
-msgid "access token type - cached"
-msgstr "tipo de token de acceso - en caché"
-
-#. i18n: ectx: label, entry (dltAuthKey), group (DeepLTranslate)
-#: src/scconfig.kcfg:268
-#, kde-format
-msgid "DeepL API authentication key"
-msgstr "Clave de autenticación de la API de DeepL"
-
-#. i18n: ectx: label, entry (dltApiDomain), group (DeepLTranslate)
-#: src/scconfig.kcfg:271
-#, kde-format
-msgid "DeepL API domain name"
-msgstr "Nombre de dominio de la API de DeepL"
-
-#. i18n: ectx: label, entry (mintURLPrefix), group (MinTTranslate)
-#: src/scconfig.kcfg:283
-#, kde-format
-msgid "MinT API URL prefix"
-msgstr "Prefijo de URL de API MinT"
-
 #: src/scripting/scriptsmanager.cpp:73
 #, kde-format
 msgid "Non-Script Files"
@@ -3617,8 +2605,7 @@ msgstr "Advertencia"
 msgid "Error"
 msgstr "Error"
 
-#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
-#: src/scripting/scriptsmanager.cpp:414 src/scripting/scriptsmanager.ui:71
+#: src/scripting/scriptsmanager.cpp:414
 #, kde-format
 msgid "Edit"
 msgstr "Editar"
@@ -3737,140 +2724,6 @@ msgstr "Ruta: %1"
 msgid "Tools"
 msgstr "Herramientas"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, ScriptsManager)
-#: src/scripting/scriptsmanager.ui:14
-#, kde-format
-msgid "Scripts Manager"
-msgstr "Administrador de scripts"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreate)
-#: src/scripting/scriptsmanager.ui:29
-#, kde-format
-msgid "Creates a new script file."
-msgstr "Crea un nuevo script."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnCreate)
-#: src/scripting/scriptsmanager.ui:32
-#, kde-format
-msgid "Create..."
-msgstr "Crear…"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnAdd)
-#: src/scripting/scriptsmanager.ui:42
-#, kde-format
-msgid "Copies an existing script from a specified location."
-msgstr "Copia un script existente desde un ubicación dada."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: src/scripting/scriptsmanager.ui:45
-#, kde-format
-msgid "Add..."
-msgstr "Añadir…"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRemove)
-#: src/scripting/scriptsmanager.ui:55
-#, kde-format
-msgid "Sends the selected script to the trash."
-msgstr "Envía el script seleccionado a la papelera."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEdit)
-#: src/scripting/scriptsmanager.ui:68
-#, kde-format
-msgid "Opens the selected script with an external editor."
-msgstr "Abre el script seleccionado en un editor externo."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRun)
-#: src/scripting/scriptsmanager.ui:97
-#, kde-format
-msgid "Executes the selected script."
-msgstr "Ejecuta el script seleccionado."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRun)
-#: src/scripting/scriptsmanager.ui:100
-#, kde-format
-msgid "Run"
-msgstr "Ejecutar"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRefresh)
-#: src/scripting/scriptsmanager.ui:126
-#, kde-format
-msgid "Reloads the installed scripts list."
-msgstr "Recarga la lista de scripts instalados."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRefresh)
-#: src/scripting/scriptsmanager.ui:129
-#, kde-format
-msgid "Refresh"
-msgstr "Refrescar"
-
-#. i18n: ectx: label, entry (acousticModelPath), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_acousticModelPath)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:11
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:65
-#, kde-format
-msgid "Directory containing acoustic model files"
-msgstr "Directorio que contiene archivos de modelo acústico"
-
-#. i18n: ectx: label, entry (trigramModelFile), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_trigramModelFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:15
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:39
-#, kde-format
-msgid "Word trigram language model input file"
-msgstr "Archivo de entrada de modelo lingüístico de trigrama de palabras"
-
-#. i18n: ectx: label, entry (lexiconFile), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_lexiconFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:19
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:26
-#, kde-format
-msgid "Main pronunciation dictionary (lexicon) input file"
-msgstr "Archivo de entrada del diccionario de pronunciación principal (léxico)"
-
-#. i18n: ectx: label, entry (vadPostSpeech), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPostSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:24
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:152
-#, kde-format
-msgid "Num of silence frames to keep after speech to silence transition"
-msgstr ""
-"Número de fotogramas silenciosos a mantener después de una transición de voz "
-"a silencio"
-
-#. i18n: ectx: label, entry (vadPreSpeech), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPreSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:28
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:139
-#, kde-format
-msgid "Num of speech frames to keep before silence to speech transition"
-msgstr ""
-"Número de fotogramas de voz a mantener antes de una transición de silencio a "
-"voz"
-
-#. i18n: ectx: label, entry (vadStartSpeech), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadStartSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:32
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:165
-#, kde-format
-msgid "Num of speech frames to trigger VAD from silence to speech"
-msgstr ""
-"Número de fotogramas de voz para lanzar una detección de voz de silencio a "
-"voz"
-
-#. i18n: ectx: label, entry (vadTreshold), group (PocketSphinx)
-#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_vadTreshold)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadTreshold)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:36
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:106
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:126
-#, kde-format
-msgid ""
-"Threshold for decision between noise and silence frames. Log-ratio between "
-"signal level and noise level"
-msgstr ""
-"Umbral de decisión entre fotogramas con ruido y con silencio. Proporción "
-"entre nivel de señal y nivel de ruido."
-
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:20
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.cpp:28
 #, kde-format
@@ -3882,74 +2735,6 @@ msgstr "Diccionarios de Sphinx"
 #, kde-format
 msgid "Trigram Models"
 msgstr "Modelos de trigramas"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpModel)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:20
-#, kde-format
-msgid "Speech Recognition Model"
-msgstr "Modelo de reconocimiento de voz"
-
-#. i18n: ectx: property (text), widget (QLabel, label_lexiconFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:29
-#, kde-format
-msgid "Pronunciation Dictionary (Lexicon)"
-msgstr "Diccionario de pronunciación (léxico)"
-
-#. i18n: ectx: property (text), widget (QLabel, label_trigramModelFile)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:42
-#, kde-format
-msgid "Trigram Model"
-msgstr "Modelo de trigrama"
-
-#. i18n: ectx: property (text), widget (QLabel, label_acousticModelPath)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:68
-#, kde-format
-msgid "Acoustic Model"
-msgstr "Modelo acústico"
-
-#. i18n: ectx: property (text), widget (QLabel, label_modelInfoText)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:78
-#, kde-format
-msgid ""
-"<html><head/><body><p align=\"center\">Acoustic and Language Models can be "
-"downloaded from <a href=\"https://cmusphinx.github.io/wiki/download/\"><span "
-"style=\" text-decoration: underline; color:#007af4;\">CMU Sphinx</span></a></"
-"p></body></html>"
-msgstr ""
-"<html><head/><body><p align=\"center\">Los modelos acústicos y lingüísticos "
-"se pueden descargar de <a href=\"https://cmusphinx.github.io/wiki/download/"
-"\"><span style=\" text-decoration: underline; color:#007af4;\">CMU Sphinx</"
-"span></a></p></body></html>"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpVAD)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:100
-#, kde-format
-msgid "Voice Activity Detection"
-msgstr "Detección de actividad de voz"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadTreshold)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:129
-#, kde-format
-msgid "Noise Threshold"
-msgstr "Umbral de ruido"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadPreSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:142
-#, kde-format
-msgid "Pre Speech Frames"
-msgstr "Fotogramas de voz previos"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadPostSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:155
-#, kde-format
-msgid "Post Speech Frames"
-msgstr "Fotogramas de voz posteriores"
-
-#. i18n: ectx: property (text), widget (QLabel, label_vadStartSpeech)
-#: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:168
-#, kde-format
-msgid "Start Speech Frames"
-msgstr "Fotogramas de voz iniciales"
 
 #: src/speechprocessor/speechprocessor.cpp:41
 #, kde-format
@@ -3979,72 +2764,6 @@ msgid ""
 msgstr ""
 "Error de reconocimiento de voz: %2\n"
 "Código %1: %3"
-
-#. i18n: ectx: Menu (file)
-#: src/subtitlecomposerui.rc:5
-#, kde-format
-msgid "&File"
-msgstr "&Archivo"
-
-#. i18n: ectx: Menu (translation)
-#: src/subtitlecomposerui.rc:20
-#, kde-format
-msgid "Translation"
-msgstr "Traducción"
-
-#. i18n: ectx: Menu (edit)
-#: src/subtitlecomposerui.rc:33
-#, kde-format
-msgid "&Edit"
-msgstr "&Edición"
-
-#. i18n: ectx: Menu (texts)
-#: src/subtitlecomposerui.rc:56
-#, kde-format
-msgid "&Texts"
-msgstr "&Textos"
-
-#. i18n: ectx: Menu (styles)
-#: src/subtitlecomposerui.rc:67
-#, kde-format
-msgid "St&yles"
-msgstr "E&stilos"
-
-#. i18n: ectx: Menu (times)
-#: src/subtitlecomposerui.rc:77
-#, kde-format
-msgid "T&imes"
-msgstr "T&iempos"
-
-#. i18n: ectx: Menu (errors)
-#: src/subtitlecomposerui.rc:98
-#, kde-format
-msgid "E&rrors"
-msgstr "E&rrores"
-
-#. i18n: ectx: Menu (video)
-#: src/subtitlecomposerui.rc:107
-#, kde-format
-msgid "&Video"
-msgstr "&Vídeo"
-
-#. i18n: ectx: Menu (tools)
-#: src/subtitlecomposerui.rc:142
-#, kde-format
-msgid "T&ools"
-msgstr "&Herramientas"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: src/subtitlecomposerui.rc:147
-#, kde-format
-msgid "Main Toolbar"
-msgstr "Barra de herramientas principal"
-
-#. i18n: ectx: ToolBar (editToolBar)
-#: src/subtitlecomposerui.rc:158
-#, kde-format
-msgid "Edit Toolbar"
-msgstr "Editar barra de herramientas"
 
 #: src/translate/deeplengine.cpp:56 src/translate/googlecloudengine.cpp:136
 #: src/translate/mintengine.cpp:60
@@ -4098,54 +2817,6 @@ msgstr "Autodetectar idioma"
 msgid "Translating lines..."
 msgstr "Traduciendo líneas…"
 
-#. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
-#: src/translate/deeplengine.ui:17 src/translate/googlecloudengine.ui:17
-#, kde-format
-msgid "Authentication"
-msgstr "Autenticación"
-
-#. i18n: ectx: property (text), widget (QLabel, labAuthKey)
-#: src/translate/deeplengine.ui:23
-#, kde-format
-msgid "Authentication Key:"
-msgstr "Clave de autenticación:"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnConnect)
-#: src/translate/deeplengine.ui:33
-#, kde-format
-msgid "Connect"
-msgstr "Conectar"
-
-#. i18n: ectx: property (text), widget (QLabel, labApiDomain)
-#: src/translate/deeplengine.ui:66
-#, kde-format
-msgid "API Domain:"
-msgstr "Dominio de la API:"
-
-#. i18n: ectx: property (text), widget (QLabel, labHelp)
-#: src/translate/deeplengine.ui:82
-#, kde-format
-msgid ""
-"You need to <a href=\"https://www.deepl.com/pro-api\">create an account</a> "
-"on DeepL website and paste your API authentication key below."
-msgstr ""
-"Debe <a href=\"https://www.deepl.com/pro-api\">crear una cuenta</a> en el "
-"sitio web DeepL y pegar su clave de autenticación de la API a continuación."
-
-#. i18n: ectx: property (text), widget (QLabel, labSource)
-#: src/translate/deeplengine.ui:110 src/translate/googlecloudengine.ui:97
-#: src/translate/mintengine.ui:98
-#, kde-format
-msgid "Source language:"
-msgstr "Idioma de origen:"
-
-#. i18n: ectx: property (text), widget (QLabel, labTranslation)
-#: src/translate/deeplengine.ui:120 src/translate/googlecloudengine.ui:107
-#: src/translate/mintengine.ui:108
-#, kde-format
-msgid "Translate to:"
-msgstr "Traducir a:"
-
 #: src/translate/googlecloudengine.cpp:143
 #, kde-format
 msgid ""
@@ -4172,74 +2843,10 @@ msgstr "Ha ocurrido un error al abrir el archivo «%1»"
 msgid "Error parsing JSON from file '%1'"
 msgstr "Ha ocurrido un error al analizar JSON del archivo «%1»"
 
-#. i18n: ectx: property (text), widget (QLabel, labelServiceJSON)
-#: src/translate/googlecloudengine.ui:23
-#, kde-format
-msgid "Service Account's Private Key JSON:"
-msgstr "JSON de la clave privada de la cuenta de servicio"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnLogin)
-#: src/translate/googlecloudengine.ui:36
-#, kde-format
-msgid "Login"
-msgstr "Iniciar sesión"
-
-#. i18n: ectx: property (text), widget (QLabel, labHelp)
-#: src/translate/googlecloudengine.ui:62
-#, kde-format
-msgid ""
-"<p>You need to <a href=\"https://developers.google.com/identity/protocols/"
-"oauth2/service-account#creatinganaccount\">create a Service Account</a> in "
-"Google Cloud Console and provide public/private key JSON file below.</"
-"p><p>The Service Account needs to be assigned <span style=\" text-"
-"decoration: underline;\">Cloud Translation API User</span> role on IAM page "
-"or must be granted access to the Google's Cloud Translation APIs in a "
-"different manner.</p>"
-msgstr ""
-"<p>Debe <a href=\"https://developers.google.com/identity/protocols/oauth2/"
-"service-account#creatinganaccount\">crear una cuenta de servicio</a> en la "
-"consola de Google Cloud y proporcionar el siguiente archivo JSON de clave "
-"pública/privada.</p><p>La cuenta de servicio debe tener asignado el rol "
-"<span style=\" text-decoration: underline;\">Usuario de la API de Cloud "
-"Translation</span> en la página de IAM o debe tener acceso a las API de "
-"Cloud Translation de Google de una manera diferente.</p>"
-
 #: src/translate/mintengine.cpp:80
 #, kde-format
 msgid "MinT Engine Error"
 msgstr "Error del motor MinT"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpAuth)
-#: src/translate/mintengine.ui:17
-#, kde-format
-msgid "API Server"
-msgstr "Servidor API"
-
-#. i18n: ectx: property (text), widget (QLabel, labApiURLPrefix)
-#: src/translate/mintengine.ui:40
-#, kde-format
-msgid "Service URL:"
-msgstr "URL del servicio:"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnUpdate)
-#: src/translate/mintengine.ui:50
-#, kde-format
-msgid "Update"
-msgstr "Actualizar"
-
-#. i18n: ectx: property (text), widget (QLabel, labHelp)
-#: src/translate/mintengine.ui:76
-#, kde-format
-msgid ""
-"You need to provide an URL to a MinT machine translation system API. You can "
-"<a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
-"machinetranslation\">setup your own service</a> or use some <a href="
-"\"https://translate.wmcloud.org/\">public API</a>."
-msgstr ""
-"Debe proporcionar una URL a la API de un sistema de traducción de máquina "
-"MinT. Puede <a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
-"machinetranslation\">configurar su propio servicio</a> o usar una <a href="
-"\"https://translate.wmcloud.org/\">API pública</a>."
 
 #: src/translate/translatedialog.cpp:31
 #, kde-format
@@ -4255,6 +2862,11 @@ msgstr "Traducir textos al"
 #, kde-format
 msgid "Translate texts"
 msgstr "Traducir textos"
+
+#: src/translate/translateengine.cpp:66
+#, kde-format
+msgid "Abort"
+msgstr "Anular"
 
 #: src/utils/finder.cpp:44
 #, kde-format
@@ -4381,3 +2993,690 @@ msgstr "Revisar ortografía automáticamente"
 #, kde-format
 msgid "Allow Tabulations"
 msgstr "Permitir tabulaciones"
+
+#~ msgid " lines"
+#~ msgstr " líneas"
+
+#~ msgid "Maximum number of characters:"
+#~ msgstr "Número máximo de caracteres:"
+
+#~ msgid "Maximum number of characters per line:"
+#~ msgstr "Número máximo de caracteres por línea:"
+
+#~ msgid "Maximum number of lines:"
+#~ msgstr "Número máximo de líneas:"
+
+#~ msgid "Absolute Durations"
+#~ msgstr "Duraciones absolutas"
+
+#~ msgid " msec"
+#~ msgstr " mseg"
+
+#~ msgid "Maximum duration:"
+#~ msgstr "Duración máxima:"
+
+#~ msgid "Minimum duration:"
+#~ msgstr "Duración mínima:"
+
+#~ msgid "Relative Durations"
+#~ msgstr "Duraciones relativas"
+
+#~ msgid " ms/char"
+#~ msgstr " ms/car"
+
+#~ msgid " ch/sec"
+#~ msgstr " ca/seg"
+
+#~ msgid "Ideal duration:"
+#~ msgstr "Duración ideal:"
+
+#~ msgid "Behavior"
+#~ msgstr "Comportamiento"
+
+#~ msgid "Automatically clear fixed errors"
+#~ msgstr "Limpiar automáticamente los errores corregidos"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Automatically load video file when opening a subtitle"
+#~ msgstr "Cargar archivo de vídeo automáticamente al abrir subtítulos"
+
+#~ msgid "Defau&lt subtitles encoding:"
+#~ msgstr "Codi&ficación de subtítulos predeterminada:"
+
+#~ msgid "UNIX (LF)"
+#~ msgstr "UNIX (LF)"
+
+#~ msgid "Windows (CRLF)"
+#~ msgstr "Windows (CRLF)"
+
+#~ msgid "Macintosh (CR)"
+#~ msgstr "Macintosh (CR)"
+
+#~ msgid "Line break character:"
+#~ msgstr "Carácter de salto de línea:"
+
+#~ msgid "Subtitle Line"
+#~ msgstr "Línea de subtítulo"
+
+#~ msgid "Default subtitle line duration:"
+#~ msgstr "Duración de línea de subtítulo predeterminada:"
+
+#~ msgid "On double click, &jump to show time minus:"
+#~ msgstr "Al hacer doble clic, &saltar al tiempo de aparición menos:"
+
+#~ msgid "Default pause between subtitle lines:"
+#~ msgstr "Pausa predeterminada entre líneas de subtítulo:"
+
+#~ msgid "Ju&mp to prev/next line offset:"
+#~ msgstr "Saltar a la co&mpensación de línea anterior/próxima:"
+
+#~ msgid "Quick Actions"
+#~ msgstr "Acciones rápidas"
+
+#~ msgid "Compensation for captured &video times:"
+#~ msgstr "Compensación para tiempos de &vídeo capturados:"
+
+#~ msgid "Ti&me shift for selected lines:"
+#~ msgstr "Desplazamiento de tie&mpo para líneas seleccionadas:"
+
+#~ msgid "Resume playback after line double click"
+#~ msgstr "Reproducir al hacer doble clic en una línea"
+
+#~ msgid "Seconds to &jump on seek:"
+#~ msgstr "Se&gundos a saltar al avanzar/retroceder:"
+
+#~ msgid "Start playing video when loaded"
+#~ msgstr "Reproducir vídeo al cargar"
+
+#~ msgid "Fra&me step amount:"
+#~ msgstr "Cantidad de fotogra&mas a saltar:"
+
+#~ msgid "Volume amplification:"
+#~ msgstr "Amplificación de volumen:"
+
+#~ msgid "Subtitles"
+#~ msgstr "Subtítulos"
+
+#~ msgid "Outline color:"
+#~ msgstr "Color del contorno:"
+
+#~ msgid "Te&xt color:"
+#~ msgstr "Color del te&xto:"
+
+#~ msgid "Font family:"
+#~ msgstr "Tipografía:"
+
+#~ msgid "Outline width:"
+#~ msgstr "Anchura del contorno:"
+
+#~ msgid "Font si&ze:"
+#~ msgstr "Tamaño de tipogra&fía:"
+
+#~ msgid "Subtitles Preview"
+#~ msgstr "Vista previa de subtítulos"
+
+#~ msgid "Waveform Display"
+#~ msgstr "Visualización de forma de onda"
+
+#~ msgid "Smooth Scrolling"
+#~ msgstr "Desplazamiento suave"
+
+#~ msgid "Outer color:"
+#~ msgstr "Color externo:"
+
+#~ msgid "Inner color:"
+#~ msgstr "Color interno:"
+
+#~ msgid ""
+#~ "Autoscroll page when play position reaches ScrollPadding distance "
+#~ "(percentage) from page border"
+#~ msgstr ""
+#~ "Desplazarse automáticamente cuando la posición de reproducción llegue a "
+#~ "cierta distancia (porcentaje) del borde de la página"
+
+#~ msgid "Auto Scroll Padding:"
+#~ msgstr "Desplazamiento automático:"
+
+#~ msgid "Subtitle Display"
+#~ msgstr "Visualización de subtítulos"
+
+#~ msgid "Subtitle border color:"
+#~ msgstr "Color del borde de los subtítulos:"
+
+#~ msgid "Selected background color:"
+#~ msgstr "Color del fondo seleccionado:"
+
+#~ msgid "Subtitle border width:"
+#~ msgstr "Anchura del borde de los subtítulos:"
+
+#~ msgid "Subtitle background color:"
+#~ msgstr "Color de fondo de los subtítulos:"
+
+#~ msgid "Selected border color:"
+#~ msgstr "Color del borde seleccionado:"
+
+#~ msgid "Text Font and Colors"
+#~ msgstr "Tipografía y colores"
+
+#~ msgid "Subtitle font family:"
+#~ msgstr "Tipografía de subtítulos:"
+
+#~ msgid "Subtitle number font size:"
+#~ msgstr "Tamaño de tipografía del número de subtítulo:"
+
+#~ msgid " pt"
+#~ msgstr " pt"
+
+#~ msgid "Subtitle Number Color"
+#~ msgstr "Color del número de subtítulo"
+
+#~ msgid "Subtitle text font size:"
+#~ msgstr "Tamaño de tipografía de subtítulos:"
+
+#~ msgid "Subtitle Text Color:"
+#~ msgstr "Color de subtítulos:"
+
+#~ msgid "Line Indicators"
+#~ msgstr "Indicadores de línea"
+
+#~ msgid "Player position color:"
+#~ msgstr "Color de posición del reproductor:"
+
+#~ msgid "Mouse indicator color:"
+#~ msgstr "Color del indicador del cursor:"
+
+#~ msgid "Confirm detected subtitle encoding"
+#~ msgstr "Confirmar codificación de subtítulos detectada"
+
+#~ msgid "Encoding"
+#~ msgstr "Codificación"
+
+#~ msgid "Preview"
+#~ msgstr "Vista previa"
+
+#~ msgid "Space separated list of CSS classes:"
+#~ msgstr "Lista de clases CSS separadas por espacios:"
+
+#~ msgid "Class"
+#~ msgstr "Clase"
+
+#~ msgid "Person name or voice title:"
+#~ msgstr "Nombre de persona o título de voz:"
+
+#~ msgid "Voice"
+#~ msgstr "Voz"
+
+#~ msgid "VobSub Import"
+#~ msgstr "Importar VobSub"
+
+#~ msgid "Stream / Language"
+#~ msgstr "Flujo / idioma"
+
+#~ msgid "Post Processing"
+#~ msgstr "Procesamiento posterior"
+
+#~ msgid "Fix space between numbers"
+#~ msgstr "Corregir espacio entre números"
+
+#~ msgid "Fix space around punctuation (.,;:?!)"
+#~ msgstr "Corregir espacio en signos de puntuación (.,;:?!)"
+
+#~ msgid "Fix space around quotes and parentheses (\"()[]{})"
+#~ msgstr "Corregir espacio en comillas y paréntesis (\"()[]{})"
+
+#~ msgid "Fix double apostrophes/quotes"
+#~ msgstr "Corregir apostrofos/comillas dobles"
+
+#~ msgid "Fix i <-> l, 0 <-> O mistakes"
+#~ msgstr "Corregir errores de i <-> l, 0 <-> O"
+
+#~ msgid "Settings"
+#~ msgstr "Preferencias"
+
+#~ msgid "Whitespace detection threshold (pixels)"
+#~ msgstr "Umbral de detección de espacios en blanco (píxeles)"
+
+#~ msgid "Enter character(s)"
+#~ msgstr "Introducir carácter(es)"
+
+#~ msgid "S&ymbols:"
+#~ msgstr "S&ímbolos:"
+
+#~ msgid "Up/Down: change value"
+#~ msgstr "Arriba/abajo: alterar valor"
+
+#~ msgid "OK"
+#~ msgstr "Aceptar"
+
+#~ msgid "Ctrl+Shift+Left"
+#~ msgstr "Ctrl+Mayúsculas+Izquierda"
+
+#~ msgid "Prev Image"
+#~ msgstr "Imagen anterior"
+
+#~ msgid "Ctrl+Left"
+#~ msgstr "Ctrl+Izquierda"
+
+#~ msgid "Prev Symbol"
+#~ msgstr "Símbolo anterior"
+
+#~ msgid "Ctrl+Right"
+#~ msgstr "Ctrl+Derecha"
+
+#~ msgid "Next Symbol"
+#~ msgstr "Próximo símbolo"
+
+#~ msgid "Ctrl+Shift+Right"
+#~ msgstr "Ctrl+Mayúsculas+Derecha"
+
+#~ msgid "Next Image"
+#~ msgstr "Próxima imagen"
+
+#~ msgid "Subtitle Image"
+#~ msgstr "Imagen de subtítulos"
+
+#~ msgid "Form"
+#~ msgstr "Forma"
+
+#~ msgid "Horizontal Alignment"
+#~ msgstr "Alineación horizontal"
+
+#~ msgid "Vertical Alignment"
+#~ msgstr "Alineación vertical"
+
+#~ msgid "Position/Size"
+#~ msgstr "Posición/tamaño"
+
+#~ msgid "%"
+#~ msgstr " %"
+
+#~ msgid "Default Subtitles Encoding"
+#~ msgstr "Codificación de subtítulos predetermidada"
+
+#~ msgid "Line Break Character"
+#~ msgstr "Carácter de salto de línea"
+
+#~ msgid "Seek Offset On Double Click"
+#~ msgstr "Buscar compensación al hacer doble clic"
+
+#~ msgid "Jump to prev/next line offset"
+#~ msgstr "Saltar a la compensación de línea anterior/próxima"
+
+#~ msgid "Unpause On Double Click"
+#~ msgstr "Reanudar al hacer doble clic"
+
+#~ msgid "Automatic Video Load"
+#~ msgstr "Carga automática de vídeo"
+
+#~ msgid "Lines Quick Shift Amount"
+#~ msgstr "Nivel de desplazamiento rápido de líneas"
+
+#~ msgid "Grabbed Position Compensation"
+#~ msgstr "Compensación de posición retenida"
+
+#~ msgid "Default subtitle line duration"
+#~ msgstr "Duración de línea de subtítulo predeterminada"
+
+#~ msgid "Default duration between subtitle lines"
+#~ msgstr "Duración predeterminada entre líneas de subtítulo"
+
+#~ msgid "Maximum number of characters"
+#~ msgstr "Número máximo de caracteres"
+
+#~ msgid "Maximum number of lines"
+#~ msgstr "Número máximo de líneas"
+
+#~ msgid "Maximum number of characters per line"
+#~ msgstr "Número máximo de caracteres por línea"
+
+#~ msgid "Minimum duration"
+#~ msgstr "Duración mínima"
+
+#~ msgid "Maximum duration"
+#~ msgstr "Duración máxima"
+
+#~ msgid "Minimum duration per character"
+#~ msgstr "Duración mínima por carácter"
+
+#~ msgid "Ideal duration per character"
+#~ msgstr "Duración ideal por carácter"
+
+#~ msgid "Maximum duration per character"
+#~ msgstr "Duración máxima por carácter"
+
+#~ msgid "Default Language"
+#~ msgstr "Idioma predeterminado"
+
+#~ msgid "Auto detect language"
+#~ msgstr "Detectar idioma automáticamente"
+
+#~ msgid "Default client"
+#~ msgstr "Cliente predeterminado"
+
+#~ msgid "Background checker enabled"
+#~ msgstr "Comprobador en segundo plano activado"
+
+#~ msgid "Checker enabled by default"
+#~ msgstr "Comprobador activado de forma predeterminada"
+
+#~ msgid "Skip uppercase"
+#~ msgstr "Omitir mayúsculas"
+
+#~ msgid "Skip Run Together"
+#~ msgstr "Ignorar oraciones seguidas"
+
+#~ msgid "Waveform Inner Color"
+#~ msgstr "Color interno de forma de onda"
+
+#~ msgid "Waveform Outer Color"
+#~ msgstr "Color externo de forma de onda"
+
+#~ msgid "Waveform Smooth Scrolling"
+#~ msgstr "Desplazamiento suave de forma de onda"
+
+#~ msgid "Autoscroll Padding"
+#~ msgstr "Desplazamiento automático"
+
+#~ msgid ""
+#~ "Autoscroll page when play position reaches ScrollPadding distance "
+#~ "(percentage) from page border."
+#~ msgstr ""
+#~ "Desplazarse automáticamente cuando la posición de reproducción llegue a "
+#~ "cierta distancia (porcentaje) del borde de la página."
+
+#~ msgid "Waveform Subtitle Background Color"
+#~ msgstr "Color de fondo de los subtítulos en la forma de onda"
+
+#~ msgid "Waveform Subtitle Border Color"
+#~ msgstr "Color del borde de los subtítulos en la forma de onda"
+
+#~ msgid "Waveform Subtitle Border Width"
+#~ msgstr "Anchura del borde de los subtítulos en la forma de onda"
+
+#~ msgid "Waveform Selected Subtitle Background Color"
+#~ msgstr "Color de fondo de los subtítulos en la forma de onda seleccionado"
+
+#~ msgid "Waveform Selected Subtitle Border Color"
+#~ msgstr "Color del borde de los subtítulos en la forma de onda seleccionado"
+
+#~ msgid "Font Family"
+#~ msgstr "Tipografía"
+
+#~ msgid "Subtitle Number Font Size"
+#~ msgstr "Tamaño de tipografía del número de subtítulo"
+
+#~ msgid "Subtitle Number Font Color"
+#~ msgstr "Color del número de subtítulo"
+
+#~ msgid "Subtitle Text Font Size"
+#~ msgstr "Tamaño de tipografía de subtítulos"
+
+#~ msgid "Subtitle Text Font Color"
+#~ msgstr "Color de subtítulos"
+
+#~ msgid "Mouse Location Line Color"
+#~ msgstr "Color de línea de la posición del cursor"
+
+#~ msgid "Play Location Line Color"
+#~ msgstr "Color de la línea de la posición de reproducción"
+
+#~ msgid "Jump length on seek"
+#~ msgstr "Duración de salto al avanzar/retroceder"
+
+#~ msgid "Amount of frames to skip when stepping"
+#~ msgstr "Cantidad de fotogramas a saltar al dar un paso"
+
+#~ msgid "Show editable time position"
+#~ msgstr "Mostrar posiciones de tiempo editables"
+
+#~ msgid "Volume Amplification"
+#~ msgstr "Amplificación de volumen"
+
+#~ msgid "Font Size"
+#~ msgstr "Tamaño de tipografía"
+
+#~ msgid "Font Color"
+#~ msgstr "Color de tipografía"
+
+#~ msgid "Outline Color"
+#~ msgstr "Color del contorno"
+
+#~ msgid "Outline Width"
+#~ msgstr "Anchura del contorno"
+
+#~ msgid "Last used translate engine"
+#~ msgstr "Último motor de traducción usado"
+
+#~ msgid "Service Account JSON containing private key"
+#~ msgstr "JSON de la cuenta de servicio que contiene la clave privada"
+
+#~ msgid "source language - cached"
+#~ msgstr "idioma de origen - en caché"
+
+#~ msgid "translation language - cached"
+#~ msgstr "idioma de traducción - en caché"
+
+#~ msgid "access token - cached"
+#~ msgstr "token de acceso - en caché"
+
+#~ msgid "access token expiry - cached"
+#~ msgstr "caducidad del token de acceso - en caché"
+
+#~ msgid "access token type - cached"
+#~ msgstr "tipo de token de acceso - en caché"
+
+#~ msgid "DeepL API authentication key"
+#~ msgstr "Clave de autenticación de la API de DeepL"
+
+#~ msgid "DeepL API domain name"
+#~ msgstr "Nombre de dominio de la API de DeepL"
+
+#~ msgid "MinT API URL prefix"
+#~ msgstr "Prefijo de URL de API MinT"
+
+#~ msgid "Scripts Manager"
+#~ msgstr "Administrador de scripts"
+
+#~ msgid "Creates a new script file."
+#~ msgstr "Crea un nuevo script."
+
+#~ msgid "Create..."
+#~ msgstr "Crear…"
+
+#~ msgid "Copies an existing script from a specified location."
+#~ msgstr "Copia un script existente desde un ubicación dada."
+
+#~ msgid "Add..."
+#~ msgstr "Añadir…"
+
+#~ msgid "Sends the selected script to the trash."
+#~ msgstr "Envía el script seleccionado a la papelera."
+
+#~ msgid "Opens the selected script with an external editor."
+#~ msgstr "Abre el script seleccionado en un editor externo."
+
+#~ msgid "Executes the selected script."
+#~ msgstr "Ejecuta el script seleccionado."
+
+#~ msgid "Run"
+#~ msgstr "Ejecutar"
+
+#~ msgid "Reloads the installed scripts list."
+#~ msgstr "Recarga la lista de scripts instalados."
+
+#~ msgid "Refresh"
+#~ msgstr "Refrescar"
+
+#~ msgid "Directory containing acoustic model files"
+#~ msgstr "Directorio que contiene archivos de modelo acústico"
+
+#~ msgid "Word trigram language model input file"
+#~ msgstr "Archivo de entrada de modelo lingüístico de trigrama de palabras"
+
+#~ msgid "Main pronunciation dictionary (lexicon) input file"
+#~ msgstr ""
+#~ "Archivo de entrada del diccionario de pronunciación principal (léxico)"
+
+#~ msgid "Num of silence frames to keep after speech to silence transition"
+#~ msgstr ""
+#~ "Número de fotogramas silenciosos a mantener después de una transición de "
+#~ "voz a silencio"
+
+#~ msgid "Num of speech frames to keep before silence to speech transition"
+#~ msgstr ""
+#~ "Número de fotogramas de voz a mantener antes de una transición de "
+#~ "silencio a voz"
+
+#~ msgid "Num of speech frames to trigger VAD from silence to speech"
+#~ msgstr ""
+#~ "Número de fotogramas de voz para lanzar una detección de voz de silencio "
+#~ "a voz"
+
+#~ msgid ""
+#~ "Threshold for decision between noise and silence frames. Log-ratio "
+#~ "between signal level and noise level"
+#~ msgstr ""
+#~ "Umbral de decisión entre fotogramas con ruido y con silencio. Proporción "
+#~ "entre nivel de señal y nivel de ruido."
+
+#~ msgid "Speech Recognition Model"
+#~ msgstr "Modelo de reconocimiento de voz"
+
+#~ msgid "Pronunciation Dictionary (Lexicon)"
+#~ msgstr "Diccionario de pronunciación (léxico)"
+
+#~ msgid "Trigram Model"
+#~ msgstr "Modelo de trigrama"
+
+#~ msgid "Acoustic Model"
+#~ msgstr "Modelo acústico"
+
+#~ msgid ""
+#~ "<html><head/><body><p align=\"center\">Acoustic and Language Models can "
+#~ "be downloaded from <a href=\"https://cmusphinx.github.io/wiki/download/"
+#~ "\"><span style=\" text-decoration: underline; color:#007af4;\">CMU "
+#~ "Sphinx</span></a></p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p align=\"center\">Los modelos acústicos y "
+#~ "lingüísticos se pueden descargar de <a href=\"https://cmusphinx.github.io/"
+#~ "wiki/download/\"><span style=\" text-decoration: underline; color:#007af4;"
+#~ "\">CMU Sphinx</span></a></p></body></html>"
+
+#~ msgid "Voice Activity Detection"
+#~ msgstr "Detección de actividad de voz"
+
+#~ msgid "Noise Threshold"
+#~ msgstr "Umbral de ruido"
+
+#~ msgid "Pre Speech Frames"
+#~ msgstr "Fotogramas de voz previos"
+
+#~ msgid "Post Speech Frames"
+#~ msgstr "Fotogramas de voz posteriores"
+
+#~ msgid "Start Speech Frames"
+#~ msgstr "Fotogramas de voz iniciales"
+
+#~ msgid "&File"
+#~ msgstr "&Archivo"
+
+#~ msgid "Translation"
+#~ msgstr "Traducción"
+
+#~ msgid "&Edit"
+#~ msgstr "&Edición"
+
+#~ msgid "&Texts"
+#~ msgstr "&Textos"
+
+#~ msgid "St&yles"
+#~ msgstr "E&stilos"
+
+#~ msgid "T&imes"
+#~ msgstr "T&iempos"
+
+#~ msgid "E&rrors"
+#~ msgstr "E&rrores"
+
+#~ msgid "&Video"
+#~ msgstr "&Vídeo"
+
+#~ msgid "T&ools"
+#~ msgstr "&Herramientas"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Barra de herramientas principal"
+
+#~ msgid "Edit Toolbar"
+#~ msgstr "Editar barra de herramientas"
+
+#~ msgid "Authentication"
+#~ msgstr "Autenticación"
+
+#~ msgid "Authentication Key:"
+#~ msgstr "Clave de autenticación:"
+
+#~ msgid "Connect"
+#~ msgstr "Conectar"
+
+#~ msgid "API Domain:"
+#~ msgstr "Dominio de la API:"
+
+#~ msgid ""
+#~ "You need to <a href=\"https://www.deepl.com/pro-api\">create an account</"
+#~ "a> on DeepL website and paste your API authentication key below."
+#~ msgstr ""
+#~ "Debe <a href=\"https://www.deepl.com/pro-api\">crear una cuenta</a> en el "
+#~ "sitio web DeepL y pegar su clave de autenticación de la API a "
+#~ "continuación."
+
+#~ msgid "Source language:"
+#~ msgstr "Idioma de origen:"
+
+#~ msgid "Translate to:"
+#~ msgstr "Traducir a:"
+
+#~ msgid "Service Account's Private Key JSON:"
+#~ msgstr "JSON de la clave privada de la cuenta de servicio"
+
+#~ msgid "Login"
+#~ msgstr "Iniciar sesión"
+
+#~ msgid ""
+#~ "<p>You need to <a href=\"https://developers.google.com/identity/protocols/"
+#~ "oauth2/service-account#creatinganaccount\">create a Service Account</a> "
+#~ "in Google Cloud Console and provide public/private key JSON file below.</"
+#~ "p><p>The Service Account needs to be assigned <span style=\" text-"
+#~ "decoration: underline;\">Cloud Translation API User</span> role on IAM "
+#~ "page or must be granted access to the Google's Cloud Translation APIs in "
+#~ "a different manner.</p>"
+#~ msgstr ""
+#~ "<p>Debe <a href=\"https://developers.google.com/identity/protocols/oauth2/"
+#~ "service-account#creatinganaccount\">crear una cuenta de servicio</a> en "
+#~ "la consola de Google Cloud y proporcionar el siguiente archivo JSON de "
+#~ "clave pública/privada.</p><p>La cuenta de servicio debe tener asignado el "
+#~ "rol <span style=\" text-decoration: underline;\">Usuario de la API de "
+#~ "Cloud Translation</span> en la página de IAM o debe tener acceso a las "
+#~ "API de Cloud Translation de Google de una manera diferente.</p>"
+
+#~ msgid "API Server"
+#~ msgstr "Servidor API"
+
+#~ msgid "Service URL:"
+#~ msgstr "URL del servicio:"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid ""
+#~ "You need to provide an URL to a MinT machine translation system API. You "
+#~ "can <a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
+#~ "machinetranslation\">setup your own service</a> or use some <a href="
+#~ "\"https://translate.wmcloud.org/\">public API</a>."
+#~ msgstr ""
+#~ "Debe proporcionar una URL a la API de un sistema de traducción de máquina "
+#~ "MinT. Puede <a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
+#~ "machinetranslation\">configurar su propio servicio</a> o usar una <a href="
+#~ "\"https://translate.wmcloud.org/\">API pública</a>."
