@@ -2966,141 +2966,235 @@ msgstr "Automatická kontrola pravopisu"
 msgid "Allow Tabulations"
 msgstr "Povolit tabulátory"
 
+#, fuzzy
+#~| msgid " lines"
 #~ msgid " lines"
 #~ msgstr " řádky"
 
+#, fuzzy
+#~| msgid "Maximum number of characters:"
 #~ msgid "Maximum number of characters:"
 #~ msgstr "Maximální počet znaků:"
 
+#, fuzzy
+#~| msgid "Maximum number of characters per line:"
 #~ msgid "Maximum number of characters per line:"
 #~ msgstr "Maximální počet znaků na řádek:"
 
+#, fuzzy
+#~| msgid "Maximum number of lines:"
 #~ msgid "Maximum number of lines:"
 #~ msgstr "Maximální počet řádků:"
 
+#, fuzzy
+#~| msgid "Absolute Durations"
 #~ msgid "Absolute Durations"
 #~ msgstr "Absolutní doby"
 
+#, fuzzy
+#~| msgid " msec"
 #~ msgid " msec"
 #~ msgstr " msec"
 
+#, fuzzy
+#~| msgid "Maximum duration:"
 #~ msgid "Maximum duration:"
 #~ msgstr "Maximální doba:"
 
+#, fuzzy
+#~| msgid "Minimum duration:"
 #~ msgid "Minimum duration:"
 #~ msgstr "Minimální doba:"
 
+#, fuzzy
+#~| msgid "Relative Durations"
 #~ msgid "Relative Durations"
 #~ msgstr "Relativní doby"
 
+#, fuzzy
+#~| msgid " ms/char"
 #~ msgid " ms/char"
 #~ msgstr " ms/znak"
 
+#, fuzzy
+#~| msgid " ch/sec"
 #~ msgid " ch/sec"
 #~ msgstr " znak/s"
 
+#, fuzzy
+#~| msgid "Ideal duration:"
 #~ msgid "Ideal duration:"
 #~ msgstr "Ideální doba:"
 
+#, fuzzy
+#~| msgid "Behavior"
 #~ msgid "Behavior"
 #~ msgstr "Chování"
 
+#, fuzzy
+#~| msgid "Automatically clear fixed errors"
 #~ msgid "Automatically clear fixed errors"
 #~ msgstr "Automaticky vymazat opravené chyby"
 
+#, fuzzy
+#~| msgid "General"
 #~ msgid "General"
 #~ msgstr "Obecné"
 
+#, fuzzy
+#~| msgid "Automatically load video file when opening a subtitle"
 #~ msgid "Automatically load video file when opening a subtitle"
 #~ msgstr "Automaticky zapnout video při otevírání titulků"
 
+#, fuzzy
+#~| msgid "Defau&lt subtitles encoding:"
 #~ msgid "Defau&lt subtitles encoding:"
 #~ msgstr "Výchozí kódování titu&lků:"
 
+#, fuzzy
+#~| msgid "UNIX (LF)"
 #~ msgid "UNIX (LF)"
 #~ msgstr "UNIX (LF)"
 
+#, fuzzy
+#~| msgid "Windows (CRLF)"
 #~ msgid "Windows (CRLF)"
 #~ msgstr "Windows (CRLF)"
 
+#, fuzzy
+#~| msgid "Macintosh (CR)"
 #~ msgid "Macintosh (CR)"
 #~ msgstr "Macintosh (CR)"
 
+#, fuzzy
+#~| msgid "Line break character:"
 #~ msgid "Line break character:"
 #~ msgstr "Znak ukončení řádku:"
 
+#, fuzzy
+#~| msgid "Subtitle Line"
 #~ msgid "Subtitle Line"
 #~ msgstr "Řádek titulků"
 
+#, fuzzy
+#~| msgid "Default subtitle line duration:"
 #~ msgid "Default subtitle line duration:"
 #~ msgstr "Výchozí doba řádku titulků:"
 
+#, fuzzy
+#~| msgid "On double click, &jump to show time minus:"
 #~ msgid "On double click, &jump to show time minus:"
 #~ msgstr "Při dvojkliku &skočit na čas zobrazení mínus:"
 
+#, fuzzy
+#~| msgid "Default pause between subtitle lines:"
 #~ msgid "Default pause between subtitle lines:"
 #~ msgstr "Výchozí pauza mezi řádky titulků:"
 
+#, fuzzy
+#~| msgid "Ju&mp to prev/next line offset:"
 #~ msgid "Ju&mp to prev/next line offset:"
 #~ msgstr "Sk&ok na odchylku předchozího/dalšího řádku:"
 
+#, fuzzy
+#~| msgid "Quick Actions"
 #~ msgid "Quick Actions"
 #~ msgstr "Rychlé akce"
 
+#, fuzzy
+#~| msgid "Compensation for captured &video times:"
 #~ msgid "Compensation for captured &video times:"
 #~ msgstr "Kompenzace pro zachycené časy &videa:"
 
+#, fuzzy
+#~| msgid "Ti&me shift for selected lines:"
 #~ msgid "Ti&me shift for selected lines:"
 #~ msgstr "Časový posu&n pro vybrané řádky:"
 
+#, fuzzy
+#~| msgid "Resume playback after line double click"
 #~ msgid "Resume playback after line double click"
 #~ msgstr "Znovu přehrávat po dvojkliku na řádek"
 
+#, fuzzy
+#~| msgid "Seconds to &jump on seek:"
 #~ msgid "Seconds to &jump on seek:"
 #~ msgstr "Počet sekund při &posunu:"
 
+#, fuzzy
+#~| msgid "Start playing video when loaded"
 #~ msgid "Start playing video when loaded"
 #~ msgstr "Začít přehrávat video při načtení"
 
+#, fuzzy
+#~| msgid "Fra&me step amount:"
 #~ msgid "Fra&me step amount:"
 #~ msgstr "Počet sní&mků v kroku:"
 
+#, fuzzy
+#~| msgid "Volume amplification:"
 #~ msgid "Volume amplification:"
 #~ msgstr "Zesílení hlasitosti:"
 
+#, fuzzy
+#~| msgid "Subtitles"
 #~ msgid "Subtitles"
 #~ msgstr "Titulky"
 
+#, fuzzy
+#~| msgid "Outline color:"
 #~ msgid "Outline color:"
 #~ msgstr "Obrysová barva:"
 
+#, fuzzy
+#~| msgid "Te&xt color:"
 #~ msgid "Te&xt color:"
 #~ msgstr "Barva te&xtu:"
 
+#, fuzzy
+#~| msgid "Font family:"
 #~ msgid "Font family:"
 #~ msgstr "Typ písma:"
 
+#, fuzzy
+#~| msgid "Outline width:"
 #~ msgid "Outline width:"
 #~ msgstr "Obrysová šířka:"
 
+#, fuzzy
+#~| msgid "Font si&ze:"
 #~ msgid "Font si&ze:"
 #~ msgstr "Velikost &písma:"
 
+#, fuzzy
+#~| msgid "Subtitles Preview"
 #~ msgid "Subtitles Preview"
 #~ msgstr "Náhled titulků"
 
+#, fuzzy
+#~| msgid "Waveform Display"
 #~ msgid "Waveform Display"
 #~ msgstr "Zobrazení křivky"
 
+#, fuzzy
+#~| msgid "Smooth Scrolling"
 #~ msgid "Smooth Scrolling"
 #~ msgstr "Jemné posouvání"
 
+#, fuzzy
+#~| msgid "Outer color:"
 #~ msgid "Outer color:"
 #~ msgstr "Vnější barva:"
 
+#, fuzzy
+#~| msgid "Inner color:"
 #~ msgid "Inner color:"
 #~ msgstr "Vnitřní barva:"
 
+#, fuzzy
+#~| msgid ""
+#~| "Autoscroll page when play position reaches ScrollPadding distance "
+#~| "(percentage) from page border"
 #~ msgid ""
 #~ "Autoscroll page when play position reaches ScrollPadding distance "
 #~ "(percentage) from page border"
@@ -3108,249 +3202,415 @@ msgstr "Povolit tabulátory"
 #~ "Automatický posun stránky když pozice videa dosáhne zadané hranice (v "
 #~ "procentech) od okraje stránky"
 
+#, fuzzy
+#~| msgid "Auto Scroll Padding:"
 #~ msgid "Auto Scroll Padding:"
 #~ msgstr "Zadaná hranice automatického posunu:"
 
+#, fuzzy
+#~| msgid "Subtitle Display"
 #~ msgid "Subtitle Display"
 #~ msgstr "Zobrazení titulků"
 
+#, fuzzy
+#~| msgid "Subtitle border color:"
 #~ msgid "Subtitle border color:"
 #~ msgstr "Barva hranice titulků:"
 
+#, fuzzy
+#~| msgid "Selected background color:"
 #~ msgid "Selected background color:"
 #~ msgstr "Barva pozadí výběru:"
 
+#, fuzzy
+#~| msgid "Subtitle border width:"
 #~ msgid "Subtitle border width:"
 #~ msgstr "Šířka hranice titulků:"
 
+#, fuzzy
+#~| msgid "Subtitle background color:"
 #~ msgid "Subtitle background color:"
 #~ msgstr "Barva pozadí titulků:"
 
+#, fuzzy
+#~| msgid "Selected border color:"
 #~ msgid "Selected border color:"
 #~ msgstr "Barva hranice výběru:"
 
+#, fuzzy
+#~| msgid "Text Font and Colors"
 #~ msgid "Text Font and Colors"
 #~ msgstr "Písmo a barvy"
 
+#, fuzzy
+#~| msgid "Subtitle font family:"
 #~ msgid "Subtitle font family:"
 #~ msgstr "Typ písma titulků:"
 
+#, fuzzy
+#~| msgid "Subtitle number font size:"
 #~ msgid "Subtitle number font size:"
 #~ msgstr "Velikost písma čísla titulků:"
 
+#, fuzzy
+#~| msgid " pt"
 #~ msgid " pt"
 #~ msgstr " bodů"
 
+#, fuzzy
+#~| msgid "Subtitle Number Color"
 #~ msgid "Subtitle Number Color"
 #~ msgstr "Barva písma čísla titulků"
 
+#, fuzzy
+#~| msgid "Subtitle text font size:"
 #~ msgid "Subtitle text font size:"
 #~ msgstr "Velikost písma titulků:"
 
+#, fuzzy
+#~| msgid "Subtitle Text Color:"
 #~ msgid "Subtitle Text Color:"
 #~ msgstr "Barva textu titulků:"
 
+#, fuzzy
+#~| msgid "Line Indicators"
 #~ msgid "Line Indicators"
 #~ msgstr "Ukazatel řádku"
 
+#, fuzzy
+#~| msgid "Player position color:"
 #~ msgid "Player position color:"
 #~ msgstr "Barva pozice přehrávače:"
 
+#, fuzzy
+#~| msgid "Mouse indicator color:"
 #~ msgid "Mouse indicator color:"
 #~ msgstr "Barva ukazatele myši:"
 
+#, fuzzy
+#~| msgid "Confirm detected subtitle encoding"
 #~ msgid "Confirm detected subtitle encoding"
 #~ msgstr "Potvrdit detekované kódovaní titulků"
 
+#, fuzzy
+#~| msgid "Encoding"
 #~ msgid "Encoding"
 #~ msgstr "Kódování"
 
+#, fuzzy
+#~| msgid "Preview"
 #~ msgid "Preview"
 #~ msgstr "Náhled"
 
+#, fuzzy
+#~| msgid "Space separated list of CSS classes:"
 #~ msgid "Space separated list of CSS classes:"
 #~ msgstr "Čárkou oddělený seznam tříd CSS:"
 
+#, fuzzy
+#~| msgid "Class"
 #~ msgid "Class"
 #~ msgstr "Třída"
 
+#, fuzzy
+#~| msgid "Person name or voice title:"
 #~ msgid "Person name or voice title:"
 #~ msgstr "Jméno osoby nebo popis hlasu:"
 
+#, fuzzy
+#~| msgid "Voice"
 #~ msgid "Voice"
 #~ msgstr "Hlas"
 
+#, fuzzy
+#~| msgid "VobSub Import"
 #~ msgid "VobSub Import"
 #~ msgstr "Import z VobSubu"
 
+#, fuzzy
+#~| msgid "Stream / Language"
 #~ msgid "Stream / Language"
 #~ msgstr "Stopa / Jazyk"
 
+#, fuzzy
+#~| msgid "Post Processing"
 #~ msgid "Post Processing"
 #~ msgstr "Zpracování po načtení"
 
+#, fuzzy
+#~| msgid "Fix space between numbers"
 #~ msgid "Fix space between numbers"
 #~ msgstr "Opravit mezery u číslic"
 
+#, fuzzy
+#~| msgid "Fix space around punctuation (.,;:?!)"
 #~ msgid "Fix space around punctuation (.,;:?!)"
 #~ msgstr "Opravit mezery u interpunkce (.,;:?!)"
 
+#, fuzzy
+#~| msgid "Fix space around quotes and parentheses (\"()[]{})"
 #~ msgid "Fix space around quotes and parentheses (\"()[]{})"
 #~ msgstr "Opravit mezery u uvozovek a závorek (\"()[]{})"
 
+#, fuzzy
+#~| msgid "Fix double apostrophes/quotes"
 #~ msgid "Fix double apostrophes/quotes"
 #~ msgstr "Opravit jednoduché/dvojité uvozovky"
 
+#, fuzzy
+#~| msgid "Fix i <-> l, 0 <-> O mistakes"
 #~ msgid "Fix i <-> l, 0 <-> O mistakes"
 #~ msgstr "Opravit chyby u i <-> l, 0 <-> O"
 
+#, fuzzy
+#~| msgid "Settings"
 #~ msgid "Settings"
 #~ msgstr "Nastavení"
 
+#, fuzzy
+#~| msgid "Whitespace detection threshold (pixels)"
 #~ msgid "Whitespace detection threshold (pixels)"
 #~ msgstr "Prahová hodnota pro detekci mezer (v pixelech)"
 
+#, fuzzy
+#~| msgid "Enter character(s)"
 #~ msgid "Enter character(s)"
 #~ msgstr "Vložit znak(y)"
 
+#, fuzzy
+#~| msgid "S&ymbols:"
 #~ msgid "S&ymbols:"
 #~ msgstr "S&ymboly:"
 
+#, fuzzy
+#~| msgid "Up/Down: change value"
 #~ msgid "Up/Down: change value"
 #~ msgstr "Nahoru/Dolů: změnit hodnotu"
 
+#, fuzzy
+#~| msgid "OK"
 #~ msgid "OK"
 #~ msgstr "OK"
 
+#, fuzzy
+#~| msgid "Ctrl+Shift+Left"
 #~ msgid "Ctrl+Shift+Left"
 #~ msgstr "Ctrl+Shift+Levá"
 
+#, fuzzy
+#~| msgid "Prev Image"
 #~ msgid "Prev Image"
 #~ msgstr "Předchozí obraz"
 
+#, fuzzy
+#~| msgid "Ctrl+Left"
 #~ msgid "Ctrl+Left"
 #~ msgstr "Ctrl+Levá"
 
+#, fuzzy
+#~| msgid "Prev Symbol"
 #~ msgid "Prev Symbol"
 #~ msgstr "Předchozí symbol"
 
+#, fuzzy
+#~| msgid "Ctrl+Right"
 #~ msgid "Ctrl+Right"
 #~ msgstr "Ctrl+Pravá"
 
+#, fuzzy
+#~| msgid "Next Symbol"
 #~ msgid "Next Symbol"
 #~ msgstr "Další Symbol"
 
+#, fuzzy
+#~| msgid "Ctrl+Shift+Right"
 #~ msgid "Ctrl+Shift+Right"
 #~ msgstr "Ctrl+Shift+Pravá"
 
+#, fuzzy
+#~| msgid "Next Image"
 #~ msgid "Next Image"
 #~ msgstr "Následující obrázek"
 
+#, fuzzy
+#~| msgid "Subtitle Image"
 #~ msgid "Subtitle Image"
 #~ msgstr "Obraz titulků"
 
+#, fuzzy
+#~| msgid "Form"
 #~ msgid "Form"
 #~ msgstr "Formulář"
 
+#, fuzzy
+#~| msgid "Horizontal Alignment"
 #~ msgid "Horizontal Alignment"
 #~ msgstr "Vodorovné zarovnání"
 
+#, fuzzy
+#~| msgid "Vertical Alignment"
 #~ msgid "Vertical Alignment"
 #~ msgstr "Svislé zarovnání"
 
+#, fuzzy
+#~| msgid "Position/Size"
 #~ msgid "Position/Size"
 #~ msgstr "Pozice/Velikost"
 
+#, fuzzy
+#~| msgid "%"
 #~ msgid "%"
 #~ msgstr "%"
 
+#, fuzzy
+#~| msgid "Default Subtitles Encoding"
 #~ msgid "Default Subtitles Encoding"
 #~ msgstr "Výchozí kódování titulků"
 
+#, fuzzy
+#~| msgid "Line Break Character"
 #~ msgid "Line Break Character"
 #~ msgstr "Znak ukončení řádku"
 
+#, fuzzy
+#~| msgid "Seek Offset On Double Click"
 #~ msgid "Seek Offset On Double Click"
 #~ msgstr "Interval posunu při dvojkliku"
 
+#, fuzzy
+#~| msgid "Jump to prev/next line offset"
 #~ msgid "Jump to prev/next line offset"
 #~ msgstr "Skok na odchylku předchozího/dalšího řádku"
 
+#, fuzzy
+#~| msgid "Unpause On Double Click"
 #~ msgid "Unpause On Double Click"
 #~ msgstr "Pokračovat v přehrávání při dvojkliku"
 
+#, fuzzy
+#~| msgid "Automatic Video Load"
 #~ msgid "Automatic Video Load"
 #~ msgstr "Automatické spuštění videa"
 
+#, fuzzy
+#~| msgid "Lines Quick Shift Amount"
 #~ msgid "Lines Quick Shift Amount"
 #~ msgstr "Počet řádků při rychlém posunu"
 
+#, fuzzy
+#~| msgid "Grabbed Position Compensation"
 #~ msgid "Grabbed Position Compensation"
 #~ msgstr "Kompenzace zachycené pozice"
 
+#, fuzzy
+#~| msgid "Default subtitle line duration"
 #~ msgid "Default subtitle line duration"
 #~ msgstr "Výchozí doba řádku titulků"
 
+#, fuzzy
+#~| msgid "Default duration between subtitle lines"
 #~ msgid "Default duration between subtitle lines"
 #~ msgstr "Výchozí doba mezi řádky titulků"
 
+#, fuzzy
+#~| msgid "Maximum number of characters"
 #~ msgid "Maximum number of characters"
 #~ msgstr "Maximální počet znaků"
 
+#, fuzzy
+#~| msgid "Maximum number of lines"
 #~ msgid "Maximum number of lines"
 #~ msgstr "Maximální počet řádků"
 
+#, fuzzy
+#~| msgid "Maximum number of characters per line"
 #~ msgid "Maximum number of characters per line"
 #~ msgstr "Maximální počet znaků na řádek"
 
+#, fuzzy
+#~| msgid "Minimum duration"
 #~ msgid "Minimum duration"
 #~ msgstr "Minimální doba"
 
+#, fuzzy
+#~| msgid "Maximum duration"
 #~ msgid "Maximum duration"
 #~ msgstr "Maximální doba"
 
+#, fuzzy
+#~| msgid "Minimum duration per character"
 #~ msgid "Minimum duration per character"
 #~ msgstr "Minimální doba na znak"
 
+#, fuzzy
+#~| msgid "Ideal duration per character"
 #~ msgid "Ideal duration per character"
 #~ msgstr "Ideální doba na znak"
 
+#, fuzzy
+#~| msgid "Maximum duration per character"
 #~ msgid "Maximum duration per character"
 #~ msgstr "Maximální doba na znak"
 
+#, fuzzy
+#~| msgid "Default Language"
 #~ msgid "Default Language"
 #~ msgstr "Výchozí jazyk"
 
+#, fuzzy
+#~| msgid "Auto detect language"
 #~ msgid "Auto detect language"
 #~ msgstr "Automaticky rozpoznat jazyk"
 
+#, fuzzy
+#~| msgid "Default client"
 #~ msgid "Default client"
 #~ msgstr "Výchozí klient"
 
+#, fuzzy
+#~| msgid "Background checker enabled"
 #~ msgid "Background checker enabled"
 #~ msgstr "Funkce kontroly pozadí zapnuta"
 
+#, fuzzy
+#~| msgid "Checker enabled by default"
 #~ msgid "Checker enabled by default"
 #~ msgstr "Kontrola zapnuta jako výchozí"
 
+#, fuzzy
+#~| msgid "Skip uppercase"
 #~ msgid "Skip uppercase"
 #~ msgstr "Přeskakovat velká písmena"
 
+#, fuzzy
+#~| msgid "Skip Run Together"
 #~ msgid "Skip Run Together"
 #~ msgstr "Přeskočit Run Together"
 
+#, fuzzy
+#~| msgid "Waveform Inner Color"
 #~ msgid "Waveform Inner Color"
 #~ msgstr "Vnitřní barva křivky"
 
+#, fuzzy
+#~| msgid "Waveform Outer Color"
 #~ msgid "Waveform Outer Color"
 #~ msgstr "Vnější barva křivky"
 
+#, fuzzy
+#~| msgid "Waveform Smooth Scrolling"
 #~ msgid "Waveform Smooth Scrolling"
 #~ msgstr "Jemné posouvání křivky"
 
+#, fuzzy
+#~| msgid "Autoscroll Padding"
 #~ msgid "Autoscroll Padding"
 #~ msgstr "Zadaná hranice automatického posunu"
 
+#, fuzzy
+#~| msgid ""
+#~| "Autoscroll page when play position reaches ScrollPadding distance "
+#~| "(percentage) from page border."
 #~ msgid ""
 #~ "Autoscroll page when play position reaches ScrollPadding distance "
 #~ "(percentage) from page border."
@@ -3358,151 +3618,249 @@ msgstr "Povolit tabulátory"
 #~ "Automatický posun stránky když pozice videa dosáhne zadané hranice (v "
 #~ "procentech) od okraje stránky."
 
+#, fuzzy
+#~| msgid "Waveform Subtitle Background Color"
 #~ msgid "Waveform Subtitle Background Color"
 #~ msgstr "Barva pozadí titulků křivky"
 
+#, fuzzy
+#~| msgid "Waveform Subtitle Border Color"
 #~ msgid "Waveform Subtitle Border Color"
 #~ msgstr "Barva hranice titulků křivky"
 
+#, fuzzy
+#~| msgid "Waveform Subtitle Border Width"
 #~ msgid "Waveform Subtitle Border Width"
 #~ msgstr "Šířka hranice titulků křivky"
 
+#, fuzzy
+#~| msgid "Waveform Selected Subtitle Background Color"
 #~ msgid "Waveform Selected Subtitle Background Color"
 #~ msgstr "Barva pozadí vybraných titulků křivky"
 
+#, fuzzy
+#~| msgid "Waveform Selected Subtitle Border Color"
 #~ msgid "Waveform Selected Subtitle Border Color"
 #~ msgstr "Barva hranice vybraných titulků křivky"
 
+#, fuzzy
+#~| msgid "Font Family"
 #~ msgid "Font Family"
 #~ msgstr "Typ písma"
 
+#, fuzzy
+#~| msgid "Subtitle Number Font Size"
 #~ msgid "Subtitle Number Font Size"
 #~ msgstr "Velikost písma čísla titulků"
 
+#, fuzzy
+#~| msgid "Subtitle Number Font Color"
 #~ msgid "Subtitle Number Font Color"
 #~ msgstr "Barva písma čísla titulků"
 
+#, fuzzy
+#~| msgid "Subtitle Text Font Size"
 #~ msgid "Subtitle Text Font Size"
 #~ msgstr "Velikost písma titulků"
 
+#, fuzzy
+#~| msgid "Subtitle Text Font Color"
 #~ msgid "Subtitle Text Font Color"
 #~ msgstr "Barva písma titulků"
 
+#, fuzzy
+#~| msgid "Mouse Location Line Color"
 #~ msgid "Mouse Location Line Color"
 #~ msgstr "Barva řádku při najetí myší"
 
+#, fuzzy
+#~| msgid "Play Location Line Color"
 #~ msgid "Play Location Line Color"
 #~ msgstr "Barva přehrávaného řádku"
 
+#, fuzzy
+#~| msgid "Jump length on seek"
 #~ msgid "Jump length on seek"
 #~ msgstr "Délka skoku při posunu"
 
+#, fuzzy
+#~| msgid "Amount of frames to skip when stepping"
 #~ msgid "Amount of frames to skip when stepping"
 #~ msgstr "Počet snímků přeskočení při krokování"
 
+#, fuzzy
+#~| msgid "Show editable time position"
 #~ msgid "Show editable time position"
 #~ msgstr "Zobrazit prvek pro nastavení pozice"
 
+#, fuzzy
+#~| msgid "Volume Amplification"
 #~ msgid "Volume Amplification"
 #~ msgstr "Zesílení hlasitosti"
 
+#, fuzzy
+#~| msgid "Font Size"
 #~ msgid "Font Size"
 #~ msgstr "Velikost písma"
 
+#, fuzzy
+#~| msgid "Font Color"
 #~ msgid "Font Color"
 #~ msgstr "Barva písma"
 
+#, fuzzy
+#~| msgid "Outline Color"
 #~ msgid "Outline Color"
 #~ msgstr "Barva obrysové čáry"
 
+#, fuzzy
+#~| msgid "Outline Width"
 #~ msgid "Outline Width"
 #~ msgstr "Šířka obrysové čáry"
 
+#, fuzzy
+#~| msgid "Last used translate engine"
 #~ msgid "Last used translate engine"
 #~ msgstr "Poslední použitý překladatelský nástroj"
 
+#, fuzzy
+#~| msgid "Service Account JSON containing private key"
 #~ msgid "Service Account JSON containing private key"
 #~ msgstr "JSON obsahující soukromý klíč k servisnímu účtu"
 
+#, fuzzy
+#~| msgid "source language - cached"
 #~ msgid "source language - cached"
 #~ msgstr "zdrojový jazyk - v mezipaměti"
 
+#, fuzzy
+#~| msgid "translation language - cached"
 #~ msgid "translation language - cached"
 #~ msgstr "překladový jazyk - v mezipaměti"
 
+#, fuzzy
+#~| msgid "access token - cached"
 #~ msgid "access token - cached"
 #~ msgstr "přístupový token - v mezipaměti"
 
+#, fuzzy
+#~| msgid "access token expiry - cached"
 #~ msgid "access token expiry - cached"
 #~ msgstr "vypršení přístupového tokenu - v mezipaměti"
 
+#, fuzzy
+#~| msgid "access token type - cached"
 #~ msgid "access token type - cached"
 #~ msgstr "typ přístupového tokenu - v mezipaměti"
 
+#, fuzzy
+#~| msgid "DeepL API authentication key"
 #~ msgid "DeepL API authentication key"
 #~ msgstr "Autentizační klíč pro DeepL API"
 
+#, fuzzy
+#~| msgid "DeepL API domain name"
 #~ msgid "DeepL API domain name"
 #~ msgstr "Doména DeepL API"
 
+#, fuzzy
+#~| msgid "MinT API URL prefix"
 #~ msgid "MinT API URL prefix"
 #~ msgstr "Předpona URL API MinT"
 
+#, fuzzy
+#~| msgid "Scripts Manager"
 #~ msgid "Scripts Manager"
 #~ msgstr "Správce skriptů"
 
+#, fuzzy
+#~| msgid "Creates a new script file."
 #~ msgid "Creates a new script file."
 #~ msgstr "Vytvořit prázdný skript."
 
+#, fuzzy
+#~| msgid "Create..."
 #~ msgid "Create..."
 #~ msgstr "Vytvořit..."
 
+#, fuzzy
+#~| msgid "Copies an existing script from a specified location."
 #~ msgid "Copies an existing script from a specified location."
 #~ msgstr "Zkopíruje existující skript z určeného umístění."
 
+#, fuzzy
+#~| msgid "Add..."
 #~ msgid "Add..."
 #~ msgstr "Přidat..."
 
+#, fuzzy
+#~| msgid "Sends the selected script to the trash."
 #~ msgid "Sends the selected script to the trash."
 #~ msgstr "Pošle označený skript do koše."
 
+#, fuzzy
+#~| msgid "Opens the selected script with an external editor."
 #~ msgid "Opens the selected script with an external editor."
 #~ msgstr "Otevře označený skript externím editorem."
 
+#, fuzzy
+#~| msgid "Executes the selected script."
 #~ msgid "Executes the selected script."
 #~ msgstr "Spustit označený skript."
 
+#, fuzzy
+#~| msgid "Run"
 #~ msgid "Run"
 #~ msgstr "Spustit"
 
+#, fuzzy
+#~| msgid "Reloads the installed scripts list."
 #~ msgid "Reloads the installed scripts list."
 #~ msgstr "Obnovit seznam nainstalovaných skriptů."
 
+#, fuzzy
+#~| msgid "Refresh"
 #~ msgid "Refresh"
 #~ msgstr "Obnov"
 
+#, fuzzy
+#~| msgid "Directory containing acoustic model files"
 #~ msgid "Directory containing acoustic model files"
 #~ msgstr "Adresář obsahující soubory akustických modelů"
 
+#, fuzzy
+#~| msgid "Word trigram language model input file"
 #~ msgid "Word trigram language model input file"
 #~ msgstr "Vstupní soubor trigramového slovního jazykového modelu"
 
+#, fuzzy
+#~| msgid "Main pronunciation dictionary (lexicon) input file"
 #~ msgid "Main pronunciation dictionary (lexicon) input file"
 #~ msgstr "Hlavní vstupní soubor slovníku výslovnosti (lexikonu)"
 
+#, fuzzy
+#~| msgid "Num of silence frames to keep after speech to silence transition"
 #~ msgid "Num of silence frames to keep after speech to silence transition"
 #~ msgstr ""
 #~ "Počet snímků ticha, které se mají zachovat po přechodu z řeči do ticha"
 
+#, fuzzy
+#~| msgid "Num of speech frames to keep before silence to speech transition"
 #~ msgid "Num of speech frames to keep before silence to speech transition"
 #~ msgstr ""
 #~ "Počet snímků řeči, které se mají zachovat před přechodem z ticha do řeči"
 
+#, fuzzy
+#~| msgid "Num of speech frames to trigger VAD from silence to speech"
 #~ msgid "Num of speech frames to trigger VAD from silence to speech"
 #~ msgstr ""
 #~ "Počet snímků řeči, po kterých se spustí detekce hlasové aktivity při "
 #~ "přechodu z ticha do řeči"
 
+#, fuzzy
+#~| msgid ""
+#~| "Threshold for decision between noise and silence frames. Log-ratio "
+#~| "between signal level and noise level"
 #~ msgid ""
 #~ "Threshold for decision between noise and silence frames. Log-ratio "
 #~ "between signal level and noise level"
@@ -3510,18 +3868,32 @@ msgstr "Povolit tabulátory"
 #~ "Prahová hodnota pro rozhodnutí mezi šumovými a tichými snímky. Poměr mezi "
 #~ "úrovní signálu a úrovní šumu"
 
+#, fuzzy
+#~| msgid "Speech Recognition Model"
 #~ msgid "Speech Recognition Model"
 #~ msgstr "Model rozpoznávání řeči"
 
+#, fuzzy
+#~| msgid "Pronunciation Dictionary (Lexicon)"
 #~ msgid "Pronunciation Dictionary (Lexicon)"
 #~ msgstr "Slovník výslovnosti (Lexikon)"
 
+#, fuzzy
+#~| msgid "Trigram Model"
 #~ msgid "Trigram Model"
 #~ msgstr "Trigramový model"
 
+#, fuzzy
+#~| msgid "Acoustic Model"
 #~ msgid "Acoustic Model"
 #~ msgstr "Akustický model"
 
+#, fuzzy
+#~| msgid ""
+#~| "<html><head/><body><p align=\"center\">Acoustic and Language Models can "
+#~| "be downloaded from <a href=\"https://cmusphinx.github.io/wiki/download/"
+#~| "\"><span style=\" text-decoration: underline; color:#007af4;\">CMU "
+#~| "Sphinx</span></a></p></body></html>"
 #~ msgid ""
 #~ "<html><head/><body><p align=\"center\">Acoustic and Language Models can "
 #~ "be downloaded from <a href=\"https://cmusphinx.github.io/wiki/download/"
@@ -3533,66 +3905,110 @@ msgstr "Povolit tabulátory"
 #~ "style=\" text-decoration: underline; color:#007af4;\">CMU Sphinx</span></"
 #~ "a></p></body></html>"
 
+#, fuzzy
+#~| msgid "Voice Activity Detection"
 #~ msgid "Voice Activity Detection"
 #~ msgstr "Detekce hlasové činnosti"
 
+#, fuzzy
+#~| msgid "Noise Threshold"
 #~ msgid "Noise Threshold"
 #~ msgstr "Práh šumu"
 
+#, fuzzy
+#~| msgid "Pre Speech Frames"
 #~ msgid "Pre Speech Frames"
 #~ msgstr "Hlasové snímky před"
 
+#, fuzzy
+#~| msgid "Post Speech Frames"
 #~ msgid "Post Speech Frames"
 #~ msgstr "Hlasové snímky po"
 
+#, fuzzy
+#~| msgid "Start Speech Frames"
 #~ msgid "Start Speech Frames"
 #~ msgstr "Spustit hlasové snímky"
 
+#, fuzzy
+#~| msgid "&File"
 #~ msgid "&File"
 #~ msgstr "&Soubor"
 
+#, fuzzy
+#~| msgid "Translation"
 #~ msgid "Translation"
 #~ msgstr "Překlad"
 
+#, fuzzy
+#~| msgid "&Edit"
 #~ msgid "&Edit"
 #~ msgstr "&Uprav"
 
+#, fuzzy
+#~| msgid "&Texts"
 #~ msgid "&Texts"
 #~ msgstr "&Texty"
 
+#, fuzzy
+#~| msgid "St&yles"
 #~ msgid "St&yles"
 #~ msgstr "St&yly"
 
+#, fuzzy
+#~| msgid "T&imes"
 #~ msgid "T&imes"
 #~ msgstr "Č&asy"
 
+#, fuzzy
+#~| msgid "E&rrors"
 #~ msgid "E&rrors"
 #~ msgstr "Chy&by"
 
+#, fuzzy
+#~| msgid "&Video"
 #~ msgid "&Video"
 #~ msgstr "&Video"
 
+#, fuzzy
+#~| msgid "T&ools"
 #~ msgid "T&ools"
 #~ msgstr "&Nástroje"
 
+#, fuzzy
+#~| msgid "Main Toolbar"
 #~ msgid "Main Toolbar"
 #~ msgstr "Hlavní panel nástrojů"
 
+#, fuzzy
+#~| msgid "Edit Toolbar"
 #~ msgid "Edit Toolbar"
 #~ msgstr "Upravit panel nástrojů"
 
+#, fuzzy
+#~| msgid "Authentication"
 #~ msgid "Authentication"
 #~ msgstr "Ověření"
 
+#, fuzzy
+#~| msgid "Authentication Key:"
 #~ msgid "Authentication Key:"
 #~ msgstr "Ověřovací klíč:"
 
+#, fuzzy
+#~| msgid "Connect"
 #~ msgid "Connect"
 #~ msgstr "Připojit se"
 
+#, fuzzy
+#~| msgid "API Domain:"
 #~ msgid "API Domain:"
 #~ msgstr "Doména API:"
 
+#, fuzzy
+#~| msgid ""
+#~| "You need to <a href=\"https://www.deepl.com/pro-api\">create an account</"
+#~| "a> on DeepL website and paste your API authentication key below."
 #~ msgid ""
 #~ "You need to <a href=\"https://www.deepl.com/pro-api\">create an account</"
 #~ "a> on DeepL website and paste your API authentication key below."
@@ -3600,18 +4016,35 @@ msgstr "Povolit tabulátory"
 #~ "Musíte na stránce DeepL <a href=\"https://www.deepl.com/pro-api\">si "
 #~ "vytvořit účet</a> a vložit váš ověřovací klíč API níže."
 
+#, fuzzy
+#~| msgid "Source language:"
 #~ msgid "Source language:"
 #~ msgstr "Původní jazyk:"
 
+#, fuzzy
+#~| msgid "Translate to:"
 #~ msgid "Translate to:"
 #~ msgstr "Přeložit do:"
 
+#, fuzzy
+#~| msgid "Service Account's Private Key JSON:"
 #~ msgid "Service Account's Private Key JSON:"
 #~ msgstr "Soukromý klíč servisního účtu (JSON):"
 
+#, fuzzy
+#~| msgid "Login"
 #~ msgid "Login"
 #~ msgstr "Přihlášení"
 
+#, fuzzy
+#~| msgid ""
+#~| "<p>You need to <a href=\"https://developers.google.com/identity/"
+#~| "protocols/oauth2/service-account#creatinganaccount\">create a Service "
+#~| "Account</a> in Google Cloud Console and provide public/private key JSON "
+#~| "file below.</p><p>The Service Account needs to be assigned <span style="
+#~| "\" text-decoration: underline;\">Cloud Translation API User</span> role "
+#~| "on IAM page or must be granted access to the Google's Cloud Translation "
+#~| "APIs in a different manner.</p>"
 #~ msgid ""
 #~ "<p>You need to <a href=\"https://developers.google.com/identity/protocols/"
 #~ "oauth2/service-account#creatinganaccount\">create a Service Account</a> "
@@ -3630,15 +4063,27 @@ msgstr "Povolit tabulátory"
 #~ "způsobem přístup k překladovým API Googlu (Google's Cloud Translation "
 #~ "APIs).</p>"
 
+#, fuzzy
+#~| msgid "API Server"
 #~ msgid "API Server"
 #~ msgstr "Server API"
 
+#, fuzzy
+#~| msgid "Service URL:"
 #~ msgid "Service URL:"
 #~ msgstr "URL služby:"
 
+#, fuzzy
+#~| msgid "Update"
 #~ msgid "Update"
 #~ msgstr "Aktualizovat"
 
+#, fuzzy
+#~| msgid ""
+#~| "You need to provide an URL to a MinT machine translation system API. You "
+#~| "can <a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
+#~| "machinetranslation\">setup your own service</a> or use some <a href="
+#~| "\"https://translate.wmcloud.org/\">public API</a>."
 #~ msgid ""
 #~ "You need to provide an URL to a MinT machine translation system API. You "
 #~ "can <a href=\"https://gerrit.wikimedia.org/g/mediawiki/services/"
